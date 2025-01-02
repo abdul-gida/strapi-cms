@@ -10,42 +10,49 @@
       "type": "string"
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "detailsRequired": {
       "displayName": "detailsRequired",
       "type": "component",
       "repeatable": false,
-      "component": "health-track.details-required"
+      "component": "health-track.details-required",
+      "required": true
     },
     "trackCardObject": {
       "displayName": "trackCardObject",
       "type": "component",
       "repeatable": false,
-      "component": "health-track.track-card-object"
+      "component": "health-track.track-card-object",
+      "required": true
     },
     "addDocumentCard": {
       "displayName": "addDocumentCard",
       "type": "component",
       "repeatable": false,
-      "component": "health-track.add-document-card"
+      "component": "health-track.add-document-card",
+      "required": true
     },
     "supplementaryCard": {
       "displayName": "supplementaryCard",
       "type": "component",
       "repeatable": false,
-      "component": "health-track.supplementary-card"
+      "component": "health-track.supplementary-card",
+      "required": true
     },
     "showDocumentsCard": {
       "displayName": "showDocumentsCard",
       "type": "component",
       "repeatable": false,
-      "component": "health-track.show-documents-card"
+      "component": "health-track.show-documents-card",
+      "required": true
     },
     "queryText": {
       "type": "component",
       "repeatable": false,
-      "component": "health-track.query-text"
+      "component": "health-track.query-text",
+      "required": true
     }
   }
 }

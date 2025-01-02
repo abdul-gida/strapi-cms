@@ -1,23 +1,28 @@
 {
   "collectionName": "components_health_track_error_encountereds",
   "info": {
-    "displayName": "errorEncountered"
+    "displayName": "errorEncountered",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "subtitle": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "queryText": {
       "type": "component",
       "repeatable": false,
-      "component": "health-track.query-text"
+      "component": "health-track.query-text",
+      "required": true
     },
     "buttonText": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

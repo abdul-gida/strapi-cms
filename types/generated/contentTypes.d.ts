@@ -644,7 +644,7 @@ export interface ApiHealthClaimHealthClaim extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    description: Schema.Attribute.Text;
+    description: Schema.Attribute.Text & Schema.Attribute.Required;
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
       Schema.Attribute.Required;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
@@ -662,7 +662,7 @@ export interface ApiHealthClaimHealthClaim extends Struct.SingleTypeSchema {
         number
       >;
     publishedAt: Schema.Attribute.DateTime;
-    title: Schema.Attribute.String;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -687,7 +687,8 @@ export interface ApiHealthTrackHealthTrack extends Struct.SingleTypeSchema {
     errorEncountered: Schema.Attribute.Component<
       'health-track.error-encountered',
       false
-    >;
+    > &
+      Schema.Attribute.Required;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -697,16 +698,19 @@ export interface ApiHealthTrackHealthTrack extends Struct.SingleTypeSchema {
     noClaimFound: Schema.Attribute.Component<
       'health-track.no-claim-found',
       false
-    >;
+    > &
+      Schema.Attribute.Required;
     publishedAt: Schema.Attribute.DateTime;
     selectTrackClaim: Schema.Attribute.Component<
       'shared.title-description',
       false
-    >;
+    > &
+      Schema.Attribute.Required;
     trackAClaim: Schema.Attribute.Component<
       'health-track.track-a-claim',
       false
-    >;
+    > &
+      Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

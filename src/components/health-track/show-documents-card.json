@@ -1,12 +1,14 @@
 {
   "collectionName": "components_health_track_show_documents_cards",
   "info": {
-    "displayName": "showDocumentsCard"
+    "displayName": "showDocumentsCard",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

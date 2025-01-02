@@ -15,25 +15,29 @@
     "selectTrackClaim": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.title-description"
+      "component": "shared.title-description",
+      "required": true
     },
     "noClaimFound": {
       "displayName": "noClaimFound",
       "type": "component",
       "repeatable": false,
-      "component": "health-track.no-claim-found"
+      "component": "health-track.no-claim-found",
+      "required": true
     },
     "errorEncountered": {
       "displayName": "errorEncountered",
       "type": "component",
       "repeatable": false,
-      "component": "health-track.error-encountered"
+      "component": "health-track.error-encountered",
+      "required": true
     },
     "trackAClaim": {
       "displayName": "trackAClaim",
       "type": "component",
       "repeatable": false,
-      "component": "health-track.track-a-claim"
+      "component": "health-track.track-a-claim",
+      "required": true
     }
   }
 }
