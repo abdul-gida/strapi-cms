@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_health_track_track_a_claims",
+  "info": {
+    "displayName": "trackAClaim",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "detailsRequired": {
+      "displayName": "detailsRequired",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-track.details-required"
+    },
+    "trackCardObject": {
+      "displayName": "trackCardObject",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-track.track-card-object"
+    },
+    "addDocumentCard": {
+      "displayName": "addDocumentCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-track.add-document-card"
+    },
+    "supplementaryCard": {
+      "displayName": "supplementaryCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-track.supplementary-card"
+    },
+    "showDocumentsCard": {
+      "displayName": "showDocumentsCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-track.show-documents-card"
+    },
+    "queryText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "health-track.query-text"
+    }
+  }
+}

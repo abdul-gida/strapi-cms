@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "health_tracks",
+  "info": {
+    "singularName": "health-track",
+    "pluralName": "health-tracks",
+    "displayName": "health-track",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "selectTrackClaim": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title-description"
+    },
+    "noClaimFound": {
+      "displayName": "noClaimFound",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-track.no-claim-found"
+    },
+    "errorEncountered": {
+      "displayName": "errorEncountered",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-track.error-encountered"
+    },
+    "trackAClaim": {
+      "displayName": "trackAClaim",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-track.track-a-claim"
+    }
+  }
+}

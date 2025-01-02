@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "health_claims",
+  "info": {
+    "singularName": "health-claim",
+    "pluralName": "health-claims",
+    "displayName": "health-claim",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "modes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.title-description",
+      "required": true,
+      "min": 1
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

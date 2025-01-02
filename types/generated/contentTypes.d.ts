@@ -629,6 +629,90 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiHealthClaimHealthClaim extends Struct.SingleTypeSchema {
+  collectionName: 'health_claims';
+  info: {
+    description: '';
+    displayName: 'health-claim';
+    pluralName: 'health-claims';
+    singularName: 'health-claim';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.Text;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
+      Schema.Attribute.Required;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::health-claim.health-claim'
+    > &
+      Schema.Attribute.Private;
+    modes: Schema.Attribute.Component<'shared.title-description', true> &
+      Schema.Attribute.Required &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 1;
+        },
+        number
+      >;
+    publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiHealthTrackHealthTrack extends Struct.SingleTypeSchema {
+  collectionName: 'health_tracks';
+  info: {
+    description: '';
+    displayName: 'health-track';
+    pluralName: 'health-tracks';
+    singularName: 'health-track';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    errorEncountered: Schema.Attribute.Component<
+      'health-track.error-encountered',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::health-track.health-track'
+    > &
+      Schema.Attribute.Private;
+    noClaimFound: Schema.Attribute.Component<
+      'health-track.no-claim-found',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    selectTrackClaim: Schema.Attribute.Component<
+      'shared.title-description',
+      false
+    >;
+    trackAClaim: Schema.Attribute.Component<
+      'health-track.track-a-claim',
+      false
+    >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiLoginLabelLoginLabel extends Struct.CollectionTypeSchema {
   collectionName: 'login_labels';
   info: {
@@ -1225,6 +1309,8 @@ declare module '@strapi/strapi' {
       'api::category.category': ApiCategoryCategory;
       'api::e-kyc-procedure.e-kyc-procedure': ApiEKycProcedureEKycProcedure;
       'api::global.global': ApiGlobalGlobal;
+      'api::health-claim.health-claim': ApiHealthClaimHealthClaim;
+      'api::health-track.health-track': ApiHealthTrackHealthTrack;
       'api::login-label.login-label': ApiLoginLabelLoginLabel;
       'api::old-article.old-article': ApiOldArticleOldArticle;
       'plugin::content-releases.release': PluginContentReleasesRelease;

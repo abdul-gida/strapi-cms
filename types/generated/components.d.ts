@@ -84,6 +84,149 @@ export interface ArticleComponentsVideoUrl extends Struct.ComponentSchema {
   };
 }
 
+export interface HealthTrackAddDocumentCard extends Struct.ComponentSchema {
+  collectionName: 'components_health_track_add_document_cards';
+  info: {
+    displayName: 'addDocumentCard';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthTrackDetailsRequired extends Struct.ComponentSchema {
+  collectionName: 'components_health_track_details_requireds';
+  info: {
+    displayName: 'detailsRequired';
+  };
+  attributes: {
+    detailsDesc: Schema.Attribute.Text;
+    detailsEmail: Schema.Attribute.Email;
+    detailsEmailDesc: Schema.Attribute.Text;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthTrackErrorEncountered extends Struct.ComponentSchema {
+  collectionName: 'components_health_track_error_encountereds';
+  info: {
+    displayName: 'errorEncountered';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    queryText: Schema.Attribute.Component<'health-track.query-text', false>;
+    subtitle: Schema.Attribute.Text;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthTrackNoClaimFound extends Struct.ComponentSchema {
+  collectionName: 'components_health_track_no_claim_founds';
+  info: {
+    description: '';
+    displayName: 'noClaimFound';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    description: Schema.Attribute.Text;
+    description2: Schema.Attribute.Text;
+    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    queryText: Schema.Attribute.Component<'health-track.query-text', false>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthTrackQueryText extends Struct.ComponentSchema {
+  collectionName: 'components_health_track_query_texts';
+  info: {
+    displayName: 'queryText';
+  };
+  attributes: {
+    email: Schema.Attribute.Email;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthTrackShowDocumentsCard extends Struct.ComponentSchema {
+  collectionName: 'components_health_track_show_documents_cards';
+  info: {
+    displayName: 'showDocumentsCard';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthTrackSupplementaryCard extends Struct.ComponentSchema {
+  collectionName: 'components_health_track_supplementary_cards';
+  info: {
+    displayName: 'supplementaryCard';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthTrackTrackAClaim extends Struct.ComponentSchema {
+  collectionName: 'components_health_track_track_a_claims';
+  info: {
+    description: '';
+    displayName: 'trackAClaim';
+  };
+  attributes: {
+    addDocumentCard: Schema.Attribute.Component<
+      'health-track.add-document-card',
+      false
+    >;
+    description: Schema.Attribute.Text;
+    detailsRequired: Schema.Attribute.Component<
+      'health-track.details-required',
+      false
+    >;
+    queryText: Schema.Attribute.Component<'health-track.query-text', false>;
+    showDocumentsCard: Schema.Attribute.Component<
+      'health-track.show-documents-card',
+      false
+    >;
+    supplementaryCard: Schema.Attribute.Component<
+      'health-track.supplementary-card',
+      false
+    >;
+    title: Schema.Attribute.String;
+    trackCardObject: Schema.Attribute.Component<
+      'health-track.track-card-object',
+      false
+    >;
+  };
+}
+
+export interface HealthTrackTrackCardObject extends Struct.ComponentSchema {
+  collectionName: 'components_health_track_track_card_objects';
+  info: {
+    displayName: 'trackCardObject';
+  };
+  attributes: {
+    admissionDt: Schema.Attribute.String;
+    approvedAmount: Schema.Attribute.String;
+    claimedAmount: Schema.Attribute.String;
+    claimNo: Schema.Attribute.String;
+    claimType: Schema.Attribute.String;
+    dischargeDt: Schema.Attribute.String;
+    hegicCardNo: Schema.Attribute.String;
+    hospitalName: Schema.Attribute.String;
+    intimationDt: Schema.Attribute.String;
+    patientName: Schema.Attribute.String;
+    policyNo: Schema.Attribute.String;
+  };
+}
+
 export interface ImageDescriptionsBanner extends Struct.ComponentSchema {
   collectionName: 'components_image_descriptions_banners';
   info: {
@@ -314,6 +457,17 @@ export interface SharedTitle extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedTitleDescription extends Struct.ComponentSchema {
+  collectionName: 'components_shared_title_descriptions';
+  info: {
+    displayName: 'title-description';
+  };
+  attributes: {
+    description: Schema.Attribute.Text;
+    title: Schema.Attribute.String;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
@@ -323,6 +477,15 @@ declare module '@strapi/strapi' {
       'article-components.quote-banner': ArticleComponentsQuoteBanner;
       'article-components.rich-text-json': ArticleComponentsRichTextJson;
       'article-components.video-url': ArticleComponentsVideoUrl;
+      'health-track.add-document-card': HealthTrackAddDocumentCard;
+      'health-track.details-required': HealthTrackDetailsRequired;
+      'health-track.error-encountered': HealthTrackErrorEncountered;
+      'health-track.no-claim-found': HealthTrackNoClaimFound;
+      'health-track.query-text': HealthTrackQueryText;
+      'health-track.show-documents-card': HealthTrackShowDocumentsCard;
+      'health-track.supplementary-card': HealthTrackSupplementaryCard;
+      'health-track.track-a-claim': HealthTrackTrackAClaim;
+      'health-track.track-card-object': HealthTrackTrackCardObject;
       'image-descriptions.banner': ImageDescriptionsBanner;
       'image-descriptions.content': ImageDescriptionsContent;
       'image-descriptions.image-descriptions': ImageDescriptionsImageDescriptions;
@@ -342,6 +505,7 @@ declare module '@strapi/strapi' {
       'shared.slider': SharedSlider;
       'shared.steps': SharedSteps;
       'shared.title': SharedTitle;
+      'shared.title-description': SharedTitleDescription;
     }
   }
 }

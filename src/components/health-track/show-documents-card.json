@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_health_track_show_documents_cards",
+  "info": {
+    "displayName": "showDocumentsCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

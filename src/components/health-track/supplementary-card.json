@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_health_track_supplementary_cards",
+  "info": {
+    "displayName": "supplementaryCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

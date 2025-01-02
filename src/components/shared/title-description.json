@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_title_descriptions",
+  "info": {
+    "displayName": "title-description"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
