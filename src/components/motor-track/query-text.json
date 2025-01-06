@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_motor_track_query_texts",
+  "info": {
+    "displayName": "queryText"
+  },
+  "options": {},
+  "attributes": {
+    "contactText": {
+      "type": "string"
+    },
+    "contactNumber": {
+      "type": "string"
+    },
+    "contactMail": {
+      "type": "string"
+    }
+  }
+}

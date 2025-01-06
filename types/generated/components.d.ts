@@ -494,6 +494,57 @@ export interface MotorClaimWrongClaimCms extends Struct.ComponentSchema {
   };
 }
 
+export interface MotorTrackInformationMismatch extends Struct.ComponentSchema {
+  collectionName: 'components_motor_track_information_mismatches';
+  info: {
+    displayName: 'informationMismatch';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    primaryButtonText: Schema.Attribute.String;
+    queryText: Schema.Attribute.Component<'motor-track.query-text', false>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorTrackQueryText extends Struct.ComponentSchema {
+  collectionName: 'components_motor_track_query_texts';
+  info: {
+    displayName: 'queryText';
+  };
+  attributes: {
+    contactMail: Schema.Attribute.String;
+    contactNumber: Schema.Attribute.String;
+    contactText: Schema.Attribute.String;
+  };
+}
+
+export interface MotorTrackQueryWidget extends Struct.ComponentSchema {
+  collectionName: 'components_motor_track_query_widgets';
+  info: {
+    displayName: 'queryWidget';
+  };
+  attributes: {
+    contactMail: Schema.Attribute.String;
+    contactText: Schema.Attribute.String;
+  };
+}
+
+export interface MotorTrackSomethingWentWrong extends Struct.ComponentSchema {
+  collectionName: 'components_motor_track_something_went_wrongs';
+  info: {
+    displayName: 'somethingWentWrong';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    primaryButtonText: Schema.Attribute.String;
+    queryWidget: Schema.Attribute.Component<'motor-track.query-widget', false>;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface SharedBottom extends Struct.ComponentSchema {
   collectionName: 'components_shared_bottoms';
   info: {
@@ -707,6 +758,10 @@ declare module '@strapi/strapi' {
       'motor-claim.unavailable-claim-cms': MotorClaimUnavailableClaimCms;
       'motor-claim.who-is-claiming': MotorClaimWhoIsClaiming;
       'motor-claim.wrong-claim-cms': MotorClaimWrongClaimCms;
+      'motor-track.information-mismatch': MotorTrackInformationMismatch;
+      'motor-track.query-text': MotorTrackQueryText;
+      'motor-track.query-widget': MotorTrackQueryWidget;
+      'motor-track.something-went-wrong': MotorTrackSomethingWentWrong;
       'shared.bottom': SharedBottom;
       'shared.bottom-cards': SharedBottomCards;
       'shared.cards': SharedCards;

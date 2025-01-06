@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_motor_track_something_went_wrongs",
+  "info": {
+    "displayName": "somethingWentWrong"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "queryWidget": {
+      "displayName": "queryWidget",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-track.query-widget"
+    }
+  }
+}

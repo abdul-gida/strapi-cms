@@ -829,6 +829,46 @@ export interface ApiMotorClaimMotorClaim extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiMotorTrackMotorTrack extends Struct.SingleTypeSchema {
+  collectionName: 'motor_tracks';
+  info: {
+    description: '';
+    displayName: 'Motor-track';
+    pluralName: 'motor-tracks';
+    singularName: 'motor-track';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    informationMismatch: Schema.Attribute.Component<
+      'motor-track.information-mismatch',
+      false
+    >;
+    invalidClaimNumber: Schema.Attribute.Component<
+      'motor-track.information-mismatch',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::motor-track.motor-track'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    somethingWentWrong: Schema.Attribute.Component<
+      'motor-track.something-went-wrong',
+      false
+    >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiOldArticleOldArticle extends Struct.CollectionTypeSchema {
   collectionName: 'old_articles';
   info: {
@@ -1385,6 +1425,7 @@ declare module '@strapi/strapi' {
       'api::health-track.health-track': ApiHealthTrackHealthTrack;
       'api::login-label.login-label': ApiLoginLabelLoginLabel;
       'api::motor-claim.motor-claim': ApiMotorClaimMotorClaim;
+      'api::motor-track.motor-track': ApiMotorTrackMotorTrack;
       'api::old-article.old-article': ApiOldArticleOldArticle;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_motor_track_query_widgets",
+  "info": {
+    "displayName": "queryWidget"
+  },
+  "options": {},
+  "attributes": {
+    "contactMail": {
+      "type": "string"
+    },
+    "contactText": {
+      "type": "string"
+    }
+  }
+}
