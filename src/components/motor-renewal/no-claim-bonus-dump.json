@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_motor_renewal_no_claim_bonus_dumps",
+  "info": {
+    "displayName": "noClaimBonusDump"
+  },
+  "options": {},
+  "attributes": {
+    "noClaimTitle": {
+      "type": "string"
+    },
+    "noClaimTooltip": {
+      "type": "string"
+    },
+    "discountImage": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "discountText": {
+      "type": "string"
+    },
+    "ncbDiscountAmount": {
+      "type": "integer"
+    },
+    "ncbDiscountPercentage": {
+      "type": "integer"
+    }
+  }
+}

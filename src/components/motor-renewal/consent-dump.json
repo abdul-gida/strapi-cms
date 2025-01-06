@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_motor_renewal_consent_dumps",
+  "info": {
+    "displayName": "consentDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "terms": {
+      "type": "component",
+      "repeatable": false,
+      "component": "terms.terms"
+    },
+    "knowPolicy": {
+      "type": "component",
+      "repeatable": true,
+      "component": "terms.terms"
+    },
+    "consent": {
+      "displayName": "consent",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.consent"
+    }
+  }
+}

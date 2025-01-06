@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_motor_renewal_add_on_card_dumps",
+  "info": {
+    "displayName": "addOnCardDump"
+  },
+  "options": {},
+  "attributes": {
+    "modalTitle": {
+      "type": "string"
+    },
+    "premiumText": {
+      "type": "string"
+    },
+    "gstText": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "editText": {
+      "type": "string"
+    },
+    "selectText": {
+      "type": "string"
+    }
+  }
+}

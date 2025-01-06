@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_motor_renewal_terms",
+  "info": {
+    "displayName": "terms"
+  },
+  "options": {},
+  "attributes": {
+    "prefix": {
+      "type": "string"
+    },
+    "highlight": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    }
+  }
+}

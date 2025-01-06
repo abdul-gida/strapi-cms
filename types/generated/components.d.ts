@@ -494,6 +494,305 @@ export interface MotorClaimWrongClaimCms extends Struct.ComponentSchema {
   };
 }
 
+export interface MotorRenewalAddOnCardDump extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_add_on_card_dumps';
+  info: {
+    displayName: 'addOnCardDump';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    editText: Schema.Attribute.String;
+    gstText: Schema.Attribute.String;
+    modalTitle: Schema.Attribute.String;
+    premiumText: Schema.Attribute.String;
+    selectText: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalAddOnCheckboxInputDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_add_on_checkbox_input_dumps';
+  info: {
+    displayName: 'addOnCheckboxInputDump';
+  };
+  attributes: {
+    coverDisplayName: Schema.Attribute.String;
+    coverName: Schema.Attribute.String;
+    coverPremium: Schema.Attribute.String;
+    info: Schema.Attribute.String;
+    isActive: Schema.Attribute.Boolean;
+  };
+}
+
+export interface MotorRenewalAlreadyRequestedDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_already_requested_dumps';
+  info: {
+    displayName: 'alreadyRequestedDump';
+  };
+  attributes: {
+    imgUrl: Schema.Attribute.String;
+    primaryButtonText: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalBackButtonRequestCallbackDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_back_button_request_callback_dumps';
+  info: {
+    displayName: 'backButtonRequestCallbackDump';
+  };
+  attributes: {
+    imgUrl: Schema.Attribute.String;
+    primaryButtonText: Schema.Attribute.String;
+    secondaryButtonText: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalConsent extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_consents';
+  info: {
+    displayName: 'consent';
+  };
+  attributes: {
+    text: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalConsentDump extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_consent_dumps';
+  info: {
+    description: '';
+    displayName: 'consentDump';
+  };
+  attributes: {
+    consent: Schema.Attribute.Component<'motor-renewal.consent', false>;
+    knowPolicy: Schema.Attribute.Component<'terms.terms', true>;
+    terms: Schema.Attribute.Component<'terms.terms', false>;
+  };
+}
+
+export interface MotorRenewalCustomIdvInputDump extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_custom_idv_input_dumps';
+  info: {
+    displayName: 'customIDVInputDump';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    editText: Schema.Attribute.String;
+    enterCustomIDVButtonText: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalDetailsMismatchDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_details_mismatch_dumps';
+  info: {
+    displayName: 'detailsMismatchDump';
+  };
+  attributes: {
+    beneficiaryName: Schema.Attribute.String;
+    imgUrl: Schema.Attribute.String;
+    primaryButtonText: Schema.Attribute.String;
+    SecondaryButtonText: Schema.Attribute.String;
+    textOne: Schema.Attribute.String;
+    textTwo: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalFailedPaymentDump extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_failed_payment_dumps';
+  info: {
+    displayName: 'failedPaymentDump';
+  };
+  attributes: {
+    imgUrl: Schema.Attribute.String;
+    retryPayment: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    transactionId: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalInsuredDeclaredValueCardDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_insured_declared_value_card_dumps';
+  info: {
+    displayName: 'insuredDeclaredValueCardDump';
+  };
+  attributes: {
+    customIDVText: Schema.Attribute.String;
+    headerPretext: Schema.Attribute.String;
+    iDVMaxText: Schema.Attribute.String;
+    iDVMinText: Schema.Attribute.String;
+    labelForTooltip: Schema.Attribute.String;
+    modalIDVSubTitle: Schema.Attribute.String;
+    modalIDVTitle: Schema.Attribute.String;
+    proceedText: Schema.Attribute.String;
+    recommendedText: Schema.Attribute.String;
+    selectedIDV: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalLoadingScreenDump extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_loading_screen_dumps';
+  info: {
+    displayName: 'loadingScreenDump';
+  };
+  attributes: {
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalMotoRenewalLanding extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_moto_renewal_landings';
+  info: {
+    description: '';
+    displayName: 'motoRenewalLanding';
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+    greatSaving: Schema.Attribute.String;
+    gstMobile: Schema.Attribute.String;
+    gstWeb: Schema.Attribute.String;
+    inThisPolicy: Schema.Attribute.String;
+    premiumBreakup: Schema.Attribute.String;
+    totalPremium: Schema.Attribute.String;
+    viewDetails: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalMotorRenewalLandingDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_motor_renewal_landing_dumps';
+  info: {
+    displayName: 'motorRenewalLandingDump';
+  };
+  attributes: {
+    PlanTypeTitle: Schema.Attribute.String;
+    planTypeTooltip: Schema.Attribute.String;
+    viewBenefits: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalNoClaimBonusDump extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_no_claim_bonus_dumps';
+  info: {
+    displayName: 'noClaimBonusDump';
+  };
+  attributes: {
+    discountImage: Schema.Attribute.String;
+    discountText: Schema.Attribute.String;
+    ncbDiscountAmount: Schema.Attribute.Integer;
+    ncbDiscountPercentage: Schema.Attribute.Integer;
+    noClaimTitle: Schema.Attribute.String;
+    noClaimTooltip: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalPaymentSuccessDump extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_payment_success_dumps';
+  info: {
+    displayName: 'paymentSuccessDump';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    copySentText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    paymentTimeNote: Schema.Attribute.String;
+    paymentTimerScreen: Schema.Attribute.String;
+    preText: Schema.Attribute.String;
+    thankyouText: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalPolicyNumberDump extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_policy_number_dumps';
+  info: {
+    displayName: 'policyNumberDump';
+  };
+  attributes: {
+    logo: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalPremiumBreakupDump extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_premium_breakup_dumps';
+  info: {
+    displayName: 'premiumBreakupDump';
+  };
+  attributes: {
+    basePremium: Schema.Attribute.String;
+    gstText: Schema.Attribute.String;
+    ncbDiscount: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    tpPremium: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalRenewNowModalDump extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_renew_now_modal_dumps';
+  info: {
+    displayName: 'renewNowModalDump';
+  };
+  attributes: {
+    imgUrl: Schema.Attribute.String;
+    PrimaryButtonText: Schema.Attribute.String;
+    secondaryButtonText: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalRequestCallback extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_request_callbacks';
+  info: {
+    displayName: 'requestCallback';
+  };
+  attributes: {
+    anyConcerns: Schema.Attribute.String;
+    fromOurExecutive: Schema.Attribute.String;
+    requestCallback: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalRequestCallbackBsDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_request_callback_bs_dumps';
+  info: {
+    displayName: 'requestCallbackBSDump';
+  };
+  attributes: {
+    imgUrl: Schema.Attribute.String;
+    primaryButtonText: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorRenewalTerms extends Struct.ComponentSchema {
+  collectionName: 'components_motor_renewal_terms';
+  info: {
+    displayName: 'terms';
+  };
+  attributes: {
+    highlight: Schema.Attribute.String;
+    prefix: Schema.Attribute.String;
+    suffix: Schema.Attribute.String;
+  };
+}
+
 export interface MotorTrackInformationMismatch extends Struct.ComponentSchema {
   collectionName: 'components_motor_track_information_mismatches';
   info: {
@@ -721,6 +1020,19 @@ export interface SharedTitleDescription extends Struct.ComponentSchema {
   };
 }
 
+export interface TermsTerms extends Struct.ComponentSchema {
+  collectionName: 'components_terms_terms';
+  info: {
+    description: '';
+    displayName: 'terms';
+  };
+  attributes: {
+    highlight: Schema.Attribute.String;
+    prefix: Schema.Attribute.String;
+    suffix: Schema.Attribute.String;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
@@ -758,6 +1070,27 @@ declare module '@strapi/strapi' {
       'motor-claim.unavailable-claim-cms': MotorClaimUnavailableClaimCms;
       'motor-claim.who-is-claiming': MotorClaimWhoIsClaiming;
       'motor-claim.wrong-claim-cms': MotorClaimWrongClaimCms;
+      'motor-renewal.add-on-card-dump': MotorRenewalAddOnCardDump;
+      'motor-renewal.add-on-checkbox-input-dump': MotorRenewalAddOnCheckboxInputDump;
+      'motor-renewal.already-requested-dump': MotorRenewalAlreadyRequestedDump;
+      'motor-renewal.back-button-request-callback-dump': MotorRenewalBackButtonRequestCallbackDump;
+      'motor-renewal.consent': MotorRenewalConsent;
+      'motor-renewal.consent-dump': MotorRenewalConsentDump;
+      'motor-renewal.custom-idv-input-dump': MotorRenewalCustomIdvInputDump;
+      'motor-renewal.details-mismatch-dump': MotorRenewalDetailsMismatchDump;
+      'motor-renewal.failed-payment-dump': MotorRenewalFailedPaymentDump;
+      'motor-renewal.insured-declared-value-card-dump': MotorRenewalInsuredDeclaredValueCardDump;
+      'motor-renewal.loading-screen-dump': MotorRenewalLoadingScreenDump;
+      'motor-renewal.moto-renewal-landing': MotorRenewalMotoRenewalLanding;
+      'motor-renewal.motor-renewal-landing-dump': MotorRenewalMotorRenewalLandingDump;
+      'motor-renewal.no-claim-bonus-dump': MotorRenewalNoClaimBonusDump;
+      'motor-renewal.payment-success-dump': MotorRenewalPaymentSuccessDump;
+      'motor-renewal.policy-number-dump': MotorRenewalPolicyNumberDump;
+      'motor-renewal.premium-breakup-dump': MotorRenewalPremiumBreakupDump;
+      'motor-renewal.renew-now-modal-dump': MotorRenewalRenewNowModalDump;
+      'motor-renewal.request-callback': MotorRenewalRequestCallback;
+      'motor-renewal.request-callback-bs-dump': MotorRenewalRequestCallbackBsDump;
+      'motor-renewal.terms': MotorRenewalTerms;
       'motor-track.information-mismatch': MotorTrackInformationMismatch;
       'motor-track.query-text': MotorTrackQueryText;
       'motor-track.query-widget': MotorTrackQueryWidget;
@@ -777,6 +1110,7 @@ declare module '@strapi/strapi' {
       'shared.steps': SharedSteps;
       'shared.title': SharedTitle;
       'shared.title-description': SharedTitleDescription;
+      'terms.terms': TermsTerms;
     }
   }
 }

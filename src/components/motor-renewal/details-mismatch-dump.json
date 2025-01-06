@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_motor_renewal_details_mismatch_dumps",
+  "info": {
+    "displayName": "detailsMismatchDump"
+  },
+  "options": {},
+  "attributes": {
+    "imgUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "textOne": {
+      "type": "string"
+    },
+    "beneficiaryName": {
+      "type": "string"
+    },
+    "textTwo": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "SecondaryButtonText": {
+      "type": "string"
+    }
+  }
+}

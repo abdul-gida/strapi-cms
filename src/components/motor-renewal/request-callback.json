@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_motor_renewal_request_callbacks",
+  "info": {
+    "displayName": "requestCallback"
+  },
+  "options": {},
+  "attributes": {
+    "anyConcerns": {
+      "type": "string"
+    },
+    "requestCallback": {
+      "type": "string"
+    },
+    "fromOurExecutive": {
+      "type": "string"
+    }
+  }
+}

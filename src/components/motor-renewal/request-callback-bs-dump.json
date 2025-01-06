@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_motor_renewal_request_callback_bs_dumps",
+  "info": {
+    "displayName": "requestCallbackBSDump"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "imgUrl": {
+      "type": "string"
+    }
+  }
+}

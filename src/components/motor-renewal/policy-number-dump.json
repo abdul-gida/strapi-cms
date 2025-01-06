@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_motor_renewal_policy_number_dumps",
+  "info": {
+    "displayName": "policyNumberDump"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

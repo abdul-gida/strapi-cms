@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_motor_renewal_renew_now_modal_dumps",
+  "info": {
+    "displayName": "renewNowModalDump"
+  },
+  "options": {},
+  "attributes": {
+    "imgUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "PrimaryButtonText": {
+      "type": "string"
+    },
+    "secondaryButtonText": {
+      "type": "string"
+    }
+  }
+}

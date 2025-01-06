@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_terms_terms",
+  "info": {
+    "displayName": "terms",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "prefix": {
+      "type": "string"
+    },
+    "highlight": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    }
+  }
+}

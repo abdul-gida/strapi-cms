@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_motor_renewal_moto_renewal_landings",
+  "info": {
+    "displayName": "motoRenewalLanding",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "totalPremium": {
+      "type": "string"
+    },
+    "gstWeb": {
+      "type": "string"
+    },
+    "gstMobile": {
+      "type": "string"
+    },
+    "viewDetails": {
+      "type": "string"
+    },
+    "premiumBreakup": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "greatSaving": {
+      "type": "string"
+    },
+    "inThisPolicy": {
+      "type": "string"
+    }
+  }
+}

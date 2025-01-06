@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_motor_renewal_add_on_checkbox_input_dumps",
+  "info": {
+    "displayName": "addOnCheckboxInputDump"
+  },
+  "options": {},
+  "attributes": {
+    "coverPremium": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "coverName": {
+      "type": "string"
+    },
+    "coverDisplayName": {
+      "type": "string"
+    },
+    "info": {
+      "type": "string"
+    }
+  }
+}
