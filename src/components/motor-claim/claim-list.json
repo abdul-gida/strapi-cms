@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_motor_claim_claim_lists",
+  "info": {
+    "displayName": "claimList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backendId": {
+      "type": "enumeration",
+      "enum": [
+        "I",
+        "R"
+      ]
+    }
+  }
+}

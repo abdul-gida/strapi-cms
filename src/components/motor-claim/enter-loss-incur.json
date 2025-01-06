@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_motor_claim_enter_loss_incurs",
+  "info": {
+    "displayName": "enterLossIncur"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "input": {
+      "displayName": "input",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-claim.input"
+    },
+    "textArea": {
+      "displayName": "textArea",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-claim.text-area"
+    }
+  }
+}

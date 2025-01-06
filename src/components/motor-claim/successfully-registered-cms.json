@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_motor_claim_successfully_registered_cms",
+  "info": {
+    "displayName": "successfullyRegisteredCms"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "copyPrefix": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    }
+  }
+}

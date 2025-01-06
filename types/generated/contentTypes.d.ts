@@ -761,6 +761,74 @@ export interface ApiLoginLabelLoginLabel extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiMotorClaimMotorClaim extends Struct.SingleTypeSchema {
+  collectionName: 'motor_claims';
+  info: {
+    description: '';
+    displayName: 'motor-claim';
+    pluralName: 'motor-claims';
+    singularName: 'motor-claim';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    enterClaimDetails: Schema.Attribute.Component<
+      'motor-claim.enter-claim-details',
+      false
+    >;
+    enterLossIncur: Schema.Attribute.Component<
+      'motor-claim.enter-loss-incur',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::motor-claim.motor-claim'
+    > &
+      Schema.Attribute.Private;
+    progressiveStepBar: Schema.Attribute.Component<
+      'motor-claim.progressive-step-bar',
+      true
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    selectNature: Schema.Attribute.Component<
+      'motor-claim.select-nature',
+      false
+    >;
+    successfullyRegisteredCms: Schema.Attribute.Component<
+      'motor-claim.successfully-registered-cms',
+      false
+    >;
+    successfullySubmittedCms: Schema.Attribute.Component<
+      'motor-claim.successfully-submitted-cms',
+      false
+    >;
+    tellusAboutYourself: Schema.Attribute.Component<
+      'motor-claim.tellus-about-yourself',
+      false
+    >;
+    unavailableClaimCms: Schema.Attribute.Component<
+      'motor-claim.wrong-claim-cms',
+      false
+    >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    whoIsClaiming: Schema.Attribute.Component<
+      'motor-claim.who-is-claiming',
+      false
+    >;
+    wrongClaimCms: Schema.Attribute.Component<
+      'motor-claim.wrong-claim-cms',
+      false
+    >;
+  };
+}
+
 export interface ApiOldArticleOldArticle extends Struct.CollectionTypeSchema {
   collectionName: 'old_articles';
   info: {
@@ -1316,6 +1384,7 @@ declare module '@strapi/strapi' {
       'api::health-claim.health-claim': ApiHealthClaimHealthClaim;
       'api::health-track.health-track': ApiHealthTrackHealthTrack;
       'api::login-label.login-label': ApiLoginLabelLoginLabel;
+      'api::motor-claim.motor-claim': ApiMotorClaimMotorClaim;
       'api::old-article.old-article': ApiOldArticleOldArticle;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;

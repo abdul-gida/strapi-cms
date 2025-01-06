@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_motor_claim_who_is_claimings",
+  "info": {
+    "displayName": "whoIsClaiming"
+  },
+  "options": {},
+  "attributes": {
+    "claimList": {
+      "displayName": "claimList",
+      "type": "component",
+      "repeatable": true,
+      "component": "motor-claim.claim-list"
+    }
+  }
+}

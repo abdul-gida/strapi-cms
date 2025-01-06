@@ -311,6 +311,189 @@ export interface MetaFieldsMetaFields extends Struct.ComponentSchema {
   };
 }
 
+export interface MotorClaimClaimList extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_claim_lists';
+  info: {
+    description: '';
+    displayName: 'claimList';
+  };
+  attributes: {
+    backendId: Schema.Attribute.Enumeration<['I', 'R']>;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorClaimEnterClaimDetails extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_enter_claim_details';
+  info: {
+    displayName: 'enterClaimDetails';
+  };
+  attributes: {
+    accidentDateLabel: Schema.Attribute.String;
+    accidentDatePlaceholder: Schema.Attribute.String;
+    accidentPlaceLabel: Schema.Attribute.String;
+    accidentPlacePlaceholder: Schema.Attribute.String;
+    accidentTimeLabel: Schema.Attribute.String;
+    accidentTimePlaceholder: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    pincodeLabel: Schema.Attribute.String;
+    pincodePlaceholder: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorClaimEnterLossIncur extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_enter_loss_incurs';
+  info: {
+    displayName: 'enterLossIncur';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    input: Schema.Attribute.Component<'motor-claim.input', false>;
+    textArea: Schema.Attribute.Component<'motor-claim.text-area', false>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorClaimInput extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_inputs';
+  info: {
+    displayName: 'input';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+  };
+}
+
+export interface MotorClaimNatureOfLoss extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_nature_of_losses';
+  info: {
+    displayName: 'natureOfLoss';
+  };
+  attributes: {
+    backendValue: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorClaimProgressiveStepBar extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_progressive_step_bars';
+  info: {
+    description: '';
+    displayName: 'progressiveStepBar';
+  };
+  attributes: {
+    text: Schema.Attribute.String;
+  };
+}
+
+export interface MotorClaimSelectNature extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_select_natures';
+  info: {
+    displayName: 'selectNature';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    natureOfLoss: Schema.Attribute.Component<
+      'motor-claim.nature-of-loss',
+      false
+    >;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorClaimSuccessfullyRegisteredCms
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_successfully_registered_cms';
+  info: {
+    displayName: 'successfullyRegisteredCms';
+  };
+  attributes: {
+    copyPrefix: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    primaryButtonText: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorClaimSuccessfullySubmittedCms
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_successfully_submitted_cms';
+  info: {
+    displayName: 'successfullySubmittedCms';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    primaryButtonText: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorClaimTellusAboutYourself extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_tellus_about_yourselves';
+  info: {
+    displayName: 'tellusAboutYourself';
+  };
+  attributes: {
+    checkboxText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    intimaterDetails: Schema.Attribute.String;
+    intimaterName: Schema.Attribute.String;
+    intimaterNamePlaceholder: Schema.Attribute.String;
+    intimaterPhone: Schema.Attribute.String;
+    intimaterPhonePlaceholder: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    whosMakingClaim: Schema.Attribute.String;
+  };
+}
+
+export interface MotorClaimTextArea extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_text_areas';
+  info: {
+    displayName: 'textArea';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+  };
+}
+
+export interface MotorClaimUnavailableClaimCms extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_unavailable_claim_cms';
+  info: {
+    displayName: 'unavailableClaimCms';
+  };
+  attributes: {};
+}
+
+export interface MotorClaimWhoIsClaiming extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_who_is_claimings';
+  info: {
+    displayName: 'whoIsClaiming';
+  };
+  attributes: {
+    claimList: Schema.Attribute.Component<'motor-claim.claim-list', true>;
+  };
+}
+
+export interface MotorClaimWrongClaimCms extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_wrong_claim_cms';
+  info: {
+    displayName: 'wrongClaimCms';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    primaryButtonText: Schema.Attribute.String;
+    queryWidget: Schema.Attribute.Component<'health-track.query-text', false>;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface SharedBottom extends Struct.ComponentSchema {
   collectionName: 'components_shared_bottoms';
   info: {
@@ -510,6 +693,20 @@ declare module '@strapi/strapi' {
       'image-descriptions.image-descriptions': ImageDescriptionsImageDescriptions;
       'login.claim-list': LoginClaimList;
       'meta-fields.meta-fields': MetaFieldsMetaFields;
+      'motor-claim.claim-list': MotorClaimClaimList;
+      'motor-claim.enter-claim-details': MotorClaimEnterClaimDetails;
+      'motor-claim.enter-loss-incur': MotorClaimEnterLossIncur;
+      'motor-claim.input': MotorClaimInput;
+      'motor-claim.nature-of-loss': MotorClaimNatureOfLoss;
+      'motor-claim.progressive-step-bar': MotorClaimProgressiveStepBar;
+      'motor-claim.select-nature': MotorClaimSelectNature;
+      'motor-claim.successfully-registered-cms': MotorClaimSuccessfullyRegisteredCms;
+      'motor-claim.successfully-submitted-cms': MotorClaimSuccessfullySubmittedCms;
+      'motor-claim.tellus-about-yourself': MotorClaimTellusAboutYourself;
+      'motor-claim.text-area': MotorClaimTextArea;
+      'motor-claim.unavailable-claim-cms': MotorClaimUnavailableClaimCms;
+      'motor-claim.who-is-claiming': MotorClaimWhoIsClaiming;
+      'motor-claim.wrong-claim-cms': MotorClaimWrongClaimCms;
       'shared.bottom': SharedBottom;
       'shared.bottom-cards': SharedBottomCards;
       'shared.cards': SharedCards;

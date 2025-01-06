@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_motor_claim_select_natures",
+  "info": {
+    "displayName": "selectNature"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "natureOfLoss": {
+      "displayName": "natureOfLoss",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-claim.nature-of-loss"
+    }
+  }
+}

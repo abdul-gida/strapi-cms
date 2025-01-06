@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_motor_claim_nature_of_losses",
+  "info": {
+    "displayName": "natureOfLoss"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "backendValue": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}
