@@ -524,20 +524,6 @@ export interface MotorRenewalAddOnCheckboxInputDump
   };
 }
 
-export interface MotorRenewalAlreadyRequestedDump
-  extends Struct.ComponentSchema {
-  collectionName: 'components_motor_renewal_already_requested_dumps';
-  info: {
-    displayName: 'alreadyRequestedDump';
-  };
-  attributes: {
-    imgUrl: Schema.Attribute.String;
-    primaryButtonText: Schema.Attribute.String;
-    subtitle: Schema.Attribute.String;
-    title: Schema.Attribute.String;
-  };
-}
-
 export interface MotorRenewalBackButtonRequestCallbackDump
   extends Struct.ComponentSchema {
   collectionName: 'components_motor_renewal_back_button_request_callback_dumps';
@@ -741,20 +727,6 @@ export interface MotorRenewalPremiumBreakupDump extends Struct.ComponentSchema {
   };
 }
 
-export interface MotorRenewalRenewNowModalDump extends Struct.ComponentSchema {
-  collectionName: 'components_motor_renewal_renew_now_modal_dumps';
-  info: {
-    displayName: 'renewNowModalDump';
-  };
-  attributes: {
-    imgUrl: Schema.Attribute.String;
-    PrimaryButtonText: Schema.Attribute.String;
-    secondaryButtonText: Schema.Attribute.String;
-    subtitle: Schema.Attribute.String;
-    title: Schema.Attribute.String;
-  };
-}
-
 export interface MotorRenewalRequestCallback extends Struct.ComponentSchema {
   collectionName: 'components_motor_renewal_request_callbacks';
   info: {
@@ -778,18 +750,6 @@ export interface MotorRenewalRequestCallbackBsDump
     primaryButtonText: Schema.Attribute.String;
     subtitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
-  };
-}
-
-export interface MotorRenewalTerms extends Struct.ComponentSchema {
-  collectionName: 'components_motor_renewal_terms';
-  info: {
-    displayName: 'terms';
-  };
-  attributes: {
-    highlight: Schema.Attribute.String;
-    prefix: Schema.Attribute.String;
-    suffix: Schema.Attribute.String;
   };
 }
 
@@ -1072,7 +1032,6 @@ declare module '@strapi/strapi' {
       'motor-claim.wrong-claim-cms': MotorClaimWrongClaimCms;
       'motor-renewal.add-on-card-dump': MotorRenewalAddOnCardDump;
       'motor-renewal.add-on-checkbox-input-dump': MotorRenewalAddOnCheckboxInputDump;
-      'motor-renewal.already-requested-dump': MotorRenewalAlreadyRequestedDump;
       'motor-renewal.back-button-request-callback-dump': MotorRenewalBackButtonRequestCallbackDump;
       'motor-renewal.consent': MotorRenewalConsent;
       'motor-renewal.consent-dump': MotorRenewalConsentDump;
@@ -1087,10 +1046,8 @@ declare module '@strapi/strapi' {
       'motor-renewal.payment-success-dump': MotorRenewalPaymentSuccessDump;
       'motor-renewal.policy-number-dump': MotorRenewalPolicyNumberDump;
       'motor-renewal.premium-breakup-dump': MotorRenewalPremiumBreakupDump;
-      'motor-renewal.renew-now-modal-dump': MotorRenewalRenewNowModalDump;
       'motor-renewal.request-callback': MotorRenewalRequestCallback;
       'motor-renewal.request-callback-bs-dump': MotorRenewalRequestCallbackBsDump;
-      'motor-renewal.terms': MotorRenewalTerms;
       'motor-track.information-mismatch': MotorTrackInformationMismatch;
       'motor-track.query-text': MotorTrackQueryText;
       'motor-track.query-widget': MotorTrackQueryWidget;
