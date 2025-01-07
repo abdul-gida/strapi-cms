@@ -597,6 +597,74 @@ export interface ApiEKycProcedureEKycProcedure extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiGenerateEkycGenerateEkyc extends Struct.SingleTypeSchema {
+  collectionName: 'generate_ekycs';
+  info: {
+    description: '';
+    displayName: 'Generate-ekyc';
+    pluralName: 'generate-ekycs';
+    singularName: 'generate-ekyc';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    cmsErrorstatusModal: Schema.Attribute.Component<
+      'generate-ekyc.cms-errorstatus-modal',
+      false
+    >;
+    cmsFinalPage: Schema.Attribute.Component<
+      'generate-ekyc.cms-final-page',
+      false
+    >;
+    cmsGoback: Schema.Attribute.Component<'generate-ekyc.cms-goback', false>;
+    cmsServerTimeout: Schema.Attribute.Component<
+      'generate-ekyc.cms-server-timeout',
+      false
+    >;
+    cmsSubFinalPage: Schema.Attribute.Component<
+      'generate-ekyc.cms-sub-final-page',
+      false
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    ekycDetailCms: Schema.Attribute.Component<
+      'generate-ekyc.ekyc-detail-cms',
+      false
+    >;
+    ekycList: Schema.Attribute.Component<'generate-ekyc.ekyc-list', false>;
+    ekycVerifyCms: Schema.Attribute.Component<
+      'generate-ekyc.ekyc-verify-cms',
+      false
+    >;
+    financialDetails: Schema.Attribute.Component<
+      'generate-ekyc.financial-details-cms',
+      false
+    >;
+    financialDetailsInput: Schema.Attribute.DynamicZone<
+      [
+        'generate-ekyc.politically-exposed',
+        'generate-ekyc.organization-input',
+        'generate-ekyc.occupation-input',
+        'generate-ekyc.annual-income',
+      ]
+    >;
+    hdfc: Schema.Attribute.Component<'generate-ekyc.proceed-to-hdfc', false>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::generate-ekyc.generate-ekyc'
+    > &
+      Schema.Attribute.Private;
+    panOptionInfo: Schema.Attribute.Component<'generate-ekyc.pan-card', false>;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
   collectionName: 'globals';
   info: {
@@ -1527,6 +1595,7 @@ declare module '@strapi/strapi' {
       'api::author.author': ApiAuthorAuthor;
       'api::category.category': ApiCategoryCategory;
       'api::e-kyc-procedure.e-kyc-procedure': ApiEKycProcedureEKycProcedure;
+      'api::generate-ekyc.generate-ekyc': ApiGenerateEkycGenerateEkyc;
       'api::global.global': ApiGlobalGlobal;
       'api::health-claim.health-claim': ApiHealthClaimHealthClaim;
       'api::health-track.health-track': ApiHealthTrackHealthTrack;

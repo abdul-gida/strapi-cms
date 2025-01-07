@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_generate_ekyc_checkboxes",
+  "info": {
+    "displayName": "checkbox"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_generate_ekyc_cms_server_timeouts",
+  "info": {
+    "displayName": "cmsServerTimeout"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}
