@@ -84,6 +84,17 @@ export interface ArticleComponentsVideoUrl extends Struct.ComponentSchema {
   };
 }
 
+export interface ClaimsBanner extends Struct.ComponentSchema {
+  collectionName: 'components_claims_banners';
+  info: {
+    displayName: 'Banner';
+  };
+  attributes: {
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface HealthTrackAddDocumentCard extends Struct.ComponentSchema {
   collectionName: 'components_health_track_add_document_cards';
   info: {
@@ -1002,6 +1013,7 @@ declare module '@strapi/strapi' {
       'article-components.quote-banner': ArticleComponentsQuoteBanner;
       'article-components.rich-text-json': ArticleComponentsRichTextJson;
       'article-components.video-url': ArticleComponentsVideoUrl;
+      'claims.banner': ClaimsBanner;
       'health-track.add-document-card': HealthTrackAddDocumentCard;
       'health-track.details-required': HealthTrackDetailsRequired;
       'health-track.error-encountered': HealthTrackErrorEncountered;
