@@ -1125,7 +1125,7 @@ export interface ApiPreviousYearPolicyUploadPreviousYearPolicyUpload
   collectionName: 'previous_year_policy_uploads';
   info: {
     description: '';
-    displayName: 'previous-year-policy-upload';
+    displayName: 'motor-previous-year-policy-upload';
     pluralName: 'previous-year-policy-uploads';
     singularName: 'previous-year-policy-upload';
   };
