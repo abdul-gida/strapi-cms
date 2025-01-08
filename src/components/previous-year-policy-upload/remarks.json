@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_previous_year_policy_upload_remarks",
+  "info": {
+    "displayName": "remarks"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

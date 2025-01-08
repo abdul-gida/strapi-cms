@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_previous_year_policy_upload_section_top_h_eaders",
+  "info": {
+    "displayName": "sectionTopHEader"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

@@ -1120,6 +1120,39 @@ export interface ApiOldArticleOldArticle extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiPreviousYearPolicyUploadPreviousYearPolicyUpload
+  extends Struct.SingleTypeSchema {
+  collectionName: 'previous_year_policy_uploads';
+  info: {
+    description: '';
+    displayName: 'previous-year-policy-upload';
+    pluralName: 'previous-year-policy-uploads';
+    singularName: 'previous-year-policy-upload';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::previous-year-policy-upload.previous-year-policy-upload'
+    > &
+      Schema.Attribute.Private;
+    previousYearPolicyDump: Schema.Attribute.Component<
+      'previous-year-policy-upload.previous-year-policy-upload',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface PluginContentReleasesRelease
   extends Struct.CollectionTypeSchema {
   collectionName: 'strapi_releases';
@@ -1641,6 +1674,7 @@ declare module '@strapi/strapi' {
       'api::motor-renewal.motor-renewal': ApiMotorRenewalMotorRenewal;
       'api::motor-track.motor-track': ApiMotorTrackMotorTrack;
       'api::old-article.old-article': ApiOldArticleOldArticle;
+      'api::previous-year-policy-upload.previous-year-policy-upload': ApiPreviousYearPolicyUploadPreviousYearPolicyUpload;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;
