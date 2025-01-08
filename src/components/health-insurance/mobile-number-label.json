@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_health_insurance_mobile_number_labels",
+  "info": {
+    "displayName": "mobileNumberLabel"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "verifyCtaLabel": {
+      "type": "string"
+    }
+  }
+}

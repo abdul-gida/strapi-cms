@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_car_insurance_popular_models",
+  "info": {
+    "displayName": "popularModels"
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "bgImage": {
+      "type": "string"
+    },
+    "mobileBgImage": {
+      "type": "string"
+    },
+    "models": {
+      "displayName": "models",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.models"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_bmi_calculator_bmi_distributions",
+  "info": {
+    "displayName": "bmiDistribution"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

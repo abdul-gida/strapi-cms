@@ -530,6 +530,263 @@ export interface ApiAuthorAuthor extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiBikeInsuranceBikeInsurance extends Struct.SingleTypeSchema {
+  collectionName: 'bike_insurances';
+  info: {
+    description: '';
+    displayName: 'Bike Insurance';
+    pluralName: 'bike-insurances';
+    singularName: 'bike-insurance';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    badgeLabel: Schema.Attribute.String;
+    benefitsOfCalculating: Schema.Attribute.Component<
+      'bike-insurance.benefits-of-calculating',
+      false
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    factorThatAffect: Schema.Attribute.Component<
+      'bike-insurance.factor-that-affect',
+      false
+    >;
+    form: Schema.Attribute.Component<'bike-insurance.form', false>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::bike-insurance.bike-insurance'
+    > &
+      Schema.Attribute.Private;
+    points: Schema.Attribute.Component<'bike-insurance.points', true>;
+    policyDetails: Schema.Attribute.Component<
+      'bike-insurance.policy-details',
+      false
+    >;
+    popularBrands: Schema.Attribute.Component<
+      'bike-insurance.popular-brands',
+      false
+    >;
+    popularModels: Schema.Attribute.Component<
+      'bike-insurance.popular-models',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    talkToExpert: Schema.Attribute.Component<
+      'bmi-calculator.talk-to-expert',
+      false
+    >;
+    tipsAndTricks: Schema.Attribute.Component<
+      'bike-insurance.tips-and-tricks',
+      false
+    >;
+    title: Schema.Attribute.Component<'bmi-calculator.title', true>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    whatIsBikeInsurance: Schema.Attribute.Component<
+      'bike-insurance.what-is-bike-insurance',
+      false
+    >;
+    whyIsItImportant: Schema.Attribute.Component<
+      'bike-insurance.why-is-it-important',
+      false
+    >;
+  };
+}
+
+export interface ApiBmiCalculatorBmiCalculator extends Struct.SingleTypeSchema {
+  collectionName: 'bmi_calculators';
+  info: {
+    description: '';
+    displayName: 'Bmi Calculator';
+    pluralName: 'bmi-calculators';
+    singularName: 'bmi-calculator';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    bmiValues: Schema.Attribute.Component<'bmi-calculator.bmi-values', false>;
+    calcCards: Schema.Attribute.Component<'bmi-calculator.calc-cards', false>;
+    calculateBmi: Schema.Attribute.Component<
+      'bmi-calculator.calculate-bmi',
+      false
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    dividerOne: Schema.Attribute.Component<'car-insurance.divider-one', true>;
+    form: Schema.Attribute.Component<'bmi-calculator.form', false>;
+    heartRisk: Schema.Attribute.Component<'bmi-calculator.heart-risk', false>;
+    howReliableIsBmi: Schema.Attribute.Component<
+      'bmi-calculator.how-reliable-is-bmi',
+      false
+    >;
+    idealBmi: Schema.Attribute.Component<'bmi-calculator.ideal-bmi', false>;
+    isYourHomeProtected: Schema.Attribute.Component<
+      'bmi-calculator.is-your-home-protected',
+      false
+    >;
+    limitationOfBmi: Schema.Attribute.Component<
+      'bmi-calculator.limitation-of-bmi',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::bmi-calculator.bmi-calculator'
+    > &
+      Schema.Attribute.Private;
+    overviewOfBmi: Schema.Attribute.Component<
+      'bmi-calculator.overview-of-bmi',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    relationBwBmiAndInsurance: Schema.Attribute.Component<
+      'bmi-calculator.relation-bw-bmi-and-insurance',
+      false
+    >;
+    reportLabels: Schema.Attribute.Component<
+      'bmi-calculator.report-labels',
+      false
+    >;
+    title: Schema.Attribute.Component<'bmi-calculator.title', false>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiCarInsuranceCarInsurance extends Struct.SingleTypeSchema {
+  collectionName: 'car_insurances';
+  info: {
+    description: '';
+    displayName: 'Car Insurance';
+    pluralName: 'car-insurances';
+    singularName: 'car-insurance';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    badgeLabel: Schema.Attribute.String;
+    breadCrumbs: Schema.Attribute.Component<'car-insurance.bread-crumbs', true>;
+    buyRenewSection: Schema.Attribute.Component<
+      'car-insurance.buy-renew-section',
+      false
+    >;
+    carInsuranceCalc: Schema.Attribute.Component<
+      'car-insurance.car-insurance-calc',
+      false
+    >;
+    carInsuranceDetails: Schema.Attribute.Component<
+      'car-insurance.car-insurance-details',
+      false
+    >;
+    carInsuranceNote: Schema.Attribute.Component<
+      'car-insurance.car-insurance-note',
+      false
+    >;
+    carInsurancePremiumDetails: Schema.Attribute.Component<
+      'car-insurance.car-insurance-premium-details',
+      false
+    >;
+    carInsuranceRates: Schema.Attribute.Component<
+      'car-insurance.car-insurance-rates',
+      false
+    >;
+    comparePolicySection: Schema.Attribute.Component<
+      'car-insurance.compare-policy-section',
+      false
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    dividerOne: Schema.Attribute.Component<
+      'car-insurance.divider-one-one',
+      false
+    >;
+    dividerThree: Schema.Attribute.Component<
+      'car-insurance.divider-three',
+      false
+    >;
+    dividerTwo: Schema.Attribute.Component<'car-insurance.divider-two', false>;
+    factorsBuyingCarInsuranceSection: Schema.Attribute.Component<
+      'car-insurance.factors-buying-car-insurance-section',
+      false
+    >;
+    factorsEffectingCarInsuranceSection: Schema.Attribute.Component<
+      'car-insurance.factors-effecting-car-insurance-section',
+      false
+    >;
+    form: Schema.Attribute.Component<'car-insurance.form', false>;
+    howToCalculateInsuranceSection: Schema.Attribute.Component<
+      'car-insurance.how-to-calculate-insurance-section',
+      false
+    >;
+    howToFileClaimSection: Schema.Attribute.Component<
+      'car-insurance.how-to-file-claim-section',
+      false
+    >;
+    insuranceAddOns: Schema.Attribute.Component<
+      'car-insurance.insurance-add-ons',
+      false
+    >;
+    keyFeatures: Schema.Attribute.Component<
+      'car-insurance.key-features',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::car-insurance.car-insurance'
+    > &
+      Schema.Attribute.Private;
+    points: Schema.Attribute.Component<'car-insurance.points', true>;
+    policyDetails: Schema.Attribute.Component<
+      'car-insurance.policy-details',
+      false
+    >;
+    popularBrands: Schema.Attribute.Component<
+      'car-insurance.popular-brands',
+      false
+    >;
+    popularModels: Schema.Attribute.Component<
+      'car-insurance.popular-models',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    reducePremiumSection: Schema.Attribute.Component<
+      'car-insurance.reduce-premium-section',
+      false
+    >;
+    talkToExpert: Schema.Attribute.Component<
+      'car-insurance.talk-to-expert',
+      false
+    >;
+    title: Schema.Attribute.Component<'car-insurance.title', false>;
+    trustMarkers: Schema.Attribute.Component<
+      'car-insurance.trust-markers',
+      true
+    >;
+    typesOfCarInsurance: Schema.Attribute.Component<
+      'car-insurance.types-of-car-insurance',
+      false
+    >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    whyPremiumCalculatorSection: Schema.Attribute.Component<
+      'car-insurance.why-premium-calculator-section',
+      false
+    >;
+  };
+}
+
 export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
   collectionName: 'categories';
   info: {
@@ -623,6 +880,48 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
     publishedAt: Schema.Attribute.DateTime;
     siteDescription: Schema.Attribute.Text & Schema.Attribute.Required;
     siteName: Schema.Attribute.String & Schema.Attribute.Required;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiHealthInsuranceHealthInsurance
+  extends Struct.SingleTypeSchema {
+  collectionName: 'health_insurances';
+  info: {
+    description: '';
+    displayName: 'Health Insurance';
+    pluralName: 'health-insurances';
+    singularName: 'health-insurance';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    badgeLabel: Schema.Attribute.String;
+    content: Schema.Attribute.Component<'health-insurance.content', false>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    form: Schema.Attribute.Component<'health-insurance.form', false>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::health-insurance.health-insurance'
+    > &
+      Schema.Attribute.Private;
+    points: Schema.Attribute.Component<'health-insurance.points', true>;
+    policyDetails: Schema.Attribute.Component<
+      'health-insurance.policy-details',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    talkToExpert: Schema.Attribute.Component<
+      'health-insurance.talk-to-expert',
+      false
+    >;
+    title: Schema.Attribute.Component<'health-insurance.title', false>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1222,9 +1521,13 @@ declare module '@strapi/strapi' {
       'api::app-banner.app-banner': ApiAppBannerAppBanner;
       'api::article.article': ApiArticleArticle;
       'api::author.author': ApiAuthorAuthor;
+      'api::bike-insurance.bike-insurance': ApiBikeInsuranceBikeInsurance;
+      'api::bmi-calculator.bmi-calculator': ApiBmiCalculatorBmiCalculator;
+      'api::car-insurance.car-insurance': ApiCarInsuranceCarInsurance;
       'api::category.category': ApiCategoryCategory;
       'api::e-kyc-procedure.e-kyc-procedure': ApiEKycProcedureEKycProcedure;
       'api::global.global': ApiGlobalGlobal;
+      'api::health-insurance.health-insurance': ApiHealthInsuranceHealthInsurance;
       'api::login-label.login-label': ApiLoginLabelLoginLabel;
       'api::old-article.old-article': ApiOldArticleOldArticle;
       'plugin::content-releases.release': PluginContentReleasesRelease;

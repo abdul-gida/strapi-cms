@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_car_insurance_why_premium_calculator_sections",
+  "info": {
+    "displayName": "whyPremiumCalculatorSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImageUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "bulletPoints": {
+      "displayName": "bulletPoints",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.bullet-points"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.cards"
+    },
+    "infoRequired": {
+      "displayName": "infoRequired",
+      "type": "component",
+      "repeatable": false,
+      "component": "article-components.info-required"
+    }
+  }
+}

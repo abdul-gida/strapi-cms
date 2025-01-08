@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_car_insurance_note_section_threes",
+  "info": {
+    "displayName": "noteSectionThree"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}

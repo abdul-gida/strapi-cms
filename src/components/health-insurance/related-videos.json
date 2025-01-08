@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_health_insurance_related_videos",
+  "info": {
+    "displayName": "relatedVideos"
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "videos": {
+      "displayName": "videos",
+      "type": "component",
+      "repeatable": true,
+      "component": "health-insurance.videos"
+    }
+  }
+}

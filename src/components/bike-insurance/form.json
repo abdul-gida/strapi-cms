@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_bike_insurance_forms",
+  "info": {
+    "displayName": "form"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bmi-calculator.title"
+    },
+    "description": {
+      "type": "string"
+    },
+    "vehicleRegistrationInputLabels": {
+      "displayName": "vehicleRegistrationInputLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.vehicle-registration-input-labels"
+    },
+    "mobileNumberInputLabels": {
+      "displayName": "mobileNumberInputLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.mobile-number-input-labels"
+    },
+    "getQuoteCtaLabel": {
+      "type": "string"
+    },
+    "termsAndConditions": {
+      "type": "string"
+    }
+  }
+}

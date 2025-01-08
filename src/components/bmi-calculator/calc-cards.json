@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_bmi_calculator_calc_cards",
+  "info": {
+    "displayName": "calcCards"
+  },
+  "options": {},
+  "attributes": {
+    "calcCalorie": {
+      "displayName": "calcCalorie",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.calc-calorie"
+    },
+    "calcBodyFat": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bmi-calculator.calc-calorie"
+    }
+  }
+}

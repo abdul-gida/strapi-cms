@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_car_insurance_reduce_premium_sections",
+  "info": {
+    "displayName": "reducePremiumSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cardsTwo",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.cards-two"
+    }
+  }
+}

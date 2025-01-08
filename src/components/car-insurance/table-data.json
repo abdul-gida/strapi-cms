@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_car_insurance_table_data",
+  "info": {
+    "displayName": "tableData"
+  },
+  "options": {},
+  "attributes": {
+    "headers": {
+      "displayName": "headers",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.headers"
+    },
+    "rows": {
+      "displayName": "rows",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.rows"
+    }
+  }
+}

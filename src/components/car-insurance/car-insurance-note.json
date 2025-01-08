@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_car_insurance_notes",
+  "info": {
+    "displayName": "carInsuranceNote"
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

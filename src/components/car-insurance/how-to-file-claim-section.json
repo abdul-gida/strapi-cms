@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_how_to_file_claim_sections",
+  "info": {
+    "displayName": "howToFileClaimSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "points": {
+      "displayName": "pointsFour",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.points-four"
+    }
+  }
+}

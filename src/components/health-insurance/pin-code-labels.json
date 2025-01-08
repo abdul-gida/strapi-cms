@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_health_insurance_pin_code_labels",
+  "info": {
+    "displayName": "pinCodeLabels"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

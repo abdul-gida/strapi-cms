@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_car_insurance_third_parties",
+  "info": {
+    "displayName": "thirdParty"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headers": {
+      "displayName": "headersOne",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.headers-one"
+    },
+    "rows": {
+      "displayName": "rowsOne",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.rows-one"
+    }
+  }
+}

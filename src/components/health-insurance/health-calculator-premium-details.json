@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_health_insurance_health_calculator_premium_details",
+  "info": {
+    "displayName": "healthCalculatorPremiumDetails"
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

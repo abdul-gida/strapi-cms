@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_bmi_calculator_optima_secure_plan_card_labels",
+  "info": {
+    "displayName": "optimaSecurePlanCardLabels",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "calculateCtaLabel": {
+      "type": "string"
+    }
+  }
+}

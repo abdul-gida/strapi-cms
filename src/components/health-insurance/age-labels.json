@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_health_insurance_age_labels",
+  "info": {
+    "displayName": "ageLabels"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

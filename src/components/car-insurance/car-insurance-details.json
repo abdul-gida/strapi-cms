@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_car_insurance_details",
+  "info": {
+    "displayName": "carInsuranceDetails"
+  },
+  "options": {},
+  "attributes": {
+    "videoUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "descriptions": {
+      "type": "string"
+    }
+  }
+}

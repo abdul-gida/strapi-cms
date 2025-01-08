@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_bike_insurance_benefits_of_calculatings",
+  "info": {
+    "displayName": "benefitsOfCalculating"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cardsOne",
+      "type": "component",
+      "repeatable": true,
+      "component": "bike-insurance.cards-one"
+    }
+  }
+}

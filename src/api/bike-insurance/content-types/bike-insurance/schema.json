@@ -1,0 +1,90 @@
+{
+  "kind": "singleType",
+  "collectionName": "bike_insurances",
+  "info": {
+    "singularName": "bike-insurance",
+    "pluralName": "bike-insurances",
+    "displayName": "Bike Insurance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bmi-calculator.title"
+    },
+    "badgeLabel": {
+      "type": "string"
+    },
+    "talkToExpert": {
+      "displayName": "talkToExpert",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.talk-to-expert"
+    },
+    "points": {
+      "displayName": "points",
+      "type": "component",
+      "repeatable": true,
+      "component": "bike-insurance.points"
+    },
+    "form": {
+      "displayName": "form",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.form"
+    },
+    "policyDetails": {
+      "displayName": "policyDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.policy-details"
+    },
+    "whatIsBikeInsurance": {
+      "displayName": "whatIsBikeInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.what-is-bike-insurance"
+    },
+    "whyIsItImportant": {
+      "displayName": "whyIsItImportant",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.why-is-it-important"
+    },
+    "benefitsOfCalculating": {
+      "displayName": "benefitsOfCalculating",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.benefits-of-calculating"
+    },
+    "factorThatAffect": {
+      "displayName": "factorThatAffect",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.factor-that-affect"
+    },
+    "popularBrands": {
+      "displayName": "popularBrands",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.popular-brands"
+    },
+    "popularModels": {
+      "displayName": "popularModels",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.popular-models"
+    },
+    "tipsAndTricks": {
+      "displayName": "tipsAndTricks",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.tips-and-tricks"
+    }
+  }
+}

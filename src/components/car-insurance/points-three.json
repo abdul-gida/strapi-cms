@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_car_insurance_points_threes",
+  "info": {
+    "displayName": "pointsThree"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

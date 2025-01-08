@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_car_insurance_info_sections",
+  "info": {
+    "displayName": "infoSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "OldCars": {
+      "displayName": "Old Cars",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.old-cars"
+    },
+    "NewCars": {
+      "displayName": "New Cars",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.new-cars"
+    },
+    "SecondhandCars": {
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.old-cars"
+    }
+  }
+}
