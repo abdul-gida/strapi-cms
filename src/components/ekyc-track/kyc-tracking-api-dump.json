@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_ekyc_track_kyc_tracking_api_dumps",
+  "info": {
+    "displayName": "kycTrackingApiDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "statusRejectedResponse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.status-rejected-response"
+    },
+    "statusPendingResponse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.status-rejected-response"
+    },
+    "statusApprovedResponse": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.status-rejected-response"
+    }
+  }
+}

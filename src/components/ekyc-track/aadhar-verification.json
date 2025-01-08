@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ekyc_track_aadhar_verifications",
+  "info": {
+    "displayName": "aadharVerification",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.title-and-description"
+    },
+    "InputLabel": {
+      "displayName": "aadharVerificationInputLabel",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.aadhar-verification-input-label"
+    },
+    "error": {
+      "displayName": "aadharVerificationError",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.aadhar-verification-error"
+    }
+  }
+}

@@ -597,6 +597,42 @@ export interface ApiEKycProcedureEKycProcedure extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiEkycTrackEkycTrack extends Struct.SingleTypeSchema {
+  collectionName: 'ekyc_tracks';
+  info: {
+    description: '';
+    displayName: 'Ekyc-track';
+    pluralName: 'ekyc-tracks';
+    singularName: 'ekyc-track';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    kycTrackingApiDump: Schema.Attribute.Component<
+      'ekyc-track.kyc-tracking-api-dump',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::ekyc-track.ekyc-track'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    trackingKycDump: Schema.Attribute.Component<
+      'ekyc-track.tracking-kyc-dump',
+      false
+    >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiGenerateEkycGenerateEkyc extends Struct.SingleTypeSchema {
   collectionName: 'generate_ekycs';
   info: {
@@ -1595,6 +1631,7 @@ declare module '@strapi/strapi' {
       'api::author.author': ApiAuthorAuthor;
       'api::category.category': ApiCategoryCategory;
       'api::e-kyc-procedure.e-kyc-procedure': ApiEKycProcedureEKycProcedure;
+      'api::ekyc-track.ekyc-track': ApiEkycTrackEkycTrack;
       'api::generate-ekyc.generate-ekyc': ApiGenerateEkycGenerateEkyc;
       'api::global.global': ApiGlobalGlobal;
       'api::health-claim.health-claim': ApiHealthClaimHealthClaim;

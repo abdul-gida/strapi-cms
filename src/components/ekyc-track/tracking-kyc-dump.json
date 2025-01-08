@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_ekyc_track_tracking_kyc_dumps",
+  "info": {
+    "displayName": "trackingKycDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "static": {
+      "displayName": "static",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.static"
+    },
+    "claimIdVerification": {
+      "displayName": "claimIdVerification",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.claim-id-verification"
+    },
+    "panVerification": {
+      "displayName": "panVerification",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.pan-verification"
+    },
+    "aadharVerification": {
+      "displayName": "aadharVerification",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.aadhar-verification"
+    },
+    "toast": {
+      "displayName": "toast",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.toast"
+    },
+    "statusPage": {
+      "displayName": "statusPage",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.status-page"
+    },
+    "errorPopUp": {
+      "displayName": "errorPopUp",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.error-pop-up"
+    },
+    "cmsEkycMapper": {
+      "displayName": "cmsEkycMapper",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.cms-ekyc-mapper"
+    }
+  }
+}
