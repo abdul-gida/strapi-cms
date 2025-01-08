@@ -637,7 +637,7 @@ export interface ApiGenerateEkycGenerateEkyc extends Struct.SingleTypeSchema {
   collectionName: 'generate_ekycs';
   info: {
     description: '';
-    displayName: 'Generate-ekyc';
+    displayName: 'Ekyc-generate';
     pluralName: 'generate-ekycs';
     singularName: 'generate-ekyc';
   };
