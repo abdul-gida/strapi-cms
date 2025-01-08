@@ -804,6 +804,91 @@ export interface MotorTrackSomethingWentWrong extends Struct.ComponentSchema {
   };
 }
 
+export interface QuickActionCustomerDueDiligence
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_customer_due_diligences';
+  info: {
+    displayName: 'customerDueDiligence';
+  };
+  attributes: {
+    customerDueDiligence: Schema.Attribute.Component<
+      'quick-action.ekyc-procedure',
+      false
+    >;
+  };
+}
+
+export interface QuickActionEKyc extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_e_kycs';
+  info: {
+    displayName: 'eKyc';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface QuickActionEkycLink extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_ekyc_links';
+  info: {
+    displayName: 'ekycLink';
+  };
+  attributes: {
+    ekycLink: Schema.Attribute.Component<'quick-action.ekyc-procedure', false>;
+  };
+}
+
+export interface QuickActionEkycProcedure extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_ekyc_procedures';
+  info: {
+    displayName: 'ekycProcedure';
+  };
+  attributes: {
+    imageUrl: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    key: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface QuickActionEkycRegistration extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_ekyc_registrations';
+  info: {
+    displayName: 'ekycRegistration';
+  };
+  attributes: {
+    ekycRegistration: Schema.Attribute.Component<
+      'quick-action.ekyc-procedure',
+      false
+    >;
+  };
+}
+
+export interface QuickActionEkycTracking extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_ekyc_trackings';
+  info: {
+    displayName: 'ekycTracking';
+  };
+  attributes: {
+    ekycTracking: Schema.Attribute.Component<
+      'quick-action.ekyc-procedure',
+      false
+    >;
+  };
+}
+
+export interface QuickActionQuickActionsDump extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_quick_actions_dumps';
+  info: {
+    displayName: 'quickActionsDump';
+  };
+  attributes: {
+    eKyc: Schema.Attribute.Component<'quick-action.e-kyc', false>;
+  };
+}
+
 export interface SharedBottom extends Struct.ComponentSchema {
   collectionName: 'components_shared_bottoms';
   info: {
@@ -1052,6 +1137,13 @@ declare module '@strapi/strapi' {
       'motor-track.query-text': MotorTrackQueryText;
       'motor-track.query-widget': MotorTrackQueryWidget;
       'motor-track.something-went-wrong': MotorTrackSomethingWentWrong;
+      'quick-action.customer-due-diligence': QuickActionCustomerDueDiligence;
+      'quick-action.e-kyc': QuickActionEKyc;
+      'quick-action.ekyc-link': QuickActionEkycLink;
+      'quick-action.ekyc-procedure': QuickActionEkycProcedure;
+      'quick-action.ekyc-registration': QuickActionEkycRegistration;
+      'quick-action.ekyc-tracking': QuickActionEkycTracking;
+      'quick-action.quick-actions-dump': QuickActionQuickActionsDump;
       'shared.bottom': SharedBottom;
       'shared.bottom-cards': SharedBottomCards;
       'shared.cards': SharedCards;

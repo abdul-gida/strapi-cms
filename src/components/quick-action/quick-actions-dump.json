@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_quick_action_quick_actions_dumps",
+  "info": {
+    "displayName": "quickActionsDump"
+  },
+  "options": {},
+  "attributes": {
+    "eKyc": {
+      "displayName": "eKyc",
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.e-kyc"
+    }
+  }
+}

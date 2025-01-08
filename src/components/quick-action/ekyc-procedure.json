@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_quick_action_ekyc_procedures",
+  "info": {
+    "displayName": "ekycProcedure"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

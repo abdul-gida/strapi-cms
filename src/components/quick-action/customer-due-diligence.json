@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_customer_due_diligences",
+  "info": {
+    "displayName": "customerDueDiligence"
+  },
+  "options": {},
+  "attributes": {
+    "customerDueDiligence": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.ekyc-procedure"
+    }
+  }
+}

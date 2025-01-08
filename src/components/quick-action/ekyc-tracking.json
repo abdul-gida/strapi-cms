@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_ekyc_trackings",
+  "info": {
+    "displayName": "ekycTracking"
+  },
+  "options": {},
+  "attributes": {
+    "ekycTracking": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.ekyc-procedure"
+    }
+  }
+}

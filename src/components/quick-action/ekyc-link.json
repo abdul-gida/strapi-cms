@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_ekyc_links",
+  "info": {
+    "displayName": "ekycLink"
+  },
+  "options": {},
+  "attributes": {
+    "ekycLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.ekyc-procedure"
+    }
+  }
+}

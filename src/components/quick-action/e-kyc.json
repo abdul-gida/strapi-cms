@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_quick_action_e_kycs",
+  "info": {
+    "displayName": "eKyc"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
