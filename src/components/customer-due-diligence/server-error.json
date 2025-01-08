@@ -1,19 +1,13 @@
 {
   "collectionName": "components_customer_due_diligence_server_errors",
   "info": {
-    "displayName": "serverError"
+    "displayName": "serverError",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "imageUrl": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      "type": "string"
     },
     "primaryButtonText": {
       "type": "string"
@@ -25,7 +19,6 @@
       "type": "string"
     },
     "queryWidget": {
-      "displayName": "queryWidget",
       "type": "component",
       "repeatable": false,
       "component": "customer-due-diligence.query-widget"

@@ -244,11 +244,12 @@ export interface CustomerDueDiligenceServerError
   extends Struct.ComponentSchema {
   collectionName: 'components_customer_due_diligence_server_errors';
   info: {
+    description: '';
     displayName: 'serverError';
   };
   attributes: {
     description: Schema.Attribute.String;
-    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imageUrl: Schema.Attribute.String;
     primaryButtonText: Schema.Attribute.String;
     queryWidget: Schema.Attribute.Component<
       'customer-due-diligence.query-widget',
@@ -262,14 +263,12 @@ export interface CustomerDueDiligenceSubmitSuccess
   extends Struct.ComponentSchema {
   collectionName: 'components_customer_due_diligence_submit_successes';
   info: {
+    description: '';
     displayName: 'submitSuccess';
   };
   attributes: {
     description: Schema.Attribute.String;
-    imageUrl: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios',
-      true
-    >;
+    imageUrl: Schema.Attribute.String;
     primaryButtonText: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
