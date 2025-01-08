@@ -565,6 +565,72 @@ export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiCustomerDueDiligenceCustomerDueDiligence
+  extends Struct.SingleTypeSchema {
+  collectionName: 'customer_due_diligences';
+  info: {
+    description: '';
+    displayName: 'customer-due-diligence';
+    pluralName: 'customer-due-diligences';
+    singularName: 'customer-due-diligence';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    customerDueDiligence: Schema.Attribute.Component<
+      'customer-due-diligence.customer-due-diligence',
+      false
+    >;
+    diligenceFormField: Schema.Attribute.DynamicZone<
+      [
+        'customer-due-diligence.annual-income',
+        'customer-due-diligence.occupation',
+        'customer-due-diligence.marital-status',
+        'customer-due-diligence.organization-type',
+        'customer-due-diligence.mothers-name',
+        'customer-due-diligence.nationality',
+        'customer-due-diligence.is-politically-exposed',
+      ]
+    >;
+    ekycDetails: Schema.Attribute.Component<
+      'customer-due-diligence.ekyc-details',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::customer-due-diligence.customer-due-diligence'
+    > &
+      Schema.Attribute.Private;
+    nationalityOptions: Schema.Attribute.DynamicZone<
+      ['customer-due-diligence.title', 'customer-due-diligence.indian']
+    >;
+    politicallyExposedOptions: Schema.Attribute.DynamicZone<
+      ['customer-due-diligence.yes', 'customer-due-diligence.no']
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    serverError: Schema.Attribute.Component<
+      'customer-due-diligence.server-error',
+      false
+    >;
+    submitSuccess: Schema.Attribute.Component<
+      'customer-due-diligence.submit-success',
+      false
+    >;
+    tipInfo: Schema.Attribute.Component<
+      'customer-due-diligence.tip-info',
+      false
+    >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiEKycProcedureEKycProcedure extends Struct.SingleTypeSchema {
   collectionName: 'e_kyc_procedures';
   info: {
@@ -1663,6 +1729,7 @@ declare module '@strapi/strapi' {
       'api::article.article': ApiArticleArticle;
       'api::author.author': ApiAuthorAuthor;
       'api::category.category': ApiCategoryCategory;
+      'api::customer-due-diligence.customer-due-diligence': ApiCustomerDueDiligenceCustomerDueDiligence;
       'api::e-kyc-procedure.e-kyc-procedure': ApiEKycProcedureEKycProcedure;
       'api::ekyc-track.ekyc-track': ApiEkycTrackEkycTrack;
       'api::generate-ekyc.generate-ekyc': ApiGenerateEkycGenerateEkyc;

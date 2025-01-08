@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_customer_due_diligence_occupations",
+  "info": {
+    "displayName": "occupation"
+  },
+  "options": {},
+  "attributes": {
+    "occupation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "customer-due-diligence.annual-income"
+    }
+  }
+}

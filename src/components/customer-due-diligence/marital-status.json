@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_customer_due_diligence_marital_statuses",
+  "info": {
+    "displayName": "maritalStatus"
+  },
+  "options": {},
+  "attributes": {
+    "maritalStatus": {
+      "type": "component",
+      "repeatable": false,
+      "component": "customer-due-diligence.annual-income"
+    }
+  }
+}

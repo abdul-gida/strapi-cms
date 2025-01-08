@@ -84,6 +84,228 @@ export interface ArticleComponentsVideoUrl extends Struct.ComponentSchema {
   };
 }
 
+export interface CustomerDueDiligenceAnnualIncome
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_annual_incomes';
+  info: {
+    displayName: 'annualIncome';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    optionsKey: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceCustomerDueDiligence
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_customer_due_diligences';
+  info: {
+    displayName: 'customerDueDiligence';
+  };
+  attributes: {
+    backButton: Schema.Attribute.String;
+    dashboardButtonText: Schema.Attribute.String;
+    submitText: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceEkycDetails
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_ekyc_details';
+  info: {
+    displayName: 'ekycDetails';
+  };
+  attributes: {
+    cKycTile: Schema.Attribute.String;
+    ekycIdTitle: Schema.Attribute.String;
+    nameTitle: Schema.Attribute.String;
+    panTitle: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceIndian extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_indians';
+  info: {
+    displayName: 'Indian';
+  };
+  attributes: {
+    Indian: Schema.Attribute.Component<'customer-due-diligence.title', false>;
+  };
+}
+
+export interface CustomerDueDiligenceIsPoliticallyExposed
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_is_politically_exposeds';
+  info: {
+    displayName: 'isPoliticallyExposed';
+  };
+  attributes: {
+    isPoliticallyExposed: Schema.Attribute.Component<
+      'customer-due-diligence.nationality',
+      false
+    >;
+  };
+}
+
+export interface CustomerDueDiligenceMaritalStatus
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_marital_statuses';
+  info: {
+    displayName: 'maritalStatus';
+  };
+  attributes: {
+    maritalStatus: Schema.Attribute.Component<
+      'customer-due-diligence.annual-income',
+      false
+    >;
+  };
+}
+
+export interface CustomerDueDiligenceMothersName
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_mothers_names';
+  info: {
+    displayName: 'mothersName';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceNationality
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_nationalities';
+  info: {
+    displayName: 'nationality';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceNo extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_nos';
+  info: {
+    displayName: 'No';
+  };
+  attributes: {
+    No: Schema.Attribute.Component<'customer-due-diligence.title', false>;
+  };
+}
+
+export interface CustomerDueDiligenceOccupation extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_occupations';
+  info: {
+    displayName: 'occupation';
+  };
+  attributes: {
+    occupation: Schema.Attribute.Component<
+      'customer-due-diligence.annual-income',
+      false
+    >;
+  };
+}
+
+export interface CustomerDueDiligenceOrganizationType
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_organization_types';
+  info: {
+    displayName: 'organizationType';
+  };
+  attributes: {
+    organizationType: Schema.Attribute.Component<
+      'customer-due-diligence.annual-income',
+      false
+    >;
+  };
+}
+
+export interface CustomerDueDiligenceQueryWidget
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_query_widgets';
+  info: {
+    description: '';
+    displayName: 'queryWidget';
+  };
+  attributes: {
+    contactMail: Schema.Attribute.Email;
+    contactText: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceServerError
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_server_errors';
+  info: {
+    displayName: 'serverError';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    primaryButtonText: Schema.Attribute.String;
+    queryWidget: Schema.Attribute.Component<
+      'customer-due-diligence.query-widget',
+      false
+    >;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceSubmitSuccess
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_submit_successes';
+  info: {
+    displayName: 'submitSuccess';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    primaryButtonText: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceTipInfo extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_tip_infos';
+  info: {
+    displayName: 'tipInfo';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceTitle extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_titles';
+  info: {
+    description: '';
+    displayName: 'nri';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceYes extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_yeses';
+  info: {
+    displayName: 'Yes';
+  };
+  attributes: {
+    Yes: Schema.Attribute.Component<'customer-due-diligence.title', false>;
+  };
+}
+
 export interface EkycTrackAadharInput extends Struct.ComponentSchema {
   collectionName: 'components_ekyc_track_aadhar_inputs';
   info: {
@@ -1972,6 +2194,23 @@ declare module '@strapi/strapi' {
       'article-components.quote-banner': ArticleComponentsQuoteBanner;
       'article-components.rich-text-json': ArticleComponentsRichTextJson;
       'article-components.video-url': ArticleComponentsVideoUrl;
+      'customer-due-diligence.annual-income': CustomerDueDiligenceAnnualIncome;
+      'customer-due-diligence.customer-due-diligence': CustomerDueDiligenceCustomerDueDiligence;
+      'customer-due-diligence.ekyc-details': CustomerDueDiligenceEkycDetails;
+      'customer-due-diligence.indian': CustomerDueDiligenceIndian;
+      'customer-due-diligence.is-politically-exposed': CustomerDueDiligenceIsPoliticallyExposed;
+      'customer-due-diligence.marital-status': CustomerDueDiligenceMaritalStatus;
+      'customer-due-diligence.mothers-name': CustomerDueDiligenceMothersName;
+      'customer-due-diligence.nationality': CustomerDueDiligenceNationality;
+      'customer-due-diligence.no': CustomerDueDiligenceNo;
+      'customer-due-diligence.occupation': CustomerDueDiligenceOccupation;
+      'customer-due-diligence.organization-type': CustomerDueDiligenceOrganizationType;
+      'customer-due-diligence.query-widget': CustomerDueDiligenceQueryWidget;
+      'customer-due-diligence.server-error': CustomerDueDiligenceServerError;
+      'customer-due-diligence.submit-success': CustomerDueDiligenceSubmitSuccess;
+      'customer-due-diligence.tip-info': CustomerDueDiligenceTipInfo;
+      'customer-due-diligence.title': CustomerDueDiligenceTitle;
+      'customer-due-diligence.yes': CustomerDueDiligenceYes;
       'ekyc-track.aadhar-input': EkycTrackAadharInput;
       'ekyc-track.aadhar-verification': EkycTrackAadharVerification;
       'ekyc-track.aadhar-verification-error': EkycTrackAadharVerificationError;

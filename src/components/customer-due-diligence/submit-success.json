@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_customer_due_diligence_submit_successes",
+  "info": {
+    "displayName": "submitSuccess"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
