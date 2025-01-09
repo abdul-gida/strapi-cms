@@ -565,72 +565,6 @@ export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
   };
 }
 
-export interface ApiCustomerDueDiligenceCustomerDueDiligence
-  extends Struct.SingleTypeSchema {
-  collectionName: 'customer_due_diligences';
-  info: {
-    description: '';
-    displayName: 'customer-due-diligence';
-    pluralName: 'customer-due-diligences';
-    singularName: 'customer-due-diligence';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    createdAt: Schema.Attribute.DateTime;
-    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-    customerDueDiligence: Schema.Attribute.Component<
-      'customer-due-diligence.customer-due-diligence',
-      false
-    >;
-    diligenceFormField: Schema.Attribute.DynamicZone<
-      [
-        'customer-due-diligence.annual-income',
-        'customer-due-diligence.occupation',
-        'customer-due-diligence.marital-status',
-        'customer-due-diligence.organization-type',
-        'customer-due-diligence.mothers-name',
-        'customer-due-diligence.nationality',
-        'customer-due-diligence.is-politically-exposed',
-      ]
-    >;
-    ekycDetails: Schema.Attribute.Component<
-      'customer-due-diligence.ekyc-details',
-      false
-    >;
-    locale: Schema.Attribute.String & Schema.Attribute.Private;
-    localizations: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::customer-due-diligence.customer-due-diligence'
-    > &
-      Schema.Attribute.Private;
-    nationalityOptions: Schema.Attribute.DynamicZone<
-      ['customer-due-diligence.title', 'customer-due-diligence.indian']
-    >;
-    politicallyExposedOptions: Schema.Attribute.DynamicZone<
-      ['customer-due-diligence.yes', 'customer-due-diligence.no']
-    >;
-    publishedAt: Schema.Attribute.DateTime;
-    serverError: Schema.Attribute.Component<
-      'customer-due-diligence.server-error',
-      false
-    >;
-    submitSuccess: Schema.Attribute.Component<
-      'customer-due-diligence.submit-success',
-      false
-    >;
-    tipInfo: Schema.Attribute.Component<
-      'customer-due-diligence.tip-info',
-      false
-    >;
-    updatedAt: Schema.Attribute.DateTime;
-    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-  };
-}
-
 export interface ApiEKycProcedureEKycProcedure extends Struct.SingleTypeSchema {
   collectionName: 'e_kyc_procedures';
   info: {
@@ -657,110 +591,6 @@ export interface ApiEKycProcedureEKycProcedure extends Struct.SingleTypeSchema {
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     title: Schema.Attribute.String;
-    updatedAt: Schema.Attribute.DateTime;
-    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-  };
-}
-
-export interface ApiEkycTrackEkycTrack extends Struct.SingleTypeSchema {
-  collectionName: 'ekyc_tracks';
-  info: {
-    description: '';
-    displayName: 'Ekyc-track';
-    pluralName: 'ekyc-tracks';
-    singularName: 'ekyc-track';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    createdAt: Schema.Attribute.DateTime;
-    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-    kycTrackingApiDump: Schema.Attribute.Component<
-      'ekyc-track.kyc-tracking-api-dump',
-      false
-    >;
-    locale: Schema.Attribute.String & Schema.Attribute.Private;
-    localizations: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::ekyc-track.ekyc-track'
-    > &
-      Schema.Attribute.Private;
-    publishedAt: Schema.Attribute.DateTime;
-    trackingKycDump: Schema.Attribute.Component<
-      'ekyc-track.tracking-kyc-dump',
-      false
-    >;
-    updatedAt: Schema.Attribute.DateTime;
-    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-  };
-}
-
-export interface ApiGenerateEkycGenerateEkyc extends Struct.SingleTypeSchema {
-  collectionName: 'generate_ekycs';
-  info: {
-    description: '';
-    displayName: 'Ekyc-generate';
-    pluralName: 'generate-ekycs';
-    singularName: 'generate-ekyc';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    cmsErrorstatusModal: Schema.Attribute.Component<
-      'generate-ekyc.cms-errorstatus-modal',
-      false
-    >;
-    cmsFinalPage: Schema.Attribute.Component<
-      'generate-ekyc.cms-final-page',
-      false
-    >;
-    cmsGoback: Schema.Attribute.Component<'generate-ekyc.cms-goback', false>;
-    cmsServerTimeout: Schema.Attribute.Component<
-      'generate-ekyc.cms-server-timeout',
-      false
-    >;
-    cmsSubFinalPage: Schema.Attribute.Component<
-      'generate-ekyc.cms-sub-final-page',
-      false
-    >;
-    createdAt: Schema.Attribute.DateTime;
-    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-    ekycDetailCms: Schema.Attribute.Component<
-      'generate-ekyc.ekyc-detail-cms',
-      false
-    >;
-    ekycList: Schema.Attribute.Component<'generate-ekyc.ekyc-list', false>;
-    ekycVerifyCms: Schema.Attribute.Component<
-      'generate-ekyc.ekyc-verify-cms',
-      false
-    >;
-    financialDetails: Schema.Attribute.Component<
-      'generate-ekyc.financial-details-cms',
-      false
-    >;
-    financialDetailsInput: Schema.Attribute.DynamicZone<
-      [
-        'generate-ekyc.politically-exposed',
-        'generate-ekyc.organization-input',
-        'generate-ekyc.occupation-input',
-        'generate-ekyc.annual-income',
-      ]
-    >;
-    hdfc: Schema.Attribute.Component<'generate-ekyc.proceed-to-hdfc', false>;
-    locale: Schema.Attribute.String & Schema.Attribute.Private;
-    localizations: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::generate-ekyc.generate-ekyc'
-    > &
-      Schema.Attribute.Private;
-    panOptionInfo: Schema.Attribute.Component<'generate-ekyc.pan-card', false>;
-    publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1180,39 +1010,6 @@ export interface ApiOldArticleOldArticle extends Struct.CollectionTypeSchema {
     slug: Schema.Attribute.UID<'title'> & Schema.Attribute.Required;
     timeToRead: Schema.Attribute.String;
     title: Schema.Attribute.String & Schema.Attribute.Required;
-    updatedAt: Schema.Attribute.DateTime;
-    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-  };
-}
-
-export interface ApiPreviousYearPolicyUploadPreviousYearPolicyUpload
-  extends Struct.SingleTypeSchema {
-  collectionName: 'previous_year_policy_uploads';
-  info: {
-    description: '';
-    displayName: 'previous-year-policy-upload';
-    pluralName: 'previous-year-policy-uploads';
-    singularName: 'previous-year-policy-upload';
-  };
-  options: {
-    draftAndPublish: true;
-  };
-  attributes: {
-    createdAt: Schema.Attribute.DateTime;
-    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-    locale: Schema.Attribute.String & Schema.Attribute.Private;
-    localizations: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::previous-year-policy-upload.previous-year-policy-upload'
-    > &
-      Schema.Attribute.Private;
-    previousYearPolicyDump: Schema.Attribute.Component<
-      'previous-year-policy-upload.previous-year-policy-upload',
-      false
-    >;
-    publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1729,10 +1526,7 @@ declare module '@strapi/strapi' {
       'api::article.article': ApiArticleArticle;
       'api::author.author': ApiAuthorAuthor;
       'api::category.category': ApiCategoryCategory;
-      'api::customer-due-diligence.customer-due-diligence': ApiCustomerDueDiligenceCustomerDueDiligence;
       'api::e-kyc-procedure.e-kyc-procedure': ApiEKycProcedureEKycProcedure;
-      'api::ekyc-track.ekyc-track': ApiEkycTrackEkycTrack;
-      'api::generate-ekyc.generate-ekyc': ApiGenerateEkycGenerateEkyc;
       'api::global.global': ApiGlobalGlobal;
       'api::health-claim.health-claim': ApiHealthClaimHealthClaim;
       'api::health-track.health-track': ApiHealthTrackHealthTrack;
@@ -1741,7 +1535,6 @@ declare module '@strapi/strapi' {
       'api::motor-renewal.motor-renewal': ApiMotorRenewalMotorRenewal;
       'api::motor-track.motor-track': ApiMotorTrackMotorTrack;
       'api::old-article.old-article': ApiOldArticleOldArticle;
-      'api::previous-year-policy-upload.previous-year-policy-upload': ApiPreviousYearPolicyUploadPreviousYearPolicyUpload;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;
