@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_quick_action_policy_selection_cms_data",
+  "info": {
+    "displayName": "policySelectionCmsData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "cannotSeePolicy": {
+      "type": "string"
+    },
+    "noPolicy": {
+      "displayName": "noPolicy",
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.no-policy"
+    },
+    "images": {
+      "displayName": "images",
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.images"
+    },
+    "downloadPolicyRequest": {
+      "displayName": "downloadPolicyRequest",
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.download-policy-request"
+    }
+  }
+}

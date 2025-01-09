@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_claim_queries",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "claimQuery"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "claimQuery": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

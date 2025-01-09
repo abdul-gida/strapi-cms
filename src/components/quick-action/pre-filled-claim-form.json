@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_pre_filled_claim_forms",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "preFilledClaimForm"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "preFilledClaimForm": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

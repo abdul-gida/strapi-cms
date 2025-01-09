@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_checklist_for_changes",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "checklistForChange"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "checklistForChange": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

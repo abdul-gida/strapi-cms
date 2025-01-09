@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_update_card_details",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "UpdateCardDetails"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "UpdateCardDetails": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

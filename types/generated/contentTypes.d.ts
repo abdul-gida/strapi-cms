@@ -1222,6 +1222,7 @@ export interface ApiPreviousYearPolicyUploadPreviousYearPolicyUpload
 export interface ApiQuickActionQuickAction extends Struct.SingleTypeSchema {
   collectionName: 'quick_actions';
   info: {
+    description: '';
     displayName: 'Quick-action';
     pluralName: 'quick-actions';
     singularName: 'quick-action';
@@ -1230,20 +1231,96 @@ export interface ApiQuickActionQuickAction extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    ClaimsCard: Schema.Attribute.DynamicZone<
+      [
+        'quick-action.claim-registration',
+        'quick-action.track-claim',
+        'quick-action.upload-health-docs',
+        'quick-action.pre-filled-claim-form',
+        'quick-action.kyc',
+        'quick-action.claim-query',
+      ]
+    >;
+    claimsTitle: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    documentUploaderCard: Schema.Attribute.DynamicZone<
+      [
+        'quick-action.reverification-ncb-pyp',
+        'quick-action.pre-policy-reports',
+        'quick-action.odometer-reading-upload',
+        'quick-action.disease-disclosure',
+        'quick-action.prev-year-policy',
+      ]
+    >;
+    documentUploaderTitle: Schema.Attribute.String;
+    ekycCards: Schema.Attribute.DynamicZone<
+      [
+        'quick-action.ekyc-procedure',
+        'quick-action.ekyc-registration',
+        'quick-action.ekyc-tracking',
+        'quick-action.ekyc-link',
+        'quick-action.customer-due-diligence',
+      ]
+    >;
+    ekycTitle: Schema.Attribute.String;
+    installRelateServicesCard: Schema.Attribute.DynamicZone<
+      [
+        'quick-action.installment-payment',
+        'quick-action.installment-tracker',
+        'quick-action.update-card-details',
+        'quick-action.track-premium-recovery',
+      ]
+    >;
+    installRelateServicesTitle: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::quick-action.quick-action'
     > &
       Schema.Attribute.Private;
-    publishedAt: Schema.Attribute.DateTime;
-    quickActionsDump: Schema.Attribute.Component<
-      'quick-action.quick-actions-dump',
+    policyDocumentsCard: Schema.Attribute.DynamicZone<
+      [
+        'quick-action.email-policy-copy',
+        'quick-action.tax-certificate',
+        'quick-action.health-card',
+        'quick-action.policy-dispatch',
+        'quick-action.know-your-policy',
+        'quick-action.link-eia',
+        'quick-action.request-proposal-form',
+      ]
+    >;
+    policyDocumentsTitle: Schema.Attribute.String;
+    policyRenewalCard: Schema.Attribute.DynamicZone<
+      ['quick-action.changes-in-policy-renewal']
+    >;
+    policyRenewalTitle: Schema.Attribute.String;
+    policySelectionCmsData: Schema.Attribute.Component<
+      'quick-action.policy-selection-cms-data',
       false
     >;
+    policyServicingCard: Schema.Attribute.DynamicZone<
+      [
+        'quick-action.update-contact-details',
+        'quick-action.transfer-of-insurance-motor',
+        'quick-action.policy-alterations',
+        'quick-action.checklist-for-change',
+        'quick-action.policy-cancellation-request',
+        'quick-action.track-cancellation-status',
+        'quick-action.deactivate-auto-renewal',
+        'quick-action.change-request-form',
+        'quick-action.paws-and-claws',
+        'quick-action.make-payments',
+        'quick-action.add-account-details',
+      ]
+    >;
+    policyServicingTitle: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    queryRequestCard: Schema.Attribute.DynamicZone<
+      ['quick-action.raise-query']
+    >;
+    queryRequestTitle: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

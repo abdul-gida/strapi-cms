@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_installment_payments",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "installmentPayment"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "installmentPayment": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_odometer_reading_uploads",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "odometerReadingUpload"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "odometerReadingUpload": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

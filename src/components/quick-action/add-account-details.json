@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_add_account_details",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "addAccountDetails"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "addAccountDetails": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_disease_disclosures",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "diseaseDisclosure"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "diseaseDisclosure": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

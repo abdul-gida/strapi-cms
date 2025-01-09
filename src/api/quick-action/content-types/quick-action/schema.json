@@ -4,18 +4,123 @@
   "info": {
     "singularName": "quick-action",
     "pluralName": "quick-actions",
-    "displayName": "Quick-action"
+    "displayName": "Quick-action",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "quickActionsDump": {
-      "displayName": "quickActionsDump",
+    "ekycTitle": {
+      "type": "string"
+    },
+    "ekycCards": {
+      "type": "dynamiczone",
+      "components": [
+        "quick-action.ekyc-procedure",
+        "quick-action.ekyc-registration",
+        "quick-action.ekyc-tracking",
+        "quick-action.ekyc-link",
+        "quick-action.customer-due-diligence"
+      ]
+    },
+    "policyDocumentsTitle": {
+      "type": "string"
+    },
+    "policyDocumentsCard": {
+      "type": "dynamiczone",
+      "components": [
+        "quick-action.email-policy-copy",
+        "quick-action.tax-certificate",
+        "quick-action.health-card",
+        "quick-action.policy-dispatch",
+        "quick-action.know-your-policy",
+        "quick-action.link-eia",
+        "quick-action.request-proposal-form"
+      ]
+    },
+    "policyServicingTitle": {
+      "type": "string"
+    },
+    "policyServicingCard": {
+      "type": "dynamiczone",
+      "components": [
+        "quick-action.update-contact-details",
+        "quick-action.transfer-of-insurance-motor",
+        "quick-action.policy-alterations",
+        "quick-action.checklist-for-change",
+        "quick-action.policy-cancellation-request",
+        "quick-action.track-cancellation-status",
+        "quick-action.deactivate-auto-renewal",
+        "quick-action.change-request-form",
+        "quick-action.paws-and-claws",
+        "quick-action.make-payments",
+        "quick-action.add-account-details"
+      ]
+    },
+    "installRelateServicesTitle": {
+      "type": "string"
+    },
+    "installRelateServicesCard": {
+      "type": "dynamiczone",
+      "components": [
+        "quick-action.installment-payment",
+        "quick-action.installment-tracker",
+        "quick-action.update-card-details",
+        "quick-action.track-premium-recovery"
+      ]
+    },
+    "policyRenewalTitle": {
+      "type": "string"
+    },
+    "policyRenewalCard": {
+      "type": "dynamiczone",
+      "components": [
+        "quick-action.changes-in-policy-renewal"
+      ]
+    },
+    "claimsTitle": {
+      "type": "string"
+    },
+    "ClaimsCard": {
+      "type": "dynamiczone",
+      "components": [
+        "quick-action.claim-registration",
+        "quick-action.track-claim",
+        "quick-action.upload-health-docs",
+        "quick-action.pre-filled-claim-form",
+        "quick-action.kyc",
+        "quick-action.claim-query"
+      ]
+    },
+    "documentUploaderTitle": {
+      "type": "string"
+    },
+    "documentUploaderCard": {
+      "type": "dynamiczone",
+      "components": [
+        "quick-action.reverification-ncb-pyp",
+        "quick-action.pre-policy-reports",
+        "quick-action.odometer-reading-upload",
+        "quick-action.disease-disclosure",
+        "quick-action.prev-year-policy"
+      ]
+    },
+    "queryRequestTitle": {
+      "type": "string"
+    },
+    "queryRequestCard": {
+      "type": "dynamiczone",
+      "components": [
+        "quick-action.raise-query"
+      ]
+    },
+    "policySelectionCmsData": {
+      "displayName": "policySelectionCmsData",
       "type": "component",
       "repeatable": false,
-      "component": "quick-action.quick-actions-dump"
+      "component": "quick-action.policy-selection-cms-data"
     }
   }
 }

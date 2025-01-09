@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_know_your_policies",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "knowYourPolicy"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "knowYourPolicy": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

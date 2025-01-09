@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_email_policy_copies",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "emailPolicyCopy"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "emailPolicyCopy": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_kycs",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "kyc"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "kyc": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

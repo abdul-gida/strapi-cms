@@ -1995,6 +1995,82 @@ export interface PreviousYearPolicyUploadUploadSection
   };
 }
 
+export interface QuickActionAddAccountDetails extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_add_account_details';
+  info: {
+    displayName: 'addAccountDetails';
+  };
+  attributes: {
+    addAccountDetails: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionCard extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    imageUrl: Schema.Attribute.String;
+    key: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface QuickActionChangeRequestForm extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_change_request_forms';
+  info: {
+    displayName: 'changeRequestForm';
+  };
+  attributes: {
+    changeRequestForm: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionChangesInPolicyRenewal
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_changes_in_policy_renewals';
+  info: {
+    displayName: 'changesInPolicyRenewal';
+  };
+  attributes: {
+    changesInPolicyRenewal: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionChecklistForChange extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_checklist_for_changes';
+  info: {
+    displayName: 'checklistForChange';
+  };
+  attributes: {
+    checklistForChange: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionClaimQuery extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_claim_queries';
+  info: {
+    displayName: 'claimQuery';
+  };
+  attributes: {
+    claimQuery: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionClaimRegistration extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_claim_registrations';
+  info: {
+    displayName: 'claimRegistration';
+  };
+  attributes: {
+    claimRegistration: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
 export interface QuickActionCustomerDueDiligence
   extends Struct.ComponentSchema {
   collectionName: 'components_quick_action_customer_due_diligences';
@@ -2003,18 +2079,45 @@ export interface QuickActionCustomerDueDiligence
   };
   attributes: {
     customerDueDiligence: Schema.Attribute.Component<
-      'quick-action.ekyc-procedure',
+      'quick-action.card',
       false
     >;
   };
 }
 
-export interface QuickActionEKyc extends Struct.ComponentSchema {
-  collectionName: 'components_quick_action_e_kycs';
+export interface QuickActionDeactivateAutoRenewal
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_deactivate_auto_renewals';
   info: {
-    displayName: 'eKyc';
+    displayName: 'deactivateAutoRenewal';
   };
   attributes: {
+    deactivateAutoRenewal: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionDiseaseDisclosure extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_disease_disclosures';
+  info: {
+    displayName: 'diseaseDisclosure';
+  };
+  attributes: {
+    diseaseDisclosure: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionDownloadPolicyRequest
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_download_policy_requests';
+  info: {
+    displayName: 'downloadPolicyRequest';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
 }
@@ -2025,7 +2128,7 @@ export interface QuickActionEkycLink extends Struct.ComponentSchema {
     displayName: 'ekycLink';
   };
   attributes: {
-    ekycLink: Schema.Attribute.Component<'quick-action.ekyc-procedure', false>;
+    ekycLink: Schema.Attribute.Component<'quick-action.card', false>;
   };
 }
 
@@ -2035,12 +2138,7 @@ export interface QuickActionEkycProcedure extends Struct.ComponentSchema {
     displayName: 'ekycProcedure';
   };
   attributes: {
-    imageUrl: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios',
-      true
-    >;
-    key: Schema.Attribute.String;
-    title: Schema.Attribute.String;
+    ekycProcedure: Schema.Attribute.Component<'quick-action.card', false>;
   };
 }
 
@@ -2050,10 +2148,7 @@ export interface QuickActionEkycRegistration extends Struct.ComponentSchema {
     displayName: 'ekycRegistration';
   };
   attributes: {
-    ekycRegistration: Schema.Attribute.Component<
-      'quick-action.ekyc-procedure',
-      false
-    >;
+    ekycRegistration: Schema.Attribute.Component<'quick-action.card', false>;
   };
 }
 
@@ -2063,10 +2158,221 @@ export interface QuickActionEkycTracking extends Struct.ComponentSchema {
     displayName: 'ekycTracking';
   };
   attributes: {
-    ekycTracking: Schema.Attribute.Component<
-      'quick-action.ekyc-procedure',
+    ekycTracking: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionEmailPolicyCopy extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_email_policy_copies';
+  info: {
+    displayName: 'emailPolicyCopy';
+  };
+  attributes: {
+    emailPolicyCopy: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionHealthCard extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_health_cards';
+  info: {
+    displayName: 'healthCard';
+  };
+  attributes: {
+    healthCard: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionImages extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_images';
+  info: {
+    displayName: 'images';
+  };
+  attributes: {
+    default: Schema.Attribute.String;
+    health: Schema.Attribute.String;
+    motor: Schema.Attribute.String;
+    pet: Schema.Attribute.String;
+  };
+}
+
+export interface QuickActionInstallmentPayment extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_installment_payments';
+  info: {
+    displayName: 'installmentPayment';
+  };
+  attributes: {
+    installmentPayment: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionInstallmentTracker extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_installment_trackers';
+  info: {
+    displayName: 'installmentTracker';
+  };
+  attributes: {
+    installmentTracker: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionKnowYourPolicy extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_know_your_policies';
+  info: {
+    displayName: 'knowYourPolicy';
+  };
+  attributes: {
+    knowYourPolicy: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionKyc extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_kycs';
+  info: {
+    displayName: 'kyc';
+  };
+  attributes: {
+    kyc: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionLinkEia extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_link_eias';
+  info: {
+    displayName: 'linkEia';
+  };
+  attributes: {
+    linkEia: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionMakePayments extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_make_payments';
+  info: {
+    displayName: 'makePayments';
+  };
+  attributes: {
+    makePayments: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionNoPolicy extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_no_policies';
+  info: {
+    displayName: 'noPolicy';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface QuickActionOdometerReadingUpload
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_odometer_reading_uploads';
+  info: {
+    displayName: 'odometerReadingUpload';
+  };
+  attributes: {
+    odometerReadingUpload: Schema.Attribute.Component<
+      'quick-action.card',
       false
     >;
+  };
+}
+
+export interface QuickActionPawsAndClaws extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_paws_and_claws';
+  info: {
+    displayName: 'paws&Claws';
+  };
+  attributes: {
+    pawsAndClaws: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionPolicyAlterations extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_policy_alterations';
+  info: {
+    displayName: 'policyAlterations';
+  };
+  attributes: {
+    policyAlterations: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionPolicyCancellationRequest
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_policy_cancellation_requests';
+  info: {
+    displayName: 'policyCancellationRequest';
+  };
+  attributes: {
+    policyCancellationRequest: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionPolicyDispatch extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_policy_dispatches';
+  info: {
+    displayName: 'policyDispatch';
+  };
+  attributes: {
+    policyDispatch: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionPolicySelectionCmsData
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_policy_selection_cms_data';
+  info: {
+    description: '';
+    displayName: 'policySelectionCmsData';
+  };
+  attributes: {
+    cannotSeePolicy: Schema.Attribute.String;
+    downloadPolicyRequest: Schema.Attribute.Component<
+      'quick-action.download-policy-request',
+      false
+    >;
+    images: Schema.Attribute.Component<'quick-action.images', false>;
+    noPolicy: Schema.Attribute.Component<'quick-action.no-policy', false>;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface QuickActionPreFilledClaimForm extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_pre_filled_claim_forms';
+  info: {
+    displayName: 'preFilledClaimForm';
+  };
+  attributes: {
+    preFilledClaimForm: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionPrePolicyReports extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_pre_policy_reports';
+  info: {
+    displayName: 'prePolicyReports';
+  };
+  attributes: {
+    prePolicyReports: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionPrevYearPolicy extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_prev_year_policies';
+  info: {
+    displayName: 'prevYearPolicy';
+  };
+  attributes: {
+    prevYearPolicy: Schema.Attribute.Component<'quick-action.card', false>;
   };
 }
 
@@ -2075,8 +2381,136 @@ export interface QuickActionQuickActionsDump extends Struct.ComponentSchema {
   info: {
     displayName: 'quickActionsDump';
   };
+  attributes: {};
+}
+
+export interface QuickActionRaiseQuery extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_raise_queries';
+  info: {
+    displayName: 'raiseQuery';
+  };
   attributes: {
-    eKyc: Schema.Attribute.Component<'quick-action.e-kyc', false>;
+    raiseQuery: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionRequestProposalForm extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_request_proposal_forms';
+  info: {
+    displayName: 'requestProposalForm';
+  };
+  attributes: {
+    requestProposalForm: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionReverificationNcbPyp
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_reverification_ncb_pyps';
+  info: {
+    displayName: 'reverificationNcbPyp';
+  };
+  attributes: {
+    reverificationNcbPyp: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionTaxCertificate extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_tax_certificates';
+  info: {
+    displayName: 'taxCertificate';
+  };
+  attributes: {
+    taxCertificate: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionTrackCancellationStatus
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_track_cancellation_statuses';
+  info: {
+    displayName: 'trackCancellationStatus';
+  };
+  attributes: {
+    trackCancellationStatus: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionTrackClaim extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_track_claims';
+  info: {
+    displayName: 'trackClaim';
+  };
+  attributes: {
+    trackClaim: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionTrackPremiumRecovery
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_track_premium_recoveries';
+  info: {
+    displayName: 'trackPremiumRecovery';
+  };
+  attributes: {
+    trackPremiumRecovery: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionTransferOfInsuranceMotor
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_transfer_of_insurance_motors';
+  info: {
+    displayName: 'transferOfInsuranceMotor';
+  };
+  attributes: {
+    transferOfInsuranceMotor: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionUpdateCardDetails extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_update_card_details';
+  info: {
+    displayName: 'UpdateCardDetails';
+  };
+  attributes: {
+    UpdateCardDetails: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionUpdateContactDetails
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_update_contact_details';
+  info: {
+    displayName: 'updateContactDetails';
+  };
+  attributes: {
+    updateContactDetails: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionUploadHealthDocs extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_upload_health_docs';
+  info: {
+    displayName: 'uploadHealthDocs';
+  };
+  attributes: {
+    uploadHealthDocs: Schema.Attribute.Component<'quick-action.card', false>;
   };
 }
 
@@ -2413,13 +2847,52 @@ declare module '@strapi/strapi' {
       'previous-year-policy-upload.status': PreviousYearPolicyUploadStatus;
       'previous-year-policy-upload.success': PreviousYearPolicyUploadSuccess;
       'previous-year-policy-upload.upload-section': PreviousYearPolicyUploadUploadSection;
+      'quick-action.add-account-details': QuickActionAddAccountDetails;
+      'quick-action.card': QuickActionCard;
+      'quick-action.change-request-form': QuickActionChangeRequestForm;
+      'quick-action.changes-in-policy-renewal': QuickActionChangesInPolicyRenewal;
+      'quick-action.checklist-for-change': QuickActionChecklistForChange;
+      'quick-action.claim-query': QuickActionClaimQuery;
+      'quick-action.claim-registration': QuickActionClaimRegistration;
       'quick-action.customer-due-diligence': QuickActionCustomerDueDiligence;
-      'quick-action.e-kyc': QuickActionEKyc;
+      'quick-action.deactivate-auto-renewal': QuickActionDeactivateAutoRenewal;
+      'quick-action.disease-disclosure': QuickActionDiseaseDisclosure;
+      'quick-action.download-policy-request': QuickActionDownloadPolicyRequest;
       'quick-action.ekyc-link': QuickActionEkycLink;
       'quick-action.ekyc-procedure': QuickActionEkycProcedure;
       'quick-action.ekyc-registration': QuickActionEkycRegistration;
       'quick-action.ekyc-tracking': QuickActionEkycTracking;
+      'quick-action.email-policy-copy': QuickActionEmailPolicyCopy;
+      'quick-action.health-card': QuickActionHealthCard;
+      'quick-action.images': QuickActionImages;
+      'quick-action.installment-payment': QuickActionInstallmentPayment;
+      'quick-action.installment-tracker': QuickActionInstallmentTracker;
+      'quick-action.know-your-policy': QuickActionKnowYourPolicy;
+      'quick-action.kyc': QuickActionKyc;
+      'quick-action.link-eia': QuickActionLinkEia;
+      'quick-action.make-payments': QuickActionMakePayments;
+      'quick-action.no-policy': QuickActionNoPolicy;
+      'quick-action.odometer-reading-upload': QuickActionOdometerReadingUpload;
+      'quick-action.paws-and-claws': QuickActionPawsAndClaws;
+      'quick-action.policy-alterations': QuickActionPolicyAlterations;
+      'quick-action.policy-cancellation-request': QuickActionPolicyCancellationRequest;
+      'quick-action.policy-dispatch': QuickActionPolicyDispatch;
+      'quick-action.policy-selection-cms-data': QuickActionPolicySelectionCmsData;
+      'quick-action.pre-filled-claim-form': QuickActionPreFilledClaimForm;
+      'quick-action.pre-policy-reports': QuickActionPrePolicyReports;
+      'quick-action.prev-year-policy': QuickActionPrevYearPolicy;
       'quick-action.quick-actions-dump': QuickActionQuickActionsDump;
+      'quick-action.raise-query': QuickActionRaiseQuery;
+      'quick-action.request-proposal-form': QuickActionRequestProposalForm;
+      'quick-action.reverification-ncb-pyp': QuickActionReverificationNcbPyp;
+      'quick-action.tax-certificate': QuickActionTaxCertificate;
+      'quick-action.track-cancellation-status': QuickActionTrackCancellationStatus;
+      'quick-action.track-claim': QuickActionTrackClaim;
+      'quick-action.track-premium-recovery': QuickActionTrackPremiumRecovery;
+      'quick-action.transfer-of-insurance-motor': QuickActionTransferOfInsuranceMotor;
+      'quick-action.update-card-details': QuickActionUpdateCardDetails;
+      'quick-action.update-contact-details': QuickActionUpdateContactDetails;
+      'quick-action.upload-health-docs': QuickActionUploadHealthDocs;
       'shared.bottom': SharedBottom;
       'shared.bottom-cards': SharedBottomCards;
       'shared.cards': SharedCards;

@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_request_proposal_forms",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "requestProposalForm"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "requestProposalForm": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

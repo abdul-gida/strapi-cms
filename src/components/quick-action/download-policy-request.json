@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_quick_action_download_policy_requests",
+  "info": {
+    "displayName": "downloadPolicyRequest"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

@@ -8,7 +8,7 @@
     "ekycLink": {
       "type": "component",
       "repeatable": false,
-      "component": "quick-action.ekyc-procedure"
+      "component": "quick-action.card"
     }
   }
 }

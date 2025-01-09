@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_change_request_forms",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "changeRequestForm"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "changeRequestForm": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

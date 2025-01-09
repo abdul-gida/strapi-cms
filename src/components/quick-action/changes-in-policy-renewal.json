@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_changes_in_policy_renewals",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "changesInPolicyRenewal"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "changesInPolicyRenewal": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

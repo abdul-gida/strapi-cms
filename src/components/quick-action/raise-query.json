@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_raise_queries",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "raiseQuery"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "raiseQuery": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

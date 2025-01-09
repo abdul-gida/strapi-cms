@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_installment_trackers",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "installmentTracker"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "installmentTracker": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

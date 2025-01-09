@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_paws_and_claws",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "paws&Claws"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "pawsAndClaws": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

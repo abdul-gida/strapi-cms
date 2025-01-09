@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_update_contact_details",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "updateContactDetails"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "updateContactDetails": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

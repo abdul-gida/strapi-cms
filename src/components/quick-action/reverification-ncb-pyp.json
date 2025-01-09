@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_reverification_ncb_pyps",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "reverificationNcbPyp"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "reverificationNcbPyp": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

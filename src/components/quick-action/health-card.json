@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_health_cards",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "healthCard"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "healthCard": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

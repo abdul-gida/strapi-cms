@@ -1,11 +1,11 @@
 {
-  "collectionName": "components_quick_action_ekyc_trackings",
+  "collectionName": "components_quick_action_deactivate_auto_renewals",
   "info": {
-    "displayName": "ekycTracking"
+    "displayName": "deactivateAutoRenewal"
   },
   "options": {},
   "attributes": {
-    "ekycTracking": {
+    "deactivateAutoRenewal": {
       "type": "component",
       "repeatable": false,
       "component": "quick-action.card"

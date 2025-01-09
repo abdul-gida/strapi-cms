@@ -5,21 +5,10 @@
   },
   "options": {},
   "attributes": {
-    "key": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "imageUrl": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
+    "ekycProcedure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
     }
   }
 }
