@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_generate_ekyc_ekyc_detail_cms",
+  "info": {
+    "displayName": "ekycDetailCms"
+  },
+  "options": {},
+  "attributes": {
+    "panLabel": {
+      "type": "string"
+    },
+    "dobLabel": {
+      "type": "string"
+    },
+    "clickText": {
+      "type": "string"
+    },
+    "panPlaceHolder": {
+      "type": "string"
+    },
+    "dobPlaceHolder": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "calendar": {
+      "displayName": "calendar",
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.calendar"
+    },
+    "clickHereText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ekyc_track_error_pop_ups",
+  "info": {
+    "displayName": "errorPopUp"
+  },
+  "options": {},
+  "attributes": {
+    "server": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.fetch-error"
+    },
+    "fetch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.fetch-error"
+    }
+  }
+}

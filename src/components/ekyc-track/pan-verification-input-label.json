@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ekyc_track_pan_verification_input_labels",
+  "info": {
+    "displayName": "panVerificationInputLabel"
+  },
+  "options": {},
+  "attributes": {
+    "panInput": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.title-and-description"
+    },
+    "dobInput": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.dob-input"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_generate_ekyc_pan_cards",
+  "info": {
+    "displayName": "PanCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.yes-no-option"
+    },
+    "no": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.yes-no-option"
+    }
+  }
+}

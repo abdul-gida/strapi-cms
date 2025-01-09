@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_generate_ekyc_occupation_inputs",
+  "info": {
+    "displayName": "occupationInput"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "sheetTitle": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "Placeholder": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_customer_due_diligence_is_politically_exposeds",
+  "info": {
+    "displayName": "isPoliticallyExposed"
+  },
+  "options": {},
+  "attributes": {
+    "isPoliticallyExposed": {
+      "type": "component",
+      "repeatable": false,
+      "component": "customer-due-diligence.nationality"
+    }
+  }
+}

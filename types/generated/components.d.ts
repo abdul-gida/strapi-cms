@@ -804,6 +804,144 @@ export interface MotorTrackSomethingWentWrong extends Struct.ComponentSchema {
   };
 }
 
+export interface PreviousYearPolicyUploadFailure
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_failures';
+  info: {
+    description: '';
+    displayName: 'failure';
+  };
+  attributes: {
+    btnText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    queryWidget: Schema.Attribute.Component<
+      'previous-year-policy-upload.query-widget',
+      false
+    >;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PreviousYearPolicyUploadHeader extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_headers';
+  info: {
+    displayName: 'header';
+  };
+  attributes: {
+    sectionTopHEader: Schema.Attribute.Component<
+      'previous-year-policy-upload.section-top-h-eader',
+      false
+    >;
+  };
+}
+
+export interface PreviousYearPolicyUploadPreviousYearPolicyUpload
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_previous_year_policy_uploads';
+  info: {
+    description: '';
+    displayName: 'previous-year-policy-upload';
+  };
+  attributes: {
+    header: Schema.Attribute.Component<
+      'previous-year-policy-upload.header',
+      false
+    >;
+    remarks: Schema.Attribute.Component<
+      'previous-year-policy-upload.remarks',
+      false
+    >;
+    statuses: Schema.Attribute.Component<
+      'previous-year-policy-upload.status',
+      false
+    >;
+    uploadSection: Schema.Attribute.Component<
+      'previous-year-policy-upload.upload-section',
+      false
+    >;
+  };
+}
+
+export interface PreviousYearPolicyUploadQueryWidget
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_query_widgets';
+  info: {
+    displayName: 'queryWidget';
+  };
+  attributes: {
+    contactText: Schema.Attribute.String;
+    mail: Schema.Attribute.String;
+  };
+}
+
+export interface PreviousYearPolicyUploadRemarks
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_remarks';
+  info: {
+    displayName: 'remarks';
+  };
+  attributes: {
+    placeholder: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PreviousYearPolicyUploadSectionTopHEader
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_section_top_h_eaders';
+  info: {
+    displayName: 'sectionTopHEader';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PreviousYearPolicyUploadStatus extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_statuses';
+  info: {
+    description: '';
+    displayName: 'status';
+  };
+  attributes: {
+    failure: Schema.Attribute.Component<
+      'previous-year-policy-upload.failure',
+      false
+    >;
+    success: Schema.Attribute.Component<
+      'previous-year-policy-upload.success',
+      false
+    >;
+  };
+}
+
+export interface PreviousYearPolicyUploadSuccess
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_successes';
+  info: {
+    displayName: 'success';
+  };
+  attributes: {
+    btnText: Schema.Attribute.String;
+    copyPrefix: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PreviousYearPolicyUploadUploadSection
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_upload_sections';
+  info: {
+    displayName: 'uploadSection';
+  };
+  attributes: {
+    btn: Schema.Attribute.String;
+    header: Schema.Attribute.String;
+  };
+}
+
 export interface QuickActionCustomerDueDiligence
   extends Struct.ComponentSchema {
   collectionName: 'components_quick_action_customer_due_diligences';

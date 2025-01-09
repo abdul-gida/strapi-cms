@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_generate_ekyc_correspondence_addresses",
+  "info": {
+    "displayName": "correspondenceAddress"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "placeHolder": {
+      "type": "string"
+    }
+  }
+}

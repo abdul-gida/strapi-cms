@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_ekyc_track_label_and_placeholders",
+  "info": {
+    "displayName": "labelAndPlaceholder"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeHolder": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ekyc_track_statuses",
+  "info": {
+    "displayName": "statuses"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "btnDisp": {
+      "type": "string"
+    },
+    "btnLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_generate_ekyc_cms_gobacks",
+  "info": {
+    "displayName": "cmsGoback"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "cancelButtonText": {
+      "type": "string"
+    },
+    "gobackButtonText": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

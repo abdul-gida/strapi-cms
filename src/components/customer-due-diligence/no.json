@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_customer_due_diligence_nos",
+  "info": {
+    "displayName": "No"
+  },
+  "options": {},
+  "attributes": {
+    "No": {
+      "type": "component",
+      "repeatable": false,
+      "component": "customer-due-diligence.title"
+    }
+  }
+}

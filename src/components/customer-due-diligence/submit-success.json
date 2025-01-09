@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_customer_due_diligence_submit_successes",
+  "info": {
+    "displayName": "submitSuccess",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

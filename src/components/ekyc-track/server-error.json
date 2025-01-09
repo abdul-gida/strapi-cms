@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ekyc_track_server_errors",
+  "info": {
+    "displayName": "serverError"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "button1": {
+      "type": "string"
+    }
+  }
+}

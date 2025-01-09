@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_customer_due_diligence_ekyc_details",
+  "info": {
+    "displayName": "ekycDetails"
+  },
+  "options": {},
+  "attributes": {
+    "ekycIdTitle": {
+      "type": "string"
+    },
+    "panTitle": {
+      "type": "string"
+    },
+    "nameTitle": {
+      "type": "string"
+    },
+    "cKycTile": {
+      "type": "string"
+    }
+  }
+}

@@ -1016,6 +1016,39 @@ export interface ApiOldArticleOldArticle extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiPreviousYearPolicyUploadPreviousYearPolicyUpload
+  extends Struct.SingleTypeSchema {
+  collectionName: 'previous_year_policy_uploads';
+  info: {
+    description: '';
+    displayName: 'previous-year-policy-upload';
+    pluralName: 'previous-year-policy-uploads';
+    singularName: 'previous-year-policy-upload';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::previous-year-policy-upload.previous-year-policy-upload'
+    > &
+      Schema.Attribute.Private;
+    previousYearPolicyDump: Schema.Attribute.Component<
+      'previous-year-policy-upload.previous-year-policy-upload',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiQuickActionQuickAction extends Struct.SingleTypeSchema {
   collectionName: 'quick_actions';
   info: {

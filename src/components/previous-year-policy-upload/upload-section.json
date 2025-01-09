@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_previous_year_policy_upload_upload_sections",
+  "info": {
+    "displayName": "uploadSection"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "btn": {
+      "type": "string"
+    }
+  }
+}

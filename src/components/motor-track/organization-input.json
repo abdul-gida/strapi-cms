@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_motor_track_organization_inputs",
+  "info": {
+    "displayName": "OrganizationInput"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "sheetTitle": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "Placeholder": {
+      "type": "string"
+    }
+  }
+}

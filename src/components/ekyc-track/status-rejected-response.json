@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_ekyc_track_status_rejected_responses",
+  "info": {
+    "displayName": "statusResponse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "kycStatus": {
+      "type": "string"
+    },
+    "pan": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "ekycId": {
+      "type": "string"
+    },
+    "ckycNo": {
+      "type": "string"
+    },
+    "aadhar": {
+      "type": "string"
+    },
+    "rejectionReason": {
+      "type": "string"
+    }
+  }
+}

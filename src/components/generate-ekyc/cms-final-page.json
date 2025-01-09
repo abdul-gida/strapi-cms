@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_generate_ekyc_cms_final_pages",
+  "info": {
+    "displayName": "cmsFinalPage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "ekycText": {
+      "type": "string"
+    },
+    "successImageUrl": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}

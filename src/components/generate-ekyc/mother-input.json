@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_generate_ekyc_mother_inputs",
+  "info": {
+    "displayName": "motherInput"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "placeHolder": {
+      "type": "string"
+    }
+  }
+}

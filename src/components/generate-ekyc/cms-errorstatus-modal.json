@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_generate_ekyc_cms_errorstatus_modals",
+  "info": {
+    "displayName": "cmsErrorstatusModal"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

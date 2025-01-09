@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ekyc_track_aadhar_verification_input_labels",
+  "info": {
+    "displayName": "aadharVerificationInputLabel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "aadharInput": {
+      "displayName": "aadharInput",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.aadhar-input"
+    },
+    "dobInput": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.dob-input"
+    }
+  }
+}

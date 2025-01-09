@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_hello_randoms",
+  "info": {
+    "displayName": "random"
+  },
+  "options": {},
+  "attributes": {
+    "kycStatus": {
+      "type": "string"
+    }
+  }
+}
