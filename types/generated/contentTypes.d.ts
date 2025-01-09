@@ -631,6 +631,38 @@ export interface ApiCustomerDueDiligenceCustomerDueDiligence
   };
 }
 
+export interface ApiDashboardDashboard extends Struct.SingleTypeSchema {
+  collectionName: 'dashboards';
+  info: {
+    description: '';
+    displayName: 'Dashboard';
+    pluralName: 'dashboards';
+    singularName: 'dashboard';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    dashboardCmsData: Schema.Attribute.Component<
+      'dashboard.dashboard-cms-data',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::dashboard.dashboard'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiEKycProcedureEKycProcedure extends Struct.SingleTypeSchema {
   collectionName: 'e_kyc_procedures';
   info: {
@@ -1186,6 +1218,39 @@ export interface ApiOldArticleOldArticle extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiPolicySelectionPolicySelection
+  extends Struct.SingleTypeSchema {
+  collectionName: 'policy_selections';
+  info: {
+    description: '';
+    displayName: 'Policy-selection';
+    pluralName: 'policy-selections';
+    singularName: 'policy-selection';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::policy-selection.policy-selection'
+    > &
+      Schema.Attribute.Private;
+    policySelectionCmsData: Schema.Attribute.Component<
+      'policy-selection.policy-selection-cms-data',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiPreviousYearPolicyUploadPreviousYearPolicyUpload
   extends Struct.SingleTypeSchema {
   collectionName: 'previous_year_policy_uploads';
@@ -1296,10 +1361,6 @@ export interface ApiQuickActionQuickAction extends Struct.SingleTypeSchema {
       ['quick-action.changes-in-policy-renewal']
     >;
     policyRenewalTitle: Schema.Attribute.String;
-    policySelectionCmsData: Schema.Attribute.Component<
-      'quick-action.policy-selection-cms-data',
-      false
-    >;
     policyServicingCard: Schema.Attribute.DynamicZone<
       [
         'quick-action.update-contact-details',
@@ -1838,6 +1899,7 @@ declare module '@strapi/strapi' {
       'api::author.author': ApiAuthorAuthor;
       'api::category.category': ApiCategoryCategory;
       'api::customer-due-diligence.customer-due-diligence': ApiCustomerDueDiligenceCustomerDueDiligence;
+      'api::dashboard.dashboard': ApiDashboardDashboard;
       'api::e-kyc-procedure.e-kyc-procedure': ApiEKycProcedureEKycProcedure;
       'api::ekyc-track.ekyc-track': ApiEkycTrackEkycTrack;
       'api::generate-ekyc.generate-ekyc': ApiGenerateEkycGenerateEkyc;
@@ -1849,6 +1911,7 @@ declare module '@strapi/strapi' {
       'api::motor-renewal.motor-renewal': ApiMotorRenewalMotorRenewal;
       'api::motor-track.motor-track': ApiMotorTrackMotorTrack;
       'api::old-article.old-article': ApiOldArticleOldArticle;
+      'api::policy-selection.policy-selection': ApiPolicySelectionPolicySelection;
       'api::previous-year-policy-upload.previous-year-policy-upload': ApiPreviousYearPolicyUploadPreviousYearPolicyUpload;
       'api::quick-action.quick-action': ApiQuickActionQuickAction;
       'plugin::content-releases.release': PluginContentReleasesRelease;

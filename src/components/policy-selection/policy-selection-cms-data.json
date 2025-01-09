@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_quick_action_policy_selection_cms_data",
+  "collectionName": "components_policy_selection_policy_selection_cms_data",
   "info": {
     "displayName": "policySelectionCmsData",
     "description": ""
@@ -16,22 +16,21 @@
       "type": "string"
     },
     "noPolicy": {
-      "displayName": "noPolicy",
       "type": "component",
       "repeatable": false,
-      "component": "quick-action.no-policy"
+      "component": "policy-selection.no-policy"
     },
     "images": {
       "displayName": "images",
       "type": "component",
       "repeatable": false,
-      "component": "quick-action.images"
+      "component": "policy-selection.images"
     },
     "downloadPolicyRequest": {
       "displayName": "downloadPolicyRequest",
       "type": "component",
       "repeatable": false,
-      "component": "quick-action.download-policy-request"
+      "component": "policy-selection.download-policy-request"
     }
   }
 }

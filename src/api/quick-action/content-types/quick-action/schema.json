@@ -115,12 +115,6 @@
       "components": [
         "quick-action.raise-query"
       ]
-    },
-    "policySelectionCmsData": {
-      "displayName": "policySelectionCmsData",
-      "type": "component",
-      "repeatable": false,
-      "component": "quick-action.policy-selection-cms-data"
     }
   }
 }

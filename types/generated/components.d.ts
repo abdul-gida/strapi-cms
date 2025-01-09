@@ -305,6 +305,43 @@ export interface CustomerDueDiligenceYes extends Struct.ComponentSchema {
   };
 }
 
+export interface DashboardCardAlignment extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_card_alignments';
+  info: {
+    displayName: 'cardAlignment';
+  };
+  attributes: {
+    desktopAlignment: Schema.Attribute.String;
+    mobileAlignment: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardDashboardCmsData extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_dashboard_cms_data';
+  info: {
+    description: '';
+    displayName: 'dashboardCmsData';
+  };
+  attributes: {
+    bottomCount: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    buyInsurance: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    connect: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    ecosystem: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    explore: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    fourwheeler: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    latest: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    needsYourAttention: Schema.Attribute.Component<
+      'dashboard.card-alignment',
+      false
+    >;
+    newsletter: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    quickActions: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    scan: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    support: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+  };
+}
+
 export interface EkycTrackAadharInput extends Struct.ComponentSchema {
   collectionName: 'components_ekyc_track_aadhar_inputs';
   info: {
@@ -1857,6 +1894,66 @@ export interface MotorTrackSomethingWentWrong extends Struct.ComponentSchema {
   };
 }
 
+export interface PolicySelectionDownloadPolicyRequest
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_selection_download_policy_requests';
+  info: {
+    displayName: 'downloadPolicyRequest';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicySelectionImages extends Struct.ComponentSchema {
+  collectionName: 'components_policy_selection_images';
+  info: {
+    displayName: 'images';
+  };
+  attributes: {
+    default: Schema.Attribute.String;
+    health: Schema.Attribute.String;
+    motor: Schema.Attribute.String;
+    pet: Schema.Attribute.String;
+  };
+}
+
+export interface PolicySelectionNoPolicy extends Struct.ComponentSchema {
+  collectionName: 'components_policy_selection_no_policies';
+  info: {
+    description: '';
+    displayName: 'noPolicy';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicySelectionPolicySelectionCmsData
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_selection_policy_selection_cms_data';
+  info: {
+    description: '';
+    displayName: 'policySelectionCmsData';
+  };
+  attributes: {
+    cannotSeePolicy: Schema.Attribute.String;
+    downloadPolicyRequest: Schema.Attribute.Component<
+      'policy-selection.download-policy-request',
+      false
+    >;
+    images: Schema.Attribute.Component<'policy-selection.images', false>;
+    noPolicy: Schema.Attribute.Component<'policy-selection.no-policy', false>;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface PreviousYearPolicyUploadFailure
   extends Struct.ComponentSchema {
   collectionName: 'components_previous_year_policy_upload_failures';
@@ -2109,19 +2206,6 @@ export interface QuickActionDiseaseDisclosure extends Struct.ComponentSchema {
   };
 }
 
-export interface QuickActionDownloadPolicyRequest
-  extends Struct.ComponentSchema {
-  collectionName: 'components_quick_action_download_policy_requests';
-  info: {
-    displayName: 'downloadPolicyRequest';
-  };
-  attributes: {
-    description: Schema.Attribute.String;
-    imageUrl: Schema.Attribute.String;
-    title: Schema.Attribute.String;
-  };
-}
-
 export interface QuickActionEkycLink extends Struct.ComponentSchema {
   collectionName: 'components_quick_action_ekyc_links';
   info: {
@@ -2179,19 +2263,6 @@ export interface QuickActionHealthCard extends Struct.ComponentSchema {
   };
   attributes: {
     healthCard: Schema.Attribute.Component<'quick-action.card', false>;
-  };
-}
-
-export interface QuickActionImages extends Struct.ComponentSchema {
-  collectionName: 'components_quick_action_images';
-  info: {
-    displayName: 'images';
-  };
-  attributes: {
-    default: Schema.Attribute.String;
-    health: Schema.Attribute.String;
-    motor: Schema.Attribute.String;
-    pet: Schema.Attribute.String;
   };
 }
 
@@ -2255,19 +2326,6 @@ export interface QuickActionMakePayments extends Struct.ComponentSchema {
   };
 }
 
-export interface QuickActionNoPolicy extends Struct.ComponentSchema {
-  collectionName: 'components_quick_action_no_policies';
-  info: {
-    displayName: 'noPolicy';
-  };
-  attributes: {
-    buttonText: Schema.Attribute.String;
-    description: Schema.Attribute.String;
-    imageUrl: Schema.Attribute.String;
-    title: Schema.Attribute.String;
-  };
-}
-
 export interface QuickActionOdometerReadingUpload
   extends Struct.ComponentSchema {
   collectionName: 'components_quick_action_odometer_reading_uploads';
@@ -2323,26 +2381,6 @@ export interface QuickActionPolicyDispatch extends Struct.ComponentSchema {
   };
   attributes: {
     policyDispatch: Schema.Attribute.Component<'quick-action.card', false>;
-  };
-}
-
-export interface QuickActionPolicySelectionCmsData
-  extends Struct.ComponentSchema {
-  collectionName: 'components_quick_action_policy_selection_cms_data';
-  info: {
-    description: '';
-    displayName: 'policySelectionCmsData';
-  };
-  attributes: {
-    cannotSeePolicy: Schema.Attribute.String;
-    downloadPolicyRequest: Schema.Attribute.Component<
-      'quick-action.download-policy-request',
-      false
-    >;
-    images: Schema.Attribute.Component<'quick-action.images', false>;
-    noPolicy: Schema.Attribute.Component<'quick-action.no-policy', false>;
-    subtitle: Schema.Attribute.String;
-    title: Schema.Attribute.String;
   };
 }
 
@@ -2729,6 +2767,8 @@ declare module '@strapi/strapi' {
       'customer-due-diligence.tip-info': CustomerDueDiligenceTipInfo;
       'customer-due-diligence.title': CustomerDueDiligenceTitle;
       'customer-due-diligence.yes': CustomerDueDiligenceYes;
+      'dashboard.card-alignment': DashboardCardAlignment;
+      'dashboard.dashboard-cms-data': DashboardDashboardCmsData;
       'ekyc-track.aadhar-input': EkycTrackAadharInput;
       'ekyc-track.aadhar-verification': EkycTrackAadharVerification;
       'ekyc-track.aadhar-verification-error': EkycTrackAadharVerificationError;
@@ -2838,6 +2878,10 @@ declare module '@strapi/strapi' {
       'motor-track.query-text': MotorTrackQueryText;
       'motor-track.query-widget': MotorTrackQueryWidget;
       'motor-track.something-went-wrong': MotorTrackSomethingWentWrong;
+      'policy-selection.download-policy-request': PolicySelectionDownloadPolicyRequest;
+      'policy-selection.images': PolicySelectionImages;
+      'policy-selection.no-policy': PolicySelectionNoPolicy;
+      'policy-selection.policy-selection-cms-data': PolicySelectionPolicySelectionCmsData;
       'previous-year-policy-upload.failure': PreviousYearPolicyUploadFailure;
       'previous-year-policy-upload.header': PreviousYearPolicyUploadHeader;
       'previous-year-policy-upload.previous-year-policy-upload': PreviousYearPolicyUploadPreviousYearPolicyUpload;
@@ -2857,27 +2901,23 @@ declare module '@strapi/strapi' {
       'quick-action.customer-due-diligence': QuickActionCustomerDueDiligence;
       'quick-action.deactivate-auto-renewal': QuickActionDeactivateAutoRenewal;
       'quick-action.disease-disclosure': QuickActionDiseaseDisclosure;
-      'quick-action.download-policy-request': QuickActionDownloadPolicyRequest;
       'quick-action.ekyc-link': QuickActionEkycLink;
       'quick-action.ekyc-procedure': QuickActionEkycProcedure;
       'quick-action.ekyc-registration': QuickActionEkycRegistration;
       'quick-action.ekyc-tracking': QuickActionEkycTracking;
       'quick-action.email-policy-copy': QuickActionEmailPolicyCopy;
       'quick-action.health-card': QuickActionHealthCard;
-      'quick-action.images': QuickActionImages;
       'quick-action.installment-payment': QuickActionInstallmentPayment;
       'quick-action.installment-tracker': QuickActionInstallmentTracker;
       'quick-action.know-your-policy': QuickActionKnowYourPolicy;
       'quick-action.kyc': QuickActionKyc;
       'quick-action.link-eia': QuickActionLinkEia;
       'quick-action.make-payments': QuickActionMakePayments;
-      'quick-action.no-policy': QuickActionNoPolicy;
       'quick-action.odometer-reading-upload': QuickActionOdometerReadingUpload;
       'quick-action.paws-and-claws': QuickActionPawsAndClaws;
       'quick-action.policy-alterations': QuickActionPolicyAlterations;
       'quick-action.policy-cancellation-request': QuickActionPolicyCancellationRequest;
       'quick-action.policy-dispatch': QuickActionPolicyDispatch;
-      'quick-action.policy-selection-cms-data': QuickActionPolicySelectionCmsData;
       'quick-action.pre-filled-claim-form': QuickActionPreFilledClaimForm;
       'quick-action.pre-policy-reports': QuickActionPrePolicyReports;
       'quick-action.prev-year-policy': QuickActionPrevYearPolicy;
