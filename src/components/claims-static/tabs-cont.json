@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_claims_static_tabs_conts",
+  "info": {
+    "displayName": "TabsCont",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabsClaimPage": {
+      "displayName": "tabsClaimPage",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims.tabs-claim-page"
+    },
+    "awardCont": {
+      "displayName": "award-cont",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.award-cont"
+    }
+  }
+}

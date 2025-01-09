@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_claims_static_reimbursement_steps",
+  "info": {
+    "displayName": "reimbursementSteps"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "infoCont": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.info-cont"
+    }
+  }
+}

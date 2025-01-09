@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_claims_static_award_conts",
+  "info": {
+    "displayName": "award-cont"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "displayName": "heading",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.heading"
+    },
+    "subheading": {
+      "type": "string"
+    }
+  }
+}

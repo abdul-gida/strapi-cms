@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_claims_static_rainfall_index_insurance_dumps",
+  "info": {
+    "displayName": "rainfallIndexInsuranceDump"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.heading-claim"
+    },
+    "rainfallInsuranceBulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.document-checklist"
+    }
+  }
+}

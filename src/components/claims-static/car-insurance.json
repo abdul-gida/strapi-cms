@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_claims_static_car_insurances",
+  "info": {
+    "displayName": "carInsurance"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.heading-claim"
+    },
+    "claimSectionHeading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.section-heading"
+    },
+    "cashlessBulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.document-checklist"
+    },
+    "reimbursmentBulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.document-checklist"
+    }
+  }
+}

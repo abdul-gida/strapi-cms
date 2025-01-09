@@ -4,7 +4,8 @@
   "info": {
     "singularName": "claim",
     "pluralName": "claims",
-    "displayName": "Claims"
+    "displayName": "Claims-static",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,96 @@
       "type": "component",
       "repeatable": false,
       "component": "claims.banner"
+    },
+    "claimsBanner": {
+      "displayName": "Claim Banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims.claim-banner"
+    },
+    "TabsCont": {
+      "displayName": "TabsCont",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.tabs-cont"
+    },
+    "healthInsurance": {
+      "displayName": "healthInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.health-insurance"
+    },
+    "twoWheelerInsurance": {
+      "displayName": "twoWheelerInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.two-wheeler-insurance"
+    },
+    "carInsurance": {
+      "displayName": "carInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.car-insurance"
+    },
+    "criticalIlnessInsurance": {
+      "displayName": "criticalIlnessInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.critical-ilness-insurance"
+    },
+    "travelInsurance": {
+      "displayName": "travelInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.travel-insurance"
+    },
+    "personalAccidentInsurance": {
+      "displayName": "personalAccidentInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.personal-accident-insurance"
+    },
+    "groupMedicalInsurance": {
+      "displayName": "groupMedicalInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.group-medical-insurance"
+    },
+    "groupTravelInsurance": {
+      "displayName": "groupTravelInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.group-travel-insurance"
+    },
+    "groupPersonalInsurance": {
+      "displayName": "groupPersonalInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.group-personal-insurance"
+    },
+    "marineHullInsurance": {
+      "displayName": "marineHullInsuranceDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.marine-hull-insurance-dump"
+    },
+    "kidnapExtortionInsuranceDump": {
+      "displayName": "kidnapExtortionInsuranceDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.kidnap-extortion-insurance-dump"
+    },
+    "cattleInsurance": {
+      "displayName": "cattleInsuranceDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.cattle-insurance-dump"
+    },
+    "rainfallIndexInsurance": {
+      "displayName": "rainfallIndexInsuranceDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.rainfall-index-insurance-dump"
     }
   }
 }

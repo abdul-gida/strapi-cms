@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_claims_static_two_wheeler_insurances",
+  "info": {
+    "displayName": "twoWheelerInsurance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.heading-claim"
+    },
+    "sectionHeading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.section-heading"
+    },
+    "cashlessBulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.document-checklist"
+    },
+    "reimbursmentBulletPoints": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.document-checklist"
+    }
+  }
+}
