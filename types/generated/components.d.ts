@@ -84,6 +84,1027 @@ export interface ArticleComponentsVideoUrl extends Struct.ComponentSchema {
   };
 }
 
+export interface CustomerDueDiligenceAnnualIncome
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_annual_incomes';
+  info: {
+    displayName: 'annualIncome';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    optionsKey: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceCustomerDueDiligence
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_customer_due_diligences';
+  info: {
+    displayName: 'customerDueDiligence';
+  };
+  attributes: {
+    backButton: Schema.Attribute.String;
+    dashboardButtonText: Schema.Attribute.String;
+    submitText: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceEkycDetails
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_ekyc_details';
+  info: {
+    displayName: 'ekycDetails';
+  };
+  attributes: {
+    cKycTile: Schema.Attribute.String;
+    ekycIdTitle: Schema.Attribute.String;
+    nameTitle: Schema.Attribute.String;
+    panTitle: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceIndian extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_indians';
+  info: {
+    displayName: 'Indian';
+  };
+  attributes: {
+    Indian: Schema.Attribute.Component<'customer-due-diligence.title', false>;
+  };
+}
+
+export interface CustomerDueDiligenceIsPoliticallyExposed
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_is_politically_exposeds';
+  info: {
+    displayName: 'isPoliticallyExposed';
+  };
+  attributes: {
+    isPoliticallyExposed: Schema.Attribute.Component<
+      'customer-due-diligence.nationality',
+      false
+    >;
+  };
+}
+
+export interface CustomerDueDiligenceMaritalStatus
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_marital_statuses';
+  info: {
+    displayName: 'maritalStatus';
+  };
+  attributes: {
+    maritalStatus: Schema.Attribute.Component<
+      'customer-due-diligence.annual-income',
+      false
+    >;
+  };
+}
+
+export interface CustomerDueDiligenceMothersName
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_mothers_names';
+  info: {
+    displayName: 'mothersName';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceNationality
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_nationalities';
+  info: {
+    displayName: 'nationality';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceNo extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_nos';
+  info: {
+    displayName: 'No';
+  };
+  attributes: {
+    No: Schema.Attribute.Component<'customer-due-diligence.title', false>;
+  };
+}
+
+export interface CustomerDueDiligenceOccupation extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_occupations';
+  info: {
+    displayName: 'occupation';
+  };
+  attributes: {
+    occupation: Schema.Attribute.Component<
+      'customer-due-diligence.annual-income',
+      false
+    >;
+  };
+}
+
+export interface CustomerDueDiligenceOrganizationType
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_organization_types';
+  info: {
+    displayName: 'organizationType';
+  };
+  attributes: {
+    organizationType: Schema.Attribute.Component<
+      'customer-due-diligence.annual-income',
+      false
+    >;
+  };
+}
+
+export interface CustomerDueDiligenceQueryWidget
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_query_widgets';
+  info: {
+    description: '';
+    displayName: 'queryWidget';
+  };
+  attributes: {
+    contactMail: Schema.Attribute.Email;
+    contactText: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceServerError
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_server_errors';
+  info: {
+    description: '';
+    displayName: 'serverError';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    primaryButtonText: Schema.Attribute.String;
+    queryWidget: Schema.Attribute.Component<
+      'customer-due-diligence.query-widget',
+      false
+    >;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceSubmitSuccess
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_submit_successes';
+  info: {
+    description: '';
+    displayName: 'submitSuccess';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    primaryButtonText: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceTipInfo extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_tip_infos';
+  info: {
+    displayName: 'tipInfo';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceTitle extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_titles';
+  info: {
+    description: '';
+    displayName: 'nri';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceYes extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_yeses';
+  info: {
+    displayName: 'Yes';
+  };
+  attributes: {
+    Yes: Schema.Attribute.Component<'customer-due-diligence.title', false>;
+  };
+}
+
+export interface EkycTrackAadharInput extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_aadhar_inputs';
+  info: {
+    displayName: 'aadharInput';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeholder: Schema.Attribute.String;
+    prefix: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackAadharVerification extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_aadhar_verifications';
+  info: {
+    description: '';
+    displayName: 'aadharVerification';
+  };
+  attributes: {
+    error: Schema.Attribute.Component<
+      'ekyc-track.aadhar-verification-error',
+      false
+    >;
+    header: Schema.Attribute.Component<
+      'ekyc-track.title-and-description',
+      false
+    >;
+    InputLabel: Schema.Attribute.Component<
+      'ekyc-track.aadhar-verification-input-label',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackAadharVerificationError
+  extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_aadhar_verification_errors';
+  info: {
+    description: '';
+    displayName: 'aadharVerificationError';
+  };
+  attributes: {
+    fetchError: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+    serverError: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+  };
+}
+
+export interface EkycTrackAadharVerificationInputLabel
+  extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_aadhar_verification_input_labels';
+  info: {
+    description: '';
+    displayName: 'aadharVerificationInputLabel';
+  };
+  attributes: {
+    aadharInput: Schema.Attribute.Component<'ekyc-track.aadhar-input', false>;
+    dobInput: Schema.Attribute.Component<'ekyc-track.dob-input', false>;
+  };
+}
+
+export interface EkycTrackBottomSectin extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_bottom_sectins';
+  info: {
+    displayName: 'bottomSectin';
+  };
+  attributes: {
+    subTitile: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackBottomSection extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_bottom_sections';
+  info: {
+    description: '';
+    displayName: 'bottomSection';
+  };
+  attributes: {
+    Approved: Schema.Attribute.Component<'ekyc-track.statuses', false>;
+    Pending: Schema.Attribute.Component<'ekyc-track.pending', false>;
+    Rejected: Schema.Attribute.Component<'ekyc-track.statuses', false>;
+  };
+}
+
+export interface EkycTrackCardsData extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_cards_data';
+  info: {
+    displayName: 'cardsData';
+  };
+  attributes: {
+    cardInfo: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackClaimIdVerification extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_claim_id_verifications';
+  info: {
+    description: '';
+    displayName: 'claimIdVerification';
+  };
+  attributes: {
+    error: Schema.Attribute.Component<'ekyc-track.error', false>;
+    header: Schema.Attribute.Component<
+      'ekyc-track.title-and-description',
+      false
+    >;
+    inputLabel: Schema.Attribute.Component<
+      'ekyc-track.label-and-placeholder',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackCmsEkycMapper extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_cms_ekyc_mappers';
+  info: {
+    displayName: 'cmsEkycMapper';
+  };
+  attributes: {
+    ckycNo: Schema.Attribute.String;
+    ekycId: Schema.Attribute.String;
+    name: Schema.Attribute.String;
+    pan: Schema.Attribute.String;
+    reason: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackDobInput extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_dob_inputs';
+  info: {
+    description: '';
+    displayName: 'dobInput';
+  };
+  attributes: {
+    calendarSubtitle: Schema.Attribute.String;
+    calenderTitle: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    placeholder: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackError extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_errors';
+  info: {
+    description: '';
+    displayName: 'error';
+  };
+  attributes: {
+    fetchError: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+    serverError: Schema.Attribute.Component<'ekyc-track.server-error', false>;
+  };
+}
+
+export interface EkycTrackErrorPopUp extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_error_pop_ups';
+  info: {
+    displayName: 'errorPopUp';
+  };
+  attributes: {
+    fetch: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+    server: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+  };
+}
+
+export interface EkycTrackFetchError extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_fetch_errors';
+  info: {
+    displayName: 'fetchError';
+  };
+  attributes: {
+    button1: Schema.Attribute.String;
+    button2: Schema.Attribute.String;
+    desctiption: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackHeader extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_headers';
+  info: {
+    displayName: 'header';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    info: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackInputLabel extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_input_labels';
+  info: {
+    description: '';
+    displayName: 'inputLabel';
+  };
+  attributes: {
+    panInput: Schema.Attribute.Component<
+      'ekyc-track.label-and-placeholder',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackKycTrackingApiDump extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_kyc_tracking_api_dumps';
+  info: {
+    description: '';
+    displayName: 'kycTrackingApiDump';
+  };
+  attributes: {
+    statusApprovedResponse: Schema.Attribute.Component<
+      'ekyc-track.status-rejected-response',
+      false
+    >;
+    statusPendingResponse: Schema.Attribute.Component<
+      'ekyc-track.status-rejected-response',
+      false
+    >;
+    statusRejectedResponse: Schema.Attribute.Component<
+      'ekyc-track.status-rejected-response',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackLabelAndPlaceholder extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_label_and_placeholders';
+  info: {
+    displayName: 'labelAndPlaceholder';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackPanVerification extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_pan_verifications';
+  info: {
+    description: '';
+    displayName: 'panVerification';
+  };
+  attributes: {
+    error: Schema.Attribute.Component<'ekyc-track.pan-verification-err', false>;
+    header: Schema.Attribute.Component<
+      'ekyc-track.title-and-description',
+      false
+    >;
+    inputLabel: Schema.Attribute.Component<
+      'ekyc-track.pan-verification-input-label',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackPanVerificationErr extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_pan_verification_errs';
+  info: {
+    description: '';
+    displayName: 'panVerificationErr';
+  };
+  attributes: {
+    fetchError: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+    serverError: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+  };
+}
+
+export interface EkycTrackPanVerificationInputLabel
+  extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_pan_verification_input_labels';
+  info: {
+    displayName: 'panVerificationInputLabel';
+  };
+  attributes: {
+    dobInput: Schema.Attribute.Component<'ekyc-track.dob-input', false>;
+    panInput: Schema.Attribute.Component<
+      'ekyc-track.title-and-description',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackPending extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_pendings';
+  info: {
+    displayName: 'Pending';
+  };
+  attributes: {
+    btnDisp: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackServerError extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_server_errors';
+  info: {
+    displayName: 'serverError';
+  };
+  attributes: {
+    button1: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackStatic extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_statics';
+  info: {
+    description: '';
+    displayName: 'static';
+  };
+  attributes: {
+    cardsData: Schema.Attribute.Component<'ekyc-track.cards-data', true>;
+    header: Schema.Attribute.Component<'ekyc-track.header', false>;
+  };
+}
+
+export interface EkycTrackStatusPage extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_status_pages';
+  info: {
+    description: '';
+    displayName: 'statusPage';
+  };
+  attributes: {
+    bottomSectin: Schema.Attribute.Component<'ekyc-track.bottom-sectin', false>;
+    bottomSection: Schema.Attribute.Component<
+      'ekyc-track.bottom-section',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackStatusRejectedResponse
+  extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_status_rejected_responses';
+  info: {
+    description: '';
+    displayName: 'statusResponse';
+  };
+  attributes: {
+    aadhar: Schema.Attribute.String;
+    ckycNo: Schema.Attribute.String;
+    ekycId: Schema.Attribute.String;
+    kycStatus: Schema.Attribute.String;
+    name: Schema.Attribute.String;
+    pan: Schema.Attribute.String;
+    rejectionReason: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackStatuses extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_statuses';
+  info: {
+    displayName: 'statuses';
+  };
+  attributes: {
+    btnDisp: Schema.Attribute.String;
+    btnLabel: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackTitleAndDescription extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_title_and_descriptions';
+  info: {
+    displayName: 'titleAndDescription';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackToast extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_toasts';
+  info: {
+    displayName: 'toast';
+  };
+  attributes: {
+    delay: Schema.Attribute.Component<
+      'ekyc-track.title-and-description',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackTrackingKycDump extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_tracking_kyc_dumps';
+  info: {
+    description: '';
+    displayName: 'trackingKycDump';
+  };
+  attributes: {
+    aadharVerification: Schema.Attribute.Component<
+      'ekyc-track.aadhar-verification',
+      false
+    >;
+    claimIdVerification: Schema.Attribute.Component<
+      'ekyc-track.claim-id-verification',
+      false
+    >;
+    cmsEkycMapper: Schema.Attribute.Component<
+      'ekyc-track.cms-ekyc-mapper',
+      false
+    >;
+    errorPopUp: Schema.Attribute.Component<'ekyc-track.error-pop-up', false>;
+    panVerification: Schema.Attribute.Component<
+      'ekyc-track.pan-verification',
+      false
+    >;
+    static: Schema.Attribute.Component<'ekyc-track.static', false>;
+    statusPage: Schema.Attribute.Component<'ekyc-track.status-page', false>;
+    toast: Schema.Attribute.Component<'ekyc-track.toast', false>;
+  };
+}
+
+export interface GenerateEkycAnnualIncome extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_annual_incomes';
+  info: {
+    description: '';
+    displayName: 'annualIncomeInput';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    Placeholder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCalendar extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_calendars';
+  info: {
+    displayName: 'calendar';
+  };
+  attributes: {
+    calenderSubTitle: Schema.Attribute.String;
+    calenderTitle: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCheckbox extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_checkboxes';
+  info: {
+    displayName: 'checkbox';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCity extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_cities';
+  info: {
+    displayName: 'city';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCmsErrorstatusModal
+  extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_cms_errorstatus_modals';
+  info: {
+    displayName: 'cmsErrorstatusModal';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCmsFinalPage extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_cms_final_pages';
+  info: {
+    displayName: 'cmsFinalPage';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    ekycText: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    successImageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCmsGoback extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_cms_gobacks';
+  info: {
+    displayName: 'cmsGoback';
+  };
+  attributes: {
+    cancelButtonText: Schema.Attribute.String;
+    gobackButtonText: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCmsServerTimeout extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_cms_server_timeouts';
+  info: {
+    displayName: 'cmsServerTimeout';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCmsSubFinalPage extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_cms_sub_final_pages';
+  info: {
+    displayName: 'cmsSubFinalPage';
+  };
+  attributes: {
+    imageUrl: Schema.Attribute.String;
+    linkText: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCorrespondenceAddress
+  extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_correspondence_addresses';
+  info: {
+    displayName: 'correspondenceAddress';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycEkycDetailCms extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_ekyc_detail_cms';
+  info: {
+    displayName: 'ekycDetailCms';
+  };
+  attributes: {
+    calendar: Schema.Attribute.Component<'generate-ekyc.calendar', false>;
+    clickHereText: Schema.Attribute.String;
+    clickText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    dobLabel: Schema.Attribute.String;
+    dobPlaceHolder: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    panLabel: Schema.Attribute.String;
+    panPlaceHolder: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycEkycList extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_ekyc_lists';
+  info: {
+    description: '';
+    displayName: 'ekycList';
+  };
+  attributes: {
+    checkbox: Schema.Attribute.Component<'generate-ekyc.checkbox', false>;
+    city: Schema.Attribute.Component<'generate-ekyc.city', false>;
+    correspondenceAddress: Schema.Attribute.Component<
+      'generate-ekyc.correspondence-address',
+      false
+    >;
+    fatherInput: Schema.Attribute.Component<
+      'generate-ekyc.father-input',
+      false
+    >;
+    motherInput: Schema.Attribute.Component<
+      'generate-ekyc.mother-input',
+      false
+    >;
+    permanentAddress: Schema.Attribute.Component<
+      'generate-ekyc.permanent-address',
+      false
+    >;
+    pincode: Schema.Attribute.Component<'generate-ekyc.pincode', false>;
+    state: Schema.Attribute.Component<'generate-ekyc.state', false>;
+  };
+}
+
+export interface GenerateEkycEkycVerifyCms extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_ekyc_verify_cms';
+  info: {
+    description: '';
+    displayName: 'ekycVerifyCms';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    gender: Schema.Attribute.Component<
+      'generate-ekyc.marital-status-and-gender',
+      false
+    >;
+    imageUrl: Schema.Attribute.String;
+    maritalStatus: Schema.Attribute.Component<
+      'generate-ekyc.marital-status-and-gender',
+      false
+    >;
+    personNameLabel: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycFatherInput extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_father_inputs';
+  info: {
+    displayName: 'fatherInput';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycFinancialDetails extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_financial_details';
+  info: {
+    displayName: 'financialDetails';
+  };
+  attributes: {};
+}
+
+export interface GenerateEkycFinancialDetailsCms
+  extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_financial_details_cms';
+  info: {
+    description: '';
+    displayName: 'financialDetailsCms';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycMaritalStatusAndGender
+  extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_marital_status_and_genders';
+  info: {
+    displayName: 'maritalStatus-and-gender';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeholder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycMotherInput extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_mother_inputs';
+  info: {
+    displayName: 'motherInput';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycOccupationInput extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_occupation_inputs';
+  info: {
+    displayName: 'occupationInput';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    Placeholder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycOrganizationInput extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_organization_inputs';
+  info: {
+    displayName: 'OrganizationInput';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    Placeholder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycPanCard extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_pan_cards';
+  info: {
+    description: '';
+    displayName: 'PanCard';
+  };
+  attributes: {
+    heading: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    no: Schema.Attribute.Component<'generate-ekyc.yes-no-option', false>;
+    yes: Schema.Attribute.Component<'generate-ekyc.yes-no-option', false>;
+  };
+}
+
+export interface GenerateEkycPermanentAddress extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_permanent_addresses';
+  info: {
+    displayName: 'permanentAddress';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycPincode extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_pincodes';
+  info: {
+    displayName: 'pincode';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycPoliticallyExposed extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_politically_exposeds';
+  info: {
+    displayName: 'politicallyExposed';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycProceedToHdfc extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_proceed_to_hdfcs';
+  info: {
+    displayName: 'proceedToHdfc';
+  };
+  attributes: {
+    cancelButtonText: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    proceedButtonText: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycState extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_states';
+  info: {
+    displayName: 'state';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycYesNoOption extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_yes_no_options';
+  info: {
+    displayName: 'yesNoOption';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface HealthTrackAddDocumentCard extends Struct.ComponentSchema {
   collectionName: 'components_health_track_add_document_cards';
   info: {
@@ -242,6 +1263,24 @@ export interface HealthTrackTrackCardObject extends Struct.ComponentSchema {
     intimationDt: Schema.Attribute.String & Schema.Attribute.Required;
     patientName: Schema.Attribute.String & Schema.Attribute.Required;
     policyNo: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface HelloHello extends Struct.ComponentSchema {
+  collectionName: 'components_hello_hellos';
+  info: {
+    displayName: 'Hello';
+  };
+  attributes: {};
+}
+
+export interface HelloRandom extends Struct.ComponentSchema {
+  collectionName: 'components_hello_randoms';
+  info: {
+    displayName: 'random';
+  };
+  attributes: {
+    kycStatus: Schema.Attribute.String;
   };
 }
 
@@ -767,6 +1806,20 @@ export interface MotorTrackInformationMismatch extends Struct.ComponentSchema {
   };
 }
 
+export interface MotorTrackOrganizationInput extends Struct.ComponentSchema {
+  collectionName: 'components_motor_track_organization_inputs';
+  info: {
+    displayName: 'OrganizationInput';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    Placeholder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
 export interface MotorTrackQueryText extends Struct.ComponentSchema {
   collectionName: 'components_motor_track_query_texts';
   info: {
@@ -1225,6 +2278,79 @@ declare module '@strapi/strapi' {
       'article-components.quote-banner': ArticleComponentsQuoteBanner;
       'article-components.rich-text-json': ArticleComponentsRichTextJson;
       'article-components.video-url': ArticleComponentsVideoUrl;
+      'customer-due-diligence.annual-income': CustomerDueDiligenceAnnualIncome;
+      'customer-due-diligence.customer-due-diligence': CustomerDueDiligenceCustomerDueDiligence;
+      'customer-due-diligence.ekyc-details': CustomerDueDiligenceEkycDetails;
+      'customer-due-diligence.indian': CustomerDueDiligenceIndian;
+      'customer-due-diligence.is-politically-exposed': CustomerDueDiligenceIsPoliticallyExposed;
+      'customer-due-diligence.marital-status': CustomerDueDiligenceMaritalStatus;
+      'customer-due-diligence.mothers-name': CustomerDueDiligenceMothersName;
+      'customer-due-diligence.nationality': CustomerDueDiligenceNationality;
+      'customer-due-diligence.no': CustomerDueDiligenceNo;
+      'customer-due-diligence.occupation': CustomerDueDiligenceOccupation;
+      'customer-due-diligence.organization-type': CustomerDueDiligenceOrganizationType;
+      'customer-due-diligence.query-widget': CustomerDueDiligenceQueryWidget;
+      'customer-due-diligence.server-error': CustomerDueDiligenceServerError;
+      'customer-due-diligence.submit-success': CustomerDueDiligenceSubmitSuccess;
+      'customer-due-diligence.tip-info': CustomerDueDiligenceTipInfo;
+      'customer-due-diligence.title': CustomerDueDiligenceTitle;
+      'customer-due-diligence.yes': CustomerDueDiligenceYes;
+      'ekyc-track.aadhar-input': EkycTrackAadharInput;
+      'ekyc-track.aadhar-verification': EkycTrackAadharVerification;
+      'ekyc-track.aadhar-verification-error': EkycTrackAadharVerificationError;
+      'ekyc-track.aadhar-verification-input-label': EkycTrackAadharVerificationInputLabel;
+      'ekyc-track.bottom-sectin': EkycTrackBottomSectin;
+      'ekyc-track.bottom-section': EkycTrackBottomSection;
+      'ekyc-track.cards-data': EkycTrackCardsData;
+      'ekyc-track.claim-id-verification': EkycTrackClaimIdVerification;
+      'ekyc-track.cms-ekyc-mapper': EkycTrackCmsEkycMapper;
+      'ekyc-track.dob-input': EkycTrackDobInput;
+      'ekyc-track.error': EkycTrackError;
+      'ekyc-track.error-pop-up': EkycTrackErrorPopUp;
+      'ekyc-track.fetch-error': EkycTrackFetchError;
+      'ekyc-track.header': EkycTrackHeader;
+      'ekyc-track.input-label': EkycTrackInputLabel;
+      'ekyc-track.kyc-tracking-api-dump': EkycTrackKycTrackingApiDump;
+      'ekyc-track.label-and-placeholder': EkycTrackLabelAndPlaceholder;
+      'ekyc-track.pan-verification': EkycTrackPanVerification;
+      'ekyc-track.pan-verification-err': EkycTrackPanVerificationErr;
+      'ekyc-track.pan-verification-input-label': EkycTrackPanVerificationInputLabel;
+      'ekyc-track.pending': EkycTrackPending;
+      'ekyc-track.server-error': EkycTrackServerError;
+      'ekyc-track.static': EkycTrackStatic;
+      'ekyc-track.status-page': EkycTrackStatusPage;
+      'ekyc-track.status-rejected-response': EkycTrackStatusRejectedResponse;
+      'ekyc-track.statuses': EkycTrackStatuses;
+      'ekyc-track.title-and-description': EkycTrackTitleAndDescription;
+      'ekyc-track.toast': EkycTrackToast;
+      'ekyc-track.tracking-kyc-dump': EkycTrackTrackingKycDump;
+      'generate-ekyc.annual-income': GenerateEkycAnnualIncome;
+      'generate-ekyc.calendar': GenerateEkycCalendar;
+      'generate-ekyc.checkbox': GenerateEkycCheckbox;
+      'generate-ekyc.city': GenerateEkycCity;
+      'generate-ekyc.cms-errorstatus-modal': GenerateEkycCmsErrorstatusModal;
+      'generate-ekyc.cms-final-page': GenerateEkycCmsFinalPage;
+      'generate-ekyc.cms-goback': GenerateEkycCmsGoback;
+      'generate-ekyc.cms-server-timeout': GenerateEkycCmsServerTimeout;
+      'generate-ekyc.cms-sub-final-page': GenerateEkycCmsSubFinalPage;
+      'generate-ekyc.correspondence-address': GenerateEkycCorrespondenceAddress;
+      'generate-ekyc.ekyc-detail-cms': GenerateEkycEkycDetailCms;
+      'generate-ekyc.ekyc-list': GenerateEkycEkycList;
+      'generate-ekyc.ekyc-verify-cms': GenerateEkycEkycVerifyCms;
+      'generate-ekyc.father-input': GenerateEkycFatherInput;
+      'generate-ekyc.financial-details': GenerateEkycFinancialDetails;
+      'generate-ekyc.financial-details-cms': GenerateEkycFinancialDetailsCms;
+      'generate-ekyc.marital-status-and-gender': GenerateEkycMaritalStatusAndGender;
+      'generate-ekyc.mother-input': GenerateEkycMotherInput;
+      'generate-ekyc.occupation-input': GenerateEkycOccupationInput;
+      'generate-ekyc.organization-input': GenerateEkycOrganizationInput;
+      'generate-ekyc.pan-card': GenerateEkycPanCard;
+      'generate-ekyc.permanent-address': GenerateEkycPermanentAddress;
+      'generate-ekyc.pincode': GenerateEkycPincode;
+      'generate-ekyc.politically-exposed': GenerateEkycPoliticallyExposed;
+      'generate-ekyc.proceed-to-hdfc': GenerateEkycProceedToHdfc;
+      'generate-ekyc.state': GenerateEkycState;
+      'generate-ekyc.yes-no-option': GenerateEkycYesNoOption;
       'health-track.add-document-card': HealthTrackAddDocumentCard;
       'health-track.details-required': HealthTrackDetailsRequired;
       'health-track.error-encountered': HealthTrackErrorEncountered;
@@ -1234,6 +2360,8 @@ declare module '@strapi/strapi' {
       'health-track.supplementary-card': HealthTrackSupplementaryCard;
       'health-track.track-a-claim': HealthTrackTrackAClaim;
       'health-track.track-card-object': HealthTrackTrackCardObject;
+      'hello.hello': HelloHello;
+      'hello.random': HelloRandom;
       'image-descriptions.banner': ImageDescriptionsBanner;
       'image-descriptions.content': ImageDescriptionsContent;
       'image-descriptions.image-descriptions': ImageDescriptionsImageDescriptions;
@@ -1272,9 +2400,19 @@ declare module '@strapi/strapi' {
       'motor-renewal.request-callback': MotorRenewalRequestCallback;
       'motor-renewal.request-callback-bs-dump': MotorRenewalRequestCallbackBsDump;
       'motor-track.information-mismatch': MotorTrackInformationMismatch;
+      'motor-track.organization-input': MotorTrackOrganizationInput;
       'motor-track.query-text': MotorTrackQueryText;
       'motor-track.query-widget': MotorTrackQueryWidget;
       'motor-track.something-went-wrong': MotorTrackSomethingWentWrong;
+      'previous-year-policy-upload.failure': PreviousYearPolicyUploadFailure;
+      'previous-year-policy-upload.header': PreviousYearPolicyUploadHeader;
+      'previous-year-policy-upload.previous-year-policy-upload': PreviousYearPolicyUploadPreviousYearPolicyUpload;
+      'previous-year-policy-upload.query-widget': PreviousYearPolicyUploadQueryWidget;
+      'previous-year-policy-upload.remarks': PreviousYearPolicyUploadRemarks;
+      'previous-year-policy-upload.section-top-h-eader': PreviousYearPolicyUploadSectionTopHEader;
+      'previous-year-policy-upload.status': PreviousYearPolicyUploadStatus;
+      'previous-year-policy-upload.success': PreviousYearPolicyUploadSuccess;
+      'previous-year-policy-upload.upload-section': PreviousYearPolicyUploadUploadSection;
       'quick-action.customer-due-diligence': QuickActionCustomerDueDiligence;
       'quick-action.e-kyc': QuickActionEKyc;
       'quick-action.ekyc-link': QuickActionEkycLink;
