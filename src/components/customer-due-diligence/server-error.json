@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_customer_due_diligence_server_errors",
+  "info": {
+    "displayName": "serverError",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "queryWidget": {
+      "type": "component",
+      "repeatable": false,
+      "component": "customer-due-diligence.query-widget"
+    }
+  }
+}

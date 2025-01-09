@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_customer_due_diligence_titles",
+  "info": {
+    "displayName": "nri",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
