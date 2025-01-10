@@ -2512,6 +2512,160 @@ export interface MotorTrackSomethingWentWrong extends Struct.ComponentSchema {
   };
 }
 
+export interface PolicyManualLinkingCancelledExpired
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_cancelled_expireds';
+  info: {
+    displayName: 'cancelledExpired';
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+    cancelledDesc: Schema.Attribute.String;
+    cancelledTitle: Schema.Attribute.String;
+    expiredDesc: Schema.Attribute.String;
+    expiredTitle: Schema.Attribute.String;
+    imgUrl: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingCard extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    desc: Schema.Attribute.String;
+    key: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingLandingPage extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_landing_pages';
+  info: {
+    description: '';
+    displayName: 'landingPage';
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    enterPolicyNumber: Schema.Attribute.String;
+    imgUrl: Schema.Attribute.String;
+    inputHint: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    whenCanContent: Schema.Attribute.Component<
+      'policy-manual-linking.when-can-content',
+      true
+    >;
+    whenCanTitle: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingOtpView extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_otp_views';
+  info: {
+    displayName: 'otpView';
+  };
+  attributes: {
+    incorrectOtp: Schema.Attribute.String;
+    resendCode: Schema.Attribute.String;
+    resendIn: Schema.Attribute.String;
+    resendThrough: Schema.Attribute.String;
+    sent: Schema.Attribute.String;
+    sms: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    whatsapp: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingPersonalInfo
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_personal_infos';
+  info: {
+    displayName: 'personalInfo';
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingSelectVerificationType
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_select_verification_types';
+  info: {
+    description: '';
+    displayName: 'selectVerificationType';
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+    imgUrl: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    types: Schema.Attribute.Component<'policy-manual-linking.types', true> &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 2;
+        },
+        number
+      >;
+  };
+}
+
+export interface PolicyManualLinkingThankYou extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_thank_yous';
+  info: {
+    displayName: 'thankYou';
+  };
+  attributes: {
+    alreadySubmittedTitle: Schema.Attribute.String;
+    buttonLabel: Schema.Attribute.String;
+    imgUrl: Schema.Attribute.String;
+    submittingDesc: Schema.Attribute.String;
+    submittingTitle: Schema.Attribute.String;
+    ticketNo: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingTypes extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_types';
+  info: {
+    description: '';
+    displayName: 'types';
+  };
+  attributes: {
+    desc: Schema.Attribute.String;
+    key: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingUnableToFetch
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_unable_to_fetches';
+  info: {
+    displayName: 'unableToFetch';
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+    imgUrl: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingWhenCanContent
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_when_can_contents';
+  info: {
+    displayName: 'whenCanContent';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface PolicySelectionDownloadPolicyRequest
   extends Struct.ComponentSchema {
   collectionName: 'components_policy_selection_download_policy_requests';
@@ -3544,6 +3698,16 @@ declare module '@strapi/strapi' {
       'motor-track.query-text': MotorTrackQueryText;
       'motor-track.query-widget': MotorTrackQueryWidget;
       'motor-track.something-went-wrong': MotorTrackSomethingWentWrong;
+      'policy-manual-linking.cancelled-expired': PolicyManualLinkingCancelledExpired;
+      'policy-manual-linking.card': PolicyManualLinkingCard;
+      'policy-manual-linking.landing-page': PolicyManualLinkingLandingPage;
+      'policy-manual-linking.otp-view': PolicyManualLinkingOtpView;
+      'policy-manual-linking.personal-info': PolicyManualLinkingPersonalInfo;
+      'policy-manual-linking.select-verification-type': PolicyManualLinkingSelectVerificationType;
+      'policy-manual-linking.thank-you': PolicyManualLinkingThankYou;
+      'policy-manual-linking.types': PolicyManualLinkingTypes;
+      'policy-manual-linking.unable-to-fetch': PolicyManualLinkingUnableToFetch;
+      'policy-manual-linking.when-can-content': PolicyManualLinkingWhenCanContent;
       'policy-selection.download-policy-request': PolicySelectionDownloadPolicyRequest;
       'policy-selection.images': PolicySelectionImages;
       'policy-selection.no-policy': PolicySelectionNoPolicy;

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_policy_manual_linking_otp_views",
+  "info": {
+    "displayName": "otpView"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sent": {
+      "type": "string"
+    },
+    "incorrectOtp": {
+      "type": "string"
+    },
+    "resendCode": {
+      "type": "string"
+    },
+    "resendThrough": {
+      "type": "string"
+    },
+    "resendIn": {
+      "type": "string"
+    },
+    "sms": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
+    }
+  }
+}

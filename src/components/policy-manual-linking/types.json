@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_policy_manual_linking_types",
+  "info": {
+    "displayName": "types",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    }
+  }
+}

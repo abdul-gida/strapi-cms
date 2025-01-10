@@ -1534,6 +1534,63 @@ export interface ApiOldArticleOldArticle extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiPolicyManualLinkingPolicyManualLinking
+  extends Struct.SingleTypeSchema {
+  collectionName: 'policy_manual_linkings';
+  info: {
+    description: '';
+    displayName: 'Policy-manual-linking';
+    pluralName: 'policy-manual-linkings';
+    singularName: 'policy-manual-linking';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    cancelledExpired: Schema.Attribute.Component<
+      'policy-manual-linking.cancelled-expired',
+      false
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    landingPage: Schema.Attribute.Component<
+      'policy-manual-linking.landing-page',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::policy-manual-linking.policy-manual-linking'
+    > &
+      Schema.Attribute.Private;
+    otpView: Schema.Attribute.Component<
+      'policy-manual-linking.otp-view',
+      false
+    >;
+    personalInfo: Schema.Attribute.Component<
+      'policy-manual-linking.personal-info',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    selectVerificationType: Schema.Attribute.Component<
+      'policy-manual-linking.select-verification-type',
+      false
+    >;
+    thankYou: Schema.Attribute.Component<
+      'policy-manual-linking.thank-you',
+      false
+    >;
+    unableToFetch: Schema.Attribute.Component<
+      'policy-manual-linking.unable-to-fetch',
+      false
+    >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiPolicySelectionPolicySelection
   extends Struct.SingleTypeSchema {
   collectionName: 'policy_selections';
@@ -2234,6 +2291,7 @@ declare module '@strapi/strapi' {
       'api::motor-renewal.motor-renewal': ApiMotorRenewalMotorRenewal;
       'api::motor-track.motor-track': ApiMotorTrackMotorTrack;
       'api::old-article.old-article': ApiOldArticleOldArticle;
+      'api::policy-manual-linking.policy-manual-linking': ApiPolicyManualLinkingPolicyManualLinking;
       'api::policy-selection.policy-selection': ApiPolicySelectionPolicySelection;
       'api::previous-year-policy-upload.previous-year-policy-upload': ApiPreviousYearPolicyUploadPreviousYearPolicyUpload;
       'api::quick-action.quick-action': ApiQuickActionQuickAction;
