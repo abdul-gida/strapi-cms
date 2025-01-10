@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "dashboard_trusted_by_customers",
+  "info": {
+    "singularName": "dashboard-trusted-by-customer",
+    "pluralName": "dashboard-trusted-by-customers",
+    "displayName": "dashboard-trusted-by-customer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alignment": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "dynamiczone",
+      "components": [
+        "dashboard-trusted-by-customer.happy-customers",
+        "dashboard-trusted-by-customer.customer-support",
+        "dashboard-trusted-by-customer.cashless-network",
+        "dashboard-trusted-by-customer.dashboard-trusted-by-customer",
+        "dashboard-trusted-by-customer.claim-settlement-rate"
+      ]
+    },
+    "img": {
+      "type": "string"
+    }
+  }
+}

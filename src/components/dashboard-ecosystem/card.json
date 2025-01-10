@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_dashboard_ecosystem_cards",
+  "info": {
+    "displayName": "card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    },
+    "modalTitle": {
+      "type": "string"
+    },
+    "modalDescription": {
+      "type": "string"
+    },
+    "showCard": {
+      "type": "boolean"
+    }
+  }
+}

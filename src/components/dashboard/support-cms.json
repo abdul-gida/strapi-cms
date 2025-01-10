@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_dashboard_support_cms",
+  "info": {
+    "displayName": "supportCms"
+  },
+  "options": {},
+  "attributes": {
+    "alignment": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    }
+  }
+}

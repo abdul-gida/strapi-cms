@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_homes",
+  "info": {
+    "displayName": "home"
+  },
+  "options": {},
+  "attributes": {
+    "home": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-buy-insurance.card"
+    }
+  }
+}

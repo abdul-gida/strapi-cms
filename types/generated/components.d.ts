@@ -305,6 +305,559 @@ export interface CustomerDueDiligenceYes extends Struct.ComponentSchema {
   };
 }
 
+export interface DashboardBuyInsuranceCard extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    bannerText: Schema.Attribute.String;
+    img: Schema.Attribute.String;
+    isNew: Schema.Attribute.Boolean;
+    showCard: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardBuyInsuranceCommercial
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_commercials';
+  info: {
+    displayName: 'commercial';
+  };
+  attributes: {
+    commercial: Schema.Attribute.Component<
+      'dashboard-buy-insurance.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardBuyInsuranceCorporate extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_corporates';
+  info: {
+    displayName: 'corporate';
+  };
+  attributes: {
+    corporate: Schema.Attribute.Component<
+      'dashboard-buy-insurance.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardBuyInsuranceCyber extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_cybers';
+  info: {
+    displayName: 'cyber';
+  };
+  attributes: {
+    cyber: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+  };
+}
+
+export interface DashboardBuyInsuranceFourWheeler
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_four_wheelers';
+  info: {
+    displayName: 'fourWheeler';
+  };
+  attributes: {
+    fourWheeler: Schema.Attribute.Component<
+      'dashboard-buy-insurance.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardBuyInsuranceHealth extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_health';
+  info: {
+    displayName: 'health';
+  };
+  attributes: {
+    health: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+  };
+}
+
+export interface DashboardBuyInsuranceHome extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_homes';
+  info: {
+    displayName: 'home';
+  };
+  attributes: {
+    home: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+  };
+}
+
+export interface DashboardBuyInsuranceLinkPolicy
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_link_policies';
+  info: {
+    displayName: 'linkPolicy';
+  };
+  attributes: {
+    buttontext: Schema.Attribute.String;
+    img: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardBuyInsuranceNeedsYourAttention
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_needs_your_attentions';
+  info: {
+    displayName: 'needsYourAttention';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardBuyInsurancePet extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_pets';
+  info: {
+    displayName: 'pet';
+  };
+  attributes: {
+    pet: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+  };
+}
+
+export interface DashboardBuyInsurancePmsby extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_pmsbies';
+  info: {
+    displayName: 'pmsby';
+  };
+  attributes: {
+    pmsby: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+  };
+}
+
+export interface DashboardBuyInsuranceResumeJourney
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_resume_journeys';
+  info: {
+    displayName: 'resumeJourney';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardBuyInsuranceTravel extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_travels';
+  info: {
+    displayName: 'travel';
+  };
+  attributes: {
+    travel: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+  };
+}
+
+export interface DashboardBuyInsuranceTwoWheeler
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_two_wheelers';
+  info: {
+    displayName: 'twoWheeler';
+  };
+  attributes: {
+    twoWheeler: Schema.Attribute.Component<
+      'dashboard-buy-insurance.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardEcosystemCard extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_ecosystem_cards';
+  info: {
+    description: '';
+    displayName: 'card';
+  };
+  attributes: {
+    img: Schema.Attribute.String;
+    modalDescription: Schema.Attribute.String;
+    modalTitle: Schema.Attribute.String;
+    showCard: Schema.Attribute.Boolean;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardEcosystemDashboardEcosystem
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_ecosystem_dashboard_ecosystems';
+  info: {
+    description: '';
+    displayName: 'dashboard-ecosystem';
+  };
+  attributes: {
+    card: Schema.Attribute.Component<'dashboard-ecosystem.card', false>;
+  };
+}
+
+export interface DashboardEcosystemHealth extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_ecosystem_health';
+  info: {
+    displayName: 'health';
+  };
+  attributes: {
+    health: Schema.Attribute.Component<'dashboard-ecosystem.card', false>;
+  };
+}
+
+export interface DashboardEcosystemPets extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_ecosystem_pets';
+  info: {
+    displayName: 'pets';
+  };
+  attributes: {
+    pets: Schema.Attribute.Component<'dashboard-ecosystem.card', false>;
+  };
+}
+
+export interface DashboardEcosystemTitle extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_ecosystem_titles';
+  info: {
+    description: '';
+    displayName: 'auto';
+  };
+  attributes: {
+    auto: Schema.Attribute.Component<'dashboard-ecosystem.card', false>;
+  };
+}
+
+export interface DashboardExploreFourwheelerCard
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_fourwheeler_cards';
+  info: {
+    description: '';
+    displayName: 'card';
+  };
+  attributes: {
+    buttontext: Schema.Attribute.String;
+    category: Schema.Attribute.String;
+    img: Schema.Attribute.String;
+    showCard: Schema.Attribute.Boolean;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardExploreFourwheelerDashboardExploreFourwheeler
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_fourwheeler_dashboard_explore_fourwheelers';
+  info: {
+    description: '';
+    displayName: 'dashboard-explore-fourwheeler';
+  };
+  attributes: {
+    card: Schema.Attribute.Component<
+      'dashboard-explore-fourwheeler.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardExploreFourwheelerFourWheeler
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_fourwheeler_four_wheelers';
+  info: {
+    displayName: 'fourWheeler';
+  };
+  attributes: {
+    fourwheeler: Schema.Attribute.Component<
+      'dashboard-explore-fourwheeler.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardExploreFourwheelerTwoWheeler
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_fourwheeler_two_wheelers';
+  info: {
+    displayName: 'twoWheeler';
+  };
+  attributes: {
+    twoWheeler: Schema.Attribute.Component<
+      'dashboard-explore-fourwheeler.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardExploreMoreCard extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_more_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    buttontext: Schema.Attribute.Blocks;
+    img: Schema.Attribute.String;
+    showCard: Schema.Attribute.Boolean;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardExploreMoreCardOne extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_more_card_ones';
+  info: {
+    displayName: 'cardOne';
+  };
+  attributes: {
+    cardOne: Schema.Attribute.Component<'dashboard-explore-more.card', false>;
+  };
+}
+
+export interface DashboardExploreMoreCardThree extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_more_card_threes';
+  info: {
+    displayName: 'cardThree';
+  };
+  attributes: {
+    cardThree: Schema.Attribute.Component<'dashboard-explore-more.card', false>;
+  };
+}
+
+export interface DashboardExploreMoreCardTwo extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_more_card_twos';
+  info: {
+    displayName: 'cardTwo';
+  };
+  attributes: {
+    cardTwo: Schema.Attribute.Component<'dashboard-explore-more.card', false>;
+  };
+}
+
+export interface DashboardExploreMoreDashboardExploreMore
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_more_dashboard_explore_mores';
+  info: {
+    displayName: 'dashboard-explore-more';
+  };
+  attributes: {
+    card: Schema.Attribute.Component<'dashboard-explore-more.card', false>;
+  };
+}
+
+export interface DashboardLatestInHdfcCard extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_latest_in_hdfc_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    img: Schema.Attribute.String;
+    readTime: Schema.Attribute.String;
+    showCard: Schema.Attribute.Boolean;
+    subtitle: Schema.Attribute.String;
+    tagName: Schema.Attribute.String;
+    time: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardLatestInHdfcDashboardLatestInHdfc
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_latest_in_hdfc_dashboard_latest_in_hdfcs';
+  info: {
+    displayName: 'dashboard-latestIn-hdfc';
+  };
+  attributes: {
+    card: Schema.Attribute.Component<'dashboard-latest-in-hdfc.card', false>;
+  };
+}
+
+export interface DashboardQuickActionCard extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    img: Schema.Attribute.String;
+    key: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardQuickActionClaimRegistration
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_claim_registrations';
+  info: {
+    displayName: 'claimRegistration';
+  };
+  attributes: {
+    claimRegistration: Schema.Attribute.Component<
+      'dashboard-quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardQuickActionDashboardQuickAction
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_dashboard_quick_actions';
+  info: {
+    displayName: 'dashboard-quickAction';
+  };
+  attributes: {
+    card: Schema.Attribute.Component<'dashboard-quick-action.card', false>;
+  };
+}
+
+export interface DashboardQuickActionEkycProcedure
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_ekyc_procedures';
+  info: {
+    displayName: 'ekycProcedure';
+  };
+  attributes: {
+    ekycProcedure: Schema.Attribute.Component<
+      'dashboard-quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardQuickActionEkycRegistration
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_ekyc_registrations';
+  info: {
+    displayName: 'ekycRegistration';
+  };
+  attributes: {
+    ekycRegistration: Schema.Attribute.Component<
+      'dashboard-quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardQuickActionLinkEia extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_link_eias';
+  info: {
+    displayName: 'linkEia';
+  };
+  attributes: {
+    linkEia: Schema.Attribute.Component<'dashboard-quick-action.card', false>;
+  };
+}
+
+export interface DashboardQuickActionRenewPolicy
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_renew_policies';
+  info: {
+    displayName: 'renewPolicy';
+  };
+  attributes: {
+    renewPolicy: Schema.Attribute.Component<
+      'dashboard-quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardQuickActionTrackClaim extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_track_claims';
+  info: {
+    displayName: 'trackClaim';
+  };
+  attributes: {
+    trackClaim: Schema.Attribute.Component<
+      'dashboard-quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardTrustedByCustomerCard extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_trusted_by_customer_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardTrustedByCustomerCashlessNetwork
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_trusted_by_customer_cashless_networks';
+  info: {
+    displayName: 'Cashless Network';
+  };
+  attributes: {
+    CashlessNetwork: Schema.Attribute.Component<
+      'dashboard-trusted-by-customer.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardTrustedByCustomerClaimSettlementRate
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_trusted_by_customer_claim_settlement_rates';
+  info: {
+    displayName: 'Claim Settlement Rate';
+  };
+  attributes: {
+    ClaimSettlementRate: Schema.Attribute.Component<
+      'dashboard-trusted-by-customer.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardTrustedByCustomerCustomerSupport
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_trusted_by_customer_customer_supports';
+  info: {
+    displayName: 'Customer Support';
+  };
+  attributes: {
+    CustomerSupport: Schema.Attribute.Component<
+      'dashboard-trusted-by-customer.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardTrustedByCustomerDashboardTrustedByCustomer
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_trusted_by_customer_dashboard_trusted_by_customers';
+  info: {
+    displayName: 'dashboard-trusted-by-customer';
+  };
+  attributes: {
+    card: Schema.Attribute.Component<
+      'dashboard-trusted-by-customer.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardTrustedByCustomerHappyCustomers
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_trusted_by_customer_happy_customers';
+  info: {
+    displayName: 'Happy Customers';
+  };
+  attributes: {
+    HappyCustomers: Schema.Attribute.Component<
+      'dashboard-trusted-by-customer.card',
+      false
+    >;
+  };
+}
+
 export interface DashboardCardAlignment extends Struct.ComponentSchema {
   collectionName: 'components_dashboard_card_alignments';
   info: {
@@ -339,6 +892,71 @@ export interface DashboardDashboardCmsData extends Struct.ComponentSchema {
     quickActions: Schema.Attribute.Component<'dashboard.card-alignment', false>;
     scan: Schema.Attribute.Component<'dashboard.card-alignment', false>;
     support: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+  };
+}
+
+export interface DashboardDashboardConnectWithUsCms
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_dashboard_connect_with_us_cms';
+  info: {
+    displayName: 'dashboardConnectWithUsCms';
+  };
+  attributes: {
+    alignment: Schema.Attribute.String;
+    img: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardDashboardNewsletterCms
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_dashboard_newsletter_cms';
+  info: {
+    description: '';
+    displayName: 'dashboardNewsletterCms';
+  };
+  attributes: {
+    alignment: Schema.Attribute.String;
+    buttontext: Schema.Attribute.String;
+    img: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardEcosystemQrCms extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_ecosystem_qr_cms';
+  info: {
+    displayName: 'ecosystemQrCms';
+  };
+  attributes: {
+    appleStore: Schema.Attribute.String;
+    desc: Schema.Attribute.String;
+    googleStore: Schema.Attribute.String;
+    mobileButtonText: Schema.Attribute.String;
+    mobileImage: Schema.Attribute.String;
+    scanImage: Schema.Attribute.String;
+    scanTitle: Schema.Attribute.String;
+    scanUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardSupportCms extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_support_cms';
+  info: {
+    displayName: 'supportCms';
+  };
+  attributes: {
+    alignment: Schema.Attribute.String;
+    buttontext: Schema.Attribute.String;
+    img: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
   };
 }
 
@@ -2767,8 +3385,56 @@ declare module '@strapi/strapi' {
       'customer-due-diligence.tip-info': CustomerDueDiligenceTipInfo;
       'customer-due-diligence.title': CustomerDueDiligenceTitle;
       'customer-due-diligence.yes': CustomerDueDiligenceYes;
+      'dashboard-buy-insurance.card': DashboardBuyInsuranceCard;
+      'dashboard-buy-insurance.commercial': DashboardBuyInsuranceCommercial;
+      'dashboard-buy-insurance.corporate': DashboardBuyInsuranceCorporate;
+      'dashboard-buy-insurance.cyber': DashboardBuyInsuranceCyber;
+      'dashboard-buy-insurance.four-wheeler': DashboardBuyInsuranceFourWheeler;
+      'dashboard-buy-insurance.health': DashboardBuyInsuranceHealth;
+      'dashboard-buy-insurance.home': DashboardBuyInsuranceHome;
+      'dashboard-buy-insurance.link-policy': DashboardBuyInsuranceLinkPolicy;
+      'dashboard-buy-insurance.needs-your-attention': DashboardBuyInsuranceNeedsYourAttention;
+      'dashboard-buy-insurance.pet': DashboardBuyInsurancePet;
+      'dashboard-buy-insurance.pmsby': DashboardBuyInsurancePmsby;
+      'dashboard-buy-insurance.resume-journey': DashboardBuyInsuranceResumeJourney;
+      'dashboard-buy-insurance.travel': DashboardBuyInsuranceTravel;
+      'dashboard-buy-insurance.two-wheeler': DashboardBuyInsuranceTwoWheeler;
+      'dashboard-ecosystem.card': DashboardEcosystemCard;
+      'dashboard-ecosystem.dashboard-ecosystem': DashboardEcosystemDashboardEcosystem;
+      'dashboard-ecosystem.health': DashboardEcosystemHealth;
+      'dashboard-ecosystem.pets': DashboardEcosystemPets;
+      'dashboard-ecosystem.title': DashboardEcosystemTitle;
+      'dashboard-explore-fourwheeler.card': DashboardExploreFourwheelerCard;
+      'dashboard-explore-fourwheeler.dashboard-explore-fourwheeler': DashboardExploreFourwheelerDashboardExploreFourwheeler;
+      'dashboard-explore-fourwheeler.four-wheeler': DashboardExploreFourwheelerFourWheeler;
+      'dashboard-explore-fourwheeler.two-wheeler': DashboardExploreFourwheelerTwoWheeler;
+      'dashboard-explore-more.card': DashboardExploreMoreCard;
+      'dashboard-explore-more.card-one': DashboardExploreMoreCardOne;
+      'dashboard-explore-more.card-three': DashboardExploreMoreCardThree;
+      'dashboard-explore-more.card-two': DashboardExploreMoreCardTwo;
+      'dashboard-explore-more.dashboard-explore-more': DashboardExploreMoreDashboardExploreMore;
+      'dashboard-latest-in-hdfc.card': DashboardLatestInHdfcCard;
+      'dashboard-latest-in-hdfc.dashboard-latest-in-hdfc': DashboardLatestInHdfcDashboardLatestInHdfc;
+      'dashboard-quick-action.card': DashboardQuickActionCard;
+      'dashboard-quick-action.claim-registration': DashboardQuickActionClaimRegistration;
+      'dashboard-quick-action.dashboard-quick-action': DashboardQuickActionDashboardQuickAction;
+      'dashboard-quick-action.ekyc-procedure': DashboardQuickActionEkycProcedure;
+      'dashboard-quick-action.ekyc-registration': DashboardQuickActionEkycRegistration;
+      'dashboard-quick-action.link-eia': DashboardQuickActionLinkEia;
+      'dashboard-quick-action.renew-policy': DashboardQuickActionRenewPolicy;
+      'dashboard-quick-action.track-claim': DashboardQuickActionTrackClaim;
+      'dashboard-trusted-by-customer.card': DashboardTrustedByCustomerCard;
+      'dashboard-trusted-by-customer.cashless-network': DashboardTrustedByCustomerCashlessNetwork;
+      'dashboard-trusted-by-customer.claim-settlement-rate': DashboardTrustedByCustomerClaimSettlementRate;
+      'dashboard-trusted-by-customer.customer-support': DashboardTrustedByCustomerCustomerSupport;
+      'dashboard-trusted-by-customer.dashboard-trusted-by-customer': DashboardTrustedByCustomerDashboardTrustedByCustomer;
+      'dashboard-trusted-by-customer.happy-customers': DashboardTrustedByCustomerHappyCustomers;
       'dashboard.card-alignment': DashboardCardAlignment;
       'dashboard.dashboard-cms-data': DashboardDashboardCmsData;
+      'dashboard.dashboard-connect-with-us-cms': DashboardDashboardConnectWithUsCms;
+      'dashboard.dashboard-newsletter-cms': DashboardDashboardNewsletterCms;
+      'dashboard.ecosystem-qr-cms': DashboardEcosystemQrCms;
+      'dashboard.support-cms': DashboardSupportCms;
       'ekyc-track.aadhar-input': EkycTrackAadharInput;
       'ekyc-track.aadhar-verification': EkycTrackAadharVerification;
       'ekyc-track.aadhar-verification-error': EkycTrackAadharVerificationError;

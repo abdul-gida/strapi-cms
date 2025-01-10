@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_dashboard_trusted_by_customer_cards",
+  "info": {
+    "displayName": "card"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

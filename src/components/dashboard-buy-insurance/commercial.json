@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_commercials",
+  "info": {
+    "displayName": "commercial"
+  },
+  "options": {},
+  "attributes": {
+    "commercial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-buy-insurance.card"
+    }
+  }
+}

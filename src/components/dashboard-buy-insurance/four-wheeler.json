@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_four_wheelers",
+  "info": {
+    "displayName": "fourWheeler"
+  },
+  "options": {},
+  "attributes": {
+    "fourWheeler": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-buy-insurance.card"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_dashboard_dashboard_newsletter_cms",
+  "info": {
+    "displayName": "dashboardNewsletterCms",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "alignment": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_health",
+  "info": {
+    "displayName": "health"
+  },
+  "options": {},
+  "attributes": {
+    "health": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-buy-insurance.card"
+    }
+  }
+}

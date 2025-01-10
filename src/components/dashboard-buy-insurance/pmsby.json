@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_pmsbies",
+  "info": {
+    "displayName": "pmsby"
+  },
+  "options": {},
+  "attributes": {
+    "pmsby": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-buy-insurance.card"
+    }
+  }
+}

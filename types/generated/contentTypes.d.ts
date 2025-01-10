@@ -631,6 +631,301 @@ export interface ApiCustomerDueDiligenceCustomerDueDiligence
   };
 }
 
+export interface ApiDashboardBuyInsuranceDashboardBuyInsurance
+  extends Struct.SingleTypeSchema {
+  collectionName: 'dashboard_buy_insurances';
+  info: {
+    description: '';
+    displayName: 'dashboard-buy-insurance';
+    pluralName: 'dashboard-buy-insurances';
+    singularName: 'dashboard-buy-insurance';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    alignment: Schema.Attribute.String;
+    cards: Schema.Attribute.DynamicZone<
+      [
+        'dashboard-buy-insurance.health',
+        'dashboard-buy-insurance.four-wheeler',
+        'dashboard-buy-insurance.two-wheeler',
+        'dashboard-buy-insurance.travel',
+        'dashboard-buy-insurance.home',
+        'dashboard-buy-insurance.pet',
+        'dashboard-buy-insurance.corporate',
+        'dashboard-buy-insurance.cyber',
+        'dashboard-buy-insurance.pmsby',
+        'dashboard-buy-insurance.commercial',
+      ]
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    initialCardsToShow: Schema.Attribute.String;
+    linkPolicy: Schema.Attribute.Component<
+      'dashboard-buy-insurance.link-policy',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::dashboard-buy-insurance.dashboard-buy-insurance'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    viewall: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+    viewmore: Schema.Attribute.String;
+  };
+}
+
+export interface ApiDashboardEcosystemDashboardEcosystem
+  extends Struct.SingleTypeSchema {
+  collectionName: 'dashboard_ecosystems';
+  info: {
+    description: '';
+    displayName: 'dashboard-ecosystem';
+    pluralName: 'dashboard-ecosystems';
+    singularName: 'dashboard-ecosystem';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    alignment: Schema.Attribute.String;
+    cards: Schema.Attribute.DynamicZone<
+      [
+        'dashboard-ecosystem.health',
+        'dashboard-ecosystem.title',
+        'dashboard-ecosystem.pets',
+      ]
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::dashboard-ecosystem.dashboard-ecosystem'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiDashboardExploreFourwheelerDashboardExploreFourwheeler
+  extends Struct.SingleTypeSchema {
+  collectionName: 'dashboard_explore_fourwheelers';
+  info: {
+    description: '';
+    displayName: 'dashboard-explore-fourwheeler';
+    pluralName: 'dashboard-explore-fourwheelers';
+    singularName: 'dashboard-explore-fourwheeler';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    alignment: Schema.Attribute.String;
+    buttontext: Schema.Attribute.String;
+    cards: Schema.Attribute.DynamicZone<
+      [
+        'dashboard-explore-fourwheeler.four-wheeler',
+        'dashboard-explore-fourwheeler.two-wheeler',
+      ]
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::dashboard-explore-fourwheeler.dashboard-explore-fourwheeler'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiDashboardExploreMoreDashboardExploreMore
+  extends Struct.SingleTypeSchema {
+  collectionName: 'dashboard_explore_mores';
+  info: {
+    description: '';
+    displayName: 'dashboard-explore-more';
+    pluralName: 'dashboard-explore-mores';
+    singularName: 'dashboard-explore-more';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    alignment: Schema.Attribute.String;
+    cards: Schema.Attribute.DynamicZone<
+      [
+        'dashboard-explore-more.card-one',
+        'dashboard-explore-more.card-two',
+        'dashboard-explore-more.card-three',
+      ]
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::dashboard-explore-more.dashboard-explore-more'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiDashboardLatestInHdfcDashboardLatestInHdfc
+  extends Struct.SingleTypeSchema {
+  collectionName: 'dashboard_latest_in_hdfcs';
+  info: {
+    description: '';
+    displayName: 'dashboard-latestIn-hdfc';
+    pluralName: 'dashboard-latest-in-hdfcs';
+    singularName: 'dashboard-latest-in-hdfc';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    alignment: Schema.Attribute.String;
+    articles: Schema.Attribute.Relation<'oneToMany', 'api::article.article'>;
+    buttontext: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::dashboard-latest-in-hdfc.dashboard-latest-in-hdfc'
+    > &
+      Schema.Attribute.Private;
+    old_articles: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::old-article.old-article'
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiDashboardQuickActionDashboardQuickAction
+  extends Struct.SingleTypeSchema {
+  collectionName: 'dashboard_quick_actions';
+  info: {
+    description: '';
+    displayName: 'dashboard-quickAction';
+    pluralName: 'dashboard-quick-actions';
+    singularName: 'dashboard-quick-action';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    alignment: Schema.Attribute.String;
+    buttontext: Schema.Attribute.String;
+    cards: Schema.Attribute.DynamicZone<
+      [
+        'dashboard-quick-action.claim-registration',
+        'dashboard-quick-action.renew-policy',
+        'dashboard-quick-action.ekyc-procedure',
+        'dashboard-quick-action.track-claim',
+        'dashboard-quick-action.link-eia',
+        'dashboard-quick-action.ekyc-registration',
+      ]
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::dashboard-quick-action.dashboard-quick-action'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiDashboardTrustedByCustomerDashboardTrustedByCustomer
+  extends Struct.SingleTypeSchema {
+  collectionName: 'dashboard_trusted_by_customers';
+  info: {
+    description: '';
+    displayName: 'dashboard-trusted-by-customer';
+    pluralName: 'dashboard-trusted-by-customers';
+    singularName: 'dashboard-trusted-by-customer';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    alignment: Schema.Attribute.String;
+    cards: Schema.Attribute.DynamicZone<
+      [
+        'dashboard-trusted-by-customer.happy-customers',
+        'dashboard-trusted-by-customer.customer-support',
+        'dashboard-trusted-by-customer.cashless-network',
+        'dashboard-trusted-by-customer.dashboard-trusted-by-customer',
+        'dashboard-trusted-by-customer.claim-settlement-rate',
+      ]
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    img: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::dashboard-trusted-by-customer.dashboard-trusted-by-customer'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiDashboardDashboard extends Struct.SingleTypeSchema {
   collectionName: 'dashboards';
   info: {
@@ -650,13 +945,34 @@ export interface ApiDashboardDashboard extends Struct.SingleTypeSchema {
       'dashboard.dashboard-cms-data',
       false
     >;
+    dashboardConnectWithUsCms: Schema.Attribute.Component<
+      'dashboard.dashboard-connect-with-us-cms',
+      false
+    >;
+    dashboardNewsletter: Schema.Attribute.Component<
+      'dashboard.dashboard-newsletter-cms',
+      false
+    >;
+    ecosystemQrCms: Schema.Attribute.Component<
+      'dashboard.ecosystem-qr-cms',
+      false
+    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::dashboard.dashboard'
     > &
       Schema.Attribute.Private;
+    needsYourAttention: Schema.Attribute.Component<
+      'dashboard-buy-insurance.needs-your-attention',
+      false
+    >;
     publishedAt: Schema.Attribute.DateTime;
+    resumeJourney: Schema.Attribute.Component<
+      'dashboard-buy-insurance.resume-journey',
+      false
+    >;
+    supportCms: Schema.Attribute.Component<'dashboard.support-cms', false>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1899,6 +2215,13 @@ declare module '@strapi/strapi' {
       'api::author.author': ApiAuthorAuthor;
       'api::category.category': ApiCategoryCategory;
       'api::customer-due-diligence.customer-due-diligence': ApiCustomerDueDiligenceCustomerDueDiligence;
+      'api::dashboard-buy-insurance.dashboard-buy-insurance': ApiDashboardBuyInsuranceDashboardBuyInsurance;
+      'api::dashboard-ecosystem.dashboard-ecosystem': ApiDashboardEcosystemDashboardEcosystem;
+      'api::dashboard-explore-fourwheeler.dashboard-explore-fourwheeler': ApiDashboardExploreFourwheelerDashboardExploreFourwheeler;
+      'api::dashboard-explore-more.dashboard-explore-more': ApiDashboardExploreMoreDashboardExploreMore;
+      'api::dashboard-latest-in-hdfc.dashboard-latest-in-hdfc': ApiDashboardLatestInHdfcDashboardLatestInHdfc;
+      'api::dashboard-quick-action.dashboard-quick-action': ApiDashboardQuickActionDashboardQuickAction;
+      'api::dashboard-trusted-by-customer.dashboard-trusted-by-customer': ApiDashboardTrustedByCustomerDashboardTrustedByCustomer;
       'api::dashboard.dashboard': ApiDashboardDashboard;
       'api::e-kyc-procedure.e-kyc-procedure': ApiEKycProcedureEKycProcedure;
       'api::ekyc-track.ekyc-track': ApiEkycTrackEkycTrack;

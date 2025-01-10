@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_needs_your_attentions",
+  "info": {
+    "displayName": "needsYourAttention"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
