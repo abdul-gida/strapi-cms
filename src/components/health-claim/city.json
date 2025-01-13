@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_health_claim_cities",
+  "info": {
+    "displayName": "city"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeHolder": {
+      "type": "string"
+    },
+    "sheetTitle": {
+      "type": "string"
+    },
+    "emptyStateProps": {
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.empty-state-props"
+    }
+  }
+}

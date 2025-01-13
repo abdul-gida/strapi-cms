@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_health_claim_query_widgets",
+  "info": {
+    "displayName": "queryWidget"
+  },
+  "options": {},
+  "attributes": {
+    "contactText": {
+      "type": "string"
+    },
+    "contactMail": {
+      "type": "string"
+    }
+  }
+}

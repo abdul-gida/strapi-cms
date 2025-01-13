@@ -2559,6 +2559,357 @@ export interface GenerateEkycYesNoOption extends Struct.ComponentSchema {
   };
 }
 
+export interface HealthClaimCity extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_cities';
+  info: {
+    displayName: 'city';
+  };
+  attributes: {
+    emptyStateProps: Schema.Attribute.Component<
+      'health-claim.empty-state-props',
+      false
+    >;
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimClaimSuccess extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_claim_successes';
+  info: {
+    displayName: 'claimSuccess';
+  };
+  attributes: {
+    copyPrefix: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimClaimUnableToProceed
+  extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_claim_unable_to_proceeds';
+  info: {
+    displayName: 'claimUnableToProceed';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    queryWidget: Schema.Attribute.Component<'health-claim.query-widget', false>;
+    retryLabel: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimConfirmation extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_confirmations';
+  info: {
+    displayName: 'confirmation';
+  };
+  attributes: {
+    cancel: Schema.Attribute.String;
+    confirm: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimContactDetails extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_contact_details';
+  info: {
+    displayName: 'contactDetails';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    validEmailLabel: Schema.Attribute.String;
+    validNumberLabel: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimEmptyStateProps extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_empty_state_props';
+  info: {
+    displayName: 'emptyStateProps';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimEnterClaimDetails extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_enter_claim_details';
+  info: {
+    displayName: 'enterClaimDetails';
+  };
+  attributes: {
+    admissionDateLabel: Schema.Attribute.String;
+    approvedAmountLabel: Schema.Attribute.String;
+    claimAmountLabel: Schema.Attribute.String;
+    claimNoLabel: Schema.Attribute.String;
+    copyLabel: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    dischargeDateLabel: Schema.Attribute.String;
+    enterClaimDetailsLabel: Schema.Attribute.String;
+    enterClaimDetailsPlaceholder: Schema.Attribute.String;
+    errorMessage: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    info: Schema.Attribute.String;
+    intimatedOnInfo: Schema.Attribute.String;
+    intimatedOnLabel: Schema.Attribute.String;
+    intimidatedLabel: Schema.Attribute.String;
+    parentClaimNo: Schema.Attribute.String;
+    parentClaimNoLabel: Schema.Attribute.String;
+    patientNameLabel: Schema.Attribute.String;
+    previousSupplementaryClaims: Schema.Attribute.String;
+    previousSupplementaryClaimsLabel: Schema.Attribute.String;
+    supplementaryClaimInfo: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    trackLabel: Schema.Attribute.String;
+    viewDetailLabel: Schema.Attribute.String;
+    viewLess: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimErrorSuccessJson extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_error_success_jsons';
+  info: {
+    description: '';
+    displayName: 'errorSuccessJson';
+  };
+  attributes: {
+    claimSuccess: Schema.Attribute.Component<
+      'health-claim.claim-success',
+      false
+    >;
+    claimUnableToProceed: Schema.Attribute.Component<
+      'health-claim.claim-unable-to-proceed',
+      false
+    >;
+    confirmation: Schema.Attribute.Component<
+      'health-claim.confirmation',
+      false
+    >;
+    notActiveClaims: Schema.Attribute.Component<
+      'health-claim.not-active-claims',
+      false
+    >;
+    serverError: Schema.Attribute.Component<'health-claim.server-error', false>;
+  };
+}
+
+export interface HealthClaimHealthFiling extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_health_filings';
+  info: {
+    displayName: 'healthFiling';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imaegUrl: Schema.Attribute.String;
+    modes: Schema.Attribute.Component<'health-claim.modes', true> &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 2;
+        },
+        number
+      >;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimHospitalisation extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_hospitalisations';
+  info: {
+    displayName: 'hospitalisation';
+  };
+  attributes: {};
+}
+
+export interface HealthClaimModes extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_modes';
+  info: {
+    displayName: 'modes';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimNotActiveClaims extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_not_active_claims';
+  info: {
+    description: '';
+    displayName: 'notActiveClaims';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    primaryButtonText: Schema.Attribute.String;
+    queryWidget: Schema.Attribute.Component<'health-claim.query-widget', false>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimPinCode extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_pin_codes';
+  info: {
+    displayName: 'pinCode';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    pinCodeCardLabel: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    searchLabel: Schema.Attribute.String;
+    searchResultLabel: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimQueryWidget extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_query_widgets';
+  info: {
+    displayName: 'queryWidget';
+  };
+  attributes: {
+    contactMail: Schema.Attribute.String;
+    contactText: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimQueryWidgetDump extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_query_widget_dumps';
+  info: {
+    displayName: 'queryWidgetDump';
+  };
+  attributes: {};
+}
+
+export interface HealthClaimSelectClaim extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_select_claims';
+  info: {
+    displayName: 'selectClaim';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    intimatedLabel: Schema.Attribute.String;
+    patientLabel: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimSelectHsp extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_select_hsps';
+  info: {
+    description: '';
+    displayName: 'selectHsp';
+  };
+  attributes: {
+    enterHospitalLabel: Schema.Attribute.String;
+    fillHspDetails: Schema.Attribute.Component<
+      'health-claim.title-img-and-desc',
+      false
+    >;
+    imageUrl: Schema.Attribute.String;
+    questionLabel: Schema.Attribute.String;
+    searcghNotFoundDesc: Schema.Attribute.String;
+    searchImageUrl: Schema.Attribute.String;
+    searchNotFoubdLabel: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimServerError extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_server_errors';
+  info: {
+    displayName: 'serverError';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    okayLabel: Schema.Attribute.String;
+    queryWidget: Schema.Attribute.Component<'health-claim.query-widget', false>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimState extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_states';
+  info: {
+    description: '';
+    displayName: 'state';
+  };
+  attributes: {
+    emptyStateProps: Schema.Attribute.Component<
+      'health-claim.empty-state-props',
+      false
+    >;
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimStateCitySelection extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_state_city_selections';
+  info: {
+    description: '';
+    displayName: 'stateCitySelection';
+  };
+  attributes: {
+    city: Schema.Attribute.Component<'health-claim.city', false>;
+    pinCode: Schema.Attribute.Component<'health-claim.pin-code', false>;
+    state: Schema.Attribute.Component<'health-claim.state', false>;
+  };
+}
+
+export interface HealthClaimSupplementary extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_supplementaries';
+  info: {
+    description: '';
+    displayName: 'supplementary';
+  };
+  attributes: {
+    enterClaimDetails: Schema.Attribute.Component<
+      'health-claim.enter-claim-details',
+      false
+    >;
+    queryWidgetDump: Schema.Attribute.Component<
+      'health-claim.query-widget',
+      false
+    >;
+    selectClaim: Schema.Attribute.Component<'health-claim.select-claim', false>;
+  };
+}
+
+export interface HealthClaimTitleImgAndDesc extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_title_img_and_descs';
+  info: {
+    displayName: 'titleImgAndDesc';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HealthClaimTrackCard extends Struct.ComponentSchema {
+  collectionName: 'components_health_claim_track_cards';
+  info: {
+    displayName: 'trackCard';
+  };
+  attributes: {
+    claimLabel: Schema.Attribute.String;
+  };
+}
+
 export interface HealthTrackAddDocumentCard extends Struct.ComponentSchema {
   collectionName: 'components_health_track_add_document_cards';
   info: {
@@ -4500,6 +4851,29 @@ declare module '@strapi/strapi' {
       'generate-ekyc.proceed-to-hdfc': GenerateEkycProceedToHdfc;
       'generate-ekyc.state': GenerateEkycState;
       'generate-ekyc.yes-no-option': GenerateEkycYesNoOption;
+      'health-claim.city': HealthClaimCity;
+      'health-claim.claim-success': HealthClaimClaimSuccess;
+      'health-claim.claim-unable-to-proceed': HealthClaimClaimUnableToProceed;
+      'health-claim.confirmation': HealthClaimConfirmation;
+      'health-claim.contact-details': HealthClaimContactDetails;
+      'health-claim.empty-state-props': HealthClaimEmptyStateProps;
+      'health-claim.enter-claim-details': HealthClaimEnterClaimDetails;
+      'health-claim.error-success-json': HealthClaimErrorSuccessJson;
+      'health-claim.health-filing': HealthClaimHealthFiling;
+      'health-claim.hospitalisation': HealthClaimHospitalisation;
+      'health-claim.modes': HealthClaimModes;
+      'health-claim.not-active-claims': HealthClaimNotActiveClaims;
+      'health-claim.pin-code': HealthClaimPinCode;
+      'health-claim.query-widget': HealthClaimQueryWidget;
+      'health-claim.query-widget-dump': HealthClaimQueryWidgetDump;
+      'health-claim.select-claim': HealthClaimSelectClaim;
+      'health-claim.select-hsp': HealthClaimSelectHsp;
+      'health-claim.server-error': HealthClaimServerError;
+      'health-claim.state': HealthClaimState;
+      'health-claim.state-city-selection': HealthClaimStateCitySelection;
+      'health-claim.supplementary': HealthClaimSupplementary;
+      'health-claim.title-img-and-desc': HealthClaimTitleImgAndDesc;
+      'health-claim.track-card': HealthClaimTrackCard;
       'health-track.add-document-card': HealthTrackAddDocumentCard;
       'health-track.details-required': HealthTrackDetailsRequired;
       'health-track.error-encountered': HealthTrackErrorEncountered;

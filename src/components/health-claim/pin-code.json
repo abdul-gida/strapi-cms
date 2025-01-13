@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_health_claim_pin_codes",
+  "info": {
+    "displayName": "pinCode"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeHolder": {
+      "type": "string"
+    },
+    "sheetTitle": {
+      "type": "string"
+    },
+    "searchLabel": {
+      "type": "string"
+    },
+    "pinCodeCardLabel": {
+      "type": "string"
+    },
+    "searchResultLabel": {
+      "type": "string"
+    }
+  }
+}

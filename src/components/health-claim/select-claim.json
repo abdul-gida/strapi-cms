@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_health_claim_select_claims",
+  "info": {
+    "displayName": "selectClaim"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "intimatedLabel": {
+      "type": "string"
+    },
+    "patientLabel": {
+      "type": "string"
+    }
+  }
+}

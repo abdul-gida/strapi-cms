@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_health_claim_claim_successes",
+  "info": {
+    "displayName": "claimSuccess"
+  },
+  "options": {},
+  "attributes": {
+    "copyPrefix": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

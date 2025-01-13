@@ -1307,28 +1307,50 @@ export interface ApiHealthClaimHealthClaim extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    claimDetails: Schema.Attribute.Component<
+      'health-claim.contact-details',
+      false
+    >;
+    contactDetails: Schema.Attribute.Component<
+      'health-claim.contact-details',
+      false
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    description: Schema.Attribute.Text & Schema.Attribute.Required;
-    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
-      Schema.Attribute.Required;
+    errorSuccessJson: Schema.Attribute.Component<
+      'health-claim.error-success-json',
+      false
+    >;
+    healthFiling: Schema.Attribute.Component<
+      'health-claim.health-filing',
+      false
+    >;
+    hospitalisation: Schema.Attribute.Component<
+      'health-claim.title-img-and-desc',
+      false
+    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
       'api::health-claim.health-claim'
     > &
       Schema.Attribute.Private;
-    modes: Schema.Attribute.Component<'shared.title-description', true> &
-      Schema.Attribute.Required &
-      Schema.Attribute.SetMinMax<
-        {
-          min: 1;
-        },
-        number
-      >;
     publishedAt: Schema.Attribute.DateTime;
-    title: Schema.Attribute.String & Schema.Attribute.Required;
+    selectHsp: Schema.Attribute.Component<'health-claim.select-hsp', false>;
+    selectPatient: Schema.Attribute.Component<
+      'health-claim.title-img-and-desc',
+      false
+    >;
+    stateCitySelection: Schema.Attribute.Component<
+      'health-claim.state-city-selection',
+      false
+    >;
+    supplementary: Schema.Attribute.Component<
+      'health-claim.supplementary',
+      false
+    >;
+    trackCard: Schema.Attribute.Component<'health-claim.track-card', false>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

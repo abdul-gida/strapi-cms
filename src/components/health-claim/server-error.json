@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_health_claim_server_errors",
+  "info": {
+    "displayName": "serverError"
+  },
+  "options": {},
+  "attributes": {
+    "okayLabel": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "queryWidget": {
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.query-widget"
+    }
+  }
+}
