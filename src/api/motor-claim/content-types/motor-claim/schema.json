@@ -70,6 +70,12 @@
       "type": "component",
       "repeatable": false,
       "component": "motor-claim.successfully-registered-cms"
+    },
+    "motorClaimPage": {
+      "displayName": "motorClaimPage",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-claim.motor-claim-page"
     }
   }
 }

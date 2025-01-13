@@ -1478,6 +1478,10 @@ export interface ApiMotorClaimMotorClaim extends Struct.SingleTypeSchema {
       'api::motor-claim.motor-claim'
     > &
       Schema.Attribute.Private;
+    motorClaimPage: Schema.Attribute.Component<
+      'motor-claim.motor-claim-page',
+      false
+    >;
     progressiveStepBar: Schema.Attribute.Component<
       'motor-claim.progressive-step-bar',
       true

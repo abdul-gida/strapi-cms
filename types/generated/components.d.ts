@@ -3211,6 +3211,19 @@ export interface MotorClaimInput extends Struct.ComponentSchema {
   };
 }
 
+export interface MotorClaimMotorClaimPage extends Struct.ComponentSchema {
+  collectionName: 'components_motor_claim_motor_claim_pages';
+  info: {
+    displayName: 'motorClaimPage';
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+    stepLabel: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface MotorClaimNatureOfLoss extends Struct.ComponentSchema {
   collectionName: 'components_motor_claim_nature_of_losses';
   info: {
@@ -4894,6 +4907,7 @@ declare module '@strapi/strapi' {
       'motor-claim.enter-claim-details': MotorClaimEnterClaimDetails;
       'motor-claim.enter-loss-incur': MotorClaimEnterLossIncur;
       'motor-claim.input': MotorClaimInput;
+      'motor-claim.motor-claim-page': MotorClaimMotorClaimPage;
       'motor-claim.nature-of-loss': MotorClaimNatureOfLoss;
       'motor-claim.progressive-step-bar': MotorClaimProgressiveStepBar;
       'motor-claim.select-nature': MotorClaimSelectNature;
