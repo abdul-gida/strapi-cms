@@ -572,14 +572,6 @@ export interface ApiClaimClaim extends Struct.SingleTypeSchema {
     displayName: 'Claims-static';
     pluralName: 'claims';
     singularName: 'claim';
-export interface ApiCustomerDueDiligenceCustomerDueDiligence
-  extends Struct.SingleTypeSchema {
-  collectionName: 'customer_due_diligences';
-  info: {
-    description: '';
-    displayName: 'customer-due-diligence';
-    pluralName: 'customer-due-diligences';
-    singularName: 'customer-due-diligence';
   };
   options: {
     draftAndPublish: true;
@@ -645,6 +637,27 @@ export interface ApiCustomerDueDiligenceCustomerDueDiligence
     >;
     twoWheelerInsurance: Schema.Attribute.Component<
       'claims-static.two-wheeler-insurance',
+      false
+    >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiCustomerDueDiligenceCustomerDueDiligence
+  extends Struct.SingleTypeSchema {
+  collectionName: 'customer_due_diligences';
+  info: {
+    description: '';
+    displayName: 'customer-due-diligence';
+    pluralName: 'customer-due-diligences';
+    singularName: 'customer-due-diligence';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
