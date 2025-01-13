@@ -565,6 +565,13 @@ export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiClaimClaim extends Struct.SingleTypeSchema {
+  collectionName: 'claims';
+  info: {
+    description: '';
+    displayName: 'Claims-static';
+    pluralName: 'claims';
+    singularName: 'claim';
 export interface ApiCustomerDueDiligenceCustomerDueDiligence
   extends Struct.SingleTypeSchema {
   collectionName: 'customer_due_diligences';
@@ -578,6 +585,66 @@ export interface ApiCustomerDueDiligenceCustomerDueDiligence
     draftAndPublish: true;
   };
   attributes: {
+    Banner: Schema.Attribute.Component<'claims.banner', false>;
+    carInsurance: Schema.Attribute.Component<
+      'claims-static.car-insurance',
+      false
+    >;
+    cattleInsurance: Schema.Attribute.Component<
+      'claims-static.cattle-insurance-dump',
+      false
+    >;
+    claimsBanner: Schema.Attribute.Component<'claims.claim-banner', false>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    criticalIlnessInsurance: Schema.Attribute.Component<
+      'claims-static.critical-ilness-insurance',
+      false
+    >;
+    groupMedicalInsurance: Schema.Attribute.Component<
+      'claims-static.group-medical-insurance',
+      false
+    >;
+    groupPersonalInsurance: Schema.Attribute.Component<
+      'claims-static.group-personal-insurance',
+      false
+    >;
+    groupTravelInsurance: Schema.Attribute.Component<
+      'claims-static.group-travel-insurance',
+      false
+    >;
+    healthInsurance: Schema.Attribute.Component<
+      'claims-static.health-insurance',
+      false
+    >;
+    kidnapExtortionInsuranceDump: Schema.Attribute.Component<
+      'claims-static.kidnap-extortion-insurance-dump',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::claim.claim'> &
+      Schema.Attribute.Private;
+    marineHullInsurance: Schema.Attribute.Component<
+      'claims-static.marine-hull-insurance-dump',
+      false
+    >;
+    personalAccidentInsurance: Schema.Attribute.Component<
+      'claims-static.personal-accident-insurance',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    rainfallIndexInsurance: Schema.Attribute.Component<
+      'claims-static.rainfall-index-insurance-dump',
+      false
+    >;
+    TabsCont: Schema.Attribute.Component<'claims-static.tabs-cont', false>;
+    travelInsurance: Schema.Attribute.Component<
+      'claims-static.travel-insurance',
+      false
+    >;
+    twoWheelerInsurance: Schema.Attribute.Component<
+      'claims-static.two-wheeler-insurance',
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -2339,6 +2406,7 @@ declare module '@strapi/strapi' {
       'api::article.article': ApiArticleArticle;
       'api::author.author': ApiAuthorAuthor;
       'api::category.category': ApiCategoryCategory;
+      'api::claim.claim': ApiClaimClaim;
       'api::customer-due-diligence.customer-due-diligence': ApiCustomerDueDiligenceCustomerDueDiligence;
       'api::dashboard-buy-insurance.dashboard-buy-insurance': ApiDashboardBuyInsuranceDashboardBuyInsurance;
       'api::dashboard-ecosystem.dashboard-ecosystem': ApiDashboardEcosystemDashboardEcosystem;

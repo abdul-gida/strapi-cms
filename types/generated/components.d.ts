@@ -84,6 +84,86 @@ export interface ArticleComponentsVideoUrl extends Struct.ComponentSchema {
   };
 }
 
+export interface ClaimsStaticAwardCont extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_award_conts';
+  info: {
+    displayName: 'award-cont';
+  };
+  attributes: {
+    heading: Schema.Attribute.Component<'claims-static.heading', false>;
+    subheading: Schema.Attribute.String;
+  };
+}
+
+export interface ClaimsStaticBulletPointsClaim extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_bullet_points_claims';
+  info: {
+    displayName: 'bulletPointsClaim';
+  };
+  attributes: {
+    point: Schema.Attribute.String;
+  };
+}
+
+export interface ClaimsStaticButton extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_buttons';
+  info: {
+    displayName: 'button';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+  };
+}
+
+export interface ClaimsStaticCarInsurance extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_car_insurances';
+  info: {
+    displayName: 'carInsurance';
+  };
+  attributes: {
+    cashlessBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+    claimSectionHeading: Schema.Attribute.Component<
+      'claims-static.section-heading',
+      false
+    >;
+    heading: Schema.Attribute.Component<'claims-static.heading-claim', false>;
+    reimbursmentBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+  };
+}
+
+export interface ClaimsStaticCattleInsuranceDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_cattle_insurance_dumps';
+  info: {
+    description: '';
+    displayName: 'cattleInsuranceDump';
+  };
+  attributes: {
+    cattleInsuranceBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+    heading: Schema.Attribute.Component<'claims-static.heading-claim', false>;
+  };
+}
+
+export interface ClaimsStaticClaimSteps extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_claim_steps';
+  info: {
+    displayName: 'claimSteps';
+  };
+  attributes: {
+    button: Schema.Attribute.Component<'claims-static.button', false>;
+    headerLabel: Schema.Attribute.String;
+    infoCont: Schema.Attribute.Component<'claims-static.info-cont', false>;
+    labelCont: Schema.Attribute.Component<'claims-static.label-cont', false>;
+    step: Schema.Attribute.String;
 export interface CustomerDueDiligenceAnnualIncome
   extends Struct.ComponentSchema {
   collectionName: 'components_customer_due_diligence_annual_incomes';
@@ -98,6 +178,45 @@ export interface CustomerDueDiligenceAnnualIncome
   };
 }
 
+export interface ClaimsStaticClaimTabs extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_claim_tabs';
+  info: {
+    displayName: 'claim-tabs';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    tabId: Schema.Attribute.Integer;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ClaimsStaticCriticalIlnessInsurance
+  extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_critical_ilness_insurances';
+  info: {
+    description: '';
+    displayName: 'criticalIlnessInsurance';
+  };
+  attributes: {
+    criticalIlnessBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+    heading: Schema.Attribute.Component<'claims-static.heading-claim', false>;
+  };
+}
+
+export interface ClaimsStaticDocumentChecklist extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_document_checklists';
+  info: {
+    description: '';
+    displayName: 'bulletPointsContClaims';
+  };
+  attributes: {
+    bullet: Schema.Attribute.Component<
+      'claims-static.bullet-points-claim',
+      true
 export interface CustomerDueDiligenceCustomerDueDiligence
   extends Struct.ComponentSchema {
   collectionName: 'components_customer_due_diligence_customer_due_diligences';
@@ -259,6 +378,221 @@ export interface CustomerDueDiligenceServerError
   };
 }
 
+export interface ClaimsStaticGroupMedicalInsurance
+  extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_group_medical_insurances';
+  info: {
+    displayName: 'groupMedicalInsurance';
+  };
+  attributes: {
+    groupMedicalInsuranceBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      false
+    >;
+    heading: Schema.Attribute.Component<'claims-static.heading-claim', false>;
+  };
+}
+
+export interface ClaimsStaticGroupPersonalInsurance
+  extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_group_personal_insurances';
+  info: {
+    description: '';
+    displayName: 'groupPersonalInsurance';
+  };
+  attributes: {
+    groupPersonalInsuranceBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+    heading: Schema.Attribute.Component<'claims-static.heading-claim', false>;
+  };
+}
+
+export interface ClaimsStaticGroupTravelInsurance
+  extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_group_travel_insurances';
+  info: {
+    description: '';
+    displayName: 'groupTravelInsurance';
+  };
+  attributes: {
+    groupMedicalInsuranceBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+    heading: Schema.Attribute.Component<'claims-static.heading-claim', false>;
+  };
+}
+
+export interface ClaimsStaticHeading extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_headings';
+  info: {
+    displayName: 'heading';
+  };
+  attributes: {
+    label1: Schema.Attribute.String;
+    label2: Schema.Attribute.String;
+  };
+}
+
+export interface ClaimsStaticHeadingClaim extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_heading_claims';
+  info: {
+    displayName: 'headingClaim';
+  };
+  attributes: {
+    claim: Schema.Attribute.String;
+    process: Schema.Attribute.String;
+  };
+}
+
+export interface ClaimsStaticHealthInsurance extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_health_insurances';
+  info: {
+    description: '';
+    displayName: 'healthInsurance';
+  };
+  attributes: {
+    bulletPoints: Schema.Attribute.Component<
+      'claims-static.bullet-points-claim',
+      true
+    >;
+    claimSteps: Schema.Attribute.Component<'claims-static.claim-steps', true>;
+    documentChecklist: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+    headingClaim: Schema.Attribute.Component<
+      'claims-static.heading-claim',
+      false
+    >;
+    pointsCont: Schema.Attribute.Component<
+      'claims-static.points-container',
+      false
+    >;
+    reimbursementSteps: Schema.Attribute.Component<
+      'claims-static.reimbursement-steps',
+      true
+    >;
+    sectionHeading: Schema.Attribute.Component<
+      'claims-static.section-heading',
+      false
+    >;
+    subheading: Schema.Attribute.String;
+  };
+}
+
+export interface ClaimsStaticInfoCont extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_info_conts';
+  info: {
+    displayName: 'infoCont';
+  };
+  attributes: {
+    heading: Schema.Attribute.String;
+    subheading: Schema.Attribute.String;
+  };
+}
+
+export interface ClaimsStaticKidnapExtortionInsuranceDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_kidnap_extortion_insurance_dumps';
+  info: {
+    displayName: 'kidnapExtortionInsuranceDump';
+  };
+  attributes: {
+    heading: Schema.Attribute.Component<'claims-static.heading-claim', false>;
+    kidnapExtortionBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+  };
+}
+
+export interface ClaimsStaticLabelCont extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_label_conts';
+  info: {
+    displayName: 'labelCont';
+  };
+  attributes: {
+    icon: Schema.Attribute.String;
+    value: Schema.Attribute.String;
+  };
+}
+
+export interface ClaimsStaticMarineHullInsuranceDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_marine_hull_insurance_dumps';
+  info: {
+    displayName: 'marineHullInsuranceDump';
+  };
+  attributes: {
+    heading: Schema.Attribute.Component<'claims-static.heading-claim', false>;
+    marineHullBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+  };
+}
+
+export interface ClaimsStaticPersonalAccidentInsurance
+  extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_personal_accident_insurances';
+  info: {
+    description: '';
+    displayName: 'personalAccidentInsurance';
+  };
+  attributes: {
+    cashlessBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+    claimSectionHeading: Schema.Attribute.Component<
+      'claims-static.section-heading',
+      false
+    >;
+    claimSteps: Schema.Attribute.Component<'claims-static.claim-steps', true>;
+    heading: Schema.Attribute.Component<'claims-static.heading-claim', false>;
+    reimbursmentBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+  };
+}
+
+export interface ClaimsStaticPointsContainer extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_points_containers';
+  info: {
+    displayName: 'pointsContainer';
+  };
+  attributes: {
+    heading: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+  };
+}
+
+export interface ClaimsStaticRainfallIndexInsuranceDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_rainfall_index_insurance_dumps';
+  info: {
+    displayName: 'rainfallIndexInsuranceDump';
+  };
+  attributes: {
+    heading: Schema.Attribute.Component<'claims-static.heading-claim', false>;
+    rainfallInsuranceBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+  };
+}
+
+export interface ClaimsStaticReimbursementSteps extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_reimbursement_steps';
+  info: {
+    displayName: 'reimbursementSteps';
+  };
+  attributes: {
+    infoCont: Schema.Attribute.Component<'claims-static.info-cont', true>;
 export interface CustomerDueDiligenceSubmitSuccess
   extends Struct.ComponentSchema {
   collectionName: 'components_customer_due_diligence_submit_successes';
@@ -321,6 +655,92 @@ export interface DashboardBuyInsuranceCard extends Struct.ComponentSchema {
   };
 }
 
+export interface ClaimsStaticSectionHeading extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_section_headings';
+  info: {
+    description: '';
+    displayName: 'sectionHeading';
+  };
+  attributes: {
+    section: Schema.Attribute.Component<'claims-static.sections', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ClaimsStaticSections extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_sections';
+  info: {
+    description: '';
+    displayName: 'sections';
+  };
+  attributes: {
+    section: Schema.Attribute.String;
+  };
+}
+
+export interface ClaimsStaticTabs extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_tabs';
+  info: {
+    displayName: 'tabs';
+  };
+  attributes: {
+    claimTabs: Schema.Attribute.Component<'claims-static.claim-tabs', true>;
+  };
+}
+
+export interface ClaimsStaticTabsCont extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_tabs_conts';
+  info: {
+    description: '';
+    displayName: 'TabsCont';
+  };
+  attributes: {
+    awardCont: Schema.Attribute.Component<'claims-static.award-cont', false>;
+    tabsClaimPage: Schema.Attribute.Component<'claims.tabs-claim-page', false>;
+  };
+}
+
+export interface ClaimsStaticTravelInsurance extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_travel_insurances';
+  info: {
+    displayName: 'travelInsurance';
+  };
+  attributes: {
+    cashlessBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+    claimSectionHeading: Schema.Attribute.Component<
+      'claims-static.section-heading',
+      false
+    >;
+    heading: Schema.Attribute.Component<'claims-static.heading-claim', false>;
+    reimbursmentBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+  };
+}
+
+export interface ClaimsStaticTwoWheelerInsurance
+  extends Struct.ComponentSchema {
+  collectionName: 'components_claims_static_two_wheeler_insurances';
+  info: {
+    description: '';
+    displayName: 'twoWheelerInsurance';
+  };
+  attributes: {
+    cashlessBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      true
+    >;
+    heading: Schema.Attribute.Component<'claims-static.heading-claim', false>;
+    reimbursmentBulletPoints: Schema.Attribute.Component<
+      'claims-static.document-checklist',
+      false
+    >;
+    sectionHeading: Schema.Attribute.Component<
+      'claims-static.section-heading',
 export interface DashboardBuyInsuranceCommercial
   extends Struct.ComponentSchema {
   collectionName: 'components_dashboard_buy_insurance_commercials';
@@ -335,6 +755,27 @@ export interface DashboardBuyInsuranceCommercial
   };
 }
 
+export interface ClaimsBanner extends Struct.ComponentSchema {
+  collectionName: 'components_claims_banners';
+  info: {
+    displayName: 'Banner';
+  };
+  attributes: {
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ClaimsClaimBanner extends Struct.ComponentSchema {
+  collectionName: 'components_claims_claim_banners';
+  info: {
+    displayName: 'Claim Banner';
+  };
+  attributes: {
+    image: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
 export interface DashboardBuyInsuranceCorporate extends Struct.ComponentSchema {
   collectionName: 'components_dashboard_buy_insurance_corporates';
   info: {
@@ -418,6 +859,14 @@ export interface DashboardBuyInsuranceNeedsYourAttention
   };
 }
 
+export interface ClaimsTabsClaimPage extends Struct.ComponentSchema {
+  collectionName: 'components_claims_tabs_claim_pages';
+  info: {
+    description: '';
+    displayName: 'tabsClaimPage';
+  };
+  attributes: {
+    tabs: Schema.Attribute.Component<'claims-static.tabs', true>;
 export interface DashboardBuyInsurancePet extends Struct.ComponentSchema {
   collectionName: 'components_dashboard_buy_insurance_pets';
   info: {
@@ -3846,6 +4295,38 @@ declare module '@strapi/strapi' {
       'article-components.quote-banner': ArticleComponentsQuoteBanner;
       'article-components.rich-text-json': ArticleComponentsRichTextJson;
       'article-components.video-url': ArticleComponentsVideoUrl;
+      'claims-static.award-cont': ClaimsStaticAwardCont;
+      'claims-static.bullet-points-claim': ClaimsStaticBulletPointsClaim;
+      'claims-static.button': ClaimsStaticButton;
+      'claims-static.car-insurance': ClaimsStaticCarInsurance;
+      'claims-static.cattle-insurance-dump': ClaimsStaticCattleInsuranceDump;
+      'claims-static.claim-steps': ClaimsStaticClaimSteps;
+      'claims-static.claim-tabs': ClaimsStaticClaimTabs;
+      'claims-static.critical-ilness-insurance': ClaimsStaticCriticalIlnessInsurance;
+      'claims-static.document-checklist': ClaimsStaticDocumentChecklist;
+      'claims-static.group-medical-insurance': ClaimsStaticGroupMedicalInsurance;
+      'claims-static.group-personal-insurance': ClaimsStaticGroupPersonalInsurance;
+      'claims-static.group-travel-insurance': ClaimsStaticGroupTravelInsurance;
+      'claims-static.heading': ClaimsStaticHeading;
+      'claims-static.heading-claim': ClaimsStaticHeadingClaim;
+      'claims-static.health-insurance': ClaimsStaticHealthInsurance;
+      'claims-static.info-cont': ClaimsStaticInfoCont;
+      'claims-static.kidnap-extortion-insurance-dump': ClaimsStaticKidnapExtortionInsuranceDump;
+      'claims-static.label-cont': ClaimsStaticLabelCont;
+      'claims-static.marine-hull-insurance-dump': ClaimsStaticMarineHullInsuranceDump;
+      'claims-static.personal-accident-insurance': ClaimsStaticPersonalAccidentInsurance;
+      'claims-static.points-container': ClaimsStaticPointsContainer;
+      'claims-static.rainfall-index-insurance-dump': ClaimsStaticRainfallIndexInsuranceDump;
+      'claims-static.reimbursement-steps': ClaimsStaticReimbursementSteps;
+      'claims-static.section-heading': ClaimsStaticSectionHeading;
+      'claims-static.sections': ClaimsStaticSections;
+      'claims-static.tabs': ClaimsStaticTabs;
+      'claims-static.tabs-cont': ClaimsStaticTabsCont;
+      'claims-static.travel-insurance': ClaimsStaticTravelInsurance;
+      'claims-static.two-wheeler-insurance': ClaimsStaticTwoWheelerInsurance;
+      'claims.banner': ClaimsBanner;
+      'claims.claim-banner': ClaimsClaimBanner;
+      'claims.tabs-claim-page': ClaimsTabsClaimPage;
       'customer-due-diligence.annual-income': CustomerDueDiligenceAnnualIncome;
       'customer-due-diligence.customer-due-diligence': CustomerDueDiligenceCustomerDueDiligence;
       'customer-due-diligence.ekyc-details': CustomerDueDiligenceEkycDetails;
