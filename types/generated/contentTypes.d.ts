@@ -984,7 +984,7 @@ export interface ApiDocumentUploaderDocumentUploader
   collectionName: 'document_uploaders';
   info: {
     description: '';
-    displayName: 'Document-uploader';
+    displayName: 'Health-document-uploader';
     pluralName: 'document-uploaders';
     singularName: 'document-uploader';
   };
