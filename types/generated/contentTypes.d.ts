@@ -979,6 +979,70 @@ export interface ApiDashboardDashboard extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiDocumentUploaderDocumentUploader
+  extends Struct.SingleTypeSchema {
+  collectionName: 'document_uploaders';
+  info: {
+    description: '';
+    displayName: 'Document-uploader';
+    pluralName: 'document-uploaders';
+    singularName: 'document-uploader';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    camera: Schema.Attribute.Component<'document-uploader.camera', false>;
+    claimDocumentList: Schema.Attribute.Component<
+      'document-uploader.claim-document-list',
+      false
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    documentModal: Schema.Attribute.Component<
+      'document-uploader.document-modal',
+      false
+    >;
+    documentProgressModal: Schema.Attribute.Component<
+      'document-uploader.document-progress-modal',
+      false
+    >;
+    errorScreen: Schema.Attribute.Component<
+      'document-uploader.error-screen',
+      false
+    >;
+    errorSuccessJson: Schema.Attribute.Component<
+      'document-uploader.error-success',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::document-uploader.document-uploader'
+    > &
+      Schema.Attribute.Private;
+    modal: Schema.Attribute.Component<'document-uploader.modal', false>;
+    publishedAt: Schema.Attribute.DateTime;
+    submissionError: Schema.Attribute.Component<
+      'document-uploader.submission-error',
+      false
+    >;
+    submitDocumentDump: Schema.Attribute.Component<
+      'document-uploader.submit-document-dump',
+      false
+    >;
+    success: Schema.Attribute.Component<'document-uploader.success', false>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    uploadRequiredDocuments: Schema.Attribute.Component<
+      'document-uploader.upload-required-documents',
+      false
+    >;
+  };
+}
+
 export interface ApiEKycProcedureEKycProcedure extends Struct.SingleTypeSchema {
   collectionName: 'e_kyc_procedures';
   info: {
@@ -2280,6 +2344,7 @@ declare module '@strapi/strapi' {
       'api::dashboard-quick-action.dashboard-quick-action': ApiDashboardQuickActionDashboardQuickAction;
       'api::dashboard-trusted-by-customer.dashboard-trusted-by-customer': ApiDashboardTrustedByCustomerDashboardTrustedByCustomer;
       'api::dashboard.dashboard': ApiDashboardDashboard;
+      'api::document-uploader.document-uploader': ApiDocumentUploaderDocumentUploader;
       'api::e-kyc-procedure.e-kyc-procedure': ApiEKycProcedureEKycProcedure;
       'api::ekyc-track.ekyc-track': ApiEkycTrackEkycTrack;
       'api::generate-ekyc.generate-ekyc': ApiGenerateEkycGenerateEkyc;

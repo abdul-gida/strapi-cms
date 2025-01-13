@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_document_uploader_query_widget_successes",
+  "info": {
+    "displayName": "queryWidgetSuccess"
+  },
+  "options": {},
+  "attributes": {
+    "contactMail": {
+      "type": "email"
+    },
+    "contactText": {
+      "type": "string"
+    }
+  }
+}

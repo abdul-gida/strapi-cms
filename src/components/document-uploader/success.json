@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_document_uploader_successes",
+  "info": {
+    "displayName": "success"
+  },
+  "options": {},
+  "attributes": {
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "copyPrefix": {
+      "type": "string"
+    },
+    "queryWidget": {
+      "displayName": "queryWidgetSuccess",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.query-widget-success"
+    }
+  }
+}
