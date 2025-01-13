@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_policy_manual_linking_unable_to_fetches",
+  "info": {
+    "displayName": "unableToFetch"
+  },
+  "options": {},
+  "attributes": {
+    "imgUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    }
+  }
+}

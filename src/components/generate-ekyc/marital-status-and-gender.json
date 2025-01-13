@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_generate_ekyc_marital_status_and_genders",
+  "info": {
+    "displayName": "maritalStatus-and-gender"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "sheetTitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_previous_year_policy_upload_query_widgets",
+  "info": {
+    "displayName": "queryWidget"
+  },
+  "options": {},
+  "attributes": {
+    "mail": {
+      "type": "string"
+    },
+    "contactText": {
+      "type": "string"
+    }
+  }
+}

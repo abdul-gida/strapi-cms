@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_ekyc_track_bottom_sectins",
+  "info": {
+    "displayName": "bottomSectin"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitile": {
+      "type": "string"
+    }
+  }
+}

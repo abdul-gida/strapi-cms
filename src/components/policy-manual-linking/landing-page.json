@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_policy_manual_linking_landing_pages",
+  "info": {
+    "displayName": "landingPage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "imgUrl": {
+      "type": "string"
+    },
+    "enterPolicyNumber": {
+      "type": "string"
+    },
+    "inputHint": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "whenCanTitle": {
+      "type": "string"
+    },
+    "whenCanContent": {
+      "displayName": "whenCanContent",
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-manual-linking.when-can-content"
+    }
+  }
+}

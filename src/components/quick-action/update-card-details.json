@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_update_card_details",
+  "info": {
+    "displayName": "UpdateCardDetails"
+  },
+  "options": {},
+  "attributes": {
+    "UpdateCardDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

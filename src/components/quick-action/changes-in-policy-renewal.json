@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_changes_in_policy_renewals",
+  "info": {
+    "displayName": "changesInPolicyRenewal"
+  },
+  "options": {},
+  "attributes": {
+    "changesInPolicyRenewal": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

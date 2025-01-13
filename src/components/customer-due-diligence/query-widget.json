@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_customer_due_diligence_query_widgets",
+  "info": {
+    "displayName": "queryWidget",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contactMail": {
+      "type": "email"
+    },
+    "contactText": {
+      "type": "string"
+    }
+  }
+}

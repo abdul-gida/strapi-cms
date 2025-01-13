@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "dashboard_latest_in_hdfcs",
+  "info": {
+    "singularName": "dashboard-latest-in-hdfc",
+    "pluralName": "dashboard-latest-in-hdfcs",
+    "displayName": "dashboard-latestIn-hdfc",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alignment": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "old_articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::old-article.old-article"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "buttontext": {
+      "type": "string"
+    }
+  }
+}

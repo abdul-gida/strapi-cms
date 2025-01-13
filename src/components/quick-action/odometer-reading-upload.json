@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_odometer_reading_uploads",
+  "info": {
+    "displayName": "odometerReadingUpload"
+  },
+  "options": {},
+  "attributes": {
+    "odometerReadingUpload": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_previous_year_policy_upload_successes",
+  "info": {
+    "displayName": "success"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "copyPrefix": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

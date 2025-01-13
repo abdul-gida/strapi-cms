@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ekyc_track_errors",
+  "info": {
+    "displayName": "error",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fetchError": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.fetch-error"
+    },
+    "serverError": {
+      "displayName": "serverError",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.server-error"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_generate_ekyc_yes_no_options",
+  "info": {
+    "displayName": "yesNoOption"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

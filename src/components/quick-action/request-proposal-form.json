@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_request_proposal_forms",
+  "info": {
+    "displayName": "requestProposalForm"
+  },
+  "options": {},
+  "attributes": {
+    "requestProposalForm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_quick_action_renew_policies",
+  "info": {
+    "displayName": "renewPolicy"
+  },
+  "options": {},
+  "attributes": {
+    "renewPolicy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-quick-action.card"
+    }
+  }
+}

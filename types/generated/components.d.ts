@@ -164,6 +164,16 @@ export interface ClaimsStaticClaimSteps extends Struct.ComponentSchema {
     infoCont: Schema.Attribute.Component<'claims-static.info-cont', false>;
     labelCont: Schema.Attribute.Component<'claims-static.label-cont', false>;
     step: Schema.Attribute.String;
+export interface CustomerDueDiligenceAnnualIncome
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_annual_incomes';
+  info: {
+    displayName: 'annualIncome';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    optionsKey: Schema.Attribute.String;
     type: Schema.Attribute.String;
   };
 }
@@ -207,6 +217,162 @@ export interface ClaimsStaticDocumentChecklist extends Struct.ComponentSchema {
     bullet: Schema.Attribute.Component<
       'claims-static.bullet-points-claim',
       true
+export interface CustomerDueDiligenceCustomerDueDiligence
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_customer_due_diligences';
+  info: {
+    displayName: 'customerDueDiligence';
+  };
+  attributes: {
+    backButton: Schema.Attribute.String;
+    dashboardButtonText: Schema.Attribute.String;
+    submitText: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceEkycDetails
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_ekyc_details';
+  info: {
+    displayName: 'ekycDetails';
+  };
+  attributes: {
+    cKycTile: Schema.Attribute.String;
+    ekycIdTitle: Schema.Attribute.String;
+    nameTitle: Schema.Attribute.String;
+    panTitle: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceIndian extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_indians';
+  info: {
+    displayName: 'Indian';
+  };
+  attributes: {
+    Indian: Schema.Attribute.Component<'customer-due-diligence.title', false>;
+  };
+}
+
+export interface CustomerDueDiligenceIsPoliticallyExposed
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_is_politically_exposeds';
+  info: {
+    displayName: 'isPoliticallyExposed';
+  };
+  attributes: {
+    isPoliticallyExposed: Schema.Attribute.Component<
+      'customer-due-diligence.nationality',
+      false
+    >;
+  };
+}
+
+export interface CustomerDueDiligenceMaritalStatus
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_marital_statuses';
+  info: {
+    displayName: 'maritalStatus';
+  };
+  attributes: {
+    maritalStatus: Schema.Attribute.Component<
+      'customer-due-diligence.annual-income',
+      false
+    >;
+  };
+}
+
+export interface CustomerDueDiligenceMothersName
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_mothers_names';
+  info: {
+    displayName: 'mothersName';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceNationality
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_nationalities';
+  info: {
+    displayName: 'nationality';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceNo extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_nos';
+  info: {
+    displayName: 'No';
+  };
+  attributes: {
+    No: Schema.Attribute.Component<'customer-due-diligence.title', false>;
+  };
+}
+
+export interface CustomerDueDiligenceOccupation extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_occupations';
+  info: {
+    displayName: 'occupation';
+  };
+  attributes: {
+    occupation: Schema.Attribute.Component<
+      'customer-due-diligence.annual-income',
+      false
+    >;
+  };
+}
+
+export interface CustomerDueDiligenceOrganizationType
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_organization_types';
+  info: {
+    displayName: 'organizationType';
+  };
+  attributes: {
+    organizationType: Schema.Attribute.Component<
+      'customer-due-diligence.annual-income',
+      false
+    >;
+  };
+}
+
+export interface CustomerDueDiligenceQueryWidget
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_query_widgets';
+  info: {
+    description: '';
+    displayName: 'queryWidget';
+  };
+  attributes: {
+    contactMail: Schema.Attribute.Email;
+    contactText: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceServerError
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_server_errors';
+  info: {
+    description: '';
+    displayName: 'serverError';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    primaryButtonText: Schema.Attribute.String;
+    queryWidget: Schema.Attribute.Component<
+      'customer-due-diligence.query-widget',
+      false
     >;
     title: Schema.Attribute.String;
   };
@@ -427,6 +593,64 @@ export interface ClaimsStaticReimbursementSteps extends Struct.ComponentSchema {
   };
   attributes: {
     infoCont: Schema.Attribute.Component<'claims-static.info-cont', true>;
+export interface CustomerDueDiligenceSubmitSuccess
+  extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_submit_successes';
+  info: {
+    description: '';
+    displayName: 'submitSuccess';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    primaryButtonText: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceTipInfo extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_tip_infos';
+  info: {
+    displayName: 'tipInfo';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceTitle extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_titles';
+  info: {
+    description: '';
+    displayName: 'nri';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CustomerDueDiligenceYes extends Struct.ComponentSchema {
+  collectionName: 'components_customer_due_diligence_yeses';
+  info: {
+    displayName: 'Yes';
+  };
+  attributes: {
+    Yes: Schema.Attribute.Component<'customer-due-diligence.title', false>;
+  };
+}
+
+export interface DashboardBuyInsuranceCard extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    bannerText: Schema.Attribute.String;
+    img: Schema.Attribute.String;
+    isNew: Schema.Attribute.Boolean;
+    showCard: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
     type: Schema.Attribute.String;
   };
 }
@@ -517,6 +741,15 @@ export interface ClaimsStaticTwoWheelerInsurance
     >;
     sectionHeading: Schema.Attribute.Component<
       'claims-static.section-heading',
+export interface DashboardBuyInsuranceCommercial
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_commercials';
+  info: {
+    displayName: 'commercial';
+  };
+  attributes: {
+    commercial: Schema.Attribute.Component<
+      'dashboard-buy-insurance.card',
       false
     >;
   };
@@ -543,6 +776,85 @@ export interface ClaimsClaimBanner extends Struct.ComponentSchema {
       'images' | 'files' | 'videos' | 'audios',
       true
     >;
+export interface DashboardBuyInsuranceCorporate extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_corporates';
+  info: {
+    displayName: 'corporate';
+  };
+  attributes: {
+    corporate: Schema.Attribute.Component<
+      'dashboard-buy-insurance.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardBuyInsuranceCyber extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_cybers';
+  info: {
+    displayName: 'cyber';
+  };
+  attributes: {
+    cyber: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+  };
+}
+
+export interface DashboardBuyInsuranceFourWheeler
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_four_wheelers';
+  info: {
+    displayName: 'fourWheeler';
+  };
+  attributes: {
+    fourWheeler: Schema.Attribute.Component<
+      'dashboard-buy-insurance.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardBuyInsuranceHealth extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_health';
+  info: {
+    displayName: 'health';
+  };
+  attributes: {
+    health: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+  };
+}
+
+export interface DashboardBuyInsuranceHome extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_homes';
+  info: {
+    displayName: 'home';
+  };
+  attributes: {
+    home: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+  };
+}
+
+export interface DashboardBuyInsuranceLinkPolicy
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_link_policies';
+  info: {
+    displayName: 'linkPolicy';
+  };
+  attributes: {
+    buttontext: Schema.Attribute.String;
+    img: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardBuyInsuranceNeedsYourAttention
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_needs_your_attentions';
+  info: {
+    displayName: 'needsYourAttention';
+  };
+  attributes: {
     title: Schema.Attribute.String;
   };
 }
@@ -555,6 +867,1344 @@ export interface ClaimsTabsClaimPage extends Struct.ComponentSchema {
   };
   attributes: {
     tabs: Schema.Attribute.Component<'claims-static.tabs', true>;
+export interface DashboardBuyInsurancePet extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_pets';
+  info: {
+    displayName: 'pet';
+  };
+  attributes: {
+    pet: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+  };
+}
+
+export interface DashboardBuyInsurancePmsby extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_pmsbies';
+  info: {
+    displayName: 'pmsby';
+  };
+  attributes: {
+    pmsby: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+  };
+}
+
+export interface DashboardBuyInsuranceResumeJourney
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_resume_journeys';
+  info: {
+    displayName: 'resumeJourney';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardBuyInsuranceTravel extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_travels';
+  info: {
+    displayName: 'travel';
+  };
+  attributes: {
+    travel: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+  };
+}
+
+export interface DashboardBuyInsuranceTwoWheeler
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_buy_insurance_two_wheelers';
+  info: {
+    displayName: 'twoWheeler';
+  };
+  attributes: {
+    twoWheeler: Schema.Attribute.Component<
+      'dashboard-buy-insurance.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardEcosystemCard extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_ecosystem_cards';
+  info: {
+    description: '';
+    displayName: 'card';
+  };
+  attributes: {
+    img: Schema.Attribute.String;
+    modalDescription: Schema.Attribute.String;
+    modalTitle: Schema.Attribute.String;
+    showCard: Schema.Attribute.Boolean;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardEcosystemDashboardEcosystem
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_ecosystem_dashboard_ecosystems';
+  info: {
+    description: '';
+    displayName: 'dashboard-ecosystem';
+  };
+  attributes: {
+    card: Schema.Attribute.Component<'dashboard-ecosystem.card', false>;
+  };
+}
+
+export interface DashboardEcosystemHealth extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_ecosystem_health';
+  info: {
+    displayName: 'health';
+  };
+  attributes: {
+    health: Schema.Attribute.Component<'dashboard-ecosystem.card', false>;
+  };
+}
+
+export interface DashboardEcosystemPets extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_ecosystem_pets';
+  info: {
+    displayName: 'pets';
+  };
+  attributes: {
+    pets: Schema.Attribute.Component<'dashboard-ecosystem.card', false>;
+  };
+}
+
+export interface DashboardEcosystemTitle extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_ecosystem_titles';
+  info: {
+    description: '';
+    displayName: 'auto';
+  };
+  attributes: {
+    auto: Schema.Attribute.Component<'dashboard-ecosystem.card', false>;
+  };
+}
+
+export interface DashboardExploreFourwheelerCard
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_fourwheeler_cards';
+  info: {
+    description: '';
+    displayName: 'card';
+  };
+  attributes: {
+    buttontext: Schema.Attribute.String;
+    category: Schema.Attribute.String;
+    img: Schema.Attribute.String;
+    showCard: Schema.Attribute.Boolean;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardExploreFourwheelerDashboardExploreFourwheeler
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_fourwheeler_dashboard_explore_fourwheelers';
+  info: {
+    description: '';
+    displayName: 'dashboard-explore-fourwheeler';
+  };
+  attributes: {
+    card: Schema.Attribute.Component<
+      'dashboard-explore-fourwheeler.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardExploreFourwheelerFourWheeler
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_fourwheeler_four_wheelers';
+  info: {
+    displayName: 'fourWheeler';
+  };
+  attributes: {
+    fourwheeler: Schema.Attribute.Component<
+      'dashboard-explore-fourwheeler.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardExploreFourwheelerTwoWheeler
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_fourwheeler_two_wheelers';
+  info: {
+    displayName: 'twoWheeler';
+  };
+  attributes: {
+    twoWheeler: Schema.Attribute.Component<
+      'dashboard-explore-fourwheeler.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardExploreMoreCard extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_more_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    buttontext: Schema.Attribute.Blocks;
+    img: Schema.Attribute.String;
+    showCard: Schema.Attribute.Boolean;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardExploreMoreCardOne extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_more_card_ones';
+  info: {
+    displayName: 'cardOne';
+  };
+  attributes: {
+    cardOne: Schema.Attribute.Component<'dashboard-explore-more.card', false>;
+  };
+}
+
+export interface DashboardExploreMoreCardThree extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_more_card_threes';
+  info: {
+    displayName: 'cardThree';
+  };
+  attributes: {
+    cardThree: Schema.Attribute.Component<'dashboard-explore-more.card', false>;
+  };
+}
+
+export interface DashboardExploreMoreCardTwo extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_more_card_twos';
+  info: {
+    displayName: 'cardTwo';
+  };
+  attributes: {
+    cardTwo: Schema.Attribute.Component<'dashboard-explore-more.card', false>;
+  };
+}
+
+export interface DashboardExploreMoreDashboardExploreMore
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_explore_more_dashboard_explore_mores';
+  info: {
+    displayName: 'dashboard-explore-more';
+  };
+  attributes: {
+    card: Schema.Attribute.Component<'dashboard-explore-more.card', false>;
+  };
+}
+
+export interface DashboardLatestInHdfcCard extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_latest_in_hdfc_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    img: Schema.Attribute.String;
+    readTime: Schema.Attribute.String;
+    showCard: Schema.Attribute.Boolean;
+    subtitle: Schema.Attribute.String;
+    tagName: Schema.Attribute.String;
+    time: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardLatestInHdfcDashboardLatestInHdfc
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_latest_in_hdfc_dashboard_latest_in_hdfcs';
+  info: {
+    displayName: 'dashboard-latestIn-hdfc';
+  };
+  attributes: {
+    card: Schema.Attribute.Component<'dashboard-latest-in-hdfc.card', false>;
+  };
+}
+
+export interface DashboardQuickActionCard extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    img: Schema.Attribute.String;
+    key: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardQuickActionClaimRegistration
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_claim_registrations';
+  info: {
+    displayName: 'claimRegistration';
+  };
+  attributes: {
+    claimRegistration: Schema.Attribute.Component<
+      'dashboard-quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardQuickActionDashboardQuickAction
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_dashboard_quick_actions';
+  info: {
+    displayName: 'dashboard-quickAction';
+  };
+  attributes: {
+    card: Schema.Attribute.Component<'dashboard-quick-action.card', false>;
+  };
+}
+
+export interface DashboardQuickActionEkycProcedure
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_ekyc_procedures';
+  info: {
+    displayName: 'ekycProcedure';
+  };
+  attributes: {
+    ekycProcedure: Schema.Attribute.Component<
+      'dashboard-quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardQuickActionEkycRegistration
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_ekyc_registrations';
+  info: {
+    displayName: 'ekycRegistration';
+  };
+  attributes: {
+    ekycRegistration: Schema.Attribute.Component<
+      'dashboard-quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardQuickActionLinkEia extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_link_eias';
+  info: {
+    displayName: 'linkEia';
+  };
+  attributes: {
+    linkEia: Schema.Attribute.Component<'dashboard-quick-action.card', false>;
+  };
+}
+
+export interface DashboardQuickActionRenewPolicy
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_renew_policies';
+  info: {
+    displayName: 'renewPolicy';
+  };
+  attributes: {
+    renewPolicy: Schema.Attribute.Component<
+      'dashboard-quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardQuickActionTrackClaim extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_quick_action_track_claims';
+  info: {
+    displayName: 'trackClaim';
+  };
+  attributes: {
+    trackClaim: Schema.Attribute.Component<
+      'dashboard-quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardTrustedByCustomerCard extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_trusted_by_customer_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardTrustedByCustomerCashlessNetwork
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_trusted_by_customer_cashless_networks';
+  info: {
+    displayName: 'Cashless Network';
+  };
+  attributes: {
+    CashlessNetwork: Schema.Attribute.Component<
+      'dashboard-trusted-by-customer.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardTrustedByCustomerClaimSettlementRate
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_trusted_by_customer_claim_settlement_rates';
+  info: {
+    displayName: 'Claim Settlement Rate';
+  };
+  attributes: {
+    ClaimSettlementRate: Schema.Attribute.Component<
+      'dashboard-trusted-by-customer.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardTrustedByCustomerCustomerSupport
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_trusted_by_customer_customer_supports';
+  info: {
+    displayName: 'Customer Support';
+  };
+  attributes: {
+    CustomerSupport: Schema.Attribute.Component<
+      'dashboard-trusted-by-customer.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardTrustedByCustomerDashboardTrustedByCustomer
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_trusted_by_customer_dashboard_trusted_by_customers';
+  info: {
+    displayName: 'dashboard-trusted-by-customer';
+  };
+  attributes: {
+    card: Schema.Attribute.Component<
+      'dashboard-trusted-by-customer.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardTrustedByCustomerHappyCustomers
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_trusted_by_customer_happy_customers';
+  info: {
+    displayName: 'Happy Customers';
+  };
+  attributes: {
+    HappyCustomers: Schema.Attribute.Component<
+      'dashboard-trusted-by-customer.card',
+      false
+    >;
+  };
+}
+
+export interface DashboardCardAlignment extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_card_alignments';
+  info: {
+    displayName: 'cardAlignment';
+  };
+  attributes: {
+    desktopAlignment: Schema.Attribute.String;
+    mobileAlignment: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardDashboardCmsData extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_dashboard_cms_data';
+  info: {
+    description: '';
+    displayName: 'dashboardCmsData';
+  };
+  attributes: {
+    bottomCount: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    buyInsurance: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    connect: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    ecosystem: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    explore: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    fourwheeler: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    latest: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    needsYourAttention: Schema.Attribute.Component<
+      'dashboard.card-alignment',
+      false
+    >;
+    newsletter: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    quickActions: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    scan: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+    support: Schema.Attribute.Component<'dashboard.card-alignment', false>;
+  };
+}
+
+export interface DashboardDashboardConnectWithUsCms
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_dashboard_connect_with_us_cms';
+  info: {
+    displayName: 'dashboardConnectWithUsCms';
+  };
+  attributes: {
+    alignment: Schema.Attribute.String;
+    img: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardDashboardNewsletterCms
+  extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_dashboard_newsletter_cms';
+  info: {
+    description: '';
+    displayName: 'dashboardNewsletterCms';
+  };
+  attributes: {
+    alignment: Schema.Attribute.String;
+    buttontext: Schema.Attribute.String;
+    img: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardEcosystemQrCms extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_ecosystem_qr_cms';
+  info: {
+    displayName: 'ecosystemQrCms';
+  };
+  attributes: {
+    appleStore: Schema.Attribute.String;
+    desc: Schema.Attribute.String;
+    googleStore: Schema.Attribute.String;
+    mobileButtonText: Schema.Attribute.String;
+    mobileImage: Schema.Attribute.String;
+    scanImage: Schema.Attribute.String;
+    scanTitle: Schema.Attribute.String;
+    scanUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface DashboardSupportCms extends Struct.ComponentSchema {
+  collectionName: 'components_dashboard_support_cms';
+  info: {
+    displayName: 'supportCms';
+  };
+  attributes: {
+    alignment: Schema.Attribute.String;
+    buttontext: Schema.Attribute.String;
+    img: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackAadharInput extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_aadhar_inputs';
+  info: {
+    displayName: 'aadharInput';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeholder: Schema.Attribute.String;
+    prefix: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackAadharVerification extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_aadhar_verifications';
+  info: {
+    description: '';
+    displayName: 'aadharVerification';
+  };
+  attributes: {
+    error: Schema.Attribute.Component<
+      'ekyc-track.aadhar-verification-error',
+      false
+    >;
+    header: Schema.Attribute.Component<
+      'ekyc-track.title-and-description',
+      false
+    >;
+    InputLabel: Schema.Attribute.Component<
+      'ekyc-track.aadhar-verification-input-label',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackAadharVerificationError
+  extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_aadhar_verification_errors';
+  info: {
+    description: '';
+    displayName: 'aadharVerificationError';
+  };
+  attributes: {
+    fetchError: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+    serverError: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+  };
+}
+
+export interface EkycTrackAadharVerificationInputLabel
+  extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_aadhar_verification_input_labels';
+  info: {
+    description: '';
+    displayName: 'aadharVerificationInputLabel';
+  };
+  attributes: {
+    aadharInput: Schema.Attribute.Component<'ekyc-track.aadhar-input', false>;
+    dobInput: Schema.Attribute.Component<'ekyc-track.dob-input', false>;
+  };
+}
+
+export interface EkycTrackBottomSectin extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_bottom_sectins';
+  info: {
+    displayName: 'bottomSectin';
+  };
+  attributes: {
+    subTitile: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackBottomSection extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_bottom_sections';
+  info: {
+    description: '';
+    displayName: 'bottomSection';
+  };
+  attributes: {
+    Approved: Schema.Attribute.Component<'ekyc-track.statuses', false>;
+    Pending: Schema.Attribute.Component<'ekyc-track.pending', false>;
+    Rejected: Schema.Attribute.Component<'ekyc-track.statuses', false>;
+  };
+}
+
+export interface EkycTrackCardsData extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_cards_data';
+  info: {
+    displayName: 'cardsData';
+  };
+  attributes: {
+    cardInfo: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackClaimIdVerification extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_claim_id_verifications';
+  info: {
+    description: '';
+    displayName: 'claimIdVerification';
+  };
+  attributes: {
+    error: Schema.Attribute.Component<'ekyc-track.error', false>;
+    header: Schema.Attribute.Component<
+      'ekyc-track.title-and-description',
+      false
+    >;
+    inputLabel: Schema.Attribute.Component<
+      'ekyc-track.label-and-placeholder',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackCmsEkycMapper extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_cms_ekyc_mappers';
+  info: {
+    displayName: 'cmsEkycMapper';
+  };
+  attributes: {
+    ckycNo: Schema.Attribute.String;
+    ekycId: Schema.Attribute.String;
+    name: Schema.Attribute.String;
+    pan: Schema.Attribute.String;
+    reason: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackDobInput extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_dob_inputs';
+  info: {
+    description: '';
+    displayName: 'dobInput';
+  };
+  attributes: {
+    calendarSubtitle: Schema.Attribute.String;
+    calenderTitle: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    placeholder: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackError extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_errors';
+  info: {
+    description: '';
+    displayName: 'error';
+  };
+  attributes: {
+    fetchError: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+    serverError: Schema.Attribute.Component<'ekyc-track.server-error', false>;
+  };
+}
+
+export interface EkycTrackErrorPopUp extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_error_pop_ups';
+  info: {
+    displayName: 'errorPopUp';
+  };
+  attributes: {
+    fetch: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+    server: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+  };
+}
+
+export interface EkycTrackFetchError extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_fetch_errors';
+  info: {
+    displayName: 'fetchError';
+  };
+  attributes: {
+    button1: Schema.Attribute.String;
+    button2: Schema.Attribute.String;
+    desctiption: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackHeader extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_headers';
+  info: {
+    displayName: 'header';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    info: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackInputLabel extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_input_labels';
+  info: {
+    description: '';
+    displayName: 'inputLabel';
+  };
+  attributes: {
+    panInput: Schema.Attribute.Component<
+      'ekyc-track.label-and-placeholder',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackKycTrackingApiDump extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_kyc_tracking_api_dumps';
+  info: {
+    description: '';
+    displayName: 'kycTrackingApiDump';
+  };
+  attributes: {
+    statusApprovedResponse: Schema.Attribute.Component<
+      'ekyc-track.status-rejected-response',
+      false
+    >;
+    statusPendingResponse: Schema.Attribute.Component<
+      'ekyc-track.status-rejected-response',
+      false
+    >;
+    statusRejectedResponse: Schema.Attribute.Component<
+      'ekyc-track.status-rejected-response',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackLabelAndPlaceholder extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_label_and_placeholders';
+  info: {
+    displayName: 'labelAndPlaceholder';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackPanVerification extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_pan_verifications';
+  info: {
+    description: '';
+    displayName: 'panVerification';
+  };
+  attributes: {
+    error: Schema.Attribute.Component<'ekyc-track.pan-verification-err', false>;
+    header: Schema.Attribute.Component<
+      'ekyc-track.title-and-description',
+      false
+    >;
+    inputLabel: Schema.Attribute.Component<
+      'ekyc-track.pan-verification-input-label',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackPanVerificationErr extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_pan_verification_errs';
+  info: {
+    description: '';
+    displayName: 'panVerificationErr';
+  };
+  attributes: {
+    fetchError: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+    serverError: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+  };
+}
+
+export interface EkycTrackPanVerificationInputLabel
+  extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_pan_verification_input_labels';
+  info: {
+    displayName: 'panVerificationInputLabel';
+  };
+  attributes: {
+    dobInput: Schema.Attribute.Component<'ekyc-track.dob-input', false>;
+    panInput: Schema.Attribute.Component<
+      'ekyc-track.title-and-description',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackPending extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_pendings';
+  info: {
+    displayName: 'Pending';
+  };
+  attributes: {
+    btnDisp: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackServerError extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_server_errors';
+  info: {
+    displayName: 'serverError';
+  };
+  attributes: {
+    button1: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackStatic extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_statics';
+  info: {
+    description: '';
+    displayName: 'static';
+  };
+  attributes: {
+    cardsData: Schema.Attribute.Component<'ekyc-track.cards-data', true>;
+    header: Schema.Attribute.Component<'ekyc-track.header', false>;
+  };
+}
+
+export interface EkycTrackStatusPage extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_status_pages';
+  info: {
+    description: '';
+    displayName: 'statusPage';
+  };
+  attributes: {
+    bottomSectin: Schema.Attribute.Component<'ekyc-track.bottom-sectin', false>;
+    bottomSection: Schema.Attribute.Component<
+      'ekyc-track.bottom-section',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackStatusRejectedResponse
+  extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_status_rejected_responses';
+  info: {
+    description: '';
+    displayName: 'statusResponse';
+  };
+  attributes: {
+    aadhar: Schema.Attribute.String;
+    ckycNo: Schema.Attribute.String;
+    ekycId: Schema.Attribute.String;
+    kycStatus: Schema.Attribute.String;
+    name: Schema.Attribute.String;
+    pan: Schema.Attribute.String;
+    rejectionReason: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackStatuses extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_statuses';
+  info: {
+    displayName: 'statuses';
+  };
+  attributes: {
+    btnDisp: Schema.Attribute.String;
+    btnLabel: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackTitleAndDescription extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_title_and_descriptions';
+  info: {
+    displayName: 'titleAndDescription';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackToast extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_toasts';
+  info: {
+    displayName: 'toast';
+  };
+  attributes: {
+    delay: Schema.Attribute.Component<
+      'ekyc-track.title-and-description',
+      false
+    >;
+  };
+}
+
+export interface EkycTrackTrackingKycDump extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_tracking_kyc_dumps';
+  info: {
+    description: '';
+    displayName: 'trackingKycDump';
+  };
+  attributes: {
+    aadharVerification: Schema.Attribute.Component<
+      'ekyc-track.aadhar-verification',
+      false
+    >;
+    claimIdVerification: Schema.Attribute.Component<
+      'ekyc-track.claim-id-verification',
+      false
+    >;
+    cmsEkycMapper: Schema.Attribute.Component<
+      'ekyc-track.cms-ekyc-mapper',
+      false
+    >;
+    errorPopUp: Schema.Attribute.Component<'ekyc-track.error-pop-up', false>;
+    panVerification: Schema.Attribute.Component<
+      'ekyc-track.pan-verification',
+      false
+    >;
+    static: Schema.Attribute.Component<'ekyc-track.static', false>;
+    statusPage: Schema.Attribute.Component<'ekyc-track.status-page', false>;
+    toast: Schema.Attribute.Component<'ekyc-track.toast', false>;
+  };
+}
+
+export interface GenerateEkycAnnualIncome extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_annual_incomes';
+  info: {
+    description: '';
+    displayName: 'annualIncomeInput';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    Placeholder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCalendar extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_calendars';
+  info: {
+    displayName: 'calendar';
+  };
+  attributes: {
+    calenderSubTitle: Schema.Attribute.String;
+    calenderTitle: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCheckbox extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_checkboxes';
+  info: {
+    displayName: 'checkbox';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCity extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_cities';
+  info: {
+    displayName: 'city';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCmsErrorstatusModal
+  extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_cms_errorstatus_modals';
+  info: {
+    displayName: 'cmsErrorstatusModal';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCmsFinalPage extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_cms_final_pages';
+  info: {
+    displayName: 'cmsFinalPage';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    ekycText: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    successImageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCmsGoback extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_cms_gobacks';
+  info: {
+    displayName: 'cmsGoback';
+  };
+  attributes: {
+    cancelButtonText: Schema.Attribute.String;
+    gobackButtonText: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCmsServerTimeout extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_cms_server_timeouts';
+  info: {
+    displayName: 'cmsServerTimeout';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCmsSubFinalPage extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_cms_sub_final_pages';
+  info: {
+    displayName: 'cmsSubFinalPage';
+  };
+  attributes: {
+    imageUrl: Schema.Attribute.String;
+    linkText: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycCorrespondenceAddress
+  extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_correspondence_addresses';
+  info: {
+    displayName: 'correspondenceAddress';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycEkycDetailCms extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_ekyc_detail_cms';
+  info: {
+    displayName: 'ekycDetailCms';
+  };
+  attributes: {
+    calendar: Schema.Attribute.Component<'generate-ekyc.calendar', false>;
+    clickHereText: Schema.Attribute.String;
+    clickText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    dobLabel: Schema.Attribute.String;
+    dobPlaceHolder: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    panLabel: Schema.Attribute.String;
+    panPlaceHolder: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycEkycList extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_ekyc_lists';
+  info: {
+    description: '';
+    displayName: 'ekycList';
+  };
+  attributes: {
+    checkbox: Schema.Attribute.Component<'generate-ekyc.checkbox', false>;
+    city: Schema.Attribute.Component<'generate-ekyc.city', false>;
+    correspondenceAddress: Schema.Attribute.Component<
+      'generate-ekyc.correspondence-address',
+      false
+    >;
+    fatherInput: Schema.Attribute.Component<
+      'generate-ekyc.father-input',
+      false
+    >;
+    motherInput: Schema.Attribute.Component<
+      'generate-ekyc.mother-input',
+      false
+    >;
+    permanentAddress: Schema.Attribute.Component<
+      'generate-ekyc.permanent-address',
+      false
+    >;
+    pincode: Schema.Attribute.Component<'generate-ekyc.pincode', false>;
+    state: Schema.Attribute.Component<'generate-ekyc.state', false>;
+  };
+}
+
+export interface GenerateEkycEkycVerifyCms extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_ekyc_verify_cms';
+  info: {
+    description: '';
+    displayName: 'ekycVerifyCms';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    gender: Schema.Attribute.Component<
+      'generate-ekyc.marital-status-and-gender',
+      false
+    >;
+    imageUrl: Schema.Attribute.String;
+    maritalStatus: Schema.Attribute.Component<
+      'generate-ekyc.marital-status-and-gender',
+      false
+    >;
+    personNameLabel: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycFatherInput extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_father_inputs';
+  info: {
+    displayName: 'fatherInput';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycFinancialDetails extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_financial_details';
+  info: {
+    displayName: 'financialDetails';
+  };
+  attributes: {};
+}
+
+export interface GenerateEkycFinancialDetailsCms
+  extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_financial_details_cms';
+  info: {
+    description: '';
+    displayName: 'financialDetailsCms';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycMaritalStatusAndGender
+  extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_marital_status_and_genders';
+  info: {
+    displayName: 'maritalStatus-and-gender';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeholder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycMotherInput extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_mother_inputs';
+  info: {
+    displayName: 'motherInput';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycOccupationInput extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_occupation_inputs';
+  info: {
+    displayName: 'occupationInput';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    Placeholder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycOrganizationInput extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_organization_inputs';
+  info: {
+    displayName: 'OrganizationInput';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    Placeholder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycPanCard extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_pan_cards';
+  info: {
+    description: '';
+    displayName: 'PanCard';
+  };
+  attributes: {
+    heading: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    no: Schema.Attribute.Component<'generate-ekyc.yes-no-option', false>;
+    yes: Schema.Attribute.Component<'generate-ekyc.yes-no-option', false>;
+  };
+}
+
+export interface GenerateEkycPermanentAddress extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_permanent_addresses';
+  info: {
+    displayName: 'permanentAddress';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycPincode extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_pincodes';
+  info: {
+    displayName: 'pincode';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycPoliticallyExposed extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_politically_exposeds';
+  info: {
+    displayName: 'politicallyExposed';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycProceedToHdfc extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_proceed_to_hdfcs';
+  info: {
+    displayName: 'proceedToHdfc';
+  };
+  attributes: {
+    cancelButtonText: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    proceedButtonText: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycState extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_states';
+  info: {
+    displayName: 'state';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface GenerateEkycYesNoOption extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_yes_no_options';
+  info: {
+    displayName: 'yesNoOption';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
 }
@@ -717,6 +2367,24 @@ export interface HealthTrackTrackCardObject extends Struct.ComponentSchema {
     intimationDt: Schema.Attribute.String & Schema.Attribute.Required;
     patientName: Schema.Attribute.String & Schema.Attribute.Required;
     policyNo: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface HelloHello extends Struct.ComponentSchema {
+  collectionName: 'components_hello_hellos';
+  info: {
+    displayName: 'Hello';
+  };
+  attributes: {};
+}
+
+export interface HelloRandom extends Struct.ComponentSchema {
+  collectionName: 'components_hello_randoms';
+  info: {
+    displayName: 'random';
+  };
+  attributes: {
+    kycStatus: Schema.Attribute.String;
   };
 }
 
@@ -1242,6 +2910,20 @@ export interface MotorTrackInformationMismatch extends Struct.ComponentSchema {
   };
 }
 
+export interface MotorTrackOrganizationInput extends Struct.ComponentSchema {
+  collectionName: 'components_motor_track_organization_inputs';
+  info: {
+    displayName: 'OrganizationInput';
+  };
+  attributes: {
+    key: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    Placeholder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
 export interface MotorTrackQueryText extends Struct.ComponentSchema {
   collectionName: 'components_motor_track_query_texts';
   info: {
@@ -1276,6 +2958,818 @@ export interface MotorTrackSomethingWentWrong extends Struct.ComponentSchema {
     primaryButtonText: Schema.Attribute.String;
     queryWidget: Schema.Attribute.Component<'motor-track.query-widget', false>;
     title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingCancelledExpired
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_cancelled_expireds';
+  info: {
+    displayName: 'cancelledExpired';
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+    cancelledDesc: Schema.Attribute.String;
+    cancelledTitle: Schema.Attribute.String;
+    expiredDesc: Schema.Attribute.String;
+    expiredTitle: Schema.Attribute.String;
+    imgUrl: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingCard extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    desc: Schema.Attribute.String;
+    key: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingLandingPage extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_landing_pages';
+  info: {
+    description: '';
+    displayName: 'landingPage';
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    enterPolicyNumber: Schema.Attribute.String;
+    imgUrl: Schema.Attribute.String;
+    inputHint: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    whenCanContent: Schema.Attribute.Component<
+      'policy-manual-linking.when-can-content',
+      true
+    >;
+    whenCanTitle: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingOtpView extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_otp_views';
+  info: {
+    displayName: 'otpView';
+  };
+  attributes: {
+    incorrectOtp: Schema.Attribute.String;
+    resendCode: Schema.Attribute.String;
+    resendIn: Schema.Attribute.String;
+    resendThrough: Schema.Attribute.String;
+    sent: Schema.Attribute.String;
+    sms: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    whatsapp: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingPersonalInfo
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_personal_infos';
+  info: {
+    displayName: 'personalInfo';
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingSelectVerificationType
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_select_verification_types';
+  info: {
+    description: '';
+    displayName: 'selectVerificationType';
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+    imgUrl: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    types: Schema.Attribute.Component<'policy-manual-linking.types', true> &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 2;
+        },
+        number
+      >;
+  };
+}
+
+export interface PolicyManualLinkingThankYou extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_thank_yous';
+  info: {
+    displayName: 'thankYou';
+  };
+  attributes: {
+    alreadySubmittedTitle: Schema.Attribute.String;
+    buttonLabel: Schema.Attribute.String;
+    imgUrl: Schema.Attribute.String;
+    submittingDesc: Schema.Attribute.String;
+    submittingTitle: Schema.Attribute.String;
+    ticketNo: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingTypes extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_types';
+  info: {
+    description: '';
+    displayName: 'types';
+  };
+  attributes: {
+    desc: Schema.Attribute.String;
+    key: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingUnableToFetch
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_unable_to_fetches';
+  info: {
+    displayName: 'unableToFetch';
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+    imgUrl: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicyManualLinkingWhenCanContent
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_manual_linking_when_can_contents';
+  info: {
+    displayName: 'whenCanContent';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicySelectionDownloadPolicyRequest
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_selection_download_policy_requests';
+  info: {
+    displayName: 'downloadPolicyRequest';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicySelectionImages extends Struct.ComponentSchema {
+  collectionName: 'components_policy_selection_images';
+  info: {
+    displayName: 'images';
+  };
+  attributes: {
+    default: Schema.Attribute.String;
+    health: Schema.Attribute.String;
+    motor: Schema.Attribute.String;
+    pet: Schema.Attribute.String;
+  };
+}
+
+export interface PolicySelectionNoPolicy extends Struct.ComponentSchema {
+  collectionName: 'components_policy_selection_no_policies';
+  info: {
+    description: '';
+    displayName: 'noPolicy';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PolicySelectionPolicySelectionCmsData
+  extends Struct.ComponentSchema {
+  collectionName: 'components_policy_selection_policy_selection_cms_data';
+  info: {
+    description: '';
+    displayName: 'policySelectionCmsData';
+  };
+  attributes: {
+    cannotSeePolicy: Schema.Attribute.String;
+    downloadPolicyRequest: Schema.Attribute.Component<
+      'policy-selection.download-policy-request',
+      false
+    >;
+    images: Schema.Attribute.Component<'policy-selection.images', false>;
+    noPolicy: Schema.Attribute.Component<'policy-selection.no-policy', false>;
+    subtitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PreviousYearPolicyUploadFailure
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_failures';
+  info: {
+    description: '';
+    displayName: 'failure';
+  };
+  attributes: {
+    btnText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    queryWidget: Schema.Attribute.Component<
+      'previous-year-policy-upload.query-widget',
+      false
+    >;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PreviousYearPolicyUploadHeader extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_headers';
+  info: {
+    displayName: 'header';
+  };
+  attributes: {
+    sectionTopHEader: Schema.Attribute.Component<
+      'previous-year-policy-upload.section-top-h-eader',
+      false
+    >;
+  };
+}
+
+export interface PreviousYearPolicyUploadPreviousYearPolicyUpload
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_previous_year_policy_uploads';
+  info: {
+    description: '';
+    displayName: 'previous-year-policy-upload';
+  };
+  attributes: {
+    header: Schema.Attribute.Component<
+      'previous-year-policy-upload.header',
+      false
+    >;
+    remarks: Schema.Attribute.Component<
+      'previous-year-policy-upload.remarks',
+      false
+    >;
+    statuses: Schema.Attribute.Component<
+      'previous-year-policy-upload.status',
+      false
+    >;
+    uploadSection: Schema.Attribute.Component<
+      'previous-year-policy-upload.upload-section',
+      false
+    >;
+  };
+}
+
+export interface PreviousYearPolicyUploadQueryWidget
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_query_widgets';
+  info: {
+    displayName: 'queryWidget';
+  };
+  attributes: {
+    contactText: Schema.Attribute.String;
+    mail: Schema.Attribute.String;
+  };
+}
+
+export interface PreviousYearPolicyUploadRemarks
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_remarks';
+  info: {
+    displayName: 'remarks';
+  };
+  attributes: {
+    placeholder: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PreviousYearPolicyUploadSectionTopHEader
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_section_top_h_eaders';
+  info: {
+    displayName: 'sectionTopHEader';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PreviousYearPolicyUploadStatus extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_statuses';
+  info: {
+    description: '';
+    displayName: 'status';
+  };
+  attributes: {
+    failure: Schema.Attribute.Component<
+      'previous-year-policy-upload.failure',
+      false
+    >;
+    success: Schema.Attribute.Component<
+      'previous-year-policy-upload.success',
+      false
+    >;
+  };
+}
+
+export interface PreviousYearPolicyUploadSuccess
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_successes';
+  info: {
+    displayName: 'success';
+  };
+  attributes: {
+    btnText: Schema.Attribute.String;
+    copyPrefix: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface PreviousYearPolicyUploadUploadSection
+  extends Struct.ComponentSchema {
+  collectionName: 'components_previous_year_policy_upload_upload_sections';
+  info: {
+    displayName: 'uploadSection';
+  };
+  attributes: {
+    btn: Schema.Attribute.String;
+    header: Schema.Attribute.String;
+  };
+}
+
+export interface QuickActionAddAccountDetails extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_add_account_details';
+  info: {
+    displayName: 'addAccountDetails';
+  };
+  attributes: {
+    addAccountDetails: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionCard extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_cards';
+  info: {
+    displayName: 'card';
+  };
+  attributes: {
+    imageUrl: Schema.Attribute.String;
+    key: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface QuickActionChangeRequestForm extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_change_request_forms';
+  info: {
+    displayName: 'changeRequestForm';
+  };
+  attributes: {
+    changeRequestForm: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionChangesInPolicyRenewal
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_changes_in_policy_renewals';
+  info: {
+    displayName: 'changesInPolicyRenewal';
+  };
+  attributes: {
+    changesInPolicyRenewal: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionChecklistForChange extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_checklist_for_changes';
+  info: {
+    displayName: 'checklistForChange';
+  };
+  attributes: {
+    checklistForChange: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionClaimQuery extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_claim_queries';
+  info: {
+    displayName: 'claimQuery';
+  };
+  attributes: {
+    claimQuery: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionClaimRegistration extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_claim_registrations';
+  info: {
+    displayName: 'claimRegistration';
+  };
+  attributes: {
+    claimRegistration: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionCustomerDueDiligence
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_customer_due_diligences';
+  info: {
+    displayName: 'customerDueDiligence';
+  };
+  attributes: {
+    customerDueDiligence: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionDeactivateAutoRenewal
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_deactivate_auto_renewals';
+  info: {
+    displayName: 'deactivateAutoRenewal';
+  };
+  attributes: {
+    deactivateAutoRenewal: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionDiseaseDisclosure extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_disease_disclosures';
+  info: {
+    displayName: 'diseaseDisclosure';
+  };
+  attributes: {
+    diseaseDisclosure: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionEkycLink extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_ekyc_links';
+  info: {
+    displayName: 'ekycLink';
+  };
+  attributes: {
+    ekycLink: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionEkycProcedure extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_ekyc_procedures';
+  info: {
+    displayName: 'ekycProcedure';
+  };
+  attributes: {
+    ekycProcedure: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionEkycRegistration extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_ekyc_registrations';
+  info: {
+    displayName: 'ekycRegistration';
+  };
+  attributes: {
+    ekycRegistration: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionEkycTracking extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_ekyc_trackings';
+  info: {
+    displayName: 'ekycTracking';
+  };
+  attributes: {
+    ekycTracking: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionEmailPolicyCopy extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_email_policy_copies';
+  info: {
+    displayName: 'emailPolicyCopy';
+  };
+  attributes: {
+    emailPolicyCopy: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionHealthCard extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_health_cards';
+  info: {
+    displayName: 'healthCard';
+  };
+  attributes: {
+    healthCard: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionInstallmentPayment extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_installment_payments';
+  info: {
+    displayName: 'installmentPayment';
+  };
+  attributes: {
+    installmentPayment: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionInstallmentTracker extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_installment_trackers';
+  info: {
+    displayName: 'installmentTracker';
+  };
+  attributes: {
+    installmentTracker: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionKnowYourPolicy extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_know_your_policies';
+  info: {
+    displayName: 'knowYourPolicy';
+  };
+  attributes: {
+    knowYourPolicy: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionKyc extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_kycs';
+  info: {
+    displayName: 'kyc';
+  };
+  attributes: {
+    kyc: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionLinkEia extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_link_eias';
+  info: {
+    displayName: 'linkEia';
+  };
+  attributes: {
+    linkEia: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionMakePayments extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_make_payments';
+  info: {
+    displayName: 'makePayments';
+  };
+  attributes: {
+    makePayments: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionOdometerReadingUpload
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_odometer_reading_uploads';
+  info: {
+    displayName: 'odometerReadingUpload';
+  };
+  attributes: {
+    odometerReadingUpload: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionPawsAndClaws extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_paws_and_claws';
+  info: {
+    displayName: 'paws&Claws';
+  };
+  attributes: {
+    pawsAndClaws: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionPolicyAlterations extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_policy_alterations';
+  info: {
+    displayName: 'policyAlterations';
+  };
+  attributes: {
+    policyAlterations: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionPolicyCancellationRequest
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_policy_cancellation_requests';
+  info: {
+    displayName: 'policyCancellationRequest';
+  };
+  attributes: {
+    policyCancellationRequest: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionPolicyDispatch extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_policy_dispatches';
+  info: {
+    displayName: 'policyDispatch';
+  };
+  attributes: {
+    policyDispatch: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionPreFilledClaimForm extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_pre_filled_claim_forms';
+  info: {
+    displayName: 'preFilledClaimForm';
+  };
+  attributes: {
+    preFilledClaimForm: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionPrePolicyReports extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_pre_policy_reports';
+  info: {
+    displayName: 'prePolicyReports';
+  };
+  attributes: {
+    prePolicyReports: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionPrevYearPolicy extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_prev_year_policies';
+  info: {
+    displayName: 'prevYearPolicy';
+  };
+  attributes: {
+    prevYearPolicy: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionQuickActionsDump extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_quick_actions_dumps';
+  info: {
+    displayName: 'quickActionsDump';
+  };
+  attributes: {};
+}
+
+export interface QuickActionRaiseQuery extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_raise_queries';
+  info: {
+    displayName: 'raiseQuery';
+  };
+  attributes: {
+    raiseQuery: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionRequestProposalForm extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_request_proposal_forms';
+  info: {
+    displayName: 'requestProposalForm';
+  };
+  attributes: {
+    requestProposalForm: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionReverificationNcbPyp
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_reverification_ncb_pyps';
+  info: {
+    displayName: 'reverificationNcbPyp';
+  };
+  attributes: {
+    reverificationNcbPyp: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionTaxCertificate extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_tax_certificates';
+  info: {
+    displayName: 'taxCertificate';
+  };
+  attributes: {
+    taxCertificate: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionTrackCancellationStatus
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_track_cancellation_statuses';
+  info: {
+    displayName: 'trackCancellationStatus';
+  };
+  attributes: {
+    trackCancellationStatus: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionTrackClaim extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_track_claims';
+  info: {
+    displayName: 'trackClaim';
+  };
+  attributes: {
+    trackClaim: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionTrackPremiumRecovery
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_track_premium_recoveries';
+  info: {
+    displayName: 'trackPremiumRecovery';
+  };
+  attributes: {
+    trackPremiumRecovery: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionTransferOfInsuranceMotor
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_transfer_of_insurance_motors';
+  info: {
+    displayName: 'transferOfInsuranceMotor';
+  };
+  attributes: {
+    transferOfInsuranceMotor: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionUpdateCardDetails extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_update_card_details';
+  info: {
+    displayName: 'UpdateCardDetails';
+  };
+  attributes: {
+    UpdateCardDetails: Schema.Attribute.Component<'quick-action.card', false>;
+  };
+}
+
+export interface QuickActionUpdateContactDetails
+  extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_update_contact_details';
+  info: {
+    displayName: 'updateContactDetails';
+  };
+  attributes: {
+    updateContactDetails: Schema.Attribute.Component<
+      'quick-action.card',
+      false
+    >;
+  };
+}
+
+export interface QuickActionUploadHealthDocs extends Struct.ComponentSchema {
+  collectionName: 'components_quick_action_upload_health_docs';
+  info: {
+    displayName: 'uploadHealthDocs';
+  };
+  attributes: {
+    uploadHealthDocs: Schema.Attribute.Component<'quick-action.card', false>;
   };
 }
 
@@ -1509,6 +4003,129 @@ declare module '@strapi/strapi' {
       'claims.banner': ClaimsBanner;
       'claims.claim-banner': ClaimsClaimBanner;
       'claims.tabs-claim-page': ClaimsTabsClaimPage;
+      'customer-due-diligence.annual-income': CustomerDueDiligenceAnnualIncome;
+      'customer-due-diligence.customer-due-diligence': CustomerDueDiligenceCustomerDueDiligence;
+      'customer-due-diligence.ekyc-details': CustomerDueDiligenceEkycDetails;
+      'customer-due-diligence.indian': CustomerDueDiligenceIndian;
+      'customer-due-diligence.is-politically-exposed': CustomerDueDiligenceIsPoliticallyExposed;
+      'customer-due-diligence.marital-status': CustomerDueDiligenceMaritalStatus;
+      'customer-due-diligence.mothers-name': CustomerDueDiligenceMothersName;
+      'customer-due-diligence.nationality': CustomerDueDiligenceNationality;
+      'customer-due-diligence.no': CustomerDueDiligenceNo;
+      'customer-due-diligence.occupation': CustomerDueDiligenceOccupation;
+      'customer-due-diligence.organization-type': CustomerDueDiligenceOrganizationType;
+      'customer-due-diligence.query-widget': CustomerDueDiligenceQueryWidget;
+      'customer-due-diligence.server-error': CustomerDueDiligenceServerError;
+      'customer-due-diligence.submit-success': CustomerDueDiligenceSubmitSuccess;
+      'customer-due-diligence.tip-info': CustomerDueDiligenceTipInfo;
+      'customer-due-diligence.title': CustomerDueDiligenceTitle;
+      'customer-due-diligence.yes': CustomerDueDiligenceYes;
+      'dashboard-buy-insurance.card': DashboardBuyInsuranceCard;
+      'dashboard-buy-insurance.commercial': DashboardBuyInsuranceCommercial;
+      'dashboard-buy-insurance.corporate': DashboardBuyInsuranceCorporate;
+      'dashboard-buy-insurance.cyber': DashboardBuyInsuranceCyber;
+      'dashboard-buy-insurance.four-wheeler': DashboardBuyInsuranceFourWheeler;
+      'dashboard-buy-insurance.health': DashboardBuyInsuranceHealth;
+      'dashboard-buy-insurance.home': DashboardBuyInsuranceHome;
+      'dashboard-buy-insurance.link-policy': DashboardBuyInsuranceLinkPolicy;
+      'dashboard-buy-insurance.needs-your-attention': DashboardBuyInsuranceNeedsYourAttention;
+      'dashboard-buy-insurance.pet': DashboardBuyInsurancePet;
+      'dashboard-buy-insurance.pmsby': DashboardBuyInsurancePmsby;
+      'dashboard-buy-insurance.resume-journey': DashboardBuyInsuranceResumeJourney;
+      'dashboard-buy-insurance.travel': DashboardBuyInsuranceTravel;
+      'dashboard-buy-insurance.two-wheeler': DashboardBuyInsuranceTwoWheeler;
+      'dashboard-ecosystem.card': DashboardEcosystemCard;
+      'dashboard-ecosystem.dashboard-ecosystem': DashboardEcosystemDashboardEcosystem;
+      'dashboard-ecosystem.health': DashboardEcosystemHealth;
+      'dashboard-ecosystem.pets': DashboardEcosystemPets;
+      'dashboard-ecosystem.title': DashboardEcosystemTitle;
+      'dashboard-explore-fourwheeler.card': DashboardExploreFourwheelerCard;
+      'dashboard-explore-fourwheeler.dashboard-explore-fourwheeler': DashboardExploreFourwheelerDashboardExploreFourwheeler;
+      'dashboard-explore-fourwheeler.four-wheeler': DashboardExploreFourwheelerFourWheeler;
+      'dashboard-explore-fourwheeler.two-wheeler': DashboardExploreFourwheelerTwoWheeler;
+      'dashboard-explore-more.card': DashboardExploreMoreCard;
+      'dashboard-explore-more.card-one': DashboardExploreMoreCardOne;
+      'dashboard-explore-more.card-three': DashboardExploreMoreCardThree;
+      'dashboard-explore-more.card-two': DashboardExploreMoreCardTwo;
+      'dashboard-explore-more.dashboard-explore-more': DashboardExploreMoreDashboardExploreMore;
+      'dashboard-latest-in-hdfc.card': DashboardLatestInHdfcCard;
+      'dashboard-latest-in-hdfc.dashboard-latest-in-hdfc': DashboardLatestInHdfcDashboardLatestInHdfc;
+      'dashboard-quick-action.card': DashboardQuickActionCard;
+      'dashboard-quick-action.claim-registration': DashboardQuickActionClaimRegistration;
+      'dashboard-quick-action.dashboard-quick-action': DashboardQuickActionDashboardQuickAction;
+      'dashboard-quick-action.ekyc-procedure': DashboardQuickActionEkycProcedure;
+      'dashboard-quick-action.ekyc-registration': DashboardQuickActionEkycRegistration;
+      'dashboard-quick-action.link-eia': DashboardQuickActionLinkEia;
+      'dashboard-quick-action.renew-policy': DashboardQuickActionRenewPolicy;
+      'dashboard-quick-action.track-claim': DashboardQuickActionTrackClaim;
+      'dashboard-trusted-by-customer.card': DashboardTrustedByCustomerCard;
+      'dashboard-trusted-by-customer.cashless-network': DashboardTrustedByCustomerCashlessNetwork;
+      'dashboard-trusted-by-customer.claim-settlement-rate': DashboardTrustedByCustomerClaimSettlementRate;
+      'dashboard-trusted-by-customer.customer-support': DashboardTrustedByCustomerCustomerSupport;
+      'dashboard-trusted-by-customer.dashboard-trusted-by-customer': DashboardTrustedByCustomerDashboardTrustedByCustomer;
+      'dashboard-trusted-by-customer.happy-customers': DashboardTrustedByCustomerHappyCustomers;
+      'dashboard.card-alignment': DashboardCardAlignment;
+      'dashboard.dashboard-cms-data': DashboardDashboardCmsData;
+      'dashboard.dashboard-connect-with-us-cms': DashboardDashboardConnectWithUsCms;
+      'dashboard.dashboard-newsletter-cms': DashboardDashboardNewsletterCms;
+      'dashboard.ecosystem-qr-cms': DashboardEcosystemQrCms;
+      'dashboard.support-cms': DashboardSupportCms;
+      'ekyc-track.aadhar-input': EkycTrackAadharInput;
+      'ekyc-track.aadhar-verification': EkycTrackAadharVerification;
+      'ekyc-track.aadhar-verification-error': EkycTrackAadharVerificationError;
+      'ekyc-track.aadhar-verification-input-label': EkycTrackAadharVerificationInputLabel;
+      'ekyc-track.bottom-sectin': EkycTrackBottomSectin;
+      'ekyc-track.bottom-section': EkycTrackBottomSection;
+      'ekyc-track.cards-data': EkycTrackCardsData;
+      'ekyc-track.claim-id-verification': EkycTrackClaimIdVerification;
+      'ekyc-track.cms-ekyc-mapper': EkycTrackCmsEkycMapper;
+      'ekyc-track.dob-input': EkycTrackDobInput;
+      'ekyc-track.error': EkycTrackError;
+      'ekyc-track.error-pop-up': EkycTrackErrorPopUp;
+      'ekyc-track.fetch-error': EkycTrackFetchError;
+      'ekyc-track.header': EkycTrackHeader;
+      'ekyc-track.input-label': EkycTrackInputLabel;
+      'ekyc-track.kyc-tracking-api-dump': EkycTrackKycTrackingApiDump;
+      'ekyc-track.label-and-placeholder': EkycTrackLabelAndPlaceholder;
+      'ekyc-track.pan-verification': EkycTrackPanVerification;
+      'ekyc-track.pan-verification-err': EkycTrackPanVerificationErr;
+      'ekyc-track.pan-verification-input-label': EkycTrackPanVerificationInputLabel;
+      'ekyc-track.pending': EkycTrackPending;
+      'ekyc-track.server-error': EkycTrackServerError;
+      'ekyc-track.static': EkycTrackStatic;
+      'ekyc-track.status-page': EkycTrackStatusPage;
+      'ekyc-track.status-rejected-response': EkycTrackStatusRejectedResponse;
+      'ekyc-track.statuses': EkycTrackStatuses;
+      'ekyc-track.title-and-description': EkycTrackTitleAndDescription;
+      'ekyc-track.toast': EkycTrackToast;
+      'ekyc-track.tracking-kyc-dump': EkycTrackTrackingKycDump;
+      'generate-ekyc.annual-income': GenerateEkycAnnualIncome;
+      'generate-ekyc.calendar': GenerateEkycCalendar;
+      'generate-ekyc.checkbox': GenerateEkycCheckbox;
+      'generate-ekyc.city': GenerateEkycCity;
+      'generate-ekyc.cms-errorstatus-modal': GenerateEkycCmsErrorstatusModal;
+      'generate-ekyc.cms-final-page': GenerateEkycCmsFinalPage;
+      'generate-ekyc.cms-goback': GenerateEkycCmsGoback;
+      'generate-ekyc.cms-server-timeout': GenerateEkycCmsServerTimeout;
+      'generate-ekyc.cms-sub-final-page': GenerateEkycCmsSubFinalPage;
+      'generate-ekyc.correspondence-address': GenerateEkycCorrespondenceAddress;
+      'generate-ekyc.ekyc-detail-cms': GenerateEkycEkycDetailCms;
+      'generate-ekyc.ekyc-list': GenerateEkycEkycList;
+      'generate-ekyc.ekyc-verify-cms': GenerateEkycEkycVerifyCms;
+      'generate-ekyc.father-input': GenerateEkycFatherInput;
+      'generate-ekyc.financial-details': GenerateEkycFinancialDetails;
+      'generate-ekyc.financial-details-cms': GenerateEkycFinancialDetailsCms;
+      'generate-ekyc.marital-status-and-gender': GenerateEkycMaritalStatusAndGender;
+      'generate-ekyc.mother-input': GenerateEkycMotherInput;
+      'generate-ekyc.occupation-input': GenerateEkycOccupationInput;
+      'generate-ekyc.organization-input': GenerateEkycOrganizationInput;
+      'generate-ekyc.pan-card': GenerateEkycPanCard;
+      'generate-ekyc.permanent-address': GenerateEkycPermanentAddress;
+      'generate-ekyc.pincode': GenerateEkycPincode;
+      'generate-ekyc.politically-exposed': GenerateEkycPoliticallyExposed;
+      'generate-ekyc.proceed-to-hdfc': GenerateEkycProceedToHdfc;
+      'generate-ekyc.state': GenerateEkycState;
+      'generate-ekyc.yes-no-option': GenerateEkycYesNoOption;
       'health-track.add-document-card': HealthTrackAddDocumentCard;
       'health-track.details-required': HealthTrackDetailsRequired;
       'health-track.error-encountered': HealthTrackErrorEncountered;
@@ -1518,6 +4135,8 @@ declare module '@strapi/strapi' {
       'health-track.supplementary-card': HealthTrackSupplementaryCard;
       'health-track.track-a-claim': HealthTrackTrackAClaim;
       'health-track.track-card-object': HealthTrackTrackCardObject;
+      'hello.hello': HelloHello;
+      'hello.random': HelloRandom;
       'image-descriptions.banner': ImageDescriptionsBanner;
       'image-descriptions.content': ImageDescriptionsContent;
       'image-descriptions.image-descriptions': ImageDescriptionsImageDescriptions;
@@ -1556,9 +4175,75 @@ declare module '@strapi/strapi' {
       'motor-renewal.request-callback': MotorRenewalRequestCallback;
       'motor-renewal.request-callback-bs-dump': MotorRenewalRequestCallbackBsDump;
       'motor-track.information-mismatch': MotorTrackInformationMismatch;
+      'motor-track.organization-input': MotorTrackOrganizationInput;
       'motor-track.query-text': MotorTrackQueryText;
       'motor-track.query-widget': MotorTrackQueryWidget;
       'motor-track.something-went-wrong': MotorTrackSomethingWentWrong;
+      'policy-manual-linking.cancelled-expired': PolicyManualLinkingCancelledExpired;
+      'policy-manual-linking.card': PolicyManualLinkingCard;
+      'policy-manual-linking.landing-page': PolicyManualLinkingLandingPage;
+      'policy-manual-linking.otp-view': PolicyManualLinkingOtpView;
+      'policy-manual-linking.personal-info': PolicyManualLinkingPersonalInfo;
+      'policy-manual-linking.select-verification-type': PolicyManualLinkingSelectVerificationType;
+      'policy-manual-linking.thank-you': PolicyManualLinkingThankYou;
+      'policy-manual-linking.types': PolicyManualLinkingTypes;
+      'policy-manual-linking.unable-to-fetch': PolicyManualLinkingUnableToFetch;
+      'policy-manual-linking.when-can-content': PolicyManualLinkingWhenCanContent;
+      'policy-selection.download-policy-request': PolicySelectionDownloadPolicyRequest;
+      'policy-selection.images': PolicySelectionImages;
+      'policy-selection.no-policy': PolicySelectionNoPolicy;
+      'policy-selection.policy-selection-cms-data': PolicySelectionPolicySelectionCmsData;
+      'previous-year-policy-upload.failure': PreviousYearPolicyUploadFailure;
+      'previous-year-policy-upload.header': PreviousYearPolicyUploadHeader;
+      'previous-year-policy-upload.previous-year-policy-upload': PreviousYearPolicyUploadPreviousYearPolicyUpload;
+      'previous-year-policy-upload.query-widget': PreviousYearPolicyUploadQueryWidget;
+      'previous-year-policy-upload.remarks': PreviousYearPolicyUploadRemarks;
+      'previous-year-policy-upload.section-top-h-eader': PreviousYearPolicyUploadSectionTopHEader;
+      'previous-year-policy-upload.status': PreviousYearPolicyUploadStatus;
+      'previous-year-policy-upload.success': PreviousYearPolicyUploadSuccess;
+      'previous-year-policy-upload.upload-section': PreviousYearPolicyUploadUploadSection;
+      'quick-action.add-account-details': QuickActionAddAccountDetails;
+      'quick-action.card': QuickActionCard;
+      'quick-action.change-request-form': QuickActionChangeRequestForm;
+      'quick-action.changes-in-policy-renewal': QuickActionChangesInPolicyRenewal;
+      'quick-action.checklist-for-change': QuickActionChecklistForChange;
+      'quick-action.claim-query': QuickActionClaimQuery;
+      'quick-action.claim-registration': QuickActionClaimRegistration;
+      'quick-action.customer-due-diligence': QuickActionCustomerDueDiligence;
+      'quick-action.deactivate-auto-renewal': QuickActionDeactivateAutoRenewal;
+      'quick-action.disease-disclosure': QuickActionDiseaseDisclosure;
+      'quick-action.ekyc-link': QuickActionEkycLink;
+      'quick-action.ekyc-procedure': QuickActionEkycProcedure;
+      'quick-action.ekyc-registration': QuickActionEkycRegistration;
+      'quick-action.ekyc-tracking': QuickActionEkycTracking;
+      'quick-action.email-policy-copy': QuickActionEmailPolicyCopy;
+      'quick-action.health-card': QuickActionHealthCard;
+      'quick-action.installment-payment': QuickActionInstallmentPayment;
+      'quick-action.installment-tracker': QuickActionInstallmentTracker;
+      'quick-action.know-your-policy': QuickActionKnowYourPolicy;
+      'quick-action.kyc': QuickActionKyc;
+      'quick-action.link-eia': QuickActionLinkEia;
+      'quick-action.make-payments': QuickActionMakePayments;
+      'quick-action.odometer-reading-upload': QuickActionOdometerReadingUpload;
+      'quick-action.paws-and-claws': QuickActionPawsAndClaws;
+      'quick-action.policy-alterations': QuickActionPolicyAlterations;
+      'quick-action.policy-cancellation-request': QuickActionPolicyCancellationRequest;
+      'quick-action.policy-dispatch': QuickActionPolicyDispatch;
+      'quick-action.pre-filled-claim-form': QuickActionPreFilledClaimForm;
+      'quick-action.pre-policy-reports': QuickActionPrePolicyReports;
+      'quick-action.prev-year-policy': QuickActionPrevYearPolicy;
+      'quick-action.quick-actions-dump': QuickActionQuickActionsDump;
+      'quick-action.raise-query': QuickActionRaiseQuery;
+      'quick-action.request-proposal-form': QuickActionRequestProposalForm;
+      'quick-action.reverification-ncb-pyp': QuickActionReverificationNcbPyp;
+      'quick-action.tax-certificate': QuickActionTaxCertificate;
+      'quick-action.track-cancellation-status': QuickActionTrackCancellationStatus;
+      'quick-action.track-claim': QuickActionTrackClaim;
+      'quick-action.track-premium-recovery': QuickActionTrackPremiumRecovery;
+      'quick-action.transfer-of-insurance-motor': QuickActionTransferOfInsuranceMotor;
+      'quick-action.update-card-details': QuickActionUpdateCardDetails;
+      'quick-action.update-contact-details': QuickActionUpdateContactDetails;
+      'quick-action.upload-health-docs': QuickActionUploadHealthDocs;
       'shared.bottom': SharedBottom;
       'shared.bottom-cards': SharedBottomCards;
       'shared.cards': SharedCards;

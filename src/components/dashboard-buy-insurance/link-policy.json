@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_link_policies",
+  "info": {
+    "displayName": "linkPolicy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    }
+  }
+}

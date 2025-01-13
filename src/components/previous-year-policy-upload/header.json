@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_previous_year_policy_upload_headers",
+  "info": {
+    "displayName": "header"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTopHEader": {
+      "displayName": "sectionTopHEader",
+      "type": "component",
+      "repeatable": false,
+      "component": "previous-year-policy-upload.section-top-h-eader"
+    }
+  }
+}

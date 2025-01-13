@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_disease_disclosures",
+  "info": {
+    "displayName": "diseaseDisclosure"
+  },
+  "options": {},
+  "attributes": {
+    "diseaseDisclosure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

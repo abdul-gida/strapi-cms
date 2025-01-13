@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_track_premium_recoveries",
+  "info": {
+    "displayName": "trackPremiumRecovery"
+  },
+  "options": {},
+  "attributes": {
+    "trackPremiumRecovery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

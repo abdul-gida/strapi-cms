@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_quick_action_link_eias",
+  "info": {
+    "displayName": "linkEia"
+  },
+  "options": {},
+  "attributes": {
+    "linkEia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-quick-action.card"
+    }
+  }
+}

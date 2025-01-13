@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_customer_due_diligence_tip_infos",
+  "info": {
+    "displayName": "tipInfo"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    }
+  }
+}

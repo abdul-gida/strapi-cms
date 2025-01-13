@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_generate_ekyc_proceed_to_hdfcs",
+  "info": {
+    "displayName": "proceedToHdfc"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "proceedButtonText": {
+      "type": "string"
+    },
+    "cancelButtonText": {
+      "type": "string"
+    }
+  }
+}

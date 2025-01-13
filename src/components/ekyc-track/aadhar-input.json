@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ekyc_track_aadhar_inputs",
+  "info": {
+    "displayName": "aadharInput"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "prefix": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

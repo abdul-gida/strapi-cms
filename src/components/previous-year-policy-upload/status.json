@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_previous_year_policy_upload_statuses",
+  "info": {
+    "displayName": "status",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "success": {
+      "displayName": "success",
+      "type": "component",
+      "repeatable": false,
+      "component": "previous-year-policy-upload.success"
+    },
+    "failure": {
+      "displayName": "failure",
+      "type": "component",
+      "repeatable": false,
+      "component": "previous-year-policy-upload.failure"
+    }
+  }
+}

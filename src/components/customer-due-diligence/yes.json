@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_customer_due_diligence_yeses",
+  "info": {
+    "displayName": "Yes"
+  },
+  "options": {},
+  "attributes": {
+    "Yes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "customer-due-diligence.title"
+    }
+  }
+}

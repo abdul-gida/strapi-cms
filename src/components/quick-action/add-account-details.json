@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_add_account_details",
+  "info": {
+    "displayName": "addAccountDetails"
+  },
+  "options": {},
+  "attributes": {
+    "addAccountDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_generate_ekyc_ekyc_lists",
+  "info": {
+    "displayName": "ekycList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fatherInput": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.father-input"
+    },
+    "motherInput": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.mother-input"
+    },
+    "permanentAddress": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.permanent-address"
+    },
+    "checkbox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.checkbox"
+    },
+    "correspondenceAddress": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.correspondence-address"
+    },
+    "pincode": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.pincode"
+    },
+    "state": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.state"
+    },
+    "city": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.city"
+    }
+  }
+}

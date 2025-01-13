@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_generate_ekyc_father_inputs",
+  "info": {
+    "displayName": "fatherInput"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "placeHolder": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_dashboard_card_alignments",
+  "info": {
+    "displayName": "cardAlignment"
+  },
+  "options": {},
+  "attributes": {
+    "desktopAlignment": {
+      "type": "string"
+    },
+    "mobileAlignment": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

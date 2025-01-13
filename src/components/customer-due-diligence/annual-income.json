@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_customer_due_diligence_annual_incomes",
+  "info": {
+    "displayName": "annualIncome"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "optionsKey": {
+      "type": "string"
+    }
+  }
+}

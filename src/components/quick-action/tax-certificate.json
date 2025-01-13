@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_tax_certificates",
+  "info": {
+    "displayName": "taxCertificate"
+  },
+  "options": {},
+  "attributes": {
+    "taxCertificate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

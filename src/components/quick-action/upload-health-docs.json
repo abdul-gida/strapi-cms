@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_upload_health_docs",
+  "info": {
+    "displayName": "uploadHealthDocs"
+  },
+  "options": {},
+  "attributes": {
+    "uploadHealthDocs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

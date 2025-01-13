@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "ekyc_tracks",
+  "info": {
+    "singularName": "ekyc-track",
+    "pluralName": "ekyc-tracks",
+    "displayName": "Ekyc-track",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "trackingKycDump": {
+      "displayName": "trackingKycDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.tracking-kyc-dump"
+    },
+    "kycTrackingApiDump": {
+      "displayName": "kycTrackingApiDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.kyc-tracking-api-dump"
+    }
+  }
+}

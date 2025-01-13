@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_checklist_for_changes",
+  "info": {
+    "displayName": "checklistForChange"
+  },
+  "options": {},
+  "attributes": {
+    "checklistForChange": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

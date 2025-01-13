@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_generate_ekyc_cities",
+  "info": {
+    "displayName": "city"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "sheetTitle": {
+      "type": "string"
+    },
+    "placeHolder": {
+      "type": "string"
+    }
+  }
+}
