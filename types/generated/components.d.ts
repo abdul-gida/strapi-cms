@@ -1043,6 +1043,22 @@ export interface DocumentUploaderDocumentProgressModal
   };
 }
 
+export interface DocumentUploaderDocumentUploadModal
+  extends Struct.ComponentSchema {
+  collectionName: 'components_document_uploader_document_upload_modals';
+  info: {
+    displayName: 'documentUploadModal';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    fileFormats: Schema.Attribute.String;
+    linkText: Schema.Attribute.String;
+    linkUrl: Schema.Attribute.String;
+    maxFileSize: Schema.Attribute.String;
+    note: Schema.Attribute.String;
+  };
+}
+
 export interface DocumentUploaderErrorModal extends Struct.ComponentSchema {
   collectionName: 'components_document_uploader_error_modals';
   info: {
@@ -3903,6 +3919,7 @@ declare module '@strapi/strapi' {
       'document-uploader.confirm-submit': DocumentUploaderConfirmSubmit;
       'document-uploader.document-modal': DocumentUploaderDocumentModal;
       'document-uploader.document-progress-modal': DocumentUploaderDocumentProgressModal;
+      'document-uploader.document-upload-modal': DocumentUploaderDocumentUploadModal;
       'document-uploader.error-modal': DocumentUploaderErrorModal;
       'document-uploader.error-screen': DocumentUploaderErrorScreen;
       'document-uploader.error-success': DocumentUploaderErrorSuccess;

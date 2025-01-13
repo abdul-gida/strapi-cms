@@ -1008,6 +1008,10 @@ export interface ApiDocumentUploaderDocumentUploader
       'document-uploader.document-progress-modal',
       false
     >;
+    documentUploadModal: Schema.Attribute.Component<
+      'document-uploader.document-upload-modal',
+      false
+    >;
     errorScreen: Schema.Attribute.Component<
       'document-uploader.error-screen',
       false

@@ -77,6 +77,12 @@
       "type": "component",
       "repeatable": false,
       "component": "document-uploader.success"
+    },
+    "documentUploadModal": {
+      "displayName": "documentUploadModal",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.document-upload-modal"
     }
   }
 }
