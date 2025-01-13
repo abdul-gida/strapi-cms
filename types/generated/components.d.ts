@@ -2672,6 +2672,7 @@ export interface HealthTrackTrackAClaim extends Struct.ComponentSchema {
       false
     > &
       Schema.Attribute.Required;
+    copyLabel: Schema.Attribute.String;
     description: Schema.Attribute.Text & Schema.Attribute.Required;
     detailsRequired: Schema.Attribute.Component<
       'health-track.details-required',
@@ -4294,6 +4295,7 @@ export interface SharedTitleDescription extends Struct.ComponentSchema {
     displayName: 'title-description';
   };
   attributes: {
+    claimLabel: Schema.Attribute.String;
     description: Schema.Attribute.Text & Schema.Attribute.Required;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
