@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_motor_policy_transfer_input_conts",
+  "info": {
+    "displayName": "inputCont",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "panInput": {
+      "displayName": "panInput",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.pan-input"
+    },
+    "dropdown": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.label-and-placeholder"
+    },
+    "emailInput": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.label-and-placeholder"
+    },
+    "numberInput": {
+      "displayName": "numberInput",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.number-input"
+    }
+  }
+}

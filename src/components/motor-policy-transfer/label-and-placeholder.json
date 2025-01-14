@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_motor_policy_transfer_label_and_placeholders",
+  "info": {
+    "displayName": "labelAndPlaceholder"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

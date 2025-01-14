@@ -1521,6 +1521,103 @@ export interface ApiMotorClaimMotorClaim extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiMotorPolicyTransferMotorPolicyTransfer
+  extends Struct.SingleTypeSchema {
+  collectionName: 'motor_policy_transfers';
+  info: {
+    description: '';
+    displayName: 'Motor-policy-transfer';
+    pluralName: 'motor-policy-transfers';
+    singularName: 'motor-policy-transfer';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    cmsTranferFilesData: Schema.Attribute.Component<
+      'motor-policy-transfer.cms-tranfer-files-data',
+      true
+    >;
+    confirmPolicyTransferDump: Schema.Attribute.Component<
+      'motor-policy-transfer.confirm-policy-transfer-dump',
+      false
+    >;
+    consentDump: Schema.Attribute.Component<
+      'motor-policy-transfer.consent-dump',
+      true
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    ekycApprovedDump: Schema.Attribute.Component<
+      'motor-policy-transfer.ekyc-approved-dump',
+      false
+    >;
+    engineViewDump: Schema.Attribute.Component<
+      'motor-policy-transfer.engine-view-dump',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::motor-policy-transfer.motor-policy-transfer'
+    > &
+      Schema.Attribute.Private;
+    motorTransferRequestFailureCms: Schema.Attribute.Component<
+      'motor-policy-transfer.motor-transfer-request-failure-cms',
+      false
+    >;
+    nomineeDetailsDump: Schema.Attribute.Component<
+      'motor-policy-transfer.nominee-details-dump',
+      false
+    >;
+    noPolicyLinkedDump: Schema.Attribute.Component<
+      'motor-policy-transfer.no-policy-linked-dump',
+      false
+    >;
+    ownerDetailsDump: Schema.Attribute.Component<
+      'motor-policy-transfer.owner-details-dump',
+      false
+    >;
+    policyCardImagesDump: Schema.Attribute.Component<
+      'motor-policy-transfer.policy-card-images-dump',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    trackDump: Schema.Attribute.Component<
+      'motor-policy-transfer.track-dump',
+      false
+    >;
+    transferDetailsMismatchDump: Schema.Attribute.Component<
+      'motor-policy-transfer.transfer-details-mismatch-dump',
+      false
+    >;
+    transferFilesDump: Schema.Attribute.Component<
+      'motor-policy-transfer.transfer-files-dump',
+      false
+    >;
+    transferPolicyDump: Schema.Attribute.Component<
+      'motor-policy-transfer.transfer-policy-dump',
+      false
+    >;
+    transferRequestSubmit: Schema.Attribute.Component<
+      'motor-policy-transfer.transfer-request-submit',
+      false
+    >;
+    transferRequestSuccess: Schema.Attribute.Component<
+      'motor-policy-transfer.transfer-request-success',
+      false
+    >;
+    transferSubmit: Schema.Attribute.Component<
+      'motor-policy-transfer.transfer-submit',
+      false
+    >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiMotorRenewalMotorRenewal extends Struct.SingleTypeSchema {
   collectionName: 'motor_renewals';
   info: {
@@ -2464,6 +2561,7 @@ declare module '@strapi/strapi' {
       'api::health-track.health-track': ApiHealthTrackHealthTrack;
       'api::login-label.login-label': ApiLoginLabelLoginLabel;
       'api::motor-claim.motor-claim': ApiMotorClaimMotorClaim;
+      'api::motor-policy-transfer.motor-policy-transfer': ApiMotorPolicyTransferMotorPolicyTransfer;
       'api::motor-renewal.motor-renewal': ApiMotorRenewalMotorRenewal;
       'api::motor-track.motor-track': ApiMotorTrackMotorTrack;
       'api::old-article.old-article': ApiOldArticleOldArticle;

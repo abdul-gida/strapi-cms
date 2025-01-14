@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_motor_policy_transfer_track_dumps",
+  "info": {
+    "displayName": "trackDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionHeader": {
+      "displayName": "sectionHeader",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.section-header"
+    },
+    "radio": {
+      "displayName": "radio",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.radio"
+    },
+    "info": {
+      "type": "string"
+    },
+    "input": {
+      "displayName": "inputTrack",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.input-track"
+    },
+    "endCont": {
+      "type": "string"
+    },
+    "generateLabel": {
+      "type": "string"
+    }
+  }
+}

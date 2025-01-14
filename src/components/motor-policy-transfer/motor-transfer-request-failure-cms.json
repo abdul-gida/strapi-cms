@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_motor_policy_transfer_motor_transfer_request_failure_cms",
+  "info": {
+    "displayName": "motorTransferRequestFailureCms"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "transactionNo": {
+      "type": "string"
+    },
+    "queryTitle": {
+      "type": "string"
+    },
+    "queryEmail": {
+      "type": "email"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "copyLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -3352,6 +3352,596 @@ export interface MotorClaimWrongClaimCms extends Struct.ComponentSchema {
   };
 }
 
+export interface MotorPolicyTransferAreaInput extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_area_inputs';
+  info: {
+    displayName: 'areaInput';
+  };
+  attributes: {};
+}
+
+export interface MotorPolicyTransferBottomNav extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_bottom_navs';
+  info: {
+    displayName: 'bottomNav';
+  };
+  attributes: {
+    buttonLabel: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferCityDrop extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_city_drops';
+  info: {
+    displayName: 'cityDrop';
+  };
+  attributes: {
+    emptyStateProps: Schema.Attribute.Component<
+      'motor-policy-transfer.empty-state-props',
+      false
+    >;
+    inputLabel: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    placeholder: Schema.Attribute.String;
+    searchLabel: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferCmsTranferFilesData
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_cms_tranfer_files_data';
+  info: {
+    displayName: 'cmsTranferFilesData';
+  };
+  attributes: {
+    displayName: Schema.Attribute.String;
+    key: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferConfirmPolicyTransferDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_confirm_policy_transfer_dumps';
+  info: {
+    displayName: 'confirmPolicyTransferDump';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    primaryButtonText: Schema.Attribute.String;
+    SecondaryButtonText: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferConsentDump extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_consent_dumps';
+  info: {
+    description: '';
+    displayName: 'consentDump';
+  };
+  attributes: {
+    content: Schema.Attribute.RichText;
+    heading: Schema.Attribute.String;
+    idConsent: Schema.Attribute.String;
+    isSelected: Schema.Attribute.Boolean;
+    optional: Schema.Attribute.Boolean;
+    replaceText: Schema.Attribute.String;
+    show: Schema.Attribute.Boolean;
+    text: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    type: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferCorrespondenceCont
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_correspondence_conts';
+  info: {
+    description: '';
+    displayName: 'correspondenceCont';
+  };
+  attributes: {
+    areaInput: Schema.Attribute.Component<
+      'motor-policy-transfer.label-and-placeholder',
+      false
+    >;
+    cityDrop: Schema.Attribute.Component<
+      'motor-policy-transfer.city-drop',
+      false
+    >;
+    houseInput: Schema.Attribute.Component<
+      'motor-policy-transfer.label-and-placeholder',
+      false
+    >;
+    pincode: Schema.Attribute.Component<'motor-policy-transfer.pincode', false>;
+    stateDrop: Schema.Attribute.Component<
+      'motor-policy-transfer.state-drop',
+      false
+    >;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferDobInput extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_dob_inputs';
+  info: {
+    displayName: 'dobInput';
+  };
+  attributes: {
+    calendarLabel: Schema.Attribute.String;
+    calendarSubtitle: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    placeholder: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferEkycApprovedDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_ekyc_approved_dumps';
+  info: {
+    displayName: 'ekycApprovedDump';
+  };
+  attributes: {
+    copyLabel: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    ekycLabel: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    nameLabel: Schema.Attribute.String;
+    primaryBtnText: Schema.Attribute.String;
+    secondaryBtnText: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferEmptyStateProps
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_empty_state_props';
+  info: {
+    displayName: 'emptyStateProps';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferEngineViewDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_engine_view_dumps';
+  info: {
+    displayName: 'engineViewDump';
+  };
+  attributes: {
+    chassisText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    engineText: Schema.Attribute.String;
+    proceedText: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferHouseInput extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_house_inputs';
+  info: {
+    displayName: 'houseInput';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeholder: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferInput extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_inputs';
+  info: {
+    displayName: 'input';
+  };
+  attributes: {
+    verifyIdInput: Schema.Attribute.Component<
+      'motor-policy-transfer.verify-id-input',
+      false
+    >;
+  };
+}
+
+export interface MotorPolicyTransferInputCont extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_input_conts';
+  info: {
+    description: '';
+    displayName: 'inputCont';
+  };
+  attributes: {
+    dropdown: Schema.Attribute.Component<
+      'motor-policy-transfer.label-and-placeholder',
+      false
+    >;
+    emailInput: Schema.Attribute.Component<
+      'motor-policy-transfer.label-and-placeholder',
+      false
+    >;
+    numberInput: Schema.Attribute.Component<
+      'motor-policy-transfer.number-input',
+      false
+    >;
+    panInput: Schema.Attribute.Component<
+      'motor-policy-transfer.pan-input',
+      false
+    >;
+  };
+}
+
+export interface MotorPolicyTransferInputTrack extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_input_tracks';
+  info: {
+    description: '';
+    displayName: 'inputTrack';
+  };
+  attributes: {
+    aadharInput: Schema.Attribute.Component<
+      'motor-policy-transfer.label-and-placeholder',
+      false
+    >;
+    dobInput: Schema.Attribute.Component<
+      'motor-policy-transfer.dob-input',
+      false
+    >;
+    verifyIdInput: Schema.Attribute.Component<
+      'motor-policy-transfer.label-and-placeholder',
+      false
+    >;
+  };
+}
+
+export interface MotorPolicyTransferLabelAndPlaceholder
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_label_and_placeholders';
+  info: {
+    displayName: 'labelAndPlaceholder';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeholder: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferMotorTransferRequestFailureCms
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_motor_transfer_request_failure_cms';
+  info: {
+    displayName: 'motorTransferRequestFailureCms';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    copyLabel: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    queryEmail: Schema.Attribute.Email;
+    queryTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    transactionNo: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferNoPolicyLinkedDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_no_policy_linked_dumps';
+  info: {
+    displayName: 'noPolicyLinkedDump';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferNomineeDetailsDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_nominee_details_dumps';
+  info: {
+    description: '';
+    displayName: 'nomineeDetailsDump';
+  };
+  attributes: {
+    accidentLabel: Schema.Attribute.String;
+    appointeeCover: Schema.Attribute.String;
+    appointeeDescription: Schema.Attribute.String;
+    appointeeLabel: Schema.Attribute.String;
+    appointeePlaceholder: Schema.Attribute.String;
+    appointeeTitle: Schema.Attribute.String;
+    calendarErrorMessage: Schema.Attribute.String;
+    calenderTitle: Schema.Attribute.String;
+    dobLabel: Schema.Attribute.String;
+    dobPlaceholder: Schema.Attribute.Date;
+    nomineeCover: Schema.Attribute.String;
+    nomineeDescription: Schema.Attribute.String;
+    nomineeLabel: Schema.Attribute.String;
+    nomineePlaceholder: Schema.Attribute.String;
+    nomineeTitle: Schema.Attribute.String;
+    proceedText: Schema.Attribute.String;
+    relationLabel: Schema.Attribute.String;
+    relationPlaceholder: Schema.Attribute.String;
+    relationTitle: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferNumberInput extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_number_inputs';
+  info: {
+    displayName: 'numberInput';
+  };
+  attributes: {
+    inputErrorMessage: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    placeholder: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferOtpSection extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_otp_sections';
+  info: {
+    displayName: 'otpSection';
+  };
+  attributes: {
+    incorrectOtp: Schema.Attribute.String;
+    resendCode: Schema.Attribute.String;
+    resendInLabel: Schema.Attribute.String;
+    resendViaLabel: Schema.Attribute.String;
+    sent: Schema.Attribute.String;
+    smsLabel: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    whatsAppLabel: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferOwnerDetailsDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_owner_details_dumps';
+  info: {
+    description: '';
+    displayName: 'ownerDetailsDump';
+  };
+  attributes: {
+    bottomNav: Schema.Attribute.Component<
+      'motor-policy-transfer.bottom-nav',
+      false
+    >;
+    correspondenceCont: Schema.Attribute.Component<
+      'motor-policy-transfer.correspondence-cont',
+      false
+    >;
+    inputCont: Schema.Attribute.Component<
+      'motor-policy-transfer.input-cont',
+      false
+    >;
+    otpSection: Schema.Attribute.Component<
+      'motor-policy-transfer.otp-section',
+      false
+    >;
+    sectionHeader: Schema.Attribute.Component<
+      'motor-policy-transfer.label-and-placeholder',
+      false
+    >;
+  };
+}
+
+export interface MotorPolicyTransferPanInput extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_pan_inputs';
+  info: {
+    displayName: 'panInput';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferPincode extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_pincodes';
+  info: {
+    displayName: 'pincode';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    pincodeCardLabel: Schema.Attribute.String;
+    pincodeResultLabel: Schema.Attribute.String;
+    placeholder: Schema.Attribute.String;
+    searchDropDownTitle: Schema.Attribute.String;
+    searchInputPlaceholder: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferPolicyCardImagesDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_policy_card_images_dumps';
+  info: {
+    displayName: 'policyCardImagesDump';
+  };
+  attributes: {
+    motorImage: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferRadio extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_radios';
+  info: {
+    displayName: 'radio';
+  };
+  attributes: {
+    lableAadhar: Schema.Attribute.String;
+    lableEkyc: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferSectionHeader
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_section_headers';
+  info: {
+    displayName: 'sectionHeader';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferSectionHeaderOwnersDetails
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_section_header_owners_details';
+  info: {
+    displayName: 'sectionHeaderOwnersDetails';
+  };
+  attributes: {};
+}
+
+export interface MotorPolicyTransferStateDrop extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_state_drops';
+  info: {
+    displayName: 'stateDrop';
+  };
+  attributes: {
+    emptyStateProps: Schema.Attribute.Component<
+      'motor-policy-transfer.empty-state-props',
+      false
+    >;
+    inputLabel: Schema.Attribute.String;
+    label: Schema.Attribute.String;
+    placeholder: Schema.Attribute.String;
+    sheetTitle: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferTrackDump extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_track_dumps';
+  info: {
+    description: '';
+    displayName: 'trackDump';
+  };
+  attributes: {
+    endCont: Schema.Attribute.String;
+    generateLabel: Schema.Attribute.String;
+    info: Schema.Attribute.String;
+    input: Schema.Attribute.Component<
+      'motor-policy-transfer.input-track',
+      false
+    >;
+    radio: Schema.Attribute.Component<'motor-policy-transfer.radio', false>;
+    sectionHeader: Schema.Attribute.Component<
+      'motor-policy-transfer.section-header',
+      false
+    >;
+  };
+}
+
+export interface MotorPolicyTransferTransferDetailsMismatchDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_transfer_details_mismatch_dumps';
+  info: {
+    displayName: 'transferDetailsMismatchDump';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferTransferFilesDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_transfer_files_dumps';
+  info: {
+    displayName: 'transferFilesDump';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    noText: Schema.Attribute.String;
+    question: Schema.Attribute.String;
+    submitText: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    uploadsDescription: Schema.Attribute.String;
+    uploadsTitle: Schema.Attribute.String;
+    yesText: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferTransferPolicyDump
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_transfer_policy_dumps';
+  info: {
+    description: '';
+    displayName: 'transferPolicyDump';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    linkManualButtonText: Schema.Attribute.String;
+    policyNotLinkedText: Schema.Attribute.String;
+    proceedText: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferTransferRequestSubmit
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_transfer_request_submits';
+  info: {
+    displayName: 'transferRequestSubmit';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    copyLabel: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    transactionId: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferTransferRequestSuccess
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_transfer_request_successes';
+  info: {
+    displayName: 'transferRequestSuccess';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    copyLabel: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    query: Schema.Attribute.String;
+    queryEmail: Schema.Attribute.Email;
+    ticketNo: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferTransferSubmit
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_transfer_submits';
+  info: {
+    displayName: 'transferSubmit';
+  };
+  attributes: {
+    buttonText: Schema.Attribute.String;
+    copyLabel: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    imageUrl: Schema.Attribute.String;
+    ticketNo: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    transactionId: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferVerifyIdInput
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_verify_id_inputs';
+  info: {
+    displayName: 'verifyIdInput';
+  };
+  attributes: {};
+}
+
 export interface MotorRenewalAddOnCardDump extends Struct.ComponentSchema {
   collectionName: 'components_motor_renewal_add_on_card_dumps';
   info: {
@@ -4918,6 +5508,43 @@ declare module '@strapi/strapi' {
       'motor-claim.unavailable-claim-cms': MotorClaimUnavailableClaimCms;
       'motor-claim.who-is-claiming': MotorClaimWhoIsClaiming;
       'motor-claim.wrong-claim-cms': MotorClaimWrongClaimCms;
+      'motor-policy-transfer.area-input': MotorPolicyTransferAreaInput;
+      'motor-policy-transfer.bottom-nav': MotorPolicyTransferBottomNav;
+      'motor-policy-transfer.city-drop': MotorPolicyTransferCityDrop;
+      'motor-policy-transfer.cms-tranfer-files-data': MotorPolicyTransferCmsTranferFilesData;
+      'motor-policy-transfer.confirm-policy-transfer-dump': MotorPolicyTransferConfirmPolicyTransferDump;
+      'motor-policy-transfer.consent-dump': MotorPolicyTransferConsentDump;
+      'motor-policy-transfer.correspondence-cont': MotorPolicyTransferCorrespondenceCont;
+      'motor-policy-transfer.dob-input': MotorPolicyTransferDobInput;
+      'motor-policy-transfer.ekyc-approved-dump': MotorPolicyTransferEkycApprovedDump;
+      'motor-policy-transfer.empty-state-props': MotorPolicyTransferEmptyStateProps;
+      'motor-policy-transfer.engine-view-dump': MotorPolicyTransferEngineViewDump;
+      'motor-policy-transfer.house-input': MotorPolicyTransferHouseInput;
+      'motor-policy-transfer.input': MotorPolicyTransferInput;
+      'motor-policy-transfer.input-cont': MotorPolicyTransferInputCont;
+      'motor-policy-transfer.input-track': MotorPolicyTransferInputTrack;
+      'motor-policy-transfer.label-and-placeholder': MotorPolicyTransferLabelAndPlaceholder;
+      'motor-policy-transfer.motor-transfer-request-failure-cms': MotorPolicyTransferMotorTransferRequestFailureCms;
+      'motor-policy-transfer.no-policy-linked-dump': MotorPolicyTransferNoPolicyLinkedDump;
+      'motor-policy-transfer.nominee-details-dump': MotorPolicyTransferNomineeDetailsDump;
+      'motor-policy-transfer.number-input': MotorPolicyTransferNumberInput;
+      'motor-policy-transfer.otp-section': MotorPolicyTransferOtpSection;
+      'motor-policy-transfer.owner-details-dump': MotorPolicyTransferOwnerDetailsDump;
+      'motor-policy-transfer.pan-input': MotorPolicyTransferPanInput;
+      'motor-policy-transfer.pincode': MotorPolicyTransferPincode;
+      'motor-policy-transfer.policy-card-images-dump': MotorPolicyTransferPolicyCardImagesDump;
+      'motor-policy-transfer.radio': MotorPolicyTransferRadio;
+      'motor-policy-transfer.section-header': MotorPolicyTransferSectionHeader;
+      'motor-policy-transfer.section-header-owners-details': MotorPolicyTransferSectionHeaderOwnersDetails;
+      'motor-policy-transfer.state-drop': MotorPolicyTransferStateDrop;
+      'motor-policy-transfer.track-dump': MotorPolicyTransferTrackDump;
+      'motor-policy-transfer.transfer-details-mismatch-dump': MotorPolicyTransferTransferDetailsMismatchDump;
+      'motor-policy-transfer.transfer-files-dump': MotorPolicyTransferTransferFilesDump;
+      'motor-policy-transfer.transfer-policy-dump': MotorPolicyTransferTransferPolicyDump;
+      'motor-policy-transfer.transfer-request-submit': MotorPolicyTransferTransferRequestSubmit;
+      'motor-policy-transfer.transfer-request-success': MotorPolicyTransferTransferRequestSuccess;
+      'motor-policy-transfer.transfer-submit': MotorPolicyTransferTransferSubmit;
+      'motor-policy-transfer.verify-id-input': MotorPolicyTransferVerifyIdInput;
       'motor-renewal.add-on-card-dump': MotorRenewalAddOnCardDump;
       'motor-renewal.add-on-checkbox-input-dump': MotorRenewalAddOnCheckboxInputDump;
       'motor-renewal.back-button-request-callback-dump': MotorRenewalBackButtonRequestCallbackDump;

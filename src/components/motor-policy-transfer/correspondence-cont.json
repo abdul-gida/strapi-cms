@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_motor_policy_transfer_correspondence_conts",
+  "info": {
+    "displayName": "correspondenceCont",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "houseInput": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.label-and-placeholder"
+    },
+    "areaInput": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.label-and-placeholder"
+    },
+    "pincode": {
+      "displayName": "pincode",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.pincode"
+    },
+    "stateDrop": {
+      "displayName": "stateDrop",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.state-drop"
+    },
+    "cityDrop": {
+      "displayName": "cityDrop",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.city-drop"
+    }
+  }
+}

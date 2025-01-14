@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_motor_policy_transfer_no_policy_linked_dumps",
+  "info": {
+    "displayName": "noPolicyLinkedDump"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}

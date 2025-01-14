@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_motor_policy_transfer_cms_tranfer_files_data",
+  "info": {
+    "displayName": "cmsTranferFilesData"
+  },
+  "options": {},
+  "attributes": {
+    "displayName": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    }
+  }
+}

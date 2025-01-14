@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_motor_policy_transfer_engine_view_dumps",
+  "info": {
+    "displayName": "engineViewDump"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "chassisText": {
+      "type": "string"
+    },
+    "engineText": {
+      "type": "string"
+    },
+    "proceedText": {
+      "type": "string"
+    }
+  }
+}

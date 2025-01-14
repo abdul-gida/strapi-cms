@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_motor_policy_transfer_transfer_submits",
+  "info": {
+    "displayName": "transferSubmit"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "transactionId": {
+      "type": "string"
+    },
+    "ticketNo": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "copyLabel": {
+      "type": "string"
+    }
+  }
+}

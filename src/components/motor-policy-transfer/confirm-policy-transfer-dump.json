@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_motor_policy_transfer_confirm_policy_transfer_dumps",
+  "info": {
+    "displayName": "confirmPolicyTransferDump"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "SecondaryButtonText": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

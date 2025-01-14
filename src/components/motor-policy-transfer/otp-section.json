@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_motor_policy_transfer_otp_sections",
+  "info": {
+    "displayName": "otpSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sent": {
+      "type": "string"
+    },
+    "incorrectOtp": {
+      "type": "string"
+    },
+    "resendCode": {
+      "type": "string"
+    },
+    "resendViaLabel": {
+      "type": "string"
+    },
+    "resendInLabel": {
+      "type": "string"
+    },
+    "smsLabel": {
+      "type": "string"
+    },
+    "whatsAppLabel": {
+      "type": "string"
+    }
+  }
+}
