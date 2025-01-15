@@ -405,6 +405,7 @@ export interface ApiAboutUsAboutUs extends Struct.SingleTypeSchema {
     numbers: Schema.Attribute.Component<'about-us.numbers', true>;
     ourKeyPeopleTitle: Schema.Attribute.String;
     ourValuesTitle: Schema.Attribute.String;
+    ourVisionDescription: Schema.Attribute.String;
     ourVisionQuote: Schema.Attribute.String;
     ourVisionTitle: Schema.Attribute.String;
     people: Schema.Attribute.Component<'about-us.people', true>;

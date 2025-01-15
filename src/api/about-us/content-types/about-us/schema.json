@@ -89,6 +89,9 @@
       "type": "component",
       "repeatable": true,
       "component": "about-us.directors"
+    },
+    "ourVisionDescription": {
+      "type": "string"
     }
   }
 }
