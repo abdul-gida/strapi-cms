@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_homepage_titles",
+  "info": {
+    "displayName": "title"
+  },
+  "options": {},
+  "attributes": {
+    "first": {
+      "type": "string"
+    },
+    "second": {
+      "type": "string"
+    }
+  }
+}

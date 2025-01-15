@@ -1405,6 +1405,50 @@ export interface ApiHealthTrackHealthTrack extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
+  collectionName: 'homepages';
+  info: {
+    description: '';
+    displayName: 'Homepage';
+    pluralName: 'homepages';
+    singularName: 'homepage';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    achievements: Schema.Attribute.Component<'homepage.achievements', false>;
+    blogs: Schema.Attribute.Component<'homepage.blogs', false>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    customerReviews: Schema.Attribute.Component<
+      'homepage.customer-reviews',
+      false
+    >;
+    download: Schema.Attribute.Component<'homepage.download', false>;
+    ecoSystem: Schema.Attribute.Component<'homepage.eco-system', false>;
+    findNearest: Schema.Attribute.Component<'homepage.find-nearest', false>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::homepage.homepage'
+    > &
+      Schema.Attribute.Private;
+    plans: Schema.Attribute.Component<'homepage.plans', false>;
+    products: Schema.Attribute.Component<'homepage.products', false>;
+    publishedAt: Schema.Attribute.DateTime;
+    quickAccess: Schema.Attribute.Component<'homepage.quick-access', false>;
+    steps: Schema.Attribute.Component<'homepage.steps', false>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    updates: Schema.Attribute.Component<'homepage.updates', true>;
+    videos: Schema.Attribute.Component<'homepage.videos', false>;
+    why: Schema.Attribute.Component<'homepage.why', false>;
+  };
+}
+
 export interface ApiLoginLabelLoginLabel extends Struct.CollectionTypeSchema {
   collectionName: 'login_labels';
   info: {
@@ -2559,6 +2603,7 @@ declare module '@strapi/strapi' {
       'api::global.global': ApiGlobalGlobal;
       'api::health-claim.health-claim': ApiHealthClaimHealthClaim;
       'api::health-track.health-track': ApiHealthTrackHealthTrack;
+      'api::homepage.homepage': ApiHomepageHomepage;
       'api::login-label.login-label': ApiLoginLabelLoginLabel;
       'api::motor-claim.motor-claim': ApiMotorClaimMotorClaim;
       'api::motor-policy-transfer.motor-policy-transfer': ApiMotorPolicyTransferMotorPolicyTransfer;

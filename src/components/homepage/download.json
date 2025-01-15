@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_homepage_downloads",
+  "info": {
+    "displayName": "download",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "displayName": "titleDownloadSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title-download-section"
+    },
+    "waveImage": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "qr": {
+      "type": "string"
+    },
+    "scanLabel": {
+      "type": "string"
+    },
+    "playStoreImage": {
+      "type": "string"
+    },
+    "playStoreLink": {
+      "type": "string"
+    },
+    "appStoreImage": {
+      "type": "string"
+    },
+    "appStoreLink": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

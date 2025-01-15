@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_homepage_customer_reviews",
+  "info": {
+    "displayName": "customerReviews"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title"
+    },
+    "description": {
+      "type": "string"
+    },
+    "ratings": {
+      "type": "string"
+    },
+    "reviews": {
+      "displayName": "reviewsCustomerReviewSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.reviews-customer-review-section"
+    }
+  }
+}

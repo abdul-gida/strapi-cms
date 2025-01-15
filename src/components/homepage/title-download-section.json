@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_homepage_title_download_sections",
+  "info": {
+    "displayName": "titleDownloadSection"
+  },
+  "options": {},
+  "attributes": {
+    "left": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "right": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_homepage_card_points",
+  "info": {
+    "displayName": "cardPoints"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}
