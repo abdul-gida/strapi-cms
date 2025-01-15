@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_hdfcs",
+  "info": {
+    "displayName": "hdfc"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "proceedButtonText": {
+      "type": "string"
+    },
+    "cancelButtonText": {
+      "type": "string"
+    },
+    "toastErroLabel": {
+      "type": "string"
+    }
+  }
+}

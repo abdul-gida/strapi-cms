@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_generate_ekyc_states",
+  "collectionName": "components_auto_generate_track_ekyc_ekyc_lists",
   "info": {
-    "displayName": "state",
+    "displayName": "ekycList",
     "description": ""
   },
   "options": {},
@@ -9,10 +9,10 @@
     "label": {
       "type": "string"
     },
-    "sheetTitle": {
+    "placeHolder": {
       "type": "string"
     },
-    "placeHolder": {
+    "sheetTitle": {
       "type": "string"
     }
   }

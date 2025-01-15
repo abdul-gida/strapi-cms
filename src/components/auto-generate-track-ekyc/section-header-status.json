@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_section_header_statuses",
+  "info": {
+    "displayName": "sectionHeaderStatus"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    }
+  }
+}

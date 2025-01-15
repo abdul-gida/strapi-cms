@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_error_pop_ups",
+  "info": {
+    "displayName": "errorPopUp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "server": {
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.server"
+    },
+    "default": {
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.server"
+    },
+    "fetch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.server"
+    },
+    "error": {
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.server"
+    },
+    "bottomNav": {
+      "displayName": "bottomNav",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.bottom-nav"
+    }
+  }
+}

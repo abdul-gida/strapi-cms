@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_ekyc_detail_cms",
+  "info": {
+    "displayName": "ekycDetailCms",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "panLabel": {
+      "type": "string"
+    },
+    "dobLabel": {
+      "type": "string"
+    },
+    "clickText": {
+      "type": "string"
+    },
+    "panPlaceHolder": {
+      "type": "string"
+    },
+    "dobPlaceHolder": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "calendar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.calendar"
+    },
+    "clickHereText": {
+      "type": "string"
+    },
+    "newOwnerLabel": {
+      "type": "string"
+    },
+    "verifyLabel": {
+      "type": "string"
+    }
+  }
+}

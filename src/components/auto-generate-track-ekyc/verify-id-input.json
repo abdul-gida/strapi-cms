@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_generate_ekyc_states",
+  "collectionName": "components_auto_generate_track_ekyc_verify_id_inputs",
   "info": {
-    "displayName": "state",
+    "displayName": "verifyIdInput",
     "description": ""
   },
   "options": {},
@@ -9,10 +9,7 @@
     "label": {
       "type": "string"
     },
-    "sheetTitle": {
-      "type": "string"
-    },
-    "placeHolder": {
+    "placeholder": {
       "type": "string"
     }
   }

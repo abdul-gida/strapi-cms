@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_section_headers",
+  "info": {
+    "displayName": "sectionHeader"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
