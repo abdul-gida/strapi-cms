@@ -6,12 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "type": {
-      "type": "string"
-    },
-    "key": {
-      "type": "string"
-    },
     "sheetTitle": {
       "type": "string"
     },

@@ -1,13 +1,11 @@
 {
   "collectionName": "components_generate_ekyc_pincodes",
   "info": {
-    "displayName": "pincode"
+    "displayName": "pincode",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "type": {
-      "type": "string"
-    },
     "label": {
       "type": "string"
     },

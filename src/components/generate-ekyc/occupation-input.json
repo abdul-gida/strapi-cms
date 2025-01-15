@@ -1,16 +1,11 @@
 {
   "collectionName": "components_generate_ekyc_occupation_inputs",
   "info": {
-    "displayName": "occupationInput"
+    "displayName": "occupationInput",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "type": {
-      "type": "string"
-    },
-    "key": {
-      "type": "string"
-    },
     "sheetTitle": {
       "type": "string"
     },

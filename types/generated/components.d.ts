@@ -2783,11 +2783,9 @@ export interface GenerateEkycAnnualIncome extends Struct.ComponentSchema {
     displayName: 'annualIncomeInput';
   };
   attributes: {
-    key: Schema.Attribute.String;
     label: Schema.Attribute.String;
     Placeholder: Schema.Attribute.String;
     sheetTitle: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
@@ -2805,24 +2803,24 @@ export interface GenerateEkycCalendar extends Struct.ComponentSchema {
 export interface GenerateEkycCheckbox extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_checkboxes';
   info: {
+    description: '';
     displayName: 'checkbox';
   };
   attributes: {
     label: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
 export interface GenerateEkycCity extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_cities';
   info: {
+    description: '';
     displayName: 'city';
   };
   attributes: {
     label: Schema.Attribute.String;
     placeHolder: Schema.Attribute.String;
     sheetTitle: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
@@ -2898,12 +2896,12 @@ export interface GenerateEkycCorrespondenceAddress
   extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_correspondence_addresses';
   info: {
+    description: '';
     displayName: 'correspondenceAddress';
   };
   attributes: {
     label: Schema.Attribute.String;
     placeHolder: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
@@ -2981,13 +2979,12 @@ export interface GenerateEkycEkycVerifyCms extends Struct.ComponentSchema {
 export interface GenerateEkycFatherInput extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_father_inputs';
   info: {
+    description: '';
     displayName: 'fatherInput';
   };
   attributes: {
-    key: Schema.Attribute.String;
     label: Schema.Attribute.String;
     placeHolder: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
@@ -3029,41 +3026,38 @@ export interface GenerateEkycMaritalStatusAndGender
 export interface GenerateEkycMotherInput extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_mother_inputs';
   info: {
+    description: '';
     displayName: 'motherInput';
   };
   attributes: {
-    key: Schema.Attribute.String;
     label: Schema.Attribute.String;
     placeHolder: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
 export interface GenerateEkycOccupationInput extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_occupation_inputs';
   info: {
+    description: '';
     displayName: 'occupationInput';
   };
   attributes: {
-    key: Schema.Attribute.String;
     label: Schema.Attribute.String;
     Placeholder: Schema.Attribute.String;
     sheetTitle: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
 export interface GenerateEkycOrganizationInput extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_organization_inputs';
   info: {
+    description: '';
     displayName: 'OrganizationInput';
   };
   attributes: {
-    key: Schema.Attribute.String;
     label: Schema.Attribute.String;
     Placeholder: Schema.Attribute.String;
     sheetTitle: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
@@ -3084,37 +3078,36 @@ export interface GenerateEkycPanCard extends Struct.ComponentSchema {
 export interface GenerateEkycPermanentAddress extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_permanent_addresses';
   info: {
+    description: '';
     displayName: 'permanentAddress';
   };
   attributes: {
     label: Schema.Attribute.String;
     placeHolder: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
 export interface GenerateEkycPincode extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_pincodes';
   info: {
+    description: '';
     displayName: 'pincode';
   };
   attributes: {
     label: Schema.Attribute.String;
     placeHolder: Schema.Attribute.String;
     sheetTitle: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
 export interface GenerateEkycPoliticallyExposed extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_politically_exposeds';
   info: {
+    description: '';
     displayName: 'politicallyExposed';
   };
   attributes: {
-    key: Schema.Attribute.String;
     label: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
@@ -3135,13 +3128,13 @@ export interface GenerateEkycProceedToHdfc extends Struct.ComponentSchema {
 export interface GenerateEkycState extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_states';
   info: {
+    description: '';
     displayName: 'state';
   };
   attributes: {
     label: Schema.Attribute.String;
     placeHolder: Schema.Attribute.String;
     sheetTitle: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
