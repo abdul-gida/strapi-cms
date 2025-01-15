@@ -369,6 +369,54 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiAboutUsAboutUs extends Struct.SingleTypeSchema {
+  collectionName: 'about_uses';
+  info: {
+    description: '';
+    displayName: 'AboutUs';
+    pluralName: 'about-uses';
+    singularName: 'about-us';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    animation: Schema.Attribute.Component<'about-us.animation', true>;
+    bannerText: Schema.Attribute.Component<'about-us.banner-text', false>;
+    boardCommitteeDescription: Schema.Attribute.String;
+    boardCommitteeLink: Schema.Attribute.String;
+    boardCommitteeTitle: Schema.Attribute.String;
+    boardOfDirectorsTitle: Schema.Attribute.String;
+    breadCrumb: Schema.Attribute.Component<'about-us.bread-crumb', true>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    desc1: Schema.Attribute.String;
+    desc2: Schema.Attribute.String;
+    directors: Schema.Attribute.Component<'about-us.directors', true>;
+    ergoLogo: Schema.Attribute.String;
+    hdfcBankLogo: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::about-us.about-us'
+    > &
+      Schema.Attribute.Private;
+    numbers: Schema.Attribute.Component<'about-us.numbers', true>;
+    ourKeyPeopleTitle: Schema.Attribute.String;
+    ourValuesTitle: Schema.Attribute.String;
+    ourVisionQuote: Schema.Attribute.String;
+    ourVisionTitle: Schema.Attribute.String;
+    people: Schema.Attribute.Component<'about-us.people', true>;
+    publishedAt: Schema.Attribute.DateTime;
+    ratings: Schema.Attribute.Component<'about-us.ratings', true>;
+    topContent: Schema.Attribute.Component<'about-us.top-content', true>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiAboutAbout extends Struct.SingleTypeSchema {
   collectionName: 'abouts';
   info: {
@@ -2622,6 +2670,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
+      'api::about-us.about-us': ApiAboutUsAboutUs;
       'api::about.about': ApiAboutAbout;
       'api::app-banner.app-banner': ApiAppBannerAppBanner;
       'api::article.article': ApiArticleArticle;

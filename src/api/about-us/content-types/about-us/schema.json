@@ -1,0 +1,94 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "AboutUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerText": {
+      "displayName": "bannerText",
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.banner-text"
+    },
+    "breadCrumb": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.bread-crumb"
+    },
+    "boardOfDirectorsTitle": {
+      "type": "string"
+    },
+    "ourVisionTitle": {
+      "type": "string"
+    },
+    "ourVisionQuote": {
+      "type": "string"
+    },
+    "hdfcBankLogo": {
+      "type": "string"
+    },
+    "ergoLogo": {
+      "type": "string"
+    },
+    "topContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.top-content"
+    },
+    "numbers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.numbers"
+    },
+    "ratings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.ratings"
+    },
+    "ourValuesTitle": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "string"
+    },
+    "desc2": {
+      "type": "string"
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.animation"
+    },
+    "ourKeyPeopleTitle": {
+      "type": "string"
+    },
+    "people": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.people"
+    },
+    "boardCommitteeTitle": {
+      "type": "string"
+    },
+    "boardCommitteeDescription": {
+      "type": "string"
+    },
+    "boardCommitteeLink": {
+      "type": "string"
+    },
+    "directors": {
+      "displayName": "directors",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.directors"
+    }
+  }
+}

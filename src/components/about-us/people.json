@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_us_people",
+  "info": {
+    "displayName": "people"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

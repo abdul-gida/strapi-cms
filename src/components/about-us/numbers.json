@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_us_numbers",
+  "info": {
+    "displayName": "numbers"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_us_top_contents",
+  "info": {
+    "displayName": "topContent"
+  },
+  "options": {},
+  "attributes": {
+    "para1": {
+      "type": "string"
+    },
+    "para2": {
+      "type": "string"
+    }
+  }
+}

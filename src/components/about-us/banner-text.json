@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_us_banner_texts",
+  "info": {
+    "displayName": "bannerText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "about": {
+      "type": "string"
+    },
+    "hdfcErgo": {
+      "type": "string"
+    }
+  }
+}

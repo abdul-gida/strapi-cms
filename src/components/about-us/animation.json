@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_us_animations",
+  "info": {
+    "displayName": "animation"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

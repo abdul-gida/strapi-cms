@@ -1,5 +1,98 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface AboutUsAnimation extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_animations';
+  info: {
+    displayName: 'animation';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsBannerText extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_banner_texts';
+  info: {
+    description: '';
+    displayName: 'bannerText';
+  };
+  attributes: {
+    about: Schema.Attribute.String;
+    hdfcErgo: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsBreadCrumb extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_bread_crumbs';
+  info: {
+    displayName: 'breadCrumb';
+  };
+  attributes: {
+    link: Schema.Attribute.String;
+    text: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsDirectors extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_directors';
+  info: {
+    displayName: 'directors';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    designation: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    name: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsNumbers extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_numbers';
+  info: {
+    displayName: 'numbers';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+    value: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsPeople extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_people';
+  info: {
+    displayName: 'people';
+  };
+  attributes: {
+    designation: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    name: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsRatings extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_ratings';
+  info: {
+    displayName: 'ratings';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsTopContent extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_top_contents';
+  info: {
+    displayName: 'topContent';
+  };
+  attributes: {
+    para1: Schema.Attribute.String;
+    para2: Schema.Attribute.String;
+  };
+}
+
 export interface ArticleComponentsCollections extends Struct.ComponentSchema {
   collectionName: 'components_article_components_collections';
   info: {
@@ -6300,6 +6393,14 @@ export interface TermsTerms extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'about-us.animation': AboutUsAnimation;
+      'about-us.banner-text': AboutUsBannerText;
+      'about-us.bread-crumb': AboutUsBreadCrumb;
+      'about-us.directors': AboutUsDirectors;
+      'about-us.numbers': AboutUsNumbers;
+      'about-us.people': AboutUsPeople;
+      'about-us.ratings': AboutUsRatings;
+      'about-us.top-content': AboutUsTopContent;
       'article-components.collections': ArticleComponentsCollections;
       'article-components.image-description-component': ArticleComponentsImageDescriptionComponent;
       'article-components.image-descriptions': ArticleComponentsImageDescriptions;
