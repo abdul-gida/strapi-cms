@@ -3680,6 +3680,444 @@ export interface HelloRandom extends Struct.ComponentSchema {
   };
 }
 
+export interface HomepageAchievements extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_achievements';
+  info: {
+    displayName: 'achievements';
+  };
+  attributes: {
+    cards: Schema.Attribute.Component<
+      'homepage.cards-achievements-section',
+      true
+    >;
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.Component<'homepage.title', false>;
+  };
+}
+
+export interface HomepageBlogs extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_blogs';
+  info: {
+    description: '';
+    displayName: 'blogs';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    list: Schema.Attribute.Component<'homepage.list-blogs-page', true>;
+    readMoreCta: Schema.Attribute.String;
+    title: Schema.Attribute.Component<'homepage.title-why-section', false>;
+    viewAllBlogsCta: Schema.Attribute.String;
+    week: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageBlogsBlogPage extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_blogs_blog_pages';
+  info: {
+    description: '';
+    displayName: 'blogsBlogPage';
+  };
+  attributes: {
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageBottomCards extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_bottom_cards';
+  info: {
+    displayName: 'bottomCards';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.Component<'homepage.title', false>;
+  };
+}
+
+export interface HomepageCardPoints extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_card_points';
+  info: {
+    displayName: 'cardPoints';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageCards extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_cards';
+  info: {
+    displayName: 'cards';
+  };
+  attributes: {
+    image: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageCardsAchievementsSection
+  extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_cards_achievements_sections';
+  info: {
+    displayName: 'cardsAchievementsSection';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+    year: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageCardsUpdatesSection extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_cards_updates_sections';
+  info: {
+    displayName: 'cardsUpdatesSection';
+  };
+  attributes: {
+    cta: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageCardsWhySection extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_cards_why_sections';
+  info: {
+    displayName: 'cardsWhySection';
+  };
+  attributes: {
+    background: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    textAlign: Schema.Attribute.String;
+    title: Schema.Attribute.Component<'homepage.title-why-section', false>;
+  };
+}
+
+export interface HomepageCustomerReviews extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_customer_reviews';
+  info: {
+    displayName: 'customerReviews';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    ratings: Schema.Attribute.String;
+    reviews: Schema.Attribute.Component<
+      'homepage.reviews-customer-review-section',
+      true
+    >;
+    title: Schema.Attribute.Component<'homepage.title', false>;
+  };
+}
+
+export interface HomepageDownload extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_downloads';
+  info: {
+    description: '';
+    displayName: 'download';
+  };
+  attributes: {
+    appStoreImage: Schema.Attribute.String;
+    appStoreLink: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    phone: Schema.Attribute.String;
+    playStoreImage: Schema.Attribute.String;
+    playStoreLink: Schema.Attribute.String;
+    qr: Schema.Attribute.String;
+    scanLabel: Schema.Attribute.String;
+    title: Schema.Attribute.Component<'homepage.title-download-section', false>;
+    waveImage: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageEcoSystem extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_eco_systems';
+  info: {
+    description: '';
+    displayName: 'ecoSystem';
+  };
+  attributes: {
+    bannerImage: Schema.Attribute.String;
+    bannerImageMobile: Schema.Attribute.String;
+    bottomCards: Schema.Attribute.Component<'homepage.bottom-cards', true>;
+    happyCustomersLabel: Schema.Attribute.String;
+    primaryCta: Schema.Attribute.String;
+    primaryProducts: Schema.Attribute.Component<
+      'homepage.primary-products',
+      true
+    >;
+    title: Schema.Attribute.String;
+    topTitle: Schema.Attribute.String;
+    userImages: Schema.Attribute.Component<'homepage.user-images', true>;
+    waveImage: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageFindNearest extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_find_nearests';
+  info: {
+    displayName: 'findNearest';
+  };
+  attributes: {
+    image: Schema.Attribute.String;
+    list: Schema.Attribute.Component<'homepage.list', true>;
+  };
+}
+
+export interface HomepageList extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_lists';
+  info: {
+    displayName: 'list';
+  };
+  attributes: {
+    btnCta: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+    tabLabel: Schema.Attribute.String;
+    title: Schema.Attribute.Component<'homepage.title-why-section', false>;
+  };
+}
+
+export interface HomepageListBlogsPage extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_list_blogs_pages';
+  info: {
+    displayName: 'listBlogsPage';
+  };
+  attributes: {
+    blogs: Schema.Attribute.Component<'homepage.blogs-blog-page', true>;
+    tabTitle: Schema.Attribute.String;
+  };
+}
+
+export interface HomepagePlans extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_plans';
+  info: {
+    displayName: 'plans';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    primaryCta: Schema.Attribute.String;
+    products: Schema.Attribute.Component<
+      'homepage.products-plans-section',
+      true
+    >;
+    title: Schema.Attribute.Component<'homepage.title-quick-access', false>;
+  };
+}
+
+export interface HomepagePrimaryProducts extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_primary_products';
+  info: {
+    displayName: 'primaryProducts';
+  };
+  attributes: {
+    image: Schema.Attribute.String;
+    inNew: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+    subTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageProducts extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_products';
+  info: {
+    displayName: 'products';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    primaryProducts: Schema.Attribute.Component<
+      'homepage.primary-products',
+      true
+    >;
+    title: Schema.Attribute.Component<'homepage.title-quick-access', false>;
+  };
+}
+
+export interface HomepageProductsPlansSection extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_products_plans_sections';
+  info: {
+    description: '';
+    displayName: 'productsPlansSection';
+  };
+  attributes: {
+    backgroundGrid: Schema.Attribute.String;
+    backgroundImage: Schema.Attribute.String;
+    cardPoints: Schema.Attribute.Component<'homepage.card-points', true>;
+    cardTitle: Schema.Attribute.String;
+    icon: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageQuickAccess extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_quick_accesses';
+  info: {
+    displayName: 'quickAccess';
+  };
+  attributes: {
+    cards: Schema.Attribute.Component<'homepage.cards', true>;
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.Component<'homepage.title-quick-access', false>;
+  };
+}
+
+export interface HomepageReviewsCustomerReviewSection
+  extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_reviews_customer_review_sections';
+  info: {
+    displayName: 'reviewsCustomerReviewSection';
+  };
+  attributes: {
+    date: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    name: Schema.Attribute.String;
+    review: Schema.Attribute.String;
+    stars: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageSteps extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_steps';
+  info: {
+    description: '';
+    displayName: 'steps';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    steps: Schema.Attribute.Component<'homepage.steps-step-page', true>;
+    title: Schema.Attribute.Component<'homepage.title-why-section', false>;
+  };
+}
+
+export interface HomepageStepsStepPage extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_steps_step_pages';
+  info: {
+    displayName: 'stepsStepPage';
+  };
+  attributes: {
+    step: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageTitle extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_titles';
+  info: {
+    displayName: 'title';
+  };
+  attributes: {
+    first: Schema.Attribute.String;
+    second: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageTitleBlogsPage extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_title_blogs_pages';
+  info: {
+    displayName: 'titleBlogsPage';
+  };
+  attributes: {};
+}
+
+export interface HomepageTitleDownloadSection extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_title_download_sections';
+  info: {
+    displayName: 'titleDownloadSection';
+  };
+  attributes: {
+    icon: Schema.Attribute.String;
+    left: Schema.Attribute.String;
+    right: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageTitleQuickAccess extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_title_quick_accesses';
+  info: {
+    displayName: 'titleQuickAccess';
+  };
+  attributes: {
+    first: Schema.Attribute.String;
+    second: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageTitleWhySection extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_title_why_sections';
+  info: {
+    displayName: 'titleWhySection';
+  };
+  attributes: {
+    bottom: Schema.Attribute.String;
+    top: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageUpdates extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_updates';
+  info: {
+    description: '';
+    displayName: 'updates';
+  };
+  attributes: {
+    cards: Schema.Attribute.Component<'homepage.cards-updates-section', true>;
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.Component<'homepage.title', false>;
+  };
+}
+
+export interface HomepageUserImages extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_user_images';
+  info: {
+    displayName: 'userImages';
+  };
+  attributes: {
+    url: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageVideos extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_videos';
+  info: {
+    displayName: 'videos';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.Component<'homepage.title', false>;
+    videos: Schema.Attribute.Component<'homepage.videos-video-section', true>;
+    viewAllVideosCta: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageVideosVideoSection extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_videos_video_sections';
+  info: {
+    displayName: 'videosVideoSection';
+  };
+  attributes: {
+    date: Schema.Attribute.String;
+    duration: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface HomepageWhy extends Struct.ComponentSchema {
+  collectionName: 'components_homepage_whies';
+  info: {
+    description: '';
+    displayName: 'why';
+  };
+  attributes: {
+    cards: Schema.Attribute.Component<'homepage.cards-why-section', true>;
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.Component<'homepage.title-quick-access', false>;
+  };
+}
+
 export interface ImageDescriptionsBanner extends Struct.ComponentSchema {
   collectionName: 'components_image_descriptions_banners';
   info: {
@@ -5733,6 +6171,7 @@ export interface SharedMedia extends Struct.ComponentSchema {
   };
   attributes: {
     image: Schema.Attribute.Media<'images'>;
+    link: Schema.Attribute.String;
   };
 }
 
@@ -6114,6 +6553,39 @@ declare module '@strapi/strapi' {
       'health-track.track-card-object': HealthTrackTrackCardObject;
       'hello.hello': HelloHello;
       'hello.random': HelloRandom;
+      'homepage.achievements': HomepageAchievements;
+      'homepage.blogs': HomepageBlogs;
+      'homepage.blogs-blog-page': HomepageBlogsBlogPage;
+      'homepage.bottom-cards': HomepageBottomCards;
+      'homepage.card-points': HomepageCardPoints;
+      'homepage.cards': HomepageCards;
+      'homepage.cards-achievements-section': HomepageCardsAchievementsSection;
+      'homepage.cards-updates-section': HomepageCardsUpdatesSection;
+      'homepage.cards-why-section': HomepageCardsWhySection;
+      'homepage.customer-reviews': HomepageCustomerReviews;
+      'homepage.download': HomepageDownload;
+      'homepage.eco-system': HomepageEcoSystem;
+      'homepage.find-nearest': HomepageFindNearest;
+      'homepage.list': HomepageList;
+      'homepage.list-blogs-page': HomepageListBlogsPage;
+      'homepage.plans': HomepagePlans;
+      'homepage.primary-products': HomepagePrimaryProducts;
+      'homepage.products': HomepageProducts;
+      'homepage.products-plans-section': HomepageProductsPlansSection;
+      'homepage.quick-access': HomepageQuickAccess;
+      'homepage.reviews-customer-review-section': HomepageReviewsCustomerReviewSection;
+      'homepage.steps': HomepageSteps;
+      'homepage.steps-step-page': HomepageStepsStepPage;
+      'homepage.title': HomepageTitle;
+      'homepage.title-blogs-page': HomepageTitleBlogsPage;
+      'homepage.title-download-section': HomepageTitleDownloadSection;
+      'homepage.title-quick-access': HomepageTitleQuickAccess;
+      'homepage.title-why-section': HomepageTitleWhySection;
+      'homepage.updates': HomepageUpdates;
+      'homepage.user-images': HomepageUserImages;
+      'homepage.videos': HomepageVideos;
+      'homepage.videos-video-section': HomepageVideosVideoSection;
+      'homepage.why': HomepageWhy;
       'image-descriptions.banner': ImageDescriptionsBanner;
       'image-descriptions.content': ImageDescriptionsContent;
       'image-descriptions.image-descriptions': ImageDescriptionsImageDescriptions;

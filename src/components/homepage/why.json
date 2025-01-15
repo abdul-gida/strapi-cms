@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_homepage_whies",
+  "info": {
+    "displayName": "why",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title-quick-access"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cardsWhySection",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.cards-why-section"
+    }
+  }
+}

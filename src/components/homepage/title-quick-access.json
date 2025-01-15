@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_homepage_title_quick_accesses",
+  "info": {
+    "displayName": "titleQuickAccess"
+  },
+  "options": {},
+  "attributes": {
+    "first": {
+      "type": "string"
+    },
+    "second": {
+      "type": "string"
+    }
+  }
+}

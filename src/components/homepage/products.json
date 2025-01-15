@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_homepage_products",
+  "info": {
+    "displayName": "products"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title-quick-access"
+    },
+    "description": {
+      "type": "string"
+    },
+    "primaryProducts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.primary-products"
+    }
+  }
+}

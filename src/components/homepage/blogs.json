@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_homepage_blogs",
+  "info": {
+    "displayName": "blogs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title-why-section"
+    },
+    "description": {
+      "type": "string"
+    },
+    "week": {
+      "type": "string"
+    },
+    "readMoreCta": {
+      "type": "string"
+    },
+    "viewAllBlogsCta": {
+      "type": "string"
+    },
+    "list": {
+      "displayName": "listBlogsPage",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.list-blogs-page"
+    }
+  }
+}

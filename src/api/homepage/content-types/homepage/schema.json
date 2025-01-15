@@ -1,0 +1,94 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ecoSystem": {
+      "displayName": "ecoSystem",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.eco-system"
+    },
+    "quickAccess": {
+      "displayName": "quickAccess",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.quick-access"
+    },
+    "products": {
+      "displayName": "products",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.products"
+    },
+    "plans": {
+      "displayName": "plans",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.plans"
+    },
+    "why": {
+      "displayName": "why",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.why"
+    },
+    "steps": {
+      "displayName": "steps",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.steps"
+    },
+    "download": {
+      "displayName": "download",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.download"
+    },
+    "blogs": {
+      "displayName": "blogs",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.blogs"
+    },
+    "findNearest": {
+      "displayName": "findNearest",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.find-nearest"
+    },
+    "updates": {
+      "displayName": "updates",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.updates"
+    },
+    "achievements": {
+      "displayName": "achievements",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.achievements"
+    },
+    "customerReviews": {
+      "displayName": "customerReviews",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.customer-reviews"
+    },
+    "videos": {
+      "displayName": "videos",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.videos"
+    }
+  }
+}
