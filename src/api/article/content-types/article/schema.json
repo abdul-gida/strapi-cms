@@ -102,6 +102,11 @@
       "type": "component",
       "repeatable": false,
       "component": "article-components.quote-banner"
+    },
+    "oldRelatedArticles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::old-article.old-article"
     }
   }
 }

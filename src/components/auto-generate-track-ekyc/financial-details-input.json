@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_generate_ekyc_occupation_inputs",
+  "collectionName": "components_auto_generate_track_ekyc_financial_details_inputs",
   "info": {
-    "displayName": "occupationInput",
-    "description": ""
+    "displayName": "financialDetailsInput"
   },
   "options": {},
   "attributes": {

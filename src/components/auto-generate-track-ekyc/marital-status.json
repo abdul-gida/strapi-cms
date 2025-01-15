@@ -1,18 +1,17 @@
 {
-  "collectionName": "components_generate_ekyc_states",
+  "collectionName": "components_auto_generate_track_ekyc_marital_statuses",
   "info": {
-    "displayName": "state",
-    "description": ""
+    "displayName": "maritalStatus"
   },
   "options": {},
   "attributes": {
     "label": {
       "type": "string"
     },
-    "sheetTitle": {
+    "placeholder": {
       "type": "string"
     },
-    "placeHolder": {
+    "sheetTitle": {
       "type": "string"
     }
   }
