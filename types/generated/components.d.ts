@@ -1,5 +1,18 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface AboutUsTabsTabs extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_tabs_tabs';
+  info: {
+    displayName: 'tabs';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    icon: Schema.Attribute.String;
+    tabId: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface AboutUsAnimation extends Struct.ComponentSchema {
   collectionName: 'components_about_us_animations';
   info: {
@@ -5387,6 +5400,27 @@ export interface MotorTrackSomethingWentWrong extends Struct.ComponentSchema {
   };
 }
 
+export interface OurDistinguishedLegacyCards extends Struct.ComponentSchema {
+  collectionName: 'components_our_distinguished_legacy_cards';
+  info: {
+    displayName: 'cards';
+    icon: 'chartBubble';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+    years: Schema.Attribute.String;
+  };
+}
+
+export interface OurDistinguishedLegacyDescription
+  extends Struct.ComponentSchema {
+  collectionName: 'components_our_distinguished_legacy_descriptions';
+  info: {
+    displayName: 'description';
+  };
+  attributes: {};
+}
+
 export interface PolicyManualLinkingCancelledExpired
   extends Struct.ComponentSchema {
   collectionName: 'components_policy_manual_linking_cancelled_expireds';
@@ -6393,6 +6427,7 @@ export interface TermsTerms extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'about-us-tabs.tabs': AboutUsTabsTabs;
       'about-us.animation': AboutUsAnimation;
       'about-us.banner-text': AboutUsBannerText;
       'about-us.bread-crumb': AboutUsBreadCrumb;
@@ -6767,6 +6802,8 @@ declare module '@strapi/strapi' {
       'motor-track.query-text': MotorTrackQueryText;
       'motor-track.query-widget': MotorTrackQueryWidget;
       'motor-track.something-went-wrong': MotorTrackSomethingWentWrong;
+      'our-distinguished-legacy.cards': OurDistinguishedLegacyCards;
+      'our-distinguished-legacy.description': OurDistinguishedLegacyDescription;
       'policy-manual-linking.cancelled-expired': PolicyManualLinkingCancelledExpired;
       'policy-manual-linking.card': PolicyManualLinkingCard;
       'policy-manual-linking.landing-page': PolicyManualLinkingLandingPage;

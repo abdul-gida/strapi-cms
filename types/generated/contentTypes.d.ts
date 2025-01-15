@@ -369,6 +369,35 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiAboutUsTabAboutUsTab extends Struct.SingleTypeSchema {
+  collectionName: 'about_us_tabs';
+  info: {
+    displayName: 'AboutUsTabs';
+    pluralName: 'about-us-tabs';
+    singularName: 'about-us-tab';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::about-us-tab.about-us-tab'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    tabs: Schema.Attribute.Component<'about-us-tabs.tabs', true>;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiAboutUsAboutUs extends Struct.SingleTypeSchema {
   collectionName: 'about_uses';
   info: {
@@ -1939,6 +1968,37 @@ export interface ApiOldArticleOldArticle extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiOurDistinguishedLegacyOurDistinguishedLegacy
+  extends Struct.SingleTypeSchema {
+  collectionName: 'our_distinguished_legacies';
+  info: {
+    displayName: 'ourDistinguishedLegacy';
+    pluralName: 'our-distinguished-legacies';
+    singularName: 'our-distinguished-legacy';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    cards: Schema.Attribute.Component<'our-distinguished-legacy.cards', true>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::our-distinguished-legacy.our-distinguished-legacy'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiPolicyManualLinkingPolicyManualLinking
   extends Struct.SingleTypeSchema {
   collectionName: 'policy_manual_linkings';
@@ -2671,6 +2731,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
+      'api::about-us-tab.about-us-tab': ApiAboutUsTabAboutUsTab;
       'api::about-us.about-us': ApiAboutUsAboutUs;
       'api::about.about': ApiAboutAbout;
       'api::app-banner.app-banner': ApiAppBannerAppBanner;
@@ -2702,6 +2763,7 @@ declare module '@strapi/strapi' {
       'api::motor-renewal.motor-renewal': ApiMotorRenewalMotorRenewal;
       'api::motor-track.motor-track': ApiMotorTrackMotorTrack;
       'api::old-article.old-article': ApiOldArticleOldArticle;
+      'api::our-distinguished-legacy.our-distinguished-legacy': ApiOurDistinguishedLegacyOurDistinguishedLegacy;
       'api::policy-manual-linking.policy-manual-linking': ApiPolicyManualLinkingPolicyManualLinking;
       'api::policy-selection.policy-selection': ApiPolicySelectionPolicySelection;
       'api::previous-year-policy-upload.previous-year-policy-upload': ApiPreviousYearPolicyUploadPreviousYearPolicyUpload;
