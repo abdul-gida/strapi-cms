@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_end_conts",
+  "info": {
+    "displayName": "endCont"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

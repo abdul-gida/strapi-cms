@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_kyc_statuses",
+  "info": {
+    "displayName": "kycStatus"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

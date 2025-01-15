@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_track_dumps",
+  "info": {
+    "displayName": "trackDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionHeader": {
+      "displayName": "sectionHeader",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.section-header"
+    },
+    "radio": {
+      "displayName": "radio",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.radio"
+    },
+    "info": {
+      "type": "string"
+    },
+    "input": {
+      "displayName": "input",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.input"
+    },
+    "endCont": {
+      "type": "string"
+    },
+    "generateLabel": {
+      "type": "string"
+    }
+  }
+}
