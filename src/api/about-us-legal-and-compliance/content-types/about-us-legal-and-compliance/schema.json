@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_legal_and_compliances",
+  "info": {
+    "singularName": "about-us-legal-and-compliance",
+    "pluralName": "about-us-legal-and-compliances",
+    "displayName": "AboutUs-legal-and-compliance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerTitle": {
+      "type": "string"
+    },
+    "breadCrumb": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.bread-crumb"
+    },
+    "statutoryDisclosureTitle": {
+      "type": "string"
+    },
+    "tabs": {
+      "displayName": "tabsAboutUsPages",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.tabs-about-us-pages"
+    }
+  }
+}

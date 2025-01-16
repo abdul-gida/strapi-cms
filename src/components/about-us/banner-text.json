@@ -6,10 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "about": {
+    "first": {
       "type": "string"
     },
-    "hdfcErgo": {
+    "second": {
       "type": "string"
     }
   }
