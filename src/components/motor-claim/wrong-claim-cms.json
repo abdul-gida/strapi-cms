@@ -1,20 +1,11 @@
 {
   "collectionName": "components_motor_claim_wrong_claim_cms",
   "info": {
-    "displayName": "wrongClaimCms"
+    "displayName": "wrongClaimCms",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "imageUrl": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
     "title": {
       "type": "string"
     },
@@ -28,6 +19,9 @@
       "type": "component",
       "repeatable": false,
       "component": "health-track.query-text"
+    },
+    "imageUrl": {
+      "type": "string"
     }
   }
 }

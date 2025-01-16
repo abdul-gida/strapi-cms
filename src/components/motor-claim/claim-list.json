@@ -9,23 +9,18 @@
     "title": {
       "type": "string"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "backendId": {
       "type": "enumeration",
       "enum": [
         "I",
         "R"
       ]
+    },
+    "claimId": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
     }
   }
 }

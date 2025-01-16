@@ -1,7 +1,8 @@
 {
   "collectionName": "components_dashboard_explore_more_cards",
   "info": {
-    "displayName": "card"
+    "displayName": "card",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,14 +12,14 @@
     "subtitle": {
       "type": "string"
     },
-    "buttontext": {
-      "type": "blocks"
-    },
     "img": {
       "type": "string"
     },
     "showCard": {
       "type": "boolean"
+    },
+    "buttontext": {
+      "type": "string"
     }
   }
 }

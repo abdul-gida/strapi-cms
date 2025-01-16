@@ -55,6 +55,9 @@
     },
     "viewmore": {
       "type": "string"
+    },
+    "viewless": {
+      "type": "string"
     }
   }
 }
