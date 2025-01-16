@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_us_tabs_about_us_pages",
+  "info": {
+    "displayName": "tabsAboutUsPages"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "displayName": "linksAboutUsTabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.links-about-us-tabs"
+    }
+  }
+}

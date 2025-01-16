@@ -369,6 +369,225 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiAboutUsAwardAboutUsAward extends Struct.SingleTypeSchema {
+  collectionName: 'about_us_awards';
+  info: {
+    description: '';
+    displayName: 'AboutUs-award';
+    pluralName: 'about-us-awards';
+    singularName: 'about-us-award';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    awards: Schema.Attribute.Component<'about-us.awards', false>;
+    breadCrumb: Schema.Attribute.Component<'about-us.bread-crumb', true>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    flower: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::about-us-award.about-us-award'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiAboutUsFinanceAboutUsFinance
+  extends Struct.SingleTypeSchema {
+  collectionName: 'about_us_finances';
+  info: {
+    description: '';
+    displayName: 'AboutUs-Finance';
+    pluralName: 'about-us-finances';
+    singularName: 'about-us-finance';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    bannerTitle: Schema.Attribute.Component<'about-us.banner-title', false>;
+    breadCrumb: Schema.Attribute.Component<'about-us.bread-crumb', true>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::about-us-finance.about-us-finance'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiAboutUsInitiativeAboutUsInitiative
+  extends Struct.SingleTypeSchema {
+  collectionName: 'about_us_initiatives';
+  info: {
+    description: '';
+    displayName: 'AboutUsInitiative';
+    pluralName: 'about-us-initiatives';
+    singularName: 'about-us-initiative';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    achievements: Schema.Attribute.Component<
+      'about-us.achievements-initiatives-section',
+      false
+    >;
+    awareness: Schema.Attribute.Component<'about-us.awareness', false>;
+    bannerTitle: Schema.Attribute.Component<'about-us.banner-text', false>;
+    breadCrumb: Schema.Attribute.Component<'about-us.bread-crumb', true>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    futurePlans: Schema.Attribute.Component<
+      'about-us.future-plans-initiative-section',
+      false
+    >;
+    how: Schema.Attribute.Component<'about-us.how-initiatives-section', false>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::about-us-initiative.about-us-initiative'
+    > &
+      Schema.Attribute.Private;
+    overview: Schema.Attribute.Component<'about-us.overview', false>;
+    publishedAt: Schema.Attribute.DateTime;
+    topLabel: Schema.Attribute.String;
+    topLogo: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiAboutUsLegalAndComplianceAboutUsLegalAndCompliance
+  extends Struct.SingleTypeSchema {
+  collectionName: 'about_us_legal_and_compliances';
+  info: {
+    description: '';
+    displayName: 'AboutUs-legal-and-compliance';
+    pluralName: 'about-us-legal-and-compliances';
+    singularName: 'about-us-legal-and-compliance';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    bannerTitle: Schema.Attribute.String;
+    breadCrumb: Schema.Attribute.Component<'about-us.bread-crumb', true>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::about-us-legal-and-compliance.about-us-legal-and-compliance'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    statutoryDisclosureTitle: Schema.Attribute.String;
+    tabs: Schema.Attribute.Component<'about-us.tabs-about-us-pages', true>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiAboutUsTabAboutUsTab extends Struct.SingleTypeSchema {
+  collectionName: 'about_us_tabs';
+  info: {
+    displayName: 'AboutUsTabs';
+    pluralName: 'about-us-tabs';
+    singularName: 'about-us-tab';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::about-us-tab.about-us-tab'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    tabs: Schema.Attribute.Component<'about-us-tabs.tabs', true>;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiAboutUsAboutUs extends Struct.SingleTypeSchema {
+  collectionName: 'about_uses';
+  info: {
+    description: '';
+    displayName: 'AboutUs';
+    pluralName: 'about-uses';
+    singularName: 'about-us';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    animation: Schema.Attribute.Component<'about-us.animation', true>;
+    bannerText: Schema.Attribute.Component<'about-us.banner-text', false>;
+    boardCommitteeDescription: Schema.Attribute.String;
+    boardCommitteeLink: Schema.Attribute.String;
+    boardCommitteeTitle: Schema.Attribute.String;
+    boardOfDirectorsTitle: Schema.Attribute.String;
+    breadCrumb: Schema.Attribute.Component<'about-us.bread-crumb', true>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    desc1: Schema.Attribute.String;
+    desc2: Schema.Attribute.String;
+    directors: Schema.Attribute.Component<'about-us.directors', true>;
+    ergoLogo: Schema.Attribute.String;
+    hdfcBankLogo: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::about-us.about-us'
+    > &
+      Schema.Attribute.Private;
+    numbers: Schema.Attribute.Component<'about-us.numbers', true>;
+    ourKeyPeopleTitle: Schema.Attribute.String;
+    ourValuesTitle: Schema.Attribute.String;
+    ourVisionDescription: Schema.Attribute.String;
+    ourVisionQuote: Schema.Attribute.String;
+    ourVisionTitle: Schema.Attribute.String;
+    people: Schema.Attribute.Component<'about-us.people', true>;
+    publishedAt: Schema.Attribute.DateTime;
+    ratings: Schema.Attribute.Component<'about-us.ratings', true>;
+    topContent: Schema.Attribute.Component<'about-us.top-content', true>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiAboutAbout extends Struct.SingleTypeSchema {
   collectionName: 'abouts';
   info: {
@@ -1894,6 +2113,37 @@ export interface ApiOldArticleOldArticle extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiOurDistinguishedLegacyOurDistinguishedLegacy
+  extends Struct.SingleTypeSchema {
+  collectionName: 'our_distinguished_legacies';
+  info: {
+    displayName: 'ourDistinguishedLegacy';
+    pluralName: 'our-distinguished-legacies';
+    singularName: 'our-distinguished-legacy';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    cards: Schema.Attribute.Component<'our-distinguished-legacy.cards', true>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::our-distinguished-legacy.our-distinguished-legacy'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiPolicyManualLinkingPolicyManualLinking
   extends Struct.SingleTypeSchema {
   collectionName: 'policy_manual_linkings';
@@ -2626,6 +2876,12 @@ declare module '@strapi/strapi' {
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
+      'api::about-us-award.about-us-award': ApiAboutUsAwardAboutUsAward;
+      'api::about-us-finance.about-us-finance': ApiAboutUsFinanceAboutUsFinance;
+      'api::about-us-initiative.about-us-initiative': ApiAboutUsInitiativeAboutUsInitiative;
+      'api::about-us-legal-and-compliance.about-us-legal-and-compliance': ApiAboutUsLegalAndComplianceAboutUsLegalAndCompliance;
+      'api::about-us-tab.about-us-tab': ApiAboutUsTabAboutUsTab;
+      'api::about-us.about-us': ApiAboutUsAboutUs;
       'api::about.about': ApiAboutAbout;
       'api::app-banner.app-banner': ApiAppBannerAppBanner;
       'api::article.article': ApiArticleArticle;
@@ -2656,6 +2912,7 @@ declare module '@strapi/strapi' {
       'api::motor-renewal.motor-renewal': ApiMotorRenewalMotorRenewal;
       'api::motor-track.motor-track': ApiMotorTrackMotorTrack;
       'api::old-article.old-article': ApiOldArticleOldArticle;
+      'api::our-distinguished-legacy.our-distinguished-legacy': ApiOurDistinguishedLegacyOurDistinguishedLegacy;
       'api::policy-manual-linking.policy-manual-linking': ApiPolicyManualLinkingPolicyManualLinking;
       'api::policy-selection.policy-selection': ApiPolicySelectionPolicySelection;
       'api::previous-year-policy-upload.previous-year-policy-upload': ApiPreviousYearPolicyUploadPreviousYearPolicyUpload;
