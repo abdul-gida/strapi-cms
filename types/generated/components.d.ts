@@ -1664,6 +1664,7 @@ export interface DashboardBuyInsuranceCard extends Struct.ComponentSchema {
   attributes: {
     bannerText: Schema.Attribute.String;
     img: Schema.Attribute.String;
+    isNew: Schema.Attribute.Boolean;
     showCard: Schema.Attribute.Boolean;
     subtitle: Schema.Attribute.RichText;
     title: Schema.Attribute.String;
