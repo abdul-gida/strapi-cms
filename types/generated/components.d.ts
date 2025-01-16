@@ -1380,14 +1380,14 @@ export interface CustomerDueDiligenceYes extends Struct.ComponentSchema {
 export interface DashboardBuyInsuranceCard extends Struct.ComponentSchema {
   collectionName: 'components_dashboard_buy_insurance_cards';
   info: {
+    description: '';
     displayName: 'card';
   };
   attributes: {
     bannerText: Schema.Attribute.String;
     img: Schema.Attribute.String;
-    isNew: Schema.Attribute.Boolean;
-    showCard: Schema.Attribute.String;
-    subtitle: Schema.Attribute.String;
+    showCard: Schema.Attribute.Boolean;
+    subtitle: Schema.Attribute.RichText;
     title: Schema.Attribute.String;
     type: Schema.Attribute.String;
   };
@@ -1618,7 +1618,6 @@ export interface DashboardExploreFourwheelerCard
     showCard: Schema.Attribute.Boolean;
     subtitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
@@ -1668,10 +1667,11 @@ export interface DashboardExploreFourwheelerTwoWheeler
 export interface DashboardExploreMoreCard extends Struct.ComponentSchema {
   collectionName: 'components_dashboard_explore_more_cards';
   info: {
+    description: '';
     displayName: 'card';
   };
   attributes: {
-    buttontext: Schema.Attribute.Blocks;
+    buttontext: Schema.Attribute.String;
     img: Schema.Attribute.String;
     showCard: Schema.Attribute.Boolean;
     subtitle: Schema.Attribute.String;
@@ -3006,7 +3006,10 @@ export interface GenerateEkycFinancialDetailsCms
   attributes: {
     description: Schema.Attribute.String;
     imageUrl: Schema.Attribute.String;
+    noLabel: Schema.Attribute.String;
+    selectOptionLabel: Schema.Attribute.String;
     title: Schema.Attribute.String;
+    yesLabel: Schema.Attribute.String;
   };
 }
 
@@ -4648,6 +4651,18 @@ export interface MotorPolicyTransferMotorTransferRequestFailureCms
     queryTitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
     transactionNo: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferNewOwnerLabel
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_new_owner_labels';
+  info: {
+    description: '';
+    displayName: 'newOwnerLabel';
+  };
+  attributes: {
+    newOwnerLabel: Schema.Attribute.String;
   };
 }
 
@@ -6623,6 +6638,7 @@ declare module '@strapi/strapi' {
       'motor-policy-transfer.input-track': MotorPolicyTransferInputTrack;
       'motor-policy-transfer.label-and-placeholder': MotorPolicyTransferLabelAndPlaceholder;
       'motor-policy-transfer.motor-transfer-request-failure-cms': MotorPolicyTransferMotorTransferRequestFailureCms;
+      'motor-policy-transfer.new-owner-label': MotorPolicyTransferNewOwnerLabel;
       'motor-policy-transfer.no-policy-linked-dump': MotorPolicyTransferNoPolicyLinkedDump;
       'motor-policy-transfer.nominee-details-dump': MotorPolicyTransferNomineeDetailsDump;
       'motor-policy-transfer.number-input': MotorPolicyTransferNumberInput;

@@ -802,6 +802,7 @@ export interface ApiDashboardBuyInsuranceDashboardBuyInsurance
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     viewall: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+    viewless: Schema.Attribute.String;
     viewmore: Schema.Attribute.String;
   };
 }
@@ -1024,7 +1025,6 @@ export interface ApiDashboardTrustedByCustomerDashboardTrustedByCustomer
         'dashboard-trusted-by-customer.happy-customers',
         'dashboard-trusted-by-customer.customer-support',
         'dashboard-trusted-by-customer.cashless-network',
-        'dashboard-trusted-by-customer.dashboard-trusted-by-customer',
         'dashboard-trusted-by-customer.claim-settlement-rate',
       ]
     >;
@@ -1650,6 +1650,10 @@ export interface ApiMotorPolicyTransferMotorPolicyTransfer
       Schema.Attribute.Private;
     motorTransferRequestFailureCms: Schema.Attribute.Component<
       'motor-policy-transfer.motor-transfer-request-failure-cms',
+      false
+    >;
+    newOwnerLabel: Schema.Attribute.Component<
+      'motor-policy-transfer.new-owner-label',
       false
     >;
     nomineeDetailsDump: Schema.Attribute.Component<
