@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_agent_registration_options",
+  "info": {
+    "displayName": "options"
+  },
+  "options": {},
+  "attributes": {
+    "option": {
+      "type": "string"
+    }
+  }
+}

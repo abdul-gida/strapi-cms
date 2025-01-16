@@ -617,6 +617,41 @@ export interface ApiAboutAbout extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiAgentRegistrationAgentRegistration
+  extends Struct.SingleTypeSchema {
+  collectionName: 'agent_registrations';
+  info: {
+    description: '';
+    displayName: 'AgentRegistration';
+    pluralName: 'agent-registrations';
+    singularName: 'agent-registration';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    formLabels: Schema.Attribute.Component<
+      'agent-registration.form-labels',
+      false
+    >;
+    heroImageUrlDeskTop: Schema.Attribute.String;
+    heroImageUrlMobile: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::agent-registration.agent-registration'
+    > &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiAppBannerAppBanner extends Struct.SingleTypeSchema {
   collectionName: 'app_banners';
   info: {
@@ -2924,6 +2959,7 @@ declare module '@strapi/strapi' {
       'api::about-us-tab.about-us-tab': ApiAboutUsTabAboutUsTab;
       'api::about-us.about-us': ApiAboutUsAboutUs;
       'api::about.about': ApiAboutAbout;
+      'api::agent-registration.agent-registration': ApiAgentRegistrationAgentRegistration;
       'api::app-banner.app-banner': ApiAppBannerAppBanner;
       'api::article.article': ApiArticleArticle;
       'api::author.author': ApiAuthorAuthor;

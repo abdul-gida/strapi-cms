@@ -278,6 +278,64 @@ export interface AboutUsTopContent extends Struct.ComponentSchema {
   };
 }
 
+export interface AgentRegistrationBusinessInterest
+  extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_business_interests';
+  info: {
+    displayName: 'businessInterest';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    options: Schema.Attribute.Component<'agent-registration.options', true>;
+  };
+}
+
+export interface AgentRegistrationFormLabels extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_form_labels';
+  info: {
+    description: '';
+    displayName: 'formLabels';
+  };
+  attributes: {
+    businessInterest: Schema.Attribute.Component<
+      'agent-registration.business-interest',
+      false
+    >;
+    city: Schema.Attribute.Component<'agent-registration.name', false>;
+    description: Schema.Attribute.String;
+    email: Schema.Attribute.Component<'agent-registration.name', false>;
+    mobile: Schema.Attribute.Component<'agent-registration.name', false>;
+    name: Schema.Attribute.Component<'agent-registration.name', false>;
+    panLabels: Schema.Attribute.Component<'agent-registration.name', false>;
+    stateLabels: Schema.Attribute.Component<'agent-registration.name', false>;
+    submitLabel: Schema.Attribute.String;
+    termsAndConditions: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AgentRegistrationName extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_names';
+  info: {
+    description: '';
+    displayName: 'name';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+  };
+}
+
+export interface AgentRegistrationOptions extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_options';
+  info: {
+    displayName: 'options';
+  };
+  attributes: {
+    option: Schema.Attribute.String;
+  };
+}
+
 export interface ArticleComponentsCollections extends Struct.ComponentSchema {
   collectionName: 'components_article_components_collections';
   info: {
@@ -6715,6 +6773,10 @@ declare module '@strapi/strapi' {
       'about-us.tabs-about-us-finance': AboutUsTabsAboutUsFinance;
       'about-us.tabs-about-us-pages': AboutUsTabsAboutUsPages;
       'about-us.top-content': AboutUsTopContent;
+      'agent-registration.business-interest': AgentRegistrationBusinessInterest;
+      'agent-registration.form-labels': AgentRegistrationFormLabels;
+      'agent-registration.name': AgentRegistrationName;
+      'agent-registration.options': AgentRegistrationOptions;
       'article-components.collections': ArticleComponentsCollections;
       'article-components.image-description-component': ArticleComponentsImageDescriptionComponent;
       'article-components.image-descriptions': ArticleComponentsImageDescriptions;

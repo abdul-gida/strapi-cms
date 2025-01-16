@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "agent_registrations",
+  "info": {
+    "singularName": "agent-registration",
+    "pluralName": "agent-registrations",
+    "displayName": "AgentRegistration",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroImageUrlDeskTop": {
+      "type": "string"
+    },
+    "heroImageUrlMobile": {
+      "type": "string"
+    },
+    "formLabels": {
+      "displayName": "formLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "agent-registration.form-labels"
+    }
+  }
+}
