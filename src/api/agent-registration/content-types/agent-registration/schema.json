@@ -23,6 +23,33 @@
       "type": "component",
       "repeatable": false,
       "component": "agent-registration.form-labels"
+    },
+    "viewCardList": {
+      "displayName": "viewCardList",
+      "type": "component",
+      "repeatable": false,
+      "component": "agent-registration.view-card-list"
+    },
+    "ourProductOfferingTitle": {
+      "type": "string"
+    },
+    "ourProductOfferingList": {
+      "displayName": "ourProductOfferingList",
+      "type": "component",
+      "repeatable": true,
+      "component": "agent-registration.our-product-offering-list"
+    },
+    "retailInsurance": {
+      "displayName": "retailInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "agent-registration.retail-insurance"
+    },
+    "commercialInsurance": {
+      "displayName": "commercialInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "agent-registration.commercial-insurance"
     }
   }
 }

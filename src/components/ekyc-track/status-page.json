@@ -6,17 +6,17 @@
   },
   "options": {},
   "attributes": {
-    "bottomSectin": {
-      "displayName": "bottomSectin",
-      "type": "component",
-      "repeatable": false,
-      "component": "ekyc-track.bottom-sectin"
-    },
     "bottomSection": {
       "displayName": "bottomSection",
       "type": "component",
       "repeatable": false,
       "component": "ekyc-track.bottom-section"
+    },
+    "image": {
+      "displayName": "image",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.image"
     }
   }
 }

@@ -630,6 +630,10 @@ export interface ApiAgentRegistrationAgentRegistration
     draftAndPublish: true;
   };
   attributes: {
+    commercialInsurance: Schema.Attribute.Component<
+      'agent-registration.commercial-insurance',
+      false
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -645,10 +649,23 @@ export interface ApiAgentRegistrationAgentRegistration
       'api::agent-registration.agent-registration'
     > &
       Schema.Attribute.Private;
+    ourProductOfferingList: Schema.Attribute.Component<
+      'agent-registration.our-product-offering-list',
+      true
+    >;
+    ourProductOfferingTitle: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    retailInsurance: Schema.Attribute.Component<
+      'agent-registration.retail-insurance',
+      false
+    >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    viewCardList: Schema.Attribute.Component<
+      'agent-registration.view-card-list',
+      false
+    >;
   };
 }
 
@@ -1513,10 +1530,6 @@ export interface ApiEkycTrackEkycTrack extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    kycTrackingApiDump: Schema.Attribute.Component<
-      'ekyc-track.kyc-tracking-api-dump',
-      false
-    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -1826,6 +1839,59 @@ export interface ApiLoginLabelLoginLabel extends Struct.CollectionTypeSchema {
     subHeading: Schema.Attribute.String;
     termsAndConditionText: Schema.Attribute.String;
     title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiMediaCenterMediaCenter extends Struct.SingleTypeSchema {
+  collectionName: 'media_centers';
+  info: {
+    description: '';
+    displayName: 'mediaCenter';
+    pluralName: 'media-centers';
+    singularName: 'media-center';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    awarenessInitiatives: Schema.Attribute.Component<
+      'media-center.awareness-initiatives',
+      false
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    digitalMediaCoverage: Schema.Attribute.Component<
+      'media-center.digital-media-coverage',
+      false
+    >;
+    electronicAds: Schema.Attribute.Component<
+      'media-center.electronic-ads',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::media-center.media-center'
+    > &
+      Schema.Attribute.Private;
+    magazineCoverages: Schema.Attribute.Component<
+      'media-center.magazine-coverages',
+      false
+    >;
+    pressRelease: Schema.Attribute.Component<
+      'media-center.press-release',
+      false
+    >;
+    printMediaCoverage: Schema.Attribute.Component<
+      'media-center.print-media-coverage',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    topBanner: Schema.Attribute.Component<'media-center.top-banner', false>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -2988,6 +3054,7 @@ declare module '@strapi/strapi' {
       'api::health-track.health-track': ApiHealthTrackHealthTrack;
       'api::homepage.homepage': ApiHomepageHomepage;
       'api::login-label.login-label': ApiLoginLabelLoginLabel;
+      'api::media-center.media-center': ApiMediaCenterMediaCenter;
       'api::motor-claim.motor-claim': ApiMotorClaimMotorClaim;
       'api::motor-policy-transfer.motor-policy-transfer': ApiMotorPolicyTransferMotorPolicyTransfer;
       'api::motor-renewal.motor-renewal': ApiMotorRenewalMotorRenewal;

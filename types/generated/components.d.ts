@@ -290,6 +290,21 @@ export interface AgentRegistrationBusinessInterest
   };
 }
 
+export interface AgentRegistrationCommercialInsurance
+  extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_commercial_insurances';
+  info: {
+    displayName: 'commercialInsurance';
+  };
+  attributes: {
+    options: Schema.Attribute.Component<
+      'agent-registration.options-retail-section',
+      true
+    >;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface AgentRegistrationFormLabels extends Struct.ComponentSchema {
   collectionName: 'components_agent_registration_form_labels';
   info: {
@@ -333,6 +348,58 @@ export interface AgentRegistrationOptions extends Struct.ComponentSchema {
   };
   attributes: {
     option: Schema.Attribute.String;
+  };
+}
+
+export interface AgentRegistrationOptionsRetailSection
+  extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_options_retail_sections';
+  info: {
+    displayName: 'optionsRetailSection';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    logo: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AgentRegistrationOurProductOfferingList
+  extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_our_product_offering_lists';
+  info: {
+    displayName: 'ourProductOfferingList';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    logo: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AgentRegistrationRetailInsurance
+  extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_retail_insurances';
+  info: {
+    displayName: 'retailInsurance';
+  };
+  attributes: {
+    options: Schema.Attribute.Component<
+      'agent-registration.options-retail-section',
+      true
+    >;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AgentRegistrationViewCardList extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_view_card_lists';
+  info: {
+    displayName: 'viewCardList';
+  };
+  attributes: {
+    ctaLabel: Schema.Attribute.String;
+    title: Schema.Attribute.String;
   };
 }
 
@@ -1813,6 +1880,7 @@ export interface DashboardBuyInsuranceCard extends Struct.ComponentSchema {
   attributes: {
     bannerText: Schema.Attribute.String;
     img: Schema.Attribute.String;
+    isNew: Schema.Attribute.Boolean;
     showCard: Schema.Attribute.Boolean;
     subtitle: Schema.Attribute.RichText;
     title: Schema.Attribute.String;
@@ -2941,9 +3009,12 @@ export interface EkycTrackError extends Struct.ComponentSchema {
 export interface EkycTrackErrorPopUp extends Struct.ComponentSchema {
   collectionName: 'components_ekyc_track_error_pop_ups';
   info: {
+    description: '';
     displayName: 'errorPopUp';
   };
   attributes: {
+    default: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+    error: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
     fetch: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
     server: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
   };
@@ -2971,6 +3042,17 @@ export interface EkycTrackHeader extends Struct.ComponentSchema {
     description: Schema.Attribute.String;
     info: Schema.Attribute.String;
     title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackImage extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_images';
+  info: {
+    displayName: 'image';
+  };
+  attributes: {
+    imag2: Schema.Attribute.String;
+    image1: Schema.Attribute.String;
   };
 }
 
@@ -3098,7 +3180,13 @@ export interface EkycTrackStatic extends Struct.ComponentSchema {
     displayName: 'static';
   };
   attributes: {
-    cardsData: Schema.Attribute.Component<'ekyc-track.cards-data', true>;
+    cardsData: Schema.Attribute.Component<'ekyc-track.cards-data', true> &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 3;
+        },
+        number
+      >;
     header: Schema.Attribute.Component<'ekyc-track.header', false>;
   };
 }
@@ -3110,11 +3198,11 @@ export interface EkycTrackStatusPage extends Struct.ComponentSchema {
     displayName: 'statusPage';
   };
   attributes: {
-    bottomSectin: Schema.Attribute.Component<'ekyc-track.bottom-sectin', false>;
     bottomSection: Schema.Attribute.Component<
       'ekyc-track.bottom-section',
       false
     >;
+    image: Schema.Attribute.Component<'ekyc-track.image', false>;
   };
 }
 
@@ -3199,6 +3287,10 @@ export interface EkycTrackTrackingKycDump extends Struct.ComponentSchema {
     >;
     static: Schema.Attribute.Component<'ekyc-track.static', false>;
     statusPage: Schema.Attribute.Component<'ekyc-track.status-page', false>;
+    titleAndDescription: Schema.Attribute.Component<
+      'ekyc-track.title-and-description',
+      false
+    >;
     toast: Schema.Attribute.Component<'ekyc-track.toast', false>;
   };
 }
@@ -3399,6 +3491,7 @@ export interface GenerateEkycEkycVerifyCms extends Struct.ComponentSchema {
       false
     >;
     personNameLabel: Schema.Attribute.String;
+    pinCode: Schema.Attribute.Component<'generate-ekyc.pin-code', false>;
     title: Schema.Attribute.String;
   };
 }
@@ -3517,6 +3610,17 @@ export interface GenerateEkycPermanentAddress extends Struct.ComponentSchema {
   };
 }
 
+export interface GenerateEkycPinCode extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_pin_codes';
+  info: {
+    displayName: 'pinCode';
+  };
+  attributes: {
+    searchLabel: Schema.Attribute.String;
+    usePinCodeLabel: Schema.Attribute.String;
+  };
+}
+
 export interface GenerateEkycPincode extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_pincodes';
   info: {
@@ -3544,6 +3648,7 @@ export interface GenerateEkycPoliticallyExposed extends Struct.ComponentSchema {
 export interface GenerateEkycProceedToHdfc extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_proceed_to_hdfcs';
   info: {
+    description: '';
     displayName: 'proceedToHdfc';
   };
   attributes: {
@@ -3552,6 +3657,7 @@ export interface GenerateEkycProceedToHdfc extends Struct.ComponentSchema {
     proceedButtonText: Schema.Attribute.String;
     subTitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
+    toastErrorLabel: Schema.Attribute.String;
   };
 }
 
@@ -4592,6 +4698,213 @@ export interface LoginClaimList extends Struct.ComponentSchema {
   attributes: {
     subTitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterAds extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_ads';
+  info: {
+    displayName: 'ads';
+  };
+  attributes: {
+    date: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterAdsAwarnessPage extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_ads_awarness_pages';
+  info: {
+    displayName: 'adsAwarnessPage';
+  };
+  attributes: {
+    image: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterAdsElectronicAds extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_ads_electronic_ads';
+  info: {
+    displayName: 'adsElectronicAds';
+  };
+  attributes: {
+    image: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterAdsRadioAds extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_ads_radio_ads';
+  info: {
+    displayName: 'adsRadioAds';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterAwarenessInitiatives
+  extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_awareness_initiatives';
+  info: {
+    displayName: 'awarenessInitiatives';
+  };
+  attributes: {
+    ads: Schema.Attribute.Component<'media-center.ads-awarness-page', true>;
+    breadCrumb: Schema.Attribute.Component<'media-center.bread-crumb', true>;
+    contact: Schema.Attribute.Component<'media-center.contact', false>;
+    title: Schema.Attribute.String;
+    viewLess: Schema.Attribute.String;
+    viewMore: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterBreadCrumb extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_bread_crumbs';
+  info: {
+    displayName: 'breadCrumb';
+  };
+  attributes: {
+    link: Schema.Attribute.String;
+    text: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterContact extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_contacts';
+  info: {
+    displayName: 'contact';
+  };
+  attributes: {
+    backgroundImage: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    email: Schema.Attribute.Email;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterDigitalMediaCoverage
+  extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_digital_media_coverages';
+  info: {
+    displayName: 'digitalMediaCoverage';
+  };
+  attributes: {
+    breadCrumb: Schema.Attribute.Component<'media-center.bread-crumb', true>;
+    filterBy: Schema.Attribute.String;
+    readFullStory: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    years: Schema.Attribute.Component<'media-center.years', true>;
+  };
+}
+
+export interface MediaCenterElectronicAds extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_electronic_ads';
+  info: {
+    description: '';
+    displayName: 'electronicAds';
+  };
+  attributes: {
+    ads: Schema.Attribute.Component<'media-center.ads-electronic-ads', true>;
+    breadCrumb: Schema.Attribute.Component<'media-center.bread-crumb', true>;
+    radioAds: Schema.Attribute.Component<'media-center.radio-ads', false>;
+    title: Schema.Attribute.String;
+    viewLess: Schema.Attribute.String;
+    viewMore: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterMagazineCoverages extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_magazine_coverages';
+  info: {
+    displayName: 'magazineCoverages';
+  };
+  attributes: {
+    breadCrumb: Schema.Attribute.Component<'media-center.bread-crumb', true>;
+    filterBy: Schema.Attribute.String;
+    readFullStory: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    years: Schema.Attribute.Component<'media-center.years', true>;
+  };
+}
+
+export interface MediaCenterMonths extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_months';
+  info: {
+    displayName: 'months';
+  };
+  attributes: {
+    ads: Schema.Attribute.Component<'media-center.ads', true>;
+    month: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterPressRelease extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_press_releases';
+  info: {
+    description: '';
+    displayName: 'pressRelease';
+  };
+  attributes: {
+    breadCrumb: Schema.Attribute.Component<'media-center.bread-crumb', true>;
+    filterBy: Schema.Attribute.String;
+    readFullStory: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    years: Schema.Attribute.Component<'media-center.years', true>;
+  };
+}
+
+export interface MediaCenterPrintMediaCoverage extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_print_media_coverages';
+  info: {
+    displayName: 'printMediaCoverage';
+  };
+  attributes: {
+    breadCrumb: Schema.Attribute.Component<'media-center.bread-crumb', true>;
+    filterBy: Schema.Attribute.String;
+    readFullStory: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    years: Schema.Attribute.Component<'media-center.years', true>;
+  };
+}
+
+export interface MediaCenterRadioAds extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_radio_ads';
+  info: {
+    description: '';
+    displayName: 'radioAds';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterTopBanner extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_top_banners';
+  info: {
+    displayName: 'topBanner';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterYears extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_years';
+  info: {
+    displayName: 'years';
+  };
+  attributes: {
+    months: Schema.Attribute.Component<'media-center.months', true>;
+    year: Schema.Attribute.String;
   };
 }
 
@@ -6791,9 +7104,14 @@ declare module '@strapi/strapi' {
       'about-us.tabs-about-us-pages': AboutUsTabsAboutUsPages;
       'about-us.top-content': AboutUsTopContent;
       'agent-registration.business-interest': AgentRegistrationBusinessInterest;
+      'agent-registration.commercial-insurance': AgentRegistrationCommercialInsurance;
       'agent-registration.form-labels': AgentRegistrationFormLabels;
       'agent-registration.name': AgentRegistrationName;
       'agent-registration.options': AgentRegistrationOptions;
+      'agent-registration.options-retail-section': AgentRegistrationOptionsRetailSection;
+      'agent-registration.our-product-offering-list': AgentRegistrationOurProductOfferingList;
+      'agent-registration.retail-insurance': AgentRegistrationRetailInsurance;
+      'agent-registration.view-card-list': AgentRegistrationViewCardList;
       'article-components.collections': ArticleComponentsCollections;
       'article-components.image-description-component': ArticleComponentsImageDescriptionComponent;
       'article-components.image-descriptions': ArticleComponentsImageDescriptions;
@@ -6979,6 +7297,7 @@ declare module '@strapi/strapi' {
       'ekyc-track.error-pop-up': EkycTrackErrorPopUp;
       'ekyc-track.fetch-error': EkycTrackFetchError;
       'ekyc-track.header': EkycTrackHeader;
+      'ekyc-track.image': EkycTrackImage;
       'ekyc-track.input-label': EkycTrackInputLabel;
       'ekyc-track.kyc-tracking-api-dump': EkycTrackKycTrackingApiDump;
       'ekyc-track.label-and-placeholder': EkycTrackLabelAndPlaceholder;
@@ -7016,6 +7335,7 @@ declare module '@strapi/strapi' {
       'generate-ekyc.organization-input': GenerateEkycOrganizationInput;
       'generate-ekyc.pan-card': GenerateEkycPanCard;
       'generate-ekyc.permanent-address': GenerateEkycPermanentAddress;
+      'generate-ekyc.pin-code': GenerateEkycPinCode;
       'generate-ekyc.pincode': GenerateEkycPincode;
       'generate-ekyc.politically-exposed': GenerateEkycPoliticallyExposed;
       'generate-ekyc.proceed-to-hdfc': GenerateEkycProceedToHdfc;
@@ -7092,6 +7412,22 @@ declare module '@strapi/strapi' {
       'image-descriptions.content': ImageDescriptionsContent;
       'image-descriptions.image-descriptions': ImageDescriptionsImageDescriptions;
       'login.claim-list': LoginClaimList;
+      'media-center.ads': MediaCenterAds;
+      'media-center.ads-awarness-page': MediaCenterAdsAwarnessPage;
+      'media-center.ads-electronic-ads': MediaCenterAdsElectronicAds;
+      'media-center.ads-radio-ads': MediaCenterAdsRadioAds;
+      'media-center.awareness-initiatives': MediaCenterAwarenessInitiatives;
+      'media-center.bread-crumb': MediaCenterBreadCrumb;
+      'media-center.contact': MediaCenterContact;
+      'media-center.digital-media-coverage': MediaCenterDigitalMediaCoverage;
+      'media-center.electronic-ads': MediaCenterElectronicAds;
+      'media-center.magazine-coverages': MediaCenterMagazineCoverages;
+      'media-center.months': MediaCenterMonths;
+      'media-center.press-release': MediaCenterPressRelease;
+      'media-center.print-media-coverage': MediaCenterPrintMediaCoverage;
+      'media-center.radio-ads': MediaCenterRadioAds;
+      'media-center.top-banner': MediaCenterTopBanner;
+      'media-center.years': MediaCenterYears;
       'meta-fields.meta-fields': MetaFieldsMetaFields;
       'motor-claim.claim-list': MotorClaimClaimList;
       'motor-claim.enter-claim-details': MotorClaimEnterClaimDetails;

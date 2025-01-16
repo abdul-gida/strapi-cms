@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_media_center_years",
+  "info": {
+    "displayName": "years"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "months": {
+      "displayName": "months",
+      "type": "component",
+      "repeatable": true,
+      "component": "media-center.months"
+    }
+  }
+}

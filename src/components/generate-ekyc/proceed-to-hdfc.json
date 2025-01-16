@@ -1,7 +1,8 @@
 {
   "collectionName": "components_generate_ekyc_proceed_to_hdfcs",
   "info": {
-    "displayName": "proceedToHdfc"
+    "displayName": "proceedToHdfc",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,6 +19,9 @@
       "type": "string"
     },
     "cancelButtonText": {
+      "type": "string"
+    },
+    "toastErrorLabel": {
       "type": "string"
     }
   }

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_ekyc_track_error_pop_ups",
   "info": {
-    "displayName": "errorPopUp"
+    "displayName": "errorPopUp",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,16 @@
       "component": "ekyc-track.fetch-error"
     },
     "fetch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.fetch-error"
+    },
+    "default": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.fetch-error"
+    },
+    "error": {
       "type": "component",
       "repeatable": false,
       "component": "ekyc-track.fetch-error"

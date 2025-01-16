@@ -17,12 +17,6 @@
       "type": "component",
       "repeatable": false,
       "component": "ekyc-track.tracking-kyc-dump"
-    },
-    "kycTrackingApiDump": {
-      "displayName": "kycTrackingApiDump",
-      "type": "component",
-      "repeatable": false,
-      "component": "ekyc-track.kyc-tracking-api-dump"
     }
   }
 }

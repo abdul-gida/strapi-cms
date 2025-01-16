@@ -53,6 +53,11 @@
       "type": "component",
       "repeatable": false,
       "component": "ekyc-track.cms-ekyc-mapper"
+    },
+    "titleAndDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.title-and-description"
     }
   }
 }
