@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers",
+  "info": {
+    "singularName": "career",
+    "pluralName": "careers",
+    "displayName": "Career",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "displayName": "titleCareer",
+      "type": "component",
+      "repeatable": false,
+      "component": "career.title-career"
+    },
+    "description": {
+      "type": "string"
+    },
+    "accordionContent": {
+      "displayName": "accordionContent",
+      "type": "component",
+      "repeatable": false,
+      "component": "career.accordion-content"
+    },
+    "ourVisionTitle": {
+      "type": "string"
+    },
+    "ourVisionDescription": {
+      "type": "string"
+    },
+    "ourVisionQuote": {
+      "type": "string"
+    },
+    "life": {
+      "displayName": "life",
+      "type": "component",
+      "repeatable": false,
+      "component": "career.life"
+    },
+    "ourValuesTitle": {
+      "type": "string"
+    },
+    "ourValuesDescription": {
+      "displayName": "ourValuesDescription",
+      "type": "component",
+      "repeatable": true,
+      "component": "career.our-values-description"
+    },
+    "ourValuesImage": {
+      "type": "string"
+    },
+    "seed": {
+      "displayName": "seed",
+      "type": "component",
+      "repeatable": false,
+      "component": "career.seed"
+    }
+  }
+}

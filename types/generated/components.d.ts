@@ -959,6 +959,97 @@ export interface AutoGenerateTrackEkycVerifyIdInput
   };
 }
 
+export interface CareerAccordionContent extends Struct.ComponentSchema {
+  collectionName: 'components_career_accordion_contents';
+  info: {
+    displayName: 'accordionContent';
+  };
+  attributes: {
+    description: Schema.Attribute.Component<'career.description', true>;
+    header: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+  };
+}
+
+export interface CareerCards extends Struct.ComponentSchema {
+  collectionName: 'components_career_cards';
+  info: {
+    displayName: 'cards';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CareerCarousal extends Struct.ComponentSchema {
+  collectionName: 'components_career_carousals';
+  info: {
+    displayName: 'carousal';
+  };
+  attributes: {
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CareerDescription extends Struct.ComponentSchema {
+  collectionName: 'components_career_descriptions';
+  info: {
+    displayName: 'description';
+  };
+  attributes: {
+    text: Schema.Attribute.String;
+  };
+}
+
+export interface CareerLife extends Struct.ComponentSchema {
+  collectionName: 'components_career_lives';
+  info: {
+    displayName: 'life';
+  };
+  attributes: {
+    cards: Schema.Attribute.Component<'career.cards', true>;
+    carousal: Schema.Attribute.Component<'career.carousal', true>;
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CareerOurValuesDescription extends Struct.ComponentSchema {
+  collectionName: 'components_career_our_values_descriptions';
+  info: {
+    displayName: 'ourValuesDescription';
+  };
+  attributes: {
+    text: Schema.Attribute.String;
+  };
+}
+
+export interface CareerSeed extends Struct.ComponentSchema {
+  collectionName: 'components_career_seeds';
+  info: {
+    displayName: 'seed';
+  };
+  attributes: {
+    cards: Schema.Attribute.Component<'career.cards', true>;
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CareerTitleCareer extends Struct.ComponentSchema {
+  collectionName: 'components_career_title_careers';
+  info: {
+    displayName: 'titleCareer';
+  };
+  attributes: {
+    left: Schema.Attribute.String;
+    right: Schema.Attribute.String;
+  };
+}
+
 export interface ClaimsStaticAwardCont extends Struct.ComponentSchema {
   collectionName: 'components_claims_static_award_conts';
   info: {
@@ -6666,6 +6757,14 @@ declare module '@strapi/strapi' {
       'auto-generate-track-ekyc.title-and-description': AutoGenerateTrackEkycTitleAndDescription;
       'auto-generate-track-ekyc.track-dump': AutoGenerateTrackEkycTrackDump;
       'auto-generate-track-ekyc.verify-id-input': AutoGenerateTrackEkycVerifyIdInput;
+      'career.accordion-content': CareerAccordionContent;
+      'career.cards': CareerCards;
+      'career.carousal': CareerCarousal;
+      'career.description': CareerDescription;
+      'career.life': CareerLife;
+      'career.our-values-description': CareerOurValuesDescription;
+      'career.seed': CareerSeed;
+      'career.title-career': CareerTitleCareer;
       'claims-static.award-cont': ClaimsStaticAwardCont;
       'claims-static.bullet-points-claim': ClaimsStaticBulletPointsClaim;
       'claims-static.button': ClaimsStaticButton;

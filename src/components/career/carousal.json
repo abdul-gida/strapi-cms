@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_career_carousals",
+  "info": {
+    "displayName": "carousal"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

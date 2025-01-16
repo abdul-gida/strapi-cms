@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_career_lives",
+  "info": {
+    "displayName": "life"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "carousal": {
+      "displayName": "carousal",
+      "type": "component",
+      "repeatable": true,
+      "component": "career.carousal"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "career.cards"
+    }
+  }
+}

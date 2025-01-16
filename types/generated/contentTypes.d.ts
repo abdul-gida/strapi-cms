@@ -790,6 +790,51 @@ export interface ApiAutoGenerateTrackEkycAutoGenerateTrackEkyc
   };
 }
 
+export interface ApiCareerCareer extends Struct.SingleTypeSchema {
+  collectionName: 'careers';
+  info: {
+    description: '';
+    displayName: 'Career';
+    pluralName: 'careers';
+    singularName: 'career';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    accordionContent: Schema.Attribute.Component<
+      'career.accordion-content',
+      false
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.String;
+    life: Schema.Attribute.Component<'career.life', false>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::career.career'
+    > &
+      Schema.Attribute.Private;
+    ourValuesDescription: Schema.Attribute.Component<
+      'career.our-values-description',
+      true
+    >;
+    ourValuesImage: Schema.Attribute.String;
+    ourValuesTitle: Schema.Attribute.String;
+    ourVisionDescription: Schema.Attribute.String;
+    ourVisionQuote: Schema.Attribute.String;
+    ourVisionTitle: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    seed: Schema.Attribute.Component<'career.seed', false>;
+    title: Schema.Attribute.Component<'career.title-career', false>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
   collectionName: 'categories';
   info: {
@@ -2883,6 +2928,7 @@ declare module '@strapi/strapi' {
       'api::article.article': ApiArticleArticle;
       'api::author.author': ApiAuthorAuthor;
       'api::auto-generate-track-ekyc.auto-generate-track-ekyc': ApiAutoGenerateTrackEkycAutoGenerateTrackEkyc;
+      'api::career.career': ApiCareerCareer;
       'api::category.category': ApiCategoryCategory;
       'api::claim.claim': ApiClaimClaim;
       'api::customer-due-diligence.customer-due-diligence': ApiCustomerDueDiligenceCustomerDueDiligence;
