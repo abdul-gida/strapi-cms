@@ -1,7 +1,8 @@
 {
   "collectionName": "components_motor_claim_nature_of_losses",
   "info": {
-    "displayName": "natureOfLoss"
+    "displayName": "natureOfLoss",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,9 @@
     },
     "image": {
       "type": "string"
+    },
+    "nocId": {
+      "type": "integer"
     }
   }
 }
