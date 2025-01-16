@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_us_cards_initiative_sections",
+  "info": {
+    "displayName": "cards-InitiativeSection"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

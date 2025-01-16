@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_pre_filled_claim_forms",
+  "info": {
+    "displayName": "preFilledClaimForm"
+  },
+  "options": {},
+  "attributes": {
+    "preFilledClaimForm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

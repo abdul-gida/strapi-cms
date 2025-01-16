@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_errors",
+  "info": {
+    "displayName": "error"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "button1": {
+      "type": "string"
+    }
+  }
+}

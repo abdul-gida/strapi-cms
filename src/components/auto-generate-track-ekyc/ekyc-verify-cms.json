@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_ekyc_verify_cms",
+  "info": {
+    "displayName": "ekycVerifyCms",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "personNameLabel": {
+      "type": "string"
+    },
+    "maritalStatus": {
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.marital-status"
+    },
+    "gender": {
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.marital-status"
+    },
+    "pinCode": {
+      "displayName": "pinCode",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.pin-code"
+    }
+  }
+}

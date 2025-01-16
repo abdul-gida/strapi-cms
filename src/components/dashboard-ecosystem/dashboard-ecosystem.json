@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_dashboard_ecosystem_dashboard_ecosystems",
+  "info": {
+    "displayName": "dashboard-ecosystem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "card": {
+      "displayName": "card",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-ecosystem.card"
+    }
+  }
+}

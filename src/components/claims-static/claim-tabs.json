@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_claims_static_claim_tabs",
+  "info": {
+    "displayName": "claim-tabs"
+  },
+  "options": {},
+  "attributes": {
+    "tabId": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

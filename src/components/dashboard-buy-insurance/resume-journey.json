@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_resume_journeys",
+  "info": {
+    "displayName": "resumeJourney"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

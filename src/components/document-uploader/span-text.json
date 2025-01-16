@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_document_uploader_span_texts",
+  "info": {
+    "displayName": "spanText"
+  },
+  "options": {},
+  "attributes": {
+    "textLabel": {
+      "type": "string"
+    },
+    "descriptionLabel": {
+      "type": "string"
+    },
+    "maxLabel": {
+      "type": "string"
+    },
+    "sizeLabel": {
+      "type": "string"
+    }
+  }
+}

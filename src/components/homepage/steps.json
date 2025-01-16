@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_homepage_steps",
+  "info": {
+    "displayName": "steps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title-why-section"
+    },
+    "image": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "steps": {
+      "displayName": "stepsStepPage",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.steps-step-page"
+    }
+  }
+}

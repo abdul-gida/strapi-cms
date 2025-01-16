@@ -10,17 +10,6 @@
       "type": "string",
       "required": true
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "detailsDesc": {
       "type": "text",
       "required": true
@@ -32,6 +21,9 @@
     "detailsEmail": {
       "type": "email",
       "required": true
+    },
+    "image": {
+      "type": "string"
     }
   }
 }

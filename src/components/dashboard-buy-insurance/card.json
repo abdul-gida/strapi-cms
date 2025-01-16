@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_cards",
+  "info": {
+    "displayName": "card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    },
+    "bannerText": {
+      "type": "string"
+    },
+    "showCard": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "richtext"
+    }
+  }
+}

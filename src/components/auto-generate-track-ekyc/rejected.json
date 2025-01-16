@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_rejecteds",
+  "info": {
+    "displayName": "Rejected"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "btnDisp": {
+      "type": "string"
+    },
+    "btnLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_claims_static_personal_accident_insurances",
+  "info": {
+    "displayName": "personalAccidentInsurance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.heading-claim"
+    },
+    "claimSectionHeading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.section-heading"
+    },
+    "claimSteps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.claim-steps"
+    },
+    "cashlessBulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.document-checklist"
+    },
+    "reimbursmentBulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.document-checklist"
+    }
+  }
+}

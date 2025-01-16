@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_motor_policy_transfer_pincodes",
+  "info": {
+    "displayName": "pincode"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "searchDropDownTitle": {
+      "type": "string"
+    },
+    "searchInputPlaceholder": {
+      "type": "string"
+    },
+    "pincodeCardLabel": {
+      "type": "string"
+    },
+    "pincodeResultLabel": {
+      "type": "string"
+    }
+  }
+}

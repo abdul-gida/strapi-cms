@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_claims_static_points_containers",
+  "info": {
+    "displayName": "pointsContainer"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

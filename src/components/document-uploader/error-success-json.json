@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_document_uploader_error_success_jsons",
+  "info": {
+    "displayName": "errorJson",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "queryWidget": {
+      "displayName": "queryWidget",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.query-widget"
+    }
+  }
+}

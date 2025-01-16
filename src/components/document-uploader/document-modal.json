@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_document_uploader_document_modals",
+  "info": {
+    "displayName": "documentModal"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "cameraLabel": {
+      "type": "string"
+    },
+    "uploadFileLabel": {
+      "type": "string"
+    }
+  }
+}

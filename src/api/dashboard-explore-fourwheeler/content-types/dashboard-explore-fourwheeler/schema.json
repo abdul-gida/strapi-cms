@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "dashboard_explore_fourwheelers",
+  "info": {
+    "singularName": "dashboard-explore-fourwheeler",
+    "pluralName": "dashboard-explore-fourwheelers",
+    "displayName": "dashboard-explore-fourwheeler",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alignment": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "dynamiczone",
+      "components": [
+        "dashboard-explore-fourwheeler.four-wheeler",
+        "dashboard-explore-fourwheeler.two-wheeler"
+      ]
+    }
+  }
+}

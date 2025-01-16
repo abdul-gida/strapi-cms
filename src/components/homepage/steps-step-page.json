@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_homepage_steps_step_pages",
+  "info": {
+    "displayName": "stepsStepPage"
+  },
+  "options": {},
+  "attributes": {
+    "step": {
+      "type": "string"
+    }
+  }
+}

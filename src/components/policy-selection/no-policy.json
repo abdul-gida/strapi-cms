@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_policy_selection_no_policies",
+  "info": {
+    "displayName": "noPolicy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

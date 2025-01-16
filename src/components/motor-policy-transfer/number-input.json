@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_motor_policy_transfer_number_inputs",
+  "info": {
+    "displayName": "numberInput"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "inputErrorMessage": {
+      "type": "string"
+    }
+  }
+}

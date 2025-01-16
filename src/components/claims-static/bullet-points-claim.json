@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_claims_static_bullet_points_claims",
+  "info": {
+    "displayName": "bulletPointsClaim"
+  },
+  "options": {},
+  "attributes": {
+    "point": {
+      "type": "string"
+    }
+  }
+}

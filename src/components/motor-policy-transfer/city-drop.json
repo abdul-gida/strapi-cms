@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_motor_policy_transfer_city_drops",
+  "info": {
+    "displayName": "cityDrop"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "inputLabel": {
+      "type": "string"
+    },
+    "searchLabel": {
+      "type": "string"
+    },
+    "emptyStateProps": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.empty-state-props"
+    }
+  }
+}

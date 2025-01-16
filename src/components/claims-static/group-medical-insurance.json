@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_claims_static_group_medical_insurances",
+  "info": {
+    "displayName": "groupMedicalInsurance"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.heading-claim"
+    },
+    "groupMedicalInsuranceBulletPoints": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.document-checklist"
+    }
+  }
+}

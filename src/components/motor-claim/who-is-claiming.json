@@ -1,7 +1,8 @@
 {
   "collectionName": "components_motor_claim_who_is_claimings",
   "info": {
-    "displayName": "whoIsClaiming"
+    "displayName": "whoIsClaiming",
+    "description": ""
   },
   "options": {},
   "attributes": {

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_homepage_list_blogs_pages",
+  "info": {
+    "displayName": "listBlogsPage"
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string"
+    },
+    "blogs": {
+      "displayName": "blogsBlogPage",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.blogs-blog-page"
+    }
+  }
+}

@@ -53,6 +53,9 @@
       "repeatable": false,
       "component": "health-track.query-text",
       "required": true
+    },
+    "copyLabel": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_status_pages",
+  "info": {
+    "displayName": "statusPage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionHeader": {
+      "displayName": "sectionHeaderStatus",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.section-header-status"
+    },
+    "endCont": {
+      "displayName": "endCont",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.end-cont"
+    },
+    "image": {
+      "displayName": "image",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.image"
+    },
+    "errorToast": {
+      "type": "string"
+    },
+    "bottomSection": {
+      "displayName": "bottomSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.bottom-section"
+    }
+  }
+}

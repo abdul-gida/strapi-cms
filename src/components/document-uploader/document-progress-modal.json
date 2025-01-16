@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_document_uploader_document_progress_modals",
+  "info": {
+    "displayName": "documentProgressModal"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "storageLabel": {
+      "type": "string"
+    },
+    "compressLabel": {
+      "type": "string"
+    },
+    "skipLabel": {
+      "type": "string"
+    },
+    "selectLabel": {
+      "type": "string"
+    },
+    "selectFileLabel": {
+      "type": "string"
+    }
+  }
+}

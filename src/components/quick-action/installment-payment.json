@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_installment_payments",
+  "info": {
+    "displayName": "installmentPayment"
+  },
+  "options": {},
+  "attributes": {
+    "installmentPayment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

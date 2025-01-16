@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "policy_manual_linkings",
+  "info": {
+    "singularName": "policy-manual-linking",
+    "pluralName": "policy-manual-linkings",
+    "displayName": "Policy-manual-linking",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "selectVerificationType": {
+      "displayName": "selectVerificationType",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-manual-linking.select-verification-type"
+    },
+    "landingPage": {
+      "displayName": "landingPage",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-manual-linking.landing-page"
+    },
+    "unableToFetch": {
+      "displayName": "unableToFetch",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-manual-linking.unable-to-fetch"
+    },
+    "thankYou": {
+      "displayName": "thankYou",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-manual-linking.thank-you"
+    },
+    "cancelledExpired": {
+      "displayName": "cancelledExpired",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-manual-linking.cancelled-expired"
+    },
+    "otpView": {
+      "displayName": "otpView",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-manual-linking.otp-view"
+    },
+    "personalInfo": {
+      "displayName": "personalInfo",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-manual-linking.personal-info"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_health_claim_claim_unable_to_proceeds",
+  "info": {
+    "displayName": "claimUnableToProceed"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "retryLabel": {
+      "type": "string"
+    },
+    "queryWidget": {
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.query-widget"
+    }
+  }
+}

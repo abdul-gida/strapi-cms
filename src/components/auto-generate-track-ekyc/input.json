@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_inputs",
+  "info": {
+    "displayName": "input",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "verifyIdInput": {
+      "displayName": "verifyIdInput",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.verify-id-input"
+    },
+    "aadharInput": {
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.aadhar-input"
+    },
+    "dobInput": {
+      "displayName": "dobInput",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.dob-input"
+    }
+  }
+}

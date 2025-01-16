@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_make_payments",
+  "info": {
+    "displayName": "makePayments"
+  },
+  "options": {},
+  "attributes": {
+    "makePayments": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

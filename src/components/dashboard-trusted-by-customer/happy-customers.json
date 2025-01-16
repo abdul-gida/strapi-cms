@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_trusted_by_customer_happy_customers",
+  "info": {
+    "displayName": "Happy Customers"
+  },
+  "options": {},
+  "attributes": {
+    "HappyCustomers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-trusted-by-customer.card"
+    }
+  }
+}

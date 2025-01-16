@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_about_us_images",
+  "info": {
+    "displayName": "images"
+  },
+  "options": {},
+  "attributes": {
+    "src": {
+      "type": "string"
+    }
+  }
+}

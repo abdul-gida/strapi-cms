@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_homepage_lists",
+  "info": {
+    "displayName": "list"
+  },
+  "options": {},
+  "attributes": {
+    "tabLabel": {
+      "type": "string"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title-why-section"
+    },
+    "description": {
+      "type": "string"
+    },
+    "btnCta": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

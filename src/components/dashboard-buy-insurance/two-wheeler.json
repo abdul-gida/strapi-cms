@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_two_wheelers",
+  "info": {
+    "displayName": "twoWheeler"
+  },
+  "options": {},
+  "attributes": {
+    "twoWheeler": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-buy-insurance.card"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_track_cancellation_statuses",
+  "info": {
+    "displayName": "trackCancellationStatus"
+  },
+  "options": {},
+  "attributes": {
+    "trackCancellationStatus": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

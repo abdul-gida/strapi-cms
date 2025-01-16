@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_homepage_blogs_blog_pages",
+  "info": {
+    "displayName": "blogsBlogPage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

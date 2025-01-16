@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_document_uploader_upload_required_documents",
+  "info": {
+    "displayName": "uploadRequiredDocuments",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "confirmSubmit": {
+      "displayName": "confirmSubmit",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.confirm-submit"
+    },
+    "fileBlank": {
+      "displayName": "fileBlank",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.file-blank"
+    },
+    "fileNotContainDot": {
+      "displayName": "fileNotContainDot",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.file-not-contain-dot"
+    },
+    "spanText": {
+      "displayName": "spanText",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.span-text"
+    },
+    "uploadLabel": {
+      "type": "string"
+    }
+  }
+}

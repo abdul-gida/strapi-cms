@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_homepage_products_plans_sections",
+  "info": {
+    "displayName": "productsPlansSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "string"
+    },
+    "backgroundGrid": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "cardTitle": {
+      "type": "string"
+    },
+    "cardPoints": {
+      "displayName": "cardPoints",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.card-points"
+    }
+  }
+}

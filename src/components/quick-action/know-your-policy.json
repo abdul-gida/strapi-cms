@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_know_your_policies",
+  "info": {
+    "displayName": "knowYourPolicy"
+  },
+  "options": {},
+  "attributes": {
+    "knowYourPolicy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

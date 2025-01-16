@@ -1,13 +1,11 @@
 {
   "collectionName": "components_generate_ekyc_permanent_addresses",
   "info": {
-    "displayName": "permanentAddress"
+    "displayName": "permanentAddress",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "type": {
-      "type": "string"
-    },
     "label": {
       "type": "string"
     },

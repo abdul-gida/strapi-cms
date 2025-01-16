@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_pan_option_infos",
+  "info": {
+    "displayName": "panOptionInfo"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "yes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.title-and-description"
+    },
+    "no": {
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.title-and-description"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_financial_details",
+  "info": {
+    "displayName": "financialDetails"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "yesLabel": {
+      "type": "string"
+    },
+    "noLabel": {
+      "type": "string"
+    },
+    "selectOptionLabel": {
+      "type": "string"
+    }
+  }
+}

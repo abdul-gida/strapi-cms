@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_policy_manual_linking_cards",
+  "info": {
+    "displayName": "card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    }
+  }
+}

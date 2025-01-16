@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_motor_policy_transfer_empty_state_props",
+  "info": {
+    "displayName": "emptyStateProps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

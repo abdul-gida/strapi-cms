@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_document_uploader_bottom_navs",
+  "info": {
+    "displayName": "bottomNav"
+  },
+  "options": {},
+  "attributes": {
+    "btnLabel": {
+      "type": "string"
+    },
+    "secondaryText": {
+      "type": "string"
+    }
+  }
+}

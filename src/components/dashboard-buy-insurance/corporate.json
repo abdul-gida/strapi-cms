@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_corporates",
+  "info": {
+    "displayName": "corporate"
+  },
+  "options": {},
+  "attributes": {
+    "corporate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-buy-insurance.card"
+    }
+  }
+}

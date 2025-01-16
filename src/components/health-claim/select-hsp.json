@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_health_claim_select_hsps",
+  "info": {
+    "displayName": "selectHsp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "searchImageUrl": {
+      "type": "string"
+    },
+    "searchNotFoubdLabel": {
+      "type": "string"
+    },
+    "searcghNotFoundDesc": {
+      "type": "string"
+    },
+    "questionLabel": {
+      "type": "string"
+    },
+    "enterHospitalLabel": {
+      "type": "string"
+    },
+    "fillHspDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.title-img-and-desc"
+    }
+  }
+}

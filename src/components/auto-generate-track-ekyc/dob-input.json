@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_dob_inputs",
+  "info": {
+    "displayName": "dobInput"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "calendarLabel": {
+      "type": "string"
+    },
+    "calendarSubtitle": {
+      "type": "string"
+    }
+  }
+}

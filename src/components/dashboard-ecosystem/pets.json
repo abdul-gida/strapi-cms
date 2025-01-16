@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_ecosystem_pets",
+  "info": {
+    "displayName": "pets"
+  },
+  "options": {},
+  "attributes": {
+    "pets": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-ecosystem.card"
+    }
+  }
+}

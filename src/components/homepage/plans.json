@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_homepage_plans",
+  "info": {
+    "displayName": "plans"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title-quick-access"
+    },
+    "primaryCta": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "products": {
+      "displayName": "productsPlansSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.products-plans-section"
+    }
+  }
+}

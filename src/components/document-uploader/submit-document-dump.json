@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_document_uploader_submit_document_dumps",
+  "info": {
+    "displayName": "submitDocumentDump"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_transfer_of_insurance_motors",
+  "info": {
+    "displayName": "transferOfInsuranceMotor"
+  },
+  "options": {},
+  "attributes": {
+    "transferOfInsuranceMotor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_motor_policy_transfer_house_inputs",
+  "info": {
+    "displayName": "houseInput"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

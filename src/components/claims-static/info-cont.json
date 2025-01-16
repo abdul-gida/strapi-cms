@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_claims_static_info_conts",
+  "info": {
+    "displayName": "infoCont"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    }
+  }
+}

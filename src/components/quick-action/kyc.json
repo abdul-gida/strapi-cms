@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_kycs",
+  "info": {
+    "displayName": "kyc"
+  },
+  "options": {},
+  "attributes": {
+    "kyc": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

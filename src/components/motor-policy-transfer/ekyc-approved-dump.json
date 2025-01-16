@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_motor_policy_transfer_ekyc_approved_dumps",
+  "info": {
+    "displayName": "ekycApprovedDump"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "primaryBtnText": {
+      "type": "string"
+    },
+    "secondaryBtnText": {
+      "type": "string"
+    },
+    "ekycLabel": {
+      "type": "string"
+    },
+    "nameLabel": {
+      "type": "string"
+    },
+    "copyLabel": {
+      "type": "string"
+    }
+  }
+}

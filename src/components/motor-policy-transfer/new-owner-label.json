@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_motor_policy_transfer_new_owner_labels",
+  "info": {
+    "displayName": "newOwnerLabel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "newOwnerLabel": {
+      "type": "string"
+    }
+  }
+}

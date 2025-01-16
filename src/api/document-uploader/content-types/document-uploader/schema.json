@@ -1,0 +1,88 @@
+{
+  "kind": "singleType",
+  "collectionName": "document_uploaders",
+  "info": {
+    "singularName": "document-uploader",
+    "pluralName": "document-uploaders",
+    "displayName": "Health-document-uploader",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "claimDocumentList": {
+      "displayName": "claimDocumentList",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.claim-document-list"
+    },
+    "uploadRequiredDocuments": {
+      "displayName": "uploadRequiredDocuments",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.upload-required-documents"
+    },
+    "submitDocumentDump": {
+      "displayName": "submitDocumentDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.submit-document-dump"
+    },
+    "camera": {
+      "displayName": "camera",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.camera"
+    },
+    "documentModal": {
+      "displayName": "documentModal",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.document-modal"
+    },
+    "documentProgressModal": {
+      "displayName": "documentProgressModal",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.document-progress-modal"
+    },
+    "modal": {
+      "displayName": "modal",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.modal"
+    },
+    "submissionError": {
+      "displayName": "submissionError",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.submission-error"
+    },
+    "errorSuccessJson": {
+      "displayName": "errorSuccess",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.error-success"
+    },
+    "errorScreen": {
+      "displayName": "errorScreen",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.error-screen"
+    },
+    "success": {
+      "displayName": "success",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.success"
+    },
+    "documentUploadModal": {
+      "displayName": "documentUploadModal",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.document-upload-modal"
+    }
+  }
+}

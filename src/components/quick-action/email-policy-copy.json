@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_email_policy_copies",
+  "info": {
+    "displayName": "emailPolicyCopy"
+  },
+  "options": {},
+  "attributes": {
+    "emailPolicyCopy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_claims_claim_banners",
+  "info": {
+    "displayName": "Claim Banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

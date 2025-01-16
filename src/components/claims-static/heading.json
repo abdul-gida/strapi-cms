@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_claims_static_headings",
+  "info": {
+    "displayName": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "label1": {
+      "type": "string"
+    },
+    "label2": {
+      "type": "string"
+    }
+  }
+}

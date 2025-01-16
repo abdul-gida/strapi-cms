@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_motor_policy_transfer_input_tracks",
+  "info": {
+    "displayName": "inputTrack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "verifyIdInput": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.label-and-placeholder"
+    },
+    "aadharInput": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.label-and-placeholder"
+    },
+    "dobInput": {
+      "displayName": "dobInput",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.dob-input"
+    }
+  }
+}

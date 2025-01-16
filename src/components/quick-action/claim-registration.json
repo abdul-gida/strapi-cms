@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_claim_registrations",
+  "info": {
+    "displayName": "claimRegistration"
+  },
+  "options": {},
+  "attributes": {
+    "claimRegistration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

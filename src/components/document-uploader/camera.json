@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_document_uploader_cameras",
+  "info": {
+    "displayName": "camera"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "retake": {
+      "type": "string"
+    },
+    "submit": {
+      "type": "string"
+    }
+  }
+}

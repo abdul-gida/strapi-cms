@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_homepage_eco_systems",
+  "info": {
+    "displayName": "ecoSystem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "userImages": {
+      "displayName": "userImages",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.user-images"
+    },
+    "happyCustomersLabel": {
+      "type": "string"
+    },
+    "topTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "primaryCta": {
+      "type": "string"
+    },
+    "bannerImage": {
+      "type": "string"
+    },
+    "bannerImageMobile": {
+      "type": "string"
+    },
+    "waveImage": {
+      "type": "string"
+    },
+    "bottomCards": {
+      "displayName": "bottomCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.bottom-cards"
+    },
+    "primaryProducts": {
+      "displayName": "primaryProducts",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.primary-products"
+    }
+  }
+}

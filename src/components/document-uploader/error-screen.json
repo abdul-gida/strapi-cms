@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_document_uploader_error_screens",
+  "info": {
+    "displayName": "errorScreen",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bottomNav": {
+      "displayName": "bottomNav",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.bottom-nav"
+    },
+    "modal": {
+      "displayName": "errorModal",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.error-modal"
+    }
+  }
+}

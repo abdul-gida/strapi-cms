@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_claims_static_group_travel_insurances",
+  "info": {
+    "displayName": "groupTravelInsurance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.heading-claim"
+    },
+    "groupMedicalInsuranceBulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.document-checklist"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_document_uploader_file_blanks",
+  "info": {
+    "displayName": "fileBlank"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}

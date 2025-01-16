@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_homepage_videos",
+  "info": {
+    "displayName": "videos"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title"
+    },
+    "description": {
+      "type": "string"
+    },
+    "viewAllVideosCta": {
+      "type": "string"
+    },
+    "videos": {
+      "displayName": "videosVideoSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.videos-video-section"
+    }
+  }
+}
