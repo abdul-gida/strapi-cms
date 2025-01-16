@@ -629,11 +629,11 @@ export interface ApiAppBannerAppBanner extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    appStoreImage: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
+    appStoreImage: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    hereAppLogo: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
+    hereAppLogo: Schema.Attribute.String;
     info: Schema.Attribute.String & Schema.Attribute.Required;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -641,8 +641,7 @@ export interface ApiAppBannerAppBanner extends Struct.SingleTypeSchema {
       'api::app-banner.app-banner'
     > &
       Schema.Attribute.Private;
-    playStoreImage: Schema.Attribute.Media<'images'> &
-      Schema.Attribute.Required;
+    playStoreImage: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     subInfo: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
@@ -1066,6 +1065,7 @@ export interface ApiDashboardBuyInsuranceDashboardBuyInsurance
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     viewall: Schema.Attribute.Component<'dashboard-buy-insurance.card', false>;
+    viewless: Schema.Attribute.String;
     viewmore: Schema.Attribute.String;
   };
 }
@@ -1288,7 +1288,6 @@ export interface ApiDashboardTrustedByCustomerDashboardTrustedByCustomer
         'dashboard-trusted-by-customer.happy-customers',
         'dashboard-trusted-by-customer.customer-support',
         'dashboard-trusted-by-customer.cashless-network',
-        'dashboard-trusted-by-customer.dashboard-trusted-by-customer',
         'dashboard-trusted-by-customer.claim-settlement-rate',
       ]
     >;
@@ -1584,7 +1583,7 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     defaultSeo: Schema.Attribute.Component<'shared.seo', false>;
-    favicon: Schema.Attribute.Media<'images' | 'files' | 'videos'>;
+    favicon: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -1914,6 +1913,10 @@ export interface ApiMotorPolicyTransferMotorPolicyTransfer
       Schema.Attribute.Private;
     motorTransferRequestFailureCms: Schema.Attribute.Component<
       'motor-policy-transfer.motor-transfer-request-failure-cms',
+      false
+    >;
+    newOwnerLabel: Schema.Attribute.Component<
+      'motor-policy-transfer.new-owner-label',
       false
     >;
     nomineeDetailsDump: Schema.Attribute.Component<

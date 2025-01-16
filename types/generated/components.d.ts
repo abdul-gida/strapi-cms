@@ -1749,14 +1749,14 @@ export interface CustomerDueDiligenceYes extends Struct.ComponentSchema {
 export interface DashboardBuyInsuranceCard extends Struct.ComponentSchema {
   collectionName: 'components_dashboard_buy_insurance_cards';
   info: {
+    description: '';
     displayName: 'card';
   };
   attributes: {
     bannerText: Schema.Attribute.String;
     img: Schema.Attribute.String;
-    isNew: Schema.Attribute.Boolean;
-    showCard: Schema.Attribute.String;
-    subtitle: Schema.Attribute.String;
+    showCard: Schema.Attribute.Boolean;
+    subtitle: Schema.Attribute.RichText;
     title: Schema.Attribute.String;
     type: Schema.Attribute.String;
   };
@@ -1987,7 +1987,6 @@ export interface DashboardExploreFourwheelerCard
     showCard: Schema.Attribute.Boolean;
     subtitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
-    type: Schema.Attribute.String;
   };
 }
 
@@ -2037,10 +2036,11 @@ export interface DashboardExploreFourwheelerTwoWheeler
 export interface DashboardExploreMoreCard extends Struct.ComponentSchema {
   collectionName: 'components_dashboard_explore_more_cards';
   info: {
+    description: '';
     displayName: 'card';
   };
   attributes: {
-    buttontext: Schema.Attribute.Blocks;
+    buttontext: Schema.Attribute.String;
     img: Schema.Attribute.String;
     showCard: Schema.Attribute.Boolean;
     subtitle: Schema.Attribute.String;
@@ -3375,7 +3375,10 @@ export interface GenerateEkycFinancialDetailsCms
   attributes: {
     description: Schema.Attribute.String;
     imageUrl: Schema.Attribute.String;
+    noLabel: Schema.Attribute.String;
+    selectOptionLabel: Schema.Attribute.String;
     title: Schema.Attribute.String;
+    yesLabel: Schema.Attribute.String;
   };
 }
 
@@ -3893,8 +3896,7 @@ export interface HealthTrackDetailsRequired extends Struct.ComponentSchema {
     detailsDesc: Schema.Attribute.Text & Schema.Attribute.Required;
     detailsEmail: Schema.Attribute.Email & Schema.Attribute.Required;
     detailsEmailDesc: Schema.Attribute.Text & Schema.Attribute.Required;
-    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
-      Schema.Attribute.Required;
+    image: Schema.Attribute.String;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
@@ -3924,8 +3926,7 @@ export interface HealthTrackNoClaimFound extends Struct.ComponentSchema {
     buttonText: Schema.Attribute.String & Schema.Attribute.Required;
     description: Schema.Attribute.Text & Schema.Attribute.Required;
     description2: Schema.Attribute.Text & Schema.Attribute.Required;
-    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
-      Schema.Attribute.Required;
+    imageUrl: Schema.Attribute.String;
     queryText: Schema.Attribute.Component<'health-track.query-text', false> &
       Schema.Attribute.Required;
     title: Schema.Attribute.String & Schema.Attribute.Required;
@@ -3964,8 +3965,7 @@ export interface HealthTrackSupplementaryCard extends Struct.ComponentSchema {
   attributes: {
     buttonText: Schema.Attribute.String & Schema.Attribute.Required;
     description: Schema.Attribute.String & Schema.Attribute.Required;
-    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
-      Schema.Attribute.Required;
+    imageUrl: Schema.Attribute.String;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
@@ -4561,7 +4561,8 @@ export interface MotorClaimClaimList extends Struct.ComponentSchema {
   };
   attributes: {
     backendId: Schema.Attribute.Enumeration<['I', 'R']>;
-    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    claimId: Schema.Attribute.String;
+    image: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
 }
@@ -4663,12 +4664,13 @@ export interface MotorClaimSuccessfullyRegisteredCms
   extends Struct.ComponentSchema {
   collectionName: 'components_motor_claim_successfully_registered_cms';
   info: {
+    description: '';
     displayName: 'successfullyRegisteredCms';
   };
   attributes: {
     copyPrefix: Schema.Attribute.String;
     description: Schema.Attribute.String;
-    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imageUrl: Schema.Attribute.String;
     primaryButtonText: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
@@ -4678,11 +4680,12 @@ export interface MotorClaimSuccessfullySubmittedCms
   extends Struct.ComponentSchema {
   collectionName: 'components_motor_claim_successfully_submitted_cms';
   info: {
+    description: '';
     displayName: 'successfullySubmittedCms';
   };
   attributes: {
     description: Schema.Attribute.String;
-    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imageUrl: Schema.Attribute.String;
     primaryButtonText: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
@@ -4728,6 +4731,7 @@ export interface MotorClaimUnavailableClaimCms extends Struct.ComponentSchema {
 export interface MotorClaimWhoIsClaiming extends Struct.ComponentSchema {
   collectionName: 'components_motor_claim_who_is_claimings';
   info: {
+    description: '';
     displayName: 'whoIsClaiming';
   };
   attributes: {
@@ -4738,11 +4742,12 @@ export interface MotorClaimWhoIsClaiming extends Struct.ComponentSchema {
 export interface MotorClaimWrongClaimCms extends Struct.ComponentSchema {
   collectionName: 'components_motor_claim_wrong_claim_cms';
   info: {
+    description: '';
     displayName: 'wrongClaimCms';
   };
   attributes: {
     description: Schema.Attribute.String;
-    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imageUrl: Schema.Attribute.String;
     primaryButtonText: Schema.Attribute.String;
     queryWidget: Schema.Attribute.Component<'health-track.query-text', false>;
     title: Schema.Attribute.String;
@@ -5017,6 +5022,18 @@ export interface MotorPolicyTransferMotorTransferRequestFailureCms
     queryTitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
     transactionNo: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferNewOwnerLabel
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_new_owner_labels';
+  info: {
+    description: '';
+    displayName: 'newOwnerLabel';
+  };
+  attributes: {
+    newOwnerLabel: Schema.Attribute.String;
   };
 }
 
@@ -6623,7 +6640,7 @@ export interface SharedSeo extends Struct.ComponentSchema {
   attributes: {
     metaDescription: Schema.Attribute.Text & Schema.Attribute.Required;
     metaTitle: Schema.Attribute.String & Schema.Attribute.Required;
-    shareImage: Schema.Attribute.Media<'images'>;
+    shareImage: Schema.Attribute.String;
   };
 }
 
@@ -7046,6 +7063,7 @@ declare module '@strapi/strapi' {
       'motor-policy-transfer.input-track': MotorPolicyTransferInputTrack;
       'motor-policy-transfer.label-and-placeholder': MotorPolicyTransferLabelAndPlaceholder;
       'motor-policy-transfer.motor-transfer-request-failure-cms': MotorPolicyTransferMotorTransferRequestFailureCms;
+      'motor-policy-transfer.new-owner-label': MotorPolicyTransferNewOwnerLabel;
       'motor-policy-transfer.no-policy-linked-dump': MotorPolicyTransferNoPolicyLinkedDump;
       'motor-policy-transfer.nominee-details-dump': MotorPolicyTransferNomineeDetailsDump;
       'motor-policy-transfer.number-input': MotorPolicyTransferNumberInput;

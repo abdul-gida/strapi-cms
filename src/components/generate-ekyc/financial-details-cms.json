@@ -14,6 +14,15 @@
     },
     "imageUrl": {
       "type": "string"
+    },
+    "yesLabel": {
+      "type": "string"
+    },
+    "noLabel": {
+      "type": "string"
+    },
+    "selectOptionLabel": {
+      "type": "string"
     }
   }
 }

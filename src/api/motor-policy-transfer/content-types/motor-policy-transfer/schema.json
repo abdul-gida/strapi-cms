@@ -113,6 +113,12 @@
       "type": "component",
       "repeatable": false,
       "component": "motor-policy-transfer.owner-details-dump"
+    },
+    "newOwnerLabel": {
+      "displayName": "newOwnerLabel",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.new-owner-label"
     }
   }
 }
