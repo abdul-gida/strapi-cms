@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_us_awarenesses",
+  "info": {
+    "displayName": "awareness"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "displayName": "images",
+      "type": "component",
+      "repeatable": true,
+      "component": "about-us.images"
+    }
+  }
+}

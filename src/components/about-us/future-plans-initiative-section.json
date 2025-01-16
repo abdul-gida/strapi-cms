@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_us_future_plans_initiative_sections",
+  "info": {
+    "displayName": "futurePlans-InitiativeSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

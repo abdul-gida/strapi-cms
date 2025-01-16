@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_our_distinguished_legacy_cards",
+  "info": {
+    "displayName": "cards",
+    "icon": "chartBubble"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "years": {
+      "type": "string"
+    }
+  }
+}

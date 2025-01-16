@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_us_how_initiatives_sections",
+  "info": {
+    "displayName": "howInitiativesSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "string"
+    },
+    "description2": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

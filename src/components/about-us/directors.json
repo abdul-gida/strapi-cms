@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_us_directors",
+  "info": {
+    "displayName": "directors"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

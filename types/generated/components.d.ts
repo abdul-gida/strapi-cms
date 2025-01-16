@@ -1,5 +1,283 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface AboutUsTabsTabs extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_tabs_tabs';
+  info: {
+    displayName: 'tabs';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    icon: Schema.Attribute.String;
+    tabId: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsAboutUsAwards extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_about_us_awards';
+  info: {
+    displayName: 'AboutUs-awards';
+  };
+  attributes: {};
+}
+
+export interface AboutUsAchievementsInitiativesSection
+  extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_achievements_initiatives_sections';
+  info: {
+    displayName: 'achievements-InitiativesSection';
+  };
+  attributes: {
+    cards: Schema.Attribute.Component<
+      'about-us.cards-initiative-section',
+      false
+    >;
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsAnimation extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_animations';
+  info: {
+    displayName: 'animation';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsAwards extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_awards';
+  info: {
+    displayName: 'awards';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    expandedText: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsAwareness extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_awarenesses';
+  info: {
+    displayName: 'awareness';
+  };
+  attributes: {
+    images: Schema.Attribute.Component<'about-us.images', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsBannerText extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_banner_texts';
+  info: {
+    description: '';
+    displayName: 'bannerText';
+  };
+  attributes: {
+    first: Schema.Attribute.String;
+    second: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsBannerTitle extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_banner_titles';
+  info: {
+    displayName: 'bannerTitle';
+  };
+  attributes: {};
+}
+
+export interface AboutUsBreadCrumb extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_bread_crumbs';
+  info: {
+    displayName: 'breadCrumb';
+  };
+  attributes: {
+    link: Schema.Attribute.String;
+    text: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsCardsInitiativeSection extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_cards_initiative_sections';
+  info: {
+    displayName: 'cards-InitiativeSection';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    value: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsComp extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_comps';
+  info: {
+    displayName: 'comp';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsDirectors extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_directors';
+  info: {
+    displayName: 'directors';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    designation: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    name: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsFuturePlansInitiativeSection
+  extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_future_plans_initiative_sections';
+  info: {
+    displayName: 'futurePlans-InitiativeSection';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsHowInitiativesSection extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_how_initiatives_sections';
+  info: {
+    displayName: 'howInitiativesSection';
+  };
+  attributes: {
+    description1: Schema.Attribute.String;
+    description2: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsImages extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_images';
+  info: {
+    displayName: 'images';
+  };
+  attributes: {
+    src: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsLegalAndCompliance extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_legal_and_compliances';
+  info: {
+    displayName: 'legal-and-compliance';
+  };
+  attributes: {};
+}
+
+export interface AboutUsLinksAboutUsTabs extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_links_about_us_tabs';
+  info: {
+    displayName: 'linksAboutUsTabs';
+  };
+  attributes: {
+    link: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsNumbers extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_numbers';
+  info: {
+    displayName: 'numbers';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+    value: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsOverview extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_overviews';
+  info: {
+    displayName: 'overview';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsPeople extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_people';
+  info: {
+    displayName: 'people';
+  };
+  attributes: {
+    designation: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    name: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsRatings extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_ratings';
+  info: {
+    displayName: 'ratings';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsTabs extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_tabs';
+  info: {
+    displayName: 'tabs';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsTabsAboutUsFinance extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_tabs_about_us_finances';
+  info: {
+    displayName: 'tabsAboutUsFinance';
+  };
+  attributes: {};
+}
+
+export interface AboutUsTabsAboutUsPages extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_tabs_about_us_pages';
+  info: {
+    displayName: 'tabsAboutUsPages';
+  };
+  attributes: {
+    links: Schema.Attribute.Component<'about-us.links-about-us-tabs', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AboutUsTopContent extends Struct.ComponentSchema {
+  collectionName: 'components_about_us_top_contents';
+  info: {
+    displayName: 'topContent';
+  };
+  attributes: {
+    para1: Schema.Attribute.String;
+    para2: Schema.Attribute.String;
+  };
+}
+
 export interface ArticleComponentsCollections extends Struct.ComponentSchema {
   collectionName: 'components_article_components_collections';
   info: {
@@ -5311,6 +5589,27 @@ export interface MotorTrackSomethingWentWrong extends Struct.ComponentSchema {
   };
 }
 
+export interface OurDistinguishedLegacyCards extends Struct.ComponentSchema {
+  collectionName: 'components_our_distinguished_legacy_cards';
+  info: {
+    displayName: 'cards';
+    icon: 'chartBubble';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+    years: Schema.Attribute.String;
+  };
+}
+
+export interface OurDistinguishedLegacyDescription
+  extends Struct.ComponentSchema {
+  collectionName: 'components_our_distinguished_legacy_descriptions';
+  info: {
+    displayName: 'description';
+  };
+  attributes: {};
+}
+
 export interface PolicyManualLinkingCancelledExpired
   extends Struct.ComponentSchema {
   collectionName: 'components_policy_manual_linking_cancelled_expireds';
@@ -6317,6 +6616,31 @@ export interface TermsTerms extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'about-us-tabs.tabs': AboutUsTabsTabs;
+      'about-us.about-us-awards': AboutUsAboutUsAwards;
+      'about-us.achievements-initiatives-section': AboutUsAchievementsInitiativesSection;
+      'about-us.animation': AboutUsAnimation;
+      'about-us.awards': AboutUsAwards;
+      'about-us.awareness': AboutUsAwareness;
+      'about-us.banner-text': AboutUsBannerText;
+      'about-us.banner-title': AboutUsBannerTitle;
+      'about-us.bread-crumb': AboutUsBreadCrumb;
+      'about-us.cards-initiative-section': AboutUsCardsInitiativeSection;
+      'about-us.comp': AboutUsComp;
+      'about-us.directors': AboutUsDirectors;
+      'about-us.future-plans-initiative-section': AboutUsFuturePlansInitiativeSection;
+      'about-us.how-initiatives-section': AboutUsHowInitiativesSection;
+      'about-us.images': AboutUsImages;
+      'about-us.legal-and-compliance': AboutUsLegalAndCompliance;
+      'about-us.links-about-us-tabs': AboutUsLinksAboutUsTabs;
+      'about-us.numbers': AboutUsNumbers;
+      'about-us.overview': AboutUsOverview;
+      'about-us.people': AboutUsPeople;
+      'about-us.ratings': AboutUsRatings;
+      'about-us.tabs': AboutUsTabs;
+      'about-us.tabs-about-us-finance': AboutUsTabsAboutUsFinance;
+      'about-us.tabs-about-us-pages': AboutUsTabsAboutUsPages;
+      'about-us.top-content': AboutUsTopContent;
       'article-components.collections': ArticleComponentsCollections;
       'article-components.image-description-component': ArticleComponentsImageDescriptionComponent;
       'article-components.image-descriptions': ArticleComponentsImageDescriptions;
@@ -6684,6 +7008,8 @@ declare module '@strapi/strapi' {
       'motor-track.query-text': MotorTrackQueryText;
       'motor-track.query-widget': MotorTrackQueryWidget;
       'motor-track.something-went-wrong': MotorTrackSomethingWentWrong;
+      'our-distinguished-legacy.cards': OurDistinguishedLegacyCards;
+      'our-distinguished-legacy.description': OurDistinguishedLegacyDescription;
       'policy-manual-linking.cancelled-expired': PolicyManualLinkingCancelledExpired;
       'policy-manual-linking.card': PolicyManualLinkingCard;
       'policy-manual-linking.landing-page': PolicyManualLinkingLandingPage;
