@@ -3527,8 +3527,7 @@ export interface HealthTrackDetailsRequired extends Struct.ComponentSchema {
     detailsDesc: Schema.Attribute.Text & Schema.Attribute.Required;
     detailsEmail: Schema.Attribute.Email & Schema.Attribute.Required;
     detailsEmailDesc: Schema.Attribute.Text & Schema.Attribute.Required;
-    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
-      Schema.Attribute.Required;
+    image: Schema.Attribute.String;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
@@ -3558,8 +3557,7 @@ export interface HealthTrackNoClaimFound extends Struct.ComponentSchema {
     buttonText: Schema.Attribute.String & Schema.Attribute.Required;
     description: Schema.Attribute.Text & Schema.Attribute.Required;
     description2: Schema.Attribute.Text & Schema.Attribute.Required;
-    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
-      Schema.Attribute.Required;
+    imageUrl: Schema.Attribute.String;
     queryText: Schema.Attribute.Component<'health-track.query-text', false> &
       Schema.Attribute.Required;
     title: Schema.Attribute.String & Schema.Attribute.Required;
@@ -3598,8 +3596,7 @@ export interface HealthTrackSupplementaryCard extends Struct.ComponentSchema {
   attributes: {
     buttonText: Schema.Attribute.String & Schema.Attribute.Required;
     description: Schema.Attribute.String & Schema.Attribute.Required;
-    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
-      Schema.Attribute.Required;
+    imageUrl: Schema.Attribute.String;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
@@ -4195,7 +4192,8 @@ export interface MotorClaimClaimList extends Struct.ComponentSchema {
   };
   attributes: {
     backendId: Schema.Attribute.Enumeration<['I', 'R']>;
-    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    claimId: Schema.Attribute.String;
+    image: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
 }
@@ -4297,12 +4295,13 @@ export interface MotorClaimSuccessfullyRegisteredCms
   extends Struct.ComponentSchema {
   collectionName: 'components_motor_claim_successfully_registered_cms';
   info: {
+    description: '';
     displayName: 'successfullyRegisteredCms';
   };
   attributes: {
     copyPrefix: Schema.Attribute.String;
     description: Schema.Attribute.String;
-    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imageUrl: Schema.Attribute.String;
     primaryButtonText: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
@@ -4312,11 +4311,12 @@ export interface MotorClaimSuccessfullySubmittedCms
   extends Struct.ComponentSchema {
   collectionName: 'components_motor_claim_successfully_submitted_cms';
   info: {
+    description: '';
     displayName: 'successfullySubmittedCms';
   };
   attributes: {
     description: Schema.Attribute.String;
-    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imageUrl: Schema.Attribute.String;
     primaryButtonText: Schema.Attribute.String;
     title: Schema.Attribute.String;
   };
@@ -4362,6 +4362,7 @@ export interface MotorClaimUnavailableClaimCms extends Struct.ComponentSchema {
 export interface MotorClaimWhoIsClaiming extends Struct.ComponentSchema {
   collectionName: 'components_motor_claim_who_is_claimings';
   info: {
+    description: '';
     displayName: 'whoIsClaiming';
   };
   attributes: {
@@ -4372,11 +4373,12 @@ export interface MotorClaimWhoIsClaiming extends Struct.ComponentSchema {
 export interface MotorClaimWrongClaimCms extends Struct.ComponentSchema {
   collectionName: 'components_motor_claim_wrong_claim_cms';
   info: {
+    description: '';
     displayName: 'wrongClaimCms';
   };
   attributes: {
     description: Schema.Attribute.String;
-    imageUrl: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imageUrl: Schema.Attribute.String;
     primaryButtonText: Schema.Attribute.String;
     queryWidget: Schema.Attribute.Component<'health-track.query-text', false>;
     title: Schema.Attribute.String;
@@ -6248,7 +6250,7 @@ export interface SharedSeo extends Struct.ComponentSchema {
   attributes: {
     metaDescription: Schema.Attribute.Text & Schema.Attribute.Required;
     metaTitle: Schema.Attribute.String & Schema.Attribute.Required;
-    shareImage: Schema.Attribute.Media<'images'>;
+    shareImage: Schema.Attribute.String;
   };
 }
 

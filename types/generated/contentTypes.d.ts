@@ -410,11 +410,11 @@ export interface ApiAppBannerAppBanner extends Struct.SingleTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    appStoreImage: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
+    appStoreImage: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    hereAppLogo: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
+    hereAppLogo: Schema.Attribute.String;
     info: Schema.Attribute.String & Schema.Attribute.Required;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -422,8 +422,7 @@ export interface ApiAppBannerAppBanner extends Struct.SingleTypeSchema {
       'api::app-banner.app-banner'
     > &
       Schema.Attribute.Private;
-    playStoreImage: Schema.Attribute.Media<'images'> &
-      Schema.Attribute.Required;
+    playStoreImage: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     subInfo: Schema.Attribute.String & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
@@ -1320,7 +1319,7 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     defaultSeo: Schema.Attribute.Component<'shared.seo', false>;
-    favicon: Schema.Attribute.Media<'images' | 'files' | 'videos'>;
+    favicon: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

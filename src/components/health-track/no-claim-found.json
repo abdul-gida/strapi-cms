@@ -10,17 +10,6 @@
       "type": "string",
       "required": true
     },
-    "imageUrl": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "description": {
       "type": "text",
       "required": true
@@ -39,6 +28,9 @@
       "repeatable": false,
       "component": "health-track.query-text",
       "required": true
+    },
+    "imageUrl": {
+      "type": "string"
     }
   }
 }
