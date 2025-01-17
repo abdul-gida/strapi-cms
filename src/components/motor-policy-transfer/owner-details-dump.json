@@ -6,11 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "sectionHeader": {
-      "type": "component",
-      "repeatable": false,
-      "component": "motor-policy-transfer.label-and-placeholder"
-    },
     "otpSection": {
       "displayName": "otpSection",
       "type": "component",
@@ -34,6 +29,12 @@
       "type": "component",
       "repeatable": false,
       "component": "motor-policy-transfer.bottom-nav"
+    },
+    "sectionHeader": {
+      "displayName": "sectionHeaderMotor",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.section-header-motor"
     }
   }
 }

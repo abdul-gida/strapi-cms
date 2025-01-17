@@ -4,7 +4,8 @@
   "info": {
     "singularName": "motor-renewal",
     "pluralName": "motor-renewals",
-    "displayName": "Motor-renewal"
+    "displayName": "Motor-renewal",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,7 +24,7 @@
     },
     "requestCallback": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "motor-renewal.request-callback"
     },
     "alreadyRequestedDump": {

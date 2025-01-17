@@ -1,7 +1,8 @@
 {
   "collectionName": "components_motor_renewal_payment_success_dumps",
   "info": {
-    "displayName": "paymentSuccessDump"
+    "displayName": "paymentSuccessDump",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -30,6 +31,12 @@
       "type": "string"
     },
     "paymentTimeNote": {
+      "type": "string"
+    },
+    "copyLabel": {
+      "type": "string"
+    },
+    "whatsappEmailLabel": {
       "type": "string"
     }
   }

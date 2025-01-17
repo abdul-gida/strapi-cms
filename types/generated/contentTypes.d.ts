@@ -617,6 +617,58 @@ export interface ApiAboutAbout extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiAgentRegistrationAgentRegistration
+  extends Struct.SingleTypeSchema {
+  collectionName: 'agent_registrations';
+  info: {
+    description: '';
+    displayName: 'AgentRegistration';
+    pluralName: 'agent-registrations';
+    singularName: 'agent-registration';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    commercialInsurance: Schema.Attribute.Component<
+      'agent-registration.commercial-insurance',
+      false
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    formLabels: Schema.Attribute.Component<
+      'agent-registration.form-labels',
+      false
+    >;
+    heroImageUrlDeskTop: Schema.Attribute.String;
+    heroImageUrlMobile: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::agent-registration.agent-registration'
+    > &
+      Schema.Attribute.Private;
+    ourProductOfferingList: Schema.Attribute.Component<
+      'agent-registration.our-product-offering-list',
+      true
+    >;
+    ourProductOfferingTitle: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    retailInsurance: Schema.Attribute.Component<
+      'agent-registration.retail-insurance',
+      false
+    >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    viewCardList: Schema.Attribute.Component<
+      'agent-registration.view-card-list',
+      false
+    >;
+  };
+}
+
 export interface ApiAppBannerAppBanner extends Struct.SingleTypeSchema {
   collectionName: 'app_banners';
   info: {
@@ -783,6 +835,51 @@ export interface ApiAutoGenerateTrackEkycAutoGenerateTrackEkyc
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiCareerCareer extends Struct.SingleTypeSchema {
+  collectionName: 'careers';
+  info: {
+    description: '';
+    displayName: 'Career';
+    pluralName: 'careers';
+    singularName: 'career';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    accordionContent: Schema.Attribute.Component<
+      'career.accordion-content',
+      false
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.String;
+    life: Schema.Attribute.Component<'career.life', false>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::career.career'
+    > &
+      Schema.Attribute.Private;
+    ourValuesDescription: Schema.Attribute.Component<
+      'career.our-values-description',
+      true
+    >;
+    ourValuesImage: Schema.Attribute.String;
+    ourValuesTitle: Schema.Attribute.String;
+    ourVisionDescription: Schema.Attribute.String;
+    ourVisionQuote: Schema.Attribute.String;
+    ourVisionTitle: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    seed: Schema.Attribute.Component<'career.seed', false>;
+    title: Schema.Attribute.Component<'career.title-career', false>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1433,10 +1530,6 @@ export interface ApiEkycTrackEkycTrack extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    kycTrackingApiDump: Schema.Attribute.Component<
-      'ekyc-track.kyc-tracking-api-dump',
-      false
-    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -1727,13 +1820,9 @@ export interface ApiLoginLabelLoginLabel extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     heading: Schema.Attribute.String;
-    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    imageUrlDesktop: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios'
-    >;
-    imageUrlMobile: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios'
-    >;
+    image: Schema.Attribute.String;
+    imageUrlDesktop: Schema.Attribute.String;
+    imageUrlMobile: Schema.Attribute.String;
     label: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -1741,12 +1830,68 @@ export interface ApiLoginLabelLoginLabel extends Struct.CollectionTypeSchema {
       'api::login-label.login-label'
     > &
       Schema.Attribute.Private;
+    otpRetryLabel: Schema.Attribute.String;
+    otpSentLabel: Schema.Attribute.String;
+    otpTitle: Schema.Attribute.String;
     placeholder: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     slug: Schema.Attribute.UID & Schema.Attribute.Required;
     subHeading: Schema.Attribute.String;
     termsAndConditionText: Schema.Attribute.String;
     title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiMediaCenterMediaCenter extends Struct.SingleTypeSchema {
+  collectionName: 'media_centers';
+  info: {
+    description: '';
+    displayName: 'mediaCenter';
+    pluralName: 'media-centers';
+    singularName: 'media-center';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    awarenessInitiatives: Schema.Attribute.Component<
+      'media-center.awareness-initiatives',
+      false
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    digitalMediaCoverage: Schema.Attribute.Component<
+      'media-center.digital-media-coverage',
+      false
+    >;
+    electronicAds: Schema.Attribute.Component<
+      'media-center.electronic-ads',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::media-center.media-center'
+    > &
+      Schema.Attribute.Private;
+    magazineCoverages: Schema.Attribute.Component<
+      'media-center.magazine-coverages',
+      false
+    >;
+    pressRelease: Schema.Attribute.Component<
+      'media-center.press-release',
+      false
+    >;
+    printMediaCoverage: Schema.Attribute.Component<
+      'media-center.print-media-coverage',
+      false
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    topBanner: Schema.Attribute.Component<'media-center.top-banner', false>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1922,6 +2067,7 @@ export interface ApiMotorPolicyTransferMotorPolicyTransfer
 export interface ApiMotorRenewalMotorRenewal extends Struct.SingleTypeSchema {
   collectionName: 'motor_renewals';
   info: {
+    description: '';
     displayName: 'Motor-renewal';
     pluralName: 'motor-renewals';
     singularName: 'motor-renewal';
@@ -2014,7 +2160,7 @@ export interface ApiMotorRenewalMotorRenewal extends Struct.SingleTypeSchema {
     >;
     requestCallback: Schema.Attribute.Component<
       'motor-renewal.request-callback',
-      true
+      false
     >;
     requestCallbackBSDump: Schema.Attribute.Component<
       'motor-renewal.request-callback-bs-dump',
@@ -2882,10 +3028,12 @@ declare module '@strapi/strapi' {
       'api::about-us-tab.about-us-tab': ApiAboutUsTabAboutUsTab;
       'api::about-us.about-us': ApiAboutUsAboutUs;
       'api::about.about': ApiAboutAbout;
+      'api::agent-registration.agent-registration': ApiAgentRegistrationAgentRegistration;
       'api::app-banner.app-banner': ApiAppBannerAppBanner;
       'api::article.article': ApiArticleArticle;
       'api::author.author': ApiAuthorAuthor;
       'api::auto-generate-track-ekyc.auto-generate-track-ekyc': ApiAutoGenerateTrackEkycAutoGenerateTrackEkyc;
+      'api::career.career': ApiCareerCareer;
       'api::category.category': ApiCategoryCategory;
       'api::claim.claim': ApiClaimClaim;
       'api::customer-due-diligence.customer-due-diligence': ApiCustomerDueDiligenceCustomerDueDiligence;
@@ -2906,6 +3054,7 @@ declare module '@strapi/strapi' {
       'api::health-track.health-track': ApiHealthTrackHealthTrack;
       'api::homepage.homepage': ApiHomepageHomepage;
       'api::login-label.login-label': ApiLoginLabelLoginLabel;
+      'api::media-center.media-center': ApiMediaCenterMediaCenter;
       'api::motor-claim.motor-claim': ApiMotorClaimMotorClaim;
       'api::motor-policy-transfer.motor-policy-transfer': ApiMotorPolicyTransferMotorPolicyTransfer;
       'api::motor-renewal.motor-renewal': ApiMotorRenewalMotorRenewal;

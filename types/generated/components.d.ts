@@ -278,6 +278,131 @@ export interface AboutUsTopContent extends Struct.ComponentSchema {
   };
 }
 
+export interface AgentRegistrationBusinessInterest
+  extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_business_interests';
+  info: {
+    displayName: 'businessInterest';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    options: Schema.Attribute.Component<'agent-registration.options', true>;
+  };
+}
+
+export interface AgentRegistrationCommercialInsurance
+  extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_commercial_insurances';
+  info: {
+    displayName: 'commercialInsurance';
+  };
+  attributes: {
+    options: Schema.Attribute.Component<
+      'agent-registration.options-retail-section',
+      true
+    >;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AgentRegistrationFormLabels extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_form_labels';
+  info: {
+    description: '';
+    displayName: 'formLabels';
+  };
+  attributes: {
+    businessInterest: Schema.Attribute.Component<
+      'agent-registration.business-interest',
+      false
+    >;
+    city: Schema.Attribute.Component<'agent-registration.name', false>;
+    description: Schema.Attribute.String;
+    email: Schema.Attribute.Component<'agent-registration.name', false>;
+    mobile: Schema.Attribute.Component<'agent-registration.name', false>;
+    name: Schema.Attribute.Component<'agent-registration.name', false>;
+    panLabels: Schema.Attribute.Component<'agent-registration.name', false>;
+    stateLabels: Schema.Attribute.Component<'agent-registration.name', false>;
+    submitLabel: Schema.Attribute.String;
+    termsAndConditions: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AgentRegistrationName extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_names';
+  info: {
+    description: '';
+    displayName: 'name';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    placeHolder: Schema.Attribute.String;
+  };
+}
+
+export interface AgentRegistrationOptions extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_options';
+  info: {
+    displayName: 'options';
+  };
+  attributes: {
+    option: Schema.Attribute.String;
+  };
+}
+
+export interface AgentRegistrationOptionsRetailSection
+  extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_options_retail_sections';
+  info: {
+    displayName: 'optionsRetailSection';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    logo: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AgentRegistrationOurProductOfferingList
+  extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_our_product_offering_lists';
+  info: {
+    displayName: 'ourProductOfferingList';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    logo: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AgentRegistrationRetailInsurance
+  extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_retail_insurances';
+  info: {
+    displayName: 'retailInsurance';
+  };
+  attributes: {
+    options: Schema.Attribute.Component<
+      'agent-registration.options-retail-section',
+      true
+    >;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface AgentRegistrationViewCardList extends Struct.ComponentSchema {
+  collectionName: 'components_agent_registration_view_card_lists';
+  info: {
+    displayName: 'viewCardList';
+  };
+  attributes: {
+    ctaLabel: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface ArticleComponentsCollections extends Struct.ComponentSchema {
   collectionName: 'components_article_components_collections';
   info: {
@@ -956,6 +1081,97 @@ export interface AutoGenerateTrackEkycVerifyIdInput
   attributes: {
     label: Schema.Attribute.String;
     placeholder: Schema.Attribute.String;
+  };
+}
+
+export interface CareerAccordionContent extends Struct.ComponentSchema {
+  collectionName: 'components_career_accordion_contents';
+  info: {
+    displayName: 'accordionContent';
+  };
+  attributes: {
+    description: Schema.Attribute.Component<'career.description', true>;
+    header: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+  };
+}
+
+export interface CareerCards extends Struct.ComponentSchema {
+  collectionName: 'components_career_cards';
+  info: {
+    displayName: 'cards';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CareerCarousal extends Struct.ComponentSchema {
+  collectionName: 'components_career_carousals';
+  info: {
+    displayName: 'carousal';
+  };
+  attributes: {
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CareerDescription extends Struct.ComponentSchema {
+  collectionName: 'components_career_descriptions';
+  info: {
+    displayName: 'description';
+  };
+  attributes: {
+    text: Schema.Attribute.String;
+  };
+}
+
+export interface CareerLife extends Struct.ComponentSchema {
+  collectionName: 'components_career_lives';
+  info: {
+    displayName: 'life';
+  };
+  attributes: {
+    cards: Schema.Attribute.Component<'career.cards', true>;
+    carousal: Schema.Attribute.Component<'career.carousal', true>;
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CareerOurValuesDescription extends Struct.ComponentSchema {
+  collectionName: 'components_career_our_values_descriptions';
+  info: {
+    displayName: 'ourValuesDescription';
+  };
+  attributes: {
+    text: Schema.Attribute.String;
+  };
+}
+
+export interface CareerSeed extends Struct.ComponentSchema {
+  collectionName: 'components_career_seeds';
+  info: {
+    displayName: 'seed';
+  };
+  attributes: {
+    cards: Schema.Attribute.Component<'career.cards', true>;
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface CareerTitleCareer extends Struct.ComponentSchema {
+  collectionName: 'components_career_title_careers';
+  info: {
+    displayName: 'titleCareer';
+  };
+  attributes: {
+    left: Schema.Attribute.String;
+    right: Schema.Attribute.String;
   };
 }
 
@@ -2793,9 +3009,12 @@ export interface EkycTrackError extends Struct.ComponentSchema {
 export interface EkycTrackErrorPopUp extends Struct.ComponentSchema {
   collectionName: 'components_ekyc_track_error_pop_ups';
   info: {
+    description: '';
     displayName: 'errorPopUp';
   };
   attributes: {
+    default: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
+    error: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
     fetch: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
     server: Schema.Attribute.Component<'ekyc-track.fetch-error', false>;
   };
@@ -2823,6 +3042,17 @@ export interface EkycTrackHeader extends Struct.ComponentSchema {
     description: Schema.Attribute.String;
     info: Schema.Attribute.String;
     title: Schema.Attribute.String;
+  };
+}
+
+export interface EkycTrackImage extends Struct.ComponentSchema {
+  collectionName: 'components_ekyc_track_images';
+  info: {
+    displayName: 'image';
+  };
+  attributes: {
+    imag2: Schema.Attribute.String;
+    image1: Schema.Attribute.String;
   };
 }
 
@@ -2950,7 +3180,13 @@ export interface EkycTrackStatic extends Struct.ComponentSchema {
     displayName: 'static';
   };
   attributes: {
-    cardsData: Schema.Attribute.Component<'ekyc-track.cards-data', true>;
+    cardsData: Schema.Attribute.Component<'ekyc-track.cards-data', true> &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 3;
+        },
+        number
+      >;
     header: Schema.Attribute.Component<'ekyc-track.header', false>;
   };
 }
@@ -2966,6 +3202,7 @@ export interface EkycTrackStatusPage extends Struct.ComponentSchema {
       'ekyc-track.bottom-section',
       false
     >;
+    image: Schema.Attribute.Component<'ekyc-track.image', false>;
   };
 }
 
@@ -3050,6 +3287,10 @@ export interface EkycTrackTrackingKycDump extends Struct.ComponentSchema {
     >;
     static: Schema.Attribute.Component<'ekyc-track.static', false>;
     statusPage: Schema.Attribute.Component<'ekyc-track.status-page', false>;
+    titleAndDescription: Schema.Attribute.Component<
+      'ekyc-track.title-and-description',
+      false
+    >;
   };
 }
 
@@ -3249,6 +3490,7 @@ export interface GenerateEkycEkycVerifyCms extends Struct.ComponentSchema {
       false
     >;
     personNameLabel: Schema.Attribute.String;
+    pinCode: Schema.Attribute.Component<'generate-ekyc.pin-code', false>;
     title: Schema.Attribute.String;
   };
 }
@@ -3367,6 +3609,17 @@ export interface GenerateEkycPermanentAddress extends Struct.ComponentSchema {
   };
 }
 
+export interface GenerateEkycPinCode extends Struct.ComponentSchema {
+  collectionName: 'components_generate_ekyc_pin_codes';
+  info: {
+    displayName: 'pinCode';
+  };
+  attributes: {
+    searchLabel: Schema.Attribute.String;
+    usePinCodeLabel: Schema.Attribute.String;
+  };
+}
+
 export interface GenerateEkycPincode extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_pincodes';
   info: {
@@ -3394,6 +3647,7 @@ export interface GenerateEkycPoliticallyExposed extends Struct.ComponentSchema {
 export interface GenerateEkycProceedToHdfc extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_proceed_to_hdfcs';
   info: {
+    description: '';
     displayName: 'proceedToHdfc';
   };
   attributes: {
@@ -3402,6 +3656,7 @@ export interface GenerateEkycProceedToHdfc extends Struct.ComponentSchema {
     proceedButtonText: Schema.Attribute.String;
     subTitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
+    toastErrorLabel: Schema.Attribute.String;
   };
 }
 
@@ -4455,6 +4710,213 @@ export interface LoginClaimList extends Struct.ComponentSchema {
   };
 }
 
+export interface MediaCenterAds extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_ads';
+  info: {
+    displayName: 'ads';
+  };
+  attributes: {
+    date: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterAdsAwarnessPage extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_ads_awarness_pages';
+  info: {
+    displayName: 'adsAwarnessPage';
+  };
+  attributes: {
+    image: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterAdsElectronicAds extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_ads_electronic_ads';
+  info: {
+    displayName: 'adsElectronicAds';
+  };
+  attributes: {
+    image: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterAdsRadioAds extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_ads_radio_ads';
+  info: {
+    displayName: 'adsRadioAds';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterAwarenessInitiatives
+  extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_awareness_initiatives';
+  info: {
+    displayName: 'awarenessInitiatives';
+  };
+  attributes: {
+    ads: Schema.Attribute.Component<'media-center.ads-awarness-page', true>;
+    breadCrumb: Schema.Attribute.Component<'media-center.bread-crumb', true>;
+    contact: Schema.Attribute.Component<'media-center.contact', false>;
+    title: Schema.Attribute.String;
+    viewLess: Schema.Attribute.String;
+    viewMore: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterBreadCrumb extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_bread_crumbs';
+  info: {
+    displayName: 'breadCrumb';
+  };
+  attributes: {
+    link: Schema.Attribute.String;
+    text: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterContact extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_contacts';
+  info: {
+    displayName: 'contact';
+  };
+  attributes: {
+    backgroundImage: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    email: Schema.Attribute.Email;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterDigitalMediaCoverage
+  extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_digital_media_coverages';
+  info: {
+    displayName: 'digitalMediaCoverage';
+  };
+  attributes: {
+    breadCrumb: Schema.Attribute.Component<'media-center.bread-crumb', true>;
+    filterBy: Schema.Attribute.String;
+    readFullStory: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    years: Schema.Attribute.Component<'media-center.years', true>;
+  };
+}
+
+export interface MediaCenterElectronicAds extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_electronic_ads';
+  info: {
+    description: '';
+    displayName: 'electronicAds';
+  };
+  attributes: {
+    ads: Schema.Attribute.Component<'media-center.ads-electronic-ads', true>;
+    breadCrumb: Schema.Attribute.Component<'media-center.bread-crumb', true>;
+    radioAds: Schema.Attribute.Component<'media-center.radio-ads', false>;
+    title: Schema.Attribute.String;
+    viewLess: Schema.Attribute.String;
+    viewMore: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterMagazineCoverages extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_magazine_coverages';
+  info: {
+    displayName: 'magazineCoverages';
+  };
+  attributes: {
+    breadCrumb: Schema.Attribute.Component<'media-center.bread-crumb', true>;
+    filterBy: Schema.Attribute.String;
+    readFullStory: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    years: Schema.Attribute.Component<'media-center.years', true>;
+  };
+}
+
+export interface MediaCenterMonths extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_months';
+  info: {
+    displayName: 'months';
+  };
+  attributes: {
+    ads: Schema.Attribute.Component<'media-center.ads', true>;
+    month: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterPressRelease extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_press_releases';
+  info: {
+    description: '';
+    displayName: 'pressRelease';
+  };
+  attributes: {
+    breadCrumb: Schema.Attribute.Component<'media-center.bread-crumb', true>;
+    filterBy: Schema.Attribute.String;
+    readFullStory: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    years: Schema.Attribute.Component<'media-center.years', true>;
+  };
+}
+
+export interface MediaCenterPrintMediaCoverage extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_print_media_coverages';
+  info: {
+    displayName: 'printMediaCoverage';
+  };
+  attributes: {
+    breadCrumb: Schema.Attribute.Component<'media-center.bread-crumb', true>;
+    filterBy: Schema.Attribute.String;
+    readFullStory: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    years: Schema.Attribute.Component<'media-center.years', true>;
+  };
+}
+
+export interface MediaCenterRadioAds extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_radio_ads';
+  info: {
+    description: '';
+    displayName: 'radioAds';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterTopBanner extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_top_banners';
+  info: {
+    displayName: 'topBanner';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MediaCenterYears extends Struct.ComponentSchema {
+  collectionName: 'components_media_center_years';
+  info: {
+    displayName: 'years';
+  };
+  attributes: {
+    months: Schema.Attribute.Component<'media-center.months', true>;
+    year: Schema.Attribute.String;
+  };
+}
+
 export interface MetaFieldsMetaFields extends Struct.ComponentSchema {
   collectionName: 'components_meta_fields_meta_fields';
   info: {
@@ -5056,7 +5518,7 @@ export interface MotorPolicyTransferOwnerDetailsDump
       false
     >;
     sectionHeader: Schema.Attribute.Component<
-      'motor-policy-transfer.label-and-placeholder',
+      'motor-policy-transfer.section-header-motor',
       false
     >;
   };
@@ -5114,6 +5576,18 @@ export interface MotorPolicyTransferSectionHeader
   collectionName: 'components_motor_policy_transfer_section_headers';
   info: {
     displayName: 'sectionHeader';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorPolicyTransferSectionHeaderMotor
+  extends Struct.ComponentSchema {
+  collectionName: 'components_motor_policy_transfer_section_header_motors';
+  info: {
+    displayName: 'sectionHeaderMotor';
   };
   attributes: {
     description: Schema.Attribute.String;
@@ -5325,10 +5799,11 @@ export interface MotorRenewalBackButtonRequestCallbackDump
 export interface MotorRenewalConsent extends Struct.ComponentSchema {
   collectionName: 'components_motor_renewal_consents';
   info: {
+    description: '';
     displayName: 'consent';
   };
   attributes: {
-    text: Schema.Attribute.String;
+    text: Schema.Attribute.Text;
   };
 }
 
@@ -5340,7 +5815,7 @@ export interface MotorRenewalConsentDump extends Struct.ComponentSchema {
   };
   attributes: {
     consent: Schema.Attribute.Component<'motor-renewal.consent', false>;
-    knowPolicy: Schema.Attribute.Component<'terms.terms', true>;
+    knowPolicy: Schema.Attribute.Component<'terms.terms', false>;
     terms: Schema.Attribute.Component<'terms.terms', false>;
   };
 }
@@ -5470,10 +5945,12 @@ export interface MotorRenewalNoClaimBonusDump extends Struct.ComponentSchema {
 export interface MotorRenewalPaymentSuccessDump extends Struct.ComponentSchema {
   collectionName: 'components_motor_renewal_payment_success_dumps';
   info: {
+    description: '';
     displayName: 'paymentSuccessDump';
   };
   attributes: {
     buttonText: Schema.Attribute.String;
+    copyLabel: Schema.Attribute.String;
     copySentText: Schema.Attribute.String;
     description: Schema.Attribute.String;
     imageUrl: Schema.Attribute.String;
@@ -5482,6 +5959,7 @@ export interface MotorRenewalPaymentSuccessDump extends Struct.ComponentSchema {
     preText: Schema.Attribute.String;
     thankyouText: Schema.Attribute.String;
     title: Schema.Attribute.String;
+    whatsappEmailLabel: Schema.Attribute.String;
   };
 }
 
@@ -6715,6 +7193,15 @@ declare module '@strapi/strapi' {
       'about-us.tabs-about-us-finance': AboutUsTabsAboutUsFinance;
       'about-us.tabs-about-us-pages': AboutUsTabsAboutUsPages;
       'about-us.top-content': AboutUsTopContent;
+      'agent-registration.business-interest': AgentRegistrationBusinessInterest;
+      'agent-registration.commercial-insurance': AgentRegistrationCommercialInsurance;
+      'agent-registration.form-labels': AgentRegistrationFormLabels;
+      'agent-registration.name': AgentRegistrationName;
+      'agent-registration.options': AgentRegistrationOptions;
+      'agent-registration.options-retail-section': AgentRegistrationOptionsRetailSection;
+      'agent-registration.our-product-offering-list': AgentRegistrationOurProductOfferingList;
+      'agent-registration.retail-insurance': AgentRegistrationRetailInsurance;
+      'agent-registration.view-card-list': AgentRegistrationViewCardList;
       'article-components.collections': ArticleComponentsCollections;
       'article-components.image-description-component': ArticleComponentsImageDescriptionComponent;
       'article-components.image-descriptions': ArticleComponentsImageDescriptions;
@@ -6757,6 +7244,14 @@ declare module '@strapi/strapi' {
       'auto-generate-track-ekyc.title-and-description': AutoGenerateTrackEkycTitleAndDescription;
       'auto-generate-track-ekyc.track-dump': AutoGenerateTrackEkycTrackDump;
       'auto-generate-track-ekyc.verify-id-input': AutoGenerateTrackEkycVerifyIdInput;
+      'career.accordion-content': CareerAccordionContent;
+      'career.cards': CareerCards;
+      'career.carousal': CareerCarousal;
+      'career.description': CareerDescription;
+      'career.life': CareerLife;
+      'career.our-values-description': CareerOurValuesDescription;
+      'career.seed': CareerSeed;
+      'career.title-career': CareerTitleCareer;
       'claims-static.award-cont': ClaimsStaticAwardCont;
       'claims-static.bullet-points-claim': ClaimsStaticBulletPointsClaim;
       'claims-static.button': ClaimsStaticButton;
@@ -6892,6 +7387,7 @@ declare module '@strapi/strapi' {
       'ekyc-track.error-pop-up': EkycTrackErrorPopUp;
       'ekyc-track.fetch-error': EkycTrackFetchError;
       'ekyc-track.header': EkycTrackHeader;
+      'ekyc-track.image': EkycTrackImage;
       'ekyc-track.input-label': EkycTrackInputLabel;
       'ekyc-track.kyc-tracking-api-dump': EkycTrackKycTrackingApiDump;
       'ekyc-track.label-and-placeholder': EkycTrackLabelAndPlaceholder;
@@ -6929,6 +7425,7 @@ declare module '@strapi/strapi' {
       'generate-ekyc.organization-input': GenerateEkycOrganizationInput;
       'generate-ekyc.pan-card': GenerateEkycPanCard;
       'generate-ekyc.permanent-address': GenerateEkycPermanentAddress;
+      'generate-ekyc.pin-code': GenerateEkycPinCode;
       'generate-ekyc.pincode': GenerateEkycPincode;
       'generate-ekyc.politically-exposed': GenerateEkycPoliticallyExposed;
       'generate-ekyc.proceed-to-hdfc': GenerateEkycProceedToHdfc;
@@ -7006,6 +7503,22 @@ declare module '@strapi/strapi' {
       'image-descriptions.content': ImageDescriptionsContent;
       'image-descriptions.image-descriptions': ImageDescriptionsImageDescriptions;
       'login.claim-list': LoginClaimList;
+      'media-center.ads': MediaCenterAds;
+      'media-center.ads-awarness-page': MediaCenterAdsAwarnessPage;
+      'media-center.ads-electronic-ads': MediaCenterAdsElectronicAds;
+      'media-center.ads-radio-ads': MediaCenterAdsRadioAds;
+      'media-center.awareness-initiatives': MediaCenterAwarenessInitiatives;
+      'media-center.bread-crumb': MediaCenterBreadCrumb;
+      'media-center.contact': MediaCenterContact;
+      'media-center.digital-media-coverage': MediaCenterDigitalMediaCoverage;
+      'media-center.electronic-ads': MediaCenterElectronicAds;
+      'media-center.magazine-coverages': MediaCenterMagazineCoverages;
+      'media-center.months': MediaCenterMonths;
+      'media-center.press-release': MediaCenterPressRelease;
+      'media-center.print-media-coverage': MediaCenterPrintMediaCoverage;
+      'media-center.radio-ads': MediaCenterRadioAds;
+      'media-center.top-banner': MediaCenterTopBanner;
+      'media-center.years': MediaCenterYears;
       'meta-fields.meta-fields': MetaFieldsMetaFields;
       'motor-claim.claim-list': MotorClaimClaimList;
       'motor-claim.enter-claim-details': MotorClaimEnterClaimDetails;
@@ -7050,6 +7563,7 @@ declare module '@strapi/strapi' {
       'motor-policy-transfer.policy-card-images-dump': MotorPolicyTransferPolicyCardImagesDump;
       'motor-policy-transfer.radio': MotorPolicyTransferRadio;
       'motor-policy-transfer.section-header': MotorPolicyTransferSectionHeader;
+      'motor-policy-transfer.section-header-motor': MotorPolicyTransferSectionHeaderMotor;
       'motor-policy-transfer.section-header-owners-details': MotorPolicyTransferSectionHeaderOwnersDetails;
       'motor-policy-transfer.state-drop': MotorPolicyTransferStateDrop;
       'motor-policy-transfer.track-dump': MotorPolicyTransferTrackDump;
