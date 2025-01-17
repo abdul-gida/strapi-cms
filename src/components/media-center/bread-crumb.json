@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_media_center_bread_crumbs",
+  "info": {
+    "displayName": "breadCrumb"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

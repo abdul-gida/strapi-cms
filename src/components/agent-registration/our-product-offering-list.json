@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_agent_registration_our_product_offering_lists",
+  "info": {
+    "displayName": "ourProductOfferingList"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

@@ -16,7 +16,8 @@
       "displayName": "cardsData",
       "type": "component",
       "repeatable": true,
-      "component": "ekyc-track.cards-data"
+      "component": "ekyc-track.cards-data",
+      "max": 3
     }
   }
 }

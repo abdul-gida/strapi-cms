@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_media_center_ads",
+  "info": {
+    "displayName": "ads"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

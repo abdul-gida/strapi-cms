@@ -7,6 +7,7 @@
     "build": "strapi build",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
+    "pre-build": "strapi ts:generate-types",
     "seed:example": "node ./scripts/seed.js",
     "seed:old-article": "node ./scripts/old-article.js 2> error.log",
     "start": "strapi start",

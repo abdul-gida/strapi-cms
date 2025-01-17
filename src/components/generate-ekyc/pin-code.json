@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_generate_ekyc_pin_codes",
+  "info": {
+    "displayName": "pinCode"
+  },
+  "options": {},
+  "attributes": {
+    "usePinCodeLabel": {
+      "type": "string"
+    },
+    "searchLabel": {
+      "type": "string"
+    }
+  }
+}

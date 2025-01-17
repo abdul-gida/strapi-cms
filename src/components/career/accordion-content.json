@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_career_accordion_contents",
+  "info": {
+    "displayName": "accordionContent"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "displayName": "description",
+      "type": "component",
+      "repeatable": true,
+      "component": "career.description"
+    }
+  }
+}

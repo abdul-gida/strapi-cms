@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_media_center_magazine_coverages",
+  "info": {
+    "displayName": "magazineCoverages"
+  },
+  "options": {},
+  "attributes": {
+    "breadCrumb": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media-center.bread-crumb"
+    },
+    "title": {
+      "type": "string"
+    },
+    "readFullStory": {
+      "type": "string"
+    },
+    "filterBy": {
+      "type": "string"
+    },
+    "years": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media-center.years"
+    }
+  }
+}

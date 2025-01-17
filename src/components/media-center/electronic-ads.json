@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_media_center_electronic_ads",
+  "info": {
+    "displayName": "electronicAds",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "viewMore": {
+      "type": "string"
+    },
+    "viewLess": {
+      "type": "string"
+    },
+    "breadCrumb": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media-center.bread-crumb"
+    },
+    "ads": {
+      "displayName": "adsElectronicAds",
+      "type": "component",
+      "repeatable": true,
+      "component": "media-center.ads-electronic-ads"
+    },
+    "radioAds": {
+      "displayName": "radioAds",
+      "type": "component",
+      "repeatable": false,
+      "component": "media-center.radio-ads"
+    }
+  }
+}

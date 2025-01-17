@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_media_center_months",
+  "info": {
+    "displayName": "months"
+  },
+  "options": {},
+  "attributes": {
+    "month": {
+      "type": "string"
+    },
+    "ads": {
+      "displayName": "ads",
+      "type": "component",
+      "repeatable": true,
+      "component": "media-center.ads"
+    }
+  }
+}
