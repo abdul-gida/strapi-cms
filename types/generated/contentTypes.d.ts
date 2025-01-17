@@ -1889,10 +1889,6 @@ export interface ApiMotorPolicyTransferMotorPolicyTransfer
       false
     >;
     publishedAt: Schema.Attribute.DateTime;
-    trackDump: Schema.Attribute.Component<
-      'motor-policy-transfer.track-dump',
-      false
-    >;
     transferDetailsMismatchDump: Schema.Attribute.Component<
       'motor-policy-transfer.transfer-details-mismatch-dump',
       false
