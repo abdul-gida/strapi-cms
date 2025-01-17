@@ -1658,6 +1658,7 @@ export interface ApiHealthTrackHealthTrack extends Struct.SingleTypeSchema {
       false
     > &
       Schema.Attribute.Required;
+    trackCard: Schema.Attribute.Component<'health-track.track-card', false>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -1790,10 +1791,7 @@ export interface ApiMotorClaimMotorClaim extends Struct.SingleTypeSchema {
       true
     >;
     publishedAt: Schema.Attribute.DateTime;
-    selectNature: Schema.Attribute.Component<
-      'motor-claim.select-nature',
-      false
-    >;
+    selectNature: Schema.Attribute.Component<'motor-claim.select-nature', true>;
     successfullyRegisteredCms: Schema.Attribute.Component<
       'motor-claim.successfully-registered-cms',
       false

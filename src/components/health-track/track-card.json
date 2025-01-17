@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_health_track_track_cards",
+  "info": {
+    "displayName": "trackCard"
+  },
+  "options": {},
+  "attributes": {
+    "claimLabel": {
+      "type": "string"
+    }
+  }
+}

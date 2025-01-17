@@ -3918,6 +3918,16 @@ export interface HealthTrackTrackAClaim extends Struct.ComponentSchema {
   };
 }
 
+export interface HealthTrackTrackCard extends Struct.ComponentSchema {
+  collectionName: 'components_health_track_track_cards';
+  info: {
+    displayName: 'trackCard';
+  };
+  attributes: {
+    claimLabel: Schema.Attribute.String;
+  };
+}
+
 export interface HealthTrackTrackCardObject extends Struct.ComponentSchema {
   collectionName: 'components_health_track_track_card_objects';
   info: {
@@ -4533,11 +4543,13 @@ export interface MotorClaimMotorClaimPage extends Struct.ComponentSchema {
 export interface MotorClaimNatureOfLoss extends Struct.ComponentSchema {
   collectionName: 'components_motor_claim_nature_of_losses';
   info: {
+    description: '';
     displayName: 'natureOfLoss';
   };
   attributes: {
     backendValue: Schema.Attribute.String;
     image: Schema.Attribute.String;
+    nocId: Schema.Attribute.Integer;
     title: Schema.Attribute.String;
   };
 }
@@ -4556,13 +4568,14 @@ export interface MotorClaimProgressiveStepBar extends Struct.ComponentSchema {
 export interface MotorClaimSelectNature extends Struct.ComponentSchema {
   collectionName: 'components_motor_claim_select_natures';
   info: {
+    description: '';
     displayName: 'selectNature';
   };
   attributes: {
     description: Schema.Attribute.String;
     natureOfLoss: Schema.Attribute.Component<
       'motor-claim.nature-of-loss',
-      false
+      true
     >;
     title: Schema.Attribute.String;
   };
@@ -6952,6 +6965,7 @@ declare module '@strapi/strapi' {
       'health-track.show-documents-card': HealthTrackShowDocumentsCard;
       'health-track.supplementary-card': HealthTrackSupplementaryCard;
       'health-track.track-a-claim': HealthTrackTrackAClaim;
+      'health-track.track-card': HealthTrackTrackCard;
       'health-track.track-card-object': HealthTrackTrackCardObject;
       'hello.hello': HelloHello;
       'hello.random': HelloRandom;

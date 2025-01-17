@@ -38,6 +38,12 @@
       "repeatable": false,
       "component": "health-track.track-a-claim",
       "required": true
+    },
+    "trackCard": {
+      "displayName": "trackCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-track.track-card"
     }
   }
 }
