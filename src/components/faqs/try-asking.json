@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_faqs_try_askings",
+  "info": {
+    "displayName": "tryAsking"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "faqs.list"
+    }
+  }
+}

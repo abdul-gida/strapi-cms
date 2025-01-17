@@ -6,11 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "component",
-      "repeatable": false,
-      "component": "homepage.title-why-section"
-    },
     "image": {
       "type": "string"
     },
@@ -20,8 +15,16 @@
     "steps": {
       "displayName": "stepsStepPage",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "homepage.steps-step-page"
+    },
+    "primaryCta": {
+      "type": "string"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title"
     }
   }
 }

@@ -6,11 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "component",
-      "repeatable": false,
-      "component": "homepage.title-why-section"
-    },
     "description": {
       "type": "string"
     },
@@ -28,6 +23,11 @@
       "type": "component",
       "repeatable": true,
       "component": "homepage.list-blogs-page"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title"
     }
   }
 }

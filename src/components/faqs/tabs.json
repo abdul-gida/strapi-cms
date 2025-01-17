@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_faqs_tabs",
+  "info": {
+    "displayName": "tabs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tabs": {
+      "displayName": "tabs-tabsSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "faqs.tabs-tabs-section"
+    }
+  }
+}

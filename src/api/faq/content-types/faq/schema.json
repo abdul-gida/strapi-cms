@@ -1,0 +1,89 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "Faq",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.banner"
+    },
+    "tabs": {
+      "displayName": "tabs",
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.tabs"
+    },
+    "carInsurance": {
+      "displayName": "faqPage",
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.faq-page"
+    },
+    "healthInsurance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.faq-page"
+    },
+    "twoWheelerInsurance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.faq-page"
+    },
+    "studentSurakshaTravel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.faq-page"
+    },
+    "travelInsurance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.faq-page"
+    },
+    "homeInsurance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.faq-page"
+    },
+    "standardFireAndSpecialPerilsInsurance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.faq-page"
+    },
+    "personalAccident": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.faq-page"
+    },
+    "healthSurakshaTopUpPlus": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.faq-page"
+    },
+    "healthSuraksha": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.faq-page"
+    },
+    "myHealthMedisureSuperTopUpHealthInsurancePolicy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.faq-page"
+    },
+    "criticalIllnessInsurance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.faq-page"
+    }
+  }
+}

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_homepage_primary_products",
   "info": {
-    "displayName": "primaryProducts"
+    "displayName": "primaryProducts",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,11 +15,11 @@
     "image": {
       "type": "string"
     },
-    "inNew": {
-      "type": "string"
-    },
     "link": {
       "type": "string"
+    },
+    "isNew": {
+      "type": "boolean"
     }
   }
 }

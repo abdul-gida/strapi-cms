@@ -69,7 +69,7 @@
     "updates": {
       "displayName": "updates",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "homepage.updates"
     },
     "achievements": {
@@ -89,6 +89,11 @@
       "type": "component",
       "repeatable": false,
       "component": "homepage.videos"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.title-quick-access"
     }
   }
 }
