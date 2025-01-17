@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_motor_track_payment_completeds",
+  "info": {
+    "displayName": "paymentCompleted"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descriptionLeft": {
+      "type": "string"
+    },
+    "descriptionRight": {
+      "type": "string"
+    }
+  }
+}

@@ -4740,7 +4740,7 @@ export interface MotorPolicyTransferConsentDump extends Struct.ComponentSchema {
     optional: Schema.Attribute.Boolean;
     replaceText: Schema.Attribute.String;
     show: Schema.Attribute.Boolean;
-    text: Schema.Attribute.String;
+    text: Schema.Attribute.Text;
     title: Schema.Attribute.String;
     type: Schema.Attribute.String;
   };
@@ -4978,7 +4978,7 @@ export interface MotorPolicyTransferNomineeDetailsDump
     calendarErrorMessage: Schema.Attribute.String;
     calenderTitle: Schema.Attribute.String;
     dobLabel: Schema.Attribute.String;
-    dobPlaceholder: Schema.Attribute.Date;
+    dobPlaceholder: Schema.Attribute.String;
     nomineeCover: Schema.Attribute.String;
     nomineeDescription: Schema.Attribute.String;
     nomineeLabel: Schema.Attribute.String;
@@ -5525,6 +5525,46 @@ export interface MotorRenewalRequestCallbackBsDump
   };
 }
 
+export interface MotorTrackFooter extends Struct.ComponentSchema {
+  collectionName: 'components_motor_track_footers';
+  info: {
+    displayName: 'footer';
+  };
+  attributes: {
+    left: Schema.Attribute.String;
+    right: Schema.Attribute.String;
+  };
+}
+
+export interface MotorTrackHome extends Struct.ComponentSchema {
+  collectionName: 'components_motor_track_homes';
+  info: {
+    description: '';
+    displayName: 'home';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    enterClaimButtonLabel: Schema.Attribute.String;
+    enterClaimDescription: Schema.Attribute.String;
+    enterClaimNoLabel: Schema.Attribute.String;
+    enterClaimTitle: Schema.Attribute.String;
+    footer: Schema.Attribute.Component<'motor-track.footer', false>;
+    image: Schema.Attribute.Component<'motor-track.image', false>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorTrackImage extends Struct.ComponentSchema {
+  collectionName: 'components_motor_track_images';
+  info: {
+    displayName: 'image';
+  };
+  attributes: {
+    alt: Schema.Attribute.String;
+    src: Schema.Attribute.String;
+  };
+}
+
 export interface MotorTrackInformationMismatch extends Struct.ComponentSchema {
   collectionName: 'components_motor_track_information_mismatches';
   info: {
@@ -5550,6 +5590,18 @@ export interface MotorTrackOrganizationInput extends Struct.ComponentSchema {
     Placeholder: Schema.Attribute.String;
     sheetTitle: Schema.Attribute.String;
     type: Schema.Attribute.String;
+  };
+}
+
+export interface MotorTrackPaymentCompleted extends Struct.ComponentSchema {
+  collectionName: 'components_motor_track_payment_completeds';
+  info: {
+    displayName: 'paymentCompleted';
+  };
+  attributes: {
+    descriptionLeft: Schema.Attribute.String;
+    descriptionRight: Schema.Attribute.String;
+    title: Schema.Attribute.String;
   };
 }
 
@@ -5586,6 +5638,16 @@ export interface MotorTrackSomethingWentWrong extends Struct.ComponentSchema {
     imageUrl: Schema.Attribute.String;
     primaryButtonText: Schema.Attribute.String;
     queryWidget: Schema.Attribute.Component<'motor-track.query-widget', false>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface MotorTrackTrackClaim extends Struct.ComponentSchema {
+  collectionName: 'components_motor_track_track_claims';
+  info: {
+    displayName: 'trackClaim';
+  };
+  attributes: {
     title: Schema.Attribute.String;
   };
 }
@@ -7004,11 +7066,16 @@ declare module '@strapi/strapi' {
       'motor-renewal.premium-breakup-dump': MotorRenewalPremiumBreakupDump;
       'motor-renewal.request-callback': MotorRenewalRequestCallback;
       'motor-renewal.request-callback-bs-dump': MotorRenewalRequestCallbackBsDump;
+      'motor-track.footer': MotorTrackFooter;
+      'motor-track.home': MotorTrackHome;
+      'motor-track.image': MotorTrackImage;
       'motor-track.information-mismatch': MotorTrackInformationMismatch;
       'motor-track.organization-input': MotorTrackOrganizationInput;
+      'motor-track.payment-completed': MotorTrackPaymentCompleted;
       'motor-track.query-text': MotorTrackQueryText;
       'motor-track.query-widget': MotorTrackQueryWidget;
       'motor-track.something-went-wrong': MotorTrackSomethingWentWrong;
+      'motor-track.track-claim': MotorTrackTrackClaim;
       'our-distinguished-legacy.cards': OurDistinguishedLegacyCards;
       'our-distinguished-legacy.description': OurDistinguishedLegacyDescription;
       'policy-manual-linking.cancelled-expired': PolicyManualLinkingCancelledExpired;

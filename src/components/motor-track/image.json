@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_motor_track_images",
+  "info": {
+    "displayName": "image"
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    }
+  }
+}

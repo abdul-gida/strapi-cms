@@ -2043,6 +2043,7 @@ export interface ApiMotorTrackMotorTrack extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    home: Schema.Attribute.Component<'motor-track.home', false>;
     informationMismatch: Schema.Attribute.Component<
       'motor-track.information-mismatch',
       false
@@ -2057,11 +2058,16 @@ export interface ApiMotorTrackMotorTrack extends Struct.SingleTypeSchema {
       'api::motor-track.motor-track'
     > &
       Schema.Attribute.Private;
+    paymentCompleted: Schema.Attribute.Component<
+      'motor-track.payment-completed',
+      false
+    >;
     publishedAt: Schema.Attribute.DateTime;
     somethingWentWrong: Schema.Attribute.Component<
       'motor-track.something-went-wrong',
       false
     >;
+    trackClaim: Schema.Attribute.Component<'motor-track.track-claim', false>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

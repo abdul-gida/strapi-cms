@@ -13,7 +13,7 @@
       "type": "boolean"
     },
     "text": {
-      "type": "string"
+      "type": "text"
     },
     "replaceText": {
       "type": "string"
