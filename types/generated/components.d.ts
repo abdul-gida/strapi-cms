@@ -2962,7 +2962,6 @@ export interface EkycTrackStatusPage extends Struct.ComponentSchema {
     displayName: 'statusPage';
   };
   attributes: {
-    bottomSectin: Schema.Attribute.Component<'ekyc-track.bottom-sectin', false>;
     bottomSection: Schema.Attribute.Component<
       'ekyc-track.bottom-section',
       false
@@ -3051,7 +3050,6 @@ export interface EkycTrackTrackingKycDump extends Struct.ComponentSchema {
     >;
     static: Schema.Attribute.Component<'ekyc-track.static', false>;
     statusPage: Schema.Attribute.Component<'ekyc-track.status-page', false>;
-    toast: Schema.Attribute.Component<'ekyc-track.toast', false>;
   };
 }
 

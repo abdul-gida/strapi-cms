@@ -30,12 +30,6 @@
       "repeatable": false,
       "component": "ekyc-track.aadhar-verification"
     },
-    "toast": {
-      "displayName": "toast",
-      "type": "component",
-      "repeatable": false,
-      "component": "ekyc-track.toast"
-    },
     "statusPage": {
       "displayName": "statusPage",
       "type": "component",
