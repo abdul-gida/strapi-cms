@@ -39,41 +39,26 @@
       "component": "login.claim-list"
     },
     "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "type": "string"
     },
     "imageUrlDesktop": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "type": "string"
     },
     "imageUrlMobile": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "type": "string"
     },
     "slug": {
       "type": "uid",
       "required": true
+    },
+    "otpTitle": {
+      "type": "string"
+    },
+    "otpSentLabel": {
+      "type": "string"
+    },
+    "otpRetryLabel": {
+      "type": "string"
     }
   }
 }
