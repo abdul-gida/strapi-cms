@@ -1,0 +1,84 @@
+{
+  "collectionName": "components_health_claim_enter_claim_details",
+  "info": {
+    "displayName": "enterClaimDetails"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "copyLabel": {
+      "type": "string"
+    },
+    "claimNoLabel": {
+      "type": "string"
+    },
+    "intimidatedLabel": {
+      "type": "string"
+    },
+    "trackLabel": {
+      "type": "string"
+    },
+    "viewDetailLabel": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "enterClaimDetailsLabel": {
+      "type": "string"
+    },
+    "enterClaimDetailsPlaceholder": {
+      "type": "string"
+    },
+    "errorMessage": {
+      "type": "string"
+    },
+    "parentClaimNoLabel": {
+      "type": "string"
+    },
+    "info": {
+      "type": "string"
+    },
+    "claimAmountLabel": {
+      "type": "string"
+    },
+    "approvedAmountLabel": {
+      "type": "string"
+    },
+    "patientNameLabel": {
+      "type": "string"
+    },
+    "intimatedOnLabel": {
+      "type": "string"
+    },
+    "admissionDateLabel": {
+      "type": "string"
+    },
+    "dischargeDateLabel": {
+      "type": "string"
+    },
+    "previousSupplementaryClaimsLabel": {
+      "type": "string"
+    },
+    "intimatedOnInfo": {
+      "type": "string"
+    },
+    "viewLess": {
+      "type": "string"
+    },
+    "previousSupplementaryClaims": {
+      "type": "string"
+    },
+    "parentClaimNo": {
+      "type": "string"
+    },
+    "supplementaryClaimInfo": {
+      "type": "string"
+    }
+  }
+}

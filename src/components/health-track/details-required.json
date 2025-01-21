@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_health_track_details_requireds",
+  "info": {
+    "displayName": "detailsRequired",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "detailsDesc": {
+      "type": "text",
+      "required": true
+    },
+    "detailsEmailDesc": {
+      "type": "text",
+      "required": true
+    },
+    "detailsEmail": {
+      "type": "email",
+      "required": true
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

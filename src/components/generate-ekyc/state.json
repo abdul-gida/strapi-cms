@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_generate_ekyc_states",
+  "info": {
+    "displayName": "state",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "sheetTitle": {
+      "type": "string"
+    },
+    "placeHolder": {
+      "type": "string"
+    }
+  }
+}

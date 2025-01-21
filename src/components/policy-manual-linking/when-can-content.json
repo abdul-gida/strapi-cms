@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_policy_manual_linking_when_can_contents",
+  "info": {
+    "displayName": "whenCanContent"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

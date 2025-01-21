@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_policy_manual_linking_select_verification_types",
+  "info": {
+    "displayName": "selectVerificationType",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "imgUrl": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "types": {
+      "displayName": "types",
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-manual-linking.types",
+      "max": 2
+    }
+  }
+}

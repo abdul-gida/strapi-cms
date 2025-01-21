@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_calendars",
+  "info": {
+    "displayName": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "calenderTitle": {
+      "type": "string"
+    },
+    "calenderSubTitle": {
+      "type": "string"
+    }
+  }
+}

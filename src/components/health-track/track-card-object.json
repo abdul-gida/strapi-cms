@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_health_track_track_card_objects",
+  "info": {
+    "displayName": "trackCardObject",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "claimNo": {
+      "type": "string"
+    },
+    "claimType": {
+      "type": "string",
+      "required": true
+    },
+    "claimedAmount": {
+      "type": "string",
+      "required": true
+    },
+    "approvedAmount": {
+      "type": "string",
+      "required": true
+    },
+    "policyNo": {
+      "type": "string",
+      "required": true
+    },
+    "patientName": {
+      "type": "string",
+      "required": true
+    },
+    "intimationDt": {
+      "type": "string",
+      "required": true
+    },
+    "admissionDt": {
+      "type": "string",
+      "required": true
+    },
+    "dischargeDt": {
+      "type": "string",
+      "required": true
+    },
+    "hegicCardNo": {
+      "type": "string",
+      "required": true
+    },
+    "hospitalName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

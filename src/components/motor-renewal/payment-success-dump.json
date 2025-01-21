@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_motor_renewal_payment_success_dumps",
+  "info": {
+    "displayName": "paymentSuccessDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "preText": {
+      "type": "string"
+    },
+    "copySentText": {
+      "type": "string"
+    },
+    "thankyouText": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "paymentTimerScreen": {
+      "type": "string"
+    },
+    "paymentTimeNote": {
+      "type": "string"
+    },
+    "copyLabel": {
+      "type": "string"
+    },
+    "whatsappEmailLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_health_track_query_texts",
+  "info": {
+    "displayName": "queryText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}

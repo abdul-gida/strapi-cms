@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_dashboard_ecosystem_qr_cms",
+  "info": {
+    "displayName": "ecosystemQrCms"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "scanTitle": {
+      "type": "string"
+    },
+    "scanImage": {
+      "type": "string"
+    },
+    "scanUrl": {
+      "type": "string"
+    },
+    "mobileButtonText": {
+      "type": "string"
+    },
+    "googleStore": {
+      "type": "string"
+    },
+    "appleStore": {
+      "type": "string"
+    },
+    "mobileImage": {
+      "type": "string"
+    }
+  }
+}

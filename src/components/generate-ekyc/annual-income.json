@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_generate_ekyc_annual_incomes",
+  "info": {
+    "displayName": "annualIncomeInput",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sheetTitle": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "Placeholder": {
+      "type": "string"
+    }
+  }
+}

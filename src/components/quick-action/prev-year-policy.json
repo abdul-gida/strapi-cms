@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_prev_year_policies",
+  "info": {
+    "displayName": "prevYearPolicy"
+  },
+  "options": {},
+  "attributes": {
+    "prevYearPolicy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

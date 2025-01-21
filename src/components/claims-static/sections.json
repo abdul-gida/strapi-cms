@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_claims_static_sections",
+  "info": {
+    "displayName": "sections",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "string"
+    }
+  }
+}

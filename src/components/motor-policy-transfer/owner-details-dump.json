@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_motor_policy_transfer_owner_details_dumps",
+  "info": {
+    "displayName": "ownerDetailsDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "otpSection": {
+      "displayName": "otpSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.otp-section"
+    },
+    "inputCont": {
+      "displayName": "inputCont",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.input-cont"
+    },
+    "correspondenceCont": {
+      "displayName": "correspondenceCont",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.correspondence-cont"
+    },
+    "bottomNav": {
+      "displayName": "bottomNav",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.bottom-nav"
+    },
+    "sectionHeader": {
+      "displayName": "sectionHeaderMotor",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.section-header-motor"
+    }
+  }
+}

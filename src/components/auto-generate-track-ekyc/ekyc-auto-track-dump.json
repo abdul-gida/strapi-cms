@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_ekyc_auto_track_dumps",
+  "info": {
+    "displayName": "ekycAutoTrackDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "trackDump": {
+      "displayName": "trackDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.track-dump"
+    },
+    "kycStatus": {
+      "displayName": "kycStatus",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.kyc-status"
+    },
+    "statusPage": {
+      "displayName": "statusPage",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.status-page"
+    },
+    "errorPopUp": {
+      "displayName": "errorPopUp",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.error-pop-up"
+    },
+    "cmsEkycMapper": {
+      "displayName": "cmsEkycMapper",
+      "type": "component",
+      "repeatable": false,
+      "component": "auto-generate-track-ekyc.cms-ekyc-mapper"
+    }
+  }
+}

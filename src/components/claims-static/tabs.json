@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_claims_static_tabs",
+  "info": {
+    "displayName": "tabs"
+  },
+  "options": {},
+  "attributes": {
+    "claimTabs": {
+      "displayName": "claim-tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.claim-tabs"
+    }
+  }
+}

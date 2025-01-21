@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_cybers",
+  "info": {
+    "displayName": "cyber"
+  },
+  "options": {},
+  "attributes": {
+    "cyber": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-buy-insurance.card"
+    }
+  }
+}

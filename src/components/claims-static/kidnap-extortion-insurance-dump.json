@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_claims_static_kidnap_extortion_insurance_dumps",
+  "info": {
+    "displayName": "kidnapExtortionInsuranceDump"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.heading-claim"
+    },
+    "kidnapExtortionBulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.document-checklist"
+    }
+  }
+}

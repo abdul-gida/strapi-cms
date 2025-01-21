@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_dashboard_dashboard_cms_data",
+  "info": {
+    "displayName": "dashboardCmsData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "needsYourAttention": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.card-alignment"
+    },
+    "buyInsurance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.card-alignment"
+    },
+    "quickActions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.card-alignment"
+    },
+    "support": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.card-alignment"
+    },
+    "ecosystem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.card-alignment"
+    },
+    "explore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.card-alignment"
+    },
+    "latest": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.card-alignment"
+    },
+    "newsletter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.card-alignment"
+    },
+    "scan": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.card-alignment"
+    },
+    "bottomCount": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.card-alignment"
+    },
+    "fourwheeler": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.card-alignment"
+    },
+    "connect": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.card-alignment"
+    }
+  }
+}

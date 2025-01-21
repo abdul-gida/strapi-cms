@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_dashboard_explore_fourwheeler_cards",
+  "info": {
+    "displayName": "card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    },
+    "showCard": {
+      "type": "boolean"
+    }
+  }
+}

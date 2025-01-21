@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_motor_renewal_custom_idv_input_dumps",
+  "info": {
+    "displayName": "customIDVInputDump"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "editText": {
+      "type": "string"
+    },
+    "enterCustomIDVButtonText": {
+      "type": "string"
+    }
+  }
+}

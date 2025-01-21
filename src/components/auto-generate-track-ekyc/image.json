@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_images",
+  "info": {
+    "displayName": "image"
+  },
+  "options": {},
+  "attributes": {
+    "image1": {
+      "type": "string"
+    },
+    "image2": {
+      "type": "string"
+    }
+  }
+}

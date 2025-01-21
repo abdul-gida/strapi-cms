@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_motor_policy_transfer_state_drops",
+  "info": {
+    "displayName": "stateDrop"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "inputLabel": {
+      "type": "string"
+    },
+    "sheetTitle": {
+      "type": "string"
+    },
+    "emptyStateProps": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.empty-state-props"
+    }
+  }
+}

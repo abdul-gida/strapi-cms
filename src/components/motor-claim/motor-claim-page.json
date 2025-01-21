@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_motor_claim_motor_claim_pages",
+  "info": {
+    "displayName": "motorClaimPage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "stepLabel": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_update_contact_details",
+  "info": {
+    "displayName": "updateContactDetails"
+  },
+  "options": {},
+  "attributes": {
+    "updateContactDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

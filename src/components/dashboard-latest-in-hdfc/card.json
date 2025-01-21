@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_dashboard_latest_in_hdfc_cards",
+  "info": {
+    "displayName": "card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "readTime": {
+      "type": "string"
+    },
+    "tagName": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    },
+    "showCard": {
+      "type": "boolean"
+    }
+  }
+}

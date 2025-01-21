@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_health_track_add_document_cards",
+  "info": {
+    "displayName": "addDocumentCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "imageUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

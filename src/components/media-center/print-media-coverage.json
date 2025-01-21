@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_media_center_print_media_coverages",
+  "info": {
+    "displayName": "printMediaCoverage"
+  },
+  "options": {},
+  "attributes": {
+    "breadCrumb": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media-center.bread-crumb"
+    },
+    "title": {
+      "type": "string"
+    },
+    "readFullStory": {
+      "type": "string"
+    },
+    "filterBy": {
+      "type": "string"
+    },
+    "years": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media-center.years"
+    }
+  }
+}

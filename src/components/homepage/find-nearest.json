@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_homepage_find_nearests",
+  "info": {
+    "displayName": "findNearest"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.list"
+    }
+  }
+}

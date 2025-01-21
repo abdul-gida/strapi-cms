@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ekyc_track_statics",
+  "info": {
+    "displayName": "static",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.header"
+    },
+    "cardsData": {
+      "displayName": "cardsData",
+      "type": "component",
+      "repeatable": true,
+      "component": "ekyc-track.cards-data",
+      "max": 3
+    }
+  }
+}

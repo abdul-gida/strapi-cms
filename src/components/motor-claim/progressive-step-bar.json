@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_motor_claim_progressive_step_bars",
+  "info": {
+    "displayName": "progressiveStepBar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

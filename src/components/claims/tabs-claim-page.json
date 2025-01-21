@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_claims_tabs_claim_pages",
+  "info": {
+    "displayName": "tabsClaimPage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.tabs"
+    }
+  }
+}

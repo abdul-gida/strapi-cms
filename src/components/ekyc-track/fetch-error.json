@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ekyc_track_fetch_errors",
+  "info": {
+    "displayName": "fetchError"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desctiption": {
+      "type": "string"
+    },
+    "button1": {
+      "type": "string"
+    },
+    "button2": {
+      "type": "string"
+    }
+  }
+}

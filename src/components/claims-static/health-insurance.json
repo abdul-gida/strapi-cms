@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_claims_static_health_insurances",
+  "info": {
+    "displayName": "healthInsurance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headingClaim": {
+      "displayName": "headingClaim",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.heading-claim"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "pointsCont": {
+      "displayName": "pointsContainer",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.points-container"
+    },
+    "bulletPoints": {
+      "displayName": "bulletPointsClaim",
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.bullet-points-claim"
+    },
+    "sectionHeading": {
+      "displayName": "sectionHeading",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.section-heading"
+    },
+    "claimSteps": {
+      "displayName": "claimSteps",
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.claim-steps"
+    },
+    "reimbursementSteps": {
+      "displayName": "reimbursementSteps",
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.reimbursement-steps"
+    },
+    "documentChecklist": {
+      "displayName": "documentChecklist",
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.document-checklist"
+    }
+  }
+}

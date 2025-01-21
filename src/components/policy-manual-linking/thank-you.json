@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_policy_manual_linking_thank_yous",
+  "info": {
+    "displayName": "thankYou"
+  },
+  "options": {},
+  "attributes": {
+    "imgUrl": {
+      "type": "string"
+    },
+    "submittingTitle": {
+      "type": "string"
+    },
+    "alreadySubmittedTitle": {
+      "type": "string"
+    },
+    "submittingDesc": {
+      "type": "string"
+    },
+    "ticketNo": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    }
+  }
+}

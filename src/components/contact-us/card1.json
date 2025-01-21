@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_contact_us_card1s",
+  "info": {
+    "displayName": "card1"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

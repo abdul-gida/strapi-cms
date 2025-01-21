@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_contact_us_whatsapp_cards",
+  "info": {
+    "displayName": "whatsappCard"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "btnIcon": {
+      "type": "string"
+    },
+    "contactNumber": {
+      "type": "string"
+    }
+  }
+}

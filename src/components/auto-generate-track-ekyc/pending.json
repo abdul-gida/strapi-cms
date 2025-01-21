@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_pendings",
+  "info": {
+    "displayName": "Pending"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "btnDisp": {
+      "type": "string"
+    }
+  }
+}

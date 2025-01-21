@@ -1,0 +1,118 @@
+{
+  "kind": "singleType",
+  "collectionName": "motor_policy_transfers",
+  "info": {
+    "singularName": "motor-policy-transfer",
+    "pluralName": "motor-policy-transfers",
+    "displayName": "Motor-policy-transfer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "transferPolicyDump": {
+      "displayName": "transferPolicyDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.transfer-policy-dump"
+    },
+    "noPolicyLinkedDump": {
+      "displayName": "noPolicyLinkedDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.no-policy-linked-dump"
+    },
+    "engineViewDump": {
+      "displayName": "engineViewDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.engine-view-dump"
+    },
+    "policyCardImagesDump": {
+      "displayName": "policyCardImagesDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.policy-card-images-dump"
+    },
+    "transferDetailsMismatchDump": {
+      "displayName": "transferDetailsMismatchDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.transfer-details-mismatch-dump"
+    },
+    "ekycApprovedDump": {
+      "displayName": "ekycApprovedDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.ekyc-approved-dump"
+    },
+    "transferFilesDump": {
+      "displayName": "transferFilesDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.transfer-files-dump"
+    },
+    "cmsTranferFilesData": {
+      "displayName": "cmsTranferFilesData",
+      "type": "component",
+      "repeatable": true,
+      "component": "motor-policy-transfer.cms-tranfer-files-data"
+    },
+    "consentDump": {
+      "displayName": "consentDump",
+      "type": "component",
+      "repeatable": true,
+      "component": "motor-policy-transfer.consent-dump"
+    },
+    "motorTransferRequestFailureCms": {
+      "displayName": "motorTransferRequestFailureCms",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.motor-transfer-request-failure-cms"
+    },
+    "confirmPolicyTransferDump": {
+      "displayName": "confirmPolicyTransferDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.confirm-policy-transfer-dump"
+    },
+    "nomineeDetailsDump": {
+      "displayName": "nomineeDetailsDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.nominee-details-dump"
+    },
+    "transferRequestSuccess": {
+      "displayName": "transferRequestSuccess",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.transfer-request-success"
+    },
+    "transferSubmit": {
+      "displayName": "transferSubmit",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.transfer-submit"
+    },
+    "transferRequestSubmit": {
+      "displayName": "transferRequestSubmit",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.transfer-request-submit"
+    },
+    "ownerDetailsDump": {
+      "displayName": "ownerDetailsDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.owner-details-dump"
+    },
+    "newOwnerLabel": {
+      "displayName": "newOwnerLabel",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-policy-transfer.new-owner-label"
+    }
+  }
+}

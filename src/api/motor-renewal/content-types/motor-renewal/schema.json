@@ -1,0 +1,116 @@
+{
+  "kind": "singleType",
+  "collectionName": "motor_renewals",
+  "info": {
+    "singularName": "motor-renewal",
+    "pluralName": "motor-renewals",
+    "displayName": "Motor-renewal",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "backButtonRequestCallbackDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.back-button-request-callback-dump"
+    },
+    "requestCallbackBSDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.request-callback-bs-dump"
+    },
+    "requestCallback": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.request-callback"
+    },
+    "alreadyRequestedDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.request-callback-bs-dump"
+    },
+    "detailsMismatchDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.details-mismatch-dump"
+    },
+    "renewNowModalDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.back-button-request-callback-dump"
+    },
+    "motoRenewalLanding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.moto-renewal-landing"
+    },
+    "premiumBreakupDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.premium-breakup-dump"
+    },
+    "notRenewedDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.back-button-request-callback-dump"
+    },
+    "addOnCardDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.add-on-card-dump"
+    },
+    "addOnCheckboxInputDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.add-on-checkbox-input-dump"
+    },
+    "insuredDeclaredValueCardDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.insured-declared-value-card-dump"
+    },
+    "customIDVInputDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.custom-idv-input-dump"
+    },
+    "policyNumberDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.policy-number-dump"
+    },
+    "paymentSuccessDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.payment-success-dump"
+    },
+    "failedPaymentDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.failed-payment-dump"
+    },
+    "consentDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.consent-dump"
+    },
+    "loadingScreenDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.loading-screen-dump"
+    },
+    "motorRenewalLandingDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.motor-renewal-landing-dump"
+    },
+    "noClaimBonusDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.no-claim-bonus-dump"
+    }
+  }
+}

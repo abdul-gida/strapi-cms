@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_ecosystem_health",
+  "info": {
+    "displayName": "health"
+  },
+  "options": {},
+  "attributes": {
+    "health": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-ecosystem.card"
+    }
+  }
+}

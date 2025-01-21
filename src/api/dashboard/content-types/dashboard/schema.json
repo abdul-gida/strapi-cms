@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "dashboards",
+  "info": {
+    "singularName": "dashboard",
+    "pluralName": "dashboards",
+    "displayName": "Dashboard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dashboardCmsData": {
+      "displayName": "dashboardCmsData",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.dashboard-cms-data"
+    },
+    "supportCms": {
+      "displayName": "supportCms",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.support-cms"
+    },
+    "dashboardNewsletter": {
+      "displayName": "dashboardNewsletterCms",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.dashboard-newsletter-cms"
+    },
+    "dashboardConnectWithUsCms": {
+      "displayName": "dashboardConnectWithUsCms",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.dashboard-connect-with-us-cms"
+    },
+    "ecosystemQrCms": {
+      "displayName": "ecosystemQrCms",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.ecosystem-qr-cms"
+    },
+    "needsYourAttention": {
+      "displayName": "needsYourAttention",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-buy-insurance.needs-your-attention"
+    },
+    "resumeJourney": {
+      "displayName": "resumeJourney",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-buy-insurance.resume-journey"
+    }
+  }
+}

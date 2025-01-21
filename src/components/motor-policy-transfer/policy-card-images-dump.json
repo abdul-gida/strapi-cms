@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_motor_policy_transfer_policy_card_images_dumps",
+  "info": {
+    "displayName": "policyCardImagesDump"
+  },
+  "options": {},
+  "attributes": {
+    "motorImage": {
+      "type": "string"
+    }
+  }
+}

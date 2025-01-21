@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ekyc_track_claim_id_verifications",
+  "info": {
+    "displayName": "claimIdVerification",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.title-and-description"
+    },
+    "inputLabel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.label-and-placeholder"
+    },
+    "error": {
+      "displayName": "error",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.error"
+    }
+  }
+}

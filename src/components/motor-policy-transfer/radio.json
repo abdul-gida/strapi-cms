@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_motor_policy_transfer_radios",
+  "info": {
+    "displayName": "radio"
+  },
+  "options": {},
+  "attributes": {
+    "lableEkyc": {
+      "type": "string"
+    },
+    "lableAadhar": {
+      "type": "string"
+    }
+  }
+}

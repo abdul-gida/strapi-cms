@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_motor_policy_transfer_pan_inputs",
+  "info": {
+    "displayName": "panInput"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

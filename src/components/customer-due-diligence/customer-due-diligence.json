@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_customer_due_diligence_customer_due_diligences",
+  "info": {
+    "displayName": "customerDueDiligence"
+  },
+  "options": {},
+  "attributes": {
+    "backButton": {
+      "type": "string"
+    },
+    "dashboardButtonText": {
+      "type": "string"
+    },
+    "submitText": {
+      "type": "string"
+    }
+  }
+}

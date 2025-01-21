@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_document_uploader_claim_document_lists",
+  "info": {
+    "displayName": "claimDocumentList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "goBackSheet": {
+      "displayName": "goBackSheet",
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.go-back-sheet"
+    }
+  }
+}

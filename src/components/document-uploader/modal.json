@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_document_uploader_modals",
+  "info": {
+    "displayName": "modal"
+  },
+  "options": {},
+  "attributes": {
+    "claimLabel": {
+      "type": "string"
+    },
+    "copyLabel": {
+      "type": "string"
+    }
+  }
+}

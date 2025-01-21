@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_motor_claim_successfully_submitted_cms",
+  "info": {
+    "displayName": "successfullySubmittedCms",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

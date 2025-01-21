@@ -1,0 +1,81 @@
+{
+  "kind": "singleType",
+  "collectionName": "motor_claims",
+  "info": {
+    "singularName": "motor-claim",
+    "pluralName": "motor-claims",
+    "displayName": "motor-claim",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "progressiveStepBar": {
+      "displayName": "progressiveStepBar",
+      "type": "component",
+      "repeatable": true,
+      "component": "motor-claim.progressive-step-bar"
+    },
+    "selectNature": {
+      "displayName": "selectNature",
+      "type": "component",
+      "repeatable": true,
+      "component": "motor-claim.select-nature"
+    },
+    "enterClaimDetails": {
+      "displayName": "enterClaimDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-claim.enter-claim-details"
+    },
+    "enterLossIncur": {
+      "displayName": "enterLossIncur",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-claim.enter-loss-incur"
+    },
+    "tellusAboutYourself": {
+      "displayName": "tellusAboutYourself",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-claim.tellus-about-yourself"
+    },
+    "whoIsClaiming": {
+      "displayName": "whoIsClaiming",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-claim.who-is-claiming"
+    },
+    "wrongClaimCms": {
+      "displayName": "wrongClaimCms",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-claim.wrong-claim-cms"
+    },
+    "unavailableClaimCms": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-claim.wrong-claim-cms"
+    },
+    "successfullySubmittedCms": {
+      "displayName": "successfullySubmittedCms",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-claim.successfully-submitted-cms"
+    },
+    "successfullyRegisteredCms": {
+      "displayName": "successfullyRegisteredCms",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-claim.successfully-registered-cms"
+    },
+    "motorClaimPage": {
+      "displayName": "motorClaimPage",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-claim.motor-claim-page"
+    }
+  }
+}

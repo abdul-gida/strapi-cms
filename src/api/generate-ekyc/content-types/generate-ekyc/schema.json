@@ -1,0 +1,90 @@
+{
+  "kind": "singleType",
+  "collectionName": "generate_ekycs",
+  "info": {
+    "singularName": "generate-ekyc",
+    "pluralName": "generate-ekycs",
+    "displayName": "Ekyc-generate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "financialDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.financial-details-cms"
+    },
+    "ekycList": {
+      "displayName": "ekycList",
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.ekyc-list"
+    },
+    "financialDetailsInput": {
+      "type": "dynamiczone",
+      "components": [
+        "generate-ekyc.politically-exposed",
+        "generate-ekyc.organization-input",
+        "generate-ekyc.occupation-input",
+        "generate-ekyc.annual-income"
+      ]
+    },
+    "hdfc": {
+      "displayName": "proceedToHdfc",
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.proceed-to-hdfc"
+    },
+    "panOptionInfo": {
+      "displayName": "PanCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.pan-card"
+    },
+    "ekycVerifyCms": {
+      "displayName": "ekycVerifyCms",
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.ekyc-verify-cms"
+    },
+    "ekycDetailCms": {
+      "displayName": "ekycDetailCms",
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.ekyc-detail-cms"
+    },
+    "cmsFinalPage": {
+      "displayName": "cmsFinalPage",
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.cms-final-page"
+    },
+    "cmsSubFinalPage": {
+      "displayName": "cmsSubFinalPage",
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.cms-sub-final-page"
+    },
+    "cmsErrorstatusModal": {
+      "displayName": "cmsErrorstatusModal",
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.cms-errorstatus-modal"
+    },
+    "cmsGoback": {
+      "displayName": "cmsGoback",
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.cms-goback"
+    },
+    "cmsServerTimeout": {
+      "displayName": "cmsServerTimeout",
+      "type": "component",
+      "repeatable": false,
+      "component": "generate-ekyc.cms-server-timeout"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_claims_static_marine_hull_insurance_dumps",
+  "info": {
+    "displayName": "marineHullInsuranceDump"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.heading-claim"
+    },
+    "marineHullBulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.document-checklist"
+    }
+  }
+}

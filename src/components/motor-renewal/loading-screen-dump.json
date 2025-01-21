@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_motor_renewal_loading_screen_dumps",
+  "info": {
+    "displayName": "loadingScreenDump"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

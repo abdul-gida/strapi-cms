@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_homepage_cards_updates_sections",
+  "info": {
+    "displayName": "cardsUpdatesSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "string"
+    }
+  }
+}

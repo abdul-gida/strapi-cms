@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_claims_static_group_personal_insurances",
+  "info": {
+    "displayName": "groupPersonalInsurance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-static.heading-claim"
+    },
+    "groupPersonalInsuranceBulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-static.document-checklist"
+    }
+  }
+}

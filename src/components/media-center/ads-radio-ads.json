@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_media_center_ads_radio_ads",
+  "info": {
+    "displayName": "adsRadioAds"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_motor_renewal_premium_breakup_dumps",
+  "info": {
+    "displayName": "premiumBreakupDump"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "basePremium": {
+      "type": "string"
+    },
+    "ncbDiscount": {
+      "type": "string"
+    },
+    "gstText": {
+      "type": "string"
+    },
+    "tpPremium": {
+      "type": "string"
+    }
+  }
+}

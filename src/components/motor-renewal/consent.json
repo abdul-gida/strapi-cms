@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_motor_renewal_consents",
+  "info": {
+    "displayName": "consent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

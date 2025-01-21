@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_policy_dispatches",
+  "info": {
+    "displayName": "policyDispatch"
+  },
+  "options": {},
+  "attributes": {
+    "policyDispatch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

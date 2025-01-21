@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_motor_claim_inputs",
+  "info": {
+    "displayName": "input"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

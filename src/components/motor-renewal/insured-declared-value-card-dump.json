@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_motor_renewal_insured_declared_value_card_dumps",
+  "info": {
+    "displayName": "insuredDeclaredValueCardDump"
+  },
+  "options": {},
+  "attributes": {
+    "headerPretext": {
+      "type": "string"
+    },
+    "recommendedText": {
+      "type": "string"
+    },
+    "selectedIDV": {
+      "type": "string"
+    },
+    "customIDVText": {
+      "type": "string"
+    },
+    "proceedText": {
+      "type": "string"
+    },
+    "iDVMinText": {
+      "type": "string"
+    },
+    "iDVMaxText": {
+      "type": "string"
+    },
+    "modalIDVTitle": {
+      "type": "string"
+    },
+    "modalIDVSubTitle": {
+      "type": "string"
+    },
+    "labelForTooltip": {
+      "type": "string"
+    }
+  }
+}

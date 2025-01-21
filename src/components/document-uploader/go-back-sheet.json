@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_document_uploader_go_back_sheets",
+  "info": {
+    "displayName": "goBackSheet"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "primaryText": {
+      "type": "string"
+    },
+    "secondaryText": {
+      "type": "string"
+    }
+  }
+}

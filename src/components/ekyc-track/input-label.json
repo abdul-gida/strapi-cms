@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_ekyc_track_input_labels",
+  "info": {
+    "displayName": "inputLabel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "panInput": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.label-and-placeholder"
+    }
+  }
+}

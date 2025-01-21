@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_health_claim_supplementaries",
+  "info": {
+    "displayName": "supplementary",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "selectClaim": {
+      "displayName": "selectClaim",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.select-claim"
+    },
+    "enterClaimDetails": {
+      "displayName": "enterClaimDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.enter-claim-details"
+    },
+    "queryWidgetDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.query-widget"
+    }
+  }
+}

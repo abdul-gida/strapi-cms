@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_generate_ekyc_politically_exposeds",
+  "info": {
+    "displayName": "politicallyExposed",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

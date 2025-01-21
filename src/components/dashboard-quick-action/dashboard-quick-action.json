@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_dashboard_quick_action_dashboard_quick_actions",
+  "info": {
+    "displayName": "dashboard-quickAction"
+  },
+  "options": {},
+  "attributes": {
+    "card": {
+      "displayName": "card",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-quick-action.card"
+    }
+  }
+}

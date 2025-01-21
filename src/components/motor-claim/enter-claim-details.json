@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_motor_claim_enter_claim_details",
+  "info": {
+    "displayName": "enterClaimDetails"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "accidentDateLabel": {
+      "type": "string"
+    },
+    "accidentDatePlaceholder": {
+      "type": "string"
+    },
+    "accidentTimeLabel": {
+      "type": "string"
+    },
+    "accidentTimePlaceholder": {
+      "type": "string"
+    },
+    "accidentPlaceLabel": {
+      "type": "string"
+    },
+    "accidentPlacePlaceholder": {
+      "type": "string"
+    },
+    "pincodeLabel": {
+      "type": "string"
+    },
+    "pincodePlaceholder": {
+      "type": "string"
+    }
+  }
+}

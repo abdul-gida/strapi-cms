@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_policy_manual_linking_cancelled_expireds",
+  "info": {
+    "displayName": "cancelledExpired"
+  },
+  "options": {},
+  "attributes": {
+    "imgUrl": {
+      "type": "string"
+    },
+    "cancelledTitle": {
+      "type": "string"
+    },
+    "expiredTitle": {
+      "type": "string"
+    },
+    "expiredDesc": {
+      "type": "string"
+    },
+    "cancelledDesc": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "previous_year_policy_uploads",
+  "info": {
+    "singularName": "previous-year-policy-upload",
+    "pluralName": "previous-year-policy-uploads",
+    "displayName": "previous-year-policy-upload",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "previousYearPolicyDump": {
+      "displayName": "previous-year-policy-upload",
+      "type": "component",
+      "repeatable": false,
+      "component": "previous-year-policy-upload.previous-year-policy-upload"
+    }
+  }
+}

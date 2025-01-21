@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_explore_more_card_ones",
+  "info": {
+    "displayName": "cardOne"
+  },
+  "options": {},
+  "attributes": {
+    "cardOne": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-explore-more.card"
+    }
+  }
+}

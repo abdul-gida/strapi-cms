@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_ekyc_track_cms_ekyc_mappers",
+  "info": {
+    "displayName": "cmsEkycMapper"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "ekycId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "pan": {
+      "type": "string"
+    },
+    "ckycNo": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_agent_registration_view_card_lists",
+  "info": {
+    "displayName": "viewCardList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "ctaLabel": {
+      "type": "string"
+    }
+  }
+}

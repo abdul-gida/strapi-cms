@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_auto_generate_track_ekyc_verify_id_inputs",
+  "info": {
+    "displayName": "verifyIdInput",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

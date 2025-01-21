@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_us_contacts",
+  "info": {
+    "displayName": "contact"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "contactNumber": {
+      "type": "string"
+    },
+    "is24Hours": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_homepage_primary_products",
+  "info": {
+    "displayName": "primaryProducts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "isNew": {
+      "type": "boolean"
+    }
+  }
+}

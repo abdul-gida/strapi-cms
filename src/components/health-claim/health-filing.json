@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_health_claim_health_filings",
+  "info": {
+    "displayName": "healthFiling"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "imaegUrl": {
+      "type": "string"
+    },
+    "modes": {
+      "displayName": "modes",
+      "type": "component",
+      "repeatable": true,
+      "component": "health-claim.modes",
+      "max": 2
+    }
+  }
+}

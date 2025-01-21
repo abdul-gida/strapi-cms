@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_generate_ekyc_organization_inputs",
+  "info": {
+    "displayName": "OrganizationInput",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sheetTitle": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "Placeholder": {
+      "type": "string"
+    }
+  }
+}

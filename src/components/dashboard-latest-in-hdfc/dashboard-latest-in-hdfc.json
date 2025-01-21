@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_dashboard_latest_in_hdfc_dashboard_latest_in_hdfcs",
+  "info": {
+    "displayName": "dashboard-latestIn-hdfc"
+  },
+  "options": {},
+  "attributes": {
+    "card": {
+      "displayName": "card",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-latest-in-hdfc.card"
+    }
+  }
+}

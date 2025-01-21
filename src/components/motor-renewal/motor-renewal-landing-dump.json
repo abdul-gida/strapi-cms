@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_motor_renewal_motor_renewal_landing_dumps",
+  "info": {
+    "displayName": "motorRenewalLandingDump"
+  },
+  "options": {},
+  "attributes": {
+    "PlanTypeTitle": {
+      "type": "string"
+    },
+    "planTypeTooltip": {
+      "type": "string"
+    },
+    "viewBenefits": {
+      "type": "string"
+    }
+  }
+}

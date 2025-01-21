@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_faqs_banners",
+  "info": {
+    "displayName": "banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "searchIcon": {
+      "type": "string"
+    },
+    "seachPlaceholder": {
+      "type": "string"
+    },
+    "tryAsking": {
+      "displayName": "tryAsking",
+      "type": "component",
+      "repeatable": false,
+      "component": "faqs.try-asking"
+    }
+  }
+}

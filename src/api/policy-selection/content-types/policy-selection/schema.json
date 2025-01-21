@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "policy_selections",
+  "info": {
+    "singularName": "policy-selection",
+    "pluralName": "policy-selections",
+    "displayName": "Policy-selection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "policySelectionCmsData": {
+      "displayName": "policySelectionCmsData",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-selection.policy-selection-cms-data"
+    }
+  }
+}

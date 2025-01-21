@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_previous_year_policy_upload_previous_year_policy_uploads",
+  "info": {
+    "displayName": "previous-year-policy-upload",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "displayName": "header",
+      "type": "component",
+      "repeatable": false,
+      "component": "previous-year-policy-upload.header"
+    },
+    "uploadSection": {
+      "displayName": "uploadSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "previous-year-policy-upload.upload-section"
+    },
+    "remarks": {
+      "displayName": "remarks",
+      "type": "component",
+      "repeatable": false,
+      "component": "previous-year-policy-upload.remarks"
+    },
+    "statuses": {
+      "displayName": "status",
+      "type": "component",
+      "repeatable": false,
+      "component": "previous-year-policy-upload.status"
+    }
+  }
+}

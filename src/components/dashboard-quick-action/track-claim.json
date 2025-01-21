@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_quick_action_track_claims",
+  "info": {
+    "displayName": "trackClaim"
+  },
+  "options": {},
+  "attributes": {
+    "trackClaim": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-quick-action.card"
+    }
+  }
+}

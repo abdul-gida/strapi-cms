@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_homepage_achievements",
+  "info": {
+    "displayName": "achievements"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cardsAchievementsSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.cards-achievements-section"
+    }
+  }
+}

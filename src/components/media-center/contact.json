@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_media_center_contacts",
+  "info": {
+    "displayName": "contact"
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_homepage_cards_why_sections",
+  "info": {
+    "displayName": "cardsWhySection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "displayName": "titleWhySection",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title-why-section"
+    },
+    "description": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "textAlign": {
+      "type": "string"
+    }
+  }
+}

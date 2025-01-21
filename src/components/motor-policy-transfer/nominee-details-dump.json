@@ -1,0 +1,67 @@
+{
+  "collectionName": "components_motor_policy_transfer_nominee_details_dumps",
+  "info": {
+    "displayName": "nomineeDetailsDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nomineeTitle": {
+      "type": "string"
+    },
+    "nomineeDescription": {
+      "type": "string"
+    },
+    "accidentLabel": {
+      "type": "string"
+    },
+    "nomineeLabel": {
+      "type": "string"
+    },
+    "nomineePlaceholder": {
+      "type": "string"
+    },
+    "dobLabel": {
+      "type": "string"
+    },
+    "relationTitle": {
+      "type": "string"
+    },
+    "relationLabel": {
+      "type": "string"
+    },
+    "relationPlaceholder": {
+      "type": "string"
+    },
+    "appointeeTitle": {
+      "type": "string"
+    },
+    "appointeeDescription": {
+      "type": "string"
+    },
+    "appointeeLabel": {
+      "type": "string"
+    },
+    "appointeePlaceholder": {
+      "type": "string"
+    },
+    "proceedText": {
+      "type": "string"
+    },
+    "nomineeCover": {
+      "type": "string"
+    },
+    "appointeeCover": {
+      "type": "string"
+    },
+    "calenderTitle": {
+      "type": "string"
+    },
+    "calendarErrorMessage": {
+      "type": "string"
+    },
+    "dobPlaceholder": {
+      "type": "string"
+    }
+  }
+}

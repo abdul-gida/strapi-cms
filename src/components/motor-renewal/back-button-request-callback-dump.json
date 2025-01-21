@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_motor_renewal_back_button_request_callback_dumps",
+  "info": {
+    "displayName": "backButtonRequestCallbackDump"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "secondaryButtonText": {
+      "type": "string"
+    },
+    "imgUrl": {
+      "type": "string"
+    }
+  }
+}

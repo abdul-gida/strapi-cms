@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ekyc_track_bottom_sections",
+  "info": {
+    "displayName": "bottomSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Approved": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.statuses"
+    },
+    "Pending": {
+      "displayName": "Pending",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.pending"
+    },
+    "Rejected": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.statuses"
+    }
+  }
+}

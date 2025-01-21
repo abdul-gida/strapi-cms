@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_explore_fourwheeler_four_wheelers",
+  "info": {
+    "displayName": "fourWheeler"
+  },
+  "options": {},
+  "attributes": {
+    "fourwheeler": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-explore-fourwheeler.card"
+    }
+  }
+}

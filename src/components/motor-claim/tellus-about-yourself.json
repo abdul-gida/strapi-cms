@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_motor_claim_tellus_about_yourselves",
+  "info": {
+    "displayName": "tellusAboutYourself"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "whosMakingClaim": {
+      "type": "string"
+    },
+    "intimaterDetails": {
+      "type": "string"
+    },
+    "intimaterName": {
+      "type": "string"
+    },
+    "intimaterNamePlaceholder": {
+      "type": "string"
+    },
+    "intimaterPhone": {
+      "type": "string"
+    },
+    "intimaterPhonePlaceholder": {
+      "type": "string"
+    },
+    "checkboxText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_media_center_press_releases",
+  "info": {
+    "displayName": "pressRelease",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "breadCrumb": {
+      "displayName": "breadCrumb",
+      "type": "component",
+      "repeatable": true,
+      "component": "media-center.bread-crumb"
+    },
+    "title": {
+      "type": "string"
+    },
+    "readFullStory": {
+      "type": "string"
+    },
+    "filterBy": {
+      "type": "string"
+    },
+    "years": {
+      "displayName": "years",
+      "type": "component",
+      "repeatable": true,
+      "component": "media-center.years"
+    }
+  }
+}

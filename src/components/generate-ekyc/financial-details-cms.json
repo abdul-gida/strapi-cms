@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_generate_ekyc_financial_details_cms",
+  "info": {
+    "displayName": "financialDetailsCms",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "yesLabel": {
+      "type": "string"
+    },
+    "noLabel": {
+      "type": "string"
+    },
+    "selectOptionLabel": {
+      "type": "string"
+    }
+  }
+}

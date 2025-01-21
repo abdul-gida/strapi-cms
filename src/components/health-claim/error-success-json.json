@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_health_claim_error_success_jsons",
+  "info": {
+    "displayName": "errorSuccessJson",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "confirmation": {
+      "displayName": "confirmation",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.confirmation"
+    },
+    "notActiveClaims": {
+      "displayName": "notActiveClaims",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.not-active-claims"
+    },
+    "serverError": {
+      "displayName": "serverError",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.server-error"
+    },
+    "claimSuccess": {
+      "displayName": "claimSuccess",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.claim-success"
+    },
+    "claimUnableToProceed": {
+      "displayName": "claimUnableToProceed",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.claim-unable-to-proceed"
+    }
+  }
+}

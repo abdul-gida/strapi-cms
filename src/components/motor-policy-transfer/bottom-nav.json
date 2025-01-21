@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_motor_policy_transfer_bottom_navs",
+  "info": {
+    "displayName": "bottomNav"
+  },
+  "options": {},
+  "attributes": {
+    "buttonLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_trusted_by_customer_claim_settlement_rates",
+  "info": {
+    "displayName": "Claim Settlement Rate"
+  },
+  "options": {},
+  "attributes": {
+    "ClaimSettlementRate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-trusted-by-customer.card"
+    }
+  }
+}

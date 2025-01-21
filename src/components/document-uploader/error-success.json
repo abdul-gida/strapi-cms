@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_document_uploader_error_successes",
+  "info": {
+    "displayName": "errorSuccess",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "serverError": {
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.error-success-json"
+    },
+    "submitFailed": {
+      "type": "component",
+      "repeatable": false,
+      "component": "document-uploader.error-success-json"
+    }
+  }
+}

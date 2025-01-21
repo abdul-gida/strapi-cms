@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ekyc_track_status_pages",
+  "info": {
+    "displayName": "statusPage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bottomSection": {
+      "displayName": "bottomSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.bottom-section"
+    },
+    "image": {
+      "displayName": "image",
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.image"
+    }
+  }
+}

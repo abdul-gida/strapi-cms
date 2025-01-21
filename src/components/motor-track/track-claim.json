@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_motor_track_track_claims",
+  "info": {
+    "displayName": "trackClaim"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

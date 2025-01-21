@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_motor_policy_transfer_consent_dumps",
+  "info": {
+    "displayName": "consentDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean"
+    },
+    "optional": {
+      "type": "boolean"
+    },
+    "text": {
+      "type": "text"
+    },
+    "replaceText": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "isSelected": {
+      "type": "boolean"
+    },
+    "idConsent": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_health_claim_not_active_claims",
+  "info": {
+    "displayName": "notActiveClaims",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "queryWidget": {
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.query-widget"
+    },
+    "description": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    }
+  }
+}

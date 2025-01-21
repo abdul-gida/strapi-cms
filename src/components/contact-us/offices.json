@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_us_offices",
+  "info": {
+    "displayName": "offices"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "contact": {
+      "displayName": "contact",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.contact"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_homepage_bottom_cards",
+  "info": {
+    "displayName": "bottomCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "displayName": "title",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

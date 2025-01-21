@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_health_claim_state_city_selections",
+  "info": {
+    "displayName": "stateCitySelection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pinCode": {
+      "displayName": "pinCode",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.pin-code"
+    },
+    "state": {
+      "displayName": "state",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.state"
+    },
+    "city": {
+      "displayName": "city",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.city"
+    }
+  }
+}

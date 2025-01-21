@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_dashboard_trusted_by_customer_dashboard_trusted_by_customers",
+  "info": {
+    "displayName": "dashboard-trusted-by-customer"
+  },
+  "options": {},
+  "attributes": {
+    "card": {
+      "displayName": "card",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-trusted-by-customer.card"
+    }
+  }
+}

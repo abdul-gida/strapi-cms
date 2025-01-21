@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_ekyc_track_pan_verification_errs",
+  "info": {
+    "displayName": "panVerificationErr",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fetchError": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.fetch-error"
+    },
+    "serverError": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ekyc-track.fetch-error"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_policy_cancellation_requests",
+  "info": {
+    "displayName": "policyCancellationRequest"
+  },
+  "options": {},
+  "attributes": {
+    "policyCancellationRequest": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

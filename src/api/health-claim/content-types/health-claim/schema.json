@@ -1,0 +1,72 @@
+{
+  "kind": "singleType",
+  "collectionName": "health_claims",
+  "info": {
+    "singularName": "health-claim",
+    "pluralName": "health-claims",
+    "displayName": "health-claim",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "healthFiling": {
+      "displayName": "healthFiling",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.health-filing"
+    },
+    "supplementary": {
+      "displayName": "supplementary",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.supplementary"
+    },
+    "trackCard": {
+      "displayName": "trackCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.track-card"
+    },
+    "hospitalisation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.title-img-and-desc"
+    },
+    "selectPatient": {
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.title-img-and-desc"
+    },
+    "stateCitySelection": {
+      "displayName": "stateCitySelection",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.state-city-selection"
+    },
+    "selectHsp": {
+      "displayName": "selectHsp",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.select-hsp"
+    },
+    "contactDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.contact-details"
+    },
+    "claimDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.contact-details"
+    },
+    "errorSuccessJson": {
+      "displayName": "errorSuccessJson",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-claim.error-success-json"
+    }
+  }
+}

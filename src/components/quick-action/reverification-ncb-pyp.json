@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_quick_action_reverification_ncb_pyps",
+  "info": {
+    "displayName": "reverificationNcbPyp"
+  },
+  "options": {},
+  "attributes": {
+    "reverificationNcbPyp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quick-action.card"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_health_track_no_claim_founds",
+  "info": {
+    "displayName": "noClaimFound",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "description2": {
+      "type": "text",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "queryText": {
+      "displayName": "queryText",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-track.query-text",
+      "required": true
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

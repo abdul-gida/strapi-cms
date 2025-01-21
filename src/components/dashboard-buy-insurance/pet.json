@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_pets",
+  "info": {
+    "displayName": "pet"
+  },
+  "options": {},
+  "attributes": {
+    "pet": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard-buy-insurance.card"
+    }
+  }
+}

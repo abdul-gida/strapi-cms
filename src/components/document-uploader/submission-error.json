@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_document_uploader_submission_errors",
+  "info": {
+    "displayName": "submissionError"
+  },
+  "options": {},
+  "attributes": {
+    "submitErrorLabel": {
+      "type": "string"
+    },
+    "cantUploadLabel": {
+      "type": "string"
+    },
+    "claimLabel": {
+      "type": "string"
+    },
+    "copyLabel": {
+      "type": "string"
+    },
+    "submitLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_homepage_quick_accesses",
+  "info": {
+    "displayName": "quickAccess"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "displayName": "titleQuickAccess",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.title-quick-access"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.cards"
+    }
+  }
+}

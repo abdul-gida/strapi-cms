@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_health_claim_title_img_and_descs",
+  "info": {
+    "displayName": "titleImgAndDesc"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}
