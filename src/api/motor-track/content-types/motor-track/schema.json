@@ -26,6 +26,24 @@
       "type": "component",
       "repeatable": false,
       "component": "motor-track.something-went-wrong"
+    },
+    "home": {
+      "displayName": "home",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-track.home"
+    },
+    "trackClaim": {
+      "displayName": "trackClaim",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-track.track-claim"
+    },
+    "paymentCompleted": {
+      "displayName": "paymentCompleted",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-track.payment-completed"
     }
   }
 }

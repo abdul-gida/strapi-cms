@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_motor_track_homes",
+  "info": {
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "enterClaimTitle": {
+      "type": "string"
+    },
+    "enterClaimDescription": {
+      "type": "string"
+    },
+    "enterClaimNoLabel": {
+      "type": "string"
+    },
+    "enterClaimButtonLabel": {
+      "type": "string"
+    },
+    "image": {
+      "displayName": "image",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-track.image"
+    },
+    "footer": {
+      "displayName": "footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-track.footer"
+    }
+  }
+}

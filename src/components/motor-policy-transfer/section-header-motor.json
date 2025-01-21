@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_motor_policy_transfer_section_header_motors",
+  "info": {
+    "displayName": "sectionHeaderMotor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

@@ -24,9 +24,6 @@
     "dobLabel": {
       "type": "string"
     },
-    "dobPlaceholder": {
-      "type": "date"
-    },
     "relationTitle": {
       "type": "string"
     },
@@ -61,6 +58,9 @@
       "type": "string"
     },
     "calendarErrorMessage": {
+      "type": "string"
+    },
+    "dobPlaceholder": {
       "type": "string"
     }
   }
