@@ -30,9 +30,6 @@
     "bannerImageMobile": {
       "type": "string"
     },
-    "waveImage": {
-      "type": "string"
-    },
     "bottomCards": {
       "displayName": "bottomCards",
       "type": "component",

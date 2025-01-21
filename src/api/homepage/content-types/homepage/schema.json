@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "ecoSystem": {
-      "displayName": "ecoSystem",
-      "type": "component",
-      "repeatable": false,
-      "component": "homepage.eco-system"
-    },
     "quickAccess": {
       "displayName": "quickAccess",
       "type": "component",
@@ -90,10 +84,10 @@
       "repeatable": false,
       "component": "homepage.videos"
     },
-    "title": {
+    "ecoSystem": {
       "type": "component",
-      "repeatable": true,
-      "component": "homepage.title-quick-access"
+      "repeatable": false,
+      "component": "homepage.eco-system"
     }
   }
 }

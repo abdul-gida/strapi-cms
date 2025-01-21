@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_us_travel_insurance_claim_offices",
+  "info": {
+    "displayName": "travelInsuranceClaimOffice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "offices": {
+      "displayName": "offices",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.offices"
+    }
+  }
+}

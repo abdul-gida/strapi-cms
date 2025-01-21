@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_uses",
+  "info": {
+    "singularName": "contact-us",
+    "pluralName": "contact-uses",
+    "displayName": "ContactUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-us.banner"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "whatsappCard": {
+      "displayName": "whatsappCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-us.whatsapp-card"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.cards"
+    },
+    "addressBg": {
+      "type": "string"
+    },
+    "officeCards": {
+      "displayName": "officeCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.office-cards"
+    },
+    "insuranceClaimOffices": {
+      "displayName": "insuranceClaimOffices",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-us.insurance-claim-offices"
+    },
+    "motorAndOtherInsuranceClaimOffice": {
+      "displayName": "motorAndOtherInsuranceClaimOffice",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-us.motor-and-other-insurance-claim-office"
+    },
+    "accessible24x7": {
+      "type": "string"
+    },
+    "disclaimer": {
+      "type": "string"
+    }
+  }
+}

@@ -9,13 +9,10 @@
     "image": {
       "type": "string"
     },
-    "description": {
-      "type": "string"
-    },
     "steps": {
       "displayName": "stepsStepPage",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "homepage.steps-step-page"
     },
     "primaryCta": {
@@ -25,6 +22,9 @@
       "type": "component",
       "repeatable": false,
       "component": "homepage.title"
+    },
+    "tagText": {
+      "type": "string"
     }
   }
 }

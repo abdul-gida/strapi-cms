@@ -1,15 +1,11 @@
 {
   "collectionName": "components_homepage_customer_reviews",
   "info": {
-    "displayName": "customerReviews"
+    "displayName": "customerReviews",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "component",
-      "repeatable": false,
-      "component": "homepage.title"
-    },
     "description": {
       "type": "string"
     },
@@ -21,6 +17,18 @@
       "type": "component",
       "repeatable": true,
       "component": "homepage.reviews-customer-review-section"
+    },
+    "title": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "string"
+    },
+    "btnCta": {
+      "type": "string"
+    },
+    "btnLink": {
+      "type": "string"
     }
   }
 }

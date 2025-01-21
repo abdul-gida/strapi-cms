@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_contact_us_officesses",
+  "info": {
+    "displayName": "officess"
+  },
+  "options": {},
+  "attributes": {
+    "contact": {
+      "displayName": "contactt",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.contactt"
+    }
+  }
+}

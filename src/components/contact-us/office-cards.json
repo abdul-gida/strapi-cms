@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_contact_us_office_cards",
+  "info": {
+    "displayName": "officeCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "card1": {
+      "displayName": "card1",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-us.card1"
+    },
+    "card2": {
+      "displayName": "card2",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-us.card2"
+    },
+    "card3": {
+      "displayName": "card3",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-us.card3"
+    }
+  }
+}

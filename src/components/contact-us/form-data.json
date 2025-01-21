@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_contact_us_form_data",
+  "info": {
+    "displayName": "formData"
+  },
+  "options": {},
+  "attributes": {
+    "phoneIcon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "productsListLabel": {
+      "type": "string"
+    },
+    "productsListPlaceHolder": {
+      "type": "string"
+    },
+    "nameLabel": {
+      "type": "string"
+    },
+    "namePlaceHolder": {
+      "type": "string"
+    },
+    "mobileNumberLabel": {
+      "type": "string"
+    },
+    "mobileNumberPlaceHolder": {
+      "type": "string"
+    },
+    "cityLabel": {
+      "type": "string"
+    },
+    "cityPlaceHolder": {
+      "type": "string"
+    },
+    "captchaPlaceHolder": {
+      "type": "string"
+    },
+    "submitButtonText": {
+      "type": "string"
+    }
+  }
+}

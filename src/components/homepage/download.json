@@ -12,9 +12,6 @@
       "repeatable": false,
       "component": "homepage.title-download-section"
     },
-    "waveImage": {
-      "type": "string"
-    },
     "description": {
       "type": "string"
     },
@@ -37,6 +34,9 @@
       "type": "string"
     },
     "phone": {
+      "type": "string"
+    },
+    "mobilePhone": {
       "type": "string"
     }
   }
