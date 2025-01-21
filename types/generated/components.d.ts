@@ -1650,6 +1650,250 @@ export interface ClaimsTabsClaimPage extends Struct.ComponentSchema {
   };
 }
 
+export interface ContactUsBanner extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_banners';
+  info: {
+    description: '';
+    displayName: 'banner';
+  };
+  attributes: {
+    cards: Schema.Attribute.Component<'contact-us.cars', true>;
+    description: Schema.Attribute.String;
+    formData: Schema.Attribute.Component<'contact-us.form-data', false>;
+    image: Schema.Attribute.String;
+    productsList: Schema.Attribute.Component<'contact-us.products-list', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsCard1 extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_card1s';
+  info: {
+    displayName: 'card1';
+  };
+  attributes: {
+    address: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsCard2 extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_card2s';
+  info: {
+    displayName: 'card2';
+  };
+  attributes: {
+    address: Schema.Attribute.String;
+    emails: Schema.Attribute.Component<'contact-us.emails', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsCard3 extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_card3s';
+  info: {
+    displayName: 'card3';
+  };
+  attributes: {
+    address: Schema.Attribute.String;
+    emails: Schema.Attribute.Component<'contact-us.emails', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsCards extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_cards';
+  info: {
+    displayName: 'cards';
+  };
+  attributes: {
+    contactNumber: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    icon: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsCars extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_cars';
+  info: {
+    displayName: 'cars';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    icon: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsContact extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_contacts';
+  info: {
+    displayName: 'contact';
+  };
+  attributes: {
+    contactNumber: Schema.Attribute.String;
+    is24Hours: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsContactt extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_contactts';
+  info: {
+    displayName: 'contactt';
+  };
+  attributes: {
+    contactNumber: Schema.Attribute.String;
+    is24Hours: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsEmails extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_emails';
+  info: {
+    displayName: 'emails';
+  };
+  attributes: {
+    email: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsFormData extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_form_data';
+  info: {
+    displayName: 'formData';
+  };
+  attributes: {
+    captchaPlaceHolder: Schema.Attribute.String;
+    cityLabel: Schema.Attribute.String;
+    cityPlaceHolder: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    mobileNumberLabel: Schema.Attribute.String;
+    mobileNumberPlaceHolder: Schema.Attribute.String;
+    nameLabel: Schema.Attribute.String;
+    namePlaceHolder: Schema.Attribute.String;
+    phoneIcon: Schema.Attribute.String;
+    productsListLabel: Schema.Attribute.String;
+    productsListPlaceHolder: Schema.Attribute.String;
+    submitButtonText: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsInsuranceClaimOffices extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_insurance_claim_offices';
+  info: {
+    displayName: 'insuranceClaimOffices';
+    icon: 'arrowUp';
+  };
+  attributes: {
+    title: Schema.Attribute.String;
+    travelInsuranceClaimOffice: Schema.Attribute.Component<
+      'contact-us.travel-insurance-claim-office',
+      false
+    >;
+  };
+}
+
+export interface ContactUsMotorAndOtherInsuranceClaimOffice
+  extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_motor_and_other_insurance_claim_offices';
+  info: {
+    description: '';
+    displayName: 'motorAndOtherInsuranceClaimOffice';
+  };
+  attributes: {
+    offices: Schema.Attribute.Component<'contact-us.officess', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsOfficeCards extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_office_cards';
+  info: {
+    description: '';
+    displayName: 'officeCards';
+  };
+  attributes: {
+    card1: Schema.Attribute.Component<'contact-us.card1', false>;
+    card2: Schema.Attribute.Component<'contact-us.card2', false>;
+    card3: Schema.Attribute.Component<'contact-us.card3', false>;
+  };
+}
+
+export interface ContactUsOffices extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_offices';
+  info: {
+    displayName: 'offices';
+  };
+  attributes: {
+    contact: Schema.Attribute.Component<'contact-us.contact', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsOfficess extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_officesses';
+  info: {
+    displayName: 'officess';
+  };
+  attributes: {
+    contact: Schema.Attribute.Component<'contact-us.contactt', true>;
+  };
+}
+
+export interface ContactUsProductsList extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_products_lists';
+  info: {
+    displayName: 'productsList';
+  };
+  attributes: {
+    label: Schema.Attribute.String;
+    value: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsTravelInsuranceClaimOffice
+  extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_travel_insurance_claim_offices';
+  info: {
+    description: '';
+    displayName: 'travelInsuranceClaimOffice';
+  };
+  attributes: {
+    offices: Schema.Attribute.Component<'contact-us.offices', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface ContactUsTtttt extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_ttttts';
+  info: {
+    displayName: 'ttttt';
+  };
+  attributes: {};
+}
+
+export interface ContactUsWhatsappCard extends Struct.ComponentSchema {
+  collectionName: 'components_contact_us_whatsapp_cards';
+  info: {
+    displayName: 'whatsappCard';
+  };
+  attributes: {
+    btnIcon: Schema.Attribute.String;
+    buttonText: Schema.Attribute.String;
+    contactNumber: Schema.Attribute.String;
+    description: Schema.Attribute.String;
+    icon: Schema.Attribute.String;
+    image: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface CustomerDueDiligenceAnnualIncome
   extends Struct.ComponentSchema {
   collectionName: 'components_customer_due_diligence_annual_incomes';
@@ -3294,6 +3538,102 @@ export interface EkycTrackTrackingKycDump extends Struct.ComponentSchema {
   };
 }
 
+export interface FaqsBanner extends Struct.ComponentSchema {
+  collectionName: 'components_faqs_banners';
+  info: {
+    displayName: 'banner';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    seachPlaceholder: Schema.Attribute.String;
+    searchIcon: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    tryAsking: Schema.Attribute.Component<'faqs.try-asking', false>;
+  };
+}
+
+export interface FaqsBreadCrumb extends Struct.ComponentSchema {
+  collectionName: 'components_faqs_bread_crumbs';
+  info: {
+    displayName: 'breadCrumb';
+  };
+  attributes: {
+    link: Schema.Attribute.String;
+    text: Schema.Attribute.String;
+  };
+}
+
+export interface FaqsFaqPage extends Struct.ComponentSchema {
+  collectionName: 'components_faqs_faq_pages';
+  info: {
+    description: '';
+    displayName: 'faqPage';
+  };
+  attributes: {
+    breadCrumb: Schema.Attribute.Component<'faqs.bread-crumb', true>;
+    description: Schema.Attribute.String;
+    faqsList: Schema.Attribute.Component<'faqs.faqs-list', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface FaqsFaqsList extends Struct.ComponentSchema {
+  collectionName: 'components_faqs_faqs_lists';
+  info: {
+    displayName: 'faqsList';
+  };
+  attributes: {
+    answer: Schema.Attribute.String;
+    question: Schema.Attribute.String;
+  };
+}
+
+export interface FaqsList extends Struct.ComponentSchema {
+  collectionName: 'components_faqs_lists';
+  info: {
+    displayName: 'list';
+  };
+  attributes: {
+    icon: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface FaqsTabs extends Struct.ComponentSchema {
+  collectionName: 'components_faqs_tabs';
+  info: {
+    displayName: 'tabs';
+  };
+  attributes: {
+    tabs: Schema.Attribute.Component<'faqs.tabs-tabs-section', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface FaqsTabsTabsSection extends Struct.ComponentSchema {
+  collectionName: 'components_faqs_tabs_tabs_sections';
+  info: {
+    displayName: 'tabs-tabsSection';
+  };
+  attributes: {
+    description: Schema.Attribute.String;
+    icon: Schema.Attribute.String;
+    tabId: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+  };
+}
+
+export interface FaqsTryAsking extends Struct.ComponentSchema {
+  collectionName: 'components_faqs_try_askings';
+  info: {
+    displayName: 'tryAsking';
+  };
+  attributes: {
+    list: Schema.Attribute.Component<'faqs.list', true>;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface GenerateEkycAnnualIncome extends Struct.ComponentSchema {
   collectionName: 'components_generate_ekyc_annual_incomes';
   info: {
@@ -4247,7 +4587,7 @@ export interface HomepageBlogs extends Struct.ComponentSchema {
     description: Schema.Attribute.String;
     list: Schema.Attribute.Component<'homepage.list-blogs-page', true>;
     readMoreCta: Schema.Attribute.String;
-    title: Schema.Attribute.Component<'homepage.title-why-section', false>;
+    title: Schema.Attribute.Component<'homepage.title', false>;
     viewAllBlogsCta: Schema.Attribute.String;
     week: Schema.Attribute.String;
   };
@@ -4268,10 +4608,12 @@ export interface HomepageBlogsBlogPage extends Struct.ComponentSchema {
 export interface HomepageBottomCards extends Struct.ComponentSchema {
   collectionName: 'components_homepage_bottom_cards';
   info: {
+    description: '';
     displayName: 'bottomCards';
   };
   attributes: {
     description: Schema.Attribute.String;
+    image: Schema.Attribute.String;
     title: Schema.Attribute.Component<'homepage.title', false>;
   };
 }
@@ -4339,16 +4681,20 @@ export interface HomepageCardsWhySection extends Struct.ComponentSchema {
 export interface HomepageCustomerReviews extends Struct.ComponentSchema {
   collectionName: 'components_homepage_customer_reviews';
   info: {
+    description: '';
     displayName: 'customerReviews';
   };
   attributes: {
+    btnCta: Schema.Attribute.String;
+    btnLink: Schema.Attribute.String;
     description: Schema.Attribute.String;
+    quote: Schema.Attribute.String;
     ratings: Schema.Attribute.String;
     reviews: Schema.Attribute.Component<
       'homepage.reviews-customer-review-section',
       true
     >;
-    title: Schema.Attribute.Component<'homepage.title', false>;
+    title: Schema.Attribute.String;
   };
 }
 
@@ -4362,13 +4708,13 @@ export interface HomepageDownload extends Struct.ComponentSchema {
     appStoreImage: Schema.Attribute.String;
     appStoreLink: Schema.Attribute.String;
     description: Schema.Attribute.String;
+    mobilePhone: Schema.Attribute.String;
     phone: Schema.Attribute.String;
     playStoreImage: Schema.Attribute.String;
     playStoreLink: Schema.Attribute.String;
     qr: Schema.Attribute.String;
     scanLabel: Schema.Attribute.String;
     title: Schema.Attribute.Component<'homepage.title-download-section', false>;
-    waveImage: Schema.Attribute.String;
   };
 }
 
@@ -4391,7 +4737,6 @@ export interface HomepageEcoSystem extends Struct.ComponentSchema {
     title: Schema.Attribute.String;
     topTitle: Schema.Attribute.String;
     userImages: Schema.Attribute.Component<'homepage.user-images', true>;
-    waveImage: Schema.Attribute.String;
   };
 }
 
@@ -4450,11 +4795,12 @@ export interface HomepagePlans extends Struct.ComponentSchema {
 export interface HomepagePrimaryProducts extends Struct.ComponentSchema {
   collectionName: 'components_homepage_primary_products';
   info: {
+    description: '';
     displayName: 'primaryProducts';
   };
   attributes: {
     image: Schema.Attribute.String;
-    inNew: Schema.Attribute.String;
+    isNew: Schema.Attribute.Boolean;
     link: Schema.Attribute.String;
     subTitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
@@ -4527,10 +4873,11 @@ export interface HomepageSteps extends Struct.ComponentSchema {
     displayName: 'steps';
   };
   attributes: {
-    description: Schema.Attribute.String;
     image: Schema.Attribute.String;
+    primaryCta: Schema.Attribute.String;
     steps: Schema.Attribute.Component<'homepage.steps-step-page', true>;
-    title: Schema.Attribute.Component<'homepage.title-why-section', false>;
+    tagText: Schema.Attribute.String;
+    title: Schema.Attribute.Component<'homepage.title', false>;
   };
 }
 
@@ -4555,14 +4902,6 @@ export interface HomepageTitle extends Struct.ComponentSchema {
   };
 }
 
-export interface HomepageTitleBlogsPage extends Struct.ComponentSchema {
-  collectionName: 'components_homepage_title_blogs_pages';
-  info: {
-    displayName: 'titleBlogsPage';
-  };
-  attributes: {};
-}
-
 export interface HomepageTitleDownloadSection extends Struct.ComponentSchema {
   collectionName: 'components_homepage_title_download_sections';
   info: {
@@ -4578,7 +4917,8 @@ export interface HomepageTitleDownloadSection extends Struct.ComponentSchema {
 export interface HomepageTitleQuickAccess extends Struct.ComponentSchema {
   collectionName: 'components_homepage_title_quick_accesses';
   info: {
-    displayName: 'titleQuickAccess';
+    description: '';
+    displayName: 'titleFirstSecond';
   };
   attributes: {
     first: Schema.Attribute.String;
@@ -4589,7 +4929,8 @@ export interface HomepageTitleQuickAccess extends Struct.ComponentSchema {
 export interface HomepageTitleWhySection extends Struct.ComponentSchema {
   collectionName: 'components_homepage_title_why_sections';
   info: {
-    displayName: 'titleWhySection';
+    description: '';
+    displayName: 'titleTopBottom';
   };
   attributes: {
     bottom: Schema.Attribute.String;
@@ -7284,6 +7625,25 @@ declare module '@strapi/strapi' {
       'claims.banner': ClaimsBanner;
       'claims.claim-banner': ClaimsClaimBanner;
       'claims.tabs-claim-page': ClaimsTabsClaimPage;
+      'contact-us.banner': ContactUsBanner;
+      'contact-us.card1': ContactUsCard1;
+      'contact-us.card2': ContactUsCard2;
+      'contact-us.card3': ContactUsCard3;
+      'contact-us.cards': ContactUsCards;
+      'contact-us.cars': ContactUsCars;
+      'contact-us.contact': ContactUsContact;
+      'contact-us.contactt': ContactUsContactt;
+      'contact-us.emails': ContactUsEmails;
+      'contact-us.form-data': ContactUsFormData;
+      'contact-us.insurance-claim-offices': ContactUsInsuranceClaimOffices;
+      'contact-us.motor-and-other-insurance-claim-office': ContactUsMotorAndOtherInsuranceClaimOffice;
+      'contact-us.office-cards': ContactUsOfficeCards;
+      'contact-us.offices': ContactUsOffices;
+      'contact-us.officess': ContactUsOfficess;
+      'contact-us.products-list': ContactUsProductsList;
+      'contact-us.travel-insurance-claim-office': ContactUsTravelInsuranceClaimOffice;
+      'contact-us.ttttt': ContactUsTtttt;
+      'contact-us.whatsapp-card': ContactUsWhatsappCard;
       'customer-due-diligence.annual-income': CustomerDueDiligenceAnnualIncome;
       'customer-due-diligence.customer-due-diligence': CustomerDueDiligenceCustomerDueDiligence;
       'customer-due-diligence.ekyc-details': CustomerDueDiligenceEkycDetails;
@@ -7403,6 +7763,14 @@ declare module '@strapi/strapi' {
       'ekyc-track.title-and-description': EkycTrackTitleAndDescription;
       'ekyc-track.toast': EkycTrackToast;
       'ekyc-track.tracking-kyc-dump': EkycTrackTrackingKycDump;
+      'faqs.banner': FaqsBanner;
+      'faqs.bread-crumb': FaqsBreadCrumb;
+      'faqs.faq-page': FaqsFaqPage;
+      'faqs.faqs-list': FaqsFaqsList;
+      'faqs.list': FaqsList;
+      'faqs.tabs': FaqsTabs;
+      'faqs.tabs-tabs-section': FaqsTabsTabsSection;
+      'faqs.try-asking': FaqsTryAsking;
       'generate-ekyc.annual-income': GenerateEkycAnnualIncome;
       'generate-ekyc.calendar': GenerateEkycCalendar;
       'generate-ekyc.checkbox': GenerateEkycCheckbox;
@@ -7490,7 +7858,6 @@ declare module '@strapi/strapi' {
       'homepage.steps': HomepageSteps;
       'homepage.steps-step-page': HomepageStepsStepPage;
       'homepage.title': HomepageTitle;
-      'homepage.title-blogs-page': HomepageTitleBlogsPage;
       'homepage.title-download-section': HomepageTitleDownloadSection;
       'homepage.title-quick-access': HomepageTitleQuickAccess;
       'homepage.title-why-section': HomepageTitleWhySection;

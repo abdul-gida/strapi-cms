@@ -1001,6 +1001,51 @@ export interface ApiClaimClaim extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiContactUsContactUs extends Struct.SingleTypeSchema {
+  collectionName: 'contact_uses';
+  info: {
+    description: '';
+    displayName: 'ContactUs';
+    pluralName: 'contact-uses';
+    singularName: 'contact-us';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    accessible24x7: Schema.Attribute.String;
+    addressBg: Schema.Attribute.String;
+    banner: Schema.Attribute.Component<'contact-us.banner', false>;
+    cards: Schema.Attribute.Component<'contact-us.cards', true>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.String;
+    disclaimer: Schema.Attribute.String;
+    insuranceClaimOffices: Schema.Attribute.Component<
+      'contact-us.insurance-claim-offices',
+      false
+    >;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::contact-us.contact-us'
+    > &
+      Schema.Attribute.Private;
+    motorAndOtherInsuranceClaimOffice: Schema.Attribute.Component<
+      'contact-us.motor-and-other-insurance-claim-office',
+      false
+    >;
+    officeCards: Schema.Attribute.Component<'contact-us.office-cards', true>;
+    publishedAt: Schema.Attribute.DateTime;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    whatsappCard: Schema.Attribute.Component<'contact-us.whatsapp-card', false>;
+  };
+}
+
 export interface ApiCustomerDueDiligenceCustomerDueDiligence
   extends Struct.SingleTypeSchema {
   collectionName: 'customer_due_diligences';
@@ -1547,6 +1592,54 @@ export interface ApiEkycTrackEkycTrack extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiFaqFaq extends Struct.SingleTypeSchema {
+  collectionName: 'faqs';
+  info: {
+    description: '';
+    displayName: 'Faq';
+    pluralName: 'faqs';
+    singularName: 'faq';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    banner: Schema.Attribute.Component<'faqs.banner', false>;
+    carInsurance: Schema.Attribute.Component<'faqs.faq-page', false>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    criticalIllnessInsurance: Schema.Attribute.Component<
+      'faqs.faq-page',
+      false
+    >;
+    healthInsurance: Schema.Attribute.Component<'faqs.faq-page', false>;
+    healthSuraksha: Schema.Attribute.Component<'faqs.faq-page', false>;
+    healthSurakshaTopUpPlus: Schema.Attribute.Component<'faqs.faq-page', false>;
+    homeInsurance: Schema.Attribute.Component<'faqs.faq-page', false>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::faq.faq'> &
+      Schema.Attribute.Private;
+    myHealthMedisureSuperTopUpHealthInsurancePolicy: Schema.Attribute.Component<
+      'faqs.faq-page',
+      false
+    >;
+    personalAccident: Schema.Attribute.Component<'faqs.faq-page', false>;
+    publishedAt: Schema.Attribute.DateTime;
+    standardFireAndSpecialPerilsInsurance: Schema.Attribute.Component<
+      'faqs.faq-page',
+      false
+    >;
+    studentSurakshaTravel: Schema.Attribute.Component<'faqs.faq-page', false>;
+    tabs: Schema.Attribute.Component<'faqs.tabs', false>;
+    travelInsurance: Schema.Attribute.Component<'faqs.faq-page', false>;
+    twoWheelerInsurance: Schema.Attribute.Component<'faqs.faq-page', false>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiGenerateEkycGenerateEkyc extends Struct.SingleTypeSchema {
   collectionName: 'generate_ekycs';
   info: {
@@ -1796,7 +1889,7 @@ export interface ApiHomepageHomepage extends Struct.SingleTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    updates: Schema.Attribute.Component<'homepage.updates', true>;
+    updates: Schema.Attribute.Component<'homepage.updates', false>;
     videos: Schema.Attribute.Component<'homepage.videos', false>;
     why: Schema.Attribute.Component<'homepage.why', false>;
   };
@@ -3036,6 +3129,7 @@ declare module '@strapi/strapi' {
       'api::career.career': ApiCareerCareer;
       'api::category.category': ApiCategoryCategory;
       'api::claim.claim': ApiClaimClaim;
+      'api::contact-us.contact-us': ApiContactUsContactUs;
       'api::customer-due-diligence.customer-due-diligence': ApiCustomerDueDiligenceCustomerDueDiligence;
       'api::dashboard-buy-insurance.dashboard-buy-insurance': ApiDashboardBuyInsuranceDashboardBuyInsurance;
       'api::dashboard-ecosystem.dashboard-ecosystem': ApiDashboardEcosystemDashboardEcosystem;
@@ -3048,6 +3142,7 @@ declare module '@strapi/strapi' {
       'api::document-uploader.document-uploader': ApiDocumentUploaderDocumentUploader;
       'api::e-kyc-procedure.e-kyc-procedure': ApiEKycProcedureEKycProcedure;
       'api::ekyc-track.ekyc-track': ApiEkycTrackEkycTrack;
+      'api::faq.faq': ApiFaqFaq;
       'api::generate-ekyc.generate-ekyc': ApiGenerateEkycGenerateEkyc;
       'api::global.global': ApiGlobalGlobal;
       'api::health-claim.health-claim': ApiHealthClaimHealthClaim;
