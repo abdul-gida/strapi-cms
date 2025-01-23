@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_pdp_pdp_our_distinguished_legacies",
+  "info": {
+    "displayName": "Pdp-OurDistinguishedLegacy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "displayName": "odl-title",
+      "type": "component",
+      "repeatable": false,
+      "component": "pdp.odl-title"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "odl-cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.odl-cards"
+    }
+  }
+}

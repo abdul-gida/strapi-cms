@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_pdp_videos",
+  "info": {
+    "displayName": "videos"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

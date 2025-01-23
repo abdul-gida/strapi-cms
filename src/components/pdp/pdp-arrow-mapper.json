@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pdp_pdp_arrow_mappers",
+  "info": {
+    "displayName": "Pdp-ArrowMapper"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "steps": {
+      "displayName": "steps",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.steps"
+    }
+  }
+}

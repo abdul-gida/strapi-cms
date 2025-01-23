@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pdp_odl_titles",
+  "info": {
+    "displayName": "odl-title"
+  },
+  "options": {},
+  "attributes": {
+    "first": {
+      "type": "string"
+    },
+    "second": {
+      "type": "string"
+    }
+  }
+}

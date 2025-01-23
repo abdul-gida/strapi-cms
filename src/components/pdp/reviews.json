@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pdp_reviews",
+  "info": {
+    "displayName": "reviews"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "stars": {
+      "type": "string"
+    },
+    "review": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

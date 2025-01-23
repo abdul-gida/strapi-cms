@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pdp_odl_cards",
+  "info": {
+    "displayName": "odl-cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "years": {
+      "type": "string"
+    }
+  }
+}

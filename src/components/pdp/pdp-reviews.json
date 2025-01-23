@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_pdp_pdp_reviews",
+  "info": {
+    "displayName": "Pdp-Reviews"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ratings": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "string"
+    },
+    "btnCta": {
+      "type": "string"
+    },
+    "btnLink": {
+      "type": "string"
+    },
+    "reviews": {
+      "displayName": "reviews",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.reviews"
+    }
+  }
+}
