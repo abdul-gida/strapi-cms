@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_pdp_locator_lists",
+  "info": {
+    "displayName": "locatorList"
+  },
+  "options": {},
+  "attributes": {
+    "tabLabel": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "btnCta": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

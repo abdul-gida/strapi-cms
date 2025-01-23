@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pdp_pdp_clickable_cards",
+  "info": {
+    "displayName": "Pdp-ClickableCards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "rightIcon": {
+      "type": "string"
+    },
+    "gridCount": {
+      "type": "string"
+    },
+    "list": {
+      "displayName": "clickableCardsList",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.clickable-cards-list"
+    }
+  }
+}

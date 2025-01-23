@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pdps",
+  "info": {
+    "singularName": "pdp",
+    "pluralName": "pdps",
+    "displayName": "pdp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "pdp.trustmarkers"
+      ]
+    }
+  }
+}
