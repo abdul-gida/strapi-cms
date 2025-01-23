@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pdp_faq_section_faqs",
+  "info": {
+    "displayName": "FaqSectionFaq"
+  },
+  "options": {},
+  "attributes": {
+    "cta": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "FaqSectionCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.faq-section-cards"
+    }
+  }
+}

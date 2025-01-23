@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pdp_pdp_title_desc_cards",
+  "info": {
+    "displayName": "Pdp-TitleDescCards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "TitleDescCardsCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.title-desc-cards-cards"
+    }
+  }
+}
