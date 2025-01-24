@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_pdp_pdp_app_carousels",
+  "info": {
+    "displayName": "Pdp-AppCarousel"
+  },
+  "options": {},
+  "attributes": {
+    "appLogo": {
+      "type": "string"
+    },
+    "titleStart": {
+      "type": "string"
+    },
+    "highlight": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "banners": {
+      "displayName": "ac-banners",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.ac-banners"
+    }
+  }
+}

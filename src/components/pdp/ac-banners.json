@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pdp_ac_banners",
+  "info": {
+    "displayName": "ac-banners"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "mobileImage": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
