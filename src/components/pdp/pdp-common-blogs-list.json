@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pdp_pdp_common_blogs_lists",
+  "info": {
+    "displayName": "Pdp-CommonBlogsList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "numberOfCards": {
+      "type": "integer"
+    }
+  }
+}

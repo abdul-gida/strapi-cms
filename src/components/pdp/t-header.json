@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pdp_t_headers",
+  "info": {
+    "displayName": "t-header"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "displayName": "th-header",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.th-header"
+    },
+    "items": {
+      "displayName": "t-items",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.t-items"
+    }
+  }
+}
