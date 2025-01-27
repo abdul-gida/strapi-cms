@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pdp_pdp_product_bread_crumbs",
+  "info": {
+    "displayName": "Pdp-ProductBreadCrumbs"
+  },
+  "options": {},
+  "attributes": {
+    "crumbs": {
+      "displayName": "pbc-crumbs",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.pbc-crumbs"
+    }
+  }
+}
