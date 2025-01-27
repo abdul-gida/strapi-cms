@@ -1,0 +1,187 @@
+{
+  "kind": "singleType",
+  "collectionName": "car_insurances",
+  "info": {
+    "singularName": "car-insurance",
+    "pluralName": "car-insurances",
+    "displayName": "Car Insurance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "displayName": "title",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.title"
+    },
+    "badgeLabel": {
+      "type": "string"
+    },
+    "talkToExpert": {
+      "displayName": "talkToExpert",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.talk-to-expert"
+    },
+    "points": {
+      "displayName": "points",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.points"
+    },
+    "policyDetails": {
+      "displayName": "policyDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.policy-details"
+    },
+    "form": {
+      "displayName": "form",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.form"
+    },
+    "carInsuranceNote": {
+      "displayName": "carInsuranceNote",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.car-insurance-note"
+    },
+    "breadCrumbs": {
+      "displayName": "breadCrumbs",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.bread-crumbs"
+    },
+    "trustMarkers": {
+      "displayName": "trustMarkers",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.trust-markers"
+    },
+    "carInsuranceDetails": {
+      "displayName": "carInsuranceDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.car-insurance-details"
+    },
+    "carInsurancePremiumDetails": {
+      "displayName": "carInsurancePremiumDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.car-insurance-premium-details"
+    },
+    "comparePolicySection": {
+      "displayName": "comparePolicySection",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.compare-policy-section"
+    },
+    "whyPremiumCalculatorSection": {
+      "displayName": "whyPremiumCalculatorSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.why-premium-calculator-section"
+    },
+    "dividerOne": {
+      "displayName": "dividerOneOne",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.divider-one-one"
+    },
+    "keyFeatures": {
+      "displayName": "keyFeatures",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.key-features"
+    },
+    "dividerTwo": {
+      "displayName": "dividerTwo",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.divider-two"
+    },
+    "insuranceAddOns": {
+      "displayName": "insuranceAddOns",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.insurance-add-ons"
+    },
+    "factorsEffectingCarInsuranceSection": {
+      "displayName": "factorsEffectingCarInsuranceSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.factors-effecting-car-insurance-section"
+    },
+    "reducePremiumSection": {
+      "displayName": "reducePremiumSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.reduce-premium-section"
+    },
+    "howToCalculateInsuranceSection": {
+      "displayName": "howToCalculateInsuranceSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.how-to-calculate-insurance-section"
+    },
+    "dividerThree": {
+      "displayName": "dividerThree",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.divider-three"
+    },
+    "buyRenewSection": {
+      "displayName": "buyRenewSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.buy-renew-section"
+    },
+    "factorsBuyingCarInsuranceSection": {
+      "displayName": "factorsBuyingCarInsuranceSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.factors-buying-car-insurance-section"
+    },
+    "howToFileClaimSection": {
+      "displayName": "howToFileClaimSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.how-to-file-claim-section"
+    },
+    "popularBrands": {
+      "displayName": "popularBrands",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.popular-brands"
+    },
+    "popularModels": {
+      "displayName": "popularModels",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.popular-models"
+    },
+    "carInsuranceCalc": {
+      "displayName": "carInsuranceCalc",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.car-insurance-calc"
+    },
+    "typesOfCarInsurance": {
+      "displayName": "typesOfCarInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.types-of-car-insurance"
+    },
+    "carInsuranceRates": {
+      "displayName": "carInsuranceRates",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.car-insurance-rates"
+    }
+  }
+}

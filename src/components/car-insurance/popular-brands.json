@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_popular_brands",
+  "info": {
+    "displayName": "popularBrands"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "brands": {
+      "displayName": "brands",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.brands"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_points_ones",
+  "info": {
+    "displayName": "pointsOne"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}

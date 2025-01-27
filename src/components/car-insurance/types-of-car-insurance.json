@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_types_of_car_insurances",
+  "info": {
+    "displayName": "typesOfCarInsurance"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "points": {
+      "displayName": "pointsSeven",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.points-seven"
+    }
+  }
+}

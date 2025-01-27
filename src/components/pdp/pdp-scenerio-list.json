@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pdp_pdp_scenerio_lists",
+  "info": {
+    "displayName": "Pdp-ScenerioList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "ScenerioListCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.scenerio-list-cards"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_car_insurance_new_cars",
+  "info": {
+    "displayName": "New Cars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "string"
+    },
+    "points": {
+      "displayName": "pointsSix",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.points-six"
+    }
+  }
+}

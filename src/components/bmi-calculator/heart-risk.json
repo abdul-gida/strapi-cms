@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_bmi_calculator_heart_risks",
+  "info": {
+    "displayName": "heartRisk"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "overWeight": {
+      "displayName": "overWeight",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.over-weight"
+    },
+    "underWeight": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.over-weight"
+    }
+  }
+}

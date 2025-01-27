@@ -1,24 +1,23 @@
 {
-  "collectionName": "components_health_claim_contact_details",
+  "collectionName": "components_pdp_locator_lists",
   "info": {
-    "displayName": "contactDetails",
-    "description": ""
+    "displayName": "locatorList"
   },
   "options": {},
   "attributes": {
-    "description": {
+    "tabLabel": {
       "type": "string"
     },
     "title": {
       "type": "string"
     },
-    "imageUrl": {
+    "description": {
       "type": "string"
     },
-    "enterAmountLabel": {
+    "btnCta": {
       "type": "string"
     },
-    "leastCharLabel": {
+    "link": {
       "type": "string"
     }
   }

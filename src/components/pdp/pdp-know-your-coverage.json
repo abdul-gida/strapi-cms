@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pdp_pdp_know_your_coverages",
+  "info": {
+    "displayName": "Pdp-KnowYourCoverage"
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "gridCount": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "content": {
+      "displayName": "KnowYourCoverageContent",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.know-your-coverage-content"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pdp_clickable_cards_lists",
+  "info": {
+    "displayName": "clickableCardsList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

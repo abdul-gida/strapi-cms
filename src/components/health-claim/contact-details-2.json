@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_health_claim_contact_details",
+  "collectionName": "components_health_claim_contact_details_2s",
   "info": {
-    "displayName": "contactDetails",
-    "description": ""
+    "displayName": "contactDetails-2"
   },
   "options": {},
   "attributes": {
@@ -15,10 +14,10 @@
     "imageUrl": {
       "type": "string"
     },
-    "enterAmountLabel": {
+    "validEmailLabel": {
       "type": "string"
     },
-    "leastCharLabel": {
+    "validNumberLabel": {
       "type": "string"
     }
   }

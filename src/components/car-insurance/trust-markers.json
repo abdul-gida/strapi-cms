@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_car_insurance_trust_markers",
+  "info": {
+    "displayName": "trustMarkers"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_health_insurance_talk_to_experts",
+  "info": {
+    "displayName": "talkToExpert"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "mobileNo": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_pdp_trustmarkers",
+  "info": {
+    "displayName": "Pdp-Trustmarkers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "imageUrl": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "type": {
+      "type": "string",
+      "default": "trustMarkers"
+    }
+  }
+}

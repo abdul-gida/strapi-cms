@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_car_insurance_points_fours",
+  "info": {
+    "displayName": "pointsFour"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

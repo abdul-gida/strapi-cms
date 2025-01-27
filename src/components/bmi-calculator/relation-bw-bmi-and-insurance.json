@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_bmi_calculator_relation_bw_bmi_and_insurances",
+  "info": {
+    "displayName": "relationBwBmiAndInsurance"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bmi-calculator.cards"
+    }
+  }
+}

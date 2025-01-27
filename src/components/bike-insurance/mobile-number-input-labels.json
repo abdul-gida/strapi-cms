@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_bike_insurance_mobile_number_input_labels",
+  "info": {
+    "displayName": "mobileNumberInputLabels"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "verifyLabel": {
+      "type": "string"
+    }
+  }
+}

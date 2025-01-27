@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pdp_pdp_popular_models",
+  "info": {
+    "displayName": "Pdp-PopularModels"
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "bgImage": {
+      "type": "string"
+    },
+    "mobileBgImage": {
+      "type": "string"
+    },
+    "models": {
+      "displayName": "PopularModelsModels",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.popular-models-models"
+    }
+  }
+}

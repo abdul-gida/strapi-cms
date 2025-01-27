@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_bike_insurance_popular_brands",
+  "info": {
+    "displayName": "popularBrands"
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "brands": {
+      "displayName": "brands",
+      "type": "component",
+      "repeatable": true,
+      "component": "bike-insurance.brands"
+    }
+  }
+}

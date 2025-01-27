@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_bike_insurance_vehicle_details",
+  "info": {
+    "displayName": "vehicleDetails"
+  },
+  "options": {},
+  "attributes": {
+    "bikeUrl": {
+      "type": "string"
+    },
+    "electricVehicleImageUrl": {
+      "type": "string"
+    },
+    "normalVehicleImageUrl": {
+      "type": "string"
+    }
+  }
+}

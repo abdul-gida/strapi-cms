@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_motor_renewal_motor_mappers",
+  "info": {
+    "displayName": "motorMapper"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "planCoverage": {
+      "displayName": "planCoverage",
+      "type": "component",
+      "repeatable": true,
+      "component": "motor-renewal.plan-coverage"
+    }
+  }
+}

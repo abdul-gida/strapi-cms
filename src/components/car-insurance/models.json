@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_car_insurance_models",
+  "info": {
+    "displayName": "models"
+  },
+  "options": {},
+  "attributes": {
+    "model": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    }
+  }
+}

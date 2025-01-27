@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_bmi_calculator_report_labels",
+  "info": {
+    "displayName": "reportLabels",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bodyMassCardLabels": {
+      "displayName": "bodyMassCardLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.body-mass-card-labels"
+    },
+    "optimaSecurePlanCardLabels": {
+      "displayName": "optimaSecurePlanCardLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.optima-secure-plan-card-labels"
+    },
+    "bmiClassificationCardLabels": {
+      "displayName": "bmiClassificationCardLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.bmi-classification-card-labels"
+    }
+  }
+}

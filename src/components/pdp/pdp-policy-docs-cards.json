@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pdp_pdp_policy_docs_cards",
+  "info": {
+    "displayName": "Pdp-PolicyDocsCards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "PolicyDocsCardsCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.policy-docs-cards-cards"
+    }
+  }
+}

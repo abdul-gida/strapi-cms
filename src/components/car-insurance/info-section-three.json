@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_car_insurance_info_section_threes",
+  "info": {
+    "displayName": "infoSectionThree",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "thirdParty": {
+      "displayName": "thirdParty",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.third-party"
+    },
+    "longTerm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.third-party"
+    },
+    "thirdPartyElectric": {
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.third-party"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_car_insurance_how_to_calculate_insurance_sections",
+  "info": {
+    "displayName": "howToCalculateInsuranceSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "steps": {
+      "displayName": "steps",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.steps"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

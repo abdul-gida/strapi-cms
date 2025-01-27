@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_bike_insurance_idvs",
+  "info": {
+    "displayName": "idv"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "minIdvLabel": {
+      "type": "string"
+    },
+    "recommendedLabel": {
+      "type": "string"
+    },
+    "maxIdvLabel": {
+      "type": "string"
+    }
+  }
+}

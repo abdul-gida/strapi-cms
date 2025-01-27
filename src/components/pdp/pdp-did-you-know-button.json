@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pdp_pdp_did_you_know_buttons",
+  "info": {
+    "displayName": "Pdp-DidYouKnowButton"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

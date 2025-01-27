@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_bmi_calculator_is_your_home_protecteds",
+  "info": {
+    "displayName": "isYourHomeProtected"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

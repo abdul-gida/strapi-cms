@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_bike_insurance_cards_twos",
+  "info": {
+    "displayName": "cardsTwo"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}

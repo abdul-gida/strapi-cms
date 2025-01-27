@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pdp_faq_section_cards",
+  "info": {
+    "displayName": "FaqSectionCards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_health_insurance_forms",
+  "info": {
+    "displayName": "form"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "badgeLabel": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "mobileNumberLabel": {
+      "displayName": "mobileNumberLabel",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance.mobile-number-label"
+    },
+    "ageLabels": {
+      "displayName": "ageLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance.age-labels"
+    },
+    "pinCodeLabels": {
+      "displayName": "pinCodeLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance.pin-code-labels"
+    },
+    "viewPlansCtaLabel": {
+      "type": "string"
+    },
+    "termsAndConditions": {
+      "type": "string"
+    }
+  }
+}

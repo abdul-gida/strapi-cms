@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_car_insurance_steps",
+  "info": {
+    "displayName": "steps"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_rows",
+  "info": {
+    "displayName": "rows"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "comparisonCover": {
+      "type": "string"
+    },
+    "thirdPartyCover": {
+      "type": "string"
+    }
+  }
+}
