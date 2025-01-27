@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_health_insurance_general_insurance_stepper_details",
+  "info": {
+    "displayName": "generalInsuranceStepperDetails",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "stepperData": {
+      "displayName": "stepperData",
+      "type": "component",
+      "repeatable": true,
+      "component": "health-insurance.stepper-data"
+    }
+  }
+}

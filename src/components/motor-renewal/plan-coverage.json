@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_motor_renewal_plan_coverages",
+  "info": {
+    "displayName": "planCoverage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "isCovered": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

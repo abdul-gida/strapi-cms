@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pdp_pdp_faq_sections",
+  "info": {
+    "displayName": "Pdp-FaqSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "faqs": {
+      "displayName": "FaqSectionFaq",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.faq-section-faq"
+    },
+    "moreQuestions": {
+      "displayName": "FaqSectionMoreQuestions",
+      "type": "component",
+      "repeatable": false,
+      "component": "pdp.faq-section-more-questions"
+    }
+  }
+}

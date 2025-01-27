@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_car_insurance_factors_buying_car_insurance_sections",
+  "info": {
+    "displayName": "factorsBuyingCarInsuranceSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc1": {
+      "type": "string"
+    },
+    "desc2": {
+      "type": "string"
+    },
+    "points": {
+      "displayName": "pointsThree",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.points-three"
+    },
+    "noteSection": {
+      "displayName": "noteSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.note-section"
+    }
+  }
+}

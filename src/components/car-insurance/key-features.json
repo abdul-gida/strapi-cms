@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_key_features",
+  "info": {
+    "displayName": "keyFeatures"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "points": {
+      "displayName": "pointsOne",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.points-one"
+    }
+  }
+}

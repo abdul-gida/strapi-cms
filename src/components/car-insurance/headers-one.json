@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_car_insurance_headers_ones",
+  "info": {
+    "displayName": "headersOne"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

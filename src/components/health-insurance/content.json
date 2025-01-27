@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_health_insurance_contents",
+  "info": {
+    "displayName": "content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "breadCrumbs": {
+      "displayName": "breadCrumbs",
+      "type": "component",
+      "repeatable": true,
+      "component": "health-insurance.bread-crumbs"
+    },
+    "healthCalculatorPremiumDetails": {
+      "displayName": "healthCalculatorPremiumDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance.health-calculator-premium-details"
+    },
+    "medicalInsurancePremiumDetails": {
+      "displayName": "medicalInsurancePremiumDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance.medical-insurance-premium-details"
+    },
+    "generalInsuranceStepperDetails": {
+      "displayName": "generalInsuranceStepperDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance.general-insurance-stepper-details"
+    },
+    "relatedArticles": {
+      "displayName": "relatedArticles",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance.related-articles"
+    },
+    "relatedVideos": {
+      "displayName": "relatedVideos",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance.related-videos"
+    }
+  }
+}

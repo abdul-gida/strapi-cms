@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pdp_pdp_title_desc_images",
+  "info": {
+    "displayName": "Pdp-TitleDescImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "bottomText": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

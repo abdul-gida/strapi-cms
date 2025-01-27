@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_health_insurance_medical_insurance_premium_details",
+  "info": {
+    "displayName": "medicalInsurancePremiumDetails"
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "premiumCtaLabel": {
+      "type": "string"
+    }
+  }
+}

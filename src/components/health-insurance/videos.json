@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_health_insurance_videos",
+  "info": {
+    "displayName": "videos"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

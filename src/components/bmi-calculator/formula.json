@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_bmi_calculator_formulas",
+  "info": {
+    "displayName": "formula"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "displayName": "desc",
+      "type": "component",
+      "repeatable": true,
+      "component": "bmi-calculator.desc"
+    },
+    "interpretationTitle": {
+      "type": "string"
+    },
+    "interpretationDesc": {
+      "type": "string"
+    },
+    "bmiDistribution": {
+      "displayName": "bmiDistribution",
+      "type": "component",
+      "repeatable": true,
+      "component": "bmi-calculator.bmi-distribution"
+    }
+  }
+}

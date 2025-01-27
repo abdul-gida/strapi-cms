@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_bmi_calculator_bmi_for_women",
+  "info": {
+    "displayName": "bmiForWomen"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

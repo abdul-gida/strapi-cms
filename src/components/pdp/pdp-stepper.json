@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pdp_pdp_steppers",
+  "info": {
+    "displayName": "Pdp-Stepper"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "steps": {
+      "displayName": "StepperSteps",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.stepper-steps"
+    }
+  }
+}

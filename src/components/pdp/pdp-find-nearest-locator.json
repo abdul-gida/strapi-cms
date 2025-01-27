@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pdp_pdp_find_nearest_locators",
+  "info": {
+    "displayName": "Pdp-FindNearestLocator"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "displayName": "locatorList",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.locator-list"
+    }
+  }
+}

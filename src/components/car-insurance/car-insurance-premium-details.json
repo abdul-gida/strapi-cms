@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_car_insurance_car_insurance_premium_details",
+  "info": {
+    "displayName": "carInsurancePremiumDetails"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "premiumDetailCardData": {
+      "displayName": "premiumDetailCardData",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.premium-detail-card-data"
+    },
+    "premiumCalculatorDetails": {
+      "displayName": "premiumCalculatorDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.premium-calculator-details"
+    }
+  }
+}

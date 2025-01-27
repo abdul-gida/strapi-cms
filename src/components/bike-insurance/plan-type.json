@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_bike_insurance_plan_types",
+  "info": {
+    "displayName": "planType"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "comprehensiveLabel": {
+      "type": "string"
+    },
+    "thirdPartyLabel": {
+      "type": "string"
+    }
+  }
+}

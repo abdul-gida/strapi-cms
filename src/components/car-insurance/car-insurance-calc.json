@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_car_insurance_car_insurance_calcs",
+  "info": {
+    "displayName": "carInsuranceCalc"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "noteSection": {
+      "displayName": "noteSectionOne",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.note-section-one"
+    },
+    "infoSection": {
+      "displayName": "infoSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.info-section"
+    }
+  }
+}

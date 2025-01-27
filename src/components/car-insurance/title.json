@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_car_insurance_titles",
+  "info": {
+    "displayName": "title"
+  },
+  "options": {},
+  "attributes": {
+    "t1": {
+      "type": "string"
+    },
+    "t2": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_bmi_calculator_banners",
+  "info": {
+    "displayName": "banner"
+  },
+  "options": {},
+  "attributes": {
+    "bgImage": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "mobileBgImage": {
+      "type": "string"
+    }
+  }
+}

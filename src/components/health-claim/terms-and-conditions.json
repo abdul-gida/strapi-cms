@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_health_claim_terms_and_conditions",
+  "info": {
+    "displayName": "termsAndConditions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

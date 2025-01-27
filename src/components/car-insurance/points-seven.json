@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_points_sevens",
+  "info": {
+    "displayName": "pointsSeven"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}

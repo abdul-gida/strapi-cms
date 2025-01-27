@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_bike_insurance_cards_ones",
+  "info": {
+    "displayName": "cardsOne"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

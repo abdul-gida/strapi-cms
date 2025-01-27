@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_buy_renew_sections",
+  "info": {
+    "displayName": "buyRenewSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cardsFour",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.cards-four"
+    }
+  }
+}

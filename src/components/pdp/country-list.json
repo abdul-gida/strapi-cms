@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pdp_country_lists",
+  "info": {
+    "displayName": "countryList"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    }
+  }
+}

@@ -111,6 +111,12 @@
       "type": "component",
       "repeatable": false,
       "component": "motor-renewal.no-claim-bonus-dump"
+    },
+    "motorMapper": {
+      "displayName": "motorMapper",
+      "type": "component",
+      "repeatable": true,
+      "component": "motor-renewal.motor-mapper"
     }
   }
 }

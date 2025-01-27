@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_car_insurance_bullet_points",
+  "info": {
+    "displayName": "bulletPoints",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "points": {
+      "displayName": "singlePoints",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.single-points"
+    }
+  }
+}

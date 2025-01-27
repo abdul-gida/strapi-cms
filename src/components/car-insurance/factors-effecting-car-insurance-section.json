@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_factors_effecting_car_insurance_sections",
+  "info": {
+    "displayName": "factorsEffectingCarInsuranceSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "factors": {
+      "displayName": "factors",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.factors"
+    }
+  }
+}

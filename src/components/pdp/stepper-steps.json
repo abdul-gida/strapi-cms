@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pdp_stepper_steps",
+  "info": {
+    "displayName": "StepperSteps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

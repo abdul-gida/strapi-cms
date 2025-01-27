@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_car_insurance_insurance_add_ons",
+  "info": {
+    "displayName": "insuranceAddOns"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "rightIcon": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cardsOne",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.cards-one"
+    }
+  }
+}

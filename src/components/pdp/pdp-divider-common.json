@@ -1,24 +1,26 @@
 {
-  "collectionName": "components_health_claim_contact_details",
+  "collectionName": "components_pdp_pdp_divider_commons",
   "info": {
-    "displayName": "contactDetails",
-    "description": ""
+    "displayName": "Pdp-DividerCommon"
   },
   "options": {},
   "attributes": {
-    "description": {
+    "image": {
       "type": "string"
     },
     "title": {
       "type": "string"
     },
-    "imageUrl": {
+    "subtitle": {
+      "type": "text"
+    },
+    "mail": {
       "type": "string"
     },
-    "enterAmountLabel": {
+    "cta": {
       "type": "string"
     },
-    "leastCharLabel": {
+    "link": {
       "type": "string"
     }
   }

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_car_insurance_city_labels",
+  "info": {
+    "displayName": "cityLabel"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

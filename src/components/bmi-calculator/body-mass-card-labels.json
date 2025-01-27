@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_bmi_calculator_body_mass_card_labels",
+  "info": {
+    "displayName": "bodyMassCardLabels"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "healthBmiLabel": {
+      "type": "string"
+    }
+  }
+}

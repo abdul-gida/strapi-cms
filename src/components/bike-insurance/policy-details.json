@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_bike_insurance_policy_details",
+  "info": {
+    "displayName": "policyDetails"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "planType": {
+      "displayName": "planType",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.plan-type"
+    },
+    "idv": {
+      "displayName": "idv",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.idv"
+    },
+    "vehicleDetails": {
+      "displayName": "vehicleDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "bike-insurance.vehicle-details"
+    },
+    "totalPremiumLabel": {
+      "type": "string"
+    },
+    "proceedToBuyCtaLabel": {
+      "type": "string"
+    }
+  }
+}

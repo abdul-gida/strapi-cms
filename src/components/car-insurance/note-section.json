@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_car_insurance_note_sections",
+  "info": {
+    "displayName": "noteSection"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "string"
+    }
+  }
+}

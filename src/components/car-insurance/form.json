@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_car_insurance_forms",
+  "info": {
+    "displayName": "form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "badgeLabel": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cityLabel": {
+      "displayName": "cityLabel",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.city-label"
+    },
+    "vehicleRegistrationNoLabels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.city-label"
+    },
+    "mobileNoLabels": {
+      "displayName": "mobileNoLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.mobile-no-labels"
+    },
+    "getAQuoteCtaLabel": {
+      "type": "string"
+    },
+    "termsAndConditions": {
+      "displayName": "termsAndConditions",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.terms-and-conditions"
+    }
+  }
+}
