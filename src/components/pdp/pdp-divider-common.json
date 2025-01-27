@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pdp_pdp_divider_commons",
+  "info": {
+    "displayName": "Pdp-DividerCommon"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "mail": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

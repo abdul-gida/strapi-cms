@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_pdp_popular_brands_brands",
+  "info": {
+    "displayName": "PopularBrandsBrands"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    }
+  }
+}

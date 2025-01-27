@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pdp_scenerio_notes",
+  "info": {
+    "displayName": "ScenerioNote"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

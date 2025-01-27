@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pdp_countries",
+  "info": {
+    "displayName": "country"
+  },
+  "options": {},
+  "attributes": {
+    "countryName": {
+      "type": "string"
+    },
+    "countryList": {
+      "displayName": "countryList",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.country-list"
+    }
+  }
+}

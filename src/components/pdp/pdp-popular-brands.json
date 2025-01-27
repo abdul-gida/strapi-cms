@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pdp_pdp_popular_brands",
+  "info": {
+    "displayName": "Pdp-PopularBrands"
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "brands": {
+      "displayName": "PopularBrandsBrands",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.popular-brands-brands"
+    }
+  }
+}

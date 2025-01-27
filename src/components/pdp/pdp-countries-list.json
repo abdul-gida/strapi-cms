@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_pdp_pdp_countries_lists",
+  "info": {
+    "displayName": "Pdp-CountriesList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "disclaimer": {
+      "type": "text"
+    },
+    "country": {
+      "displayName": "country",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.country"
+    }
+  }
+}
