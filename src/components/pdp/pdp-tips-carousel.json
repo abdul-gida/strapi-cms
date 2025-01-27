@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pdp_pdp_tips_carousels",
+  "info": {
+    "displayName": "Pdp-TipsCarousel"
+  },
+  "options": {},
+  "attributes": {
+    "tipsData": {
+      "displayName": "tc-TipsCarousel",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.tc-tips-carousel"
+    }
+  }
+}

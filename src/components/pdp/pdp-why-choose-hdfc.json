@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pdp_pdp_why_choose_hdfcs",
+  "info": {
+    "displayName": "Pdp-WhyChooseHdfc"
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "stepperData": {
+      "displayName": "wch-stepperData",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.wch-stepper-data"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pdp_ptm_product_trust_markers",
+  "info": {
+    "displayName": "ptm-ProductTrustMarkers"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

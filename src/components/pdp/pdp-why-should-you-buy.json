@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pdp_pdp_why_should_you_buys",
+  "info": {
+    "displayName": "Pdp-WhyShouldYouBuy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "wsyb-cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.wsyb-cards"
+    },
+    "videoCard": {
+      "displayName": "wsyc-videoCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "pdp.wsyc-video-card"
+    }
+  }
+}

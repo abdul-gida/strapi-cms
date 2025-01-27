@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_pdp_pdp_insurance_plans_data",
+  "info": {
+    "displayName": "Pdp-insurancePlansData"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "backgroundUrl": {
+      "type": "string"
+    },
+    "plansData": {
+      "displayName": "ipd-plansData",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.ipd-plans-data"
+    }
+  }
+}

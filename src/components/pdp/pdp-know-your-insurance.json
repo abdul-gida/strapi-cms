@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_pdp_pdp_know_your_insurances",
+  "info": {
+    "displayName": "Pdp-knowYourInsurance"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string"
+    },
+    "titleStart": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "buttonCta": {
+      "type": "string"
+    },
+    "steps": {
+      "displayName": "kyi-steps",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.kyi-steps"
+    },
+    "mobileImage": {
+      "displayName": "kyi-mobileImage",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.kyi-mobile-image"
+    },
+    "desktopImage": {
+      "displayName": "kyi-desktopImage",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.kyi-desktop-image"
+    }
+  }
+}

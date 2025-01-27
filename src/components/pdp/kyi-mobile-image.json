@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_pdp_kyi_mobile_images",
+  "info": {
+    "displayName": "kyi-mobileImage"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_pdp_kyi_desktop_images",
+  "info": {
+    "displayName": "kyi-desktopImage"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    }
+  }
+}

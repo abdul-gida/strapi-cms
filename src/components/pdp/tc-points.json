@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_pdp_tc_points",
+  "info": {
+    "displayName": "tc-points"
+  },
+  "options": {},
+  "attributes": {
+    "point": {
+      "type": "string"
+    }
+  }
+}

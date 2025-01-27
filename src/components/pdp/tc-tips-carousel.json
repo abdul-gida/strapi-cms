@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pdp_tc_tips_carousels",
+  "info": {
+    "displayName": "tc-TipsCarousel"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "points": {
+      "displayName": "tc-points",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.tc-points"
+    }
+  }
+}
