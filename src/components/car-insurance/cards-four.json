@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_car_insurance_cards_fours",
+  "info": {
+    "displayName": "cardsFour"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_policy_manual_linking_personal_infos",
   "info": {
-    "displayName": "personalInfo"
+    "displayName": "personalInfo",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,6 +13,9 @@
       "type": "string"
     },
     "buttonLabel": {
+      "type": "string"
+    },
+    "imageUrl": {
       "type": "string"
     }
   }

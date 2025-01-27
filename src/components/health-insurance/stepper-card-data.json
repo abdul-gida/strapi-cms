@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_health_insurance_stepper_card_data",
+  "info": {
+    "displayName": "stepperCardData"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

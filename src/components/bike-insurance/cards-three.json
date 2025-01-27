@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_bike_insurance_cards_threes",
+  "info": {
+    "displayName": "cardsThree"
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "highlight": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "points": {
+      "displayName": "pointsThree",
+      "type": "component",
+      "repeatable": true,
+      "component": "bike-insurance.points-three"
+    }
+  }
+}

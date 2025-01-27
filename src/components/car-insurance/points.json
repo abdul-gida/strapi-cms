@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_car_insurance_points",
+  "info": {
+    "displayName": "points",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

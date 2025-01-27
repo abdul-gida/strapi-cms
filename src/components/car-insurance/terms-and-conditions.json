@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_car_insurance_terms_and_conditions",
+  "info": {
+    "displayName": "termsAndConditions"
+  },
+  "options": {},
+  "attributes": {
+    "condition1": {
+      "type": "string"
+    },
+    "condition2": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_mobile_no_labels",
+  "info": {
+    "displayName": "mobileNoLabels"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeHolder": {
+      "type": "string"
+    },
+    "verifyCtaLabel": {
+      "type": "string"
+    }
+  }
+}

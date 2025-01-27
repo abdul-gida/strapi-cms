@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_bmi_calculator_overview_of_bmis",
+  "info": {
+    "displayName": "overviewOfBmi"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "bmi-calculator.cards"
+    }
+  }
+}

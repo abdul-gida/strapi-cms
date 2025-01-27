@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_bmi_calculator_forms",
+  "info": {
+    "displayName": "form"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "heightLabel": {
+      "displayName": "heightLabel",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.height-label"
+    },
+    "weightLabel": {
+      "displayName": "weightLabel",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.weight-label"
+    },
+    "calculatorCtaLabel": {
+      "type": "string"
+    }
+  }
+}

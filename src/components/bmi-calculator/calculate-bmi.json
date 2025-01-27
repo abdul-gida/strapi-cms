@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_bmi_calculator_calculate_bmis",
+  "info": {
+    "displayName": "calculateBmi"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

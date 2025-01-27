@@ -21,7 +21,7 @@
     "selectNature": {
       "displayName": "selectNature",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "motor-claim.select-nature"
     },
     "enterClaimDetails": {

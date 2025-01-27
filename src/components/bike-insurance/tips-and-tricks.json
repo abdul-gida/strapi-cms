@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_bike_insurance_tips_and_tricks",
+  "info": {
+    "displayName": "tipsAndTricks"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cardsThree",
+      "type": "component",
+      "repeatable": true,
+      "component": "bike-insurance.cards-three"
+    }
+  }
+}

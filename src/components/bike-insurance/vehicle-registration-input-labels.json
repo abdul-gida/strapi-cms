@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_bike_insurance_vehicle_registration_input_labels",
+  "info": {
+    "displayName": "vehicleRegistrationInputLabels"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

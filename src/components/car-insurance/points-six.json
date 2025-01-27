@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_car_insurance_points_sixes",
+  "info": {
+    "displayName": "pointsSix"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

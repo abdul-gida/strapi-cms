@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_bike_insurance_popular_models",
+  "info": {
+    "displayName": "popularModels"
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "string"
+    },
+    "mobileBackgroundImage": {
+      "type": "string"
+    },
+    "models": {
+      "displayName": "models",
+      "type": "component",
+      "repeatable": true,
+      "component": "bike-insurance.models"
+    }
+  }
+}

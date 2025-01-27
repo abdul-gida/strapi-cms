@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_health_insurance_points",
+  "info": {
+    "displayName": "points"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

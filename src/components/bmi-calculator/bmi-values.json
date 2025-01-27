@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_bmi_calculator_bmi_values",
+  "info": {
+    "displayName": "bmiValues",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "descImage": {
+      "type": "string"
+    },
+    "bmiFormula": {
+      "type": "string"
+    },
+    "bmiFormulaMobile": {
+      "type": "string"
+    },
+    "bmiScale": {
+      "type": "string"
+    },
+    "kidImage": {
+      "type": "string"
+    },
+    "bmiContent": {
+      "displayName": "bmiContent",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.bmi-content"
+    }
+  }
+}

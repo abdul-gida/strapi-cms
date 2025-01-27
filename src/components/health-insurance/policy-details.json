@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_health_insurance_policy_details",
+  "info": {
+    "displayName": "policyDetails",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "healthCoverage": {
+      "displayName": "healthCoverage",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance.health-coverage"
+    },
+    "deductibleLabel": {
+      "type": "string"
+    },
+    "totalPremiumLabel": {
+      "type": "string"
+    },
+    "proceedToBuyCtaLabel": {
+      "type": "string"
+    }
+  }
+}

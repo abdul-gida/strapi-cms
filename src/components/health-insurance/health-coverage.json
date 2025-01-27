@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_health_insurance_health_coverages",
+  "info": {
+    "displayName": "healthCoverage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "viewBenefits": {
+      "type": "string"
+    },
+    "preferredLabel": {
+      "type": "string"
+    },
+    "coverageLabel": {
+      "displayName": "coverageLabel",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance.coverage-label"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_article_components_info_requireds",
+  "info": {
+    "displayName": "infoRequired"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pointsTitle": {
+      "type": "string"
+    },
+    "points": {
+      "displayName": "pointsTwo",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.points-two"
+    }
+  }
+}

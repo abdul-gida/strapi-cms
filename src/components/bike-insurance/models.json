@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_bike_insurance_models",
+  "info": {
+    "displayName": "models"
+  },
+  "options": {},
+  "attributes": {
+    "bikeModel": {
+      "type": "string"
+    },
+    "bikeLogo": {
+      "type": "string"
+    }
+  }
+}

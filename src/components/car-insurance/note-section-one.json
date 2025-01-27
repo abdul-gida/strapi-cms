@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_note_section_ones",
+  "info": {
+    "displayName": "noteSectionOne"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "points": {
+      "displayName": "pointsFive",
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.points-five"
+    }
+  }
+}

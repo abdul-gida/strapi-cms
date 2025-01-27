@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_car_insurance_compare_policy_sections",
+  "info": {
+    "displayName": "comparePolicySection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tableData": {
+      "displayName": "tableData",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.table-data"
+    }
+  }
+}

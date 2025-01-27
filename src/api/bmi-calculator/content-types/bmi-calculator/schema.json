@@ -1,0 +1,99 @@
+{
+  "kind": "singleType",
+  "collectionName": "bmi_calculators",
+  "info": {
+    "singularName": "bmi-calculator",
+    "pluralName": "bmi-calculators",
+    "displayName": "Bmi Calculator",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "displayName": "title",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.title"
+    },
+    "form": {
+      "displayName": "form",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.form"
+    },
+    "reportLabels": {
+      "displayName": "reportLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.report-labels"
+    },
+    "calculateBmi": {
+      "displayName": "calculateBmi",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.calculate-bmi"
+    },
+    "idealBmi": {
+      "displayName": "idealBmi",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.ideal-bmi"
+    },
+    "overviewOfBmi": {
+      "displayName": "overviewOfBmi",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.overview-of-bmi"
+    },
+    "isYourHomeProtected": {
+      "displayName": "isYourHomeProtected",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.is-your-home-protected"
+    },
+    "bmiValues": {
+      "displayName": "bmiValues",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.bmi-values"
+    },
+    "dividerOne": {
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.divider-one"
+    },
+    "heartRisk": {
+      "displayName": "heartRisk",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.heart-risk"
+    },
+    "relationBwBmiAndInsurance": {
+      "displayName": "relationBwBmiAndInsurance",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.relation-bw-bmi-and-insurance"
+    },
+    "howReliableIsBmi": {
+      "displayName": "howReliableIsBmi",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.how-reliable-is-bmi"
+    },
+    "limitationOfBmi": {
+      "displayName": "limitationOfBmi",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.limitation-of-bmi"
+    },
+    "calcCards": {
+      "displayName": "calcCards",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.calc-cards"
+    }
+  }
+}

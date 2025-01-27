@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_car_insurance_old_cars",
+  "info": {
+    "displayName": "Old Cars"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "string"
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "car-insurance.points"
+    }
+  }
+}

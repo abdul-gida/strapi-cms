@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_car_insurance_headers",
+  "info": {
+    "displayName": "headers"
+  },
+  "options": {},
+  "attributes": {
+    "string": {
+      "type": "string"
+    }
+  }
+}

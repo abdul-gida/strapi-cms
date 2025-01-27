@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_bike_insurance_cards",
+  "info": {
+    "displayName": "cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

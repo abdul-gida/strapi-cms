@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_bike_insurance_why_is_it_importants",
+  "info": {
+    "displayName": "whyIsItImportant"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "bike-insurance.cards"
+    }
+  }
+}

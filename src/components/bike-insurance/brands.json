@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_bike_insurance_brands",
+  "info": {
+    "displayName": "brands"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

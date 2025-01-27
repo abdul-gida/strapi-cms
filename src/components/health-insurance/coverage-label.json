@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_health_insurance_coverage_labels",
+  "info": {
+    "displayName": "coverageLabel"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

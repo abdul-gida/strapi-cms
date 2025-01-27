@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_car_insurance_policy_details",
+  "info": {
+    "displayName": "policyDetails",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "planType": {
+      "displayName": "planType",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.plan-type"
+    },
+    "idv": {
+      "displayName": "idv",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.idv"
+    },
+    "vehicleDetails": {
+      "displayName": "vehicleDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "car-insurance.vehicle-details"
+    },
+    "totalPremiumLabel": {
+      "type": "string"
+    },
+    "proceedToBuyCtaLabel": {
+      "type": "string"
+    }
+  }
+}
