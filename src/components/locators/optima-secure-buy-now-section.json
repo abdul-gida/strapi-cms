@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_locators_optima_secure_buy_now_sections",
+  "info": {
+    "displayName": "Optima Secure Buy Now Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buyNowCtaLabel": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

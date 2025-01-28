@@ -1,7 +1,8 @@
 {
   "collectionName": "components_pdp_pdp_know_your_coverages",
   "info": {
-    "displayName": "Pdp-KnowYourCoverage"
+    "displayName": "Pdp-KnowYourCoverage",
+    "description": ""
   },
   "options": {},
   "attributes": {

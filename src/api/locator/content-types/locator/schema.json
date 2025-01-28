@@ -38,6 +38,24 @@
     },
     "locatorType": {
       "type": "string"
+    },
+    "buyNowSection": {
+      "displayName": "Optima Secure Buy Now Section",
+      "type": "component",
+      "repeatable": false,
+      "component": "locators.optima-secure-buy-now-section"
+    },
+    "empanelmentFormCardDetails": {
+      "displayName": "Empanelment Form Card Details",
+      "type": "component",
+      "repeatable": false,
+      "component": "locators.empanelment-form-card-details"
+    },
+    "excludedHospitalsCardDetails": {
+      "displayName": "Excluded Hospitals Card Details",
+      "type": "component",
+      "repeatable": false,
+      "component": "locators.excluded-hospitals-card-details"
     }
   }
 }

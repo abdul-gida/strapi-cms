@@ -1,7 +1,8 @@
 {
   "collectionName": "components_pdp_know_your_coverage_cards",
   "info": {
-    "displayName": "KnowYourCoverageCards"
+    "displayName": "KnowYourCoverageCards",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,7 +10,7 @@
       "type": "string"
     },
     "desc": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
