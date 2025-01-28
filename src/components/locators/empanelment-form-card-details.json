@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_locators_empanelment_form_card_details",
+  "info": {
+    "displayName": "Empanelment Form Card Details"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "prefixIcon": {
+      "type": "string"
+    }
+  }
+}

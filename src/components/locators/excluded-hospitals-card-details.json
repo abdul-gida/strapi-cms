@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_locators_excluded_hospitals_card_details",
+  "info": {
+    "displayName": "Excluded Hospitals Card Details"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "prefixIcon": {
+      "type": "string"
+    }
+  }
+}
