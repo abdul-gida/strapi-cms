@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_locators_buy_now_sections",
+  "info": {
+    "displayName": "Buy Now Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "buyNowCtaLabel": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

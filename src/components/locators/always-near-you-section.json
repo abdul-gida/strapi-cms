@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_locators_always_near_you_sections",
+  "info": {
+    "displayName": "Always-Near-You-Section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "string"
+    }
+  }
+}

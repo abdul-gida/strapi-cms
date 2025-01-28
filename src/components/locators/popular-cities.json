@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_locators_popular_cities",
+  "info": {
+    "displayName": "Popular-Cities"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

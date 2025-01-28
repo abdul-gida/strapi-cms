@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_locators_banner_sections",
+  "info": {
+    "displayName": "Banner Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "subHeader": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}
