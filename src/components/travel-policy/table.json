@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_travel_policy_tables",
+  "info": {
+    "displayName": "table"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

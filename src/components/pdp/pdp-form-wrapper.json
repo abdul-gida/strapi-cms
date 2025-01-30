@@ -1,0 +1,68 @@
+{
+  "collectionName": "components_pdp_pdp_form_wrappers",
+  "info": {
+    "displayName": "Pdp-FormWrapper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "points": {
+      "displayName": "fw-points",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.fw-points"
+    },
+    "badgeLabel": {
+      "type": "string"
+    },
+    "titleAlign": {
+      "type": "enumeration",
+      "enum": [
+        "block",
+        "inline"
+      ],
+      "default": "block",
+      "required": true
+    },
+    "bannerTags": {
+      "displayName": "bannerTags",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.banner-tags"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    },
+    "expertCards": {
+      "displayName": "fw-expertCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.fw-expert-cards"
+    },
+    "formType": {
+      "type": "enumeration",
+      "enum": [
+        "motor",
+        "health",
+        "optima",
+        "none"
+      ],
+      "default": "none",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-form-wrapper"
+      ],
+      "default": "pdp-form-wrapper",
+      "required": true
+    }
+  }
+}

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_pdp_pdp_product_trust_markers",
   "info": {
-    "displayName": "Pdp-ProductTrustMarkers"
+    "displayName": "Pdp-ProductTrustMarkers",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,14 @@
       "type": "component",
       "repeatable": true,
       "component": "pdp.ptm-product-trust-markers"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-product-trust-markers"
+      ],
+      "default": "pdp-product-trust-markers",
+      "required": true
     }
   }
 }

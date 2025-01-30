@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "tests",
+  "info": {
+    "singularName": "test",
+    "pluralName": "tests",
+    "displayName": "test",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "colorBlack": {
+      "type": "boolean"
+    },
+    "table": {
+      "displayName": "table",
+      "type": "component",
+      "repeatable": false,
+      "component": "travel-policy.table"
+    },
+    "optionList": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "travel-policy.list"
+    }
+  }
+}

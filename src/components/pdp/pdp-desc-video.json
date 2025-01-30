@@ -1,7 +1,8 @@
 {
   "collectionName": "components_pdp_pdp_desc_videos",
   "info": {
-    "displayName": "Pdp-DescVideo"
+    "displayName": "Pdp-DescVideo",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,14 @@
     },
     "videoUrl": {
       "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-desc-video"
+      ],
+      "default": "pdp-desc-video",
+      "required": true
     }
   }
 }

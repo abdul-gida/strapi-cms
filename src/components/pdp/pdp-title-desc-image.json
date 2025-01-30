@@ -20,6 +20,14 @@
     },
     "link": {
       "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-title-desc-image"
+      ],
+      "default": "pdp-title-desc-image",
+      "required": true
     }
   }
 }
