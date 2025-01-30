@@ -1,7 +1,8 @@
 {
   "collectionName": "components_about_us_directors",
   "info": {
-    "displayName": "directors"
+    "displayName": "directors",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,7 +16,7 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

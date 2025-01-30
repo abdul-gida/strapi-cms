@@ -57,10 +57,10 @@
       "type": "string"
     },
     "desc1": {
-      "type": "string"
+      "type": "text"
     },
     "desc2": {
-      "type": "string"
+      "type": "text"
     },
     "animation": {
       "type": "component",
