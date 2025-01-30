@@ -1,7 +1,8 @@
 {
   "collectionName": "components_health_claim_modes",
   "info": {
-    "displayName": "modes"
+    "displayName": "modes",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,6 +10,9 @@
       "type": "string"
     },
     "description": {
+      "type": "string"
+    },
+    "imageUrl": {
       "type": "string"
     }
   }

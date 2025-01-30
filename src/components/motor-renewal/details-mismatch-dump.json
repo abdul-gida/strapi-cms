@@ -1,20 +1,15 @@
 {
   "collectionName": "components_motor_renewal_details_mismatch_dumps",
   "info": {
-    "displayName": "detailsMismatchDump"
+    "displayName": "detailsMismatchDump",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "imgUrl": {
-      "type": "string"
-    },
     "title": {
       "type": "string"
     },
     "textOne": {
-      "type": "string"
-    },
-    "beneficiaryName": {
       "type": "string"
     },
     "textTwo": {
@@ -23,7 +18,22 @@
     "primaryButtonText": {
       "type": "string"
     },
-    "SecondaryButtonText": {
+    "panLabel": {
+      "type": "string"
+    },
+    "panPlaceholder": {
+      "type": "string"
+    },
+    "dobLabel": {
+      "type": "string"
+    },
+    "dobPlaceholder": {
+      "type": "string"
+    },
+    "calenderTitle": {
+      "type": "string"
+    },
+    "calenderSubTitle": {
       "type": "string"
     }
   }

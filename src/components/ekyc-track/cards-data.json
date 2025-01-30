@@ -1,11 +1,15 @@
 {
   "collectionName": "components_ekyc_track_cards_data",
   "info": {
-    "displayName": "cardsData"
+    "displayName": "cardsData",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "cardInfo": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
       "type": "string"
     }
   }
