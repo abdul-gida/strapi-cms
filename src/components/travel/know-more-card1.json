@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_travel_know_more_card1s",
+  "info": {
+    "displayName": "knowMoreCard1"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

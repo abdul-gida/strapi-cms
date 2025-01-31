@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_health_claim_health_filings",
+  "collectionName": "components_travel_dream_destinations",
   "info": {
-    "displayName": "healthFiling",
+    "displayName": "dreamDestinations",
     "description": ""
   },
   "options": {},
@@ -10,17 +10,15 @@
       "type": "string"
     },
     "description": {
+      "type": "text"
+    },
+    "image": {
       "type": "string"
     },
-    "imageUrl": {
-      "type": "string"
-    },
-    "modes": {
-      "displayName": "modes",
+    "cardsWithDescription": {
       "type": "component",
       "repeatable": true,
-      "component": "health-claim.modes",
-      "max": 3
+      "component": "travel.cards-with-only-description"
     }
   }
 }

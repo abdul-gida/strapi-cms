@@ -11,6 +11,14 @@
     },
     "imageUrl": {
       "type": "string"
+    },
+    "key": {
+      "type": "enumeration",
+      "enum": [
+        "ekyc",
+        "pan",
+        "aadhar"
+      ]
     }
   }
 }

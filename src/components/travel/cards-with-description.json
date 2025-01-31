@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_travel_cards_with_descriptions",
+  "info": {
+    "displayName": "cardsWithDescriptionAndLink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

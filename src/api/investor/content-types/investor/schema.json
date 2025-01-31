@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "investors",
+  "info": {
+    "singularName": "investor",
+    "pluralName": "investors",
+    "displayName": "investors",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerText": {
+      "type": "string"
+    },
+    "breadCrumbs": {
+      "displayName": "breadCrumb",
+      "type": "component",
+      "repeatable": true,
+      "component": "investors.bread-crumb"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "files": {
+      "displayName": "files",
+      "type": "component",
+      "repeatable": true,
+      "component": "investors.files"
+    },
+    "financialInfo": {
+      "displayName": "financialInfo",
+      "type": "component",
+      "repeatable": false,
+      "component": "investors.financial-info"
+    },
+    "corporateSocialResponsibility": {
+      "type": "component",
+      "repeatable": false,
+      "component": "investors.financial-info"
+    }
+  }
+}
