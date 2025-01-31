@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wellness_categories",
+  "info": {
+    "singularName": "wellness-category",
+    "pluralName": "wellness-categories",
+    "displayName": "WellnessCategory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
