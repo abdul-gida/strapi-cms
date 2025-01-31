@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "pmfbies",
+  "info": {
+    "singularName": "pmfby",
+    "pluralName": "pmfbies",
+    "displayName": "pmfby-claim",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby.banner"
+    },
+    "form": {
+      "displayName": "form",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby.form"
+    },
+    "claimStatus": {
+      "displayName": "claim",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby.claim"
+    },
+    "breadCrumb": {
+      "displayName": "bread crumb",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby.bread-crumb"
+    },
+    "imageCards": {
+      "displayName": "image cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby.image-cards"
+    }
+  }
+}

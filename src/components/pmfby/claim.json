@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pmfby_claims",
+  "info": {
+    "displayName": "claim"
+  },
+  "options": {},
+  "attributes": {
+    "details": {
+      "type": "string"
+    },
+    "amountLabel": {
+      "type": "string"
+    },
+    "paymentStatus": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "string"
+    }
+  }
+}

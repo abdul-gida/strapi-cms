@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_pmfby_forms",
+  "info": {
+    "displayName": "form"
+  },
+  "options": {},
+  "attributes": {
+    "tittle": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "application": {
+      "displayName": "application",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby.application"
+    },
+    "adhaar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby.application"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "secondaryButtonText": {
+      "type": "string"
+    }
+  }
+}

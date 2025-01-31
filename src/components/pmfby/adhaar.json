@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pmfby_adhaars",
+  "info": {
+    "displayName": "adhaar"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}
