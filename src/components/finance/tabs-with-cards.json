@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_finance_tabs_with_cards",
+  "info": {
+    "displayName": "tabsWithCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cardOne": {
+      "displayName": "cardOne",
+      "type": "component",
+      "repeatable": false,
+      "component": "finance.card-one"
+    },
+    "otherCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "finance.other-cards"
+    },
+    "dedicatedEmailIdTitle": {
+      "type": "string"
+    },
+    "dedicatedEmailDescription": {
+      "type": "text"
+    },
+    "sebiTitle": {
+      "type": "string"
+    },
+    "sebiDescription": {
+      "type": "text"
+    },
+    "odrLinkLabel": {
+      "type": "string"
+    },
+    "odrLink": {
+      "type": "string"
+    }
+  }
+}

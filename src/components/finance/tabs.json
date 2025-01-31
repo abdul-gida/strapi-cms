@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_finance_tabs",
+  "info": {
+    "displayName": "tabs"
+  },
+  "options": {},
+  "attributes": {
+    "annualReports": {
+      "displayName": "annualReports",
+      "type": "component",
+      "repeatable": false,
+      "component": "finance.annual-reports"
+    }
+  }
+}

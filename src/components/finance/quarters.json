@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_finance_quarters",
+  "info": {
+    "displayName": "quarters",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "annexures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "finance.notice-to-policyholders"
+    }
+  }
+}

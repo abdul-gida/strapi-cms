@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_finance_card_ones",
+  "info": {
+    "displayName": "cardOne",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "details": {
+      "displayName": "details",
+      "type": "component",
+      "repeatable": false,
+      "component": "finance.details"
+    },
+    "contactDetails": {
+      "displayName": "contactDetails",
+      "type": "component",
+      "repeatable": true,
+      "component": "finance.contact-details"
+    }
+  }
+}

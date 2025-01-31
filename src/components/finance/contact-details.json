@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_finance_contact_details",
+  "info": {
+    "displayName": "contactDetails",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

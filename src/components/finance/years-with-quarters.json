@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_finance_years_with_quarters",
+  "info": {
+    "displayName": "yearsWithQuarters",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "quarters": {
+      "displayName": "quarters",
+      "type": "component",
+      "repeatable": true,
+      "component": "finance.quarters"
+    },
+    "noticeToPolicyholders": {
+      "type": "component",
+      "repeatable": false,
+      "component": "finance.notice-to-policyholders"
+    },
+    "irdaProductList": {
+      "type": "component",
+      "repeatable": false,
+      "component": "finance.notice-to-policyholders"
+    },
+    "publicDisclosureOnHealthServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "finance.notice-to-policyholders"
+    }
+  }
+}

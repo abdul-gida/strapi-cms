@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_finance_annexures",
+  "info": {
+    "displayName": "annexure"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pdfs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "finance.pdfs"
+    }
+  }
+}
