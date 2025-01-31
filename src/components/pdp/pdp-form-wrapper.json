@@ -66,6 +66,9 @@
     },
     "image": {
       "type": "string"
+    },
+    "bottomLabel": {
+      "type": "string"
     }
   }
 }
