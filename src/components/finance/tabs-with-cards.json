@@ -9,7 +9,7 @@
     "title": {
       "type": "string"
     },
-    "cardOne": {
+    "card1": {
       "displayName": "cardOne",
       "type": "component",
       "repeatable": false,

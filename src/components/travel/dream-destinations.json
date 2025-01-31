@@ -15,7 +15,7 @@
     "image": {
       "type": "string"
     },
-    "cardsWithDescription": {
+    "cards": {
       "type": "component",
       "repeatable": true,
       "component": "travel.cards-with-only-description"
