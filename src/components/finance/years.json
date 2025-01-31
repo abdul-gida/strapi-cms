@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_finance_years",
+  "info": {
+    "displayName": "years"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "pdfs": {
+      "displayName": "pdfs",
+      "type": "component",
+      "repeatable": true,
+      "component": "finance.pdfs"
+    }
+  }
+}

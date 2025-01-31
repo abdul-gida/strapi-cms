@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_finance_bread_crumbs",
+  "info": {
+    "displayName": "breadCrumbs"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

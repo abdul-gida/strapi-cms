@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_finance_notice_to_policyholders",
+  "info": {
+    "displayName": "titleWithPdfs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pdfs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "finance.pdfs"
+    }
+  }
+}

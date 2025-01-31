@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_finance_annual_reports",
+  "info": {
+    "displayName": "tabsWithOnlyYears",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "years": {
+      "displayName": "years",
+      "type": "component",
+      "repeatable": true,
+      "component": "finance.years"
+    }
+  }
+}
