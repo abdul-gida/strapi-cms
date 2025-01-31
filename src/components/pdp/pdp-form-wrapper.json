@@ -63,6 +63,9 @@
       ],
       "default": "pdp-form-wrapper",
       "required": true
+    },
+    "image": {
+      "type": "string"
     }
   }
 }
