@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_investors_financial_infos",
+  "info": {
+    "displayName": "titleWithFiles",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "files": {
+      "type": "component",
+      "repeatable": true,
+      "component": "investors.files"
+    }
+  }
+}
