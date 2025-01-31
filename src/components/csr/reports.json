@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_csr_reports",
+  "info": {
+    "displayName": "reports"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "pdfs": {
+      "displayName": "pdfs",
+      "type": "component",
+      "repeatable": true,
+      "component": "csr.pdfs"
+    }
+  }
+}

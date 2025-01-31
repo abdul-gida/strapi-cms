@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_csr_education_and_rural_devs",
+  "info": {
+    "displayName": "educationAndRuralDev"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    },
+    "description3": {
+      "type": "text"
+    }
+  }
+}

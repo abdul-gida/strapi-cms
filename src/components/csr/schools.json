@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_csr_schools",
+  "info": {
+    "displayName": "schools"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "beforeImg": {
+      "type": "string"
+    },
+    "afterImg": {
+      "type": "string"
+    }
+  }
+}

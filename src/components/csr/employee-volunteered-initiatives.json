@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_csr_employee_volunteered_initiatives",
+  "info": {
+    "displayName": "employeeVolunteeredInitiatives"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "csr.cards"
+    }
+  }
+}

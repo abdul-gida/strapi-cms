@@ -51,6 +51,11 @@
         "pdp.pdp-app-carousel",
         "pdp.pdp-form-wrapper"
       ]
+    },
+    "showAchievements": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }

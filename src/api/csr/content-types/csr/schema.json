@@ -1,0 +1,111 @@
+{
+  "kind": "singleType",
+  "collectionName": "csrs",
+  "info": {
+    "singularName": "csr",
+    "pluralName": "csrs",
+    "displayName": "Csr",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerText": {
+      "displayName": "bannerText",
+      "type": "component",
+      "repeatable": false,
+      "component": "csr.banner-text"
+    },
+    "breadCrumb": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.pdp-product-bread-crumbs"
+    },
+    "empowerSocialChange": {
+      "displayName": "empowerSocialChange",
+      "type": "component",
+      "repeatable": false,
+      "component": "csr.empower-social-change"
+    },
+    "goanProgramme": {
+      "displayName": "goanProgramme",
+      "type": "component",
+      "repeatable": false,
+      "component": "csr.goan-programme"
+    },
+    "educationAndRuralDev": {
+      "displayName": "educationAndRuralDev",
+      "type": "component",
+      "repeatable": false,
+      "component": "csr.education-and-rural-dev"
+    },
+    "schoolRedevelopment": {
+      "displayName": "schoolRedevelopment",
+      "type": "component",
+      "repeatable": false,
+      "component": "csr.school-redevelopment"
+    },
+    "ourImpact": {
+      "displayName": "ourImpact",
+      "type": "component",
+      "repeatable": false,
+      "component": "csr.our-impact"
+    },
+    "growth": {
+      "displayName": "growth",
+      "type": "component",
+      "repeatable": true,
+      "component": "csr.growth"
+    },
+    "indiaByStates": {
+      "displayName": "indiaByStates",
+      "type": "component",
+      "repeatable": false,
+      "component": "csr.india-by-states"
+    },
+    "otherInitiatives": {
+      "displayName": "otherInitiatives",
+      "type": "component",
+      "repeatable": false,
+      "component": "csr.other-initiatives"
+    },
+    "employeeVolunteeredInitiatives": {
+      "displayName": "employeeVolunteeredInitiatives",
+      "type": "component",
+      "repeatable": false,
+      "component": "csr.employee-volunteered-initiatives"
+    },
+    "ourCsrPartners": {
+      "displayName": "ourCsrPartners",
+      "type": "component",
+      "repeatable": false,
+      "component": "csr.our-csr-partners"
+    },
+    "realImpactRealStories": {
+      "displayName": "realImpactRealStories",
+      "type": "component",
+      "repeatable": false,
+      "component": "csr.real-impact-real-stories"
+    },
+    "awards": {
+      "displayName": "awards",
+      "type": "component",
+      "repeatable": true,
+      "component": "csr.awards"
+    },
+    "companyReports": {
+      "displayName": "companyReports",
+      "type": "component",
+      "repeatable": false,
+      "component": "csr.company-reports"
+    },
+    "feedBack": {
+      "displayName": "feedBack",
+      "type": "component",
+      "repeatable": false,
+      "component": "csr.feed-back"
+    }
+  }
+}
