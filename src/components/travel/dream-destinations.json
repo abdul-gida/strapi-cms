@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_travel_dream_destinations",
+  "info": {
+    "displayName": "dreamDestinations",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "cardsWithDescription": {
+      "type": "component",
+      "repeatable": true,
+      "component": "travel.cards-with-only-description"
+    }
+  }
+}

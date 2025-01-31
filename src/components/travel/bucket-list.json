@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_travel_bucket_lists",
+  "info": {
+    "displayName": "bucketList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cardsWithDescriptionAndLink": {
+      "displayName": "cardsWithDescription",
+      "type": "component",
+      "repeatable": true,
+      "component": "travel.cards-with-description"
+    },
+    "lastCard": {
+      "displayName": "lastCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "travel.last-card"
+    }
+  }
+}
