@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_wc_tabs",
+  "info": {
+    "displayName": "tabs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

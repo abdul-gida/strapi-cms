@@ -1,0 +1,85 @@
+{
+  "kind": "singleType",
+  "collectionName": "wellness_corner_homes",
+  "info": {
+    "singularName": "wellness-corner-home",
+    "pluralName": "wellness-corner-homes",
+    "displayName": "WellnessCornerHome",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "displayName": "wc-banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-banner"
+    },
+    "wellBeing": {
+      "displayName": "wc-wellBeing",
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-well-being"
+    },
+    "components": {
+      "displayName": "wc-components",
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-components"
+    },
+    "explore": {
+      "displayName": "wc-explore",
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-explore"
+    },
+    "readMore": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "wc-cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "wc.wc-cards"
+    },
+    "knowMore": {
+      "displayName": "wc-knowMore",
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-know-more"
+    },
+    "videos": {
+      "displayName": "wc-videos",
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-videos"
+    },
+    "blogs": {
+      "displayName": "blogs",
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.blogs"
+    },
+    "secure": {
+      "displayName": "wc-secure",
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-secure"
+    },
+    "form": {
+      "displayName": "wc-form",
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-form"
+    },
+    "bottomCard": {
+      "displayName": "wc-bottomCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-bottom-card"
+    }
+  }
+}

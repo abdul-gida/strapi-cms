@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_wc_wc_know_mores",
+  "info": {
+    "displayName": "wc-knowMore"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "displayName": "title-list",
+      "type": "component",
+      "repeatable": true,
+      "component": "wc.title-list"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

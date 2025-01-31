@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_wc_stories_images",
+  "info": {
+    "displayName": "stories-images"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}

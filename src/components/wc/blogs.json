@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_wc_blogs",
+  "info": {
+    "displayName": "blogs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "viewAll": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_wc_title_lists",
+  "info": {
+    "displayName": "title-list"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

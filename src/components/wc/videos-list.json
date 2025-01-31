@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_wc_videos_lists",
+  "info": {
+    "displayName": "videos-list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    }
+  }
+}

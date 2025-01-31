@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_wc_tops",
+  "info": {
+    "displayName": "top"
+  },
+  "options": {},
+  "attributes": {
+    "left": {
+      "type": "text"
+    },
+    "middle": {
+      "type": "text"
+    },
+    "right": {
+      "type": "text"
+    }
+  }
+}

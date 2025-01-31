@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_wc_wc_videos",
+  "info": {
+    "displayName": "wc-videos"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "viewAllVideosCta": {
+      "type": "string"
+    },
+    "videos": {
+      "displayName": "videos-list",
+      "type": "component",
+      "repeatable": true,
+      "component": "wc.videos-list"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_wc_wc_disclaimers",
+  "info": {
+    "displayName": "wc-disclaimer"
+  },
+  "options": {},
+  "attributes": {
+    "top": {
+      "displayName": "top",
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.top"
+    },
+    "bottom": {
+      "type": "text"
+    }
+  }
+}
