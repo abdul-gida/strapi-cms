@@ -47,6 +47,9 @@
     },
     "noteEmail": {
       "type": "string"
+    },
+    "image": {
+      "type": "string"
     }
   }
 }
