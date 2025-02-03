@@ -1,7 +1,8 @@
 {
   "collectionName": "components_wc_wc_well_beings",
   "info": {
-    "displayName": "wc-wellBeing"
+    "displayName": "wc-wellBeing",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,6 +16,9 @@
       "component": "wc.description"
     },
     "image": {
+      "type": "string"
+    },
+    "titlePrefix": {
       "type": "string"
     }
   }

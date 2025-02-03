@@ -20,6 +20,9 @@
     },
     "backgroundMob": {
       "type": "string"
+    },
+    "image": {
+      "type": "string"
     }
   }
 }
