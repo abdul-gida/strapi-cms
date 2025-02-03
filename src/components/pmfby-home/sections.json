@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pmfby_home_sections",
+  "info": {
+    "displayName": "sections",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby-home.cards"
+    }
+  }
+}

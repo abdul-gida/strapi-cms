@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pmfby_home_policy_documents",
+  "info": {
+    "displayName": "policyDocuments"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "policyCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby-home.policy-cards"
+    }
+  }
+}

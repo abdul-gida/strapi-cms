@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_pmfby_image_cards",
+  "collectionName": "components_pmfby_home_cards",
   "info": {
-    "displayName": "image cards",
-    "description": ""
+    "displayName": "cards"
   },
   "options": {},
   "attributes": {
@@ -10,6 +9,9 @@
       "type": "string"
     },
     "title": {
+      "type": "string"
+    },
+    "link": {
       "type": "string"
     }
   }
