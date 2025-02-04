@@ -62,9 +62,6 @@
       "type": "component",
       "repeatable": false,
       "component": "samvaad.success"
-    },
-    "headerTextColorBlack": {
-      "type": "boolean"
     }
   }
 }

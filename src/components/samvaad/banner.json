@@ -1,13 +1,11 @@
 {
   "collectionName": "components_samvaad_banners",
   "info": {
-    "displayName": "banner"
+    "displayName": "banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "headerTextColorBlack": {
-      "type": "string"
-    },
     "image": {
       "type": "string"
     },
@@ -19,6 +17,9 @@
     },
     "subtitle": {
       "type": "string"
+    },
+    "headerTextColorBlack": {
+      "type": "boolean"
     }
   }
 }
