@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_career_cards",
+  "collectionName": "components_pmfby_home_cards",
   "info": {
-    "displayName": "cards",
-    "description": ""
+    "displayName": "cards"
   },
   "options": {},
   "attributes": {
@@ -12,8 +11,8 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
+    "link": {
+      "type": "string"
     }
   }
 }

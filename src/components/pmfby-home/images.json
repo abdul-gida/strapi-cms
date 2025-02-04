@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_pmfby_home_images",
+  "info": {
+    "displayName": "images"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}

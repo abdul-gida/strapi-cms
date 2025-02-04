@@ -1,15 +1,15 @@
 {
-  "collectionName": "components_pmfby_image_cards",
+  "collectionName": "components_pmfby_home_titles",
   "info": {
-    "displayName": "image cards",
+    "displayName": "title",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "image": {
+    "first": {
       "type": "string"
     },
-    "title": {
+    "second": {
       "type": "string"
     }
   }

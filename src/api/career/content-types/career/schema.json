@@ -12,26 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "displayName": "titleCareer",
-      "type": "component",
-      "repeatable": false,
-      "component": "career.title-career"
-    },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "accordionContent": {
       "displayName": "accordionContent",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "career.accordion-content"
     },
     "ourVisionTitle": {
       "type": "string"
     },
     "ourVisionDescription": {
-      "type": "string"
+      "type": "text"
     },
     "ourVisionQuote": {
       "type": "string"
@@ -59,6 +53,9 @@
       "type": "component",
       "repeatable": false,
       "component": "career.seed"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

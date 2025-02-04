@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_pmfby_home_single_titles",
+  "info": {
+    "displayName": "singleTitle"
+  },
+  "options": {},
+  "attributes": {
+    "first": {
+      "type": "string"
+    }
+  }
+}

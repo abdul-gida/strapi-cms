@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_career_seeds",
+  "collectionName": "components_pmfby_home_kharif2324s",
   "info": {
-    "displayName": "seed",
+    "displayName": "kharif2324",
     "description": ""
   },
   "options": {},
@@ -9,13 +9,10 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
-    "cards": {
+    "sections": {
       "type": "component",
       "repeatable": true,
-      "component": "career.cards"
+      "component": "pmfby-home.sections"
     }
   }
 }

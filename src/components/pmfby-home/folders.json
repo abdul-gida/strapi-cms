@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_career_seeds",
+  "collectionName": "components_pmfby_home_folders",
   "info": {
-    "displayName": "seed",
+    "displayName": "folders",
     "description": ""
   },
   "options": {},
@@ -9,13 +9,11 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
-    "cards": {
+    "stacks": {
+      "displayName": "stacks",
       "type": "component",
       "repeatable": true,
-      "component": "career.cards"
+      "component": "pmfby-home.stacks"
     }
   }
 }

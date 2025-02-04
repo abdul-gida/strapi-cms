@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_pmfby_home_quick_accesses",
+  "info": {
+    "displayName": "quickAccess"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "displayName": "title",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby-home.title"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby-home.cards"
+    }
+  }
+}

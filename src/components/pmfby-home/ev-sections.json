@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pmfby_home_ev_sections",
+  "info": {
+    "displayName": "evSections"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}
