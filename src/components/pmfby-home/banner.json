@@ -1,13 +1,11 @@
 {
   "collectionName": "components_pmfby_home_banners",
   "info": {
-    "displayName": "banner"
+    "displayName": "banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "headerTextColorBlack": {
-      "type": "string"
-    },
     "promotionTitle": {
       "type": "string"
     },
@@ -22,6 +20,9 @@
       "type": "component",
       "repeatable": false,
       "component": "pmfby-home.expert-cards"
+    },
+    "headerTextColorBlack": {
+      "type": "boolean"
     }
   }
 }
