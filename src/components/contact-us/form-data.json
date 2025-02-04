@@ -27,9 +27,6 @@
     "namePlaceHolder": {
       "type": "string"
     },
-    "mobileNumberLabel": {
-      "type": "string"
-    },
     "mobileNumberPlaceHolder": {
       "type": "string"
     },
