@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_vfs_form_data",
+  "info": {
+    "displayName": "formData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "receiptNoLabel": {
+      "type": "string"
+    },
+    "receiptNoPlaceHolder": {
+      "type": "string"
+    },
+    "receiptNoTooltipText": {
+      "type": "text"
+    },
+    "salutationLabel": {
+      "type": "string"
+    },
+    "salutationList": {
+      "displayName": "salutationList",
+      "type": "component",
+      "repeatable": true,
+      "component": "vfs.salutation-list"
+    }
+  }
+}
