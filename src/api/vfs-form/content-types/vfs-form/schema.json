@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "headerTextColorBlack": {
-      "type": "string"
-    },
     "image": {
       "type": "string"
     },
@@ -91,6 +88,9 @@
     },
     "errorToastMessage": {
       "type": "string"
+    },
+    "headerTextColorBlack": {
+      "type": "boolean"
     }
   }
 }
