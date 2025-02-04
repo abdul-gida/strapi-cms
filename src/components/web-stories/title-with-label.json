@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_web_stories_title_with_labels",
+  "info": {
+    "displayName": "titleWithLabel"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

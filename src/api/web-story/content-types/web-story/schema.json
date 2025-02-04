@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "web_stories",
+  "info": {
+    "singularName": "web-story",
+    "pluralName": "web-stories",
+    "displayName": "webStories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "web-stories.banner"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "viewsLabel": {
+      "type": "string"
+    },
+    "secure": {
+      "displayName": "secure",
+      "type": "component",
+      "repeatable": false,
+      "component": "web-stories.secure"
+    }
+  }
+}
