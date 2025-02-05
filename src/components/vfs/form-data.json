@@ -29,6 +29,74 @@
       "type": "component",
       "repeatable": true,
       "component": "vfs.salutation-list"
+    },
+    "salutationPlaceHolder": {
+      "type": "string"
+    },
+    "nameLabel": {
+      "type": "string"
+    },
+    "namePlaceHolder": {
+      "type": "string"
+    },
+    "mobileNumberLabel": {
+      "type": "string"
+    },
+    "mobileNumberPlaceHolder": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "emailPlaceHolder": {
+      "type": "string"
+    },
+    "dateOfBirthLabel": {
+      "type": "string"
+    },
+    "dateOfBirthPlaceHolder": {
+      "type": "string"
+    },
+    "receiptDateLabel": {
+      "type": "string"
+    },
+    "receiptDatePlaceHolder": {
+      "type": "string"
+    },
+    "receiptDateTooltipText": {
+      "type": "text"
+    },
+    "passportNumberLabel": {
+      "type": "string"
+    },
+    "passportNumberPlaceHolder": {
+      "type": "string"
+    },
+    "visaApplicationLocationLabel": {
+      "type": "string"
+    },
+    "visaApplicationLocationPlaceHolder": {
+      "type": "string"
+    },
+    "visaApplicationLocationList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vfs.salutation-list"
+    },
+    "disclaimer": {
+      "type": "text"
+    },
+    "submitButtonText": {
+      "type": "string"
+    },
+    "successToastMessage": {
+      "type": "string"
+    },
+    "errorToastMessage": {
+      "type": "string"
+    },
+    "headerTextColorBlack": {
+      "type": "boolean"
     }
   }
 }
