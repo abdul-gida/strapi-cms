@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pmfby_home_note_sections",
+  "info": {
+    "displayName": "noteSection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "points": {
+      "displayName": "points",
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby-home.points"
+    }
+  }
+}

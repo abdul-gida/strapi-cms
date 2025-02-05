@@ -17,6 +17,11 @@
       "type": "component",
       "repeatable": true,
       "component": "pmfby-home.content"
+    },
+    "noteSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby-home.note-section"
     }
   }
 }

@@ -14,6 +14,9 @@
       "type": "component",
       "repeatable": true,
       "component": "pmfby-home.stacks"
+    },
+    "scrollHereId": {
+      "type": "string"
     }
   }
 }

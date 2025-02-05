@@ -19,6 +19,9 @@
       "type": "component",
       "repeatable": false,
       "component": "pmfby-home.single-title"
+    },
+    "scrollHereId": {
+      "type": "string"
     }
   }
 }
