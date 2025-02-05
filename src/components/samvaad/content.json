@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_samvaad_contents",
+  "info": {
+    "displayName": "content"
+  },
+  "options": {},
+  "attributes": {
+    "label1": {
+      "type": "text"
+    },
+    "label2": {
+      "type": "text"
+    }
+  }
+}

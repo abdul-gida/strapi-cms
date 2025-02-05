@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_samvaad_complaint_type_options",
+  "info": {
+    "displayName": "complaintTypeOptions"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

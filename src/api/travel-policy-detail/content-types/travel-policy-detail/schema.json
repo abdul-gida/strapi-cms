@@ -50,6 +50,11 @@
     },
     "image": {
       "type": "string"
+    },
+    "table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "travel-policy.table"
     }
   }
 }

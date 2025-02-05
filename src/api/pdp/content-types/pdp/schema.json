@@ -49,7 +49,8 @@
         "pdp.pdp-common-blogs-list",
         "pdp.pdp-arrow-mapper",
         "pdp.pdp-app-carousel",
-        "pdp.pdp-form-wrapper"
+        "pdp.pdp-form-wrapper",
+        "pdp.pdp-note-section"
       ]
     },
     "showAchievements": {
