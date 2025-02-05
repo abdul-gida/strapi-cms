@@ -1,11 +1,12 @@
 {
   "collectionName": "components_pmfby_forms",
   "info": {
-    "displayName": "form"
+    "displayName": "form",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "tittle": {
+    "title": {
       "type": "string"
     },
     "subtitle": {
