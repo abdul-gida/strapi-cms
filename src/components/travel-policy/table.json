@@ -20,6 +20,9 @@
     },
     "toDate": {
       "type": "string"
+    },
+    "insuredNameLabel": {
+      "type": "string"
     }
   }
 }

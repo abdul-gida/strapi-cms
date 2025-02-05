@@ -20,7 +20,7 @@
     },
     "noteSection": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "pmfby-home.note-section"
     }
   }
