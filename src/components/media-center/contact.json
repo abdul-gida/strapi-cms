@@ -1,7 +1,8 @@
 {
   "collectionName": "components_media_center_contacts",
   "info": {
-    "displayName": "contact"
+    "displayName": "contact",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,7 +13,7 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "email": {
       "type": "email"
