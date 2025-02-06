@@ -12,7 +12,7 @@
     "ads": {
       "type": "component",
       "repeatable": true,
-      "component": "media-center.ads"
+      "component": "media-center.ads-radio-ads"
     }
   }
 }
