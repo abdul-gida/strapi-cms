@@ -1,0 +1,77 @@
+{
+  "collectionName": "components_dashboard_policy_cards",
+  "info": {
+    "displayName": "policyCard"
+  },
+  "options": {},
+  "attributes": {
+    "sumInsured": {
+      "type": "string",
+      "required": true
+    },
+    "vehicleRegNo": {
+      "type": "string",
+      "required": true
+    },
+    "expiringOn": {
+      "type": "string",
+      "required": true
+    },
+    "actions": {
+      "displayName": "actions",
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "dashboard.actions"
+    },
+    "health": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    },
+    "motor": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    },
+    "twoWheeler": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    },
+    "cyber": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    },
+    "travel": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    },
+    "pets": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    },
+    "home": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    }
+  }
+}

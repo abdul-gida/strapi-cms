@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_dashboard_locate_services_s",
+  "info": {
+    "displayName": "locateServices "
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "redirectUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_dashboard_quick_actions_s",
+  "info": {
+    "displayName": "quickActions "
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "required": true,
+      "enum": ["actions"]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "buttontext": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "dashboard.cards"
+    }
+  }
+}

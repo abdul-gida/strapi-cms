@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_dashboard_dashboard_latest_in_hdfc_cms_s",
+  "info": {
+    "displayName": "dashboardLatestInHdfcCms "
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": ["latest"],
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "buttontext": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "displayName": "cardsLatest",
+      "type": "component",
+      "required": true,
+      "repeatable": false,
+      "component": "dashboard.cards-latest"
+    }
+  }
+}

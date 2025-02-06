@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_dashboard_expired_cancelled_views",
+  "info": {
+    "displayName": "expiredCancelledView"
+  },
+  "options": {},
+  "attributes": {
+    "expiredTitle": {
+      "required": true,
+      "type": "string"
+    },
+    "cancelledTitle": {
+      "required": true,
+      "type": "string"
+    },
+    "subtitle": {
+      "required": true,
+      "type": "string"
+    },
+    "healthCardImg": {
+      "required": true,
+      "type": "string"
+    },
+    "motorCardImg": {
+      "required": true,
+      "type": "string"
+    }
+  }
+}
