@@ -4,7 +4,8 @@
   "info": {
     "singularName": "media-center-tabs-dump",
     "pluralName": "media-center-tabs-dumps",
-    "displayName": "mediaCenterTabsDump"
+    "displayName": "mediaCenterTabsDump",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,7 +18,7 @@
     "tabs": {
       "displayName": "tabs",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "media-center-tabs.tabs"
     }
   }
