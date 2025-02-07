@@ -1,7 +1,8 @@
 {
   "collectionName": "components_pdp_compare_policy_sections",
   "info": {
-    "displayName": "comparePolicySection"
+    "displayName": "coverageDamageSection",
+    "description": ""
   },
   "options": {},
   "attributes": {

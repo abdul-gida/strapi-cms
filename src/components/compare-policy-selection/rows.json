@@ -1,18 +1,19 @@
 {
   "collectionName": "components_compare_policy_selection_rows",
   "info": {
-    "displayName": "rows"
+    "displayName": "rows",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "cellOne": {
+      "type": "text"
     },
-    "comparisonCover": {
-      "type": "boolean"
+    "cellTwo": {
+      "type": "text"
     },
-    "thirdPartyCover": {
-      "type": "boolean"
+    "cellThree": {
+      "type": "text"
     }
   }
 }
