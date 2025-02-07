@@ -9,12 +9,6 @@
     "title": {
       "type": "string"
     },
-    "cards": {
-      "displayName": "metroCitiesCon",
-      "type": "component",
-      "repeatable": true,
-      "component": "metro-cities.metro-cities-con"
-    },
     "type": {
       "type": "enumeration",
       "enum": [
