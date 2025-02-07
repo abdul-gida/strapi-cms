@@ -1,14 +1,15 @@
 {
   "collectionName": "components_metro_cities_metro_cities_cons",
   "info": {
-    "displayName": "metroCitiesCon"
+    "displayName": "metroCitiesCon",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "cityName": {
+    "logo": {
       "type": "string"
     },
-    "cityImage": {
+    "title": {
       "type": "string"
     }
   }

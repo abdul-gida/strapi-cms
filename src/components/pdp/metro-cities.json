@@ -9,7 +9,7 @@
     "title": {
       "type": "string"
     },
-    "metroCitiesCon": {
+    "cards": {
       "displayName": "metroCitiesCon",
       "type": "component",
       "repeatable": true,

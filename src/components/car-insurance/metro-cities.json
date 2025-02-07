@@ -1,7 +1,8 @@
 {
   "collectionName": "components_car_insurance_metro_cities",
   "info": {
-    "displayName": "metroCities"
+    "displayName": "metroCities",
+    "description": ""
   },
   "options": {},
   "attributes": {
