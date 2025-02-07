@@ -50,7 +50,10 @@
         "pdp.pdp-arrow-mapper",
         "pdp.pdp-app-carousel",
         "pdp.pdp-form-wrapper",
-        "pdp.pdp-note-section"
+        "pdp.pdp-note-section",
+        "pdp.compare-policy-section",
+        "pdp.pdp-bike-insurance-premium-rate",
+        "pdp.pdp-metro-cities"
       ]
     },
     "showAchievements": {
