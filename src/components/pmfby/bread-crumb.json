@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pmfby_bread_crumbs",
+  "info": {
+    "displayName": "bread crumb"
+  },
+  "options": {},
+  "attributes": {
+    "crumbs": {
+      "displayName": "crumbs",
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby.crumbs"
+    }
+  }
+}

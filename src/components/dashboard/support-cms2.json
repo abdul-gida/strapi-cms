@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_dashboard_support_cms2s",
+  "info": {
+    "displayName": "supportCms2"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "required": true,
+      "enum": ["support"]
+    },
+    "tagDesk": {
+      "type": "string",
+      "required": true
+    },
+    "tagMob": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "buttontext": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

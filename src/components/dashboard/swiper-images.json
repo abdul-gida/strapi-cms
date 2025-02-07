@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_dashboard_swiper_images",
+  "info": {
+    "displayName": "swiperImages"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "alt": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

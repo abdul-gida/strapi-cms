@@ -1,0 +1,82 @@
+{
+  "kind": "singleType",
+  "collectionName": "pmfby_homes",
+  "info": {
+    "singularName": "pmfby-home",
+    "pluralName": "pmfby-homes",
+    "displayName": "pmfbyHome",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quickAccess": {
+      "displayName": "quickAccess",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby-home.quick-access"
+    },
+    "states": {
+      "displayName": "states",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby-home.states"
+    },
+    "kharif2324": {
+      "displayName": "kharif2324",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby-home.kharif2324"
+    },
+    "otherLinks": {
+      "displayName": "otherLinks",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby-home.other-links"
+    },
+    "policyDocuments": {
+      "displayName": "policyDocuments",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby-home.policy-documents"
+    },
+    "StackImageFolder": {
+      "displayName": "StackImageFolder",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby-home.stack-image-folder"
+    },
+    "videosListDump": {
+      "displayName": "videosListDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby-home.videos-list-dump"
+    },
+    "knowYourCoverage": {
+      "displayName": "knowYourCoverage",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby-home.know-your-coverage"
+    },
+    "evSections": {
+      "displayName": "evSections",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby-home.ev-sections"
+    },
+    "socialMediaSection": {
+      "displayName": "socialMediaSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby-home.social-media-section"
+    },
+    "banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby-home.banner"
+    }
+  }
+}

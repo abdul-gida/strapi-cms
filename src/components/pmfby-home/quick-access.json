@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pmfby_home_quick_accesses",
+  "info": {
+    "displayName": "quickAccess",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "displayName": "title",
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby-home.title"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "quick access cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby-home.quick-access-cards"
+    }
+  }
+}

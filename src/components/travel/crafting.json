@@ -12,7 +12,7 @@
     "description": {
       "type": "text"
     },
-    "cardsWithdescription": {
+    "cards": {
       "displayName": "cardsWithOnlyDescription",
       "type": "component",
       "repeatable": true,

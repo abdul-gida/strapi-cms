@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_wc_items",
+  "info": {
+    "displayName": "items"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "bottom": {
+      "type": "string"
+    }
+  }
+}

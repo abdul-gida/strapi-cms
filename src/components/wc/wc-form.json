@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_wc_wc_forms",
+  "info": {
+    "displayName": "wc-form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "nameLabel": {
+      "type": "string"
+    },
+    "namePlaceholder": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "phoneLabel": {
+      "type": "string"
+    },
+    "phonePlaceholder": {
+      "type": "string"
+    },
+    "declaration": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "findYourTopic": {
+      "type": "string"
+    },
+    "tabs": {
+      "displayName": "tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "wc.tabs"
+    }
+  }
+}

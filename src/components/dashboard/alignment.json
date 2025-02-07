@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_dashboard_alignments",
+  "info": {
+    "displayName": "alignment"
+  },
+  "options": {},
+  "attributes": {
+    "resumeJourney": {
+      "displayName": "alignmentType",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.alignment-type",
+      "required": true
+    },
+    "needsYourAttention": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.alignment-type",
+      "required": true
+    },
+    "policy": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.alignment-type"
+    },
+    "quickActions": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.alignment-type"
+    },
+    "locateServices": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.alignment-type"
+    },
+    "support": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.alignment-type"
+    },
+    "latest": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.alignment-type"
+    },
+    "promotionalBanner": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.alignment-type"
+    },
+    "buyNewInsurance": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.alignment-type"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.alignment-type"
+    }
+  }
+}

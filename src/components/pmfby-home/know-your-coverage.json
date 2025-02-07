@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pmfby_home_know_your_coverages",
+  "info": {
+    "displayName": "knowYourCoverage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "gridCount": {
+      "type": "string"
+    },
+    "content": {
+      "displayName": "content",
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby-home.content"
+    },
+    "noteSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pmfby-home.note-section"
+    }
+  }
+}

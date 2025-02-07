@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_dashboard_cards",
+  "info": {
+    "displayName": "cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "key": {
+      "type": "enumeration",
+      "enum": [
+        "claimRegistration",
+        "renewPolicy",
+        "trackClaim",
+        "linkEia",
+        "ekycRegistration"
+      ],
+      "required": true
+    }
+  }
+}

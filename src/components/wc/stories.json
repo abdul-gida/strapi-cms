@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_wc_stories",
+  "info": {
+    "displayName": "stories"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "views": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "stories": {
+      "displayName": "stories-images",
+      "type": "component",
+      "repeatable": true,
+      "component": "wc.stories-images"
+    }
+  }
+}

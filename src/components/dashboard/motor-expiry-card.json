@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_dashboard_motor_expiry_cards",
+  "info": {
+    "displayName": "motorExpiryCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "required": true,
+      "type": "string"
+    },
+    "description": {
+      "required": true,
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_wc_wc_secures",
+  "info": {
+    "displayName": "wc-secure"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "wc.title-list"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_wc_wc_banners",
+  "info": {
+    "displayName": "wc-banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "displayName": "title",
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.title"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "mobileImage": {
+      "type": "string"
+    }
+  }
+}

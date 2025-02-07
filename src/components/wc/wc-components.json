@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_wc_wc_components",
+  "info": {
+    "displayName": "wc-components"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "mobileImage": {
+      "type": "string"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.title"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "wc.description"
+    },
+    "items": {
+      "displayName": "items",
+      "type": "component",
+      "repeatable": true,
+      "component": "wc.items"
+    }
+  }
+}

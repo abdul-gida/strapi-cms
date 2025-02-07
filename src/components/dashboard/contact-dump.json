@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_dashboard_contact_dumps",
+  "info": {
+    "displayName": "contactDump"
+  },
+  "options": {},
+  "attributes": {
+    "call": {
+      "displayName": "call",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.call"
+    },
+    "whatsapp": {
+      "displayName": "whatsapp",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.whatsapp"
+    }
+  }
+}

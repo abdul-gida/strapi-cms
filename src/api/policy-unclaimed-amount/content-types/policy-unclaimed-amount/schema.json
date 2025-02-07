@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "policy_unclaimed_amounts",
+  "info": {
+    "singularName": "policy-unclaimed-amount",
+    "pluralName": "policy-unclaimed-amounts",
+    "displayName": "policyUnclaimedAmount",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imaegUrl": {
+      "type": "string"
+    },
+    "needHelp": {
+      "displayName": "needHelp",
+      "type": "component",
+      "repeatable": false,
+      "component": "unclaimed-policy.need-help"
+    },
+    "formData": {
+      "displayName": "formData",
+      "type": "component",
+      "repeatable": false,
+      "component": "unclaimed-policy.form-data"
+    },
+    "table": {
+      "displayName": "table",
+      "type": "component",
+      "repeatable": false,
+      "component": "unclaimed-policy.table"
+    }
+  }
+}

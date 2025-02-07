@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_dashboard_viewalls",
+  "info": {
+    "displayName": "viewall"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "required": true,
+      "enum": ["ViewAll"]
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "showCard": {
+      "type": "boolean",
+      "required": true
+    },
+    "bannerText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

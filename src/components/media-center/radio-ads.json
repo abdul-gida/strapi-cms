@@ -8,6 +8,11 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "ads": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media-center.ads-radio-ads"
     }
   }
 }

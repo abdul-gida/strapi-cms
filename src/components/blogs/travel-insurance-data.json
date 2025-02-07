@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blogs_travel_insurance_data",
+  "info": {
+    "displayName": "travelInsuranceData"
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "string"
+    },
+    "title": {
+      "displayName": "title",
+      "type": "component",
+      "repeatable": false,
+      "component": "blogs.title"
+    },
+    "description": {
+      "type": "text"
+    },
+    "btnCta": {
+      "type": "string"
+    },
+    "btnLink": {
+      "type": "string"
+    }
+  }
+}

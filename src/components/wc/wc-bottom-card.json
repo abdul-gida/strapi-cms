@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_wc_wc_bottom_cards",
+  "info": {
+    "displayName": "wc-bottomCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "backgroundDesk": {
+      "type": "string"
+    },
+    "backgroundMob": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

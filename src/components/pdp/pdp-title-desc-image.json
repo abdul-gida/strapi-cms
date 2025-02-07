@@ -9,9 +9,6 @@
     "title": {
       "type": "string"
     },
-    "desc": {
-      "type": "text"
-    },
     "image": {
       "type": "string"
     },
@@ -28,6 +25,9 @@
       ],
       "default": "pdp-title-desc-image",
       "required": true
+    },
+    "desc": {
+      "type": "richtext"
     }
   }
 }

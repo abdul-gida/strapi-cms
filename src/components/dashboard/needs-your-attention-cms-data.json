@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_dashboard_needs_your_attention_cms_data_s",
+  "info": {
+    "displayName": "needsYourAttentionCmsData "
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "renewCard": {
+      "displayName": "renewCard",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.renew-card"
+    },
+    "trackClaimCard": {
+      "displayName": "trackClaimCard",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.track-claim-card"
+    }
+  }
+}
