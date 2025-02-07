@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_motor_forms_plan_types",
+  "info": {
+    "displayName": "planType",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "comprehensiveLabel": {
+      "type": "string",
+      "required": true
+    },
+    "thirdPartyLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

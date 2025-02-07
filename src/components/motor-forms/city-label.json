@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_motor_forms_city_labels",
+  "info": {
+    "displayName": "cityLabel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
