@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_car_insurance_metro_cities",
+  "info": {
+    "displayName": "metroCities"
+  },
+  "options": {},
+  "attributes": {
+    "metroCities": {
+      "displayName": "metroCities",
+      "type": "component",
+      "repeatable": false,
+      "component": "pdp.metro-cities"
+    }
+  }
+}

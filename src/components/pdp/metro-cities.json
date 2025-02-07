@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pdp_metro_cities",
+  "info": {
+    "displayName": "metroCities"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "metroCitiesCon": {
+      "displayName": "metroCitiesCon",
+      "type": "component",
+      "repeatable": true,
+      "component": "metro-cities.metro-cities-con"
+    }
+  }
+}
