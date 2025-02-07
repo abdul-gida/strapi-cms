@@ -69,6 +69,11 @@
     },
     "bottomLabel": {
       "type": "string"
+    },
+    "insurance_form": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::insurance-form.insurance-form"
     }
   }
 }

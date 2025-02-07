@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_simplify_video_card_simplify_cards",
+  "info": {
+    "displayName": "simplifyCard"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_motor_forms_policy_details",
+  "info": {
+    "displayName": "policyDetails",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "vehicleDetails": {
+      "displayName": "vehicleDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-forms.vehicle-details"
+    },
+    "totalPremiumLabel": {
+      "type": "string",
+      "required": true
+    },
+    "proceedToBuyCtaLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

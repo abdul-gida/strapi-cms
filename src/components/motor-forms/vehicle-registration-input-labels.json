@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_motor_forms_vehicle_registration_input_labels",
+  "info": {
+    "displayName": "vehicleRegistrationInputLabels"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

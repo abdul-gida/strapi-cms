@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_pdp_simplify_title_cards",
+  "info": {
+    "displayName": "SimplifyTitleCards"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "simplify-title-cards"
+      ],
+      "default": "simplify-title-cards",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "displayName": "simplifyCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "simplify-video-card.simplify-card"
+    },
+    "grid": {
+      "type": "integer"
+    }
+  }
+}
