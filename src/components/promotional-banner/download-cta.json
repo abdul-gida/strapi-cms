@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_promotional_banner_download_ctas",
+  "info": {
+    "displayName": "downloadCta"
+  },
+  "options": {},
+  "attributes": {
+    "titleOne": {
+      "type": "string"
+    },
+    "titleTwo": {
+      "type": "string"
+    },
+    "highlight": {
+      "type": "string"
+    }
+  }
+}

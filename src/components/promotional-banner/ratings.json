@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_promotional_banner_ratings",
+  "info": {
+    "displayName": "ratings"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

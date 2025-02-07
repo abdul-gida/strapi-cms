@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_pdp_pdp_promotional_banners",
+  "info": {
+    "displayName": "Pdp-PromotionalBanner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "hereLogo": {
+      "type": "string"
+    },
+    "qrImage": {
+      "type": "string"
+    },
+    "images": {
+      "displayName": "images",
+      "type": "component",
+      "repeatable": true,
+      "component": "promotional-banner.images"
+    },
+    "downloadLink": {
+      "type": "string"
+    },
+    "downloadCta": {
+      "displayName": "downloadCta",
+      "type": "component",
+      "repeatable": false,
+      "component": "promotional-banner.download-cta"
+    },
+    "ratings": {
+      "displayName": "ratings",
+      "type": "component",
+      "repeatable": false,
+      "component": "promotional-banner.ratings"
+    },
+    "installs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "promotional-banner.ratings"
+    }
+  }
+}
