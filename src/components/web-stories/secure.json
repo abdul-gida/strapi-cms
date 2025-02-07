@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_web_stories_secures",
+  "info": {
+    "displayName": "secure"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "displayName": "titleWithLabel",
+      "type": "component",
+      "repeatable": true,
+      "component": "web-stories.title-with-label"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

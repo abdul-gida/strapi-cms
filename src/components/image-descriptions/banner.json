@@ -1,27 +1,19 @@
 {
   "collectionName": "components_image_descriptions_banners",
   "info": {
-    "displayName": "banner"
+    "displayName": "banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "displayName": "title",
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.title"
+      "type": "string"
     },
     "image": {
-      "displayName": "image",
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.image"
+      "type": "string"
     },
     "mobileImage": {
-      "displayName": "mobileImage",
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.mobile-image"
+      "type": "string"
     }
   }
 }

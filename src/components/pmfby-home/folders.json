@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pmfby_home_folders",
+  "info": {
+    "displayName": "folders",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "stacks": {
+      "displayName": "stacks",
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby-home.stacks"
+    },
+    "scrollHereId": {
+      "type": "string"
+    }
+  }
+}

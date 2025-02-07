@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pmfby_home_stack_image_folders",
+  "info": {
+    "displayName": "StackImageFolder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "folders": {
+      "displayName": "folders",
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby-home.folders"
+    }
+  }
+}

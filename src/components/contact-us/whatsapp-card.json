@@ -1,7 +1,8 @@
 {
   "collectionName": "components_contact_us_whatsapp_cards",
   "info": {
-    "displayName": "whatsappCard"
+    "displayName": "whatsappCard",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -24,6 +25,9 @@
       "type": "string"
     },
     "contactNumber": {
+      "type": "string"
+    },
+    "message": {
       "type": "string"
     }
   }

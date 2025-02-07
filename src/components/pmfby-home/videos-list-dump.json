@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pmfby_home_videos_list_dumps",
+  "info": {
+    "displayName": "videosListDump"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "videos": {
+      "displayName": "videos",
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby-home.videos"
+    }
+  }
+}

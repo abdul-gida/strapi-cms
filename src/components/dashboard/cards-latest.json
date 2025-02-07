@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_dashboard_cards_latests",
+  "info": {
+    "displayName": "cardsLatest"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "string",
+      "required": true
+    },
+    "readTime": {
+      "type": "string",
+      "required": true
+    },
+    "tagName": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "showCard": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

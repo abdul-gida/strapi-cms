@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_dashboard_policy_card_images",
+  "info": {
+    "displayName": "policyCardImage"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "bgImage": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

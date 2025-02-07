@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_dashboard_promotional_banners",
+  "info": {
+    "displayName": "promotionalBanner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hereAppLogo": {
+      "type": "string",
+      "required": true
+    },
+    "hereLogo": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "titleMob": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "qrImage": {
+      "type": "string",
+      "required": true
+    },
+    "downloadCta": {
+      "type": "string",
+      "required": true
+    },
+    "downloadLink": {
+      "type": "string",
+      "required": true
+    },
+    "appStore": {
+      "displayName": "appStore",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.app-store",
+      "required": true
+    },
+    "playStore": {
+      "displayName": "playStore",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.app-store",
+      "required": true
+    },
+    "swiperImages": {
+      "displayName": "swiperImages",
+      "type": "component",
+      "repeatable": true,
+      "component": "dashboard.swiper-images",
+      "required": true
+    }
+  }
+}

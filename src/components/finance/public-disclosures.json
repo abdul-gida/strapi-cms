@@ -9,7 +9,7 @@
     "title": {
       "type": "string"
     },
-    "yearsWithQuarters": {
+    "years": {
       "displayName": "yearsWithQuarters",
       "type": "component",
       "repeatable": true,

@@ -1,11 +1,15 @@
 {
   "collectionName": "components_shared_steps",
   "info": {
-    "displayName": "steps"
+    "displayName": "steps",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "step": {
+      "type": "string"
+    },
+    "link": {
       "type": "string"
     }
   }

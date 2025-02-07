@@ -1,7 +1,8 @@
 {
   "collectionName": "components_contact_us_form_data",
   "info": {
-    "displayName": "formData"
+    "displayName": "formData",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -26,9 +27,6 @@
     "namePlaceHolder": {
       "type": "string"
     },
-    "mobileNumberLabel": {
-      "type": "string"
-    },
     "mobileNumberPlaceHolder": {
       "type": "string"
     },
@@ -42,6 +40,12 @@
       "type": "string"
     },
     "submitButtonText": {
+      "type": "string"
+    },
+    "errorMessage": {
+      "type": "string"
+    },
+    "successMessage": {
       "type": "string"
     }
   }

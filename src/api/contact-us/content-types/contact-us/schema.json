@@ -42,7 +42,7 @@
     "officeCards": {
       "displayName": "officeCards",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "contact-us.office-cards"
     },
     "insuranceClaimOffices": {
@@ -61,7 +61,7 @@
       "type": "string"
     },
     "disclaimer": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

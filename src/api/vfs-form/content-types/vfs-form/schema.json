@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "vfs_forms",
+  "info": {
+    "singularName": "vfs-form",
+    "pluralName": "vfs-forms",
+    "displayName": "vfsForm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "formDumpData": {
+      "displayName": "formData",
+      "type": "component",
+      "repeatable": false,
+      "component": "vfs.form-data"
+    }
+  }
+}

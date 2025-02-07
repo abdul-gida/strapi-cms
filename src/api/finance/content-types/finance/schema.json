@@ -15,7 +15,7 @@
     "bannerTitle": {
       "type": "string"
     },
-    "breadcrumbs": {
+    "breadCrumb": {
       "displayName": "breadCrumbs",
       "type": "component",
       "repeatable": true,

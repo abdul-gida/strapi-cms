@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_dashboard_desktop_alignments",
+  "info": {
+    "displayName": "desktopAlignment"
+  },
+  "options": {},
+  "attributes": {
+    "position": {
+      "type": "integer",
+      "required": true
+    },
+    "side": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "left",
+        "right"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pmfby_applications",
+  "info": {
+    "displayName": "application"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

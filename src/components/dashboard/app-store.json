@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_dashboard_app_stores",
+  "info": {
+    "displayName": "appStore"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "string",
+      "required": true
+    },
+    "ratings": {
+      "type": "string",
+      "required": true
+    },
+    "installs": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

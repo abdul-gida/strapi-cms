@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_dashboard_actions",
+  "info": {
+    "displayName": "actions"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "key": {
+      "type": "enumeration",
+      "required": true,
+      "enum": ["download", "file", "edit"]
+    }
+  }
+}

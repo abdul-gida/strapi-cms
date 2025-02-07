@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_dashboard_calls",
+  "info": {
+    "displayName": "call"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string",
+      "required": true
+    },
+    "prefix": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

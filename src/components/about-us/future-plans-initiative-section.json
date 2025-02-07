@@ -1,7 +1,8 @@
 {
   "collectionName": "components_about_us_future_plans_initiative_sections",
   "info": {
-    "displayName": "futurePlans-InitiativeSection"
+    "displayName": "futurePlans-InitiativeSection",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,7 +10,7 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "image": {
       "type": "string"

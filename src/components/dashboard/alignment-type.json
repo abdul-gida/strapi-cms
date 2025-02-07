@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_dashboard_alignment_types",
+  "info": {
+    "displayName": "alignmentType"
+  },
+  "options": {},
+  "attributes": {
+    "mobileAlignment": {
+      "type": "integer",
+      "required": true
+    },
+    "desktopAlignment": {
+      "displayName": "desktopAlignment",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.desktop-alignment",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "resumeJourney",
+        "needsYourAttention",
+        "policy",
+        "actions",
+        "support",
+        "latest",
+        "buyNewInsurance",
+        "locateServices",
+        "promotionalBanner",
+        "contact"
+      ]
+    }
+  }
+}

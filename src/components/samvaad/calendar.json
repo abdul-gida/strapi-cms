@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_samvaad_calendars",
+  "info": {
+    "displayName": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "confirm": {
+      "type": "string"
+    }
+  }
+}

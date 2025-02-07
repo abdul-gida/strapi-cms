@@ -9,7 +9,7 @@
     "title": {
       "type": "string"
     },
-    "annexures": {
+    "annexure": {
       "type": "component",
       "repeatable": true,
       "component": "finance.notice-to-policyholders"

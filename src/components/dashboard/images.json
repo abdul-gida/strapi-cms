@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_dashboard_images",
+  "info": {
+    "displayName": "images"
+  },
+  "options": {},
+  "attributes": {
+    "health": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    },
+    "motor": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    },
+    "twoWheeler": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    },
+    "cyber": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    },
+    "travel": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    },
+    "pets": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    },
+    "home": {
+      "displayName": "policyCardImage",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card-image"
+    }
+  }
+}

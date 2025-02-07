@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_samvaad_forms",
+  "info": {
+    "displayName": "form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "policyNumberLabel": {
+      "type": "string"
+    },
+    "policyNumberPlaceholder": {
+      "type": "string"
+    },
+    "fullNameLabel": {
+      "type": "string"
+    },
+    "fullNamePlaceholder": {
+      "type": "string"
+    },
+    "mobileNumberLabel": {
+      "type": "string"
+    },
+    "mobileNumberPlaceholder": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "complaintTypeLabel": {
+      "type": "string"
+    },
+    "complaintTypePlaceholder": {
+      "type": "string"
+    },
+    "complaintTypeOptions": {
+      "displayName": "complaintTypeOptions",
+      "type": "component",
+      "repeatable": true,
+      "component": "samvaad.complaint-type-options"
+    },
+    "claimNumberLabel": {
+      "type": "string"
+    },
+    "claimNumberPlaceholder": {
+      "type": "string"
+    },
+    "grievanceLabel": {
+      "type": "string"
+    },
+    "grievancePlaceholder": {
+      "type": "string"
+    },
+    "disclaimer": {
+      "type": "text"
+    },
+    "submit": {
+      "type": "string"
+    },
+    "emergencyContact": {
+      "type": "string"
+    }
+  }
+}

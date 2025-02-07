@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_blogs_happy_customers_data",
+  "info": {
+    "displayName": "happyCustomersData"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "rated": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "string"
+    },
+    "playStoreRating": {
+      "type": "decimal"
+    },
+    "appStoreRating": {
+      "type": "decimal"
+    },
+    "btnCta": {
+      "type": "string"
+    },
+    "btnLink": {
+      "type": "string"
+    }
+  }
+}

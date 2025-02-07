@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pmfby_home_quick_access_cards",
+  "info": {
+    "displayName": "quick access cards"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "scrollToId": {
+      "type": "string"
+    }
+  }
+}

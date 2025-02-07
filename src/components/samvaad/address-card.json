@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_samvaad_address_cards",
+  "info": {
+    "displayName": "addressCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

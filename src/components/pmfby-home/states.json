@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pmfby_home_states",
+  "info": {
+    "displayName": "states",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sections": {
+      "displayName": "sections",
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby-home.sections"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pmfby_home_coverage_cards",
+  "info": {
+    "displayName": "coverageCards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

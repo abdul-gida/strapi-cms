@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_unclaimed_policy_tables",
+  "info": {
+    "displayName": "table"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "referenceNumber": {
+      "type": "string"
+    },
+    "insuredName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "policyNo": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "updateAccountDetails": {
+      "type": "string"
+    },
+    "clickText": {
+      "type": "string"
+    }
+  }
+}

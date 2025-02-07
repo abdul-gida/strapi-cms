@@ -1,0 +1,62 @@
+{
+  "collectionName": "components_dashboard_policy_details_cms",
+  "info": {
+    "displayName": "policyDetailsCms",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "required": true,
+      "type": "enumeration",
+      "enum": ["policy"]
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    },
+    "secondtitle": {
+      "required": true,
+      "type": "string"
+    },
+    "infoText": {
+      "required": true,
+      "type": "string"
+    },
+    "noPolicy": {
+      "displayName": "noPolicy",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.no-policy"
+    },
+    "linkPolicy": {
+      "displayName": "linkPolicy",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.link-policy"
+    },
+    "expiredCancelled": {
+      "displayName": "expiredCancelled",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.expired-cancelled"
+    },
+    "expiredCancelledView": {
+      "displayName": "expiredCancelledView",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.expired-cancelled-view"
+    },
+    "policyCard": {
+      "displayName": "policyCard",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-card"
+    }
+  }
+}
