@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_plp_clickable_cards_ctas",
+  "collectionName": "components_pdp_clickable_cards_ctas",
   "info": {
     "displayName": "clickableCardsCta"
   },
@@ -18,7 +18,7 @@
       "displayName": "cards",
       "type": "component",
       "repeatable": true,
-      "component": "plp.cards"
+      "component": "pdp.cards"
     }
   }
 }

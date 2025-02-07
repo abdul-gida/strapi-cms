@@ -53,8 +53,8 @@
         "pdp.pdp-note-section",
         "pdp.compare-policy-section",
         "pdp.pdp-bike-insurance-premium-rate",
-        "pdp.pdp-metro-cities"
-        
+        "pdp.pdp-metro-cities",
+        "pdp.clickable-cards-cta"
       ]
     },
     "showAchievements": {

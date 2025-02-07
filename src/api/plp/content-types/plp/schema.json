@@ -50,8 +50,7 @@
         "pdp.pdp-app-carousel",
         "pdp.pdp-form-wrapper",
         "pdp.pdp-note-section",
-        "pdp.pdp-metro-cities",
-        "plp.plp-clickable-cards-cta"
+        "pdp.pdp-metro-cities"
       ]
     },
     "showAchievements": {
