@@ -22,6 +22,9 @@
       ],
       "default": "pdp-title-desc-cards",
       "required": true
+    },
+    "disclaimer": {
+      "type": "text"
     }
   }
 }

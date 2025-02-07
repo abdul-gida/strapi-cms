@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_plp_cards",
+  "info": {
+    "displayName": "cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "exploreCtaLabel": {
+      "type": "string"
+    },
+    "exploreCtaUrl": {
+      "type": "string"
+    },
+    "buyNowCtaLabel": {
+      "type": "string"
+    },
+    "buyNowCtaUrl": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_plp_clickable_cards_ctas",
+  "info": {
+    "displayName": "clickableCardsCta"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "gridCount": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "plp.cards"
+    }
+  }
+}
