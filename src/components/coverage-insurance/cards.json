@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_coverage_insurance_cards",
+  "info": {
+    "displayName": "cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "richtext"
+    },
+    "card": {
+      "displayName": "card items",
+      "type": "component",
+      "repeatable": true,
+      "component": "coverage-insurance.card-items"
+    }
+  }
+}

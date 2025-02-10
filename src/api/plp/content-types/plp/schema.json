@@ -52,7 +52,8 @@
         "pdp.pdp-note-section",
         "pdp.pdp-metro-cities",
         "pdp.compare-policy-section",
-        "pdp.pdp-bike-insurance-premium-rate"
+        "pdp.pdp-bike-insurance-premium-rate",
+        "pdp.pdp-coverage-insurance-section"
       ]
     },
     "showAchievements": {
