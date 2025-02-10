@@ -12,8 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "formName": {
-      "type": "string"
+    "title": {
+      "type": "string",
+      "unique": true
     },
     "insuranceForms": {
       "type": "dynamiczone",
