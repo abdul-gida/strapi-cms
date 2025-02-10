@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_motor_forms_four_wheeler_forms",
+  "info": {
+    "displayName": "FourWheelerForm",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "badgeLabel": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "cityLabel": {
+      "displayName": "cityLabel",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-forms.city-label"
+    },
+    "vehicleRegistrationInputLabels": {
+      "displayName": "vehicleRegistrationInputLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-forms.vehicle-registration-input-labels"
+    },
+    "mobileNumberInputLabels": {
+      "displayName": "mobileNumberInputLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-forms.mobile-number-input-labels"
+    },
+    "getQuoteCtaLabel": {
+      "type": "string",
+      "required": true
+    },
+    "termsAndConditions": {
+      "displayName": "termsAndConditions",
+      "type": "component",
+      "repeatable": true,
+      "component": "motor-forms.terms-and-conditions"
+    },
+    "policyDetails": {
+      "displayName": "policyDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-forms.policy-details"
+    }
+  }
+}

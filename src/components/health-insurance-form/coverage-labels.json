@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_health_insurance_form_coverage_labels",
+  "info": {
+    "displayName": "coverageLabels",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string",
+      "required": false
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

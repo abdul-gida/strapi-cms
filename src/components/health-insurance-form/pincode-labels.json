@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_health_insurance_form_pincode_labels",
+  "info": {
+    "displayName": "pincodeLabels"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

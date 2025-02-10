@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_motor_forms_idvs",
+  "info": {
+    "displayName": "idv"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "minIdvLabel": {
+      "type": "string",
+      "required": false
+    },
+    "recommendedLabel": {
+      "type": "string"
+    },
+    "maxIdvLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_motor_forms_terms_and_conditions",
+  "info": {
+    "displayName": "termsAndConditions"
+  },
+  "options": {},
+  "attributes": {
+    "condition": {
+      "type": "text"
+    }
+  }
+}

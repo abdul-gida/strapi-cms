@@ -4,7 +4,7 @@
   "info": {
     "singularName": "media-center-tabs-dump",
     "pluralName": "media-center-tabs-dumps",
-    "displayName": "mediaCenterTabsDump",
+    "displayName": "mediaCenterTabs",
     "description": ""
   },
   "options": {
