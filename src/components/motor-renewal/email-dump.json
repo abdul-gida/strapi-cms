@@ -1,7 +1,8 @@
 {
   "collectionName": "components_motor_renewal_email_dumps",
   "info": {
-    "displayName": "emailDump"
+    "displayName": "emailDump",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,7 +10,7 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "imageUrl": {
       "type": "text"
