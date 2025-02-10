@@ -21,6 +21,11 @@
       "repeatable": false,
       "component": "motor-forms.vehicle-details"
     },
+    "Idv": {
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-forms.idv"
+    },
     "totalPremiumLabel": {
       "type": "string",
       "required": true
