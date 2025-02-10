@@ -4,13 +4,17 @@
   "info": {
     "singularName": "insurance-form",
     "pluralName": "insurance-forms",
-    "displayName": "InsuranceForm"
+    "displayName": "InsuranceForm",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
+    "formName": {
+      "type": "string"
+    },
     "insuranceForms": {
       "type": "dynamiczone",
       "components": [
