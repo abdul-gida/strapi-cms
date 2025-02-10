@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_news_explore_news",
+  "info": {
+    "displayName": "exploreNews"
+  },
+  "options": {},
+  "attributes": {
+    "left": {
+      "type": "string"
+    },
+    "right": {
+      "type": "string"
+    }
+  }
+}

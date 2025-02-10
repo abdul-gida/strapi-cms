@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_csr_tabs",
+  "info": {
+    "displayName": "tabs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "points": {
+      "displayName": "points",
+      "type": "component",
+      "repeatable": true,
+      "component": "csr.points"
+    }
+  }
+}

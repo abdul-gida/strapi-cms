@@ -29,6 +29,12 @@
     },
     "dobPlaceholder": {
       "type": "string"
+    },
+    "calenderTitle": {
+      "type": "string"
+    },
+    "calenderSubTitle": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pmfby_image_cards",
+  "info": {
+    "displayName": "image cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

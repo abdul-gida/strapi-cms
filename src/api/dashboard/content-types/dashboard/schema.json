@@ -4,7 +4,7 @@
   "info": {
     "singularName": "dashboard",
     "pluralName": "dashboards",
-    "displayName": "Dashboard",
+    "displayName": "dashboard",
     "description": ""
   },
   "options": {
@@ -12,47 +12,82 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "dashboardCmsData": {
-      "displayName": "dashboardCmsData",
+    "alignment": {
+      "displayName": "alignment",
       "type": "component",
       "repeatable": false,
-      "component": "dashboard.dashboard-cms-data"
+      "component": "dashboard.alignment",
+      "required": true
+    },
+    "resumeJourneyCmsData": {
+      "displayName": "resumeJourneyCmsData ",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.resume-journey-cms-data",
+      "required": true
+    },
+    "needsYourAttentionCmsData": {
+      "displayName": "needsYourAttentionCmsData ",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.needs-your-attention-cms-data",
+      "required": true
+    },
+    "policyDetailsCms": {
+      "displayName": "policyDetailsCms",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.policy-details-cms"
+    },
+    "quickActions": {
+      "displayName": "quickActions ",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.quick-actions"
     },
     "supportCms": {
-      "displayName": "supportCms",
+      "displayName": "supportCms2",
       "type": "component",
       "repeatable": false,
-      "component": "dashboard.support-cms"
+      "required": true,
+      "component": "dashboard.support-cms2"
     },
-    "dashboardNewsletter": {
-      "displayName": "dashboardNewsletterCms",
+    "dashboardLatestInHdfcCms": {
+      "displayName": "dashboardLatestInHdfcCms ",
       "type": "component",
       "repeatable": false,
-      "component": "dashboard.dashboard-newsletter-cms"
+      "required": true,
+      "component": "dashboard.dashboard-latest-in-hdfc-cms"
     },
-    "dashboardConnectWithUsCms": {
-      "displayName": "dashboardConnectWithUsCms",
+    "buyInsuranceCms": {
+      "displayName": "buyInsuranceCms ",
       "type": "component",
       "repeatable": false,
-      "component": "dashboard.dashboard-connect-with-us-cms"
+      "required": true,
+      "component": "dashboard.buy-insurance-cms"
     },
-    "ecosystemQrCms": {
-      "displayName": "ecosystemQrCms",
+    "contactDump": {
+      "displayName": "contactDump",
       "type": "component",
       "repeatable": false,
-      "component": "dashboard.ecosystem-qr-cms"
+      "required": true,
+      "component": "dashboard.contact-dump"
     },
-    "needsYourAttention": {
-      "displayName": "needsYourAttention",
+    "locateServices": {
+      "displayName": "locateServices ",
       "type": "component",
-      "repeatable": false,
-      "component": "dashboard-buy-insurance.needs-your-attention"
+      "repeatable": true,
+      "component": "dashboard.locate-services",
+      "required": true
     },
-    "resumeJourney": {
-      "displayName": "resumeJourney",
+    "promotionalBanner": {
+      "displayName": "promotionalBanner",
       "type": "component",
       "repeatable": false,
-      "component": "dashboard-buy-insurance.resume-journey"
+      "component": "dashboard.promotional-banner",
+      "required": true
     }
   }
 }

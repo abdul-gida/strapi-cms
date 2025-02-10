@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_travel_last_cards",
+  "info": {
+    "displayName": "lastCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "btnCta": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

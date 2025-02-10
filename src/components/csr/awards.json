@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_csr_awards",
+  "info": {
+    "displayName": "awards"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "initiativeFor": {
+      "type": "string"
+    },
+    "awardFor": {
+      "type": "string"
+    }
+  }
+}

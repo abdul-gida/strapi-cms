@@ -23,6 +23,14 @@
       "type": "component",
       "repeatable": true,
       "component": "pdp.clickable-cards-list"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-clickable-cards"
+      ],
+      "default": "pdp-clickable-cards",
+      "required": true
     }
   }
 }

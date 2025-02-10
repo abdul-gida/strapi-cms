@@ -1,7 +1,8 @@
 {
   "collectionName": "components_about_us_people",
   "info": {
-    "displayName": "people"
+    "displayName": "people",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,7 +10,7 @@
       "type": "string"
     },
     "designation": {
-      "type": "string"
+      "type": "text"
     },
     "image": {
       "type": "string"

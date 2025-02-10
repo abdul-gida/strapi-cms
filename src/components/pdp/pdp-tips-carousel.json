@@ -1,7 +1,8 @@
 {
   "collectionName": "components_pdp_pdp_tips_carousels",
   "info": {
-    "displayName": "Pdp-TipsCarousel"
+    "displayName": "Pdp-TipsCarousel",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,14 @@
       "type": "component",
       "repeatable": true,
       "component": "pdp.tc-tips-carousel"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-tips-carousel"
+      ],
+      "default": "pdp-tips-carousel",
+      "required": true
     }
   }
 }

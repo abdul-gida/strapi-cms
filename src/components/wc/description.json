@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_wc_descriptions",
+  "info": {
+    "displayName": "description"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "text"
+    }
+  }
+}

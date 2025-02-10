@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_finance_public_disclosures",
+  "info": {
+    "displayName": "tabsWithQuarters",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "years": {
+      "displayName": "yearsWithQuarters",
+      "type": "component",
+      "repeatable": true,
+      "component": "finance.years-with-quarters"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_compare_policy_selection_rows",
+  "info": {
+    "displayName": "rows",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cellOne": {
+      "type": "text"
+    },
+    "cellTwo": {
+      "type": "text"
+    },
+    "cellThree": {
+      "type": "text"
+    }
+  }
+}

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_about_us_how_initiatives_sections",
   "info": {
-    "displayName": "howInitiativesSection"
+    "displayName": "howInitiativesSection",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,10 +10,10 @@
       "type": "string"
     },
     "description1": {
-      "type": "string"
+      "type": "text"
     },
     "description2": {
-      "type": "string"
+      "type": "text"
     },
     "image": {
       "type": "string"

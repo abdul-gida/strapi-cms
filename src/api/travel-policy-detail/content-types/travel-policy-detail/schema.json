@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "travel_policy_details",
+  "info": {
+    "singularName": "travel-policy-detail",
+    "pluralName": "travel-policy-details",
+    "displayName": "TravelPolicyDetails",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headerTextColorBlack": {
+      "type": "boolean"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "formSubtitle": {
+      "type": "string"
+    },
+    "optionSelectionText": {
+      "type": "string"
+    },
+    "optionList": {
+      "displayName": "optionList",
+      "type": "component",
+      "repeatable": true,
+      "component": "travel-policy.option-list"
+    },
+    "policyLabel": {
+      "type": "string"
+    },
+    "policyPlaceholder": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "noteText": {
+      "type": "string"
+    },
+    "noteEmail": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "travel-policy.table"
+    }
+  }
+}

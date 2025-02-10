@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_csr_company_reports",
+  "info": {
+    "displayName": "companyReports"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "reports": {
+      "displayName": "reports",
+      "type": "component",
+      "repeatable": true,
+      "component": "csr.reports"
+    }
+  }
+}

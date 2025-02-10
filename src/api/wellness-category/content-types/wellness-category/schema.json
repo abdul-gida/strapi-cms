@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wellness_categories",
+  "info": {
+    "singularName": "wellness-category",
+    "pluralName": "wellness-categories",
+    "displayName": "WellnessCategory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-banner"
+    },
+    "wellBeing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-well-being"
+    },
+    "knowMore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-know-more"
+    },
+    "secure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-secure"
+    },
+    "bottomCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-bottom-card"
+    },
+    "disclaimer": {
+      "displayName": "wc-disclaimer",
+      "type": "component",
+      "repeatable": false,
+      "component": "wc.wc-disclaimer"
+    }
+  }
+}

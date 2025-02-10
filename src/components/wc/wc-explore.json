@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_wc_wc_explores",
+  "info": {
+    "displayName": "wc-explore"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "viewAll": {
+      "type": "string"
+    },
+    "viewAllLink": {
+      "type": "string"
+    },
+    "viewsLabel": {
+      "type": "string"
+    },
+    "stories": {
+      "displayName": "stories",
+      "type": "component",
+      "repeatable": true,
+      "component": "wc.stories"
+    }
+  }
+}

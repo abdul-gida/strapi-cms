@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_travel_policy_option_lists",
+  "info": {
+    "displayName": "optionList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

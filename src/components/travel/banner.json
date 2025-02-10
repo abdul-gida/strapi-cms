@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_travel_banners",
+  "info": {
+    "displayName": "banner",
+    "icon": "",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "btnCta": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,12 +1,13 @@
 {
   "collectionName": "components_career_our_values_descriptions",
   "info": {
-    "displayName": "ourValuesDescription"
+    "displayName": "ourValuesDescription",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "text": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

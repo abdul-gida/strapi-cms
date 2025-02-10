@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_dashboard_resume_journey_cms_data_s",
+  "info": {
+    "displayName": "resumeJourneyCmsData "
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "expiryDateDifference": {
+      "required": true,
+      "type": "integer"
+    },
+    "motorExpiryCard": {
+      "displayName": "motorExpiryCard",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.motor-expiry-card"
+    },
+    "healthExpiryCard": {
+      "displayName": "healthExpiryCard",
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "dashboard.health-expiry-card"
+    }
+  }
+}

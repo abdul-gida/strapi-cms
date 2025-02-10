@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_finance_other_cards",
+  "info": {
+    "displayName": "otherCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "contactDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "finance.contact-details"
+    }
+  }
+}

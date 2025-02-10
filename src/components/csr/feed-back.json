@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_csr_feed_backs",
+  "info": {
+    "displayName": "feedBack"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string"
+    },
+    "btnCta": {
+      "type": "string"
+    }
+  }
+}

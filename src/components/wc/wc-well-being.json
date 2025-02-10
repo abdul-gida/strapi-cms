@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_wc_wc_well_beings",
+  "info": {
+    "displayName": "wc-wellBeing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "displayName": "description",
+      "type": "component",
+      "repeatable": true,
+      "component": "wc.description"
+    },
+    "image": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "wc.cards"
+    },
+    "titlePrefix": {
+      "type": "string"
+    }
+  }
+}

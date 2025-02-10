@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pmfby_crumbs",
+  "info": {
+    "displayName": "crumbs"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_dashboard_policy_cards",
+  "info": {
+    "displayName": "policyCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sumInsured": {
+      "type": "string",
+      "required": true
+    },
+    "vehicleRegNo": {
+      "type": "string",
+      "required": true
+    },
+    "expiringOn": {
+      "type": "string",
+      "required": true
+    },
+    "actions": {
+      "displayName": "actions",
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "dashboard.actions"
+    },
+    "images": {
+      "displayName": "images",
+      "type": "component",
+      "repeatable": false,
+      "component": "dashboard.images",
+      "required": true
+    }
+  }
+}

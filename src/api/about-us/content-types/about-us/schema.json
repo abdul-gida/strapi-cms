@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "bannerText": {
-      "displayName": "bannerText",
-      "type": "component",
-      "repeatable": false,
-      "component": "about-us.banner-text"
-    },
     "breadCrumb": {
       "type": "component",
       "repeatable": true,
@@ -57,10 +51,10 @@
       "type": "string"
     },
     "desc1": {
-      "type": "string"
+      "type": "text"
     },
     "desc2": {
-      "type": "string"
+      "type": "text"
     },
     "animation": {
       "type": "component",
@@ -91,6 +85,9 @@
       "component": "about-us.directors"
     },
     "ourVisionDescription": {
+      "type": "string"
+    },
+    "bannerText": {
       "type": "string"
     }
   }

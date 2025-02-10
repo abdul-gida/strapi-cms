@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "insurance_forms",
+  "info": {
+    "singularName": "insurance-form",
+    "pluralName": "insurance-forms",
+    "displayName": "InsuranceForm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": true
+    },
+    "insuranceForms": {
+      "type": "dynamiczone",
+      "components": [
+        "motor-forms.two-wheeler-form",
+        "motor-forms.four-wheeler-form",
+        "health-insurance-form.health-insurance-form"
+      ],
+      "max": 1
+    }
+  }
+}

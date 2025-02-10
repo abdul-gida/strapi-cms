@@ -1,0 +1,62 @@
+{
+  "collectionName": "components_health_insurance_form_health_insurance_forms",
+  "info": {
+    "displayName": "healthInsuranceForm",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "badgeLabel": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "vehicleRegistrationInputLabels": {
+      "displayName": "vehicleRegistrationInputLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-forms.vehicle-registration-input-labels"
+    },
+    "ageLabels": {
+      "displayName": "ageLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance-form.age-labels"
+    },
+    "pincodeLabels": {
+      "displayName": "pincodeLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance-form.pincode-labels"
+    },
+    "mobileNumberInputLabels": {
+      "displayName": "mobileNumberInputLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-forms.mobile-number-input-labels"
+    },
+    "getQuoteCtaLabel": {
+      "type": "string",
+      "required": true
+    },
+    "termsAndConditions": {
+      "displayName": "termsAndConditions",
+      "type": "component",
+      "repeatable": true,
+      "component": "motor-forms.terms-and-conditions"
+    },
+    "policyDetails": {
+      "displayName": "policyDetails",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance-form.policy-details"
+    }
+  }
+}

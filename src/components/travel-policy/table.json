@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_travel_policy_tables",
+  "info": {
+    "displayName": "table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "policyNoLabel": {
+      "type": "string"
+    },
+    "passportNoLabel": {
+      "type": "string"
+    },
+    "fromInceptionDateLabel": {
+      "type": "string"
+    },
+    "statusLabel": {
+      "type": "string"
+    },
+    "toDate": {
+      "type": "string"
+    },
+    "insuredNameLabel": {
+      "type": "string"
+    }
+  }
+}

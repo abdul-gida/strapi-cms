@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_csr_our_impacts",
+  "info": {
+    "displayName": "ourImpact"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

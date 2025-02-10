@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pmfby_home_kharif2324s",
+  "info": {
+    "displayName": "kharif2324",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pmfby-home.sections"
+    }
+  }
+}

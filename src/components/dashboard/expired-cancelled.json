@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_dashboard_expired_cancelleds",
+  "info": {
+    "displayName": "expiredCancelled"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "required": true,
+      "type": "string"
+    },
+    "subtitle": {
+      "required": true,
+      "type": "string"
+    }
+  }
+}

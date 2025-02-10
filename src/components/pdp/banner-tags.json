@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_pdp_banner_tags",
+  "info": {
+    "displayName": "bannerTags"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

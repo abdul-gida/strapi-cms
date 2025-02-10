@@ -1,7 +1,8 @@
 {
   "collectionName": "components_about_us_achievements_initiatives_sections",
   "info": {
-    "displayName": "achievements-InitiativesSection"
+    "displayName": "achievements-InitiativesSection",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,12 +10,12 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "cards": {
       "displayName": "cards-InitiativeSection",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "about-us.cards-initiative-section"
     }
   }

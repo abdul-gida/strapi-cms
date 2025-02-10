@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_dashboard_renew_cards",
+  "info": {
+    "displayName": "renewCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "required": true,
+      "type": "string"
+    },
+    "subtitle": {
+      "required": true,
+      "type": "string"
+    },
+    "desktopImage": {
+      "required": true,
+      "type": "string"
+    },
+    "notificationImage": {
+      "required": true,
+      "type": "string"
+    },
+    "mobileHealthImage": {
+      "required": true,
+      "type": "string"
+    },
+    "mobileMotorImage": {
+      "required": true,
+      "type": "string"
+    },
+    "buttonText": {
+      "required": true,
+      "type": "string"
+    }
+  }
+}

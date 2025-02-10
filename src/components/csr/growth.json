@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_csr_growths",
+  "info": {
+    "displayName": "growth"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

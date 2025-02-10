@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_motor_forms_vehicle_details",
+  "info": {
+    "displayName": "vehicleDetails"
+  },
+  "options": {},
+  "attributes": {
+    "vehicleUrl": {
+      "type": "string"
+    },
+    "electricVehicleUrl": {
+      "type": "string",
+      "required": true
+    },
+    "normalVehicleUrl": {
+      "type": "string"
+    }
+  }
+}

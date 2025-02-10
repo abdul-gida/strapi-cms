@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pdp_fw_points",
+  "info": {
+    "displayName": "fw-points"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

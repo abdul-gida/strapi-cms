@@ -1,0 +1,102 @@
+{
+  "collectionName": "components_vfs_form_data",
+  "info": {
+    "displayName": "formData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "receiptNoLabel": {
+      "type": "string"
+    },
+    "receiptNoPlaceHolder": {
+      "type": "string"
+    },
+    "receiptNoTooltipText": {
+      "type": "text"
+    },
+    "salutationLabel": {
+      "type": "string"
+    },
+    "salutationList": {
+      "displayName": "salutationList",
+      "type": "component",
+      "repeatable": true,
+      "component": "vfs.salutation-list"
+    },
+    "salutationPlaceHolder": {
+      "type": "string"
+    },
+    "nameLabel": {
+      "type": "string"
+    },
+    "namePlaceHolder": {
+      "type": "string"
+    },
+    "mobileNumberLabel": {
+      "type": "string"
+    },
+    "mobileNumberPlaceHolder": {
+      "type": "string"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "emailPlaceHolder": {
+      "type": "string"
+    },
+    "dateOfBirthLabel": {
+      "type": "string"
+    },
+    "dateOfBirthPlaceHolder": {
+      "type": "string"
+    },
+    "receiptDateLabel": {
+      "type": "string"
+    },
+    "receiptDatePlaceHolder": {
+      "type": "string"
+    },
+    "receiptDateTooltipText": {
+      "type": "text"
+    },
+    "passportNumberLabel": {
+      "type": "string"
+    },
+    "passportNumberPlaceHolder": {
+      "type": "string"
+    },
+    "visaApplicationLocationLabel": {
+      "type": "string"
+    },
+    "visaApplicationLocationPlaceHolder": {
+      "type": "string"
+    },
+    "visaApplicationLocationList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vfs.salutation-list"
+    },
+    "disclaimer": {
+      "type": "text"
+    },
+    "submitButtonText": {
+      "type": "string"
+    },
+    "successToastMessage": {
+      "type": "string"
+    },
+    "errorToastMessage": {
+      "type": "string"
+    },
+    "headerTextColorBlack": {
+      "type": "boolean"
+    }
+  }
+}

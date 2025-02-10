@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_csr_banner_texts",
+  "info": {
+    "displayName": "bannerText"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

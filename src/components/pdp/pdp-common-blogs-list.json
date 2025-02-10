@@ -1,7 +1,8 @@
 {
   "collectionName": "components_pdp_pdp_common_blogs_lists",
   "info": {
-    "displayName": "Pdp-CommonBlogsList"
+    "displayName": "Pdp-CommonBlogsList",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,14 @@
     },
     "numberOfCards": {
       "type": "integer"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-common-blogs-list"
+      ],
+      "default": "pdp-common-blogs-list",
+      "required": true
     }
   }
 }

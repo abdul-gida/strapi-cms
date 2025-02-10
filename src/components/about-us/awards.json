@@ -1,7 +1,8 @@
 {
   "collectionName": "components_about_us_awards",
   "info": {
-    "displayName": "awards"
+    "displayName": "awards",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -12,10 +13,10 @@
       "type": "string"
     },
     "expandedText": {
-      "type": "string"
+      "type": "text"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

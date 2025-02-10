@@ -1,15 +1,16 @@
 {
   "collectionName": "components_about_us_top_contents",
   "info": {
-    "displayName": "topContent"
+    "displayName": "topContent",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "para1": {
-      "type": "string"
+      "type": "text"
     },
     "para2": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

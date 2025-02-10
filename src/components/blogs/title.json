@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blogs_titles",
+  "info": {
+    "displayName": "title"
+  },
+  "options": {},
+  "attributes": {
+    "top": {
+      "type": "string"
+    },
+    "bottom": {
+      "type": "string"
+    }
+  }
+}

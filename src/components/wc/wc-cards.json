@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_wc_wc_cards",
+  "info": {
+    "displayName": "wc-cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

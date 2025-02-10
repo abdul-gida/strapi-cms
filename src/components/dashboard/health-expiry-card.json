@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_dashboard_health_expiry_cards",
+  "info": {
+    "displayName": "healthExpiryCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "required": true,
+      "type": "string"
+    },
+    "description": {
+      "required": true,
+      "type": "text"
+    }
+  }
+}

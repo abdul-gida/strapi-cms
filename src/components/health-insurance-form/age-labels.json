@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_health_insurance_form_age_labels",
+  "info": {
+    "displayName": "ageLabels"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

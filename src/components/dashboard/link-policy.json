@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_dashboard_link_policies",
+  "info": {
+    "displayName": "linkPolicy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "buttontext": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

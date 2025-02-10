@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_pdp_pdp_note_sections",
+  "info": {
+    "displayName": "Pdp-NoteSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "points": {
+      "displayName": "points",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.points"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-note-section"
+      ],
+      "default": "pdp-note-section",
+      "required": true
+    }
+  }
+}

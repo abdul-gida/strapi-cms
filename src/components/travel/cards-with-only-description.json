@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_travel_cards_with_only_descriptions",
+  "info": {
+    "displayName": "cardsWithOnlyDescription"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_motor_forms_titles",
+  "info": {
+    "displayName": "title"
+  },
+  "options": {},
+  "attributes": {
+    "t1": {
+      "type": "string",
+      "required": true
+    },
+    "t2": {
+      "type": "string"
+    }
+  }
+}

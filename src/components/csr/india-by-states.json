@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_csr_india_by_states",
+  "info": {
+    "displayName": "indiaByStates"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

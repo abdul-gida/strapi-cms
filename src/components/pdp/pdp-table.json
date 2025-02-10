@@ -1,7 +1,8 @@
 {
   "collectionName": "components_pdp_pdp_tables",
   "info": {
-    "displayName": "Pdp-Table"
+    "displayName": "Pdp-Table",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -19,6 +20,14 @@
     },
     "isTextLeft": {
       "type": "boolean"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-table"
+      ],
+      "default": "pdp-table",
+      "required": true
     }
   }
 }

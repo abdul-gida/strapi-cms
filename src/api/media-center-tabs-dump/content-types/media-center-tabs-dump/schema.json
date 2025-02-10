@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "media_center_tabs_dumps",
+  "info": {
+    "singularName": "media-center-tabs-dump",
+    "pluralName": "media-center-tabs-dumps",
+    "displayName": "mediaCenterTabs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tabs": {
+      "displayName": "tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "media-center-tabs.tabs"
+    }
+  }
+}

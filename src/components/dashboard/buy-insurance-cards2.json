@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_dashboard_buy_insurance_cards2s",
+  "info": {
+    "displayName": "buyInsuranceCards2"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "isNew": {
+      "type": "boolean",
+      "required": true
+    },
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "showCard": {
+      "type": "boolean",
+      "required": true
+    },
+    "bannerText": {
+      "type": "string",
+      "required": true
+    },
+    "redirectionLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
