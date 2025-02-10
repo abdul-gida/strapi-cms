@@ -20,7 +20,8 @@
       "enum": [
         "pdp-metro-cities"
       ],
-      "required": true
+      "required": true,
+      "default": "pdp-metro-cities"
     }
   }
 }
