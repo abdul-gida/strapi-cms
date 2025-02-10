@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_pdp_scenerio_notes",
+  "collectionName": "components_travel_guide_cards",
   "info": {
-    "displayName": "ScenerioNote",
+    "displayName": "cards",
     "description": ""
   },
   "options": {},
@@ -9,10 +9,13 @@
     "title": {
       "type": "string"
     },
-    "desc": {
+    "description": {
       "type": "text"
     },
     "image": {
+      "type": "string"
+    },
+    "link": {
       "type": "string"
     }
   }
