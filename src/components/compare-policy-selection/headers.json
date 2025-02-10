@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_compare_policy_selection_headers",
+  "info": {
+    "displayName": "headers"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

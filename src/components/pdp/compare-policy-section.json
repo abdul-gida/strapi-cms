@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pdp_compare_policy_sections",
+  "info": {
+    "displayName": "Pdp-coverageDamageSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tableData": {
+      "displayName": "tableData",
+      "type": "component",
+      "repeatable": false,
+      "component": "compare-policy-selection.table-data"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-coverage-damage-section"
+      ],
+      "required": true,
+      "default": "pdp-coverage-damage-section"
+    }
+  }
+}

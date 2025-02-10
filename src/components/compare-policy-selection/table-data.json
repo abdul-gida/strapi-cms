@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_compare_policy_selection_table_data",
+  "info": {
+    "displayName": "tableData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headers": {
+      "displayName": "headers",
+      "type": "component",
+      "repeatable": true,
+      "component": "compare-policy-selection.headers"
+    },
+    "rows": {
+      "displayName": "rows",
+      "type": "component",
+      "repeatable": true,
+      "component": "compare-policy-selection.rows"
+    }
+  }
+}

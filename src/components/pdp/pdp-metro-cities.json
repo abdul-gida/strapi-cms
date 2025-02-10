@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_pdp_pdp_metro_cities",
+  "info": {
+    "displayName": "Pdp-MetroCities"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "metro-cities.cards"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-metro-cities"
+      ]
+    }
+  }
+}

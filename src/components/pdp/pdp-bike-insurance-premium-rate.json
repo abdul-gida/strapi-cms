@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pdp_pdp_bike_insurance_premium_rates",
+  "info": {
+    "displayName": "Pdp - bikeInsurancePremiumRate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "tableData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.compare-policy-section"
+    }
+  }
+}
