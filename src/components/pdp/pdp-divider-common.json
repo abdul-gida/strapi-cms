@@ -12,9 +12,6 @@
     "title": {
       "type": "string"
     },
-    "subtitle": {
-      "type": "text"
-    },
     "mail": {
       "type": "string"
     },
@@ -31,6 +28,9 @@
       ],
       "default": "pdp-divider-common",
       "required": true
+    },
+    "subtitle": {
+      "type": "richtext"
     }
   }
 }
