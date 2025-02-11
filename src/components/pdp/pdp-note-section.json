@@ -10,13 +10,7 @@
       "type": "string"
     },
     "desc": {
-      "type": "text"
-    },
-    "points": {
-      "displayName": "points",
-      "type": "component",
-      "repeatable": true,
-      "component": "pdp.points"
+      "type": "richtext"
     },
     "type": {
       "type": "enumeration",

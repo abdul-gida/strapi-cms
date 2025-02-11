@@ -1,12 +1,9 @@
 {
   "collectionName": "components_pdp_points",
   "info": {
-    "displayName": "points"
+    "displayName": "points",
+    "description": ""
   },
   "options": {},
-  "attributes": {
-    "point": {
-      "type": "string"
-    }
-  }
+  "attributes": {}
 }
