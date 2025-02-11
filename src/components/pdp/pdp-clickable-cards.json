@@ -9,9 +9,6 @@
     "title": {
       "type": "string"
     },
-    "desc": {
-      "type": "text"
-    },
     "rightIcon": {
       "type": "string"
     },
@@ -31,6 +28,9 @@
       ],
       "default": "pdp-clickable-cards",
       "required": true
+    },
+    "desc": {
+      "type": "richtext"
     }
   }
 }

@@ -6,42 +6,42 @@
   },
   "options": {},
   "attributes": {
-    "description": {
-      "type": "text",
-      "required": false
-    },
-    "Title": {
-      "displayName": "title",
-      "type": "component",
-      "repeatable": false,
-      "component": "motor-forms.title",
-      "required": true
-    },
-    "vehicleRegistrationInputLabels": {
-      "displayName": "vehicleRegistrationInputLabels",
-      "type": "component",
-      "repeatable": false,
-      "component": "motor-forms.vehicle-registration-input-labels"
-    },
-    "mobileNumberInputLabels": {
-      "displayName": "mobileNumberInputLabels",
-      "type": "component",
-      "repeatable": false,
-      "component": "motor-forms.mobile-number-input-labels"
-    },
-    "getQuoteCtaLabel": {
-      "type": "string",
-      "required": true
-    },
-    "termsAndConditions": {
-      "type": "string",
-      "required": true
-    },
-    "policyDetails": {
-      "displayName": "policyDetails",
-      "type": "component",
-      "repeatable": false,
-      "component": "motor-forms.policy-details"
-    }
-  }
+		"title": {
+			"type": "text",
+			"required": false
+		},
+		"badgeLabel": {
+			"type": "string"
+		},
+		"description": {
+			"type": "text",
+			"required": false
+		},
+		"vehicleRegistrationInputLabels": {
+			"displayName": "vehicleRegistrationInputLabels",
+			"type": "component",
+			"repeatable": false,
+			"component": "motor-forms.vehicle-registration-input-labels"
+		},
+		"mobileNumberInputLabels": {
+			"displayName": "mobileNumberInputLabels",
+			"type": "component",
+			"repeatable": false,
+			"component": "motor-forms.mobile-number-input-labels"
+		},
+		"getQuoteCtaLabel": {
+			"type": "string",
+			"required": true
+		},
+		"termsAndConditions": {
+			"type": "string",
+			"required": true
+		},
+		"policyDetails": {
+			"displayName": "policyDetails",
+			"type": "component",
+			"repeatable": false,
+			"component": "motor-forms.policy-details"
+		}
+	}
 }

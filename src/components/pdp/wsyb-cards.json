@@ -9,11 +9,11 @@
     "title": {
       "type": "string"
     },
-    "desc": {
-      "type": "text"
-    },
     "image": {
       "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
     }
   }
 }

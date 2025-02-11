@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_motor_renewal_mobile_and_email_dumps",
+  "info": {
+    "displayName": "mobileAndEmailDump"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "contactText": {
+      "type": "text"
+    },
+    "contactMail": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "secondaruButtonText": {
+      "type": "string"
+    }
+  }
+}

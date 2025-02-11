@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "tipsData": {
+    "points": {
       "displayName": "tc-TipsCarousel",
       "type": "component",
       "repeatable": true,
@@ -19,6 +19,13 @@
       ],
       "default": "pdp-tips-carousel",
       "required": true
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
