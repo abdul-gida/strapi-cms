@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_covid_cover_covid_covers",
+  "info": {
+    "displayName": "covidCover",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "string"
+    },
+    "backgroundMobileImage": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-covid-cover"
+      ]
+    }
+  }
+}

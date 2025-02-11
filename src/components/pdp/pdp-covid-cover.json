@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pdp_pdp_covid_covers",
+  "info": {
+    "displayName": "pdp-covidCover"
+  },
+  "options": {},
+  "attributes": {
+    "covidCover": {
+      "displayName": "covidCover",
+      "type": "component",
+      "repeatable": false,
+      "component": "covid-cover.covid-cover"
+    }
+  }
+}
