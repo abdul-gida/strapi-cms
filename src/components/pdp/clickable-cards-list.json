@@ -9,14 +9,14 @@
     "title": {
       "type": "string"
     },
-    "desc": {
-      "type": "text"
-    },
     "icon": {
       "type": "string"
     },
     "url": {
       "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
     }
   }
 }

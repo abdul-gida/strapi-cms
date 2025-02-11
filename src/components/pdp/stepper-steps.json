@@ -1,7 +1,8 @@
 {
   "collectionName": "components_pdp_stepper_steps",
   "info": {
-    "displayName": "StepperSteps"
+    "displayName": "StepperSteps",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,7 +10,7 @@
       "type": "string"
     },
     "desc": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }

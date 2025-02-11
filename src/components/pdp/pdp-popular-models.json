@@ -6,12 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "titleStart": {
-      "type": "string"
-    },
-    "titleEnd": {
-      "type": "string"
-    },
     "bgImage": {
       "type": "string"
     },
@@ -31,6 +25,9 @@
       ],
       "default": "pdp-popular-models",
       "required": true
+    },
+    "title": {
+      "type": "richtext"
     }
   }
 }

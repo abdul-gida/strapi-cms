@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "cards": {
       "displayName": "TitleDescCardsCards",
       "type": "component",
@@ -22,6 +19,15 @@
       ],
       "default": "pdp-title-desc-cards",
       "required": true
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "bottomText": {
+      "type": "richtext"
     }
   }
 }

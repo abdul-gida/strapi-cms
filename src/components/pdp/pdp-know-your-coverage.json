@@ -6,12 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "titleStart": {
-      "type": "string"
-    },
-    "titleEnd": {
-      "type": "string"
-    },
     "gridCount": {
       "type": "string"
     },
@@ -31,6 +25,12 @@
       ],
       "default": "pdp-know-your-coverage",
       "required": true
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "bottomText": {
+      "type": "richtext"
     }
   }
 }

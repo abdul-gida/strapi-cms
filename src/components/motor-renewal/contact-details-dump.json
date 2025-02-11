@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_motor_renewal_contact_details_dumps",
+  "info": {
+    "displayName": "contactDetailsDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "emailLabel": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "mobileLabel": {
+      "type": "string"
+    },
+    "mobilePlaceholder": {
+      "type": "string"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "mobileDump": {
+      "displayName": "mobileDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.mobile-dump"
+    },
+    "emailDump": {
+      "displayName": "emailDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.email-dump"
+    },
+    "mobileAndEmailDump": {
+      "displayName": "mobileAndEmailDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.mobile-and-email-dump"
+    },
+    "agentDump": {
+      "displayName": "agentDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.agent-dump"
+    }
+  }
+}
