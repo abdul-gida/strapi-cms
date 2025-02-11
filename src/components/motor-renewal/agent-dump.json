@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_motor_renewal_agent_dumps",
+  "info": {
+    "displayName": "agentDump"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_pdp_pdp_coverage_insurance_sections",
+  "info": {
+    "displayName": "Pdp-coverageInsuranceSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "tabs": {
+      "displayName": "tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "coverage-insurance.tabs"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-coverage-insurance-section"
+      ],
+      "required": true,
+      "default": "pdp-coverage-insurance-section"
+    }
+  }
+}

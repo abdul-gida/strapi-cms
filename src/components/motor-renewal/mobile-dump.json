@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_motor_renewal_mobile_dumps",
+  "info": {
+    "displayName": "mobileDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "contactText": {
+      "type": "text"
+    },
+    "contactMail": {
+      "type": "string"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "secondaruButtonText": {
+      "type": "string"
+    }
+  }
+}

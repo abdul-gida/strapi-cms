@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "cards": {
       "displayName": "ScenerioListCards",
       "type": "component",
@@ -21,6 +18,13 @@
         "pdp-scenerio-list"
       ],
       "default": "pdp-scenerio-list",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext",
       "required": true
     }
   }

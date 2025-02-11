@@ -6,12 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "desc": {
-      "type": "text"
-    },
     "cta": {
       "type": "string"
     },
@@ -25,6 +19,12 @@
       ],
       "default": "pdp-did-you-know-button",
       "required": true
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext"
     }
   }
 }
