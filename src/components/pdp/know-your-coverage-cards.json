@@ -7,10 +7,12 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "text",
+      "required": true
     },
     "desc": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }

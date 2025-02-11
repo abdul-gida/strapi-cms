@@ -9,9 +9,6 @@
     "image": {
       "type": "string"
     },
-    "title": {
-      "type": "string"
-    },
     "mail": {
       "type": "string"
     },
@@ -31,6 +28,10 @@
     },
     "subtitle": {
       "type": "richtext"
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

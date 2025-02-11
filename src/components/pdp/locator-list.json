@@ -1,24 +1,29 @@
 {
   "collectionName": "components_pdp_locator_lists",
   "info": {
-    "displayName": "locatorList"
+    "displayName": "locatorList",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "tabLabel": {
       "type": "string"
     },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
     "btnCta": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

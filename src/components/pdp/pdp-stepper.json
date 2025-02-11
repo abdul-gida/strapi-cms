@@ -7,7 +7,8 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "desc": {
       "type": "text"
@@ -16,7 +17,8 @@
       "displayName": "StepperSteps",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.stepper-steps"
+      "component": "pdp.stepper-steps",
+      "required": true
     },
     "type": {
       "type": "enumeration",

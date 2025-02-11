@@ -1,15 +1,20 @@
 {
   "collectionName": "components_pdp_stepper_steps",
   "info": {
-    "displayName": "StepperSteps"
+    "displayName": "StepperSteps",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "cta": {
       "type": "string"
     },
-    "desc": {
-      "type": "text"
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "stepper.cards",
+      "required": true
     }
   }
 }

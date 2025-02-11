@@ -1,25 +1,25 @@
 {
-  "collectionName": "components_pdp_clickable_cards_lists",
+  "collectionName": "components_pdp_know_your_coverage_more_questions",
   "info": {
-    "displayName": "clickableCardsList",
+    "displayName": "moreQuestions",
     "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "text",
+      "type": "string",
       "required": true
     },
     "desc": {
       "type": "text",
       "required": true
     },
-    "icon": {
+    "cta": {
       "type": "string",
       "required": true
     },
-    "url": {
-      "type": "string",
+    "link": {
+      "type": "text",
       "required": true
     }
   }

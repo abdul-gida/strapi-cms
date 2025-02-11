@@ -6,17 +6,8 @@
   },
   "options": {},
   "attributes": {
-    "titleStart": {
-      "type": "string"
-    },
-    "titleEnd": {
-      "type": "string"
-    },
     "gridCount": {
       "type": "string"
-    },
-    "desc": {
-      "type": "text"
     },
     "content": {
       "displayName": "KnowYourCoverageContent",
@@ -31,6 +22,34 @@
       ],
       "default": "pdp-know-your-coverage",
       "required": true
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    },
+    "cardColor": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "bottomText": {
+      "type": "text"
+    },
+    "moreQuestions": {
+      "displayName": "moreQuestions",
+      "type": "component",
+      "repeatable": false,
+      "component": "pdp-know-your-coverage.more-questions"
     }
   }
 }
