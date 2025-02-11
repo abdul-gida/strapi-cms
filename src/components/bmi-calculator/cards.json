@@ -1,18 +1,22 @@
 {
   "collectionName": "components_bmi_calculator_cards",
   "info": {
-    "displayName": "cards"
+    "displayName": "cards",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "desc": {
-      "type": "string"
+      "type": "text",
+      "required": true
     },
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

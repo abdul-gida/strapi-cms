@@ -1,15 +1,18 @@
 {
   "collectionName": "components_bmi_calculator_titles",
   "info": {
-    "displayName": "title"
+    "displayName": "title",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "t1": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "t2": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

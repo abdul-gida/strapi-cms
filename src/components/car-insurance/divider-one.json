@@ -1,18 +1,22 @@
 {
   "collectionName": "components_car_insurance_divider_ones",
   "info": {
-    "displayName": "dividerOne"
+    "displayName": "dividerOne",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "cta": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

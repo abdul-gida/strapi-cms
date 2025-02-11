@@ -1,12 +1,14 @@
 {
   "collectionName": "components_bmi_calculator_descs",
   "info": {
-    "displayName": "desc"
+    "displayName": "desc",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "label": {
-      "type": "string"
+      "type": "text",
+      "required": true
     }
   }
 }
