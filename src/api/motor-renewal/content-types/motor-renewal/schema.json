@@ -117,6 +117,12 @@
       "type": "component",
       "repeatable": true,
       "component": "motor-renewal.motor-mapper"
+    },
+    "contactDetailsDump": {
+      "displayName": "contactDetailsDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "motor-renewal.contact-details-dump"
     }
   }
 }

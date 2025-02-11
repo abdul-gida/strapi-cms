@@ -1,12 +1,14 @@
 {
   "collectionName": "components_bmi_calculator_points_threes",
   "info": {
-    "displayName": "pointsThree"
+    "displayName": "pointsThree",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "label": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

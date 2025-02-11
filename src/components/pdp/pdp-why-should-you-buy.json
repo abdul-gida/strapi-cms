@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "cards": {
       "displayName": "wsyb-cards",
       "type": "component",
@@ -28,6 +25,12 @@
       ],
       "default": "pdp-why-should-you-buy",
       "required": true
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "backgroundColor": {
+      "type": "string"
     }
   }
 }

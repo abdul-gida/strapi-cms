@@ -43,7 +43,7 @@
       "type": "string"
     },
     "bottomText": {
-      "type": "text"
+      "type": "richtext"
     },
     "moreQuestions": {
       "displayName": "moreQuestions",

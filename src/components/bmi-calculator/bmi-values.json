@@ -7,28 +7,35 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "descImage": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "bmiFormula": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "bmiFormulaMobile": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "bmiScale": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "kidImage": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "bmiContent": {
       "displayName": "bmiContent",
       "type": "component",
       "repeatable": false,
-      "component": "bmi-calculator.bmi-content"
+      "component": "bmi-calculator.bmi-content",
+      "required": true
     }
   }
 }

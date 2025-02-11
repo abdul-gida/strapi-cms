@@ -6,12 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "titleStart": {
-      "type": "string"
-    },
-    "titleEnd": {
-      "type": "string"
-    },
     "brands": {
       "displayName": "PopularBrandsBrands",
       "type": "component",
@@ -25,6 +19,9 @@
       ],
       "default": "pdp-popular-brands",
       "required": true
+    },
+    "title": {
+      "type": "richtext"
     }
   }
 }

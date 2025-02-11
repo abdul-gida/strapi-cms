@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_disclaimer_privacy_policy_data",
+  "info": {
+    "displayName": "data"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_coverage_insurance_section_tabs",
+  "info": {
+    "displayName": "tabs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cta": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "coverage-insurance-section.cards"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_pdp_clickable_cards_ctas",
+  "info": {
+    "displayName": "clickableCardsCta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "gridCount": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.cards"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-clickable-cards-cta"
+      ],
+      "default": "pdp-clickable-cards-cta",
+      "required": true
+    }
+  }
+}

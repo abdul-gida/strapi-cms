@@ -6,13 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "description": {
-      "type": "text"
-    },
     "steps": {
       "displayName": "steps",
       "type": "component",
@@ -27,6 +20,16 @@
       ],
       "required": true,
       "default": "pdp-arrow-mapper"
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "bottomText": {
+      "type": "richtext"
     }
   }
 }

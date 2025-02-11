@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_travel_guide_simplifies",
+  "info": {
+    "displayName": "simplify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

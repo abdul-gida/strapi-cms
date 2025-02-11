@@ -6,13 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "desc": {
-      "type": "text"
-    },
     "steps": {
       "displayName": "StepperSteps",
       "type": "component",
@@ -27,6 +20,16 @@
       ],
       "default": "pdp-stepper",
       "required": true
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "bottomText": {
+      "type": "richtext"
     }
   }
 }

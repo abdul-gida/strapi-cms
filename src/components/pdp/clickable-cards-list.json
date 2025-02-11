@@ -10,10 +10,6 @@
       "type": "text",
       "required": true
     },
-    "desc": {
-      "type": "text",
-      "required": true
-    },
     "icon": {
       "type": "string",
       "required": true
@@ -21,6 +17,9 @@
     "url": {
       "type": "string",
       "required": true
+    },
+    "desc": {
+      "type": "richtext"
     }
   }
 }
