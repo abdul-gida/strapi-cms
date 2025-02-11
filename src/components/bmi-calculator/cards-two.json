@@ -15,7 +15,7 @@
       "required": true
     },
     "desc": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "points": {

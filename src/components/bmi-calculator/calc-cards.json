@@ -15,7 +15,7 @@
     },
     "calcBodyFat": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "bmi-calculator.calc-calorie",
       "required": true,
       "min": 1
