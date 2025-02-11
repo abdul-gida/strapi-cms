@@ -1,18 +1,22 @@
 {
   "collectionName": "components_bmi_calculator_bmi_classification_card_labels",
   "info": {
-    "displayName": "bmiClassificationCardLabels"
+    "displayName": "bmiClassificationCardLabels",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "logo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

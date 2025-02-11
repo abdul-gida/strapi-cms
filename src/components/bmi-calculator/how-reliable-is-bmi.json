@@ -10,21 +10,27 @@
       "displayName": "banner",
       "type": "component",
       "repeatable": false,
-      "component": "bmi-calculator.banner"
+      "component": "bmi-calculator.banner",
+      "required": true
     },
     "desc": {
       "type": "component",
       "repeatable": true,
-      "component": "bmi-calculator.desc"
+      "component": "bmi-calculator.desc",
+      "required": true,
+      "min": 1
     },
     "bottomCta": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "icon": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "bottomCtaLink": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

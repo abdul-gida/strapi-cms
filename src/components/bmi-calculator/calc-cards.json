@@ -1,7 +1,8 @@
 {
   "collectionName": "components_bmi_calculator_calc_cards",
   "info": {
-    "displayName": "calcCards"
+    "displayName": "calcCards",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,12 +10,15 @@
       "displayName": "calcCalorie",
       "type": "component",
       "repeatable": false,
-      "component": "bmi-calculator.calc-calorie"
+      "component": "bmi-calculator.calc-calorie",
+      "required": true
     },
     "calcBodyFat": {
       "type": "component",
       "repeatable": true,
-      "component": "bmi-calculator.calc-calorie"
+      "component": "bmi-calculator.calc-calorie",
+      "required": true,
+      "min": 1
     }
   }
 }

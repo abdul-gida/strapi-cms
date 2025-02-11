@@ -10,12 +10,15 @@
       "displayName": "formula",
       "type": "component",
       "repeatable": false,
-      "component": "bmi-calculator.formula"
+      "component": "bmi-calculator.formula",
+      "required": true
     },
     "kids": {
       "type": "component",
       "repeatable": true,
-      "component": "bmi-calculator.formula"
+      "component": "bmi-calculator.formula",
+      "required": true,
+      "min": 1
     }
   }
 }

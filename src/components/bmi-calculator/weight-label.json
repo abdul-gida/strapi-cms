@@ -1,15 +1,18 @@
 {
   "collectionName": "components_bmi_calculator_weight_labels",
   "info": {
-    "displayName": "weightLabel"
+    "displayName": "weightLabel",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "placeHolder": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

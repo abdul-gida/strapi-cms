@@ -1,15 +1,18 @@
 {
   "collectionName": "components_bmi_calculator_height_labels",
   "info": {
-    "displayName": "heightLabel"
+    "displayName": "heightLabel",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "placeHolder": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

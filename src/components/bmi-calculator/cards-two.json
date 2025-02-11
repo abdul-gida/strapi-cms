@@ -1,24 +1,30 @@
 {
   "collectionName": "components_bmi_calculator_cards_twos",
   "info": {
-    "displayName": "cardsTwo"
+    "displayName": "cardsTwo",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "icon": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "desc": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "points": {
       "displayName": "pointsThree",
       "type": "component",
       "repeatable": true,
-      "component": "bmi-calculator.points-three"
+      "component": "bmi-calculator.points-three",
+      "required": true,
+      "min": 1
     }
   }
 }

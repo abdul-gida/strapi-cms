@@ -10,19 +10,22 @@
       "displayName": "bodyMassCardLabels",
       "type": "component",
       "repeatable": false,
-      "component": "bmi-calculator.body-mass-card-labels"
+      "component": "bmi-calculator.body-mass-card-labels",
+      "required": true
     },
     "optimaSecurePlanCardLabels": {
       "displayName": "optimaSecurePlanCardLabels",
       "type": "component",
       "repeatable": false,
-      "component": "bmi-calculator.optima-secure-plan-card-labels"
+      "component": "bmi-calculator.optima-secure-plan-card-labels",
+      "required": true
     },
     "bmiClassificationCardLabels": {
       "displayName": "bmiClassificationCardLabels",
       "type": "component",
       "repeatable": false,
-      "component": "bmi-calculator.bmi-classification-card-labels"
+      "component": "bmi-calculator.bmi-classification-card-labels",
+      "required": true
     }
   }
 }
