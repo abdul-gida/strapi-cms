@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_claims_section_banners",
+  "info": {
+    "displayName": "banner"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
