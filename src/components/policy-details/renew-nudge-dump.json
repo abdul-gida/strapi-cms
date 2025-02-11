@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_policy_details_renew_nudge_dumps",
+  "info": {
+    "displayName": "renewNudgeDump"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "policyNoLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

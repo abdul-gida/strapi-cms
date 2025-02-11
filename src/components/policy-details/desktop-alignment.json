@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_policy_details_desktop_alignments",
+  "info": {
+    "displayName": "desktopAlignment"
+  },
+  "options": {},
+  "attributes": {
+    "side": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

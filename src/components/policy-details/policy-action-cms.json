@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_policy_details_policy_action_cms",
+  "info": {
+    "displayName": "policyActionCms",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "motor": {
+      "displayName": "policy-action-cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.policy-action-cards",
+      "required": true
+    },
+    "health": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.policy-action-cards",
+      "required": true
+    },
+    "pets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.policy-action-cards",
+      "required": true
+    },
+    "cyber": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.policy-action-cards",
+      "required": true
+    },
+    "home": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.policy-action-cards",
+      "required": true
+    },
+    "travel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.policy-action-cards",
+      "required": true
+    }
+  }
+}

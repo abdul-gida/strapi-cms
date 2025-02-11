@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_policy_details_images",
+  "info": {
+    "displayName": "images"
+  },
+  "options": {},
+  "attributes": {
+    "health": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.health",
+      "required": true
+    },
+    "motor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.health",
+      "required": true
+    },
+    "twoWheeler": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.health",
+      "required": true
+    },
+    "cyber": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.health",
+      "required": true
+    },
+    "travel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.health",
+      "required": true
+    },
+    "pets": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.health",
+      "required": true
+    },
+    "home": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.health",
+      "required": true
+    }
+  }
+}

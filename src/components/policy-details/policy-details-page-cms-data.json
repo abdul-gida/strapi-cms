@@ -1,0 +1,108 @@
+{
+  "collectionName": "components_policy_details_policy_details_page_cms_data",
+  "info": {
+    "displayName": "policyDetailsPageCmsData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "policy": {
+      "displayName": "policyDetailAlignment",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "support": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "needsYourAttention": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "emiDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "insuredDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "claimActions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "actions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "proposerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "nomineeDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "appointeeDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "otherDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "scan": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "bottomCount": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "buyInsurance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-detail-alignment",
+      "required": true
+    },
+    "policyActionCms": {
+      "displayName": "policyActionCms",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-action-cms",
+      "required": true
+    }
+  }
+}

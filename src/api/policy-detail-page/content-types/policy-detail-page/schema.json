@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "policy_detail_pages",
+  "info": {
+    "singularName": "policy-detail-page",
+    "pluralName": "policy-detail-pages",
+    "displayName": "Policy Detail Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "needsYourAttentionCmsData": {
+      "displayName": "needsYourAttentionCmsData",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.needs-your-attention-cms-data"
+    },
+    "policyHeaderCms": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-header-cms",
+      "required": true
+    },
+    "policyDetailsPageCmsData": {
+      "displayName": "policyDetailsPageCmsData",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-details-page-cms-data",
+      "required": true
+    },
+    "newsletterDump": {
+      "displayName": "newsletterDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.newsletter-dump",
+      "required": true
+    },
+    "trustedByCustomersDump": {
+      "displayName": "trustedByCustomersDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.trusted-by-customers-dump",
+      "required": true
+    }
+  }
+}
