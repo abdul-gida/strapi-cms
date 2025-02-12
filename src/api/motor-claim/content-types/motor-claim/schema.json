@@ -76,6 +76,11 @@
       "type": "component",
       "repeatable": false,
       "component": "motor-claim.motor-claim-page"
+    },
+    "clevertapPageName": {
+      "type": "string",
+      "required": true,
+      "default": "motor-claim-page"
     }
   }
 }

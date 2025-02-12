@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_policy_details_insure_healths",
+  "info": {
+    "displayName": "insure-health"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "addMemberText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

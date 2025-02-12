@@ -7,13 +7,15 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "cards": {
       "displayName": "cards",
       "type": "component",
       "repeatable": true,
-      "component": "metro-cities.cards"
+      "component": "metro-cities.cards",
+      "required": true
     },
     "type": {
       "type": "enumeration",

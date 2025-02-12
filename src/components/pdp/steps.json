@@ -14,7 +14,8 @@
       "displayName": "innerSteps",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.inner-steps"
+      "component": "pdp.inner-steps",
+      "required": true
     }
   }
 }

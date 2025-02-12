@@ -1,15 +1,18 @@
 {
   "collectionName": "components_coverage_insurance_card_items",
   "info": {
-    "displayName": "card items"
+    "displayName": "card items",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "desc": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }

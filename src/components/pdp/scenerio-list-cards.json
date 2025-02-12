@@ -1,24 +1,32 @@
 {
   "collectionName": "components_pdp_scenerio_list_cards",
   "info": {
-    "displayName": "ScenerioListCards"
+    "displayName": "ScenerioListCards",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "desc": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "tag": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "note": {
-      "displayName": "ScenerioNote",
       "type": "component",
       "repeatable": false,
-      "component": "pdp.scenerio-note"
+      "component": "pdp.pdp-did-you-know-button"
+    },
+    "table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pdp.pdp-table"
     }
   }
 }

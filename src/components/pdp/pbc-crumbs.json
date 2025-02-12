@@ -1,15 +1,18 @@
 {
   "collectionName": "components_pdp_pbc_crumbs",
   "info": {
-    "displayName": "pbc-crumbs"
+    "displayName": "pbc-crumbs",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "text": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

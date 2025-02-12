@@ -1,21 +1,26 @@
 {
   "collectionName": "components_pdp_cards",
   "info": {
-    "displayName": "cards"
+    "displayName": "cards",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "desc": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "url": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "icon": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "exploreCtaLabel": {
       "type": "string"

@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "description": {
       "type": "text"
     },
@@ -27,6 +24,10 @@
         "pdp-videos"
       ],
       "default": "pdp-videos",
+      "required": true
+    },
+    "title": {
+      "type": "richtext",
       "required": true
     }
   }

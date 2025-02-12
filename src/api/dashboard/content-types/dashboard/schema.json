@@ -88,6 +88,11 @@
       "repeatable": false,
       "component": "dashboard.promotional-banner",
       "required": true
+    },
+    "clevertapPageName": {
+      "type": "string",
+      "required": true,
+      "default": "dashboard-page"
     }
   }
 }

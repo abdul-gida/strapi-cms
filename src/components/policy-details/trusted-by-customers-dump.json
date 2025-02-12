@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_policy_details_trusted_by_customers_dumps",
+  "info": {
+    "displayName": "trustedByCustomersDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "health": {
+      "displayName": "trustedby-cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.trustedby-cards",
+      "required": true
+    },
+    "motor": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.trustedby-cards",
+      "required": true
+    },
+    "cyber": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.trustedby-cards",
+      "required": true
+    },
+    "pets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.trustedby-cards",
+      "required": true
+    },
+    "home": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.trustedby-cards",
+      "required": true
+    },
+    "travel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.trustedby-cards",
+      "required": true
+    }
+  }
+}

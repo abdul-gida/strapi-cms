@@ -26,6 +26,9 @@
     "title": {
       "type": "richtext",
       "required": true
+    },
+    "bgColor": {
+      "type": "string"
     }
   }
 }

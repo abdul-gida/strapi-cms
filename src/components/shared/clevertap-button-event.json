@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_clevertap_button_events",
+  "info": {
+    "displayName": "ClevertapButtonEvent"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "payload": {
+      "displayName": "Clevertap Button event payload",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.clevertap-button-event-payload"
+    }
+  }
+}

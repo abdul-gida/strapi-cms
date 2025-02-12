@@ -1,15 +1,18 @@
 {
   "collectionName": "components_metro_cities_cards",
   "info": {
-    "displayName": "cards"
+    "displayName": "cards",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "logo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

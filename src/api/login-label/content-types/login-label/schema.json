@@ -59,6 +59,17 @@
     },
     "otpRetryLabel": {
       "type": "string"
+    },
+    "clevertapPageName": {
+      "type": "string",
+      "required": true,
+      "default": "login-page"
+    },
+    "buttonTextClevertapEvent": {
+      "displayName": "ClevertapButtonEvent",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.clevertap-button-event"
     }
   }
 }
