@@ -10,7 +10,8 @@
       "displayName": "StepperSteps",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.stepper-steps"
+      "component": "pdp.stepper-steps",
+      "required": true
     },
     "type": {
       "type": "enumeration",
@@ -24,7 +25,8 @@
       "type": "richtext"
     },
     "title": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "bottomText": {
       "type": "richtext"

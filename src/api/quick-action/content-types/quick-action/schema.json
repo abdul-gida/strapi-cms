@@ -76,9 +76,7 @@
     },
     "policyRenewalCard": {
       "type": "dynamiczone",
-      "components": [
-        "quick-action.changes-in-policy-renewal"
-      ]
+      "components": ["quick-action.changes-in-policy-renewal"]
     },
     "claimsTitle": {
       "type": "string"
@@ -112,9 +110,12 @@
     },
     "queryRequestCard": {
       "type": "dynamiczone",
-      "components": [
-        "quick-action.raise-query"
-      ]
+      "components": ["quick-action.raise-query"]
+    },
+    "clevertapPageName": {
+      "type": "string",
+      "required": true,
+      "default": "quick-action-page"
     }
   }
 }

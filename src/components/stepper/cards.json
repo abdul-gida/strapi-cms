@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_stepper_cards",
+  "info": {
+    "displayName": "cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}

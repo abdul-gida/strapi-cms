@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_policy_details_proposer_cards",
+  "info": {
+    "displayName": "proposer-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -53,6 +53,11 @@
       "type": "component",
       "repeatable": false,
       "component": "policy-manual-linking.personal-info"
+    },
+    "clevertapPageName": {
+      "type": "string",
+      "required": true,
+      "default": "policy-manual-linking-page"
     }
   }
 }

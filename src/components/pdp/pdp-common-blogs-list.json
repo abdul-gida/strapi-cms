@@ -19,6 +19,11 @@
       ],
       "default": "pdp-common-blogs-list",
       "required": true
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
     }
   }
 }

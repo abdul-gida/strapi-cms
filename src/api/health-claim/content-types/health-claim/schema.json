@@ -74,6 +74,11 @@
       "type": "component",
       "repeatable": true,
       "component": "health-claim.terms-and-conditions"
+    },
+    "clevertapPageName": {
+      "type": "string",
+      "required": true,
+      "default": "health-claim-page"
     }
   }
 }

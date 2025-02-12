@@ -7,13 +7,15 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "videos": {
       "displayName": "vs-videos",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.vs-videos"
+      "component": "pdp.vs-videos",
+      "required": true
     },
     "type": {
       "type": "enumeration",

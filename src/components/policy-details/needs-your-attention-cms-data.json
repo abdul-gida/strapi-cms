@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_policy_details_needs_your_attention_cms_data",
+  "info": {
+    "displayName": "needsYourAttentionCmsData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "renewCard": {
+      "displayName": "renewCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.renew-card"
+    },
+    "trackClaimCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.renew-card"
+    }
+  }
+}

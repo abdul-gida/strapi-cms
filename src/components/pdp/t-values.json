@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_pdp_t_values",
+  "info": {
+    "displayName": "t-values",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "val": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

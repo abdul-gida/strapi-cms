@@ -108,6 +108,27 @@
       "repeatable": false,
       "component": "bmi-calculator.calc-cards",
       "required": true
+    },
+    "faqSection": {
+      "displayName": "faqSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.faq-section"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    },
+    "oldArticles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::old-article.old-article"
+    },
+    "chooseOldArticle": {
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }

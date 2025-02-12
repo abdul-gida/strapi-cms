@@ -1,23 +1,28 @@
 {
   "collectionName": "components_pdp_videos",
   "info": {
-    "displayName": "videos"
+    "displayName": "videos",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "duration": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "date": {
+    "place": {
       "type": "string"
     }
   }

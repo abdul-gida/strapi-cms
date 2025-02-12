@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_policy_details_contact_dumps",
+  "info": {
+    "displayName": "contactDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "call": {
+      "displayName": "call",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.call",
+      "required": true
+    },
+    "whatsapp": {
+      "displayName": "whatsapp",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.whatsapp",
+      "required": true
+    }
+  }
+}

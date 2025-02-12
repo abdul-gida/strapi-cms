@@ -83,6 +83,11 @@
       "type": "component",
       "repeatable": false,
       "component": "document-uploader.document-upload-modal"
+    },
+    "clevertapPageName": {
+      "type": "string",
+      "required": true,
+      "default": "document-upload-page"
     }
   }
 }

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_policy_details_policy_status_dumps",
+  "info": {
+    "displayName": "policyStatusDump"
+  },
+  "options": {},
+  "attributes": {
+    "expiredNote": {
+      "type": "string",
+      "required": true
+    },
+    "upcomingNote": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
