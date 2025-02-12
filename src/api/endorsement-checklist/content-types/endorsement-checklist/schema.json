@@ -35,6 +35,9 @@
     },
     "termsAndConditions": {
       "type": "text"
+    },
+    "productTableLabel": {
+      "type": "string"
     }
   }
 }
