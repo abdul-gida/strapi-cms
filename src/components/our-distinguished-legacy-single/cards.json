@@ -1,8 +1,7 @@
 {
-  "collectionName": "components_pdp_odl_cards",
+  "collectionName": "components_our_distinguished_legacy_single_cards",
   "info": {
-    "displayName": "odl-cards",
-    "description": ""
+    "displayName": "cards"
   },
   "options": {},
   "attributes": {

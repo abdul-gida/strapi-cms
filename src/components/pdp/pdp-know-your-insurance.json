@@ -9,32 +9,30 @@
     "tag": {
       "type": "string"
     },
-    "titleStart": {
-      "type": "string"
-    },
-    "titleEnd": {
-      "type": "string"
-    },
     "buttonCta": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "steps": {
       "displayName": "kyi-steps",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.kyi-steps"
+      "component": "pdp.kyi-steps",
+      "required": true
     },
     "mobileImage": {
       "displayName": "kyi-mobileImage",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.kyi-mobile-image"
+      "component": "pdp.kyi-mobile-image",
+      "required": true
     },
     "desktopImage": {
       "displayName": "kyi-desktopImage",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.kyi-desktop-image"
+      "component": "pdp.kyi-desktop-image",
+      "required": true
     },
     "type": {
       "type": "enumeration",
@@ -42,6 +40,10 @@
         "pdp-know-your-insurance"
       ],
       "default": "pdp-know-your-insurance",
+      "required": true
+    },
+    "title": {
+      "type": "richtext",
       "required": true
     }
   }

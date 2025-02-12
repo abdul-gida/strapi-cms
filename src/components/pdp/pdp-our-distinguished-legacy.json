@@ -6,26 +6,23 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "displayName": "odl-title",
-      "type": "component",
-      "repeatable": false,
-      "component": "pdp.odl-title"
-    },
     "description": {
       "type": "text"
     },
     "cta": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "ctaLink": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "cards": {
       "displayName": "odl-cards",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.odl-cards"
+      "component": "pdp.odl-cards",
+      "required": true
     },
     "type": {
       "type": "enumeration",
@@ -33,6 +30,10 @@
         "pdp-our-distinguished-legacy"
       ],
       "default": "pdp-our-distinguished-legacy",
+      "required": true
+    },
+    "title": {
+      "type": "richtext",
       "required": true
     }
   }
