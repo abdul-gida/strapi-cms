@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_claims_section_points_conts",
+  "info": {
+    "displayName": "pointsCont"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    },
+    "bulletPoints": {
+      "type": "richtext"
+    }
+  }
+}

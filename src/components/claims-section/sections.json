@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_claims_section_sections",
+  "info": {
+    "displayName": "sections"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_claims_section_info_conts",
+  "info": {
+    "displayName": "infoCont",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "info": {
+      "type": "text",
+      "required": true
+    },
+    "imgUrl": {
+      "type": "string"
+    }
+  }
+}

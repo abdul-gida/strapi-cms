@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_claims_section_headings",
+  "info": {
+    "displayName": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "claim": {
+      "type": "string"
+    },
+    "process": {
+      "type": "string"
+    }
+  }
+}

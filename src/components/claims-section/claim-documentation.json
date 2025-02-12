@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_claims_section_claim_documentations",
+  "info": {
+    "displayName": "claimDocumentation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bulletPoints": {
+      "type": "richtext"
+    }
+  }
+}

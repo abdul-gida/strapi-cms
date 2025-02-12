@@ -4,7 +4,8 @@
   "info": {
     "singularName": "claim-section",
     "pluralName": "claims-section",
-    "displayName": "Claims"
+    "displayName": "Claims",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,11 +18,10 @@
       "repeatable": false,
       "component": "claims-section.banner"
     },
-    "claimBanner": {
-      "displayName": "claimBanner",
+    "tabsClaimProcessPage": {
       "type": "component",
       "repeatable": false,
-      "component": "claims-section.claim-banner"
+      "component": "about-us-tabs.tabs"
     }
   }
 }
