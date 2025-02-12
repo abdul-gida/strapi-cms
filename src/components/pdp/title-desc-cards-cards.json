@@ -1,18 +1,22 @@
 {
   "collectionName": "components_pdp_title_desc_cards_cards",
   "info": {
-    "displayName": "TitleDescCardsCards"
+    "displayName": "TitleDescCardsCards",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "desc": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

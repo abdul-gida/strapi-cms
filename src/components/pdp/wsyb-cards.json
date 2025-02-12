@@ -7,13 +7,16 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "desc": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }

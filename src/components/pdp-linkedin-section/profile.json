@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pdp_linkedin_section_profiles",
+  "info": {
+    "displayName": "profile"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "richtext"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

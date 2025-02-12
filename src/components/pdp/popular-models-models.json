@@ -1,15 +1,22 @@
 {
   "collectionName": "components_pdp_popular_models_models",
   "info": {
-    "displayName": "PopularModelsModels"
+    "displayName": "PopularModelsModels",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "logo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "model": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -10,7 +10,8 @@
       "displayName": "PopularBrandsBrands",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.popular-brands-brands"
+      "component": "pdp.popular-brands-brands",
+      "required": true
     },
     "type": {
       "type": "enumeration",
@@ -21,7 +22,8 @@
       "required": true
     },
     "title": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }

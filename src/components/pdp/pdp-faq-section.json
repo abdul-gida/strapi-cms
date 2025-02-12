@@ -7,16 +7,19 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "desc": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "faqs": {
       "displayName": "FaqSectionFaq",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.faq-section-faq"
+      "component": "pdp.faq-section-faq",
+      "required": true
     },
     "moreQuestions": {
       "displayName": "FaqSectionMoreQuestions",
