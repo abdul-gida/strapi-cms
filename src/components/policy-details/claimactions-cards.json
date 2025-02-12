@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_policy_details_claimactions_cards",
+  "info": {
+    "displayName": "claimactions-cards"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_policy_details_trustedby_cards",
+  "info": {
+    "displayName": "trustedby-cards"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

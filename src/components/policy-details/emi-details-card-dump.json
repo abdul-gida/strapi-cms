@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_policy_details_emi_details_card_dumps",
+  "info": {
+    "displayName": "emiDetailsCardDump"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "installmentTitle": {
+      "type": "string",
+      "required": true
+    },
+    "dueText": {
+      "type": "string",
+      "required": true
+    },
+    "historyTitle": {
+      "type": "string",
+      "required": true
+    },
+    "buttonText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

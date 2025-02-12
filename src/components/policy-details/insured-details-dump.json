@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_policy_details_insured_details_dumps",
+  "info": {
+    "displayName": "insuredDetailsDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "health": {
+      "displayName": "insure-health",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.insure-health"
+    },
+    "motor": {
+      "displayName": "insured-motor",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.insured-motor",
+      "required": true
+    },
+    "pets": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.insure-health",
+      "required": true
+    },
+    "home": {
+      "displayName": "home",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.home",
+      "required": true
+    },
+    "travel": {
+      "displayName": "insured-travel",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.insured-travel",
+      "required": true
+    },
+    "cyber": {
+      "displayName": "insured-cyber",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.insured-cyber",
+      "required": true
+    }
+  }
+}

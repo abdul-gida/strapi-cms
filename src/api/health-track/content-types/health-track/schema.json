@@ -44,6 +44,11 @@
       "type": "component",
       "repeatable": false,
       "component": "health-track.track-card"
+    },
+    "clevertapPageName": {
+      "type": "string",
+      "required": true,
+      "default": "health-track-page"
     }
   }
 }

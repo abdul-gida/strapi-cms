@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_policy_details_how_to_files",
+  "info": {
+    "displayName": "howToFile"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "buttonCta": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "desktopIcon": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

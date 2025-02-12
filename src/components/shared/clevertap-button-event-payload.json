@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_clevertap_button_event_payloads",
+  "info": {
+    "displayName": "Clevertap Button event payload"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "enumeration",
+      "enum": [
+        "user",
+        "policy"
+      ],
+      "required": true
+    }
+  }
+}

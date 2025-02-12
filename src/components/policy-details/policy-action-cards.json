@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_policy_details_policy_action_cards",
+  "info": {
+    "displayName": "policy-action-cards"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

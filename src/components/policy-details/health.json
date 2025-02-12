@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_policy_details_health",
+  "info": {
+    "displayName": "health"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "bgImage": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

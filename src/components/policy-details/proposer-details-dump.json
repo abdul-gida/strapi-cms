@@ -1,0 +1,75 @@
+{
+  "collectionName": "components_policy_details_proposer_details_dumps",
+  "info": {
+    "displayName": "proposerDetailsDump"
+  },
+  "options": {},
+  "attributes": {
+    "health": {
+      "displayName": "proposer-card",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.proposer-card",
+      "required": true
+    },
+    "motor": {
+      "displayName": "proposer-card",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.proposer-card",
+      "required": true
+    },
+    "home": {
+      "displayName": "proposer-card",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.proposer-card",
+      "required": true
+    },
+    "pets": {
+      "displayName": "proposer-card",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.proposer-card",
+      "required": true
+    },
+    "travel": {
+      "displayName": "proposer-card",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.proposer-card",
+      "required": true
+    },
+    "cyber": {
+      "displayName": "proposer-card",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.proposer-card",
+      "required": true
+    },
+    "nameLabel": {
+      "type": "string",
+      "required": true
+    },
+    "mobileLabel": {
+      "type": "string",
+      "required": true
+    },
+    "ekycIdLabel": {
+      "type": "string",
+      "required": true
+    },
+    "ckycLabel": {
+      "type": "string",
+      "required": true
+    },
+    "emailLabel": {
+      "type": "string",
+      "required": true
+    },
+    "addressLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

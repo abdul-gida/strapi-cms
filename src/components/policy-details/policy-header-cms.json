@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_policy_details_policy_header_cms",
+  "info": {
+    "displayName": "policyHeaderCms",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "policyCardDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-card-dump",
+      "required": true
+    },
+    "renewNudgeDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.renew-nudge-dump",
+      "required": true
+    }
+  }
+}

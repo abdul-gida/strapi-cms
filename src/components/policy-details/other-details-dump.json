@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_policy_details_other_details_dumps",
+  "info": {
+    "displayName": "otherDetailsDump"
+  },
+  "options": {},
+  "attributes": {
+    "health": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.proposer-card",
+      "required": true
+    },
+    "motor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.proposer-card",
+      "required": true
+    },
+    "home": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.proposer-card",
+      "required": true
+    },
+    "pets": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.proposer-card",
+      "required": true
+    },
+    "travel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.proposer-card",
+      "required": true
+    },
+    "cyber": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.proposer-card",
+      "required": true
+    },
+    "planLabel": {
+      "type": "string",
+      "required": true
+    },
+    "premiumLabel": {
+      "type": "string",
+      "required": true
+    },
+    "nameLabel": {
+      "type": "string",
+      "required": true
+    },
+    "destination": {
+      "type": "string",
+      "required": true
+    },
+    "tripDuration": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

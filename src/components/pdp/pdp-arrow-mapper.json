@@ -10,7 +10,8 @@
       "displayName": "steps",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.steps"
+      "component": "pdp.steps",
+      "required": true
     },
     "type": {
       "type": "enumeration",
@@ -21,10 +22,12 @@
       "default": "pdp-arrow-mapper"
     },
     "title": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "bottomText": {
       "type": "richtext"

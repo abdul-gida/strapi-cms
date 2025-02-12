@@ -21,10 +21,26 @@
       "required": true
     },
     "desc": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "title": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
+    },
+    "isNested": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "borderColor": {
+      "type": "string"
     }
   }
 }

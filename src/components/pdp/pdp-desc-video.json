@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "desc": {
       "type": "text"
     },
@@ -22,6 +19,10 @@
       ],
       "default": "pdp-desc-video",
       "required": true
+    },
+    "title": {
+      "type": "richtext",
+      "required": false
     }
   }
 }

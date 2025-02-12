@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_bmi_calculator_faq_cards",
+  "info": {
+    "displayName": "faqCards"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

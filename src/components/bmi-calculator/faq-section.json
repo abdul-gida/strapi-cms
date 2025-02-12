@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_bmi_calculator_faq_sections",
+  "info": {
+    "displayName": "faqSection"
+  },
+  "options": {},
+  "attributes": {
+    "faqTitle": {
+      "type": "string"
+    },
+    "faqDescription": {
+      "type": "string"
+    },
+    "faqCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bmi-calculator.faq-cards"
+    }
+  }
+}

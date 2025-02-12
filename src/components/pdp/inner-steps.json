@@ -1,18 +1,22 @@
 {
   "collectionName": "components_pdp_inner_steps",
   "info": {
-    "displayName": "innerSteps"
+    "displayName": "innerSteps",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }
