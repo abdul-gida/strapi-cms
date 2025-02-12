@@ -10,7 +10,8 @@
       "displayName": "wsyb-cards",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.wsyb-cards"
+      "component": "pdp.wsyb-cards",
+      "required": true
     },
     "videoCard": {
       "displayName": "wsyc-videoCard",
@@ -27,10 +28,14 @@
       "required": true
     },
     "title": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "backgroundColor": {
       "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
     }
   }
 }

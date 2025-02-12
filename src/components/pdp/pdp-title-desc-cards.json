@@ -10,7 +10,8 @@
       "displayName": "TitleDescCardsCards",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.title-desc-cards-cards"
+      "component": "pdp.title-desc-cards-cards",
+      "required": true
     },
     "type": {
       "type": "enumeration",
@@ -24,7 +25,8 @@
       "type": "richtext"
     },
     "title": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "bottomText": {
       "type": "richtext"

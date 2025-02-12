@@ -10,7 +10,8 @@
       "displayName": "tc-TipsCarousel",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.tc-tips-carousel"
+      "component": "pdp.tc-tips-carousel",
+      "required": true
     },
     "type": {
       "type": "enumeration",

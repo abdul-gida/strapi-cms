@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pdp_pdp_linkedin_sections",
+  "info": {
+    "displayName": "pdp-linkedin-section"
+  },
+  "options": {},
+  "attributes": {
+    "desc": {
+      "type": "richtext",
+      "required": true
+    },
+    "profile": {
+      "displayName": "profile",
+      "type": "component",
+      "repeatable": false,
+      "component": "pdp-linkedin-section.profile"
+    }
+  }
+}

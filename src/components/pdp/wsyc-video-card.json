@@ -1,21 +1,26 @@
 {
   "collectionName": "components_pdp_wsyc_video_cards",
   "info": {
-    "displayName": "wsyc-videoCard"
+    "displayName": "wsyc-videoCard",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "duration": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
