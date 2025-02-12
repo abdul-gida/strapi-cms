@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_policy_details_nominee_details_dumps",
+  "info": {
+    "displayName": "nomineeDetailsDump"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

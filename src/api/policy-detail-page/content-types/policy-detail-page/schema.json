@@ -44,6 +44,76 @@
       "repeatable": false,
       "component": "policy-details.trusted-by-customers-dump",
       "required": true
+    },
+    "emiDetailsCardDump": {
+      "displayName": "emiDetailsCardDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.emi-details-card-dump",
+      "required": true
+    },
+    "insuredDetailsDump": {
+      "displayName": "insuredDetailsDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.insured-details-dump"
+    },
+    "nomineeDetailsDump": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.nominee-details-dump",
+      "required": true
+    },
+    "appointeeDetailsDump": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.nominee-details-dump",
+      "required": true
+    },
+    "proposerDetailsDump": {
+      "displayName": "proposerDetailsDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.proposer-details-dump",
+      "required": true
+    },
+    "otherDetailsDump": {
+      "displayName": "otherDetailsDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.other-details-dump",
+      "required": true
+    },
+    "policyStatusDump": {
+      "displayName": "policyStatusDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-status-dump",
+      "required": true
+    },
+    "claimActionsDump": {
+      "displayName": "claimActionsDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.claim-actions-dump"
+    },
+    "supportCms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dashboard.support-cms2",
+      "required": true
+    },
+    "promotionalBanner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dashboard.promotional-banner",
+      "required": true
+    },
+    "buyInsuranceCms": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dashboard.buy-insurance-cms",
+      "required": true
     }
   }
 }
