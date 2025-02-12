@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_policy_details_insured_motors",
+  "info": {
+    "displayName": "insured-motor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "chassisLabel": {
+      "type": "string",
+      "required": true
+    },
+    "engineLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

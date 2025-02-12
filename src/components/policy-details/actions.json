@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_policy_details_actions",
+  "info": {
+    "displayName": "actions"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "key": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

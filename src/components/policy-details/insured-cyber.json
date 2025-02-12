@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_policy_details_insured_cybers",
+  "info": {
+    "displayName": "insured-cyber"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

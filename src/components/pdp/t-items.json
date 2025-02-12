@@ -1,18 +1,21 @@
 {
   "collectionName": "components_pdp_t_items",
   "info": {
-    "displayName": "t-items"
+    "displayName": "t-items",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "val1": {
-      "type": "boolean"
-    },
-    "val2": {
-      "type": "boolean"
+    "values": {
+      "displayName": "t-values",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.t-values",
+      "required": true
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pdp_pdp_clickable_cards_ctas",
+  "info": {
+    "displayName": "pdp-clickableCardsCta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "clickableCardsCta": {
+      "displayName": "clickableCardsCta",
+      "type": "component",
+      "repeatable": false,
+      "component": "pdp.clickable-cards-cta"
+    }
+  }
+}

@@ -1,21 +1,26 @@
 {
   "collectionName": "components_bmi_calculator_limitation_of_bmis",
   "info": {
-    "displayName": "limitationOfBmi"
+    "displayName": "limitationOfBmi",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "desc": {
-      "type": "string"
+      "type": "text",
+      "required": true
     },
     "cards": {
       "displayName": "cardsTwo",
       "type": "component",
       "repeatable": true,
-      "component": "bmi-calculator.cards-two"
+      "component": "bmi-calculator.cards-two",
+      "required": true,
+      "min": 1
     }
   }
 }

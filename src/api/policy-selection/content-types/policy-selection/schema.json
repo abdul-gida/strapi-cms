@@ -17,6 +17,11 @@
       "type": "component",
       "repeatable": false,
       "component": "policy-selection.policy-selection-cms-data"
+    },
+    "clevertapPageName": {
+      "type": "string",
+      "required": true,
+      "default": "policy-selection-page"
     }
   }
 }

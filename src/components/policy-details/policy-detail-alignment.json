@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_policy_details_policy_detail_alignments",
+  "info": {
+    "displayName": "policyDetailAlignment"
+  },
+  "options": {},
+  "attributes": {
+    "desktopAlignment": {
+      "displayName": "desktopAlignment",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.desktop-alignment",
+      "required": true
+    },
+    "mobileAlignment": {
+      "type": "integer",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_policy_details_policy_card_dumps",
+  "info": {
+    "displayName": "policyCardDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sumInsured": {
+      "type": "string",
+      "required": true
+    },
+    "vehicleRegNo": {
+      "type": "string",
+      "required": true
+    },
+    "expiringOn": {
+      "type": "string",
+      "required": true
+    },
+    "actions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.actions",
+      "required": true
+    },
+    "images": {
+      "displayName": "images",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.images",
+      "required": true
+    }
+  }
+}

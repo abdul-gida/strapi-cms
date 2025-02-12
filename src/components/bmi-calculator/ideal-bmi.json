@@ -1,26 +1,32 @@
 {
   "collectionName": "components_bmi_calculator_ideal_bmis",
   "info": {
-    "displayName": "idealBmi"
+    "displayName": "idealBmi",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "titleStart": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "titleEnd": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "bmiForWomen": {
       "displayName": "bmiForWomen",
       "type": "component",
       "repeatable": false,
-      "component": "bmi-calculator.bmi-for-women"
+      "component": "bmi-calculator.bmi-for-women",
+      "required": true
     },
     "bmiForMen": {
       "type": "component",
-      "repeatable": true,
-      "component": "bmi-calculator.bmi-for-women"
+      "repeatable": false,
+      "component": "bmi-calculator.bmi-for-women",
+      "required": true,
+      "min": 1
     }
   }
 }

@@ -1,12 +1,14 @@
 {
   "collectionName": "components_pdp_th_headers",
   "info": {
-    "displayName": "th-header"
+    "displayName": "th-header",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

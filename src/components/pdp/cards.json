@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_pdp_cards",
+  "info": {
+    "displayName": "cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "text",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    },
+    "exploreCtaLabel": {
+      "type": "string"
+    },
+    "exploreCtaUrl": {
+      "type": "string"
+    },
+    "buyNowCtaLabel": {
+      "type": "string"
+    },
+    "buyNowCtaUrl": {
+      "type": "string"
+    }
+  }
+}

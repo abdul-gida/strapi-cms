@@ -9,9 +9,6 @@
     "gridCount": {
       "type": "string"
     },
-    "desc": {
-      "type": "text"
-    },
     "content": {
       "displayName": "KnowYourCoverageContent",
       "type": "component",
@@ -27,10 +24,32 @@
       "required": true
     },
     "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "desc": {
       "type": "richtext"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    },
+    "cardColor": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
     },
     "bottomText": {
       "type": "richtext"
+    },
+    "moreQuestions": {
+      "displayName": "moreQuestions",
+      "type": "component",
+      "repeatable": false,
+      "component": "pdp-know-your-coverage.more-questions"
     }
   }
 }

@@ -16,10 +16,13 @@
       "displayName": "t-header",
       "type": "component",
       "repeatable": false,
-      "component": "pdp.t-header"
+      "component": "pdp.t-header",
+      "required": true
     },
     "isTextLeft": {
-      "type": "boolean"
+      "type": "boolean",
+      "required": true,
+      "default": false
     },
     "type": {
       "type": "enumeration",
@@ -27,6 +30,27 @@
         "pdp-table"
       ],
       "default": "pdp-table",
+      "required": true
+    },
+    "trueText": {
+      "type": "enumeration",
+      "enum": [
+        "yes"
+      ],
+      "required": true,
+      "default": "yes"
+    },
+    "falseText": {
+      "type": "enumeration",
+      "enum": [
+        "no"
+      ],
+      "default": "no",
+      "required": true
+    },
+    "isNested": {
+      "type": "boolean",
+      "default": false,
       "required": true
     }
   }

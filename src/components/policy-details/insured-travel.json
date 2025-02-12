@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_policy_details_insured_travels",
+  "info": {
+    "displayName": "insured-travel"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "nameLabel": {
+      "type": "string",
+      "required": true
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    },
+    "dobLabel": {
+      "type": "string",
+      "required": true
+    },
+    "mobileNumber": {
+      "type": "string",
+      "required": true
+    },
+    "passportNumber": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

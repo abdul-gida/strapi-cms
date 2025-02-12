@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_policy_details_claim_actions_dumps",
+  "info": {
+    "displayName": "claimActionsDump",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "motoractions": {
+      "displayName": "claimactions-cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.claimactions-cards",
+      "required": true
+    },
+    "healthActions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-details.claimactions-cards",
+      "required": true
+    },
+    "howToFile": {
+      "displayName": "howToFile",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.how-to-file",
+      "required": true
+    }
+  }
+}

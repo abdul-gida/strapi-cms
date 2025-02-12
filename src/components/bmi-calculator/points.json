@@ -1,8 +1,13 @@
 {
   "collectionName": "components_bmi_calculator_points",
   "info": {
-    "displayName": "points"
+    "displayName": "points",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "label": {
+      "type": "text"
+    }
+  }
 }
