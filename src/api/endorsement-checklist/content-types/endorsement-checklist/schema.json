@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "endorsement_checklists",
+  "info": {
+    "singularName": "endorsement-checklist",
+    "pluralName": "endorsement-checklists",
+    "displayName": "endorsementChecklist",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "productDropdownLabel": {
+      "type": "string"
+    },
+    "headerTextColorBlack": {
+      "type": "boolean"
+    },
+    "productDropdownPlaceholder": {
+      "type": "string"
+    },
+    "endorsementChecklistDropdownLabel": {
+      "type": "string"
+    },
+    "endorsementChecklistDropdownPlaceholder": {
+      "type": "string"
+    },
+    "endorsementTableLabel": {
+      "type": "string"
+    },
+    "documentsTableLabel": {
+      "type": "string"
+    },
+    "termsAndConditions": {
+      "type": "text"
+    }
+  }
+}
