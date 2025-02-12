@@ -31,6 +31,12 @@
       "component": "policy-details.policy-details-page-cms-data",
       "required": true
     },
+    "policyActionCms": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-action-cms",
+      "required": true
+    },
     "newsletterDump": {
       "displayName": "newsletterDump",
       "type": "component",

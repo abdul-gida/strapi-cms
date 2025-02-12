@@ -96,13 +96,6 @@
       "repeatable": false,
       "component": "policy-details.policy-detail-alignment",
       "required": true
-    },
-    "policyActionCms": {
-      "displayName": "policyActionCms",
-      "type": "component",
-      "repeatable": false,
-      "component": "policy-details.policy-action-cms",
-      "required": true
     }
   }
 }
