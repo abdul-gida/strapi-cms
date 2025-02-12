@@ -19,10 +19,9 @@
       "component": "claims-section.banner"
     },
     "tabsClaimProcessPage": {
-      "displayName": "tabsClaimProcessPage",
       "type": "component",
       "repeatable": false,
-      "component": "claims-section.tabs-claim-process-page"
+      "component": "about-us-tabs.tabs"
     }
   }
 }

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_travel_myth_buster_myth_buster",
+  "info": {
+    "displayName": "mythBuster",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string",
+      "required": true
+    },
+    "titleEnd": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "userProfile": {
+      "type": "string",
+      "required": true
+    },
+    "ergoProfile": {
+      "type": "string",
+      "required": true
+    },
+    "myths": {
+      "displayName": "myths",
+      "type": "component",
+      "repeatable": true,
+      "component": "travel-myth-buster.myths",
+      "required": true
+    }
+  }
+}

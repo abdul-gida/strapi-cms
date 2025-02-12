@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pdp_pdp_myth_buster",
+  "info": {
+    "displayName": "pdp-mythBuster",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mythBuster": {
+      "displayName": "mythBuster",
+      "type": "component",
+      "repeatable": false,
+      "component": "travel-myth-buster.myth-buster"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-myth-buster"
+      ]
+    }
+  }
+}

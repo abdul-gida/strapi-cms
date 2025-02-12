@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pdp_pdp_travel_covers",
+  "info": {
+    "displayName": "pdp-travelCover",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "travelCover": {
+      "displayName": "travelCover",
+      "type": "component",
+      "repeatable": false,
+      "component": "travel-cover.travel-cover"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-travel-cover"
+      ]
+    }
+  }
+}

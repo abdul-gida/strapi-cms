@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_travel_cover_travel_covers",
+  "info": {
+    "displayName": "travelCover",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "string",
+      "required": true
+    },
+    "backgroundMobileImage": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "ctaText": {
+      "type": "string",
+      "required": true
+    },
+    "ctaLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

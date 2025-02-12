@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pdp_pdp_travel_explorers",
+  "info": {
+    "displayName": "pdp-travelExplorer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "travelExplorer": {
+      "displayName": "travelExplorer",
+      "type": "component",
+      "repeatable": false,
+      "component": "travel-explorer.travel-explorer"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-travel-explorer"
+      ]
+    }
+  }
+}
