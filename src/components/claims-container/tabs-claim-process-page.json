@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_claims_container_tabs_claim_process_pages",
+  "info": {
+    "displayName": "tabsClaimProcessPage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tabs": {
+      "displayName": "tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-container.tabs"
+    }
+  }
+}

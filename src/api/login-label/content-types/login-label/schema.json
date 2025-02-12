@@ -60,6 +60,24 @@
     "otpRetryLabel": {
       "type": "string"
     },
+    "resendSmsButtonLabel": {
+      "type": "string"
+    },
+    "resendWhatsappButtonLabel": {
+      "type": "string"
+    },
+    "smsButtonClevertapEvent": {
+      "displayName": "ClevertapButtonEvent",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.clevertap-button-event"
+    },
+    "waButtonClevertapEvent": {
+      "displayName": "ClevertapButtonEvent",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.clevertap-button-event"
+    },
     "clevertapPageName": {
       "type": "string",
       "required": true,
