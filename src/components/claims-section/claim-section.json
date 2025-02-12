@@ -12,7 +12,7 @@
     },
     "claimSteps": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "claims-section.claim-steps"
     }
   }
