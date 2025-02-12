@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "claims_section",
+  "info": {
+    "singularName": "claim-section",
+    "pluralName": "claims-section",
+    "displayName": "Claims",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-section.banner"
+    },
+    "tabsClaimProcessPage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us-tabs.tabs"
+    }
+  }
+}

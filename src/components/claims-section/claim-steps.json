@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_claims_section_claim_steps",
+  "info": {
+    "displayName": "claimSteps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "step": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "headerLabel": {
+      "type": "string"
+    },
+    "labelCont": {
+      "displayName": "labelCont",
+      "type": "component",
+      "repeatable": false,
+      "component": "claim-steps.label-cont"
+    },
+    "infoCont": {
+      "displayName": "infoCont",
+      "type": "component",
+      "repeatable": false,
+      "component": "claim-steps.info-cont"
+    },
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": false,
+      "component": "claim-steps.button"
+    },
+    "alert": {
+      "type": "string"
+    }
+  }
+}

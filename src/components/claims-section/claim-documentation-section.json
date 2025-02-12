@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_claims_section_claim_documentation_sections",
+  "info": {
+    "displayName": "claimDocumentationSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "claimDocumentationHeading": {
+      "type": "string"
+    },
+    "claimDocumentation": {
+      "displayName": "claimDocumentation",
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-section.claim-documentation"
+    }
+  }
+}

@@ -1,69 +1,73 @@
 {
-  "kind": "collectionType",
-  "collectionName": "pdps",
-  "info": {
-    "singularName": "pdp",
-    "pluralName": "pdps",
-    "displayName": "pdp",
-    "description": ""
-  },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "slug": {
-      "type": "uid",
-      "required": true
-    },
-    "sections": {
-      "type": "dynamiczone",
-      "components": [
-        "pdp.pdp-title-desc-image",
-        "pdp.pdp-find-nearest-locator",
-        "pdp.pdp-clickable-cards",
-        "pdp.pdp-why-should-you-buy",
-        "pdp.pdp-why-choose-hdfc",
-        "pdp.pdp-videos",
-        "pdp.pdp-videos-spotlight",
-        "pdp.pdp-title-desc-cards",
-        "pdp.pdp-tips-carousel",
-        "pdp.pdp-table",
-        "pdp.pdp-stepper",
-        "pdp.pdp-scenerio-list",
-        "pdp.pdp-reviews",
-        "pdp.pdp-product-trust-markers",
-        "pdp.pdp-product-bread-crumbs",
-        "pdp.pdp-popular-models",
-        "pdp.pdp-popular-brands",
-        "pdp.pdp-policy-docs-cards",
-        "pdp.pdp-our-distinguished-legacy",
-        "pdp.pdp-know-your-coverage",
-        "pdp.pdp-know-your-insurance",
-        "pdp.pdp-insurance-plans-data",
-        "pdp.pdp-faq-section",
-        "pdp.pdp-divider-common",
-        "pdp.pdp-did-you-know-button",
-        "pdp.pdp-desc-video",
-        "pdp.pdp-countries-list",
-        "pdp.pdp-common-blogs-list",
-        "pdp.pdp-arrow-mapper",
-        "pdp.pdp-app-carousel",
-        "pdp.pdp-form-wrapper",
-        "pdp.pdp-note-section",
-        "pdp.pdp-promotional-banner",
-        "pdp.compare-policy-section",
-        "pdp.pdp-bike-insurance-premium-rate",
-        "pdp.pdp-metro-cities",
-        "pdp.clickable-cards-cta",
-        "pdp.pdp-coverage-insurance-section",
-        "pdp.pdp-linkedin-section"
-      ]
-    },
-    "showAchievements": {
-      "type": "boolean",
-      "default": true,
-      "required": true
-    }
-  }
+	"kind": "collectionType",
+	"collectionName": "pdps",
+	"info": {
+		"singularName": "pdp",
+		"pluralName": "pdps",
+		"displayName": "pdp",
+		"description": ""
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"slug": {
+			"type": "uid",
+			"required": true
+		},
+		"sections": {
+			"type": "dynamiczone",
+			"components": [
+				"pdp.pdp-title-desc-image",
+				"pdp.pdp-find-nearest-locator",
+				"pdp.pdp-clickable-cards",
+				"pdp.pdp-why-should-you-buy",
+				"pdp.pdp-why-choose-hdfc",
+				"pdp.pdp-videos",
+				"pdp.pdp-videos-spotlight",
+				"pdp.pdp-title-desc-cards",
+				"pdp.pdp-tips-carousel",
+				"pdp.pdp-table",
+				"pdp.pdp-stepper",
+				"pdp.pdp-scenerio-list",
+				"pdp.pdp-reviews",
+				"pdp.pdp-product-trust-markers",
+				"pdp.pdp-product-bread-crumbs",
+				"pdp.pdp-popular-models",
+				"pdp.pdp-popular-brands",
+				"pdp.pdp-policy-docs-cards",
+				"pdp.pdp-our-distinguished-legacy",
+				"pdp.pdp-know-your-coverage",
+				"pdp.pdp-know-your-insurance",
+				"pdp.pdp-insurance-plans-data",
+				"pdp.pdp-faq-section",
+				"pdp.pdp-divider-common",
+				"pdp.pdp-did-you-know-button",
+				"pdp.pdp-desc-video",
+				"pdp.pdp-countries-list",
+				"pdp.pdp-common-blogs-list",
+				"pdp.pdp-arrow-mapper",
+				"pdp.pdp-app-carousel",
+				"pdp.pdp-form-wrapper",
+				"pdp.pdp-note-section",
+				"pdp.pdp-promotional-banner",
+				"pdp.compare-policy-section",
+				"pdp.pdp-bike-insurance-premium-rate",
+				"pdp.pdp-metro-cities",
+				"pdp.clickable-cards-cta",
+				"pdp.pdp-coverage-insurance-section",
+				"pdp.pdp-linkedin-section",
+				"pdp.pdp-travel-explorer",
+				"pdp.pdp-covid-cover",
+				"pdp.pdp-travel-cover",
+				"pdp.pdp-myth-buster"
+			]
+		},
+		"showAchievements": {
+			"type": "boolean",
+			"default": true,
+			"required": true
+		}
+	}
 }

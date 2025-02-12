@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_claims_section_claim_sections",
+  "info": {
+    "displayName": "claimStepsSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "claimStepsHeading": {
+      "type": "string",
+      "required": false
+    },
+    "claimSteps": {
+      "type": "component",
+      "repeatable": false,
+      "component": "claims-section.claim-steps"
+    }
+  }
+}

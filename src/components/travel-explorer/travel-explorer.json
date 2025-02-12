@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_travel_explorer_travel_explorers",
+  "info": {
+    "displayName": "travelExplorer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "backgroundImage": {
+      "type": "string",
+      "required": true
+    },
+    "backgroundMobileImage": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "string",
+      "required": true
+    },
+    "features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "travel-explorer.features",
+      "required": true
+    },
+    "KnowMoreLabel": {
+      "type": "string",
+      "required": true
+    },
+    "KnowMoreLink": {
+      "type": "string",
+      "required": true
+    },
+    "BuyNowLabel": {
+      "type": "string",
+      "required": true
+    },
+    "BuyNowLink": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

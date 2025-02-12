@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_claim_steps_buttons",
+  "info": {
+    "displayName": "button"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_claims_section_label_conts",
+  "info": {
+    "displayName": "labelCont"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

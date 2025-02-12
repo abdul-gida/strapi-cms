@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_travel_myth_buster_myths",
+  "info": {
+    "displayName": "myths",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "userMessage": {
+      "type": "string",
+      "required": true
+    },
+    "response": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
