@@ -6,29 +6,20 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "ratings": {
-      "type": "string"
+    "ratedText": {
+      "type": "string",
+      "required": true
     },
     "quote": {
-      "type": "string"
-    },
-    "btnCta": {
-      "type": "string"
-    },
-    "btnLink": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "reviews": {
       "displayName": "reviews",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.reviews"
+      "component": "pdp.reviews",
+      "required": true
     },
     "type": {
       "type": "enumeration",
@@ -36,6 +27,17 @@
         "pdp-reviews"
       ],
       "default": "pdp-reviews",
+      "required": true
+    },
+    "ratingsImage": {
+      "type": "string"
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
       "required": true
     }
   }

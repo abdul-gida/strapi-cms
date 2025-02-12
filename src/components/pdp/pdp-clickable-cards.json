@@ -6,11 +6,9 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "rightIcon": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "gridCount": {
       "type": "string"
@@ -27,6 +25,10 @@
         "pdp-clickable-cards"
       ],
       "default": "pdp-clickable-cards",
+      "required": true
+    },
+    "title": {
+      "type": "richtext",
       "required": true
     },
     "desc": {

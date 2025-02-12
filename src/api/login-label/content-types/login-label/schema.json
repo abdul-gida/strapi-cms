@@ -59,6 +59,11 @@
     },
     "otpRetryLabel": {
       "type": "string"
+    },
+    "clevertapPageName": {
+      "type": "string",
+      "required": true,
+      "default": "login-page"
     }
   }
 }

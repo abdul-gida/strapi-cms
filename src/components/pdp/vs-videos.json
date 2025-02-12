@@ -1,12 +1,14 @@
 {
   "collectionName": "components_pdp_vs_videos",
   "info": {
-    "displayName": "vs-videos"
+    "displayName": "vs-videos",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

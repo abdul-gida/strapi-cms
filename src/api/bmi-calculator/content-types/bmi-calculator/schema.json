@@ -108,6 +108,12 @@
       "repeatable": false,
       "component": "bmi-calculator.calc-cards",
       "required": true
+    },
+    "faqSection": {
+      "displayName": "faqSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "bmi-calculator.faq-section"
     }
   }
 }

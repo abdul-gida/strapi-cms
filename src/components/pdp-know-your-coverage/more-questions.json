@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_pdp_videos",
+  "collectionName": "components_pdp_know_your_coverage_more_questions",
   "info": {
-    "displayName": "videos",
+    "displayName": "moreQuestions",
     "description": ""
   },
   "options": {},
@@ -10,20 +10,17 @@
       "type": "string",
       "required": true
     },
-    "image": {
+    "desc": {
+      "type": "text",
+      "required": true
+    },
+    "cta": {
       "type": "string",
       "required": true
     },
     "link": {
-      "type": "string",
+      "type": "text",
       "required": true
-    },
-    "duration": {
-      "type": "string",
-      "required": true
-    },
-    "place": {
-      "type": "string"
     }
   }
 }

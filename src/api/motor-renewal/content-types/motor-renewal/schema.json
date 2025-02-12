@@ -123,6 +123,11 @@
       "type": "component",
       "repeatable": false,
       "component": "motor-renewal.contact-details-dump"
+    },
+    "clevertapPageName": {
+      "type": "string",
+      "required": true,
+      "default": "motor-renewal-page"
     }
   }
 }

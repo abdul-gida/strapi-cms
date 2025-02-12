@@ -6,8 +6,15 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "cta": {
       "type": "string"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "stepper.cards",
+      "required": true
     },
     "desc": {
       "type": "richtext"

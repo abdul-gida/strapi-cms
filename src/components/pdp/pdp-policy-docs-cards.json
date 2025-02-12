@@ -22,6 +22,9 @@
       ],
       "default": "pdp-policy-docs-cards",
       "required": true
+    },
+    "gridCount": {
+      "type": "string"
     }
   }
 }

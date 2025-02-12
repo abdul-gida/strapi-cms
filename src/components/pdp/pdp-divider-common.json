@@ -9,12 +9,6 @@
     "image": {
       "type": "string"
     },
-    "title": {
-      "type": "string"
-    },
-    "subtitle": {
-      "type": "text"
-    },
     "mail": {
       "type": "string"
     },
@@ -30,6 +24,13 @@
         "pdp-divider-common"
       ],
       "default": "pdp-divider-common",
+      "required": true
+    },
+    "subtitle": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "richtext",
       "required": true
     }
   }

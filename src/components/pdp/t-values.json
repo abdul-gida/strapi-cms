@@ -1,12 +1,12 @@
 {
-  "collectionName": "components_pdp_th_headers",
+  "collectionName": "components_pdp_t_values",
   "info": {
-    "displayName": "th-header",
+    "displayName": "t-values",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "val": {
       "type": "string",
       "required": true
     }

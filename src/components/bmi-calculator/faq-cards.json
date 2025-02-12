@@ -1,16 +1,15 @@
 {
-  "collectionName": "components_coverage_insurance_card_items",
+  "collectionName": "components_bmi_calculator_faq_cards",
   "info": {
-    "displayName": "card items",
-    "description": ""
+    "displayName": "faqCards"
   },
   "options": {},
   "attributes": {
-    "title": {
+    "question": {
       "type": "string",
       "required": true
     },
-    "desc": {
+    "description": {
       "type": "text",
       "required": true
     }
