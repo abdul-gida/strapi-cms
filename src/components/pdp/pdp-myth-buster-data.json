@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_pdp_pdp_myth_buster_data",
+  "collectionName": "components_pdp_pdp_myth_buster",
   "info": {
     "displayName": "pdp-mythBuster",
     "description": ""
@@ -7,10 +7,10 @@
   "options": {},
   "attributes": {
     "mythBuster": {
-      "displayName": "mythBusterData",
+      "displayName": "mythBuster",
       "type": "component",
       "repeatable": false,
-      "component": "travel-myth-buster.myth-buster-data"
+      "component": "travel-myth-buster.myth-buster"
     },
     "type": {
       "type": "enumeration",
