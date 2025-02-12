@@ -13,7 +13,7 @@
       "required": true
     },
     "mobileAlignment": {
-      "type": "string",
+      "type": "integer",
       "required": true
     },
     "type": {

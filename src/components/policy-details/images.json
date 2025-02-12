@@ -1,7 +1,8 @@
 {
   "collectionName": "components_policy_details_images",
   "info": {
-    "displayName": "images"
+    "displayName": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -31,7 +32,7 @@
     },
     "travel": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "policy-details.health",
       "required": true
     },
@@ -43,7 +44,7 @@
     },
     "home": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "policy-details.health",
       "required": true
     }

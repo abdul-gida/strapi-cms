@@ -18,7 +18,7 @@
     },
     "trackClaimCard": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "policy-details.renew-card"
     }
   }

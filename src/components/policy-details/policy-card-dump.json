@@ -20,7 +20,7 @@
     },
     "actions": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "policy-details.actions",
       "required": true
     },

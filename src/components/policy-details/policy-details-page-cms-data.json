@@ -45,7 +45,7 @@
     },
     "actions": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "policy-details.policy-detail-alignment",
       "required": true
     },

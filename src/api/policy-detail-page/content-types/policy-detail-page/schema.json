@@ -60,7 +60,7 @@
     },
     "nomineeDetailsDump": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "policy-details.nominee-details-dump",
       "required": true
     },
@@ -99,20 +99,27 @@
     },
     "supportCms": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "dashboard.support-cms2",
       "required": true
     },
     "promotionalBanner": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "dashboard.promotional-banner",
       "required": true
     },
     "buyInsuranceCms": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "dashboard.buy-insurance-cms",
+      "required": true
+    },
+    "contactDump": {
+      "displayName": "contactDump",
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.contact-dump",
       "required": true
     }
   }

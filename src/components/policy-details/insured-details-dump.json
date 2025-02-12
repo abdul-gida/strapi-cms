@@ -1,7 +1,8 @@
 {
   "collectionName": "components_policy_details_insured_details_dumps",
   "info": {
-    "displayName": "insuredDetailsDump"
+    "displayName": "insuredDetailsDump",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -20,7 +21,7 @@
     },
     "pets": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "policy-details.insure-health",
       "required": true
     },
