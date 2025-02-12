@@ -15,7 +15,7 @@
     "type": {
       "type": "enumeration",
       "enum": [
-        "pdp-myth-buster-data"
+        "pdp-myth-buster"
       ]
     }
   }
