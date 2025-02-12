@@ -57,7 +57,8 @@
         "pdp.pdp-coverage-insurance-section",
         "pdp.pdp-travel-explorer",
         "pdp.pdp-covid-cover",
-        "pdp.pdp-travel-cover"
+        "pdp.pdp-travel-cover",
+        "pdp.pdp-myth-buster-data"
       ]
     },
     "showAchievements": {

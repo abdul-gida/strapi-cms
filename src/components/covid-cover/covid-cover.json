@@ -7,25 +7,24 @@
   "options": {},
   "attributes": {
     "backgroundImage": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "backgroundMobileImage": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "label": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "desc": {
-      "type": "richtext"
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "pdp-covid-cover"
-      ]
+      "type": "richtext",
+      "required": true
     }
   }
 }

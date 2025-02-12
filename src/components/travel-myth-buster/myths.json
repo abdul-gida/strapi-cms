@@ -1,17 +1,17 @@
 {
-  "collectionName": "components_travel_explorer_features",
+  "collectionName": "components_travel_myth_buster_myths",
   "info": {
-    "displayName": "features",
+    "displayName": "myths",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "icon": {
+    "userMessage": {
       "type": "string",
       "required": true
     },
-    "text": {
-      "type": "string",
+    "response": {
+      "type": "text",
       "required": true
     }
   }

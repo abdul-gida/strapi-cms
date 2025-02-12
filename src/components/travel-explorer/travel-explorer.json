@@ -7,46 +7,51 @@
   "options": {},
   "attributes": {
     "heading": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "subtitle": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "backgroundImage": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "backgroundMobileImage": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "logo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "features": {
       "displayName": "features",
       "type": "component",
       "repeatable": true,
-      "component": "travel-explorer.features"
+      "component": "travel-explorer.features",
+      "required": true
     },
     "KnowMoreLabel": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "KnowMoreLink": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "BuyNowLabel": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "BuyNowLink": {
-      "type": "string"
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "pdp-travel-explorer"
-      ]
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -1,20 +1,16 @@
 {
-  "collectionName": "components_travel_cover_travel_covers",
+  "collectionName": "components_travel_myth_buster_myth_buster_data",
   "info": {
-    "displayName": "travelCover",
+    "displayName": "mythBusterData",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "backgroundImage": {
+    "titleStart": {
       "type": "string",
       "required": true
     },
-    "backgroundMobileImage": {
-      "type": "string",
-      "required": true
-    },
-    "title": {
+    "titleEnd": {
       "type": "string",
       "required": true
     },
@@ -22,12 +18,19 @@
       "type": "string",
       "required": true
     },
-    "ctaText": {
+    "userProfile": {
       "type": "string",
       "required": true
     },
-    "ctaLink": {
+    "ergoProfile": {
       "type": "string",
+      "required": true
+    },
+    "myths": {
+      "displayName": "myths",
+      "type": "component",
+      "repeatable": true,
+      "component": "travel-myth-buster.myths",
       "required": true
     }
   }
