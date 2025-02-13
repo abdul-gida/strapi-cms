@@ -7,13 +7,15 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "stacks": {
       "displayName": "stacks",
       "type": "component",
       "repeatable": true,
-      "component": "pmfby-home.stacks"
+      "component": "pmfby-home.stacks",
+      "required": true
     },
     "scrollHereId": {
       "type": "string"

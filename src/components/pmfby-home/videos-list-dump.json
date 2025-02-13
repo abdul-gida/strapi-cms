@@ -1,18 +1,21 @@
 {
   "collectionName": "components_pmfby_home_videos_list_dumps",
   "info": {
-    "displayName": "videosListDump"
+    "displayName": "videosListDump",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "videos": {
       "displayName": "videos",
       "type": "component",
       "repeatable": true,
-      "component": "pmfby-home.videos"
+      "component": "pmfby-home.videos",
+      "required": true
     }
   }
 }

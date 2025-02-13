@@ -1,15 +1,18 @@
 {
   "collectionName": "components_pmfby_home_quick_access_cards",
   "info": {
-    "displayName": "quick access cards"
+    "displayName": "quick access cards",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
       "type": "string"

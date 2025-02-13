@@ -13,13 +13,15 @@
       "component": "pmfby-home.title"
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "cards": {
       "displayName": "quick access cards",
       "type": "component",
       "repeatable": true,
-      "component": "pmfby-home.quick-access-cards"
+      "component": "pmfby-home.quick-access-cards",
+      "required": true
     }
   }
 }

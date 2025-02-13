@@ -10,7 +10,8 @@
       "type": "string"
     },
     "desc": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "noteSection": {
       "displayName": "noteSection",

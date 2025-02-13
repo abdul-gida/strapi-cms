@@ -1,21 +1,26 @@
 {
   "collectionName": "components_pmfby_home_expert_cards",
   "info": {
-    "displayName": "expertCards"
+    "displayName": "expertCards",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "iconPath": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "href": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "label": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "mobileNo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
