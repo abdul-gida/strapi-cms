@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_calc_comparison_policy_tables",
+  "info": {
+    "displayName": "ComparisonPolicyTable",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "tableData": {
+      "displayName": "tableData",
+      "type": "component",
+      "repeatable": false,
+      "component": "calc-comparison-policy-table.table-data",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-comparison-policy-table"
+      ],
+      "default": "calc-comparison-policy-table",
+      "required": true
+    }
+  }
+}

@@ -6,9 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "desc": {
-      "type": "text"
-    },
     "videoUrl": {
       "type": "string"
     },
@@ -23,6 +20,9 @@
     "title": {
       "type": "richtext",
       "required": false
+    },
+    "desc": {
+      "type": "richtext"
     }
   }
 }

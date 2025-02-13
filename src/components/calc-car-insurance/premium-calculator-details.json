@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_calc_car_insurance_premium_calculator_details",
+  "info": {
+    "displayName": "premiumCalculatorDetails"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

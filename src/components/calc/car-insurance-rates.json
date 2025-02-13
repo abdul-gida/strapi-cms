@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_calc_car_insurance_rates",
+  "info": {
+    "displayName": "carInsuranceRates",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "noteSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "calc-factors-to-consider.note-section"
+    },
+    "infoSection": {
+      "displayName": "infoSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-car-insurance-rates.info-section"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-car-insurance-rates"
+      ],
+      "default": "calc-car-insurance-rates",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_calc_find_nearest_lists",
+  "info": {
+    "displayName": "list"
+  },
+  "options": {},
+  "attributes": {
+    "tabLabel": {
+      "type": "string"
+    },
+    "title": {
+      "displayName": "title",
+      "type": "component",
+      "repeatable": false,
+      "component": "calc-find-nearest.title"
+    },
+    "description": {
+      "type": "text"
+    },
+    "btnCta": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

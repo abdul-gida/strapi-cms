@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_calc_buy_renew_section_cards",
+  "info": {
+    "displayName": "cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

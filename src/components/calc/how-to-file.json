@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_calc_how_to_files",
+  "info": {
+    "displayName": "howToFileClaimSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "points": {
+      "type": "richtext",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-how-to-file-claim-section"
+      ],
+      "default": "calc-how-to-file-claim-section",
+      "required": true
+    }
+  }
+}

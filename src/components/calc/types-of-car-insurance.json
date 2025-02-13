@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_calc_types_of_car_insurances",
+  "info": {
+    "displayName": "typesOfCarInsurance"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "points": {
+      "displayName": "points",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-types-of-car-insurance.points"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-types-of-car-insurance"
+      ],
+      "default": "calc-types-of-car-insurance",
+      "required": true
+    }
+  }
+}

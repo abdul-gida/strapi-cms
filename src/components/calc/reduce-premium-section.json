@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_calc_reduce_premium_sections",
+  "info": {
+    "displayName": "reducePremiumSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-reduce-premium-section.cards"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-reduce-premium-section"
+      ],
+      "default": "calc-reduce-premium-section",
+      "required": true
+    }
+  }
+}

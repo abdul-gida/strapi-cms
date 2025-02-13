@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_calc_car_insurance_calc_info_sections",
+  "info": {
+    "displayName": "infoSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}

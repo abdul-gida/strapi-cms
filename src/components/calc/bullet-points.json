@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_calc_bullet_points",
+  "info": {
+    "displayName": "bulletPoints"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "points": {
+      "type": "richtext"
+    }
+  }
+}

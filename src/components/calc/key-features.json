@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_calc_key_features",
+  "info": {
+    "displayName": "KeyFeatures",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "points": {
+      "displayName": "points",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc.points"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-key-features"
+      ],
+      "required": true,
+      "default": "calc-key-features"
+    }
+  }
+}

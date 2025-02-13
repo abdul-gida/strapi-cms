@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_calc_factors_effecting_sections",
+  "info": {
+    "displayName": "factorsEffectingCarInsuranceSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "factors": {
+      "displayName": "factors",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-factors-effecting-section.factors"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-factors-effecting-section"
+      ],
+      "default": "calc-factors-effecting-section",
+      "required": true
+    }
+  }
+}

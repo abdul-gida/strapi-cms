@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_calc_factors_to_considers",
+  "info": {
+    "displayName": "FactorsToConsider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "points": {
+      "type": "richtext"
+    },
+    "noteSection": {
+      "displayName": "noteSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "calc-factors-to-consider.note-section"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-factors-to-consider"
+      ],
+      "required": true,
+      "default": "calc-factors-to-consider"
+    }
+  }
+}

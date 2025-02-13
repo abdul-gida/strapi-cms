@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_calc_car_dividers",
+  "info": {
+    "displayName": "CarDivider"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-car-divider"
+      ],
+      "required": true,
+      "default": "calc-car-divider"
+    }
+  }
+}
