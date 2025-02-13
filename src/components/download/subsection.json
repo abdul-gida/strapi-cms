@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_download_subsections",
+  "info": {
+    "displayName": "subsection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pdf": {
+      "displayName": "pdf",
+      "type": "component",
+      "repeatable": true,
+      "component": "download.pdf"
+    }
+  }
+}

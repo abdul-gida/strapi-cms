@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_download_banners",
+  "info": {
+    "displayName": "banner"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
