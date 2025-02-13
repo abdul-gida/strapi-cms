@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_calc_breadcrumbs_bread_crumbs",
+  "info": {
+    "displayName": "breadCrumbs"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

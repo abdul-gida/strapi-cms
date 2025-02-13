@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "calculators_car_insurances",
+  "info": {
+    "singularName": "calculators-car-insurance",
+    "pluralName": "calculators-car-insurances",
+    "displayName": "Calculators-carInsurance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "carInsurance": {
+      "type": "dynamiczone",
+      "components": [
+        "calc.why-premium-calculator-section",
+        "calc.types-of-car-insurance",
+        "calc.trust-markers",
+        "calc.reduce-premium-section",
+        "calc.popular-models",
+        "calc.popular-brands",
+        "calc.key-features",
+        "calc.insurance-add-ons",
+        "calc.how-to-file",
+        "calc.how-to-calculate-premium-section",
+        "calc.find-nearest",
+        "calc.faq-section",
+        "calc.factors-to-consider",
+        "calc.factors-effecting-section",
+        "calc.comparison-policy-table",
+        "calc.car-insurance-rates",
+        "calc.car-insurance-premium-details",
+        "calc.car-insurance-details",
+        "calc.car-insurance-calc",
+        "calc.car-divider",
+        "calc.buy-renew-section",
+        "calc.bread-crumbs",
+        "pdp.pdp-form-wrapper"
+      ]
+    },
+    "showAchievements": {
+      "type": "boolean"
+    }
+  }
+}

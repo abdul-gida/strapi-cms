@@ -13,12 +13,6 @@
     "title": {
       "type": "string"
     },
-    "bulletPoints": {
-      "displayName": "bulletPoints",
-      "type": "component",
-      "repeatable": false,
-      "component": "calc.bullet-points"
-    },
     "cards": {
       "displayName": "cards",
       "type": "component",
@@ -38,6 +32,9 @@
       ],
       "required": true,
       "default": "calc-why-premium-calculator-section"
+    },
+    "bulletPoints": {
+      "type": "richtext"
     }
   }
 }

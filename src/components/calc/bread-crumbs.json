@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_calc_bread_crumbs",
+  "info": {
+    "displayName": "breadCrumbs"
+  },
+  "options": {},
+  "attributes": {
+    "breadCrumbs": {
+      "displayName": "breadCrumbs",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-breadcrumbs.bread-crumbs"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-breadcrumbs"
+      ],
+      "default": "calc-breadcrumbs",
+      "required": true
+    }
+  }
+}

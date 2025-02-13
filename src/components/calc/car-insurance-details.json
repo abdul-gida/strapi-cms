@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_calc_car_insurance_details",
+  "info": {
+    "displayName": "carInsuranceDetails"
+  },
+  "options": {},
+  "attributes": {
+    "videoUrl": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "richtext",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-car-insurance-details"
+      ],
+      "default": "calc-car-insurance-details",
+      "required": true
+    }
+  }
+}

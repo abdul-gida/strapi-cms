@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_calc_faq_section_more_questions",
+    "info": {
+      "displayName": "FaqSectionMoreQuestions"
+    },
+    "options": {},
+    "attributes": {
+      "title": {
+        "type": "string"
+      },
+      "desc": {
+        "type": "text"
+      },
+      "button": {
+        "type": "string"
+      },
+      "image": {
+        "type": "string"
+      },
+      "link": {
+        "type": "string"
+      }
+    }
+  }
+  

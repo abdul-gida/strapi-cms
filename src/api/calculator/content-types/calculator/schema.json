@@ -63,7 +63,13 @@
         "calc.find-nearest",
         "calc.car-insurance-calc",
         "calc.types-of-car-insurance",
-        "calc.car-insurance-rates"
+        "calc.car-insurance-rates",
+        "calc.trust-markers",
+        "calc.popular-models",
+        "calc.popular-brands",
+        "calc.insurance-add-ons",
+        "calc.faq-section",
+        "calc.bread-crumbs"
       ]
     },
     "showAchievements": {

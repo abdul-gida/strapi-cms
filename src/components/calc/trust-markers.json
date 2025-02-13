@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_calc_trust_markers",
+  "info": {
+    "displayName": "trustMarkers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-trustmarkers"
+      ],
+      "default": "calc-trustmarkers",
+      "required": true
+    },
+    "trustMarkers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-trustmarkers.trust-markers"
+    }
+  }
+}

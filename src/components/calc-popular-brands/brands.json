@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_calc_popular_brands_brands",
+  "info": {
+    "displayName": "brands",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_calc_popular_models",
+  "info": {
+    "displayName": "popularModels",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgImage": {
+      "type": "string",
+      "required": true
+    },
+    "mobileBgImage": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-popular-models"
+      ],
+      "default": "calc-popular-models",
+      "required": true
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "models": {
+      "displayName": "models",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-popular-modals.models",
+      "required": true
+    }
+  }
+}

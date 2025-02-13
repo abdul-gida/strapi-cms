@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_calc_popular_modals_models",
+  "info": {
+    "displayName": "models",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "model": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
