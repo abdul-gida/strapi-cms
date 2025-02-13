@@ -13,15 +13,11 @@
       "type": "string",
       "required": true
     },
-    "number": {
-      "type": "string",
-      "required": true
-    },
     "description": {
       "type": "string",
       "required": true
     },
-    "message": {
+    "link": {
       "type": "string",
       "required": true
     }

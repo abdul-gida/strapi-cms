@@ -54,6 +54,18 @@
       "repeatable": true,
       "component": "policy-details.policy-action-cards",
       "required": true
+    },
+    "expiredCards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-action-cards",
+      "required": true
+    },
+    "upcomingPolicyCards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "policy-details.policy-action-cards",
+      "required": true
     }
   }
 }
