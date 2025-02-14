@@ -17,6 +17,12 @@
       "type": "string",
       "required": true
     },
+    "buttonTextClevertapEvent": {
+      "displayName": "ClevertapButtonEvent",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.clevertap-button-event"
+    },
     "desc": {
       "type": "text",
       "required": true

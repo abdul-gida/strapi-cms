@@ -33,12 +33,6 @@
     "subtitle": {
       "type": "string"
     },
-    "tabs": {
-      "displayName": "tabs",
-      "type": "component",
-      "repeatable": true,
-      "component": "download.tabs"
-    },
     "tabSection": {
       "displayName": "tabSection",
       "type": "component",

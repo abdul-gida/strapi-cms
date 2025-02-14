@@ -4,7 +4,8 @@
   "info": {
     "singularName": "download-section",
     "pluralName": "download-sections",
-    "displayName": "downloadSection"
+    "displayName": "downloadSection",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
