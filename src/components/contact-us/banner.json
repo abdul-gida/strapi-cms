@@ -1,37 +1,43 @@
 {
-  "collectionName": "components_contact_us_banners",
-  "info": {
-    "displayName": "banner",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "image": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "cards": {
-      "displayName": "cars",
-      "type": "component",
-      "repeatable": true,
-      "component": "contact-us.cars"
-    },
-    "formData": {
-      "displayName": "formData",
-      "type": "component",
-      "repeatable": false,
-      "component": "contact-us.form-data"
-    },
-    "productsList": {
-      "displayName": "productsList",
-      "type": "component",
-      "repeatable": true,
-      "component": "contact-us.products-list"
-    }
-  }
+	"collectionName": "components_contact_us_banners",
+	"info": {
+		"displayName": "banner",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"image": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "string",
+			"required": true
+		},
+		"cards": {
+			"displayName": "cars",
+			"type": "component",
+			"repeatable": true,
+			"component": "contact-us.cars",
+			"required": true
+		},
+		"formData": {
+			"displayName": "formData",
+			"type": "component",
+			"repeatable": false,
+			"component": "contact-us.form-data",
+			"required": true
+		},
+		"productsList": {
+			"displayName": "productsList",
+			"type": "component",
+			"repeatable": true,
+			"component": "contact-us.products-list",
+			"required": true
+		}
+	}
 }

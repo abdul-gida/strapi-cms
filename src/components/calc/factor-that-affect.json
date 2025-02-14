@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_calc_factor_that_affects",
+  "info": {
+    "displayName": "FactorsThatAffect",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "calc-factors-that-affect.banner",
+      "required": true
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-factors-to-consider.cards",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-factors-to-affect"
+      ],
+      "default": "calc-factors-to-affect",
+      "required": true
+    }
+  }
+}

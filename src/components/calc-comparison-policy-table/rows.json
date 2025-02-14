@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_calc_comparison_policy_table_rows",
+  "info": {
+    "displayName": "rows",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "comparisonCover": {
+      "type": "boolean",
+      "required": true
+    },
+    "thirdPartyCover": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_calc_reviews_customer_review_sections",
+  "info": {
+    "displayName": "reviewsCustomerReviewSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "place": {
+      "type": "string",
+      "required": true
+    },
+    "review": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

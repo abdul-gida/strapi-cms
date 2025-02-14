@@ -1,0 +1,40 @@
+{
+    "collectionName": "components_calc_faq_sections",
+    "info": {
+      "displayName": "faqSection",
+      "description": ""
+    },
+    "options": {},
+    "attributes": {
+      "title": {
+        "type": "string",
+        "required": true
+      },
+      "desc": {
+        "type": "text",
+        "required": true
+      },
+      "faqs": {
+        "displayName": "FaqSectionFaq",
+        "type": "component",
+        "repeatable": true,
+        "component": "calc.faq-section-faq",
+        "required": true
+      },
+      "moreQuestions": {
+        "displayName": "FaqSectionMoreQuestions",
+        "type": "component",
+        "repeatable": false,
+        "component": "calc.faq-section-more-questions"
+      },
+      "type": {
+        "type": "enumeration",
+        "enum": [
+          "calc-faq-section"
+        ],
+        "default": "calc-faq-section",
+        "required": true
+      }
+    }
+  }
+  

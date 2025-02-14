@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_finance_title_with_links",
+  "info": {
+    "displayName": "titleWithLinks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "title-with-links"
+      ],
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title-with-links.links"
+    }
+  }
+}

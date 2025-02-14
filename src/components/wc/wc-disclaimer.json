@@ -1,18 +1,17 @@
 {
   "collectionName": "components_wc_wc_disclaimers",
   "info": {
-    "displayName": "wc-disclaimer"
+    "displayName": "wc-disclaimer",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "top": {
-      "displayName": "top",
-      "type": "component",
-      "repeatable": false,
-      "component": "wc.top"
-    },
     "bottom": {
       "type": "text"
+    },
+    "top": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

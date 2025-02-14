@@ -1,18 +1,21 @@
 {
-  "collectionName": "components_csr_our_impacts",
-  "info": {
-    "displayName": "ourImpact"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "text"
-    },
-    "description": {
-      "type": "text"
-    },
-    "image": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_csr_our_impacts",
+	"info": {
+		"displayName": "ourImpact"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "text",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"image": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

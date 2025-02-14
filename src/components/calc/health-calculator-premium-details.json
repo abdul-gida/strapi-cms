@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_calc_health_calculator_premium_details",
+  "info": {
+    "displayName": "WhatIsHealthInsurance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string",
+      "required": true
+    },
+    "titleEnd": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-what-is-health-insurance"
+      ],
+      "default": "calc-what-is-health-insurance",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_calc_factors_effecting_sections",
+  "info": {
+    "displayName": "FactorCards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "factors": {
+      "displayName": "factors",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-factors-effecting-section.factors"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-motor-factor-cards-with-number",
+        "calc-motor-factor-cards-without-number"
+      ],
+      "default": "calc-motor-factor-cards-with-number",
+      "required": true
+    }
+  }
+}

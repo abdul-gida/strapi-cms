@@ -1,19 +1,22 @@
 {
-  "collectionName": "components_shared_cards",
-  "info": {
-    "displayName": "cards",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "image": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_shared_cards",
+	"info": {
+		"displayName": "cards",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"image": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

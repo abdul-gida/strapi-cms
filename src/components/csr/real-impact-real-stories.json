@@ -1,18 +1,19 @@
 {
-  "collectionName": "components_csr_real_impact_real_stories",
-  "info": {
-    "displayName": "realImpactRealStories"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "stories": {
-      "displayName": "stories",
-      "type": "component",
-      "repeatable": true,
-      "component": "csr.stories"
-    }
-  }
+	"collectionName": "components_csr_real_impact_real_stories",
+	"info": {
+		"displayName": "realImpactRealStories"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"stories": {
+			"displayName": "stories",
+			"type": "component",
+			"repeatable": true,
+			"component": "csr.stories",
+			"required": true
+		}
+	}
 }

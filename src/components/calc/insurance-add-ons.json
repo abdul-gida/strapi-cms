@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_calc_insurance_add_ons",
+  "info": {
+    "displayName": "insuranceAddOns"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "rightIcon": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-insurance-add-ons.cards",
+      "required": true
+    },
+    "gridCount": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-insurance-add-ons"
+      ],
+      "default": "calc-insurance-add-ons",
+      "required": true
+    }
+  }
+}

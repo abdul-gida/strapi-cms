@@ -1,21 +1,25 @@
 {
-  "collectionName": "components_samvaad_successes",
-  "info": {
-    "displayName": "success"
-  },
-  "options": {},
-  "attributes": {
-    "primaryButtonText": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "copyPrefix": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_samvaad_successes",
+	"info": {
+		"displayName": "success"
+	},
+	"options": {},
+	"attributes": {
+		"primaryButtonText": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"copyPrefix": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

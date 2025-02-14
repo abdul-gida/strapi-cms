@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_calc_car_insurance_rates_headers",
+  "info": {
+    "displayName": "headers"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

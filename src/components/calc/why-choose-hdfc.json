@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_calc_why_choose_hdfcs",
+  "info": {
+    "displayName": "WhyChooseHdfc"
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string",
+      "required": true
+    },
+    "titleEnd": {
+      "type": "string",
+      "required": true
+    },
+    "stepperLogo": {
+      "displayName": "stepperData",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-why-choose-hdfc.stepper-data",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-why-choose-hdfc"
+      ],
+      "default": "calc-why-choose-hdfc",
+      "required": true
+    }
+  }
+}

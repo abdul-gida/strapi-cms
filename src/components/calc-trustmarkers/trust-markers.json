@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_calc_trustmarkers_trust_markers",
+  "info": {
+    "displayName": "trustMarkers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

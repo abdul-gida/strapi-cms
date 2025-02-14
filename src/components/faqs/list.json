@@ -1,15 +1,17 @@
 {
-  "collectionName": "components_faqs_lists",
-  "info": {
-    "displayName": "list"
-  },
-  "options": {},
-  "attributes": {
-    "icon": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_faqs_lists",
+	"info": {
+		"displayName": "list"
+	},
+	"options": {},
+	"attributes": {
+		"icon": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

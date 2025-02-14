@@ -1,67 +1,67 @@
 {
-  "kind": "singleType",
-  "collectionName": "samvaads",
-  "info": {
-    "singularName": "samvaad",
-    "pluralName": "samvaads",
-    "displayName": "samvaad",
-    "description": ""
-  },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "banner": {
-      "displayName": "banner",
-      "type": "component",
-      "repeatable": false,
-      "component": "samvaad.banner"
-    },
-    "content": {
-      "displayName": "content",
-      "type": "component",
-      "repeatable": false,
-      "component": "samvaad.content"
-    },
-    "addressCard": {
-      "displayName": "addressCard",
-      "type": "component",
-      "repeatable": false,
-      "component": "samvaad.address-card"
-    },
-    "endSection": {
-      "displayName": "endSection",
-      "type": "component",
-      "repeatable": false,
-      "component": "samvaad.end-section"
-    },
-    "buttonLabel": {
-      "type": "string"
-    },
-    "calendar": {
-      "displayName": "calendar",
-      "type": "component",
-      "repeatable": false,
-      "component": "samvaad.calendar"
-    },
-    "form": {
-      "displayName": "form",
-      "type": "component",
-      "repeatable": false,
-      "component": "samvaad.form"
-    },
-    "error": {
-      "displayName": "error",
-      "type": "component",
-      "repeatable": false,
-      "component": "samvaad.error"
-    },
-    "success": {
-      "displayName": "success",
-      "type": "component",
-      "repeatable": false,
-      "component": "samvaad.success"
-    }
-  }
+	"kind": "singleType",
+	"collectionName": "samvaads",
+	"info": {
+		"singularName": "samvaad",
+		"pluralName": "samvaads",
+		"displayName": "samvaad",
+		"description": ""
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"banner": {
+			"displayName": "banner",
+			"type": "component",
+			"repeatable": false,
+			"component": "samvaad.banner"
+		},
+		"content": {
+			"displayName": "content",
+			"type": "component",
+			"repeatable": false,
+			"component": "samvaad.content"
+		},
+		"addressCard": {
+			"displayName": "addressCard",
+			"type": "component",
+			"repeatable": false,
+			"component": "samvaad.address-card"
+		},
+		"endSection": {
+			"displayName": "endSection",
+			"type": "component",
+			"repeatable": false,
+			"component": "samvaad.end-section"
+		},
+		"buttonLabel": {
+			"type": "string"
+		},
+		"calendar": {
+			"displayName": "calendar",
+			"type": "component",
+			"repeatable": false,
+			"component": "samvaad.calendar"
+		},
+		"form": {
+			"displayName": "form",
+			"type": "component",
+			"repeatable": false,
+			"component": "samvaad.form"
+		},
+		"error": {
+			"displayName": "error",
+			"type": "component",
+			"repeatable": false,
+			"component": "samvaad.error"
+		},
+		"success": {
+			"displayName": "success",
+			"type": "component",
+			"repeatable": false,
+			"component": "samvaad.success"
+		}
+	}
 }

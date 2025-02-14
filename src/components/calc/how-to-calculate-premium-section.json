@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_calc_how_to_calculate_premium_sections",
+  "info": {
+    "displayName": "HowToCalculatePremiumSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "steps": {
+      "displayName": "steps",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-how-to-calculate-premium-section.steps"
+    },
+    "description": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-how-to-calculate-premium-section"
+      ],
+      "default": "calc-how-to-calculate-premium-section",
+      "required": true
+    }
+  }
+}

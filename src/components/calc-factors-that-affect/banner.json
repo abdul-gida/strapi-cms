@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_calc_factors_that_affect_banners",
+  "info": {
+    "displayName": "banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "mobileImage": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

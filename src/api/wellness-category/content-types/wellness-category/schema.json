@@ -19,7 +19,8 @@
     "banner": {
       "type": "component",
       "repeatable": false,
-      "component": "wc.wc-banner"
+      "component": "wc.wc-banner",
+      "required": true
     },
     "wellBeing": {
       "type": "component",
@@ -39,7 +40,8 @@
     "bottomCard": {
       "type": "component",
       "repeatable": false,
-      "component": "wc.wc-bottom-card"
+      "component": "wc.wc-bottom-card",
+      "required": true
     },
     "disclaimer": {
       "displayName": "wc-disclaimer",

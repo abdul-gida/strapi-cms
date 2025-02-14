@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_calc_types_of_car_insurance_points",
+  "info": {
+    "displayName": "points"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

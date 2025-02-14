@@ -1,7 +1,8 @@
 {
   "collectionName": "components_wc_wc_banners",
   "info": {
-    "displayName": "wc-banner"
+    "displayName": "wc-banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,16 +10,20 @@
       "displayName": "title",
       "type": "component",
       "repeatable": false,
-      "component": "wc.title"
+      "component": "wc.title",
+      "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "mobileImage": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_calc_what_is_bike_insurances",
+  "info": {
+    "displayName": "whatIsBikeInsurance"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-what-is-bike-insurance"
+      ],
+      "default": "calc-what-is-bike-insurance",
+      "required": true
+    }
+  }
+}

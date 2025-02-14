@@ -1,18 +1,21 @@
 {
-  "collectionName": "components_contact_us_cars",
-  "info": {
-    "displayName": "cars"
-  },
-  "options": {},
-  "attributes": {
-    "icon": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_contact_us_cars",
+	"info": {
+		"displayName": "cars"
+	},
+	"options": {},
+	"attributes": {
+		"icon": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

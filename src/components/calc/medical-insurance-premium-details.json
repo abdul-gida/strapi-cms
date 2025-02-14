@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_calc_medical_insurance_premium_details",
+  "info": {
+    "displayName": "HowToCalculate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleStart": {
+      "type": "string"
+    },
+    "titleEnd": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "premiumCtaLabel": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-how-to-calculate"
+      ],
+      "default": "calc-how-to-calculate",
+      "required": true
+    }
+  }
+}

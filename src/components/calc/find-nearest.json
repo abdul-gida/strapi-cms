@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_calc_find_nearests",
+  "info": {
+    "displayName": "findNearest",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "list": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-find-nearest.list",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-find-nearest"
+      ],
+      "required": true,
+      "default": "calc-find-nearest"
+    }
+  }
+}

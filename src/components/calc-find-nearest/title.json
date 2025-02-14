@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_calc_find_nearest_titles",
+  "info": {
+    "displayName": "title"
+  },
+  "options": {},
+  "attributes": {
+    "top": {
+      "type": "string"
+    },
+    "bottom": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_calc_why_is_it_importants",
+  "info": {
+    "displayName": "whyIsItImportant"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-why-is-it-important.cards",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-why-is-it-important"
+      ],
+      "required": true,
+      "default": "calc-why-is-it-important"
+    }
+  }
+}

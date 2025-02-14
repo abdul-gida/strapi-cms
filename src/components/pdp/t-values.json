@@ -6,13 +6,13 @@
   },
   "options": {},
   "attributes": {
-    "val": {
-      "type": "string",
-      "required": true
-    },
     "isLeft": {
       "type": "boolean",
       "default": false,
+      "required": true
+    },
+    "val": {
+      "type": "richtext",
       "required": true
     }
   }

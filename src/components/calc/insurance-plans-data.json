@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_calc_insurance_plans_data",
+  "info": {
+    "displayName": "InsurancePlanCarousel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "backgroundUrl": {
+      "type": "string"
+    },
+    "plansData": {
+      "displayName": "ipd-plansData",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc.ipd-plans-data"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-insurance-plan-carousel"
+      ],
+      "default": "calc-insurance-plan-carousel",
+      "required": true
+    }
+  }
+}

@@ -1,15 +1,16 @@
 {
-  "collectionName": "components_media_center_top_banners",
-  "info": {
-    "displayName": "topBanner"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_media_center_top_banners",
+	"info": {
+		"displayName": "topBanner"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "string"
+		}
+	}
 }

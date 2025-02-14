@@ -1,34 +1,42 @@
 {
-  "collectionName": "components_contact_us_whatsapp_cards",
-  "info": {
-    "displayName": "whatsappCard",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "icon": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "buttonText": {
-      "type": "string"
-    },
-    "image": {
-      "type": "string"
-    },
-    "btnIcon": {
-      "type": "string"
-    },
-    "contactNumber": {
-      "type": "string"
-    },
-    "message": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_contact_us_whatsapp_cards",
+	"info": {
+		"displayName": "whatsappCard",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"icon": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "string",
+			"required": true
+		},
+		"buttonText": {
+			"type": "string",
+			"required": true
+		},
+		"image": {
+			"type": "string",
+			"required": true
+		},
+		"btnIcon": {
+			"type": "string",
+			"required": true
+		},
+		"contactNumber": {
+			"type": "string",
+			"required": true
+		},
+		"message": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

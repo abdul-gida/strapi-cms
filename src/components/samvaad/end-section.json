@@ -1,18 +1,21 @@
 {
-  "collectionName": "components_samvaad_end_sections",
-  "info": {
-    "displayName": "endSection"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "salute": {
-      "type": "string"
-    },
-    "name": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_samvaad_end_sections",
+	"info": {
+		"displayName": "endSection"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"salute": {
+			"type": "string",
+			"required": true
+		},
+		"name": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

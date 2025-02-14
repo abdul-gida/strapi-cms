@@ -10,20 +10,28 @@
       "type": "string"
     },
     "desc": {
-      "type": "richtext"
-    },
-    "tableData": {
-      "type": "component",
-      "repeatable": true,
-      "component": "pdp.compare-policy-section"
+      "type": "richtext",
+      "required": true
     },
     "type": {
       "type": "enumeration",
       "enum": [
-        "pdp-bike-insurance-premium"
+        "pdp-title-with-table"
       ],
-      "default": "pdp-bike-insurance-premium",
+      "default": "pdp-title-with-table",
       "required": true
+    },
+    "table": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pdp.pdp-table",
+      "required": true
+    },
+    "cta": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
     }
   }
 }

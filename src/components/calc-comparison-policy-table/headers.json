@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_calc_comparison_policy_table_headers",
+  "info": {
+    "displayName": "headers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

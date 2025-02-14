@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_calc_app_carousels",
+  "info": {
+    "displayName": "appCarousel"
+  },
+  "options": {},
+  "attributes": {
+    "appLogo": {
+      "type": "string",
+      "required": true
+    },
+    "titleStart": {
+      "type": "string",
+      "required": true
+    },
+    "highlight": {
+      "type": "string",
+      "required": true
+    },
+    "titleEnd": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "text",
+      "required": true
+    },
+    "banners": {
+      "displayName": "banners",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-app-carousel.banners",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-app-carousel"
+      ],
+      "default": "calc-app-carousel",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_calc_buy_renew_sections",
+  "info": {
+    "displayName": "buyRenewSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-buy-renew-section.cards",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-buy-renew-section"
+      ],
+      "default": "calc-buy-renew-section",
+      "required": true
+    }
+  }
+}

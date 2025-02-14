@@ -25,6 +25,12 @@
       "required": true,
       "component": "dashboard.actions"
     },
+    "actionsClevertapEvent": {
+      "displayName": "ClevertapButtonEvent",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.clevertap-button-event"
+    },
     "images": {
       "displayName": "images",
       "type": "component",

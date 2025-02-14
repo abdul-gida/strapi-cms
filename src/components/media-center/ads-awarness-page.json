@@ -1,18 +1,21 @@
 {
-  "collectionName": "components_media_center_ads_awarness_pages",
-  "info": {
-    "displayName": "adsAwarnessPage"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "image": {
-      "type": "string"
-    },
-    "link": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_media_center_ads_awarness_pages",
+	"info": {
+		"displayName": "adsAwarnessPage"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"image": {
+			"type": "string",
+			"required": true
+		},
+		"link": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

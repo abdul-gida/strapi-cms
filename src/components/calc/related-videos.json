@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_calc_related_videos",
+  "info": {
+    "displayName": "RelatedVideos",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "videos": {
+      "displayName": "videos",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-related-videos.videos",
+      "max": 2
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-related-videos"
+      ],
+      "default": "calc-related-videos",
+      "required": true
+    }
+  }
+}

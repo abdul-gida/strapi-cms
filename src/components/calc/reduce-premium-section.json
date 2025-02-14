@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_calc_reduce_premium_sections",
+  "info": {
+    "displayName": "ReduceCarInsuranceSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-reduce-premium-section.cards"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-reduce-car-insurance-section"
+      ],
+      "default": "calc-reduce-car-insurance-section",
+      "required": true
+    }
+  }
+}

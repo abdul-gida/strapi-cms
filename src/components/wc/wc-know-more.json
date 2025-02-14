@@ -1,24 +1,26 @@
 {
   "collectionName": "components_wc_wc_know_mores",
   "info": {
-    "displayName": "wc-knowMore"
+    "displayName": "wc-knowMore",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "type": "string"
-    },
-    "title": {
-      "displayName": "title-list",
-      "type": "component",
-      "repeatable": true,
-      "component": "wc.title-list"
+      "type": "string",
+      "required": true
     },
     "cta": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

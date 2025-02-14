@@ -1,63 +1,71 @@
 {
-  "kind": "singleType",
-  "collectionName": "travels",
-  "info": {
-    "singularName": "travel",
-    "pluralName": "travels",
-    "displayName": "Travel",
-    "description": ""
-  },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "banner": {
-      "displayName": "banner",
-      "type": "component",
-      "repeatable": true,
-      "component": "travel.banner"
-    },
-    "simplify": {
-      "displayName": "simplify",
-      "type": "component",
-      "repeatable": false,
-      "component": "travel.simplify"
-    },
-    "travelEssentials": {
-      "displayName": "travelEssentials",
-      "type": "component",
-      "repeatable": false,
-      "component": "travel.travel-essentials"
-    },
-    "bucketList": {
-      "displayName": "bucketList",
-      "type": "component",
-      "repeatable": false,
-      "component": "travel.bucket-list"
-    },
-    "knowMoreCard1": {
-      "displayName": "knowMoreCard1",
-      "type": "component",
-      "repeatable": false,
-      "component": "travel.know-more-card1"
-    },
-    "crafting": {
-      "displayName": "crafting",
-      "type": "component",
-      "repeatable": false,
-      "component": "travel.crafting"
-    },
-    "knowMoreCard2": {
-      "type": "component",
-      "repeatable": false,
-      "component": "travel.know-more-card1"
-    },
-    "dreamDestinations": {
-      "displayName": "dreamDestinations",
-      "type": "component",
-      "repeatable": false,
-      "component": "travel.dream-destinations"
-    }
-  }
+	"kind": "singleType",
+	"collectionName": "travels",
+	"info": {
+		"singularName": "travel",
+		"pluralName": "travels",
+		"displayName": "Travel",
+		"description": ""
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"banner": {
+			"displayName": "banner",
+			"type": "component",
+			"repeatable": true,
+			"component": "travel.banner",
+			"required": true
+		},
+		"simplify": {
+			"displayName": "simplify",
+			"type": "component",
+			"repeatable": false,
+			"component": "travel.simplify",
+			"required": true
+		},
+		"travelEssentials": {
+			"displayName": "travelEssentials",
+			"type": "component",
+			"repeatable": false,
+			"component": "travel.travel-essentials",
+			"required": true
+		},
+		"bucketList": {
+			"displayName": "bucketList",
+			"type": "component",
+			"repeatable": false,
+			"component": "travel.bucket-list",
+			"required": true
+		},
+		"knowMoreCard1": {
+			"displayName": "knowMoreCard1",
+			"type": "component",
+			"repeatable": false,
+			"component": "travel.know-more-card1",
+			"required": true
+		},
+		"crafting": {
+			"displayName": "crafting",
+			"type": "component",
+			"repeatable": false,
+			"component": "travel.crafting",
+			"required": true
+		},
+		"knowMoreCard2": {
+			"type": "component",
+			"repeatable": false,
+			"component": "travel.know-more-card1",
+			"required": true
+		},
+		"dreamDestinations": {
+			"displayName": "dreamDestinations",
+			"type": "component",
+			"repeatable": false,
+			"component": "travel.dream-destinations",
+			"required": true
+		}
+	}
 }

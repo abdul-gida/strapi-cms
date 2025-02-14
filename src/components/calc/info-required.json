@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_calc_info_requireds",
+  "info": {
+    "displayName": "infoRequired",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pointsTitle": {
+      "type": "text"
+    },
+    "points": {
+      "type": "richtext"
+    }
+  }
+}

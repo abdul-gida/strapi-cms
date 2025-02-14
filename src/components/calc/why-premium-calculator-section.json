@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_calc_why_premium_calculator_sections",
+  "info": {
+    "displayName": "whyPremiumCalculatorSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImageUrl": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc.cards"
+    },
+    "infoRequired": {
+      "displayName": "infoRequired",
+      "type": "component",
+      "repeatable": false,
+      "component": "calc.info-required"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-why-premium-calculator-section"
+      ],
+      "required": true,
+      "default": "calc-why-premium-calculator-section"
+    },
+    "bulletPoints": {
+      "type": "richtext"
+    }
+  }
+}

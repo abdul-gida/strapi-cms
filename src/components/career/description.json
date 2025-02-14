@@ -1,13 +1,14 @@
 {
-  "collectionName": "components_career_descriptions",
-  "info": {
-    "displayName": "description",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "text": {
-      "type": "text"
-    }
-  }
+	"collectionName": "components_career_descriptions",
+	"info": {
+		"displayName": "description",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"text": {
+			"type": "text",
+			"required": true
+		}
+	}
 }

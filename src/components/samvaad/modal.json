@@ -1,24 +1,29 @@
 {
-  "collectionName": "components_samvaad_modals",
-  "info": {
-    "displayName": "modal"
-  },
-  "options": {},
-  "attributes": {
-    "description": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "emailLabel": {
-      "type": "string"
-    },
-    "skipLabel": {
-      "type": "string"
-    },
-    "homeLabel": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_samvaad_modals",
+	"info": {
+		"displayName": "modal"
+	},
+	"options": {},
+	"attributes": {
+		"description": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"emailLabel": {
+			"type": "string",
+			"required": true
+		},
+		"skipLabel": {
+			"type": "string",
+			"required": true
+		},
+		"homeLabel": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

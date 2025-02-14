@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_calc_factors_effecting_section_factors",
+  "info": {
+    "displayName": "factors"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

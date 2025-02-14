@@ -1,21 +1,25 @@
 {
-  "collectionName": "components_media_center_tabs_tabs",
-  "info": {
-    "displayName": "tabs"
-  },
-  "options": {},
-  "attributes": {
-    "tabId": {
-      "type": "integer"
-    },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "icon": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_media_center_tabs_tabs",
+	"info": {
+		"displayName": "tabs"
+	},
+	"options": {},
+	"attributes": {
+		"tabId": {
+			"type": "integer",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"icon": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

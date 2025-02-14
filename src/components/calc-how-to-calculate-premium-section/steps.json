@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_calc_how_to_calculate_premium_section_steps",
+  "info": {
+    "displayName": "steps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "step": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

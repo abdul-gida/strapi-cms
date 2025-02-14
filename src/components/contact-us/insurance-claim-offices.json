@@ -1,19 +1,21 @@
 {
-  "collectionName": "components_contact_us_insurance_claim_offices",
-  "info": {
-    "displayName": "insuranceClaimOffices",
-    "icon": "arrowUp"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "travelInsuranceClaimOffice": {
-      "displayName": "travelInsuranceClaimOffice",
-      "type": "component",
-      "repeatable": false,
-      "component": "contact-us.travel-insurance-claim-office"
-    }
-  }
+	"collectionName": "components_contact_us_insurance_claim_offices",
+	"info": {
+		"displayName": "insuranceClaimOffices",
+		"icon": "arrowUp"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"travelInsuranceClaimOffice": {
+			"displayName": "travelInsuranceClaimOffice",
+			"type": "component",
+			"repeatable": false,
+			"component": "contact-us.travel-insurance-claim-office",
+			"required": true
+		}
+	}
 }

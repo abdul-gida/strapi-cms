@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_calc_car_insurance_premium_detail_card_data",
+  "info": {
+    "displayName": "premiumDetailCardData"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

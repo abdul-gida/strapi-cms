@@ -1,15 +1,17 @@
 {
-  "collectionName": "components_career_title_careers",
-  "info": {
-    "displayName": "titleCareer"
-  },
-  "options": {},
-  "attributes": {
-    "left": {
-      "type": "string"
-    },
-    "right": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_career_title_careers",
+	"info": {
+		"displayName": "titleCareer"
+	},
+	"options": {},
+	"attributes": {
+		"left": {
+			"type": "string",
+			"required": true
+		},
+		"right": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

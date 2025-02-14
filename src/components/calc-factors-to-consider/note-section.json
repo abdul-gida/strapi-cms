@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_calc_factors_to_consider_note_sections",
+  "info": {
+    "displayName": "noteSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "cta": {
+      "type": "string"
+    }
+  }
+}

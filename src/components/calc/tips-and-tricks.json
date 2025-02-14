@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_calc_tips_and_tricks",
+  "info": {
+    "displayName": "tipsAndTricks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-tips-and-tricks.cards"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-tips-and-tricks"
+      ],
+      "default": "calc-tips-and-tricks",
+      "required": true
+    },
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

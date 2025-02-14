@@ -4,7 +4,8 @@
   "info": {
     "singularName": "about-us-tab",
     "pluralName": "about-us-tabs",
-    "displayName": "AboutUsTabs"
+    "displayName": "AboutUsTabs",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,13 +13,15 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "tabs": {
       "displayName": "tabs",
       "type": "component",
       "repeatable": true,
-      "component": "about-us-tabs.tabs"
+      "component": "about-us-tabs.tabs",
+      "required": true
     }
   }
 }

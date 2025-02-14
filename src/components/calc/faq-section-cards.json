@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_calc_faq_section_cards",
+    "info": {
+      "displayName": "FaqSectionCards",
+      "description": ""
+    },
+    "options": {},
+    "attributes": {
+      "title": {
+        "type": "string",
+        "required": true
+      },
+      "desc": {
+        "type": "text",
+        "required": true
+      }
+    }
+  }
+  

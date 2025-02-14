@@ -1,18 +1,22 @@
 {
   "collectionName": "components_finance_pdfs",
   "info": {
-    "displayName": "pdfs"
+    "displayName": "pdfs",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "icon": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
