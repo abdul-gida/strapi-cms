@@ -14,7 +14,7 @@
     },
     "headerLabel": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "labelCont": {
       "displayName": "labelCont",
