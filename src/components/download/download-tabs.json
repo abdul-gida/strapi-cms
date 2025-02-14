@@ -26,6 +26,8 @@
     "slug": {
       "type": "enumeration",
       "enum": [
+        "brochure",
+        "cis",
         "claim-forms",
         "others",
         "proposal-forms",
