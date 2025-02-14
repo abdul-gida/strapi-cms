@@ -1,28 +1,29 @@
 {
-    "collectionName": "components_calc_reviews_customer_review_sections",
-    "info": {
-      "displayName": "reviewsCustomerReviewSection"
+  "collectionName": "components_calc_reviews_customer_review_sections",
+  "info": {
+    "displayName": "reviewsCustomerReviewSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string"
     },
-    "options": {},
-    "attributes": {
-      "image": {
-        "type": "string"
-      },
-      "name": {
-        "type": "string"
-      },
-      "stars": {
-        "type": "string"
-      },
-      "review": {
-        "type": "string"
-      },
-      "description": {
-        "type": "string"
-      },
-      "date": {
-        "type": "string"
-      }
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "place": {
+      "type": "string",
+      "required": true
+    },
+    "review": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
     }
   }
-  
+}
