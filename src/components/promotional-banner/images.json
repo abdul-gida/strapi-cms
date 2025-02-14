@@ -1,18 +1,22 @@
 {
   "collectionName": "components_promotional_banner_images",
   "info": {
-    "displayName": "images"
+    "displayName": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "alt": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

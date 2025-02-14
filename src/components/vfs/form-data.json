@@ -1,102 +1,131 @@
 {
-  "collectionName": "components_vfs_form_data",
-  "info": {
-    "displayName": "formData",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "receiptNoLabel": {
-      "type": "string"
-    },
-    "receiptNoPlaceHolder": {
-      "type": "string"
-    },
-    "receiptNoTooltipText": {
-      "type": "text"
-    },
-    "salutationLabel": {
-      "type": "string"
-    },
-    "salutationList": {
-      "displayName": "salutationList",
-      "type": "component",
-      "repeatable": true,
-      "component": "vfs.salutation-list"
-    },
-    "salutationPlaceHolder": {
-      "type": "string"
-    },
-    "nameLabel": {
-      "type": "string"
-    },
-    "namePlaceHolder": {
-      "type": "string"
-    },
-    "mobileNumberLabel": {
-      "type": "string"
-    },
-    "mobileNumberPlaceHolder": {
-      "type": "string"
-    },
-    "emailLabel": {
-      "type": "string"
-    },
-    "emailPlaceHolder": {
-      "type": "string"
-    },
-    "dateOfBirthLabel": {
-      "type": "string"
-    },
-    "dateOfBirthPlaceHolder": {
-      "type": "string"
-    },
-    "receiptDateLabel": {
-      "type": "string"
-    },
-    "receiptDatePlaceHolder": {
-      "type": "string"
-    },
-    "receiptDateTooltipText": {
-      "type": "text"
-    },
-    "passportNumberLabel": {
-      "type": "string"
-    },
-    "passportNumberPlaceHolder": {
-      "type": "string"
-    },
-    "visaApplicationLocationLabel": {
-      "type": "string"
-    },
-    "visaApplicationLocationPlaceHolder": {
-      "type": "string"
-    },
-    "visaApplicationLocationList": {
-      "type": "component",
-      "repeatable": true,
-      "component": "vfs.salutation-list"
-    },
-    "disclaimer": {
-      "type": "text"
-    },
-    "submitButtonText": {
-      "type": "string"
-    },
-    "successToastMessage": {
-      "type": "string"
-    },
-    "errorToastMessage": {
-      "type": "string"
-    },
-    "headerTextColorBlack": {
-      "type": "boolean"
-    }
-  }
+	"collectionName": "components_vfs_form_data",
+	"info": {
+		"displayName": "formData",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"receiptNoLabel": {
+			"type": "string",
+			"required": true
+		},
+		"receiptNoPlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"receiptNoTooltipText": {
+			"type": "text",
+			"required": true
+		},
+		"salutationLabel": {
+			"type": "string",
+			"required": true
+		},
+		"salutationList": {
+			"displayName": "salutationList",
+			"type": "component",
+			"repeatable": true,
+			"component": "vfs.salutation-list",
+			"required": true
+		},
+		"salutationPlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"nameLabel": {
+			"type": "string",
+			"required": true
+		},
+		"namePlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"mobileNumberLabel": {
+			"type": "string",
+			"required": true
+		},
+		"mobileNumberPlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"emailLabel": {
+			"type": "string",
+			"required": true
+		},
+		"emailPlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"dateOfBirthLabel": {
+			"type": "string",
+			"required": true
+		},
+		"dateOfBirthPlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"receiptDateLabel": {
+			"type": "string",
+			"required": true
+		},
+		"receiptDatePlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"receiptDateTooltipText": {
+			"type": "text",
+			"required": true
+		},
+		"passportNumberLabel": {
+			"type": "string",
+			"required": true
+		},
+		"passportNumberPlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"visaApplicationLocationLabel": {
+			"type": "string",
+			"required": true
+		},
+		"visaApplicationLocationPlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"visaApplicationLocationList": {
+			"type": "component",
+			"repeatable": true,
+			"component": "vfs.salutation-list",
+			"required": true
+		},
+		"disclaimer": {
+			"type": "text",
+			"required": true
+		},
+		"submitButtonText": {
+			"type": "string",
+			"required": true
+		},
+		"successToastMessage": {
+			"type": "string",
+			"required": true
+		},
+		"errorToastMessage": {
+			"type": "string",
+			"required": true
+		},
+		"headerTextColorBlack": {
+			"type": "boolean",
+			"required": true
+		}
+	}
 }

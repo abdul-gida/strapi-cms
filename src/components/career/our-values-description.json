@@ -1,13 +1,14 @@
 {
-  "collectionName": "components_career_our_values_descriptions",
-  "info": {
-    "displayName": "ourValuesDescription",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "text": {
-      "type": "text"
-    }
-  }
+	"collectionName": "components_career_our_values_descriptions",
+	"info": {
+		"displayName": "ourValuesDescription",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"text": {
+			"type": "text",
+			"required": true
+		}
+	}
 }

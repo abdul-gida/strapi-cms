@@ -1,21 +1,25 @@
 {
-  "collectionName": "components_travel_know_more_card1s",
-  "info": {
-    "displayName": "knowMoreCard1"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "cta": {
-      "type": "string"
-    },
-    "image": {
-      "type": "string"
-    },
-    "link": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_travel_know_more_card1s",
+	"info": {
+		"displayName": "knowMoreCard1"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"cta": {
+			"type": "string",
+			"required": true
+		},
+		"image": {
+			"type": "string",
+			"required": true
+		},
+		"link": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

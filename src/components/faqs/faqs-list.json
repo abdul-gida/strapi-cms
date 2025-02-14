@@ -1,15 +1,17 @@
 {
-  "collectionName": "components_faqs_faqs_lists",
-  "info": {
-    "displayName": "faqsList"
-  },
-  "options": {},
-  "attributes": {
-    "question": {
-      "type": "string"
-    },
-    "answer": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_faqs_faqs_lists",
+	"info": {
+		"displayName": "faqsList"
+	},
+	"options": {},
+	"attributes": {
+		"question": {
+			"type": "string",
+			"required": true
+		},
+		"answer": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

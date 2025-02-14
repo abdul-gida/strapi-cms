@@ -1,7 +1,8 @@
 {
   "collectionName": "components_claim_steps_info_conts",
   "info": {
-    "displayName": "infoCont"
+    "displayName": "infoCont",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,7 +10,7 @@
       "type": "string"
     },
     "subHeading": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

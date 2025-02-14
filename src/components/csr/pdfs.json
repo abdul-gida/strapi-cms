@@ -1,18 +1,21 @@
 {
-  "collectionName": "components_csr_pdfs",
-  "info": {
-    "displayName": "pdfs"
-  },
-  "options": {},
-  "attributes": {
-    "icon": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "link": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_csr_pdfs",
+	"info": {
+		"displayName": "pdfs"
+	},
+	"options": {},
+	"attributes": {
+		"icon": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"link": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

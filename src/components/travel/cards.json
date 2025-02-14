@@ -1,15 +1,17 @@
 {
-  "collectionName": "components_travel_cards",
-  "info": {
-    "displayName": "cards"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "image": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_travel_cards",
+	"info": {
+		"displayName": "cards"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"image": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

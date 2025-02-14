@@ -1,27 +1,32 @@
 {
-  "collectionName": "components_faqs_banners",
-  "info": {
-    "displayName": "banner"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "searchIcon": {
-      "type": "string"
-    },
-    "seachPlaceholder": {
-      "type": "string"
-    },
-    "tryAsking": {
-      "displayName": "tryAsking",
-      "type": "component",
-      "repeatable": false,
-      "component": "faqs.try-asking"
-    }
-  }
+	"collectionName": "components_faqs_banners",
+	"info": {
+		"displayName": "banner"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "string",
+			"required": true
+		},
+		"searchIcon": {
+			"type": "string",
+			"required": true
+		},
+		"seachPlaceholder": {
+			"type": "string",
+			"required": true
+		},
+		"tryAsking": {
+			"displayName": "tryAsking",
+			"type": "component",
+			"repeatable": false,
+			"component": "faqs.try-asking",
+			"required": true
+		}
+	}
 }

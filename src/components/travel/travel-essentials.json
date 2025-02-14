@@ -1,18 +1,20 @@
 {
-  "collectionName": "components_travel_travel_essentials",
-  "info": {
-    "displayName": "travelEssentials"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "cards": {
-      "displayName": "cards",
-      "type": "component",
-      "repeatable": true,
-      "component": "travel.cards"
-    }
-  }
+	"collectionName": "components_travel_travel_essentials",
+	"info": {
+		"displayName": "travelEssentials"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"cards": {
+			"displayName": "cards",
+			"type": "component",
+			"repeatable": true,
+			"component": "travel.cards",
+			"required": true
+		}
+	}
 }

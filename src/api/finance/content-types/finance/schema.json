@@ -13,18 +13,23 @@
 	"pluginOptions": {},
 	"attributes": {
 		"bannerTitle": {
-			"type": "string"
+			"type": "string",
+			"required": true
 		},
 		"breadCrumb": {
 			"displayName": "breadCrumbs",
 			"type": "component",
 			"repeatable": true,
-			"component": "finance.bread-crumbs"
+			"component": "finance.bread-crumbs",
+			"required": true
 		},
 		"title": {
-			"type": "string"
+			"type": "string",
+			"required": true
 		},
 		"tabs": {
+			"required": true,
+			"displayName": "tabs",
 			"type": "dynamiczone",
 			"components": [
 				"finance.annual-reports",

@@ -1,33 +1,37 @@
 {
-  "kind": "singleType",
-  "collectionName": "about_us_awards",
-  "info": {
-    "singularName": "about-us-award",
-    "pluralName": "about-us-awards",
-    "displayName": "AboutUs-award",
-    "description": ""
-  },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "breadCrumb": {
-      "type": "component",
-      "repeatable": true,
-      "component": "about-us.bread-crumb"
-    },
-    "flower": {
-      "type": "string"
-    },
-    "awards": {
-      "displayName": "awards",
-      "type": "component",
-      "repeatable": true,
-      "component": "about-us.awards"
-    }
-  }
+	"kind": "singleType",
+	"collectionName": "about_us_awards",
+	"info": {
+		"singularName": "about-us-award",
+		"pluralName": "about-us-awards",
+		"displayName": "AboutUs-award",
+		"description": ""
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"breadCrumb": {
+			"type": "component",
+			"repeatable": true,
+			"component": "about-us.bread-crumb",
+			"required": true
+		},
+		"flower": {
+			"type": "string",
+			"required": true
+		},
+		"awards": {
+			"displayName": "awards",
+			"type": "component",
+			"repeatable": true,
+			"component": "about-us.awards",
+			"required": true
+		}
+	}
 }

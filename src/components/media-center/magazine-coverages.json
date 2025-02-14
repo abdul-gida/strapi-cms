@@ -1,28 +1,33 @@
 {
-  "collectionName": "components_media_center_magazine_coverages",
-  "info": {
-    "displayName": "magazineCoverages"
-  },
-  "options": {},
-  "attributes": {
-    "breadCrumb": {
-      "type": "component",
-      "repeatable": true,
-      "component": "media-center.bread-crumb"
-    },
-    "title": {
-      "type": "string"
-    },
-    "readFullStory": {
-      "type": "string"
-    },
-    "filterBy": {
-      "type": "string"
-    },
-    "years": {
-      "type": "component",
-      "repeatable": true,
-      "component": "media-center.years"
-    }
-  }
+	"collectionName": "components_media_center_magazine_coverages",
+	"info": {
+		"displayName": "magazineCoverages"
+	},
+	"options": {},
+	"attributes": {
+		"breadCrumb": {
+			"type": "component",
+			"repeatable": true,
+			"component": "media-center.bread-crumb",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"readFullStory": {
+			"type": "string",
+			"required": true
+		},
+		"filterBy": {
+			"type": "string",
+			"required": true
+		},
+		"years": {
+			"type": "component",
+			"repeatable": true,
+			"component": "media-center.years",
+			"required": true
+		}
+	}
 }

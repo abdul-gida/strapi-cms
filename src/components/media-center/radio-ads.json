@@ -1,18 +1,20 @@
 {
-  "collectionName": "components_media_center_radio_ads",
-  "info": {
-    "displayName": "radioAds",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "ads": {
-      "type": "component",
-      "repeatable": true,
-      "component": "media-center.ads-radio-ads"
-    }
-  }
+	"collectionName": "components_media_center_radio_ads",
+	"info": {
+		"displayName": "radioAds",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"ads": {
+			"type": "component",
+			"repeatable": true,
+			"component": "media-center.ads-radio-ads",
+			"required": true
+		}
+	}
 }

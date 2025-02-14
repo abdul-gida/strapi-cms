@@ -1,12 +1,13 @@
 {
-  "collectionName": "components_csr_points",
-  "info": {
-    "displayName": "points"
-  },
-  "options": {},
-  "attributes": {
-    "label": {
-      "type": "text"
-    }
-  }
+	"collectionName": "components_csr_points",
+	"info": {
+		"displayName": "points"
+	},
+	"options": {},
+	"attributes": {
+		"label": {
+			"type": "text",
+			"required": true
+		}
+	}
 }

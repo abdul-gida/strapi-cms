@@ -1,15 +1,17 @@
 {
-  "collectionName": "components_contact_us_emails",
-  "info": {
-    "displayName": "emails"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "email": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_contact_us_emails",
+	"info": {
+		"displayName": "emails"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"email": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

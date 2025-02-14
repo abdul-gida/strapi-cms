@@ -1,19 +1,21 @@
 {
-  "collectionName": "components_contact_us_motor_and_other_insurance_claim_offices",
-  "info": {
-    "displayName": "motorAndOtherInsuranceClaimOffice",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "offices": {
-      "displayName": "officess",
-      "type": "component",
-      "repeatable": true,
-      "component": "contact-us.officess"
-    }
-  }
+	"collectionName": "components_contact_us_motor_and_other_insurance_claim_offices",
+	"info": {
+		"displayName": "motorAndOtherInsuranceClaimOffice",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"offices": {
+			"displayName": "officess",
+			"type": "component",
+			"repeatable": true,
+			"component": "contact-us.officess",
+			"required": true
+		}
+	}
 }

@@ -1,18 +1,21 @@
 {
-  "collectionName": "components_investors_files",
-  "info": {
-    "displayName": "files"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "link": {
-      "type": "string"
-    },
-    "icon": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_investors_files",
+	"info": {
+		"displayName": "files"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"link": {
+			"type": "string",
+			"required": true
+		},
+		"icon": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

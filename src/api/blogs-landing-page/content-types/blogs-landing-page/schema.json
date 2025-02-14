@@ -1,49 +1,56 @@
 {
-  "kind": "singleType",
-  "collectionName": "blogs_landing_pages",
-  "info": {
-    "singularName": "blogs-landing-page",
-    "pluralName": "blogs-landing-pages",
-    "displayName": "Blogs Landing Page",
-    "description": ""
-  },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "allBlogsTitle": {
-      "type": "string"
-    },
-    "sortByOptions": {
-      "displayName": "sortByOptions",
-      "type": "component",
-      "repeatable": true,
-      "component": "blogs.sort-by-options"
-    },
-    "popularArticlesTitle": {
-      "type": "string"
-    },
-    "searchPlaceholder": {
-      "type": "string"
-    },
-    "banner": {
-      "displayName": "banner",
-      "type": "component",
-      "repeatable": true,
-      "component": "blogs.banner"
-    },
-    "happyCustomersData": {
-      "displayName": "happyCustomersData",
-      "type": "component",
-      "repeatable": false,
-      "component": "blogs.happy-customers-data"
-    },
-    "travelInsuranceData": {
-      "displayName": "travelInsuranceData",
-      "type": "component",
-      "repeatable": false,
-      "component": "blogs.travel-insurance-data"
-    }
-  }
+	"kind": "singleType",
+	"collectionName": "blogs_landing_pages",
+	"info": {
+		"singularName": "blogs-landing-page",
+		"pluralName": "blogs-landing-pages",
+		"displayName": "Blogs Landing Page",
+		"description": ""
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"allBlogsTitle": {
+			"type": "string",
+			"required": true
+		},
+		"sortByOptions": {
+			"displayName": "sortByOptions",
+			"type": "component",
+			"repeatable": true,
+			"component": "blogs.sort-by-options",
+			"required": true
+		},
+		"popularArticlesTitle": {
+			"type": "string",
+			"required": true
+		},
+		"searchPlaceholder": {
+			"type": "string",
+			"required": true
+		},
+		"banner": {
+			"displayName": "banner",
+			"type": "component",
+			"repeatable": true,
+			"component": "blogs.banner",
+			"required": true
+		},
+		"happyCustomersData": {
+			"displayName": "happyCustomersData",
+			"type": "component",
+			"repeatable": false,
+			"component": "blogs.happy-customers-data",
+			"required": true
+		},
+		"travelInsuranceData": {
+			"displayName": "travelInsuranceData",
+			"type": "component",
+			"repeatable": false,
+			"component": "blogs.travel-insurance-data",
+			"required": true
+		}
+	}
 }

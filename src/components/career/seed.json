@@ -1,21 +1,24 @@
 {
-  "collectionName": "components_career_seeds",
-  "info": {
-    "displayName": "seed",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "cards": {
-      "type": "component",
-      "repeatable": true,
-      "component": "career.cards"
-    }
-  }
+	"collectionName": "components_career_seeds",
+	"info": {
+		"displayName": "seed",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"cards": {
+			"type": "component",
+			"repeatable": true,
+			"component": "career.cards",
+			"required": true
+		}
+	}
 }

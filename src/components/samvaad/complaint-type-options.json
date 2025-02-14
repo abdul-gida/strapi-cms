@@ -1,15 +1,17 @@
 {
-  "collectionName": "components_samvaad_complaint_type_options",
-  "info": {
-    "displayName": "complaintTypeOptions"
-  },
-  "options": {},
-  "attributes": {
-    "label": {
-      "type": "string"
-    },
-    "value": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_samvaad_complaint_type_options",
+	"info": {
+		"displayName": "complaintTypeOptions"
+	},
+	"options": {},
+	"attributes": {
+		"label": {
+			"type": "string",
+			"required": true
+		},
+		"value": {
+			"type": "string",
+			"required": true
+		}
+	}
 }
