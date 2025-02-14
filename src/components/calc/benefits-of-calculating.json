@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_calc_benefits_of_calculatings",
+  "info": {
+    "displayName": "benefitsOfCalculating",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc-benefits-of-calculating.cards",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-benefits-of-calculating"
+      ],
+      "required": true,
+      "default": "calc-benefits-of-calculating"
+    }
+  }
+}

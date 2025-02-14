@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_calc_customer_reviews",
+  "info": {
+    "displayName": "customerReviews",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "ratings": {
+      "type": "string"
+    },
+    "reviews": {
+      "displayName": "reviewsCustomerReviewSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc.reviews-customer-review-section"
+    },
+    "title": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "string"
+    },
+    "btnCta": {
+      "type": "string"
+    },
+    "btnLink": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "calc-customer-reviews"
+      ],
+      "default": "calc-customer-reviews",
+      "required": true
+    }
+  }
+}

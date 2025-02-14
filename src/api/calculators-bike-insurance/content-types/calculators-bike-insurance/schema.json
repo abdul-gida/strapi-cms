@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "calculators_bike_insurances",
+  "info": {
+    "singularName": "calculators-bike-insurance",
+    "pluralName": "calculators-bike-insurances",
+    "displayName": "Calculators-bikeInsurance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bikeInsurance": {
+      "type": "dynamiczone",
+      "components": [
+        "calc.popular-models",
+        "calc.popular-brands",
+        "calc.find-nearest",
+        "calc.faq-section",
+        "calc.bread-crumbs",
+        "pdp.pdp-form-wrapper",
+        "calc.what-is-bike-insurance",
+        "calc.why-is-it-important"
+      ]
+    }
+  }
+}

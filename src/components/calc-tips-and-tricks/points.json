@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_calc_tips_and_tricks_points",
+  "info": {
+    "displayName": "points"
+  },
+  "options": {},
+  "attributes": {
+    "point": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

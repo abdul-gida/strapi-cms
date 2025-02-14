@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_calc_app_carousel_banners",
+  "info": {
+    "displayName": "banners"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "mobileImage": {
+      "type": "string",
+      "required": true
+    },
+    "alt": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
