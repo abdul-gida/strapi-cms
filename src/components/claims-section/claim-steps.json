@@ -13,7 +13,8 @@
       "type": "string"
     },
     "headerLabel": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "labelCont": {
       "displayName": "labelCont",

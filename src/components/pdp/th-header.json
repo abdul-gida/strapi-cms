@@ -9,6 +9,11 @@
     "title": {
       "type": "string",
       "required": true
+    },
+    "isLeft": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

@@ -19,11 +19,6 @@
       "component": "pdp.t-header",
       "required": true
     },
-    "isTextLeft": {
-      "type": "boolean",
-      "required": true,
-      "default": false
-    },
     "type": {
       "type": "enumeration",
       "enum": [

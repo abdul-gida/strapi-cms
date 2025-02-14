@@ -1,18 +1,21 @@
 {
   "collectionName": "components_pmfby_home_social_media_sections",
   "info": {
-    "displayName": "socialMediaSection"
+    "displayName": "socialMediaSection",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "posts": {
       "displayName": "posts",
       "type": "component",
       "repeatable": true,
-      "component": "pmfby-home.posts"
+      "component": "pmfby-home.posts",
+      "required": true
     }
   }
 }

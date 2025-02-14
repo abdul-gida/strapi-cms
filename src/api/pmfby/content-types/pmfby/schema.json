@@ -22,25 +22,29 @@
       "displayName": "form",
       "type": "component",
       "repeatable": false,
-      "component": "pmfby.form"
+      "component": "pmfby.form",
+      "required": true
     },
     "claimStatus": {
       "displayName": "claim",
       "type": "component",
       "repeatable": false,
-      "component": "pmfby.claim"
+      "component": "pmfby.claim",
+      "required": true
     },
     "breadCrumb": {
       "displayName": "bread crumb",
       "type": "component",
       "repeatable": false,
-      "component": "pmfby.bread-crumb"
+      "component": "pmfby.bread-crumb",
+      "required": true
     },
     "imageCards": {
       "displayName": "image cards",
       "type": "component",
       "repeatable": true,
-      "component": "pmfby.image-cards"
+      "component": "pmfby.image-cards",
+      "required": true
     }
   }
 }

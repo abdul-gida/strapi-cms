@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_desc_video_icon_labels",
+  "info": {
+    "displayName": "iconLabel"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

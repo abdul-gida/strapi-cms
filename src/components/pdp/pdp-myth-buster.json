@@ -16,7 +16,8 @@
       "type": "enumeration",
       "enum": [
         "pdp-myth-buster"
-      ]
+      ],
+      "required": true
     }
   }
 }

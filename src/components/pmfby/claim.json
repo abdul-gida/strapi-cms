@@ -7,13 +7,16 @@
   "options": {},
   "attributes": {
     "details": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "amountLabel": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "paymentStatus": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

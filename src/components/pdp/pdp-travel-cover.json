@@ -16,7 +16,8 @@
       "type": "enumeration",
       "enum": [
         "pdp-travel-cover"
-      ]
+      ],
+      "required": true
     }
   }
 }

@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "titleStart": {
+    "title": {
       "type": "string"
     },
     "gridCount": {
@@ -18,10 +18,8 @@
       "repeatable": true,
       "component": "pmfby-home.content"
     },
-    "noteSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "pmfby-home.note-section"
+    "bottomText": {
+      "type": "richtext"
     }
   }
 }

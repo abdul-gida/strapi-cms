@@ -1,21 +1,26 @@
 {
   "collectionName": "components_about_us_tabs_tabs",
   "info": {
-    "displayName": "tabs"
+    "displayName": "tabs",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "tabId": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "icon": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -1,50 +1,57 @@
 {
-  "kind": "collectionType",
-  "collectionName": "claims_tabs",
-  "info": {
-    "singularName": "claims-tab",
-    "pluralName": "claims-tabs",
-    "displayName": "claimsTabs",
-    "description": ""
-  },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "slug": {
-      "type": "uid"
-    },
-    "heading": {
-      "displayName": "heading",
-      "type": "component",
-      "repeatable": false,
-      "component": "claims-section.heading"
-    },
-    "subheading": {
-      "type": "text"
-    },
-    "infoCont": {
-      "displayName": "infoCont",
-      "type": "component",
-      "repeatable": false,
-      "component": "claims-section.info-cont"
-    },
-    "pointsCont": {
-      "displayName": "pointsCont",
-      "type": "component",
-      "repeatable": false,
-      "component": "claims-section.points-cont"
-    },
-    "claimSectionHeading": {
-      "type": "string"
-    },
-    "ClaimStepsSection": {
-      "type": "dynamiczone",
-      "components": [
-        "claims-section.claim-section",
-        "claims-section.claim-documentation-section"
-      ]
-    }
-  }
+	"kind": "collectionType",
+	"collectionName": "claims_tabs",
+	"info": {
+		"singularName": "claims-tab",
+		"pluralName": "claims-tabs",
+		"displayName": "claimsTabs",
+		"description": ""
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"slug": {
+			"type": "uid",
+			"required": true
+		},
+		"infoCont": {
+			"displayName": "infoCont",
+			"type": "component",
+			"repeatable": false,
+			"component": "claims-section.info-cont"
+		},
+		"pointsCont": {
+			"displayName": "pointsCont",
+			"type": "component",
+			"repeatable": false,
+			"component": "claims-section.points-cont"
+		},
+		"claimSectionHeading": {
+			"type": "string"
+		},
+		"ClaimStepsSection": {
+			"type": "dynamiczone",
+			"components": [
+				"claims-section.claim-section",
+				"claims-section.claim-documentation-section"
+			]
+		},
+		"banner": {
+			"type": "component",
+			"repeatable": false,
+			"component": "claims-section.banner"
+		},
+		"crumbs": {
+			"displayName": "crumbs",
+			"type": "component",
+			"repeatable": true,
+			"component": "claims-section.crumbs"
+		},
+		"title": {
+			"type": "richtext",
+			"required": true
+		}
+	}
 }

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_claims_section_crumbs",
+  "info": {
+    "displayName": "crumbs"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

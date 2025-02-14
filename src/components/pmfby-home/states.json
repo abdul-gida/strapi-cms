@@ -10,7 +10,8 @@
       "displayName": "sections",
       "type": "component",
       "repeatable": true,
-      "component": "pmfby-home.sections"
+      "component": "pmfby-home.sections",
+      "required": true
     }
   }
 }

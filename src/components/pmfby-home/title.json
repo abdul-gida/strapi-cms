@@ -7,7 +7,8 @@
   "options": {},
   "attributes": {
     "first": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "second": {
       "type": "string"

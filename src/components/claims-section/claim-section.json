@@ -6,9 +6,9 @@
   },
   "options": {},
   "attributes": {
-    "claimStepsHeading": {
+    "tabTitle": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "claimSteps": {
       "type": "component",

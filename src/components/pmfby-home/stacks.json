@@ -1,18 +1,21 @@
 {
   "collectionName": "components_pmfby_home_stacks",
   "info": {
-    "displayName": "stacks"
+    "displayName": "stacks",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "imageTitle": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "images": {
       "displayName": "images",
       "type": "component",
       "repeatable": true,
-      "component": "pmfby-home.images"
+      "component": "pmfby-home.images",
+      "required": true
     }
   }
 }

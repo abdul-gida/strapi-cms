@@ -7,18 +7,21 @@
   "options": {},
   "attributes": {
     "description": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "cards": {
       "type": "component",
       "repeatable": true,
-      "component": "pmfby-home.cards"
+      "component": "pmfby-home.cards",
+      "required": true
     },
     "title": {
       "displayName": "singleTitle",
       "type": "component",
       "repeatable": false,
-      "component": "pmfby-home.single-title"
+      "component": "pmfby-home.single-title",
+      "required": true
     },
     "scrollHereId": {
       "type": "string"

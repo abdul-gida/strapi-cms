@@ -1,14 +1,35 @@
 {
   "collectionName": "components_claims_section_banners",
   "info": {
-    "displayName": "banner"
+    "displayName": "banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "CLAIMS-SLUG",
+        "LANDING-PAGE"
+      ],
+      "default": "CLAIMS-SLUG",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "string"
+    },
+    "ctaLink": {
       "type": "string"
     }
   }

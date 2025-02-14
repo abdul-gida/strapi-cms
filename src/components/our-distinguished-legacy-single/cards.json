@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_our_distinguished_legacy_single_cards",
+  "info": {
+    "displayName": "cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "years": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

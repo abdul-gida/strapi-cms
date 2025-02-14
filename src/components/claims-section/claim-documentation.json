@@ -6,11 +6,9 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "bulletPoints": {
-      "type": "richtext"
+    "content": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

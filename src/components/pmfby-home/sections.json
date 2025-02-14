@@ -7,12 +7,14 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "cards": {
       "type": "component",
       "repeatable": true,
-      "component": "pmfby-home.cards"
+      "component": "pmfby-home.cards",
+      "required": true
     }
   }
 }

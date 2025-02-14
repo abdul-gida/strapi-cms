@@ -6,13 +6,14 @@
   },
   "options": {},
   "attributes": {
-    "claimDocumentationHeading": {
-      "type": "string"
+    "tabTitle": {
+      "type": "string",
+      "required": true
     },
     "claimDocumentation": {
       "displayName": "claimDocumentation",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "claims-section.claim-documentation"
     }
   }

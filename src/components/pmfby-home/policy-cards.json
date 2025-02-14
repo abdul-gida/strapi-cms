@@ -1,15 +1,18 @@
 {
   "collectionName": "components_pmfby_home_policy_cards",
   "info": {
-    "displayName": "policyCards"
+    "displayName": "policyCards",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
       "type": "string"

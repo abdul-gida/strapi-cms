@@ -1,18 +1,22 @@
 {
   "collectionName": "components_pmfby_home_cards",
   "info": {
-    "displayName": "cards"
+    "displayName": "cards",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

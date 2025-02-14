@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_download_tab_sections",
+  "info": {
+    "displayName": "tabSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subsection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "download.subsection"
+    }
+  }
+}

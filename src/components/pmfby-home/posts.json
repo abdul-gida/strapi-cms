@@ -1,15 +1,18 @@
 {
   "collectionName": "components_pmfby_home_posts",
   "info": {
-    "displayName": "posts"
+    "displayName": "posts",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "url": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

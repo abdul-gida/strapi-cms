@@ -6,8 +6,13 @@
   },
   "options": {},
   "attributes": {
+    "desc": {
+      "type": "text",
+      "required": true
+    },
     "videoUrl": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "type": {
       "type": "enumeration",
@@ -19,10 +24,16 @@
     },
     "title": {
       "type": "richtext",
-      "required": false
+      "required": true
     },
-    "desc": {
-      "type": "richtext"
+    "iconLabel": {
+      "displayName": "iconLabel",
+      "type": "component",
+      "repeatable": true,
+      "component": "desc-video.icon-label"
+    },
+    "bgColor": {
+      "type": "string"
     }
   }
 }

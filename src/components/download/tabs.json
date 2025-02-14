@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_download_tabs",
+  "info": {
+    "displayName": "tabs"
+  },
+  "options": {},
+  "attributes": {
+    "subsection": {
+      "displayName": "subsection",
+      "type": "component",
+      "repeatable": true,
+      "component": "download.subsection"
+    }
+  }
+}

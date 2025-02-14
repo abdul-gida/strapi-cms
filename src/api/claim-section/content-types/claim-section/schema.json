@@ -23,6 +23,11 @@
       "type": "component",
       "repeatable": false,
       "component": "claims-container.tabs-claim-process-page"
+    },
+    "crumbs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "claims-section.crumbs"
     }
   }
 }

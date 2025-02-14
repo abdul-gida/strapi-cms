@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "download_sections",
+  "info": {
+    "singularName": "download-section",
+    "pluralName": "download-sections",
+    "displayName": "downloadSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "downloadTabs": {
+      "displayName": "downloadTabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "download.download-tabs"
+    }
+  }
+}

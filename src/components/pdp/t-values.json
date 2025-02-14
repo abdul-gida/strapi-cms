@@ -6,8 +6,13 @@
   },
   "options": {},
   "attributes": {
+    "isLeft": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
     "val": {
-      "type": "string",
+      "type": "richtext",
       "required": true
     }
   }

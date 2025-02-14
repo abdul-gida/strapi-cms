@@ -52,8 +52,13 @@
         "pdp.pdp-note-section",
         "pdp.pdp-metro-cities",
         "pdp.compare-policy-section",
-        "pdp.pdp-bike-insurance-premium-rate",
-        "pdp.pdp-coverage-insurance-section"
+        "pdp.pdp-coverage-insurance-section",
+        "pdp.pdp-travel-explorer",
+        "pdp.pdp-travel-cover",
+        "pdp.pdp-myth-buster",
+        "pdp.pdp-covid-cover",
+        "pdp.clickable-cards-cta",
+        "pdp.pdp-bike-insurance-premium-rate"
       ]
     },
     "showAchievements": {

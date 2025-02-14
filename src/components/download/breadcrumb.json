@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_download_breadcrumbs",
+  "info": {
+    "displayName": "breadcrumb"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

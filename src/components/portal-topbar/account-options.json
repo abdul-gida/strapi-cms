@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_portal_topbar_account_options",
+  "info": {
+    "displayName": "accountOptions"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "enumeration",
+      "enum": [
+        "dashboard",
+        "logout"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "route": {
+      "type": "enumeration",
+      "enum": [
+        "/auth/login",
+        "/dashboard"
+      ]
+    }
+  }
+}

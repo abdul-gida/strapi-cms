@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "portal_topbars",
+  "info": {
+    "singularName": "portal-topbar",
+    "pluralName": "portal-topbars",
+    "displayName": "portal topbar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "string",
+      "required": true
+    },
+    "avatarImageUrl": {
+      "type": "string",
+      "required": true
+    },
+    "accountTitle": {
+      "type": "string",
+      "required": true
+    },
+    "loginLabel": {
+      "type": "string",
+      "required": true
+    },
+    "accountOptions": {
+      "displayName": "accountOptions",
+      "type": "component",
+      "repeatable": true,
+      "component": "portal-topbar.account-options",
+      "required": true
+    },
+    "loginButtonClevertapEvent": {
+      "displayName": "ClevertapButtonEvent",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.clevertap-button-event"
+    }
+  }
+}

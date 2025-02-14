@@ -10,7 +10,8 @@
       "displayName": "folders",
       "type": "component",
       "repeatable": true,
-      "component": "pmfby-home.folders"
+      "component": "pmfby-home.folders",
+      "required": true
     }
   }
 }

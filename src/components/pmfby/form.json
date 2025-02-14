@@ -7,27 +7,33 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "subtitle": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "application": {
       "displayName": "application",
       "type": "component",
       "repeatable": false,
-      "component": "pmfby.application"
+      "component": "pmfby.application",
+      "required": true
     },
     "adhaar": {
       "type": "component",
       "repeatable": false,
-      "component": "pmfby.application"
+      "component": "pmfby.application",
+      "required": true
     },
     "primaryButtonText": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "secondaryButtonText": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
