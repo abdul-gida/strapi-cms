@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_calc_idp_included_points",
+    "info": {
+      "displayName": "idp-includedPoints"
+    },
+    "options": {},
+    "attributes": {
+      "icon": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    }
+  }
+  

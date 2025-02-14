@@ -37,7 +37,8 @@
         "calc.car-divider",
         "calc.buy-renew-section",
         "calc.bread-crumbs",
-        "pdp.pdp-form-wrapper"
+        "pdp.pdp-form-wrapper",
+        "calc.insurance-plans-data"
       ]
     },
     "showAchievements": {

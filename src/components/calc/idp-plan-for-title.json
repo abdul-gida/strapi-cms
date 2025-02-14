@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_calc_idp_plan_for_titles",
+    "info": {
+      "displayName": "idp-planForTitle"
+    },
+    "options": {},
+    "attributes": {
+      "t1": {
+        "type": "string"
+      },
+      "t2": {
+        "type": "string"
+      }
+    }
+  }
+  
