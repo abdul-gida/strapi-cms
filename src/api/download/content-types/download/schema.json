@@ -38,6 +38,9 @@
       "type": "component",
       "repeatable": true,
       "component": "download.tab-section"
+    },
+    "mobileLink": {
+      "type": "string"
     }
   }
 }
