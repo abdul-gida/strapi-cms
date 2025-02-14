@@ -18,11 +18,6 @@
     "link": {
       "type": "string"
     },
-    "download": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::download.download"
-    },
     "slug": {
       "type": "enumeration",
       "enum": [
