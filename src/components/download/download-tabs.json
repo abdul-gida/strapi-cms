@@ -1,7 +1,8 @@
 {
   "collectionName": "components_download_download_tabs",
   "info": {
-    "displayName": "downloadTabs"
+    "displayName": "downloadTabs",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,6 +17,21 @@
     },
     "link": {
       "type": "string"
+    },
+    "download": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::download.download"
+    },
+    "slug": {
+      "type": "enumeration",
+      "enum": [
+        "claim-forms",
+        "others",
+        "proposal-forms",
+        "policy-wordings",
+        "prospectus"
+      ]
     }
   }
 }
