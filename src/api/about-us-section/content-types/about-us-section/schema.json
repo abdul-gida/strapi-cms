@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_us_sections",
+  "info": {
+    "singularName": "about-us-section",
+    "pluralName": "about-us-sections",
+    "displayName": "about-us-section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "bannerTitle": {
+      "type": "string"
+    },
+    "breadCrumb": {
+      "displayName": "breadCrumbs",
+      "type": "component",
+      "repeatable": true,
+      "component": "finance.bread-crumbs"
+    },
+    "title": {
+      "type": "string"
+    },
+    "tabs": {
+      "type": "dynamiczone",
+      "components": [
+        "finance.annual-reports",
+        "finance.public-disclosures",
+        "finance.tabs-with-cards",
+        "finance.notice-to-policyholders",
+        "finance.title-with-links"
+      ]
+    }
+  }
+}

@@ -14,6 +14,13 @@
       "type": "component",
       "repeatable": true,
       "component": "finance.years-with-quarters"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "tabs-with-quarters"
+      ],
+      "required": true
     }
   }
 }

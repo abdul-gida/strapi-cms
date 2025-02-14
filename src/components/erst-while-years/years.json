@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_erst_while_years_years",
+  "info": {
+    "displayName": "years",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "pdfs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "finance.pdfs"
+    }
+  }
+}

@@ -13,6 +13,13 @@
       "type": "component",
       "repeatable": true,
       "component": "finance.pdfs"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "title-with-pdf"
+      ],
+      "required": true
     }
   }
 }

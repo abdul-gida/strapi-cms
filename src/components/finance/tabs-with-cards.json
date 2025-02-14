@@ -37,6 +37,13 @@
     },
     "odrLink": {
       "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "tabs-with-cards"
+      ],
+      "required": true
     }
   }
 }

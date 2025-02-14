@@ -1,36 +1,36 @@
 {
-  "kind": "singleType",
-  "collectionName": "finances",
-  "info": {
-    "singularName": "finance",
-    "pluralName": "finances",
-    "displayName": "Finance",
-    "description": ""
-  },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "bannerTitle": {
-      "type": "string"
-    },
-    "breadCrumb": {
-      "displayName": "breadCrumbs",
-      "type": "component",
-      "repeatable": true,
-      "component": "finance.bread-crumbs"
-    },
-    "title": {
-      "type": "string"
-    },
-    "tabs": {
-      "type": "dynamiczone",
-      "components": [
-        "finance.annual-reports",
-        "finance.public-disclosures",
-        "finance.tabs-with-cards"
-      ]
-    }
-  }
+	"kind": "singleType",
+	"collectionName": "finances",
+	"info": {
+		"singularName": "finance",
+		"pluralName": "finances",
+		"displayName": "Finance",
+		"description": ""
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"bannerTitle": {
+			"type": "string"
+		},
+		"breadCrumb": {
+			"displayName": "breadCrumbs",
+			"type": "component",
+			"repeatable": true,
+			"component": "finance.bread-crumbs"
+		},
+		"title": {
+			"type": "string"
+		},
+		"tabs": {
+			"type": "dynamiczone",
+			"components": [
+				"finance.annual-reports",
+				"finance.public-disclosures",
+				"finance.tabs-with-cards"
+			]
+		}
+	}
 }
