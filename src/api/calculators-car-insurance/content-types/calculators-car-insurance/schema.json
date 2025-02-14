@@ -38,7 +38,14 @@
         "calc.buy-renew-section",
         "calc.bread-crumbs",
         "pdp.pdp-form-wrapper",
-        "calc.insurance-plans-data"
+        "calc.insurance-plans-data",
+        "calc.why-is-it-important",
+        "calc.what-is-bike-insurance",
+        "calc.tips-and-tricks",
+        "calc.factor-that-affect",
+        "calc.customer-reviews",
+        "calc.app-carousel",
+        "calc.benefits-of-calculating"
       ]
     },
     "showAchievements": {
