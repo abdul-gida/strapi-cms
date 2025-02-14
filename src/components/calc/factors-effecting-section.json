@@ -1,7 +1,7 @@
 {
   "collectionName": "components_calc_factors_effecting_sections",
   "info": {
-    "displayName": "factorsEffectingCarInsuranceSection",
+    "displayName": "FactorCards",
     "description": ""
   },
   "options": {},
@@ -19,9 +19,10 @@
     "type": {
       "type": "enumeration",
       "enum": [
-        "calc-factors-effecting-section"
+        "calc-motor-factor-cards-with-number",
+        "calc-motor-factor-cards-without-number"
       ],
-      "default": "calc-factors-effecting-section",
+      "default": "calc-motor-factor-cards-with-number",
       "required": true
     }
   }

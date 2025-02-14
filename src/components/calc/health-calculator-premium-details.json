@@ -1,29 +1,29 @@
 {
-  "collectionName": "components_calc_car_insurance_details",
+  "collectionName": "components_calc_health_calculator_premium_details",
   "info": {
-    "displayName": "CarInsuranceCalculatorDetails",
+    "displayName": "WhatIsHealthInsurance",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "videoUrl": {
+    "titleStart": {
       "type": "string",
       "required": true
     },
-    "title": {
+    "titleEnd": {
       "type": "string",
       "required": true
     },
-    "desc": {
-      "type": "richtext",
+    "description": {
+      "type": "text",
       "required": true
     },
     "type": {
       "type": "enumeration",
       "enum": [
-        "calc-car-insurance-calculator-details"
+        "calc-what-is-health-insurance"
       ],
-      "default": "calc-car-insurance-calculator-details",
+      "default": "calc-what-is-health-insurance",
       "required": true
     }
   }

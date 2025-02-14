@@ -1,7 +1,7 @@
 {
   "collectionName": "components_calc_how_to_files",
   "info": {
-    "displayName": "howToFileClaimSection",
+    "displayName": "HowToFile",
     "description": ""
   },
   "options": {},
@@ -17,9 +17,9 @@
     "type": {
       "type": "enumeration",
       "enum": [
-        "calc-how-to-file-claim-section"
+        "calc-how-to-file"
       ],
-      "default": "calc-how-to-file-claim-section",
+      "default": "calc-how-to-file",
       "required": true
     }
   }

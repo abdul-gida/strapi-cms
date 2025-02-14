@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_calc_why_choose_hdfc_stepper_card_data",
+  "info": {
+    "displayName": "stepperCardData"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

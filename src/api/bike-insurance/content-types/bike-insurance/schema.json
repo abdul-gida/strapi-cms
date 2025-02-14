@@ -62,12 +62,6 @@
       "repeatable": false,
       "component": "bike-insurance.benefits-of-calculating"
     },
-    "factorThatAffect": {
-      "displayName": "factorThatAffect",
-      "type": "component",
-      "repeatable": false,
-      "component": "bike-insurance.factor-that-affect"
-    },
     "popularBrands": {
       "displayName": "popularBrands",
       "type": "component",

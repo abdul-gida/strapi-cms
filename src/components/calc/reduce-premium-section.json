@@ -1,7 +1,8 @@
 {
   "collectionName": "components_calc_reduce_premium_sections",
   "info": {
-    "displayName": "reducePremiumSection"
+    "displayName": "ReduceCarInsuranceSection",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,9 +19,9 @@
     "type": {
       "type": "enumeration",
       "enum": [
-        "calc-reduce-premium-section"
+        "calc-reduce-car-insurance-section"
       ],
-      "default": "calc-reduce-premium-section",
+      "default": "calc-reduce-car-insurance-section",
       "required": true
     }
   }

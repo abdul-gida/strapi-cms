@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "calculators_health_insurances",
+  "info": {
+    "singularName": "calculators-health-insurance",
+    "pluralName": "calculators-health-insurances",
+    "displayName": "calculators-healthInsurance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "healthInsurance": {
+      "type": "dynamiczone",
+      "components": [
+        "calc.why-choose-hdfc",
+        "calc.related-videos",
+        "calc.faq-section",
+        "calc.bread-crumbs",
+        "calc.why-is-it-important",
+        "calc.health-calculator-premium-details",
+        "calc.medical-insurance-premium-details",
+        "pdp.pdp-form-wrapper"
+      ]
+    },
+    "showAchievements": {
+      "type": "boolean"
+    }
+  }
+}
