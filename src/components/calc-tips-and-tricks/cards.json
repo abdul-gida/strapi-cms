@@ -6,13 +6,14 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "points": {
       "type": "component",
       "repeatable": true,
       "component": "calc-tips-and-tricks.points"
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
