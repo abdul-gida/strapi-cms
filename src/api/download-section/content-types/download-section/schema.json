@@ -16,7 +16,8 @@
       "displayName": "downloadTabs",
       "type": "component",
       "repeatable": true,
-      "component": "download.download-tabs"
+      "component": "download.download-tabs",
+      "required": true
     }
   }
 }

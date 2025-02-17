@@ -1,15 +1,17 @@
 {
-  "collectionName": "components_unclaimed_policy_need_helps",
-  "info": {
-    "displayName": "needHelp"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "contactNumber": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_unclaimed_policy_need_helps",
+	"info": {
+		"displayName": "needHelp"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"contactNumber": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

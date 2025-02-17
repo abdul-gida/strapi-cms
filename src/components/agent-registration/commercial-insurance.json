@@ -1,17 +1,19 @@
 {
-  "collectionName": "components_agent_registration_commercial_insurances",
-  "info": {
-    "displayName": "commercialInsurance"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "options": {
-      "type": "component",
-      "repeatable": true,
-      "component": "agent-registration.options-retail-section"
-    }
-  }
+	"collectionName": "components_agent_registration_commercial_insurances",
+	"info": {
+		"displayName": "commercialInsurance"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"options": {
+			"type": "component",
+			"repeatable": true,
+			"component": "agent-registration.options-retail-section",
+			"required": true
+		}
+	}
 }

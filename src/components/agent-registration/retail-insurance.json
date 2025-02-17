@@ -1,18 +1,20 @@
 {
-  "collectionName": "components_agent_registration_retail_insurances",
-  "info": {
-    "displayName": "retailInsurance"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "options": {
-      "displayName": "optionsRetailSection",
-      "type": "component",
-      "repeatable": true,
-      "component": "agent-registration.options-retail-section"
-    }
-  }
+	"collectionName": "components_agent_registration_retail_insurances",
+	"info": {
+		"displayName": "retailInsurance"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"options": {
+			"displayName": "optionsRetailSection",
+			"type": "component",
+			"repeatable": true,
+			"component": "agent-registration.options-retail-section",
+			"required": true
+		}
+	}
 }

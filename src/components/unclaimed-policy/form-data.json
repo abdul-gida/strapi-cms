@@ -1,31 +1,37 @@
 {
-  "collectionName": "components_unclaimed_policy_form_data",
-  "info": {
-    "displayName": "formData",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "inputs": {
-      "displayName": "inputs",
-      "type": "component",
-      "repeatable": true,
-      "component": "unclaimed-policy.inputs"
-    },
-    "buttonText": {
-      "type": "string"
-    },
-    "bannerText": {
-      "type": "string"
-    },
-    "info": {
-      "type": "text"
-    }
-  }
+	"collectionName": "components_unclaimed_policy_form_data",
+	"info": {
+		"displayName": "formData",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"inputs": {
+			"displayName": "inputs",
+			"type": "component",
+			"repeatable": true,
+			"component": "unclaimed-policy.inputs",
+			"required": true
+		},
+		"buttonText": {
+			"type": "string",
+			"required": true
+		},
+		"bannerText": {
+			"type": "string",
+			"required": true
+		},
+		"info": {
+			"type": "text",
+			"required": true
+		}
+	}
 }

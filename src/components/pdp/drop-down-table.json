@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_pdp_drop_down_tables",
+  "info": {
+    "displayName": "DropDownTable",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "tabs": {
+      "displayName": "tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.tabs",
+      "required": true
+    },
+    "cta": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    }
+  }
+}

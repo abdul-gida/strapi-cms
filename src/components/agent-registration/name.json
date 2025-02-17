@@ -1,16 +1,18 @@
 {
-  "collectionName": "components_agent_registration_names",
-  "info": {
-    "displayName": "name",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "label": {
-      "type": "string"
-    },
-    "placeHolder": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_agent_registration_names",
+	"info": {
+		"displayName": "name",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"label": {
+			"type": "string",
+			"required": true
+		},
+		"placeHolder": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

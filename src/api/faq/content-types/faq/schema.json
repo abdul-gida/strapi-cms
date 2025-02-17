@@ -23,58 +23,69 @@
 			"displayName": "tabs",
 			"type": "component",
 			"repeatable": false,
-			"component": "faqs.tabs"
+			"component": "faqs.tabs",
+			"required": true
 		},
 		"carInsurance": {
 			"displayName": "faqPage",
 			"type": "component",
 			"repeatable": false,
-			"component": "faqs.faq-page"
+			"component": "faqs.faq-page",
+			"required": true
 		},
 		"healthInsurance": {
 			"type": "component",
 			"repeatable": false,
-			"component": "faqs.faq-page"
+			"component": "faqs.faq-page",
+			"required": true
 		},
 		"twoWheelerInsurance": {
 			"type": "component",
 			"repeatable": false,
-			"component": "faqs.faq-page"
+			"component": "faqs.faq-page",
+			"required": true
 		},
 		"studentSurakshaTravel": {
 			"type": "component",
 			"repeatable": false,
-			"component": "faqs.faq-page"
+			"component": "faqs.faq-page",
+			"required": true
 		},
 		"travelInsurance": {
 			"type": "component",
 			"repeatable": false,
-			"component": "faqs.faq-page"
+			"component": "faqs.faq-page",
+			"required": true
 		},
 		"homeInsurance": {
 			"type": "component",
 			"repeatable": false,
-			"component": "faqs.faq-page"
+			"component": "faqs.faq-page",
+			"required": true
 		},
 		"standardFireAndSpecialPerilsInsurance": {
 			"type": "component",
 			"repeatable": false,
-			"component": "faqs.faq-page"
+			"component": "faqs.faq-page",
+			"required": true
 		},
 		"personalAccident": {
 			"type": "component",
 			"repeatable": false,
-			"component": "faqs.faq-page"
+			"component": "faqs.faq-page",
+			"required": true
 		},
 		"healthSurakshaTopUpPlus": {
 			"type": "component",
 			"repeatable": false,
-			"component": "faqs.faq-page"
+			"component": "faqs.faq-page",
+			"required": true
 		},
 		"healthSuraksha": {
 			"type": "component",
 			"repeatable": false,
-			"component": "faqs.faq-page"
+			"component": "faqs.faq-page",
+			"required": true
 		},
 		"myHealthMedisureSuperTopUpHealthInsurancePolicy": {
 			"type": "component",

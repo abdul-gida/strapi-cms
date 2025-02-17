@@ -1,58 +1,69 @@
 {
-  "collectionName": "components_agent_registration_form_labels",
-  "info": {
-    "displayName": "formLabels",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "name": {
-      "type": "component",
-      "repeatable": false,
-      "component": "agent-registration.name"
-    },
-    "email": {
-      "type": "component",
-      "repeatable": false,
-      "component": "agent-registration.name"
-    },
-    "mobile": {
-      "type": "component",
-      "repeatable": false,
-      "component": "agent-registration.name"
-    },
-    "panLabels": {
-      "type": "component",
-      "repeatable": false,
-      "component": "agent-registration.name"
-    },
-    "stateLabels": {
-      "type": "component",
-      "repeatable": false,
-      "component": "agent-registration.name"
-    },
-    "city": {
-      "type": "component",
-      "repeatable": false,
-      "component": "agent-registration.name"
-    },
-    "businessInterest": {
-      "displayName": "businessInterest",
-      "type": "component",
-      "repeatable": false,
-      "component": "agent-registration.business-interest"
-    },
-    "termsAndConditions": {
-      "type": "string"
-    },
-    "submitLabel": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_agent_registration_form_labels",
+	"info": {
+		"displayName": "formLabels",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "string",
+			"required": true
+		},
+		"name": {
+			"type": "component",
+			"repeatable": false,
+			"component": "agent-registration.name",
+			"required": true
+		},
+		"email": {
+			"type": "component",
+			"repeatable": false,
+			"component": "agent-registration.name",
+			"required": true
+		},
+		"mobile": {
+			"type": "component",
+			"repeatable": false,
+			"component": "agent-registration.name",
+			"required": true
+		},
+		"panLabels": {
+			"type": "component",
+			"repeatable": false,
+			"component": "agent-registration.name",
+			"required": true
+		},
+		"stateLabels": {
+			"type": "component",
+			"repeatable": false,
+			"component": "agent-registration.name",
+			"required": true
+		},
+		"city": {
+			"type": "component",
+			"repeatable": false,
+			"component": "agent-registration.name",
+			"required": true
+		},
+		"businessInterest": {
+			"displayName": "businessInterest",
+			"type": "component",
+			"repeatable": false,
+			"component": "agent-registration.business-interest",
+			"required": true
+		},
+		"termsAndConditions": {
+			"type": "string",
+			"required": true
+		},
+		"submitLabel": {
+			"type": "string",
+			"required": true
+		}
+	}
 }
