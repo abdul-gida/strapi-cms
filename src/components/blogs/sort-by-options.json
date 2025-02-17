@@ -1,12 +1,13 @@
 {
-  "collectionName": "components_blogs_sort_by_options",
-  "info": {
-    "displayName": "sortByOptions"
-  },
-  "options": {},
-  "attributes": {
-    "label": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_blogs_sort_by_options",
+	"info": {
+		"displayName": "sortByOptions"
+	},
+	"options": {},
+	"attributes": {
+		"label": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

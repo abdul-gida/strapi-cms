@@ -1,15 +1,17 @@
 {
-  "collectionName": "components_blogs_titles",
-  "info": {
-    "displayName": "title"
-  },
-  "options": {},
-  "attributes": {
-    "top": {
-      "type": "string"
-    },
-    "bottom": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_blogs_titles",
+	"info": {
+		"displayName": "title"
+	},
+	"options": {},
+	"attributes": {
+		"top": {
+			"type": "string",
+			"required": true
+		},
+		"bottom": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

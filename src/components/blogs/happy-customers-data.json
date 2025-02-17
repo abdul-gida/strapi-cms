@@ -1,33 +1,41 @@
 {
-  "collectionName": "components_blogs_happy_customers_data",
-  "info": {
-    "displayName": "happyCustomersData"
-  },
-  "options": {},
-  "attributes": {
-    "number": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "rated": {
-      "type": "string"
-    },
-    "backgroundImage": {
-      "type": "string"
-    },
-    "playStoreRating": {
-      "type": "decimal"
-    },
-    "appStoreRating": {
-      "type": "decimal"
-    },
-    "btnCta": {
-      "type": "string"
-    },
-    "btnLink": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_blogs_happy_customers_data",
+	"info": {
+		"displayName": "happyCustomersData"
+	},
+	"options": {},
+	"attributes": {
+		"number": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"rated": {
+			"type": "string",
+			"required": true
+		},
+		"backgroundImage": {
+			"type": "string",
+			"required": true
+		},
+		"playStoreRating": {
+			"type": "decimal",
+			"required": true
+		},
+		"appStoreRating": {
+			"type": "decimal",
+			"required": true
+		},
+		"btnCta": {
+			"type": "string",
+			"required": true
+		},
+		"btnLink": {
+			"type": "string",
+			"required": true
+		}
+	}
 }
