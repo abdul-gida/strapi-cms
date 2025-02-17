@@ -18,12 +18,6 @@
       "type": "text",
       "required": false
     },
-    "vehicleRegistrationInputLabels": {
-      "displayName": "vehicleRegistrationInputLabels",
-      "type": "component",
-      "repeatable": false,
-      "component": "motor-forms.vehicle-registration-input-labels"
-    },
     "ageLabels": {
       "displayName": "ageLabels",
       "type": "component",
@@ -60,6 +54,15 @@
       "type": "component",
       "repeatable": false,
       "component": "health-insurance-form.terms-and-conditions"
+    },
+    "tyoe": {
+      "type": "enumeration",
+      "enum": [
+        "healthForm",
+        "twoWheeler",
+        "fourWheeler"
+      ],
+      "required": true
     }
   }
 }
