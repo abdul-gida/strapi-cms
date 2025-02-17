@@ -1,68 +1,65 @@
 {
-  "collectionName": "components_health_insurance_form_health_insurance_forms",
-  "info": {
-    "displayName": "healthInsuranceForm",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "badgeLabel": {
-      "type": "string",
-      "required": true
-    },
-    "description": {
-      "type": "text",
-      "required": false
-    },
-    "ageLabels": {
-      "displayName": "ageLabels",
-      "type": "component",
-      "repeatable": false,
-      "component": "health-insurance-form.age-labels",
-      "required": true
-    },
-    "pincodeLabels": {
-      "displayName": "pincodeLabels",
-      "type": "component",
-      "repeatable": false,
-      "component": "health-insurance-form.pincode-labels",
-      "required": true
-    },
-    "mobileNumberInputLabels": {
-      "displayName": "mobileNumberInputLabels",
-      "type": "component",
-      "repeatable": false,
-      "component": "motor-forms.mobile-number-input-labels",
-      "required": true
-    },
-    "ctaLabel": {
-      "type": "string",
-      "required": true
-    },
-    "policyDetails": {
-      "displayName": "policyDetails",
-      "type": "component",
-      "repeatable": false,
-      "component": "health-insurance-form.policy-details"
-    },
-    "termsAndConditions": {
-      "displayName": "termsAndConditions",
-      "type": "component",
-      "repeatable": false,
-      "component": "health-insurance-form.terms-and-conditions"
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "healthForm",
-        "twoWheeler",
-        "fourWheeler"
-      ],
-      "required": true
-    }
-  }
+	"collectionName": "components_health_insurance_form_health_insurance_forms",
+	"info": {
+		"displayName": "healthInsuranceForm",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"badgeLabel": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": false
+		},
+		"ageLabels": {
+			"displayName": "ageLabels",
+			"type": "component",
+			"repeatable": false,
+			"component": "health-insurance-form.age-labels",
+			"required": true
+		},
+		"pincodeLabels": {
+			"displayName": "pincodeLabels",
+			"type": "component",
+			"repeatable": false,
+			"component": "health-insurance-form.pincode-labels",
+			"required": true
+		},
+		"mobileNumberInputLabels": {
+			"displayName": "mobileNumberInputLabels",
+			"type": "component",
+			"repeatable": false,
+			"component": "motor-forms.mobile-number-input-labels",
+			"required": true
+		},
+		"ctaLabel": {
+			"type": "string",
+			"required": true
+		},
+		"policyDetails": {
+			"displayName": "policyDetails",
+			"required": true,
+			"type": "component",
+			"repeatable": false,
+			"component": "health-insurance-form.policy-details"
+		},
+		"termsAndConditions": {
+			"displayName": "termsAndConditions",
+			"type": "component",
+			"repeatable": false,
+			"component": "health-insurance-form.terms-and-conditions"
+		},
+		"type": {
+			"type": "enumeration",
+			"enum": ["healthForm", "twoWheeler", "fourWheeler"],
+			"required": true
+		}
+	}
 }
