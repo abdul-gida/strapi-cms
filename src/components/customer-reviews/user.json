@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_customer_reviews_users",
+  "info": {
+    "displayName": "user"
+  },
+  "options": {},
+  "attributes": {
+    "avatarUrl": {
+      "type": "string"
+    },
+    "userName": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "subText": {
+      "type": "string"
+    }
+  }
+}

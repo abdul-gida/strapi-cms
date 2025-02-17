@@ -1,12 +1,14 @@
 {
   "collectionName": "components_pdp_banner_tags",
   "info": {
-    "displayName": "bannerTags"
+    "displayName": "bannerTags",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "label": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

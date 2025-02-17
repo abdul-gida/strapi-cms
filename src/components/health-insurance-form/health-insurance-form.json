@@ -28,35 +28,38 @@
       "displayName": "ageLabels",
       "type": "component",
       "repeatable": false,
-      "component": "health-insurance-form.age-labels"
+      "component": "health-insurance-form.age-labels",
+      "required": true
     },
     "pincodeLabels": {
       "displayName": "pincodeLabels",
       "type": "component",
       "repeatable": false,
-      "component": "health-insurance-form.pincode-labels"
+      "component": "health-insurance-form.pincode-labels",
+      "required": true
     },
     "mobileNumberInputLabels": {
       "displayName": "mobileNumberInputLabels",
       "type": "component",
       "repeatable": false,
-      "component": "motor-forms.mobile-number-input-labels"
-    },
-    "getQuoteCtaLabel": {
-      "type": "string",
+      "component": "motor-forms.mobile-number-input-labels",
       "required": true
     },
-    "termsAndConditions": {
-      "displayName": "termsAndConditions",
-      "type": "component",
-      "repeatable": true,
-      "component": "motor-forms.terms-and-conditions"
+    "ctaLabel": {
+      "type": "string",
+      "required": true
     },
     "policyDetails": {
       "displayName": "policyDetails",
       "type": "component",
       "repeatable": false,
       "component": "health-insurance-form.policy-details"
+    },
+    "termsAndConditions": {
+      "displayName": "termsAndConditions",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance-form.terms-and-conditions"
     }
   }
 }

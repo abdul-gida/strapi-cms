@@ -1,11 +1,12 @@
 {
   "collectionName": "components_motor_forms_mobile_number_input_labels",
   "info": {
-    "displayName": "mobileNumberInputLabels"
+    "displayName": "mobileNumberInputLabels",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "label": {
+    "title": {
       "type": "string",
       "required": true
     },
@@ -13,8 +14,9 @@
       "type": "string",
       "required": true
     },
-    "verifyLabel": {
-      "type": "string"
+    "verifyCtaLabel": {
+      "type": "string",
+      "required": true
     }
   }
 }

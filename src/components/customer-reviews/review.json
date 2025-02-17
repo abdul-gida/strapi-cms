@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_customer_reviews_reviews",
+  "info": {
+    "displayName": "review",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "rating": {
+      "type": "enumeration",
+      "enum": [
+        "five",
+        "four",
+        "three",
+        "two",
+        "one"
+      ],
+      "required": true
+    },
+    "review": {
+      "type": "text",
+      "required": true
+    },
+    "user": {
+      "displayName": "user",
+      "type": "component",
+      "repeatable": false,
+      "component": "customer-reviews.user"
+    }
+  }
+}

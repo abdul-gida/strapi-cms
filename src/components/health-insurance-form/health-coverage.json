@@ -6,20 +6,23 @@
   },
   "options": {},
   "attributes": {
-		"label": {
-			"type": "string"
-		},
-		"viewBenefits": {
-			"type": "string"
-		},
-		"preferredLabel": {
-			"type": "string"
-		},
-		"coverageLabels": {
-			"displayName": "coverageLabels",
-			"type": "component",
-			"repeatable": false,
-			"component": "health-insurance-form.coverage-labels"
-		}
-	}
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "viewBenefits": {
+      "type": "string"
+    },
+    "preferredLabel": {
+      "type": "string",
+      "required": true
+    },
+    "coverageLabels": {
+      "displayName": "coverageLabels",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance-form.coverage-labels",
+      "required": true
+    }
+  }
 }

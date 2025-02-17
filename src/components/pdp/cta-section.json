@@ -1,16 +1,15 @@
 {
-  "collectionName": "components_pdp_fw_points",
+  "collectionName": "components_pdp_cta_sections",
   "info": {
-    "displayName": "fw-points",
-    "description": ""
+    "displayName": "ctaSection"
   },
   "options": {},
   "attributes": {
-    "url": {
+    "cta": {
       "type": "string",
       "required": true
     },
-    "label": {
+    "ctaLink": {
       "type": "string",
       "required": true
     }

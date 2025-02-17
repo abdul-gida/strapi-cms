@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customer_reviews",
+  "info": {
+    "singularName": "customer-review",
+    "pluralName": "customer-reviews",
+    "displayName": "Customer Review",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+		"heroSection": {
+			"displayName": "heroSection",
+			"type": "component",
+			"repeatable": false,
+			"component": "customer-reviews.hero-section"
+		},
+		"review": {
+			"displayName": "review",
+			"type": "component",
+			"repeatable": true,
+			"component": "customer-reviews.review"
+		},
+		"goToSection": {
+			"displayName": "gotToSection",
+			"type": "component",
+			"repeatable": false,
+			"component": "customer-reviews.got-to-section"
+		},
+		"slug": {
+			"type": "string",
+			"required": true
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_customer_reviews_got_to_sections",
+  "info": {
+    "displayName": "gotToSection"
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "displayName": "section",
+      "type": "component",
+      "repeatable": true,
+      "component": "customer-reviews.section"
+    }
+  }
+}

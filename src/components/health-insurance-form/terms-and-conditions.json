@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_health_insurance_form_terms_and_conditions",
+  "info": {
+    "displayName": "termsAndConditions"
+  },
+  "options": {},
+  "attributes": {
+    "condition": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

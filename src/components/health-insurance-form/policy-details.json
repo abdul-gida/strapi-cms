@@ -6,25 +6,28 @@
   },
   "options": {},
   "attributes": {
-		"title": {
-			"type": "string",
-			"required": true
-		},
-		"healthCoverage": {
-			"displayName": "healthCoverage",
-			"type": "component",
-			"repeatable": false,
-			"component": "health-insurance-form.health-coverage",
-			"required": true
-		},
-		"deductibleLabel": {
-			"type": "string"
-		},
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "healthCoverage": {
+      "displayName": "healthCoverage",
+      "type": "component",
+      "repeatable": false,
+      "component": "health-insurance-form.health-coverage",
+      "required": true
+    },
+    "deductibleLabel": {
+      "type": "string",
+      "required": true
+    },
     "totalPremiumLabel": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "proceedToBuyCtaLabel": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
-	}
+  }
 }

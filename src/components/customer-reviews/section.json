@@ -1,24 +1,23 @@
 {
-  "collectionName": "components_pdp_fw_expert_cards",
+  "collectionName": "components_customer_reviews_sections",
   "info": {
-    "displayName": "fw-expertCards",
+    "displayName": "section",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "iconPath": {
+    "imageUrl": {
       "type": "string",
       "required": true
     },
-    "href": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "label": {
-      "type": "string",
-      "required": true
+    "description": {
+      "type": "string"
     },
-    "mobileNo": {
+    "redirectionLink": {
       "type": "string",
       "required": true
     }

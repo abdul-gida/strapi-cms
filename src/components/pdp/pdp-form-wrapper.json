@@ -6,74 +6,56 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "points": {
-      "displayName": "fw-points",
-      "type": "component",
-      "repeatable": true,
-      "component": "pdp.fw-points"
-    },
-    "badgeLabel": {
-      "type": "string"
-    },
-    "titleAlign": {
-      "type": "enumeration",
-      "enum": [
-        "block",
-        "inline"
-      ],
-      "default": "block",
-      "required": true
-    },
-    "bannerTags": {
-      "displayName": "bannerTags",
-      "type": "component",
-      "repeatable": true,
-      "component": "pdp.banner-tags"
-    },
-    "cta": {
-      "type": "string"
-    },
-    "ctaLink": {
-      "type": "string"
-    },
-    "expertCards": {
-      "displayName": "fw-expertCards",
-      "type": "component",
-      "repeatable": true,
-      "component": "pdp.fw-expert-cards"
-    },
-    "formType": {
-      "type": "enumeration",
-      "enum": [
-        "motor",
-        "health",
-        "optima",
-        "none"
-      ],
-      "default": "none",
-      "required": true
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "pdp-form-wrapper"
-      ],
-      "default": "pdp-form-wrapper",
-      "required": true
-    },
-    "image": {
-      "type": "string"
-    },
-    "bottomLabel": {
-      "type": "string"
-    },
-    "insurance_form": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::insurance-form.insurance-form"
-    }
-  }
+		"image": {
+			"type": "string",
+			"required": true
+		},
+		"badgeLabel": {
+			"type": "string"
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"points": {
+			"displayName": "fw-points",
+			"type": "component",
+			"repeatable": true,
+			"component": "pdp.fw-points"
+		},
+		"expertCards": {
+			"displayName": "fw-expertCards",
+			"type": "component",
+			"repeatable": true,
+			"component": "pdp.fw-expert-cards"
+		},
+		"bannerTags": {
+			"displayName": "bannerTags",
+			"type": "component",
+			"repeatable": true,
+			"component": "pdp.banner-tags"
+		},
+
+		"type": {
+			"type": "enumeration",
+			"enum": ["pdp-form-wrapper"],
+			"default": "pdp-form-wrapper",
+			"required": true
+		},
+
+		"bottomLabel": {
+			"type": "string"
+		},
+		"insuranceForm": {
+			"type": "relation",
+			"relation": "oneToOne",
+			"target": "api::insurance-form.insurance-form"
+		},
+		"ctaSection": {
+			"displayName": "ctaSection",
+			"type": "component",
+			"repeatable": false,
+			"component": "pdp.cta-section"
+		}
+	}
 }

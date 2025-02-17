@@ -8,10 +8,11 @@
   "attributes": {
     "imageUrl": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "label": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

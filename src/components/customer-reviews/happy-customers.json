@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_customer_reviews_happy_customers",
+  "info": {
+    "displayName": "happyCustomers"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "customerAvatar": {
+      "displayName": "customerAvatar",
+      "type": "component",
+      "repeatable": true,
+      "component": "customer-reviews.customer-avatar"
+    }
+  }
+}

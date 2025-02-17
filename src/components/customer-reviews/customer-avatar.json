@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_customer_reviews_customer_avatars",
+  "info": {
+    "displayName": "customerAvatar"
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}

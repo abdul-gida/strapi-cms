@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_customer_reviews_hero_sections",
+  "info": {
+    "displayName": "heroSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageUrl": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "happyCustomers": {
+      "displayName": "happyCustomers",
+      "type": "component",
+      "repeatable": false,
+      "component": "customer-reviews.happy-customers"
+    }
+  }
+}
