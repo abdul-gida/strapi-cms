@@ -9,9 +9,6 @@
     "image": {
       "type": "string"
     },
-    "title": {
-      "type": "richtext"
-    },
     "cta": {
       "type": "string"
     },
@@ -25,6 +22,10 @@
     },
     "link": {
       "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": false
     }
   }
 }

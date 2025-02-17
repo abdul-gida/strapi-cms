@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_calc_car_insurance_rates_note_sections",
+  "info": {
+    "displayName": "noteSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}

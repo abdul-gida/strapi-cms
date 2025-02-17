@@ -9,11 +9,6 @@
     "title": {
       "type": "string"
     },
-    "noteSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "calc-factors-to-consider.note-section"
-    },
     "infoSection": {
       "displayName": "infoSection",
       "type": "component",
@@ -27,6 +22,12 @@
       ],
       "default": "calc-car-insurance-rates",
       "required": true
+    },
+    "noteSection": {
+      "displayName": "noteSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "calc-car-insurance-rates.note-section"
     }
   }
 }

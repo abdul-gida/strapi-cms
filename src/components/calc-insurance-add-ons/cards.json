@@ -1,7 +1,8 @@
 {
   "collectionName": "components_calc_insurance_add_ons_cards",
   "info": {
-    "displayName": "cards"
+    "displayName": "cards",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,11 +10,11 @@
       "type": "string",
       "required": true
     },
-    "desc": {
-      "type": "richtext",
+    "icon": {
+      "type": "string",
       "required": true
     },
-    "icon": {
+    "desc": {
       "type": "string",
       "required": true
     }
