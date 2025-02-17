@@ -127,6 +127,11 @@
       "repeatable": false,
       "component": "policy-details.contact-dump",
       "required": true
+    },
+    "clevertapPageName": {
+      "type": "string",
+      "required": true,
+      "default": "policy-detail-page"
     }
   }
 }
