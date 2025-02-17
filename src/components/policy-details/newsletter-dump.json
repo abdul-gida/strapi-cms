@@ -25,6 +25,12 @@
       "type": "string",
       "required": true
     },
+    "buttonTextClevertapEvent": {
+      "displayName": "ClevertapButtonEvent",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.clevertap-button-event"
+    },
     "backgroundImageUrl": {
       "type": "string",
       "required": true

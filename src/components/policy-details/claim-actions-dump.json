@@ -27,6 +27,12 @@
       "component": "policy-details.claimactions-cards",
       "required": true
     },
+    "actionsClevertapEvent": {
+      "displayName": "ClevertapButtonEvent",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.clevertap-button-event"
+    },
     "howToFile": {
       "displayName": "howToFile",
       "type": "component",

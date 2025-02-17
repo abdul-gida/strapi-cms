@@ -18,6 +18,12 @@
       "type": "string",
       "required": true
     },
+    "buttonTextClevertapEvent": {
+      "displayName": "ClevertapButtonEvent",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.clevertap-button-event"
+    },
     "motor": {
       "displayName": "policy-action-cards",
       "type": "component",
@@ -66,6 +72,12 @@
       "repeatable": true,
       "component": "policy-details.policy-action-cards",
       "required": true
+    },
+    "actionsClevertapEvent": {
+      "displayName": "ClevertapButtonEvent",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.clevertap-button-event"
     }
   }
 }

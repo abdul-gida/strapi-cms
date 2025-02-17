@@ -30,6 +30,12 @@
       "repeatable": false,
       "component": "policy-details.images",
       "required": true
+    },
+    "actionsClevertapEvent": {
+      "displayName": "ClevertapButtonEvent",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.clevertap-button-event"
     }
   }
 }
