@@ -1,18 +1,22 @@
 {
   "collectionName": "components_download_pdfs",
   "info": {
-    "displayName": "pdf"
+    "displayName": "pdf",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "icon": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
