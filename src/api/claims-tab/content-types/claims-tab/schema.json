@@ -20,16 +20,19 @@
 			"displayName": "infoCont",
 			"type": "component",
 			"repeatable": false,
-			"component": "claims-section.info-cont"
+			"component": "claims-section.info-cont",
+			"required": true
 		},
 		"pointsCont": {
 			"displayName": "pointsCont",
 			"type": "component",
 			"repeatable": false,
-			"component": "claims-section.points-cont"
+			"component": "claims-section.points-cont",
+			"required": true
 		},
 		"claimSectionHeading": {
-			"type": "string"
+			"type": "string",
+			"required": true
 		},
 		"ClaimStepsSection": {
 			"type": "dynamiczone",
@@ -41,13 +44,15 @@
 		"banner": {
 			"type": "component",
 			"repeatable": false,
-			"component": "claims-section.banner"
+			"component": "claims-section.banner",
+			"required": true
 		},
 		"crumbs": {
 			"displayName": "crumbs",
 			"type": "component",
 			"repeatable": true,
-			"component": "claims-section.crumbs"
+			"component": "claims-section.crumbs",
+			"required": true
 		},
 		"title": {
 			"type": "richtext",

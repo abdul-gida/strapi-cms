@@ -1,18 +1,21 @@
 {
-  "collectionName": "components_csr_awards",
-  "info": {
-    "displayName": "awards"
-  },
-  "options": {},
-  "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "initiativeFor": {
-      "type": "string"
-    },
-    "awardFor": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_csr_awards",
+	"info": {
+		"displayName": "awards"
+	},
+	"options": {},
+	"attributes": {
+		"name": {
+			"type": "string",
+			"required": true
+		},
+		"initiativeFor": {
+			"type": "string",
+			"required": true
+		},
+		"awardFor": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

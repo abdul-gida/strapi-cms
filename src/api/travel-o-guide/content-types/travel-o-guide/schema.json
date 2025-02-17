@@ -1,43 +1,48 @@
 {
-  "kind": "collectionType",
-  "collectionName": "travel_o_guides",
-  "info": {
-    "singularName": "travel-o-guide",
-    "pluralName": "travel-o-guides",
-    "displayName": "travelOGuide",
-    "description": ""
-  },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "slug": {
-      "type": "uid"
-    },
-    "banner": {
-      "displayName": "banner",
-      "type": "component",
-      "repeatable": false,
-      "component": "travel-guide.banner"
-    },
-    "simplify": {
-      "displayName": "simplify",
-      "type": "component",
-      "repeatable": false,
-      "component": "travel-guide.simplify"
-    },
-    "travelEssentials": {
-      "displayName": "travelEssentials",
-      "type": "component",
-      "repeatable": false,
-      "component": "travel-guide.travel-essentials"
-    },
-    "knowMore": {
-      "displayName": "knowMore",
-      "type": "component",
-      "repeatable": false,
-      "component": "travel-guide.know-more"
-    }
-  }
+	"kind": "collectionType",
+	"collectionName": "travel_o_guides",
+	"info": {
+		"singularName": "travel-o-guide",
+		"pluralName": "travel-o-guides",
+		"displayName": "travelOGuide",
+		"description": ""
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"slug": {
+			"type": "uid",
+			"required": true
+		},
+		"banner": {
+			"displayName": "banner",
+			"type": "component",
+			"repeatable": false,
+			"component": "travel-guide.banner",
+			"required": true
+		},
+		"simplify": {
+			"displayName": "simplify",
+			"type": "component",
+			"repeatable": false,
+			"component": "travel-guide.simplify",
+			"required": true
+		},
+		"travelEssentials": {
+			"displayName": "travelEssentials",
+			"type": "component",
+			"repeatable": false,
+			"component": "travel-guide.travel-essentials",
+			"required": true
+		},
+		"knowMore": {
+			"displayName": "knowMore",
+			"type": "component",
+			"repeatable": false,
+			"component": "travel-guide.know-more",
+			"required": true
+		}
+	}
 }

@@ -1,24 +1,28 @@
 {
-  "collectionName": "components_web_stories_secures",
-  "info": {
-    "displayName": "secure"
-  },
-  "options": {},
-  "attributes": {
-    "image": {
-      "type": "string"
-    },
-    "title": {
-      "displayName": "titleWithLabel",
-      "type": "component",
-      "repeatable": true,
-      "component": "web-stories.title-with-label"
-    },
-    "cta": {
-      "type": "string"
-    },
-    "link": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_web_stories_secures",
+	"info": {
+		"displayName": "secure"
+	},
+	"options": {},
+	"attributes": {
+		"image": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"displayName": "titleWithLabel",
+			"type": "component",
+			"repeatable": true,
+			"component": "web-stories.title-with-label",
+			"required": true
+		},
+		"cta": {
+			"type": "string",
+			"required": true
+		},
+		"link": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

@@ -1,15 +1,17 @@
 {
-  "collectionName": "components_contact_us_card1s",
-  "info": {
-    "displayName": "card1"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "address": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_contact_us_card1s",
+	"info": {
+		"displayName": "card1"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"address": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

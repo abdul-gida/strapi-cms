@@ -1,28 +1,32 @@
 {
-  "collectionName": "components_faqs_faq_pages",
-  "info": {
-    "displayName": "faqPage",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "breadCrumb": {
-      "displayName": "breadCrumb",
-      "type": "component",
-      "repeatable": true,
-      "component": "faqs.bread-crumb"
-    },
-    "faqsList": {
-      "displayName": "faqsList",
-      "type": "component",
-      "repeatable": true,
-      "component": "faqs.faqs-list"
-    }
-  }
+	"collectionName": "components_faqs_faq_pages",
+	"info": {
+		"displayName": "faqPage",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "string",
+			"required": true
+		},
+		"breadCrumb": {
+			"displayName": "breadCrumb",
+			"type": "component",
+			"repeatable": true,
+			"component": "faqs.bread-crumb",
+			"required": true
+		},
+		"faqsList": {
+			"displayName": "faqsList",
+			"type": "component",
+			"repeatable": true,
+			"component": "faqs.faqs-list",
+			"required": true
+		}
+	}
 }

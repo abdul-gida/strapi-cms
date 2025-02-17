@@ -1,22 +1,22 @@
 {
-  "collectionName": "components_agent_registration_our_product_offering_lists",
-  "info": {
-    "displayName": "ourProductOfferingList",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "logo": {
-      "type": "string",
-      "required": true
-    },
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "description": {
-      "type": "text",
-      "required": true
-    }
-  }
+	"collectionName": "components_agent_registration_our_product_offering_lists",
+	"info": {
+		"displayName": "ourProductOfferingList",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"logo": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		}
+	}
 }

@@ -6,13 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "titleStart": {
-      "type": "string"
-    },
-    "highlight": {
-      "type": "string"
-    },
-    "titleEnd": {
+    "title": {
       "type": "string"
     },
     "points": {

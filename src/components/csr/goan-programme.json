@@ -1,18 +1,21 @@
 {
-  "collectionName": "components_csr_goan_programmes",
-  "info": {
-    "displayName": "goanProgramme"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "subTitle": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    }
-  }
+	"collectionName": "components_csr_goan_programmes",
+	"info": {
+		"displayName": "goanProgramme"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"subTitle": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		}
+	}
 }

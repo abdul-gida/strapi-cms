@@ -1,28 +1,32 @@
 {
-  "collectionName": "components_career_lives",
-  "info": {
-    "displayName": "life",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "carousal": {
-      "displayName": "carousal",
-      "type": "component",
-      "repeatable": true,
-      "component": "career.carousal"
-    },
-    "cards": {
-      "displayName": "cards",
-      "type": "component",
-      "repeatable": true,
-      "component": "career.cards"
-    }
-  }
+	"collectionName": "components_career_lives",
+	"info": {
+		"displayName": "life",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"carousal": {
+			"displayName": "carousal",
+			"type": "component",
+			"repeatable": true,
+			"component": "career.carousal",
+			"required": true
+		},
+		"cards": {
+			"displayName": "cards",
+			"type": "component",
+			"repeatable": true,
+			"component": "career.cards",
+			"required": true
+		}
+	}
 }

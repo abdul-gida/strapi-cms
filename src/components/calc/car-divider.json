@@ -1,7 +1,8 @@
 {
   "collectionName": "components_calc_car_dividers",
   "info": {
-    "displayName": "CarDivider"
+    "displayName": "CarDivider",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -21,6 +22,9 @@
       ],
       "required": true,
       "default": "calc-car-divider"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }

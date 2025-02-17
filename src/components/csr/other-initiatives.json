@@ -1,18 +1,20 @@
 {
-  "collectionName": "components_csr_other_initiatives",
-  "info": {
-    "displayName": "otherInitiatives"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "text"
-    },
-    "tabs": {
-      "displayName": "tabs",
-      "type": "component",
-      "repeatable": true,
-      "component": "csr.tabs"
-    }
-  }
+	"collectionName": "components_csr_other_initiatives",
+	"info": {
+		"displayName": "otherInitiatives"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "text",
+			"required": true
+		},
+		"tabs": {
+			"displayName": "tabs",
+			"type": "component",
+			"repeatable": true,
+			"component": "csr.tabs",
+			"required": true
+		}
+	}
 }

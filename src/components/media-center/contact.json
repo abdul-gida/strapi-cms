@@ -1,22 +1,26 @@
 {
-  "collectionName": "components_media_center_contacts",
-  "info": {
-    "displayName": "contact",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "backgroundImage": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "email": {
-      "type": "email"
-    }
-  }
+	"collectionName": "components_media_center_contacts",
+	"info": {
+		"displayName": "contact",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"backgroundImage": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"email": {
+			"type": "email",
+			"required": true
+		}
+	}
 }

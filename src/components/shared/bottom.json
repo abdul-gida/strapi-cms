@@ -1,18 +1,20 @@
 {
-  "collectionName": "components_shared_bottoms",
-  "info": {
-    "displayName": "bottom"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "bottomCards": {
-      "displayName": "bottomCards",
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.bottom-cards"
-    }
-  }
+	"collectionName": "components_shared_bottoms",
+	"info": {
+		"displayName": "bottom"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"bottomCards": {
+			"displayName": "bottomCards",
+			"type": "component",
+			"repeatable": true,
+			"component": "shared.bottom-cards",
+			"required": true
+		}
+	}
 }

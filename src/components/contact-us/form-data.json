@@ -1,52 +1,66 @@
 {
-  "collectionName": "components_contact_us_form_data",
-  "info": {
-    "displayName": "formData",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "phoneIcon": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "productsListLabel": {
-      "type": "string"
-    },
-    "productsListPlaceHolder": {
-      "type": "string"
-    },
-    "nameLabel": {
-      "type": "string"
-    },
-    "namePlaceHolder": {
-      "type": "string"
-    },
-    "mobileNumberPlaceHolder": {
-      "type": "string"
-    },
-    "cityLabel": {
-      "type": "string"
-    },
-    "cityPlaceHolder": {
-      "type": "string"
-    },
-    "captchaPlaceHolder": {
-      "type": "string"
-    },
-    "submitButtonText": {
-      "type": "string"
-    },
-    "errorMessage": {
-      "type": "string"
-    },
-    "successMessage": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_contact_us_form_data",
+	"info": {
+		"displayName": "formData",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"phoneIcon": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "string",
+			"required": true
+		},
+		"productsListLabel": {
+			"type": "string",
+			"required": true
+		},
+		"productsListPlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"nameLabel": {
+			"type": "string",
+			"required": true
+		},
+		"namePlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"mobileNumberPlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"cityLabel": {
+			"type": "string",
+			"required": true
+		},
+		"cityPlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"captchaPlaceHolder": {
+			"type": "string",
+			"required": true
+		},
+		"submitButtonText": {
+			"type": "string",
+			"required": true
+		},
+		"errorMessage": {
+			"type": "string",
+			"required": true
+		},
+		"successMessage": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

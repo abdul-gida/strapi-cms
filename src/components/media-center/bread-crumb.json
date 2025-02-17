@@ -1,15 +1,17 @@
 {
-  "collectionName": "components_media_center_bread_crumbs",
-  "info": {
-    "displayName": "breadCrumb"
-  },
-  "options": {},
-  "attributes": {
-    "text": {
-      "type": "string"
-    },
-    "link": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_media_center_bread_crumbs",
+	"info": {
+		"displayName": "breadCrumb"
+	},
+	"options": {},
+	"attributes": {
+		"text": {
+			"type": "string",
+			"required": true
+		},
+		"link": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

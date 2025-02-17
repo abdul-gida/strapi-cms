@@ -6,17 +6,12 @@
   },
   "options": {},
   "attributes": {
-    "titleStart": {
-      "type": "string"
-    },
-    "titleEnd": {
-      "type": "string"
-    },
     "stepperData": {
       "displayName": "wch-stepperData",
       "type": "component",
       "repeatable": true,
-      "component": "pdp.wch-stepper-data"
+      "component": "pdp.wch-stepper-data",
+      "required": true
     },
     "type": {
       "type": "enumeration",
@@ -24,6 +19,10 @@
         "pdp-why-choose-hdfc"
       ],
       "default": "pdp-why-choose-hdfc",
+      "required": true
+    },
+    "title": {
+      "type": "richtext",
       "required": true
     }
   }

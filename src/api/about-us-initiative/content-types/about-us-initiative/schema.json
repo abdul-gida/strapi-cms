@@ -1,62 +1,71 @@
 {
-  "kind": "singleType",
-  "collectionName": "about_us_initiatives",
-  "info": {
-    "singularName": "about-us-initiative",
-    "pluralName": "about-us-initiatives",
-    "displayName": "AboutUsInitiative",
-    "description": ""
-  },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "bannerTitle": {
-      "type": "component",
-      "repeatable": false,
-      "component": "about-us.banner-text"
-    },
-    "breadCrumb": {
-      "type": "component",
-      "repeatable": true,
-      "component": "about-us.bread-crumb"
-    },
-    "topLogo": {
-      "type": "string"
-    },
-    "topLabel": {
-      "type": "string"
-    },
-    "overview": {
-      "displayName": "overview",
-      "type": "component",
-      "repeatable": false,
-      "component": "about-us.overview"
-    },
-    "awareness": {
-      "displayName": "awareness",
-      "type": "component",
-      "repeatable": false,
-      "component": "about-us.awareness"
-    },
-    "how": {
-      "displayName": "howInitiativesSection",
-      "type": "component",
-      "repeatable": false,
-      "component": "about-us.how-initiatives-section"
-    },
-    "achievements": {
-      "displayName": "achievements-InitiativesSection",
-      "type": "component",
-      "repeatable": false,
-      "component": "about-us.achievements-initiatives-section"
-    },
-    "futurePlans": {
-      "displayName": "futurePlans-InitiativeSection",
-      "type": "component",
-      "repeatable": false,
-      "component": "about-us.future-plans-initiative-section"
-    }
-  }
+	"kind": "singleType",
+	"collectionName": "about_us_initiatives",
+	"info": {
+		"singularName": "about-us-initiative",
+		"pluralName": "about-us-initiatives",
+		"displayName": "AboutUsInitiative",
+		"description": ""
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"bannerTitle": {
+			"type": "component",
+			"repeatable": false,
+			"component": "about-us.banner-text",
+			"required": true
+		},
+		"breadCrumb": {
+			"type": "component",
+			"repeatable": true,
+			"component": "about-us.bread-crumb",
+			"required": true
+		},
+		"topLogo": {
+			"type": "string",
+			"required": true
+		},
+		"topLabel": {
+			"type": "string",
+			"required": true
+		},
+		"overview": {
+			"displayName": "overview",
+			"type": "component",
+			"repeatable": false,
+			"component": "about-us.overview",
+			"required": true
+		},
+		"awareness": {
+			"displayName": "awareness",
+			"type": "component",
+			"repeatable": false,
+			"component": "about-us.awareness",
+			"required": true
+		},
+		"how": {
+			"displayName": "howInitiativesSection",
+			"type": "component",
+			"repeatable": false,
+			"component": "about-us.how-initiatives-section",
+			"required": true
+		},
+		"achievements": {
+			"displayName": "achievements-InitiativesSection",
+			"type": "component",
+			"repeatable": false,
+			"component": "about-us.achievements-initiatives-section",
+			"required": true
+		},
+		"futurePlans": {
+			"displayName": "futurePlans-InitiativeSection",
+			"type": "component",
+			"repeatable": false,
+			"component": "about-us.future-plans-initiative-section",
+			"required": true
+		}
+	}
 }

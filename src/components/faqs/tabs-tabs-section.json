@@ -1,21 +1,25 @@
 {
-  "collectionName": "components_faqs_tabs_tabs_sections",
-  "info": {
-    "displayName": "tabs-tabsSection"
-  },
-  "options": {},
-  "attributes": {
-    "tabId": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "icon": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_faqs_tabs_tabs_sections",
+	"info": {
+		"displayName": "tabs-tabsSection"
+	},
+	"options": {},
+	"attributes": {
+		"tabId": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "string",
+			"required": true
+		},
+		"icon": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

@@ -1,18 +1,21 @@
 {
-  "collectionName": "components_csr_schools",
-  "info": {
-    "displayName": "schools"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "beforeImg": {
-      "type": "string"
-    },
-    "afterImg": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_csr_schools",
+	"info": {
+		"displayName": "schools"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"beforeImg": {
+			"type": "string",
+			"required": true
+		},
+		"afterImg": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

@@ -1,19 +1,22 @@
 {
-  "collectionName": "components_contact_us_contacts",
-  "info": {
-    "displayName": "contact",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "contactNumber": {
-      "type": "string"
-    },
-    "is24Hours": {
-      "type": "boolean"
-    }
-  }
+	"collectionName": "components_contact_us_contacts",
+	"info": {
+		"displayName": "contact",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"contactNumber": {
+			"type": "string",
+			"required": true
+		},
+		"is24Hours": {
+			"type": "boolean",
+			"required": true
+		}
+	}
 }

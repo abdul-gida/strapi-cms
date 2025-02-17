@@ -1,39 +1,49 @@
 {
-  "collectionName": "components_unclaimed_policy_tables",
-  "info": {
-    "displayName": "table"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "referenceNumber": {
-      "type": "string"
-    },
-    "insuredName": {
-      "type": "string"
-    },
-    "address": {
-      "type": "string"
-    },
-    "reason": {
-      "type": "string"
-    },
-    "policyNo": {
-      "type": "string"
-    },
-    "amount": {
-      "type": "string"
-    },
-    "category": {
-      "type": "string"
-    },
-    "updateAccountDetails": {
-      "type": "string"
-    },
-    "clickText": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_unclaimed_policy_tables",
+	"info": {
+		"displayName": "table"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"referenceNumber": {
+			"type": "string",
+			"required": true
+		},
+		"insuredName": {
+			"type": "string",
+			"required": true
+		},
+		"address": {
+			"type": "string",
+			"required": true
+		},
+		"reason": {
+			"type": "string",
+			"required": true
+		},
+		"policyNo": {
+			"type": "string",
+			"required": true
+		},
+		"amount": {
+			"type": "string",
+			"required": true
+		},
+		"category": {
+			"type": "string",
+			"required": true
+		},
+		"updateAccountDetails": {
+			"type": "string",
+			"required": true
+		},
+		"clickText": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

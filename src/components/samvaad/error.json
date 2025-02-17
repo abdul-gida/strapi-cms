@@ -1,25 +1,29 @@
 {
-  "collectionName": "components_samvaad_errors",
-  "info": {
-    "displayName": "error",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "primaryButtonText": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "modal": {
-      "displayName": "modal",
-      "type": "component",
-      "repeatable": false,
-      "component": "samvaad.modal"
-    }
-  }
+	"collectionName": "components_samvaad_errors",
+	"info": {
+		"displayName": "error",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"primaryButtonText": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"modal": {
+			"displayName": "modal",
+			"type": "component",
+			"repeatable": false,
+			"component": "samvaad.modal",
+			"required": true
+		}
+	}
 }

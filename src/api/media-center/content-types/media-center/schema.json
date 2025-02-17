@@ -1,58 +1,65 @@
 {
-  "kind": "singleType",
-  "collectionName": "media_centers",
-  "info": {
-    "singularName": "media-center",
-    "pluralName": "media-centers",
-    "displayName": "mediaCenter",
-    "description": ""
-  },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "topBanner": {
-      "displayName": "topBanner",
-      "type": "component",
-      "repeatable": false,
-      "component": "media-center.top-banner"
-    },
-    "pressRelease": {
-      "displayName": "pressRelease",
-      "type": "component",
-      "repeatable": false,
-      "component": "media-center.press-release"
-    },
-    "electronicAds": {
-      "displayName": "electronicAds",
-      "type": "component",
-      "repeatable": false,
-      "component": "media-center.electronic-ads"
-    },
-    "printMediaCoverage": {
-      "displayName": "printMediaCoverage",
-      "type": "component",
-      "repeatable": false,
-      "component": "media-center.print-media-coverage"
-    },
-    "magazineCoverages": {
-      "displayName": "magazineCoverages",
-      "type": "component",
-      "repeatable": false,
-      "component": "media-center.magazine-coverages"
-    },
-    "digitalMediaCoverage": {
-      "displayName": "digitalMediaCoverage",
-      "type": "component",
-      "repeatable": false,
-      "component": "media-center.digital-media-coverage"
-    },
-    "awarenessInitiatives": {
-      "displayName": "awarenessInitiatives",
-      "type": "component",
-      "repeatable": false,
-      "component": "media-center.awareness-initiatives"
-    }
-  }
+	"kind": "singleType",
+	"collectionName": "media_centers",
+	"info": {
+		"singularName": "media-center",
+		"pluralName": "media-centers",
+		"displayName": "mediaCenter",
+		"description": ""
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"topBanner": {
+			"displayName": "topBanner",
+			"type": "component",
+			"repeatable": false,
+			"component": "media-center.top-banner",
+			"required": true
+		},
+		"pressRelease": {
+			"displayName": "pressRelease",
+			"type": "component",
+			"repeatable": false,
+			"component": "media-center.press-release",
+			"required": true
+		},
+		"electronicAds": {
+			"displayName": "electronicAds",
+			"type": "component",
+			"repeatable": false,
+			"component": "media-center.electronic-ads",
+			"required": true
+		},
+		"printMediaCoverage": {
+			"displayName": "printMediaCoverage",
+			"type": "component",
+			"repeatable": false,
+			"component": "media-center.print-media-coverage",
+			"required": true
+		},
+		"magazineCoverages": {
+			"displayName": "magazineCoverages",
+			"type": "component",
+			"repeatable": false,
+			"component": "media-center.magazine-coverages",
+			"required": true
+		},
+		"digitalMediaCoverage": {
+			"displayName": "digitalMediaCoverage",
+			"type": "component",
+			"repeatable": false,
+			"component": "media-center.digital-media-coverage",
+			"required": true
+		},
+		"awarenessInitiatives": {
+			"displayName": "awarenessInitiatives",
+			"type": "component",
+			"repeatable": false,
+			"component": "media-center.awareness-initiatives",
+			"required": true
+		}
+	}
 }

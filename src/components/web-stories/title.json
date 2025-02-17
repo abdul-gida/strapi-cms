@@ -1,12 +1,13 @@
 {
-  "collectionName": "components_web_stories_titles",
-  "info": {
-    "displayName": "title"
-  },
-  "options": {},
-  "attributes": {
-    "right": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_web_stories_titles",
+	"info": {
+		"displayName": "title"
+	},
+	"options": {},
+	"attributes": {
+		"right": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

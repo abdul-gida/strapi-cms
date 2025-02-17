@@ -1,18 +1,20 @@
 {
-  "collectionName": "components_csr_school_redevelopments",
-  "info": {
-    "displayName": "schoolRedevelopment"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "text"
-    },
-    "schools": {
-      "displayName": "schools",
-      "type": "component",
-      "repeatable": true,
-      "component": "csr.schools"
-    }
-  }
+	"collectionName": "components_csr_school_redevelopments",
+	"info": {
+		"displayName": "schoolRedevelopment"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "text",
+			"required": true
+		},
+		"schools": {
+			"displayName": "schools",
+			"type": "component",
+			"repeatable": true,
+			"component": "csr.schools",
+			"required": true
+		}
+	}
 }

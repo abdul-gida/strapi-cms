@@ -1,21 +1,25 @@
 {
-  "collectionName": "components_csr_stories",
-  "info": {
-    "displayName": "stories"
-  },
-  "options": {},
-  "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "designation": {
-      "type": "string"
-    },
-    "image": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    }
-  }
+	"collectionName": "components_csr_stories",
+	"info": {
+		"displayName": "stories"
+	},
+	"options": {},
+	"attributes": {
+		"name": {
+			"type": "string",
+			"required": true
+		},
+		"designation": {
+			"type": "string",
+			"required": true
+		},
+		"image": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		}
+	}
 }

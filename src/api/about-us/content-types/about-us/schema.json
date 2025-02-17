@@ -1,95 +1,119 @@
 {
-  "kind": "singleType",
-  "collectionName": "about_uses",
-  "info": {
-    "singularName": "about-us",
-    "pluralName": "about-uses",
-    "displayName": "AboutUs",
-    "description": ""
-  },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "breadCrumb": {
-      "type": "component",
-      "repeatable": true,
-      "component": "about-us.bread-crumb"
-    },
-    "boardOfDirectorsTitle": {
-      "type": "string"
-    },
-    "ourVisionTitle": {
-      "type": "string"
-    },
-    "ourVisionQuote": {
-      "type": "string"
-    },
-    "hdfcBankLogo": {
-      "type": "string"
-    },
-    "ergoLogo": {
-      "type": "string"
-    },
-    "topContent": {
-      "type": "component",
-      "repeatable": true,
-      "component": "about-us.top-content"
-    },
-    "numbers": {
-      "type": "component",
-      "repeatable": true,
-      "component": "about-us.numbers"
-    },
-    "ratings": {
-      "type": "component",
-      "repeatable": true,
-      "component": "about-us.ratings"
-    },
-    "ourValuesTitle": {
-      "type": "string"
-    },
-    "desc1": {
-      "type": "text"
-    },
-    "desc2": {
-      "type": "text"
-    },
-    "animation": {
-      "type": "component",
-      "repeatable": true,
-      "component": "about-us.animation"
-    },
-    "ourKeyPeopleTitle": {
-      "type": "string"
-    },
-    "people": {
-      "type": "component",
-      "repeatable": true,
-      "component": "about-us.people"
-    },
-    "boardCommitteeTitle": {
-      "type": "string"
-    },
-    "boardCommitteeDescription": {
-      "type": "string"
-    },
-    "boardCommitteeLink": {
-      "type": "string"
-    },
-    "directors": {
-      "displayName": "directors",
-      "type": "component",
-      "repeatable": true,
-      "component": "about-us.directors"
-    },
-    "ourVisionDescription": {
-      "type": "string"
-    },
-    "bannerText": {
-      "type": "string",
-      "required": true
-    }
-  }
+	"kind": "singleType",
+	"collectionName": "about_uses",
+	"info": {
+		"singularName": "about-us",
+		"pluralName": "about-uses",
+		"displayName": "AboutUs",
+		"description": ""
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"breadCrumb": {
+			"type": "component",
+			"repeatable": true,
+			"component": "about-us.bread-crumb",
+			"required": true
+		},
+		"boardOfDirectorsTitle": {
+			"type": "string",
+			"required": true
+		},
+		"ourVisionTitle": {
+			"type": "string",
+			"required": true
+		},
+		"ourVisionQuote": {
+			"type": "string",
+			"required": true
+		},
+		"hdfcBankLogo": {
+			"type": "string",
+			"required": true
+		},
+		"ergoLogo": {
+			"type": "string",
+			"required": true
+		},
+		"topContent": {
+			"type": "component",
+			"repeatable": true,
+			"component": "about-us.top-content",
+			"required": true
+		},
+		"numbers": {
+			"type": "component",
+			"repeatable": true,
+			"component": "about-us.numbers",
+			"required": true
+		},
+		"ratings": {
+			"type": "component",
+			"repeatable": true,
+			"component": "about-us.ratings",
+			"required": true
+		},
+		"ourValuesTitle": {
+			"type": "string",
+			"required": true
+		},
+		"desc1": {
+			"type": "text",
+			"required": true
+		},
+		"desc2": {
+			"type": "text",
+			"required": true
+		},
+		"animation": {
+			"type": "component",
+			"repeatable": true,
+			"component": "about-us.animation",
+			"required": true
+		},
+		"ourKeyPeopleTitle": {
+			"type": "string",
+			"required": true
+		},
+		"people": {
+			"type": "component",
+			"repeatable": true,
+			"component": "about-us.people",
+			"required": true
+		},
+		"boardCommitteeTitle": {
+			"type": "string",
+			"required": true
+		},
+		"boardCommitteeDescription": {
+			"type": "string",
+			"required": true
+		},
+		"boardCommitteeLink": {
+			"type": "string",
+			"required": true
+		},
+		"directors": {
+			"displayName": "directors",
+			"type": "component",
+			"repeatable": true,
+			"component": "about-us.directors",
+			"required": true
+		},
+		"ourVisionDescription": {
+			"type": "string",
+			"required": true
+		},
+		"bannerText": {
+			"type": "string",
+			"required": true
+		},
+		"bannerImage": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

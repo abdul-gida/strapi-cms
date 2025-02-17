@@ -1,22 +1,26 @@
 {
-  "collectionName": "components_travel_cards_with_descriptions",
-  "info": {
-    "displayName": "cardsWithDescriptionAndLink",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "image": {
-      "type": "string"
-    },
-    "link": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_travel_cards_with_descriptions",
+	"info": {
+		"displayName": "cardsWithDescriptionAndLink",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"image": {
+			"type": "string",
+			"required": true
+		},
+		"link": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

@@ -12,7 +12,7 @@
     },
     "desc": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "image": {
       "type": "string",

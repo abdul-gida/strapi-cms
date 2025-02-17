@@ -1,21 +1,24 @@
 {
-  "collectionName": "components_contact_us_card2s",
-  "info": {
-    "displayName": "card2"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "address": {
-      "type": "string"
-    },
-    "emails": {
-      "displayName": "emails",
-      "type": "component",
-      "repeatable": true,
-      "component": "contact-us.emails"
-    }
-  }
+	"collectionName": "components_contact_us_card2s",
+	"info": {
+		"displayName": "card2"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"address": {
+			"type": "string",
+			"required": true
+		},
+		"emails": {
+			"displayName": "emails",
+			"type": "component",
+			"repeatable": true,
+			"component": "contact-us.emails",
+			"required": true
+		}
+	}
 }

@@ -1,60 +1,73 @@
 {
-  "kind": "singleType",
-  "collectionName": "travel_policy_details",
-  "info": {
-    "singularName": "travel-policy-detail",
-    "pluralName": "travel-policy-details",
-    "displayName": "TravelPolicyDetails",
-    "description": ""
-  },
-  "options": {
-    "draftAndPublish": true
-  },
-  "pluginOptions": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "headerTextColorBlack": {
-      "type": "boolean"
-    },
-    "formTitle": {
-      "type": "string"
-    },
-    "formSubtitle": {
-      "type": "string"
-    },
-    "optionSelectionText": {
-      "type": "string"
-    },
-    "optionList": {
-      "displayName": "optionList",
-      "type": "component",
-      "repeatable": true,
-      "component": "travel-policy.option-list"
-    },
-    "policyLabel": {
-      "type": "string"
-    },
-    "policyPlaceholder": {
-      "type": "string"
-    },
-    "primaryButtonText": {
-      "type": "string"
-    },
-    "noteText": {
-      "type": "string"
-    },
-    "noteEmail": {
-      "type": "string"
-    },
-    "image": {
-      "type": "string"
-    },
-    "table": {
-      "type": "component",
-      "repeatable": false,
-      "component": "travel-policy.table"
-    }
-  }
+	"kind": "singleType",
+	"collectionName": "travel_policy_details",
+	"info": {
+		"singularName": "travel-policy-detail",
+		"pluralName": "travel-policy-details",
+		"displayName": "TravelPolicyDetails",
+		"description": ""
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"headerTextColorBlack": {
+			"type": "boolean",
+			"required": true
+		},
+		"formTitle": {
+			"type": "string",
+			"required": true
+		},
+		"formSubtitle": {
+			"type": "string",
+			"required": true
+		},
+		"optionSelectionText": {
+			"type": "string",
+			"required": true
+		},
+		"optionList": {
+			"displayName": "optionList",
+			"type": "component",
+			"repeatable": true,
+			"component": "travel-policy.option-list",
+			"required": true
+		},
+		"policyLabel": {
+			"type": "string",
+			"required": true
+		},
+		"policyPlaceholder": {
+			"type": "string",
+			"required": true
+		},
+		"primaryButtonText": {
+			"type": "string",
+			"required": true
+		},
+		"noteText": {
+			"type": "string",
+			"required": true
+		},
+		"noteEmail": {
+			"type": "string",
+			"required": true
+		},
+		"image": {
+			"type": "string",
+			"required": true
+		},
+		"table": {
+			"type": "component",
+			"repeatable": false,
+			"component": "travel-policy.table",
+			"required": true
+		}
+	}
 }
