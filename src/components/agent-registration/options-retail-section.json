@@ -1,18 +1,21 @@
 {
-  "collectionName": "components_agent_registration_options_retail_sections",
-  "info": {
-    "displayName": "optionsRetailSection"
-  },
-  "options": {},
-  "attributes": {
-    "logo": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_agent_registration_options_retail_sections",
+	"info": {
+		"displayName": "optionsRetailSection"
+	},
+	"options": {},
+	"attributes": {
+		"logo": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

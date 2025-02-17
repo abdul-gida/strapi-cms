@@ -1,15 +1,17 @@
 {
-  "collectionName": "components_career_carousals",
-  "info": {
-    "displayName": "carousal"
-  },
-  "options": {},
-  "attributes": {
-    "image": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_career_carousals",
+	"info": {
+		"displayName": "carousal"
+	},
+	"options": {},
+	"attributes": {
+		"image": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

@@ -7,21 +7,20 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "subtitle": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "icon": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "link": {
-      "type": "string"
-    },
-    "download": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::download.download"
+      "type": "string",
+      "required": true
     },
     "slug": {
       "type": "enumeration",
@@ -33,7 +32,8 @@
         "proposal-forms",
         "policy-wordings",
         "prospectus"
-      ]
+      ],
+      "required": true
     }
   }
 }

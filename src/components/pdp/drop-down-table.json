@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_pdp_drop_down_tables",
+  "info": {
+    "displayName": "Pdp-DropDownTable",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "tabs": {
+      "displayName": "tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.tabs",
+      "required": true
+    },
+    "cta": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-drop-down-table"
+      ],
+      "default": "pdp-drop-down-table",
+      "required": true
+    }
+  }
+}

@@ -1,18 +1,19 @@
 {
-  "collectionName": "components_csr_empower_social_changes",
-  "info": {
-    "displayName": "empowerSocialChange"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "image": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_csr_empower_social_changes",
+	"info": {
+		"displayName": "empowerSocialChange"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text"
+		},
+		"image": {
+			"type": "string"
+		}
+	}
 }

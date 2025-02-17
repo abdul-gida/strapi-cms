@@ -1,12 +1,13 @@
 {
-  "collectionName": "components_csr_images",
-  "info": {
-    "displayName": "images"
-  },
-  "options": {},
-  "attributes": {
-    "label": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_csr_images",
+	"info": {
+		"displayName": "images"
+	},
+	"options": {},
+	"attributes": {
+		"label": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

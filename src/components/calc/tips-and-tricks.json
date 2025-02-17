@@ -6,10 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
     "cards": {
       "displayName": "cards",
       "type": "component",
@@ -23,6 +19,9 @@
       ],
       "default": "calc-tips-and-tricks",
       "required": true
+    },
+    "title": {
+      "type": "richtext"
     }
   }
 }

@@ -1,35 +1,41 @@
 {
-  "collectionName": "components_media_center_awareness_initiatives",
-  "info": {
-    "displayName": "awarenessInitiatives"
-  },
-  "options": {},
-  "attributes": {
-    "breadCrumb": {
-      "type": "component",
-      "repeatable": true,
-      "component": "media-center.bread-crumb"
-    },
-    "title": {
-      "type": "string"
-    },
-    "viewMore": {
-      "type": "string"
-    },
-    "viewLess": {
-      "type": "string"
-    },
-    "ads": {
-      "displayName": "adsAwarnessPage",
-      "type": "component",
-      "repeatable": true,
-      "component": "media-center.ads-awarness-page"
-    },
-    "contact": {
-      "displayName": "contact",
-      "type": "component",
-      "repeatable": false,
-      "component": "media-center.contact"
-    }
-  }
+	"collectionName": "components_media_center_awareness_initiatives",
+	"info": {
+		"displayName": "awarenessInitiatives"
+	},
+	"options": {},
+	"attributes": {
+		"breadCrumb": {
+			"type": "component",
+			"repeatable": true,
+			"component": "media-center.bread-crumb",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"viewMore": {
+			"type": "string",
+			"required": true
+		},
+		"viewLess": {
+			"type": "string",
+			"required": true
+		},
+		"ads": {
+			"displayName": "adsAwarnessPage",
+			"type": "component",
+			"repeatable": true,
+			"component": "media-center.ads-awarness-page",
+			"required": true
+		},
+		"contact": {
+			"displayName": "contact",
+			"type": "component",
+			"repeatable": false,
+			"component": "media-center.contact",
+			"required": true
+		}
+	}
 }

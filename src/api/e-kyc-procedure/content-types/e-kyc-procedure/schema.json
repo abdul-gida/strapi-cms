@@ -13,25 +13,29 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "banner": {
       "displayName": "banner",
       "type": "component",
       "repeatable": false,
-      "component": "image-descriptions.banner"
+      "component": "image-descriptions.banner",
+      "required": true
     },
     "contents": {
       "displayName": "contents",
       "type": "component",
       "repeatable": true,
-      "component": "shared.contents"
+      "component": "shared.contents",
+      "required": true
     },
     "bottom": {
       "displayName": "bottom",
       "type": "component",
       "repeatable": false,
-      "component": "shared.bottom"
+      "component": "shared.bottom",
+      "required": true
     }
   }
 }

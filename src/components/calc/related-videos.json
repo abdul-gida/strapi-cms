@@ -14,7 +14,8 @@
       "displayName": "videos",
       "type": "component",
       "repeatable": true,
-      "component": "calc-related-videos.videos"
+      "component": "calc-related-videos.videos",
+      "max": 2
     },
     "type": {
       "type": "enumeration",

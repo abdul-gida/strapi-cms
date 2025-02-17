@@ -1,18 +1,21 @@
 {
-  "collectionName": "components_unclaimed_policy_inputs",
-  "info": {
-    "displayName": "inputs"
-  },
-  "options": {},
-  "attributes": {
-    "policyLabel": {
-      "type": "string"
-    },
-    "key": {
-      "type": "string"
-    },
-    "policyPlaceholder": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_unclaimed_policy_inputs",
+	"info": {
+		"displayName": "inputs"
+	},
+	"options": {},
+	"attributes": {
+		"policyLabel": {
+			"type": "string",
+			"required": true
+		},
+		"key": {
+			"type": "string",
+			"required": true
+		},
+		"policyPlaceholder": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

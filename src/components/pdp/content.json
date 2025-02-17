@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pdp_contents",
+  "info": {
+    "displayName": "content"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": false
+    },
+    "table": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pdp.pdp-table"
+    }
+  }
+}

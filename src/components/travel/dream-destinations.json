@@ -1,24 +1,28 @@
 {
-  "collectionName": "components_travel_dream_destinations",
-  "info": {
-    "displayName": "dreamDestinations",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "image": {
-      "type": "string"
-    },
-    "cards": {
-      "type": "component",
-      "repeatable": true,
-      "component": "travel.cards-with-only-description"
-    }
-  }
+	"collectionName": "components_travel_dream_destinations",
+	"info": {
+		"displayName": "dreamDestinations",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"image": {
+			"type": "string",
+			"required": true
+		},
+		"cards": {
+			"type": "component",
+			"repeatable": true,
+			"component": "travel.cards-with-only-description",
+			"required": true
+		}
+	}
 }

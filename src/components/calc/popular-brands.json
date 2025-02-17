@@ -14,7 +14,7 @@
       "default": "calc-popular-brands",
       "required": true
     },
-    "titleStart": {
+    "title": {
       "type": "richtext",
       "required": true
     },
@@ -25,7 +25,7 @@
       "component": "calc-popular-brands.brands",
       "required": true
     },
-    "titleEnd": {
+    "backgroundColor": {
       "type": "string"
     }
   }

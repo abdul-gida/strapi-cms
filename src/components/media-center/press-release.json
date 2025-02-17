@@ -1,31 +1,36 @@
 {
-  "collectionName": "components_media_center_press_releases",
-  "info": {
-    "displayName": "pressRelease",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "breadCrumb": {
-      "displayName": "breadCrumb",
-      "type": "component",
-      "repeatable": true,
-      "component": "media-center.bread-crumb"
-    },
-    "title": {
-      "type": "string"
-    },
-    "readFullStory": {
-      "type": "string"
-    },
-    "filterBy": {
-      "type": "string"
-    },
-    "years": {
-      "displayName": "years",
-      "type": "component",
-      "repeatable": true,
-      "component": "media-center.years"
-    }
-  }
+	"collectionName": "components_media_center_press_releases",
+	"info": {
+		"displayName": "pressRelease",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"breadCrumb": {
+			"displayName": "breadCrumb",
+			"type": "component",
+			"repeatable": true,
+			"component": "media-center.bread-crumb",
+			"required": true
+		},
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"readFullStory": {
+			"type": "string",
+			"required": true
+		},
+		"filterBy": {
+			"type": "string",
+			"required": true
+		},
+		"years": {
+			"displayName": "years",
+			"type": "component",
+			"repeatable": true,
+			"component": "media-center.years",
+			"required": true
+		}
+	}
 }

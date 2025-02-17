@@ -1,15 +1,17 @@
 {
-  "collectionName": "components_samvaad_calendars",
-  "info": {
-    "displayName": "calendar"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "confirm": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_samvaad_calendars",
+	"info": {
+		"displayName": "calendar"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"confirm": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

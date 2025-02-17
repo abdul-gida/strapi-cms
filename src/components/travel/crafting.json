@@ -1,22 +1,25 @@
 {
-  "collectionName": "components_travel_craftings",
-  "info": {
-    "displayName": "crafting",
-    "description": ""
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "cards": {
-      "displayName": "cardsWithOnlyDescription",
-      "type": "component",
-      "repeatable": true,
-      "component": "travel.cards-with-only-description"
-    }
-  }
+	"collectionName": "components_travel_craftings",
+	"info": {
+		"displayName": "crafting",
+		"description": ""
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"cards": {
+			"displayName": "cardsWithOnlyDescription",
+			"type": "component",
+			"repeatable": true,
+			"component": "travel.cards-with-only-description",
+			"required": true
+		}
+	}
 }

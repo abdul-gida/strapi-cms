@@ -13,13 +13,15 @@
   "pluginOptions": {},
   "attributes": {
     "slug": {
-      "type": "uid"
+      "type": "uid",
+      "required": true
     },
     "banner": {
       "displayName": "banner",
       "type": "component",
       "repeatable": false,
-      "component": "download.banner"
+      "component": "download.banner",
+      "required": true
     },
     "breadcrumb": {
       "displayName": "breadcrumb",
@@ -28,16 +30,23 @@
       "component": "download.breadcrumb"
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "subtitle": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "tabSection": {
       "displayName": "tabSection",
       "type": "component",
       "repeatable": true,
-      "component": "download.tab-section"
+      "component": "download.tab-section",
+      "required": true
+    },
+    "mobileLink": {
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -1,18 +1,21 @@
 {
   "collectionName": "components_pdp_wch_stepper_data",
   "info": {
-    "displayName": "wch-stepperData"
+    "displayName": "wch-stepperData",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "stepperLogo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "stepperCardData": {
       "displayName": "wch-stepperCardData",
       "type": "component",
       "repeatable": false,
-      "component": "pdp.wch-stepper-card-data"
+      "component": "pdp.wch-stepper-card-data",
+      "required": true
     }
   }
 }

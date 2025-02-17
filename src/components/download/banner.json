@@ -1,7 +1,8 @@
 {
   "collectionName": "components_download_banners",
   "info": {
-    "displayName": "banner"
+    "displayName": "banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,7 +10,8 @@
       "type": "string"
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -1,18 +1,21 @@
 {
-  "collectionName": "components_media_center_ads_radio_ads",
-  "info": {
-    "displayName": "adsRadioAds"
-  },
-  "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "link": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_media_center_ads_radio_ads",
+	"info": {
+		"displayName": "adsRadioAds"
+	},
+	"options": {},
+	"attributes": {
+		"title": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "string",
+			"required": true
+		},
+		"link": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

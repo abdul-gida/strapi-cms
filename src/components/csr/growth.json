@@ -1,15 +1,17 @@
 {
-  "collectionName": "components_csr_growths",
-  "info": {
-    "displayName": "growth"
-  },
-  "options": {},
-  "attributes": {
-    "value": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    }
-  }
+	"collectionName": "components_csr_growths",
+	"info": {
+		"displayName": "growth"
+	},
+	"options": {},
+	"attributes": {
+		"value": {
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		}
+	}
 }

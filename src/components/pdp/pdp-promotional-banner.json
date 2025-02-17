@@ -7,28 +7,34 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "hereLogo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "qrImage": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "images": {
       "displayName": "images",
       "type": "component",
       "repeatable": true,
-      "component": "promotional-banner.images"
+      "component": "promotional-banner.images",
+      "required": true
     },
     "downloadLink": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "downloadCta": {
       "displayName": "downloadCta",
       "type": "component",
       "repeatable": false,
-      "component": "promotional-banner.download-cta"
+      "component": "promotional-banner.download-cta",
+      "required": true
     },
     "ratings": {
       "displayName": "ratings",
@@ -47,6 +53,14 @@
         "pdp-promotional-banner"
       ],
       "default": "pdp-promotional-banner",
+      "required": true
+    },
+    "hereAppLogo": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "string",
       "required": true
     }
   }
