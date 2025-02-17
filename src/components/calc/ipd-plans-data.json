@@ -1,37 +1,46 @@
 {
-    "collectionName": "components_calc_ipd_plans_data",
-    "info": {
-      "displayName": "ipd-plansData"
+  "collectionName": "components_calc_ipd_plans_data",
+  "info": {
+    "displayName": "ipd-plansData",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "iconUrl": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-      "iconUrl": {
-        "type": "string"
-      },
-      "planForTitle": {
-        "displayName": "idp-planForTitle",
-        "type": "component",
-        "repeatable": false,
-        "component": "calc.idp-plan-for-title"
-      },
-      "description": {
-        "type": "text"
-      },
-      "whatIncludesTitle": {
-        "type": "string"
-      },
-      "includedPoints": {
-        "displayName": "idp-includedPoints",
-        "type": "component",
-        "repeatable": true,
-        "component": "calc.idp-included-points"
-      },
-      "exploreCtaLabel": {
-        "type": "string"
-      },
-      "buyNowCtaLabel": {
-        "type": "string"
-      }
+    "planForTitle": {
+      "displayName": "idp-planForTitle",
+      "type": "component",
+      "repeatable": false,
+      "component": "calc.idp-plan-for-title"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "whatIncludesTitle": {
+      "type": "string",
+      "required": true
+    },
+    "includedPoints": {
+      "displayName": "idp-includedPoints",
+      "type": "component",
+      "repeatable": true,
+      "component": "calc.idp-included-points"
+    },
+    "exploreCtaLabel": {
+      "type": "string"
+    },
+    "buyNowCtaLabel": {
+      "type": "string"
+    },
+    "buyNowCtaLink": {
+      "type": "string"
+    },
+    "exploreCtaLink": {
+      "type": "string"
     }
   }
-  
+}
