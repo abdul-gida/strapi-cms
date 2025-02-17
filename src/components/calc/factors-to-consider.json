@@ -13,9 +13,6 @@
     "desc": {
       "type": "richtext"
     },
-    "points": {
-      "type": "richtext"
-    },
     "noteSection": {
       "displayName": "noteSection",
       "type": "component",
