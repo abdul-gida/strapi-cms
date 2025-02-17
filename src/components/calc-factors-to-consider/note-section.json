@@ -14,6 +14,14 @@
     },
     "cta": {
       "type": "string"
+    },
+    "image": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
     }
   }
 }

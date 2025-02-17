@@ -1,7 +1,8 @@
 {
   "collectionName": "components_calc_insurance_add_ons",
   "info": {
-    "displayName": "insuranceAddOns"
+    "displayName": "insuranceAddOns",
+    "description": ""
   },
   "options": {},
   "attributes": {

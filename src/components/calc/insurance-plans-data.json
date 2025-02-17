@@ -7,13 +7,16 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "backgroundUrl": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "plansData": {
       "displayName": "ipd-plansData",

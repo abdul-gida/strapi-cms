@@ -1,6 +1,6 @@
 {
 	"kind": "singleType",
-	"collectionName": "agent_registrations",
+	"collectionName": "components_agent_registration_options",
 	"info": {
 		"singularName": "agent-registration",
 		"pluralName": "agent-registrations",

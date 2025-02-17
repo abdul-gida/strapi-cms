@@ -1,19 +1,22 @@
 {
-    "collectionName": "components_calc_idp_included_points",
-    "info": {
-      "displayName": "idp-includedPoints"
+  "collectionName": "components_calc_idp_included_points",
+  "info": {
+    "displayName": "idp-includedPoints",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true
     },
-    "options": {},
-    "attributes": {
-      "icon": {
-        "type": "string"
-      },
-      "title": {
-        "type": "string"
-      },
-      "description": {
-        "type": "string"
-      }
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
     }
   }
-  
+}
