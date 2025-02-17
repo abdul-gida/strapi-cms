@@ -13,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "heroImageUrlDeskTop": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "heroImageUrlMobile": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "formLabels": {
       "displayName": "formLabels",
@@ -31,25 +33,29 @@
       "component": "agent-registration.view-card-list"
     },
     "ourProductOfferingTitle": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "ourProductOfferingList": {
       "displayName": "ourProductOfferingList",
       "type": "component",
       "repeatable": true,
-      "component": "agent-registration.our-product-offering-list"
+      "component": "agent-registration.our-product-offering-list",
+      "required": true
     },
     "retailInsurance": {
       "displayName": "retailInsurance",
       "type": "component",
       "repeatable": false,
-      "component": "agent-registration.retail-insurance"
+      "component": "agent-registration.retail-insurance",
+      "required": true
     },
     "commercialInsurance": {
       "displayName": "commercialInsurance",
       "type": "component",
       "repeatable": false,
-      "component": "agent-registration.commercial-insurance"
+      "component": "agent-registration.commercial-insurance",
+      "required": true
     }
   }
 }

@@ -1,12 +1,14 @@
 {
   "collectionName": "components_agent_registration_options",
   "info": {
-    "displayName": "options"
+    "displayName": "options",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "option": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -1,17 +1,20 @@
 {
   "collectionName": "components_agent_registration_commercial_insurances",
   "info": {
-    "displayName": "commercialInsurance"
+    "displayName": "commercialInsurance",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "options": {
       "type": "component",
       "repeatable": true,
-      "component": "agent-registration.options-retail-section"
+      "component": "agent-registration.options-retail-section",
+      "required": true
     }
   }
 }

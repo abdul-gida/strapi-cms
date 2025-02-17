@@ -1,18 +1,22 @@
 {
   "collectionName": "components_agent_registration_options_retail_sections",
   "info": {
-    "displayName": "optionsRetailSection"
+    "displayName": "optionsRetailSection",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "logo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

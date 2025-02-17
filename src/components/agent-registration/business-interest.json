@@ -1,18 +1,21 @@
 {
   "collectionName": "components_agent_registration_business_interests",
   "info": {
-    "displayName": "businessInterest"
+    "displayName": "businessInterest",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "label": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "options": {
       "displayName": "options",
       "type": "component",
       "repeatable": true,
-      "component": "agent-registration.options"
+      "component": "agent-registration.options",
+      "required": true
     }
   }
 }

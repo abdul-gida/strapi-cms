@@ -7,52 +7,63 @@
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "name": {
       "type": "component",
       "repeatable": false,
-      "component": "agent-registration.name"
+      "component": "agent-registration.name",
+      "required": true
     },
     "email": {
       "type": "component",
       "repeatable": false,
-      "component": "agent-registration.name"
+      "component": "agent-registration.name",
+      "required": true
     },
     "mobile": {
       "type": "component",
       "repeatable": false,
-      "component": "agent-registration.name"
+      "component": "agent-registration.name",
+      "required": true
     },
     "panLabels": {
       "type": "component",
       "repeatable": false,
-      "component": "agent-registration.name"
+      "component": "agent-registration.name",
+      "required": true
     },
     "stateLabels": {
       "type": "component",
       "repeatable": false,
-      "component": "agent-registration.name"
+      "component": "agent-registration.name",
+      "required": true
     },
     "city": {
       "type": "component",
       "repeatable": false,
-      "component": "agent-registration.name"
+      "component": "agent-registration.name",
+      "required": true
     },
     "businessInterest": {
       "displayName": "businessInterest",
       "type": "component",
       "repeatable": false,
-      "component": "agent-registration.business-interest"
+      "component": "agent-registration.business-interest",
+      "required": true
     },
     "termsAndConditions": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "submitLabel": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
