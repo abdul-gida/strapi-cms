@@ -55,7 +55,7 @@
       "repeatable": false,
       "component": "health-insurance-form.terms-and-conditions"
     },
-    "tyoe": {
+    "type": {
       "type": "enumeration",
       "enum": [
         "healthForm",
