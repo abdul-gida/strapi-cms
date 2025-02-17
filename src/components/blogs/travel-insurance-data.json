@@ -1,27 +1,32 @@
 {
-  "collectionName": "components_blogs_travel_insurance_data",
-  "info": {
-    "displayName": "travelInsuranceData"
-  },
-  "options": {},
-  "attributes": {
-    "backgroundImage": {
-      "type": "string"
-    },
-    "title": {
-      "displayName": "title",
-      "type": "component",
-      "repeatable": false,
-      "component": "blogs.title"
-    },
-    "description": {
-      "type": "text"
-    },
-    "btnCta": {
-      "type": "string"
-    },
-    "btnLink": {
-      "type": "string"
-    }
-  }
+	"collectionName": "components_blogs_travel_insurance_data",
+	"info": {
+		"displayName": "travelInsuranceData"
+	},
+	"options": {},
+	"attributes": {
+		"backgroundImage": {
+			"type": "string",
+			"required": true
+		},
+		"title": {
+			"displayName": "title",
+			"type": "component",
+			"repeatable": false,
+			"component": "blogs.title",
+			"required": true
+		},
+		"description": {
+			"type": "text",
+			"required": true
+		},
+		"btnCta": {
+			"type": "string",
+			"required": true
+		},
+		"btnLink": {
+			"type": "string",
+			"required": true
+		}
+	}
 }

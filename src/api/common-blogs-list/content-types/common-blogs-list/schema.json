@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "common_blogs_lists",
+  "info": {
+    "singularName": "common-blogs-list",
+    "pluralName": "common-blogs-lists",
+    "displayName": "Common Blogs List"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "numberOfCards": {
+      "type": "integer"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    }
+  }
+}

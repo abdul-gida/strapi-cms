@@ -58,7 +58,8 @@
         "pdp.pdp-myth-buster",
         "pdp.pdp-covid-cover",
         "pdp.clickable-cards-cta",
-        "pdp.pdp-bike-insurance-premium-rate"
+        "pdp.pdp-bike-insurance-premium-rate",
+        "pdp.drop-down-table"
       ]
     },
     "showAchievements": {

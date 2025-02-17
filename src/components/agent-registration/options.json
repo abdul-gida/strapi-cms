@@ -1,13 +1,63 @@
 {
-  "collectionName": "components_agent_registration_options",
-  "info": {
-    "displayName": "options"
-  },
-  "options": {},
-  "attributes": {
-    "option": {
-      "type": "string",
-      "required": true
-    }
-  }
+	"kind": "singleType",
+	"collectionName": "agent_registrations",
+	"info": {
+		"singularName": "agent-registration",
+		"pluralName": "agent-registrations",
+		"displayName": "AgentRegistration",
+		"description": ""
+	},
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {},
+	"attributes": {
+		"heroImageUrlDeskTop": {
+			"type": "string",
+			"required": true
+		},
+		"heroImageUrlMobile": {
+			"type": "string",
+			"required": true
+		},
+		"formLabels": {
+			"displayName": "formLabels",
+			"type": "component",
+			"repeatable": false,
+			"component": "agent-registration.form-labels",
+			"required": true
+		},
+		"viewCardList": {
+			"displayName": "viewCardList",
+			"type": "component",
+			"repeatable": false,
+			"component": "agent-registration.view-card-list",
+			"required": true
+		},
+		"ourProductOfferingTitle": {
+			"type": "string",
+			"required": true
+		},
+		"ourProductOfferingList": {
+			"displayName": "ourProductOfferingList",
+			"type": "component",
+			"repeatable": true,
+			"component": "agent-registration.our-product-offering-list",
+			"required": true
+		},
+		"retailInsurance": {
+			"displayName": "retailInsurance",
+			"type": "component",
+			"repeatable": false,
+			"component": "agent-registration.retail-insurance",
+			"required": true
+		},
+		"commercialInsurance": {
+			"displayName": "commercialInsurance",
+			"type": "component",
+			"repeatable": false,
+			"component": "agent-registration.commercial-insurance",
+			"required": true
+		}
+	}
 }

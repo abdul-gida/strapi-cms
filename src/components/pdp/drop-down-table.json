@@ -1,7 +1,7 @@
 {
   "collectionName": "components_pdp_drop_down_tables",
   "info": {
-    "displayName": "DropDownTable",
+    "displayName": "Pdp-DropDownTable",
     "description": ""
   },
   "options": {},
@@ -22,6 +22,14 @@
     },
     "ctaLink": {
       "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "pdp-drop-down-table"
+      ],
+      "default": "pdp-drop-down-table",
+      "required": true
     }
   }
 }
